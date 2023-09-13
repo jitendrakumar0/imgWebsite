@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+// why-choose-third-party
+.why-choose-third-party {
+  background-color: $white;
+  background-size: cover;
+  position: relative;
+}
+
+.why-choose-third-party::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url(../../../img/brand-awareness/footer-bg-3.webp);
+  background-size: contain;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+}
+.third-party-left img {
+  max-width: 70%;
+}
+
+// Devolopements Benefits
+.devolopements-benefits {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+}
+.devolopements-benefits::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url(../../../img/brand-awareness/dots.webp);
+  background-size: 300px;
+}
+.devolopements-benefits-box {
+  background: rgba($theme1, 0.1);
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover {
+  background-color: rgba($gray-800, 0.5);
+}
+.devolopements-benefits-box-count {
+  position: absolute;
+  left: -25px;
+  height: 50px;
+  background-color: $theme3;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: $white;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover .devolopements-benefits-box-count {
+  border-radius: 10px;
+}
+
+// Contact Us Project section
+.Contact_us_project {
+  background: darken($theme3, 40);
+}
+.Contact_us_project .proposal_bg::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: -89px;
+  top: -64px;
+  width: 252px;
+  height: 242px;
+  background: url(../../../img/brand-awareness/bubble-o.webp);
+  background-size: 140px;
+  filter: brightness(0);
+  opacity: 0.2;
+  transform: rotate(45deg);
+}
+.Contact_us_project .proposal_bg::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: url(../../../img/brand-awareness/bg-pattern-cl.webp);
+  background-size: cover;
+  width: 150px;
+  height: 189px;
+  right: -43px;
+  top: -40px;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  // @include top_banner-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  // @include top_banner-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // @include top_banner-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  // @include top_banner-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  // @include top_banner-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  // @include top_banner-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  // @include top_banner-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  // @include top_banner-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  // @include top_banner-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  // @include top_banner-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

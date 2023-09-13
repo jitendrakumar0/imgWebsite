@@ -1,0 +1,1188 @@
+@charset "UTF-8";
+@import "variables";
+
+
+.shake1 {
+ 
+  -webkit-animation-name: shake;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-2deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(3deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-2deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(4deg);
+  }
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.header-bg{
+  & img{
+    height: 45px !important;
+  }
+  & .top-Head{
+   
+    & a{
+      
+      letter-spacing:inherit !important;
+     // background: linear-gradient(180deg, #e09c19, #b27c14) !important;
+      color: #fff !important;
+      border-radius: 40px !important;
+      padding: 10px 26px !important;
+     
+    }
+  }
+}
+.top-Head li a:hover i{
+  color: #fff !important;
+}
+
+// Faq section
+
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+.header-sec{
+  background: url(../../../img/fantasy-sports-app-development-company/sports-app-development-slider2.webp) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  object-fit: cover;
+ height: 100vh;
+
+}
+.shape1{
+    position: absolute;
+    right: 0;
+    width: 124px;
+    height: 124px;
+    animation: howtowork 3s ease-in-out infinite alternate-reverse both;
+    top: 44px;
+}
+@-webkit-keyframes howtowork {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes howtowork {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+
+.banner-cta1{
+  // background: url(../../../img/hire-android-app-developers/dream-project-bg.webp);
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+  border-radius: 10px;
+  & .expert-btn{
+    padding: 6px 22px !important;
+    cursor: pointer;
+    transition: all ease .4s;
+    border-radius: 4px !important;
+    &:hover{
+      background-color: #e09c19 !important;
+      color: #fff;
+    }
+  }
+}
+.features-sec{
+    background-color: #ECF4FF;
+    background-size: cover;
+    background-position: center;
+    & .nav-tabs{
+      background-color: #fff;
+      box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 6px 12px 0 rgb(24 94 224 / 15%);
+      padding: 0.7rem !important;
+      border-radius: 99px;
+        & .nav-link.active {
+          background-color: #fff;
+          border-color: #dee2e6 #dee2e6 #fff;
+          background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+          border-radius: 31px;
+          color: #fff !important;
+       }
+        & a{
+          &:hover{
+            color:#fff !important;
+            background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+            border-radius: 31px;
+        }
+      }
+     
+     
+    }
+  & .features-sec-item{
+        border-left: 5px #0b5a7b;
+        background: #fff;
+        box-shadow: 0 3px 4px rgb(0 0 0 / 16%);
+        transition: all .3s linear;
+        border-left-style: solid;
+        border-radius: 10px 0px 0px 10px;
+        padding: 5px 0;
+          &:hover{
+            transform: translateY(-10px);
+            background-color: #0b5a7b ;
+            transition: all .3s linear;
+         }
+          &:hover .head{
+            color: #fff !important;
+          }
+        }
+      }
+.want-to-join-section{
+  background: #ecf4ff;
+  border-radius: 10px;
+}
+.cta-btn{
+  & .cta{
+    padding: 9px 30px !important;
+    cursor: pointer;
+    transition: all ease .4s;
+    background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+    border-radius: 19px !important;
+    &:hover{
+      background: transparent !important;
+      color: #0b5a7b !important;
+      border: 1px solid #0b5a7b;
+    }
+   }
+  & .cta1 {
+    padding: 9px 30px !important;
+    cursor: pointer;
+    transition: all ease .4s;
+    border-radius: 19px !important;
+    border: 1px solid #0b5a7b;
+    color: #0b5a7b;
+    &:hover{
+      background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+      color:#fff;
+    }
+  }
+}
+
+
+.stats-section .st-box {
+  background: #fff;
+  min-height: 130px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  -webkit-box-shadow: 0 40px 60px -30px rgba(23, 66, 168, .2);
+  box-shadow: 0 40px 60px -30px rgba(23, 66, 168, .2)
+}
+
+.stats-section .st-box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  border-left: 2px solid #1668e2;
+  border-top: 2px solid #1668e2;
+  transition: all .8s ease
+}
+
+.stats-section .st-box:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 35px;
+  height: 35px;
+  border-left: 2px solid #1668e2;
+  border-bottom: 2px solid #1668e2;
+  transition: all .8s ease
+}
+
+.stats-section .st-box:hover:before {
+  width: 100%;
+  height: 100%
+}
+
+.stats-section .st-box:hover:after {
+  width: 100%;
+  height: 100%
+}
+
+.stats-section .st-box span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: block;
+  width: 100%;
+  transition: all .8s ease
+}
+
+.stats-section .st-box span:before {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  border-right: 2px solid #1668e2;
+  border-top: 2px solid #1668e2;
+  transition: all .8s ease
+}
+
+.stats-section .st-box span:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: 0;
+  width: 35px;
+  height: 35px;
+  border-right: 2px solid #1668e2;
+  border-bottom: 2px solid #1668e2;
+  transition: all .8s ease
+}
+
+.stats-section .st-box:hover span:before {
+  width: 100%;
+  height: 100%
+}
+
+.stats-section .st-box:hover span:after {
+  width: 100%;
+  height: 100%
+}
+
+
+
+// New-Portfolio Section 
+.portfolioBox {
+  position: relative;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  overflow: hidden;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0px 12px 12px -5px !important;
+  cursor: pointer;
+ &:hover .portfolioBoxContent {
+      transform: translate(0,0);
+      -webkit-transform: translate(0,0);
+      -ms-transform: translate(0,0);
+    }
+    &:hover img{
+      transform:scale(1.05);
+      -webkit-transform:scale(1.05);
+      -ms-transform:scale(1.05);
+      -moz-transform:scale(1.05);
+      -o-transform:scale(1.05);
+    }
+    & :hover::before{
+      background:linear-gradient(180deg,rgba(0,0,0,0) 0,#000 100%);
+      transform:translateY(0);
+      -webkit-transform:translateY(0);
+      -moz-transform:translateY(0);
+      -ms-transform:translateY(0);
+      -o-transform:translateY(0);
+    }
+    
+   & .portfolioBoxContent {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        padding: 30px 20px;
+        width: 100%;
+        transform: translate(0,10px);
+        -webkit-transform: translate(0,10px);
+        -ms-transform: translate(0,10px);
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        overflow: hidden;
+        -moz-transform: translate(0,10px);
+        -o-transform: translate(0,10px);
+
+        & h4 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+          }
+        & p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+          }
+        }
+  
+        & img {
+          height: 100%;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: scale(1);
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+        }
+        & button .view_btn {
+          font-weight: 700;
+          font-size: 16px;
+          color: #1d73f8;
+          background: 0;
+          border: 0;
+          padding: 0;
+          outline: 0;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translate(0,20px);
+          -webkit-transform: translate(0,20px);
+          -ms-transform: translate(0,20px);
+        }
+        &::before{
+          content: '';
+          width: 100%;
+          height: 100%;
+          display: block;
+          background: linear-gradient(180deg,rgba(0,0,0,0) 21.88%,rgba(0,0,0,.7) 100%);
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translateY(0px);
+          -webkit-transform: translateY(0px);
+          -moz-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+          -o-transform: translateY(0px);
+   }  
+}
+
+
+
+
+
+
+
+// contact with us section
+.contact-with-us-section {
+   
+    & .heading {
+      &::after {
+        background-color: darken($theme1, 40);
+      }
+    }
+    & .form-floating {
+      & .form-control {
+        border-left: 4px solid $theme3;
+      }
+      &.is-valid {
+        border-left: 4px solid $success;
+      }
+    }
+    & .was-validated .form-control:invalid {
+      border-left: 4px solid $danger;
+    }
+    & .form-select{
+      height: 58px;
+      // border-left: 4px solid #e09c19;
+    }
+    
+    & .form-select:valid {
+      border-left: 4px solid #e09c19;
+    }
+    & .was-validated.form-select.form-control .was-validated:valid {
+      border-left: 4px solid $success;
+    }
+  
+    & .sparater-block {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      background: rgba($white, 0.5);
+      left: 30px;
+      top: 0;
+      & span {
+        font-weight: 300;
+        height: 48px;
+        font-size: 16px;
+        color: $white;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        line-height: 48px;
+        background: darken($theme1, 40);
+        position: absolute;
+        top: 50%;
+        left: -11px;
+        margin-top: -32px;
+      }
+      & span {
+        left: -24px;
+        width: 48px;
+        border-radius: 100%;
+        text-align: center;
+      }
+    }
+  
+    & .emailid-block {
+      & a {
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+        background: rgba($black, 0.46);
+        border: 1px solid rgba($gray-800, 0.23);
+        padding: 14px 10px 10px 90px;
+        position: relative;
+        min-height: 80px;
+        transition: 0.5s all;
+        & i {
+          position: absolute;
+          left: 22px;
+          top: 23px;
+          width: 28px;
+          height: 39px;
+          font-size: 32px;
+          border-right: 1px solid rgba($white, 0.1);
+          padding: 2px 44px 0px 0;
+        }
+        & span {
+          &.small-text {
+            font-size: 14px;
+            color: $theme1;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 2.2px;
+            display: flex;
+          }
+          &.large-text {
+            font-size: 20px;
+            color: $white;
+            line-height: 34px;
+          }
+        }
+      }
+      &.skype_block {
+        & a {
+          background-color: rgba($gray-800, 0.5);
+        }
+      }
+      & a {
+        &:hover {
+          &::before {
+            background: rgba($theme1, 0.1);
+          }
+        }
+      }
+    }
+    & .listing-block {
+      & h3 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+        color: $white;
+        letter-spacing: 0.2px;
+      }
+      & ul {
+        width: 100%;
+        float: left;
+        margin-top: 19px;
+        & li {
+          list-style: none;
+          font-weight: 300;
+          font-size: 17px;
+          color: $white;
+          letter-spacing: 0.4px;
+          margin-bottom: 11px;
+          padding-left: 42px;
+          position: relative;
+        }
+        &.bluts {
+          & li {
+            padding-left: 32px;
+            &:after {
+              position: absolute;
+              width: 8px;
+              height: 8px;
+              background-color: $theme3;
+              border-radius: 100%;
+              top: 7px;
+              content: "";
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // heading 2
+  .heading2 {
+    font-weight: 800;
+    display: inline-grid;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 0px 0px 13px 0px;
+    text-align: center;
+    color: $gray-800;
+    & span {
+      font-weight: 900;
+      font-size: 32px;
+      letter-spacing: normal;
+      text-transform: capitalize;
+      padding-top: 4px;
+      & b {
+        background: linear-gradient(135deg, $theme1 0, $theme3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 100px;
+      background: $theme3;
+      border-radius: 4px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      background: $white;
+      border: 4px solid $theme3;
+      border-radius: 50%;
+      left: 0;
+      bottom: -6px;
+      right: 0;
+      margin: auto;
+    }
+    &.left {
+      text-align: left;
+      &::before {
+        right: auto;
+      }
+      &::after {
+        right: auto;
+      }
+    }
+    &.right {
+      text-align: right;
+      &::before {
+        left: auto;
+      }
+      &::after {
+        left: auto;
+      }
+    }
+  }
+ 
+ 
+  .ranked-sec{
+    background: url(../../../img/fantasy-sports-app-development-company/double-bubble-outline.webp);
+    & .box {
+      -moz-border-radius: 15px;
+      transition: all .3s linear;
+      padding: 55px 15px;
+      background-size: cover;
+      border-radius: 100px 50px 100px 50px;
+      background: #eff3ff;
+      position: relative;
+      position: relative;
+      box-shadow: 0 3px 4px rgb(0 0 0 / 16%);
+      border-radius: 14px;
+      margin: 0 15px;
+     
+   
+     
+     // border-bottom: 5px solid #3bb6d6;
+    //  border-left: 4px solid transparent;
+      position: relative;
+      &::before{
+      //  position: absolute;
+      //  content: "";
+      //  width: 250px;
+      //  height: 250px;
+      //  z-index: -1;
+      //  background: #eff3ff;
+      //  border-radius: 80px 50px 50px 50px;
+       // transform: rotate(41deg);
+      //  left: 33px;
+       // top: -14px;
+      }
+        &:hover{
+       //   border-left: 4px solid rgb(220, 114, 7);
+       box-shadow: 0px 5px 25px #ccc;
+       transform: translateY(-10px);
+          transition: .3s all ease-in;
+          cursor: pointer;
+        //  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        //  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+       //   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+       }
+     }
+  }
+ .bg-about{
+  background: url(../../../img/fantasy-sports-app-development-company/bg-shap-01.webp) no-repeat bottom left;
+   &::after{
+    content: "";
+    background: url(../../../img/fantasy-sports-app-development-company/bg-shap-01.webp) no-repeat bottom left;
+    position: absolute;
+    right: auto;
+    left: 0;
+    top: -461px;
+    width: 501px;
+    height: 1301px;
+    z-index: -9999;
+    margin: 0 auto;
+   }
+ } 
+
+
+//  benifits section
+.benifits {
+  & .benifit-item {
+    position: relative;
+    transition: all .3s ease;
+    border-radius: 6px !important;
+    border: 1px solid #c6cbda;
+    & .actives{
+      border: 1px solid #0b5a7b;
+    }
+    &:hover {
+      border: 1px solid #0b5a7b;
+      transition: all .3s ease;
+     }
+     &:hover img{
+     filter: grayscale(1);
+     transition: all .3s ease;
+    }
+    &:hover::after{
+     // background-color: #e09c19;
+      transition: all .3s ease;
+      cursor: pointer;
+    }
+    &::before {
+     content: "";
+     position: absolute;
+     top: -15px;
+     left: 10%;
+     right: 10%;
+     height: 21px;
+     z-index: 0;
+     border-radius: 9px 9px 0 0;
+    //background: #0b5a7b;
+
+    }
+    // &::after {
+        //content: "";
+       // position: absolute;
+       // bottom: -1px;
+       // left: 0;
+        //right: 0;
+       // height: 7px;
+       // z-index: 2;
+      //  background: #0f7caa;
+   // }
+  }
+}
+.footer-part-main{
+  background-color: #03151d;
+}
+.leftside{
+    & img{
+      animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
+    }
+    @-webkit-keyframes howtowork2 {
+      0% {
+        transform: translateX(8px);
+      }
+      100% {
+        transform: translateX(-8px);
+      }
+    }
+
+    @keyframes howtowork2 {
+      0% {
+        transform: translateX(8px);
+      }
+      100% {
+        transform: translateX(-8px);
+      }
+    }
+  }
+
+  .topside1{
+    & img{
+      animation: howtowork3 3s ease-in-out infinite alternate-reverse both;
+    }
+    @-webkit-keyframes howtowork3 {
+      0% {
+        transform: translateY(8px);
+      }
+      100% {
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes howtowork3 {
+      0% {
+        transform: translateY(8px);
+      }
+      100% {
+        transform: translateY(-8px);
+      }
+    }
+  }
+  .topside2{
+    & img{
+      animation: howtowork4 4s ease-in-out infinite alternate-reverse both;
+    }
+    @-webkit-keyframes howtowork4 {
+      0% {
+        transform: translateY(8px);
+      }
+      100% {
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes howtowork4 {
+      0% {
+        transform: translateY(8px);
+      }
+      100% {
+        transform: translateY(-8px);
+      }
+    }
+  }
+  .topside3{
+    & img{
+      animation: howtowork5 5s ease-in-out infinite alternate-reverse both;
+    }
+    @-webkit-keyframes howtowork5 {
+      0% {
+        transform: translateY(8px);
+      }
+      100% {
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes howtowork5 {
+      0% {
+        transform: translateY(8px);
+      }
+      100% {
+        transform: translateY(-8px);
+      }
+    }
+  }
+
+// news_portal_development
+.tranded {
+ background: url(../../../img/fantasy-sports-app-development-company/double-bubble-outline.webp);
+ &::after{
+  content: "";
+  background: url(../../../img/fantasy-sports-app-development-company/bg-shap-01.webp) no-repeat bottom right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 307px;
+  height: 723px;
+  transform: rotate(178deg);
+ }
+
+}
+
+
+
+
+
+
+
+
+  // Small devices (landscape phones, 576px and up)
+  @mixin heading2-fs-12-mixin-min-sm() {
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @mixin heading2-fs-12-mixin-min-md() {
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @mixin heading2-fs-12-mixin-min-lg() {
+    .heading2 {
+      font-size: 12px;
+      & span {
+        font-size: 25px;
+      }
+    }
+  }
+  
+  // X-Large devices (large desktops, 1200px and up)
+  @mixin heading2-fs-12-mixin-min-xl() {
+    .heading2 {
+      font-size: 12px;
+      & span {
+        font-size: 25px;
+      }
+    }
+  }
+  
+  // XX-Large devices (larger desktops, 1400px and up)
+  @mixin heading2-fs-12-mixin-min-xxl() {
+    .heading2 {
+      font-size: 14px;
+      & span {
+        font-size: 32px;
+      }
+    }
+  }
+  
+  // X-Small devices (portrait phones, less than 576px)
+  @mixin heading2-fs-12-mixin-max-xs() {
+  }
+  
+  // Small devices (landscape phones, less than 768px)
+  @mixin heading2-fs-12-mixin-max-sm() {
+  }
+  
+  // Medium devices (tablets, less than 992px)
+  @mixin heading-fs-12-mixin-max-md() {
+  }
+  
+  // Large devices (desktops, less than 1200px)
+  @mixin heading2-fs-12-mixin-max-lg() {
+  }
+  
+  // X-Large devices (large desktops, less than 1400px)
+  @mixin heading2-fs-12-mixin-max-xl() {
+  }
+  
+   //  Small Headding 
+  .heading-small{
+    & span{
+      text-align: left;
+      position: relative;
+      color: #001033;
+      padding-left: 60px;
+      font-weight: 900;
+      font-size: 20px;
+      letter-spacing: normal;
+      text-transform: capitalize;
+      padding-top: 4px;
+  }
+      &:before{
+        content: "";
+        height: 2px;
+        width: 40px;
+        position: absolute;
+        left: 0;
+        background-color: #001033;
+        top: 18px;
+        transform: translateY(-50%);
+      }
+   }
+   @mixin app-developemnt-mixin-max-xs(){
+    .app-developemnt{
+      & .heading2 {
+        text-align: center !important;
+        &::before {
+          right: 0 !important;
+        }
+        &::after {
+          right: 0 !important;
+        }
+      }
+    }
+  }
+  @mixin app-developemnt-mixin-max-sm(){
+    .app-developemnt{
+      & .heading2 {
+        text-align: center !important;
+        &::before {
+          right: 0 !important;
+        }
+        &::after {
+          right: 0 !important;
+        }
+      }
+    }
+  }
+  @mixin app-developemnt-mixin-max-md(){
+    .app-developemnt{
+      & .heading2 {
+        text-align: center !important;
+        &::before {
+          right: 0 !important;
+        }
+        &::after {
+          right: 0 !important;
+        }
+      }
+    }
+  }
+ 
+   
+   // No media query for `xs` since this is the default in Bootstrap
+   // Small devices (landscape phones, 576px and up)
+   
+   @media (min-width: 576px) {
+    //  @include rect-native-srvices-mixin-min-xs(); 
+   }
+   
+   // Medium devices (tablets, 768px and up)
+   @media (min-width: 768px) {
+    
+   }
+   
+   // Large devices (desktops, 992px and up)
+   @media (min-width: 992px) {
+   
+   }
+   
+   // X-Large devices (large desktops, 1200px and up)
+   @media (min-width: 1200px) {
+   
+   }
+   @media (min-width: 1400px) {
+   
+   }
+   // XX-Large devices (larger desktops, 1400px and up)
+   
+   
+   
+   // X-Large devices (large desktops, less than 1400px)
+   @media (max-width: 1399.98px) {
+   
+   }
+   
+   
+   // Large devices (desktops, less than 1200px)
+   @media (max-width: 1199.98px) {
+  
+   }
+   
+   // Medium devices (tablets, less than 992px)
+   @media (max-width: 991.98px) {
+   }
+   
+   // Small devices (landscape phones, less than 768px)
+   @media (max-width: 767.98px) {
+    @include app-developemnt-mixin-max-sm(); 
+    .hero_title1 {
+      text-align: center !important;
+    }
+    .bg-about::after{
+      display: none;
+    }
+    .ranked-sec .box {
+      padding: 55px 7px;
+      margin: 0 0px;
+    }
+    .tranded::after {
+        content: "";
+        background: url(../../../img/fantasy-sports-app-development-company/bg-shap-01.webp) no-repeat bottom right;
+        position: absolute;
+        right: -95px;
+        top: 0;
+        width: 307px;
+        height: 723px;
+        transform: rotate(181deg);
+        overflow: hidden;
+    }
+    .stats-section .st-box {
+        margin-bottom: 20px;
+      }
+      .header-bg img {
+        height: 31px !important;
+    }
+      .features-sec .nav-tabs {
+        padding: 7px !important;
+    }
+    .cta-btn .cta {
+      padding: 9px 14px !important;
+    }
+    .shape1 {
+      position: absolute;
+      right: 0;
+      width: 70px;
+      height: 70px;
+      animation: howtowork 3s ease-in-out infinite alternate-reverse both;
+      top: 4px;
+  }
+   }
+   
+   // X-Small devices (portrait phones, less than 576px)
+   @media (max-width: 575.98px) {
+    @include app-developemnt-mixin-max-xs(); 
+    .bg-about::after{
+      display: none;
+    }
+    .ranked-sec .box {
+      padding: 55px 7px;
+      margin: 0 0px;
+    }
+    .tranded::after {
+        content: "";
+        background: url(../../../img/landing-ads/bg-shap-01.webp) no-repeat bottom right;
+        position: absolute;
+        right: -95px;
+        top: 0;
+        width: 307px;
+        height: 723px;
+        transform: rotate(181deg);
+        overflow: hidden;
+    }
+    .stats-section .st-box {
+        margin-bottom: 20px;
+      }
+      .header-bg img {
+        height: 31px !important;
+    }
+      .features-sec .nav-tabs {
+        padding: 7px !important;
+    }
+    .cta-btn .cta {
+      padding: 9px 14px !important;
+    }
+    .header-sec {
+      background-position: inherit;
+  }
+  .hero_title1 {
+    text-align: center !important;
+  }
+  .shape1 {
+    position: absolute;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    animation: howtowork 3s ease-in-out infinite alternate-reverse both;
+    top: 4px;
+}
+
+   }
+   
+   // XX-Large devices (larger desktops)
+   // No media query since the xxl breakpoint has no upper bound on its width
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

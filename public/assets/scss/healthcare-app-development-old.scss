@@ -1,0 +1,1182 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        -webkit-filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+                filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        -webkit-filter: invert(1);
+                filter: invert(1);
+      }
+    }
+  }
+
+}
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+
+
+// On-Demand-Medical-App-Development-section
+.On-Demand-Medical-App-Development-section {
+  background: #f5f6f8;
+}
+.On-Demand-Medical-App-Development-section .tilt_image_pos img:nth-child(1) {
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.On-Demand-Medical-App-Development-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin On-Demand-Medical-App-Development-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin On-Demand-Medical-App-Development-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin On-Demand-Medical-App-Development-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin On-Demand-Medical-App-Development-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin On-Demand-Medical-App-Development-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin On-Demand-Medical-App-Development-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin On-Demand-Medical-App-Development-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin On-Demand-Medical-App-Development-section-mixin-max-md() {
+  .On-Demand-Medical-App-Development-section {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin On-Demand-Medical-App-Development-section-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin On-Demand-Medical-App-Development-section-mixin-max-xl() {
+}
+
+// App Devolopement Services
+.app_development_services {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+  position: relative;
+ 
+  & .devolopment_service_tab {
+    & .s-sidebar {
+      & .s-item {
+        color: $white;
+        text-decoration: none;
+        border: 3px solid rgba($white, 0.8);
+        border-radius: 7px;
+        padding: 14px 14px;
+        &.wave-1 {
+          &::before {
+            background-color: rgba($white, 0.1);
+          }
+        }
+        &:hover,
+        &.active {
+          border: 3px solid rgba($white, 1);
+        }
+      }
+    }
+  }
+}
+.app_service_content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(45deg, $white, rgba($white, 0.8)),
+    url(../../../img/healthcare-app-development/wavy-lines.webp);
+  transform: translateZ(-30px);
+  background-size: cover;
+}
+.tab_icos i {
+  background: linear-gradient(135deg, $theming1 0, $theming2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin app_development_services-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin app_development_services-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin app_development_services-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin app_development_services-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin app_development_services-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin app_development_services-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin app_development_services-mixin-max-sm() {
+  .app_development_services {
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin app_development_services-mixin-max-md() {
+  .app_development_services {
+    & .heading.left {
+      text-align: center;
+      font-size: 12px;
+      &::before {
+        left: 0;
+        right: 0;
+      }
+      &::after {
+        left: 0 !important;
+        right: 0;
+      }
+      & span {
+        font-size: 24px;
+      }
+    }
+    & .devolopment_service_tab {
+      & .s-sidebar {
+        & .s-item {
+          padding: 8px 12px;
+          font-size: 12px;
+          border: 2px solid white;
+        }
+        & .s-item.active {
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin app_development_services-mixin-max-lg() {
+  .app_development_services {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+    & .devolopment_service_tab {
+      & .s-sidebar {
+        & .s-item {
+          padding: 10px 14px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin app_development_services-mixin-max-xl() {
+}
+
+// features
+@keyframes ani-rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.features-box {
+  background: #f9f9f9;
+  padding: 15px;
+  transition: background 0.2s ease;
+  text-align: center;
+  box-shadow: inset 0 0 15px #00000033;
+  min-height: 80px;
+  border-radius: 5px;
+  display: flex;
+  color: $theme1;
+  align-items: center;
+  transition: 0.5s all;
+}
+.features-box:hover {
+  background: $theme1;
+  color: $white;
+  box-shadow: inset 0 0 20px #0000004d;
+  border-radius: 50px;
+  transform: translateY(-8px);
+}
+.features-box span {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: #f9f9f9;
+  color: $theme1;
+  transition: background 0.2s ease;
+  box-shadow: inset 0 0 15px #00000033;
+  border-radius: 50px;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin features-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin features-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin features-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin features-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin features-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin features-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin features-mixin-max-sm() {
+  .features {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin features-mixin-max-md() {
+  .features {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin features-mixin-max-lg() {
+  .features {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin features-mixin-max-xl() {
+}
+
+// development proccess section
+.development_proccess {
+  position: relative;
+  background-color: darken($theme1, 40);
+ 
+  & .development_process_box {
+    background: $white;
+    text-align: left;
+    padding: 30px;
+    border-radius: 4px;
+    border-right: 5px solid $theme1;
+    transition: 0.5s;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s cubic-bezier(0.42, 0, 0, 1.49);
+    & span {
+      & img {
+        max-width: 50px;
+      }
+    }
+    & label {
+      font-size: 108px;
+      font-weight: 900;
+      position: absolute;
+      top: -29px;
+      left: -33px;
+      background: linear-gradient(
+        -90deg,
+        darken($theme1, 40) 50%,
+        $white 50%,
+        rgba($white, 1) 70%,
+        rgba($white, 1) 84%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba($white, 0);
+      transition: 2s cubic-bezier(0.42, 0, 0, 1.49);
+    }
+    &:hover {
+      transform: scale(0.95);
+      & label {
+        background: linear-gradient(
+          -90deg,
+          darken($theme1, 40) 50%,
+          $white 50%,
+          rgba($white, 1) 70%,
+          rgba($white, 1) 84%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba($white, 0);
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin development_proccess-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin development_proccess-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin development_proccess-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin development_proccess-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin development_proccess-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin development_proccess-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin development_proccess-mixin-max-sm() {
+  .development_proccess {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin development_proccess-mixin-max-md() {
+  .development_proccess {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin development_proccess-mixin-max-lg() {
+  .development_proccess {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    & .development_process_box {
+      padding: 30px 20px 30px 38px;
+      & label {
+        font-size: 88px;
+        top: -9px;
+        left: -26px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin development_proccess-mixin-max-xl() {
+}
+
+//  benifits section
+.benifits {
+  background: var(--bg);
+  background-size: cover;
+  & .benifit-item {
+    position: relative;
+    background: linear-gradient(180deg, $theme1 2%, $white 4%);
+    &::before {
+      content: "";
+      position: absolute;
+      top: -15px;
+      left: 10%;
+      right: 10%;
+      height: 21px;
+      z-index: 0;
+      border-radius: 9px 9px 0 0;
+      background: $theme1;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: -9px;
+      left: 8%;
+      right: 8%;
+      height: 19px;
+      z-index: -1;
+      border-radius: 9px 9px 0 0;
+      background: darken($theme1, 10);
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin benifits-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin benifits-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin benifits-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin benifits-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin benifits-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin benifits-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin benifits-mixin-max-sm() {
+  .benifits {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin benifits-mixin-max-md() {
+  .benifits {
+    background-size: auto;
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin benifits-mixin-max-lg() {
+  .benifits {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin benifits-mixin-max-xl() {
+}
+
+// want to join section
+.want-to-join-section {
+  position: relative;
+  background-color: darken($theme1, 40);
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(../../../img/healthcare-app-development/double-bubble-outline.webp);
+    background-size: 480px;
+    opacity: 0.1;
+  }
+  & .heading.left span {
+    font-size: 23px;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin want-to-join-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin want-to-join-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin want-to-join-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin want-to-join-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin want-to-join-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin want-to-join-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin want-to-join-section-mixin-max-sm() {
+  .want-to-join-section {
+    & .heading.left {
+      margin: 25px 0;
+      font-size: 12px;
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin want-to-join-section-mixin-max-md() {
+  .want-to-join-section {
+    & .heading.left {
+      font-size: 12px;
+      text-align: center;
+      margin: 35px 0;
+      & span {
+        font-size: 24px;
+      }
+      &::after {
+        right: 0;
+      }
+      &::before {
+        right: 0;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin want-to-join-section-mixin-max-lg() {
+  .want-to-join-section {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin want-to-join-section-mixin-max-xl() {
+}
+
+// FAQ section
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  background: url(../../../img/healthcare-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  background: url(../../../img/healthcare-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin faq_section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin faq_section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin faq_section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin faq_section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin faq_section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin faq_section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin faq_section-mixin-max-sm() {
+  .faq_section {
+    & .portfolio-bg-layer {
+      width: 210px;
+      height: 210px;
+    }
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+    .accordion-item {
+      & .accordion-header {
+        & .accordion-button {
+          padding: 12px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin faq_section-mixin-max-md() {
+  .faq_section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin faq_section-mixin-max-lg() {
+  .faq_section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin faq_section-mixin-max-xl() {
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include top_banner-mixin-min-sm();
+  @include On-Demand-Medical-App-Development-section-mixin-min-sm();
+  @include features-mixin-min-sm();
+  @include development_proccess-mixin-min-sm();
+  @include benifits-mixin-min-sm();
+  @include want-to-join-section-mixin-min-sm();
+  @include faq_section-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include top_banner-mixin-min-md();
+  @include On-Demand-Medical-App-Development-section-mixin-min-md();
+  @include features-mixin-min-md();
+  @include development_proccess-mixin-min-md();
+  @include benifits-mixin-min-md();
+  @include want-to-join-section-mixin-min-md();
+  @include faq_section-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include top_banner-mixin-min-lg();
+  @include On-Demand-Medical-App-Development-section-mixin-min-lg();
+  @include features-mixin-min-lg();
+  @include development_proccess-mixin-min-lg();
+  @include benifits-mixin-min-lg();
+  @include want-to-join-section-mixin-min-lg();
+  @include faq_section-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include top_banner-mixin-min-xl();
+  @include On-Demand-Medical-App-Development-section-mixin-min-xl();
+  @include features-mixin-min-xl();
+  @include development_proccess-mixin-min-xl();
+  @include benifits-mixin-min-xl();
+  @include want-to-join-section-mixin-min-xl();
+  @include faq_section-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include top_banner-mixin-min-xxl();
+  @include On-Demand-Medical-App-Development-section-mixin-min-xxl();
+  @include features-mixin-min-xxl();
+  @include development_proccess-mixin-min-xxl();
+  @include benifits-mixin-min-xxl();
+  @include want-to-join-section-mixin-min-xxl();
+  @include faq_section-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include top_banner-mixin-max-xl();
+  @include On-Demand-Medical-App-Development-section-mixin-max-xl();
+  @include features-mixin-max-xl();
+  @include development_proccess-mixin-max-xl();
+  @include benifits-mixin-max-xl();
+  @include want-to-join-section-mixin-max-xl();
+  @include faq_section-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include top_banner-mixin-max-lg();
+  @include On-Demand-Medical-App-Development-section-mixin-max-lg();
+  @include app_development_services-mixin-max-lg();
+  @include features-mixin-max-lg();
+  @include development_proccess-mixin-max-lg();
+  @include benifits-mixin-max-lg();
+  @include want-to-join-section-mixin-max-lg();
+  @include faq_section-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include top_banner-mixin-max-md();
+  @include On-Demand-Medical-App-Development-section-mixin-max-md();
+  @include app_development_services-mixin-max-md();
+  @include features-mixin-max-md();
+  @include development_proccess-mixin-max-md();
+  @include benifits-mixin-max-md();
+  @include want-to-join-section-mixin-max-md();
+  @include faq_section-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include top_banner-mixin-max-sm();
+  @include On-Demand-Medical-App-Development-section-mixin-max-sm();
+  @include app_development_services-mixin-max-sm();
+  @include features-mixin-max-sm();
+  @include development_proccess-mixin-max-sm();
+  @include benifits-mixin-max-sm();
+  @include want-to-join-section-mixin-max-sm();
+  @include faq_section-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include top_banner-mixin-max-xs();
+  @include On-Demand-Medical-App-Development-section-mixin-max-xs();
+  @include app_development_services-mixin-max-xs();
+  @include features-mixin-max-xs();
+  @include development_proccess-mixin-max-xs();
+  @include benifits-mixin-max-xs();
+  @include want-to-join-section-mixin-max-xs();
+  @include faq_section-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+//  Design
+
+
+// Portfolio Slider
+// Fantasy Cricket App Feature section
+.fantasy_cricket_features {
+  & .cricket_features {
+    padding: 30px 25px 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 50px 0px rgba($black, 0.149);
+    transition: 0.8s all;
+    position: relative;
+    overflow: hidden;
+    & img {
+      transition: 0.5s all;
+    }
+    &::after {
+      content: '';
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      bottom: -50%;
+      right: -50%;
+      opacity: 0;
+      transform: scale(0.1);
+      background: linear-gradient(45deg, darken($theme1, 40), darken($theme1, 20));
+      position: absolute;
+      transition: 0.3s cubic-bezier(0.13, 0.03, 0.75, 1.05);
+      z-index: -1;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        transform: rotateY(360deg);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/website-development-company-alwar/bubble-o.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: left top;
+    z-index: 0;
+    filter: brightness(0.94);
+    background-size: 60px;
+  }
+}
+
+
+// Medium devices (tablets, less than 992px)
+@mixin fantasy_cricket_features-mixin-max-md() {
+  .fantasy_cricket_features {
+    & .cricket_features {
+      transform: translateY(0px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        filter: brightness(14.5);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin want-to-join-section-mixin-max-xl() {
+}
+
+// fantasy-cricket-app-slider
+.fantasy-cricket-app-slider {
+  & .fantasy-cricket-sldier {
+    & .owl-nav {
+      width: 100%;
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      height: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.disabled {
+        display: none !important;
+      }
+      & button[class*="owl-"] {
+        font-size: 20px;
+        background: $theme3 !important;
+        width: 40px;
+        height: 40px;
+        color: $white !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 0px 5px;
+        opacity: 1;
+        transform-style: preserve-3d;
+        position: relative;
+        & i {
+          transform: translateZ(20px);
+          display: block;
+        }
+      }
+      & button.owl-prev {
+        left: -75px;
+      }
+      & button.owl-next {
+        right: -75px;
+      }
+    }
+    & .owl-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      &.disabled {
+        display: none !important;
+      }
+      & .owl-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+        background: $white;
+        border: 1px solid $gray-300;
+        box-shadow: 0px 1px 0px 0px $gray-300;
+        margin: 0px 3px;
+        transition: 0.5s all;
+        &.active {
+          background: $theme3;
+          width: 32px;
+        }
+      }
+    }
+  }
+}
+.fantasy-cricket-app-slider::after {
+  content: "";
+  background: url(../../../img/fantasy-cricket-app-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.fantasy-cricket-sldier-img img {
+  max-width: 630px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.fantasy-cricket-app-slider .animate_img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  left: -270px;
+  animation: ani-rotate 50s linear infinite;
+  top: -230px;
+  filter: brightness(0.94);
+}
+.fantasy-cricket-app-slider .animate_img1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  right: -270px;
+  animation: ani-rotate 50s linear infinite;
+  bottom: -230px;
+  filter: brightness(0.94);
+}
+@keyframes ani-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin fantasy-cricket-app-slider-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin fantasy-cricket-app-slider-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin fantasy-cricket-app-slider-mixin-max-md() {
+  .fantasy-cricket-app-slider {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0;
+      }
+      &::after {
+        right: 0;
+        animation: headings 3s infinite;
+      }
+    }
+    & .fantasy-cricket-sldier {
+      & .owl-nav {
+        & button.owl-prev {
+          left: -47px;
+        }
+        & button.owl-next {
+          right: -47px;
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin fantasy-cricket-app-slider-mixin-max-lg() {
+  .fantasy-cricket-app-slider {
+    & .container {
+      max-width: 88%;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin fantasy-cricket-app-slider-mixin-max-xl() {
+  .fantasy-cricket-app-slider {
+    .container {
+      max-width: 1040px;
+    }
+  }
+}
+
+

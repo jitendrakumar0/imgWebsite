@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@import "variables";
+.navbar {
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+
+//  great_team
+.great_team {
+  background: lighten($gray-200, 4);
+  padding: 180px 0 90px;
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+        -webkit-filter: drop-shadow(2px 4px 6px #212529);
+}
+      &:nth-child(2) {
+        filter: contrast(0);
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin great_team-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin great_team-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin great_team-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin great_team-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin great_team-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin great_team-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin great_team-mixin-max-sm() {
+  .great_team {
+    padding: 63px 0 50px;
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin great_team-mixin-max-md() {
+  .great_team {
+    padding: 76px 0 50px;
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin great_team-mixin-max-lg() {
+  .great_team {
+    padding: 150px 0 60px;
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin great_team-mixin-max-xl() {
+}
+
+// vision_mission
+.vision_mission_img {
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+}
+.vision_mission_img img {
+  max-width: 100%;
+  border-radius: 6px 6px 0 0;
+  object-fit: cover;
+  transition: 0.5s;
+  width: 100%;
+}
+.vision_mission_box:hover img {
+  transform: rotate(-4deg) scale(1.2);
+}
+.vision_mission_box {
+  text-align: center;
+  border-radius: 12px;
+  padding: 7px 7px 28px;
+  background-color: darken($theme1, 40);
+  position: relative;
+}
+.content_vision {
+  background: linear-gradient(360deg, darken($theme1, 40) 5%, $white 145%);
+  color: $white;
+  padding: 18px 20px;
+  border-radius: 0 0 6px 6px;
+}
+.btn_view {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin vision_mission-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin vision_mission-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin vision_mission-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin vision_mission-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin vision_mission-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin vision_mission-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin vision_mission-mixin-max-sm() {
+  .vision_mission {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    & .vision_mission_box {
+      & .vision_mission_img {
+        & img {
+          height: autof;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin vision_mission-mixin-max-md() {
+  .vision_mission {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin vision_mission-mixin-max-lg() {
+  .vision_mission {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin vision_mission-mixin-max-xl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include great_team-mixin-min-sm();
+  @include vision_mission-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include great_team-mixin-min-md();
+  @include vision_mission-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include great_team-mixin-min-lg();
+  @include vision_mission-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include great_team-mixin-min-xl();
+  @include vision_mission-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include great_team-mixin-min-xxl();
+  @include vision_mission-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include great_team-mixin-max-xl();
+  @include vision_mission-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include great_team-mixin-max-lg();
+  @include vision_mission-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include great_team-mixin-max-md();
+  @include vision_mission-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include great_team-mixin-max-sm();
+  @include vision_mission-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include great_team-mixin-max-xs();
+  @include vision_mission-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

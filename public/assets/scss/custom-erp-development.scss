@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+// ecommerce-solutions-benifits
+.ecommerce-solutions-benifits .arrow_dots {
+  position: absolute;
+  top: 37%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  transform: rotate(-3deg);
+  opacity: 0.8;
+}
+.ecommerce-solutions-benifits::after {
+  content: "";
+  background: url(../../../img/custom-erp-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.ecommerce-solutions-benifits .api_ico img {
+  max-width: 60px;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin ecommerce-solutions-benifits-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin ecommerce-solutions-benifits-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin ecommerce-solutions-benifits-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin ecommerce-solutions-benifits-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin ecommerce-solutions-benifits-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin ecommerce-solutions-benifits-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin ecommerce-solutions-benifits-mixin-max-sm() {
+  .ecommerce-solutions-benifits {
+    background-size: auto;
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin ecommerce-solutions-benifits-mixin-max-md() {
+  .ecommerce-solutions-benifits {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin ecommerce-solutions-benifits-mixin-max-lg() {
+  .ecommerce-solutions-benifits {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin ecommerce-solutions-benifits-mixin-max-xl() {
+}
+
+// why-choose-ionic-section
+.why-choose-ionic-section {
+  background: $white;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin why-choose-ionic-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin why-choose-ionic-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin why-choose-ionic-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin why-choose-ionic-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin why-choose-ionic-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin why-choose-ionic-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin why-choose-ionic-section-mixin-max-sm() {
+  .why-choose-ionic-section {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin why-choose-ionic-section-mixin-max-md() {
+  .why-choose-ionic-section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin why-choose-ionic-section-mixin-max-lg() {
+  .why-choose-ionic-section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin why-choose-ionic-section-mixin-max-xl() {
+}
+
+// Contact_us_project
+.Contact_us_project {
+  background: darken($theme1, 40);
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin Contact_us_project-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin Contact_us_project-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin Contact_us_project-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin Contact_us_project-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin Contact_us_project-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin Contact_us_project-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin Contact_us_project-mixin-max-sm() {
+  .Contact_us_project {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    & .proposal_bg {
+      &::before {
+        background-size: 80px;
+        left: -119px;
+        top: -84px;
+        width: 182px;
+        height: 142px;
+      }
+      &::after {
+        width: 130px;
+        height: 139px;
+      }
+    }
+    &::after {
+      background-size: 430px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin Contact_us_project-mixin-max-md() {
+  .Contact_us_project {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 540px;
+    }
+    & .proposal_bg {
+      &::before {
+        background-size: 120px;
+        left: -99px;
+        top: -74px;
+        width: 212px;
+        height: 202px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin Contact_us_project-mixin-max-lg() {
+  .Contact_us_project {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+        & br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin Contact_us_project-mixin-max-xl() {
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include ecommerce-solutions-benifits-mixin-min-sm();
+  @include why-choose-ionic-section-mixin-min-sm();
+  @include Contact_us_project-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include ecommerce-solutions-benifits-mixin-min-md();
+  @include why-choose-ionic-section-mixin-min-md();
+  @include Contact_us_project-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include ecommerce-solutions-benifits-mixin-min-lg();
+  @include why-choose-ionic-section-mixin-min-lg();
+  @include Contact_us_project-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include ecommerce-solutions-benifits-mixin-min-xl();
+  @include why-choose-ionic-section-mixin-min-xl();
+  @include Contact_us_project-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include ecommerce-solutions-benifits-mixin-min-xxl();
+  @include why-choose-ionic-section-mixin-min-xxl();
+  @include Contact_us_project-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include ecommerce-solutions-benifits-mixin-max-xl();
+  @include ecommerce-solutions-benifits-mixin-max-xl();
+  @include Contact_us_project-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include ecommerce-solutions-benifits-mixin-max-lg();
+  @include why-choose-ionic-section-mixin-max-lg();
+  @include Contact_us_project-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include ecommerce-solutions-benifits-mixin-max-md();
+  @include why-choose-ionic-section-mixin-max-md();
+  @include Contact_us_project-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include ecommerce-solutions-benifits-mixin-max-sm();
+  @include why-choose-ionic-section-mixin-max-sm();
+  @include Contact_us_project-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include ecommerce-solutions-benifits-mixin-max-xs();
+  @include why-choose-ionic-section-mixin-max-xs();
+  @include Contact_us_project-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

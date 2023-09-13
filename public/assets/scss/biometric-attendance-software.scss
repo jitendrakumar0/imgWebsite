@@ -1,0 +1,601 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+// contact with us section
+.contact-with-us-section {
+  background-color: darken($theme1, 40);
+  & .heading {
+    &::after {
+      background-color: darken($theme1, 40);
+    }
+  }
+  & .form-floating {
+    & .form-control {
+      border-left: 4px solid $theme3;
+    }
+    &.is-valid {
+      border-left: 4px solid $success;
+    }
+  }
+  & .was-validated .form-control:invalid {
+    border-left: 4px solid $danger;
+  }
+  & .was-validated .form-control:valid {
+    border-left: 4px solid $success;
+  }
+
+  & .sparater-block {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgba($white, 0.5);
+    left: 30px;
+    top: 0;
+    & span {
+      font-weight: 300;
+      height: 48px;
+      font-size: 16px;
+      color: $white;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      line-height: 48px;
+      background: darken($theme1, 40);
+      position: absolute;
+      top: 50%;
+      left: -11px;
+      margin-top: -32px;
+    }
+    & span {
+      left: -24px;
+      width: 48px;
+      border-radius: 100%;
+      text-align: center;
+    }
+  }
+
+  & .emailid-block {
+    & a {
+      width: 100%;
+      float: left;
+      border-radius: 5px;
+      background: rgba($black, 0.46);
+      border: 1px solid rgba($gray-800, 0.23);
+      padding: 14px 10px 10px 90px;
+      position: relative;
+      min-height: 80px;
+      transition: 0.5s all;
+      & i {
+        position: absolute;
+        left: 22px;
+        top: 23px;
+        width: 28px;
+        height: 39px;
+        font-size: 32px;
+        border-right: 1px solid rgba($white, 0.1);
+        padding: 2px 44px 0px 0;
+      }
+      & span {
+        &.small-text {
+          font-size: 14px;
+          color: $theme1;
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          display: flex;
+        }
+        &.large-text {
+          font-size: 20px;
+          color: $white;
+          line-height: 34px;
+        }
+      }
+    }
+    &.skype_block {
+      & a {
+        background-color: rgba($gray-800, 0.5);
+      }
+    }
+    & a {
+      &:hover {
+        &::before {
+          background: rgba($theme1, 0.1);
+        }
+      }
+    }
+  }
+  & .listing-block {
+    & h3 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 18px;
+      color: $white;
+      letter-spacing: 0.2px;
+    }
+    & ul {
+      width: 100%;
+      float: left;
+      margin-top: 19px;
+      & li {
+        list-style: none;
+        font-weight: 300;
+        font-size: 17px;
+        color: $white;
+        letter-spacing: 0.4px;
+        margin-bottom: 11px;
+        padding-left: 42px;
+        position: relative;
+      }
+      &.bluts {
+        & li {
+          padding-left: 32px;
+          &:after {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background-color: $theme3;
+            border-radius: 100%;
+            top: 7px;
+            content: "";
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+// Smart Attendence System
+.smart-attendence-system {
+  background: #f5f6f8;
+}
+.smart-attendence-system::before {
+  content: "";
+  background: url(../../../img/biometric-attendance-software/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.smart-attendence-system::after {
+  content: "";
+  background: url(../../../img/biometric-attendance-software/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.smart-attendence-system .tilt_image_pos img:nth-child(1) {
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.smart-attendence-system .tilt_image_pos img:nth-child(2) {
+  filter: contrast(0);
+  left: -18px;
+  bottom: -27px;
+  width: 350px;
+}
+.smart-attendence-system .tilt_image_pos img:nth-child(3) {
+  width: 250px;
+  left: -242px;
+  top: 0px;
+  transform: rotate(39deg);
+}
+.smart-attendence-system .justify {
+  text-align: justify;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin smart-attendence-system-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin smart-attendence-system-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin smart-attendence-system-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin smart-attendence-system-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin smart-attendence-system-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin smart-attendence-system-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin smart-attendence-system-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin smart-attendence-system-mixin-max-md() {
+  .smart-attendence-system {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin smart-attendence-system-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin smart-attendence-system-mixin-max-xl() {
+}
+
+// digital Solutions
+.benifits-of-biometric::after {
+  content: "";
+  background: url(../../../img/android-application-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+@keyframes ani-rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin benifits-of-biometric-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin benifits-of-biometric-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin benifits-of-biometric-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin benifits-of-biometric-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin benifits-of-biometric-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin benifits-of-biometric-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin benifits-of-biometric-mixin-max-sm() {
+  .benifits-of-biometric {
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin benifits-of-biometric-mixin-max-md() {
+  .benifits-of-biometric {
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin benifits-of-biometric-mixin-max-lg() {
+  .benifits-of-biometric {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin benifits-of-biometric-mixin-max-xl() {
+  .benifits-of-biometric {
+  }
+}
+
+// The Art System
+.the-art-system {
+  background: #f5f6f8;
+}
+.the-art-system::before {
+  content: "";
+  background: url(../../../img/biometric-attendance-software/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.the-art-system::after {
+  content: "";
+  background: url(../../../img/biometric-attendance-software/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.the-art-system .tilt_image_pos img:nth-child(1) {
+  -webkit-transform: translateZ(var(--tz)) rotate(-16deg);
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.the-art-system .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin the-art-system-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin the-art-system-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin the-art-system-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin the-art-system-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin the-art-system-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin the-art-system-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin the-art-system-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin the-art-system-mixin-max-md() {
+  .the-art-system {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin the-art-system-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin the-art-system-mixin-max-xl() {
+}
+
+// Why Choose Portal
+.why_choose_portal_right {
+  padding: 50px 50px 50px;
+  background: darken($theme1, 40);
+  position: relative;
+  overflow: hidden;
+}
+.why_choose_portal_left {
+  background-image: url(../../../img/biometric-attendance-software/Biometric-Time-And-Attendance-Systeam-Support.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin why_choose_portal-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin why_choose_portal-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin why_choose_portal-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin why_choose_portal-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin why_choose_portal-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin why_choose_portal-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin why_choose_portal-mixin-max-sm() {
+  .why_choose_portal {
+    & .why_choose_portal_left {
+      height: 300px;
+    }
+    & .why_choose_portal_right {
+      padding: 30px 45px 50px;
+    }
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin why_choose_portal-mixin-max-md() {
+  .why_choose_portal {
+    .why_choose_portal_left {
+      height: 300px;
+      background-attachment: fixed;
+    }
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin why_choose_portal-mixin-max-lg() {
+  .why_choose_portal {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin why_choose_portal-mixin-max-xl() {
+}
+
+// Contact Us Project section
+.Contact_us_project {
+  background: darken($theme3, 40);
+}
+.Contact_us_project .proposal_bg::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: -89px;
+  top: -64px;
+  width: 252px;
+  height: 242px;
+  background: url(../../../img/biometric-attendance-software/bubble-o.webp);
+  background-size: 140px;
+  filter: brightness(0);
+  opacity: 0.2;
+  transform: rotate(45deg);
+}
+.Contact_us_project .proposal_bg::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: url(../../../img/biometric-attendance-software/bg-pattern-cl.webp);
+  background-size: cover;
+  width: 150px;
+  height: 189px;
+  right: -43px;
+  top: -40px;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include smart-attendence-system-mixin-min-sm();
+  @include benifits-of-biometric-mixin-min-sm();
+  @include the-art-system-mixin-min-sm();
+  @include why_choose_portal-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include smart-attendence-system-mixin-min-md();
+  @include benifits-of-biometric-mixin-min-md();
+  @include the-art-system-mixin-min-md();
+  @include why_choose_portal-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include smart-attendence-system-mixin-min-lg();
+  @include benifits-of-biometric-mixin-min-lg();
+  @include the-art-system-mixin-min-lg();
+  @include why_choose_portal-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include smart-attendence-system-mixin-min-xl();
+  @include benifits-of-biometric-mixin-min-xl();
+  @include the-art-system-mixin-min-xl();
+  @include why_choose_portal-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include smart-attendence-system-mixin-min-xxl();
+  @include benifits-of-biometric-mixin-min-xxl();
+  @include the-art-system-mixin-min-xxl();
+  @include why_choose_portal-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include smart-attendence-system-mixin-max-xl();
+  @include benifits-of-biometric-mixin-max-xl();
+  @include the-art-system-mixin-max-xl();
+  @include why_choose_portal-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include smart-attendence-system-mixin-max-lg();
+  @include benifits-of-biometric-mixin-max-lg();
+  @include the-art-system-mixin-max-lg();
+  @include why_choose_portal-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include smart-attendence-system-mixin-max-md();
+  @include benifits-of-biometric-mixin-max-md();
+  @include the-art-system-mixin-max-md();
+  @include why_choose_portal-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include smart-attendence-system-mixin-max-sm();
+  @include benifits-of-biometric-mixin-max-sm();
+  @include the-art-system-mixin-max-sm();
+  @include why_choose_portal-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include smart-attendence-system-mixin-max-xs();
+  @include benifits-of-biometric-mixin-max-xs();
+  @include the-art-system-mixin-max-xs();
+  @include why_choose_portal-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

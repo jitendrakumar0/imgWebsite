@@ -1,0 +1,425 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        -webkit-filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+                filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        -webkit-filter: invert(1);
+                filter: invert(1);
+      }
+    }
+  }
+ 
+}
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+
+// on demand section
+.on-demand {
+  background: var(--bg);
+  background-size: cover;
+}
+// App Devolopement process SECTION CSS START
+
+.app_development_services {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+  position: relative;
+
+ 
+  & .devolopment_service_tab {
+    & .s-sidebar {
+      & .s-item {
+        color: $white;
+        text-decoration: none;
+        border: 3px solid rgba($white, 0.8);
+        border-radius: 7px;
+        padding: 14px 14px;
+        &.wave-1 {
+          &::before {
+            background-color: rgba($white, 0.1);
+          }
+        }
+        &:hover,
+        &.active {
+          border: 3px solid rgba($white, 1);
+        }
+      }
+    }
+  }
+}
+.app_service_content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(45deg, $white, rgba($white, 0.8)), url(../../../img/services-section/wavy-lines.webp);
+  transform: translateZ(-30px);
+  background-size: cover;
+}
+.tab_icos i {
+  background: linear-gradient(135deg, $theming1 0, $theming2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+// Delivery App Features
+.delivery-app-features {
+  background: #f8f9fa;
+  &::before {
+    content: "";
+    background: url(../../../img/grocery-app-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+    -webkit-transform: rotateY(180deg) rotateX(180deg);
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/ios-app-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  & .nav-tabs {
+    & .nav-link {
+      color: $gray-800;
+      transition: 0s all;
+      border-bottom: 3px solid rgba($theme3, 0);
+      &:hover,
+      &:focus {
+        border: none;
+        outline: none;
+        border-bottom: 3px solid rgba($theme3, 0);
+      }
+      &.active {
+        color: $theme3;
+        border: none;
+        border-bottom: 3px solid $theme3;
+      }
+    }
+    & .nav-item {
+      &.show {
+        & .nav-link {
+          color: $theme3;
+          border: none;
+          border-bottom: 3px solid $theme3;
+        }
+      }
+    }
+  }
+  & .development_services_box {
+    background: $white;
+    padding: 75px 25px 25px 25px;
+    transition: box-shadow 0.2s ease, z-index 0s 0.2s ease;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    z-index: 2;
+    border-bottom: 3px solid $gray-300;
+    & .box_img {
+      display: block;
+      margin: 10px 0;
+      & img {
+        max-width: 80px;
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      opacity: 1;
+      visibility: visible;
+      transition: 0.5s all;
+      right: -20%;
+      left: -20%;
+      bottom: 0;
+      margin: 0 auto;
+      z-index: -1;
+      transform-origin: bottom;
+      background-color: #e09c19;
+      height: 251px;
+      top: -191px;
+      border-radius: 0 0 50% 50%;
+    }
+  }
+  & .develop-boxes {
+    row-gap: 25px;
+  }
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+// benefits section
+.development_proccess {
+  position: relative;
+  background-color: darken($theme1, 40);
+ 
+  & .development_process_box {
+    background: $white;
+    text-align: left;
+    padding: 30px;
+    border-radius: 4px;
+    border-right: 5px solid $theme1;
+    transition: 0.5s;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s cubic-bezier(0.42, 0, 0, 1.49);
+    & label {
+      font-size: 108px;
+      font-weight: 900;
+      position: absolute;
+      top: -29px;
+      left: -33px;
+      background: linear-gradient(
+        -90deg,
+        darken($theme1, 40) 50%,
+        $white 50%,
+        rgba($white, 1) 70%,
+        rgba($white, 1) 84%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba($white, 0);
+      transition: 2s cubic-bezier(0.42, 0, 0, 1.49);
+    }
+    &:hover {
+      transform: scale(0.95);
+      & label {
+        background: linear-gradient(
+          -90deg,
+          darken($theme1, 40) 50%,
+          $white 50%,
+          rgba($white, 1) 70%,
+          rgba($white, 1) 84%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba($white, 0);
+      }
+    }
+  }
+}
+// FAQ Services SECTION CSS START
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  background: url(../../../img/grocery-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  background: url(../../../img/ios-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+// FAQ Services SECTION CSS END
+
+
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include top_banner-mixin-min-sm();}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include top_banner-mixin-min-md();}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include top_banner-mixin-min-lg();}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include top_banner-mixin-min-xl();}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include top_banner-mixin-min-xxl();}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include top_banner-mixin-max-xl();}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include top_banner-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include top_banner-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include top_banner-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include top_banner-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

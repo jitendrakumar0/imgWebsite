@@ -1,0 +1,500 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+.why-choose-third-party {
+  position: relative;
+}
+.why-choose-third-party::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url(../../../img/competitor-analysis/bg1.webp);
+  background-size: contain;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+}
+.why-choose-third-party .eleven .heading1:after {
+  background-color: $theme3;
+  color: $white;
+}
+.third-party-left img {
+  max-width: 70%;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin why-choose-third-party-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin why-choose-third-party-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin why-choose-third-party-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin why-choose-third-party-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin why-choose-third-party-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin why-choose-third-party-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin why-choose-third-party-mixin-max-sm() {
+  .why-choose-third-party {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::before {
+      background-size: 900px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin why-choose-third-party-mixin-max-md() {
+  .why-choose-third-party {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::before {
+      background-size: 1200px;
+    }
+    & .star_design span {
+      position: absolute;
+      background-color: $white;
+      left: 0;
+      right: 0;
+      height: 40px;
+      border-radius: 50px;
+      width: 40px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid;
+      top: -30px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin why-choose-third-party-mixin-max-lg() {
+  .why-choose-third-party {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin why-choose-third-party-mixin-max-xl() {
+}
+
+.why-choose-ionic-section {
+  background: var(--bg);
+  background-size: cover;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin why-choose-ionic-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin why-choose-ionic-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin why-choose-ionic-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin why-choose-ionic-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin why-choose-ionic-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin why-choose-ionic-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin why-choose-ionic-section-mixin-max-sm() {
+  .why-choose-ionic-section {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin why-choose-ionic-section-mixin-max-md() {
+  .why-choose-ionic-section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin why-choose-ionic-section-mixin-max-lg() {
+  .why-choose-ionic-section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin why-choose-ionic-section-mixin-max-xl() {
+}
+
+.understanding-ionic-apps-section {
+  background: #f5f6f8;
+}
+.understanding-ionic-apps-section::before {
+  content: "";
+  background: url(../../../img/competitor-analysis/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.understanding-ionic-apps-section::after {
+  content: "";
+  background: url(../../../img/competitor-analysis/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.understanding-ionic-apps-section .tilt_image_pos img:nth-child(1) {
+  -webkit-transform: translateZ(var(--tz)) rotate(-16deg);
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.understanding-ionic-apps-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+  left: -18px;
+  bottom: -27px;
+  width: 350px;
+}
+.understanding-ionic-apps-section .tilt_image_pos img:nth-child(3) {
+  width: 250px;
+  left: -242px;
+  top: 0px;
+  -webkit-transform: rotate(39deg);
+  transform: rotate(39deg);
+}
+.understanding-ionic-apps-section .justify {
+  text-align: justify;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin understanding-ionic-apps-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin understanding-ionic-apps-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin understanding-ionic-apps-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin understanding-ionic-apps-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin understanding-ionic-apps-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin understanding-ionic-apps-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin understanding-ionic-apps-section-mixin-max-sm() {
+  .understanding-ionic-apps-section {
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin understanding-ionic-apps-section-mixin-max-md() {
+  .understanding-ionic-apps-section {
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin understanding-ionic-apps-section-mixin-max-lg() {
+  .understanding-ionic-apps-section {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin understanding-ionic-apps-section-mixin-max-xl() {
+}
+
+// Devolopements Benefits
+.devolopements-benefits {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+}
+.devolopements-benefits-box {
+  background: rgba($theme1, 0.1);
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover {
+  background-color: rgba($gray-800, 0.5);
+}
+.devolopements-benefits-box-count {
+  position: absolute;
+  left: -25px;
+  height: 50px;
+  background-color: $theme3;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: $white;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover .devolopements-benefits-box-count {
+  border-radius: 10px;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin devolopements-benefits-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin devolopements-benefits-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin devolopements-benefits-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin devolopements-benefits-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin devolopements-benefits-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin devolopements-benefits-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin devolopements-benefits-mixin-max-sm() {
+  .devolopements-benefits {
+    & .heading.left {
+      text-align: center;
+      & span {
+        font-size: 20px;
+      }
+      &::after {
+        right: 0;
+      }
+      &::before {
+        right: 0;
+      }
+    }
+    & .devolopements-benefits-box-count {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: -27px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin devolopements-benefits-mixin-max-md() {
+  .devolopements-benefits {
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin devolopements-benefits-mixin-max-lg() {
+  .devolopements-benefits {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin devolopements-benefits-mixin-max-xl() {
+}
+
+// Contact Us Project section
+.Contact_us_project {
+  background: darken($theme3, 40);
+}
+.Contact_us_project .proposal_bg::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: -89px;
+  top: -64px;
+  width: 252px;
+  height: 242px;
+  background: url(../../../img/competitor-analysis/bubble-o.webp);
+  background-size: 140px;
+  filter: brightness(0);
+  opacity: 0.2;
+  transform: rotate(45deg);
+}
+.Contact_us_project .proposal_bg::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: url(../../../img/competitor-analysis/bg-pattern-cl.webp);
+  background-size: cover;
+  width: 150px;
+  height: 189px;
+  right: -43px;
+  top: -40px;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include why-choose-third-party-mixin-min-sm();
+  @include why-choose-ionic-section-mixin-min-sm();
+  @include understanding-ionic-apps-section-mixin-min-sm();
+  @include devolopements-benefits-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include why-choose-third-party-mixin-min-md();
+  @include why-choose-ionic-section-mixin-min-md();
+  @include understanding-ionic-apps-section-mixin-min-md();
+  @include devolopements-benefits-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include why-choose-third-party-mixin-min-lg();
+  @include why-choose-ionic-section-mixin-min-lg();
+  @include understanding-ionic-apps-section-mixin-min-lg();
+  @include devolopements-benefits-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include why-choose-third-party-mixin-min-xl();
+  @include why-choose-ionic-section-mixin-min-xl();
+  @include understanding-ionic-apps-section-mixin-min-xl();
+  @include devolopements-benefits-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include why-choose-third-party-mixin-min-xxl();
+  @include why-choose-ionic-section-mixin-min-xxl();
+  @include understanding-ionic-apps-section-mixin-min-xxl();
+  @include devolopements-benefits-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include why-choose-third-party-mixin-max-xl();
+  @include why-choose-ionic-section-mixin-max-xl();
+  @include understanding-ionic-apps-section-mixin-max-xl();
+  @include devolopements-benefits-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include why-choose-third-party-mixin-max-lg();
+  @include why-choose-ionic-section-mixin-max-lg();
+  @include understanding-ionic-apps-section-mixin-max-lg();
+  @include devolopements-benefits-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include why-choose-third-party-mixin-max-md();
+  @include why-choose-ionic-section-mixin-max-md();
+  @include understanding-ionic-apps-section-mixin-max-md();
+  @include devolopements-benefits-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include why-choose-third-party-mixin-max-sm();
+  @include why-choose-ionic-section-mixin-max-sm();
+  @include understanding-ionic-apps-section-mixin-max-sm();
+  @include devolopements-benefits-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include why-choose-third-party-mixin-max-xs();
+  @include why-choose-ionic-section-mixin-max-xs();
+  @include understanding-ionic-apps-section-mixin-max-xs();
+  @include devolopements-benefits-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

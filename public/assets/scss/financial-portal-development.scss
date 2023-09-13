@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@import "variables";
+
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+  &::before {
+    content: "";
+    background: url(../../../img/financial-portal-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/financial-portal-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    z-index: 0;
+    background-repeat: no-repeat;
+    mix-blend-mode: overlay;
+  }
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        filter: invert(1);
+      }
+    }
+  }
+  & > * {
+    &::before {
+      content: "";
+      background: url(../../../img/financial-portal-development/bubble-o.webp);
+      position: absolute;
+      top: 20%;
+      left: 13%;
+      background-position: top right;
+      filter: brightness(0.2);
+      z-index: 0;
+      transform: rotateY(180deg) rotateX(180deg);
+      width: 150px;
+      height: 150px;
+      background-size: 100px;
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+// financial_portal_development
+.financial_portal_development {
+  background: #f5f6f8;
+}
+.financial_portal_development::before {
+  content: "";
+  background: url(../../../img/financial-portal-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.financial_portal_development::after {
+  content: "";
+  background: url(../../../img/financial-portal-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.financial_portal_development .tilt_image_pos img:nth-child(1) {
+  -webkit-transform: translateZ(var(--tz)) rotate(-16deg);
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.financial_portal_development .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin financial_portal_development-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin financial_portal_development-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin financial_portal_development-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin financial_portal_development-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin financial_portal_development-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin financial_portal_development-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin financial_portal_development-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin financial_portal_development-mixin-max-md() {
+  .financial_portal_development {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin financial_portal_development-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin financial_portal_development-mixin-max-xl() {
+}
+
+// Why Choose Portal
+.why_choose_portal_right {
+  padding: 50px 50px 50px;
+  background: darken($theme1, 40);
+  position: relative;
+  overflow: hidden;
+}
+.why_choose_portal_left {
+  background-image: url(../../../img/financial-portal-development/app-service-bg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin why_choose_portal-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin why_choose_portal-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin why_choose_portal-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin why_choose_portal-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin why_choose_portal-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin why_choose_portal-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin why_choose_portal-mixin-max-sm() {
+  .why_choose_portal {
+    & .why_choose_portal_left {
+      height: 300px;
+    }
+    & .why_choose_portal_right {
+      padding: 30px 45px 50px 30px;
+    }
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin why_choose_portal-mixin-max-md() {
+  .why_choose_portal {
+    .why_choose_portal_left {
+      height: 300px;
+      background-attachment: fixed;
+    }
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin why_choose_portal-mixin-max-lg() {
+  .why_choose_portal {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin why_choose_portal-mixin-max-xl() {
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+  @include top_banner-mixin-min-sm();
+  @include financial_portal_development-mixin-min-sm();
+  @include why_choose_portal-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include top_banner-mixin-min-md();
+  @include financial_portal_development-mixin-min-md();
+  @include why_choose_portal-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include top_banner-mixin-min-lg();
+  @include why_choose_portal-mixin-min-lg();
+  @include why_choose_portal-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include top_banner-mixin-min-xl();
+  @include financial_portal_development-mixin-min-xl();
+  @include why_choose_portal-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include top_banner-mixin-min-xxl();
+  @include financial_portal_development-mixin-min-xxl();
+  @include why_choose_portal-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include top_banner-mixin-max-xl();
+  @include financial_portal_development-mixin-max-xl();
+  @include why_choose_portal-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include top_banner-mixin-max-lg();
+  @include financial_portal_development-mixin-max-lg();
+  @include why_choose_portal-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include top_banner-mixin-max-md();
+  @include financial_portal_development-mixin-max-md();
+  @include why_choose_portal-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include top_banner-mixin-max-sm();
+  @include financial_portal_development-mixin-max-sm();
+  @include why_choose_portal-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include top_banner-mixin-max-xs();
+  @include financial_portal_development-mixin-max-xs();
+  @include why_choose_portal-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

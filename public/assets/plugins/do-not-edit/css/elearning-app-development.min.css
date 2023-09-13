@@ -1,0 +1,151 @@
+.eLearning_Solutions_section {
+  background: #f5f6f8;
+}
+.eLearning_Solutions_section .tilt_image_pos img:nth-child(1) {
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.eLearning_Solutions_section .tilt_image_pos img:nth-child(2) {
+  filter: contrast(0);
+  left: -18px;
+  bottom: -27px;
+  width: 350px;
+}
+.eLearning_Solutions_section .tilt_image_pos img:nth-child(3) {
+  width: 250px;
+  left: -242px;
+  top: 0px;
+  transform: rotate(39deg);
+}
+.eLearning_Solutions_section .justify {
+  text-align: justify;
+}
+
+.app_development_services {
+  background-color: #03151d;
+  background-size: cover;
+  position: relative;
+}
+.app_development_services .devolopment_service_tab .s-sidebar .s-item {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 7px;
+  padding: 14px 14px;
+}
+.app_development_services .devolopment_service_tab .s-sidebar .s-item.wave-1::before {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.app_development_services .devolopment_service_tab .s-sidebar .s-item:hover, .app_development_services .devolopment_service_tab .s-sidebar .s-item.active {
+  border: 3px solid white;
+}
+
+.app_service_content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(45deg, #fff, rgba(255, 255, 255, 0.8)), url(../../../img/elearning-app-development/wavy-lines.webp);
+  transform: translateZ(-30px);
+  background-size: cover;
+}
+
+.tab_icos i {
+  background: linear-gradient(135deg, #139ed9 0, #ff6d00 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.ecommerce_solutions::after {
+  content: "";
+  background: url(../../../img/elearning-app-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+
+.faq_section {
+  background: #f8f9fa;
+}
+
+.accordion-item {
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.0509803922);
+  border-radius: 10px;
+  border: 0;
+}
+
+button.accordion-button {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff6d00;
+  color: #fff;
+  box-shadow: unset;
+  outline: unset;
+}
+
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+@media (max-width: 1199.98px) {
+  .eLearning_Solutions_section .heading.left span {
+    font-size: 28px;
+  }
+  .eLearning_Solutions_section::after {
+    background-size: 1300px;
+  }
+  .eLearning_Solutions_section::before {
+    background-size: 1300px;
+  }
+}
+@media (max-width: 991.98px) {
+  .eLearning_Solutions_section .heading.left {
+    font-size: 12px;
+  }
+  .eLearning_Solutions_section .heading.left span {
+    font-size: 24px;
+  }
+  .eLearning_Solutions_section::after {
+    background-size: 1200px;
+  }
+  .eLearning_Solutions_section::before {
+    background-size: 1200px;
+  }
+  .app_development_services .all-app-services [data-hash*=app-service] {
+    display: block !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .eLearning_Solutions_section .heading.left span {
+    font-size: 20px;
+  }
+  .eLearning_Solutions_section::after {
+    background-size: 900px;
+  }
+  .eLearning_Solutions_section::before {
+    background-size: 900px;
+  }
+}/*# sourceMappingURL=elearning-app-development.min.css.map */

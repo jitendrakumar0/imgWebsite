@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.navbar{
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+@import "variables";
+// Why Choose ionic section
+.disclaimer {
+  background: $white;
+  background-size: cover;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin disclaimer-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin disclaimer-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin disclaimer-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin disclaimer-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin disclaimer-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin disclaimer-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin disclaimer-mixin-max-sm() {
+  .disclaimer {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin disclaimer-mixin-max-md() {
+  .disclaimer {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin disclaimer-mixin-max-lg() {
+  .disclaimer {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin disclaimer-mixin-max-xl() {
+}
+
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+  @include disclaimer-mixin-min-sm(); 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include disclaimer-mixin-min-md(); 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include disclaimer-mixin-min-lg(); 
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include disclaimer-mixin-min-xl(); 
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include disclaimer-mixin-min-xxl(); 
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include disclaimer-mixin-max-xl(); 
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include disclaimer-mixin-max-lg(); 
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include disclaimer-mixin-max-md(); 
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include disclaimer-mixin-max-sm(); 
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include disclaimer-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

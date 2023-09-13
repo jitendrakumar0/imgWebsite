@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// Custom MVP Wide Range Section
+.mvp-choose-wide-range {
+  background-color: $dark;
+  &::after {
+    background-image: url('../../../img/mvp-development/double-bubble-outline.webp');
+    background-size: 480px;
+    opacity: .1;
+  }
+  & .heading  {
+    color: $white;
+  }
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@mixin Custom-MVP-Wide-rang-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin Custom-MVP-Wide-rang-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin Custom-MVP-Wide-rang-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin Custom-MVP-Wide-rang-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin Custom-MVP-Wide-rang-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin Custom-MVP-Wide-rang-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin Custom-MVP-Wide-rang-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin Custom-MVP-Wide-rang-section-mixin-max-md() {
+}
+// Large devices (desktops, less than 1200px)
+@mixin Custom-MVP-Wide-rang-section-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin Custom-MVP-Wide-rang-section-mixin-max-xl() {
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include Custom-MVP-Wide-rang-section-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include Custom-MVP-Wide-rang-section-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include Custom-MVP-Wide-rang-section-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include Custom-MVP-Wide-rang-section-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include Custom-MVP-Wide-rang-section-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include Custom-MVP-Wide-rang-section-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include Custom-MVP-Wide-rang-section-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include Custom-MVP-Wide-rang-section-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include Custom-MVP-Wide-rang-section-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include Custom-MVP-Wide-rang-section-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+

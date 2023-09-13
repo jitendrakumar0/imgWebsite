@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// Devolopements Benefits
+.devolopements-benefits {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+}
+.devolopements-benefits::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  // background: url(../../../img/college-management-software/dots.webp);
+  background-size: 300px;
+}
+.devolopements-benefits-box {
+  background: rgba($theme1, 0.1);
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover {
+  background-color: rgba($gray-800, 0.5);
+}
+.devolopements-benefits-box-count {
+  position: absolute;
+  left: -25px;
+  height: 50px;
+  background-color: $theme3;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: $white;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover .devolopements-benefits-box-count {
+  border-radius: 10px;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin devolopements-benefits-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin devolopements-benefits-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin devolopements-benefits-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin devolopements-benefits-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin devolopements-benefits-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin devolopements-benefits-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin devolopements-benefits-mixin-max-sm() {
+  .devolopements-benefits {
+    & .heading.left {
+      text-align: center;
+      & span {
+        font-size: 20px;
+      }
+      &::after {
+        right: 0;
+      }
+      &::before {
+        right: 0;
+      }
+    }
+    & .devolopements-benefits-box-count {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: -27px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin devolopements-benefits-mixin-max-md() {
+  .devolopements-benefits {
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin devolopements-benefits-mixin-max-lg() {
+  .devolopements-benefits {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin devolopements-benefits-mixin-max-xl() {
+}
+
+// features of collage
+.features-of-collage::after {
+  content: "";
+  background: url(../../../img/college-management-software/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.features-of-collage::before {
+  content: "";
+  background: url(../../../img/college-management-software/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.features-of-collage .boxdiv {
+  background: #f9f9f9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+  text-align: center;
+  -webkit-box-shadow: inset 0 0 15px #00000033;
+  box-shadow: inset 0 0 15px #00000033;
+  min-height: 100px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: $theme3;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.features-of-collage .boxdiv:hover {
+  background: $theme3;
+  color: $white;
+  -webkit-box-shadow: inset 0 0 20px #0000004d;
+  box-shadow: inset 0 0 20px #0000004d;
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin features-of-collage-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin features-of-collage-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin features-of-collage-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin features-of-collage-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin features-of-collage-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin features-of-collage-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin features-of-collage-mixin-max-sm() {
+  .features-of-collage {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin features-of-collage-mixin-max-md() {
+  .features-of-collage {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin features-of-collage-mixin-max-lg() {
+  .features-of-collage {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+    & .boxdiv {
+      min-height: auto;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin features-of-collage-mixin-max-xl() {
+}
+
+// Contact Us project
+.Contact_us_project {
+  background: darken($theme3, 30);
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include devolopements-benefits-mixin-min-sm();
+  @include features-of-collage-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include devolopements-benefits-mixin-min-md();
+  @include features-of-collage-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include devolopements-benefits-mixin-min-lg();
+  @include features-of-collage-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include devolopements-benefits-mixin-min-xl();
+  @include features-of-collage-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include devolopements-benefits-mixin-min-xxl();
+  @include features-of-collage-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include devolopements-benefits-mixin-max-xl();
+  @include features-of-collage-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include devolopements-benefits-mixin-max-lg();
+  @include features-of-collage-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include devolopements-benefits-mixin-max-md();
+  @include features-of-collage-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include devolopements-benefits-mixin-max-sm();
+  @include features-of-collage-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include devolopements-benefits-mixin-max-xs();
+  @include features-of-collage-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

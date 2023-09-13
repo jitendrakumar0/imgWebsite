@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+@import "variables";
+.navbar {
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+.portfolio_single {
+  padding: 140px 0 80px;
+}
+.portfolio_single_img {
+  position: relative;
+}
+.portfolio_single_btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%)), transparent);
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s all;
+}
+.portfolio_single_img img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s all;
+}
+.portfolio_single_img:hover .portfolio_single_btn {
+  opacity: 1;
+  backdrop-filter: blur(16px);
+}
+.portfolio_single_img:hover img {
+  transform: scale(1.1) rotate(-4deg);
+}
+.portfolio_single .locations {
+  top: 8px;
+}
+.portfolio_single_tags a {
+  padding: 4px 20px;
+  margin-bottom: 8px;
+  border: 2px solid $white;
+  border-radius: 50px;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  color: $white;
+  background: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
+  letter-spacing: 1px;
+  transition: 0.5s all;
+}
+.portfolio_single_tags a:hover {
+  background: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
+  letter-spacing: 1.5px;
+}
+.portfolio_single::after {
+  content: "";
+  background: url(../../../img/portfolio-single/bg-img.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  z-index: -1;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin portfolio_single-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin portfolio_single-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin portfolio_single-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin portfolio_single-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin portfolio_single-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin portfolio_single-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin portfolio_single-mixin-max-sm() {
+  .portfolio_single {
+    padding: 100px 0 45px;
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    & .portfolio_single_tags {
+      & a {
+        font-size: 11px;
+        padding: 4px 15px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin portfolio_single-mixin-max-md() {
+  .portfolio_single {
+    padding: 100px 0 50px;
+    & .portfolio_single_tags {
+      & a {
+        border: 1px dashed #fff;
+        font-size: 12px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin portfolio_single-mixin-max-lg() {
+  .portfolio_single {
+    padding: 110px 0 60px;
+    & .portfolio_single_tags {
+      & a {
+        border: 1px dashed #fff;
+        font-size: 12px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin portfolio_single-mixin-max-xl() {
+}
+
+.related_work {
+  background: var(--bg);
+  padding: 80px 0 80px;
+  background-size: cover;
+}
+
+.portfolio_page_box {
+  background: var(--bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  perspective: 50em;
+  height: 420px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+.portfolio_page_box:hover {
+  transform: translateY(-5px);
+}
+.portfolio_hover {
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
+  border-radius: 12px;
+  padding: 0 40px;
+  transition: 0.8s all;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  right: 0;
+  transform: rotateX(110deg);
+  transform-origin: 50% 100%;
+}
+.portfolio_page_box:hover .portfolio_hover {
+  z-index: 0;
+  transform: rotateX(0);
+  transition: all 0.35s ease;
+  z-index: 1;
+  transition-delay: 0.21s;
+}
+.portfolio_tags .tag_port {
+  border: 2px dashed;
+  background-color: $theme3;
+  border-radius: 50px;
+  padding: 2px 20px;
+  font-weight: 600;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 12px;
+  transition: 0.8s all;
+}
+.portfolio_tags .tag_port:hover {
+  background-color: transparent;
+  border-color: $white;
+  color: $white;
+}
+.locations {
+  background-color: $white;
+  padding: 10px 30px 10px 39px;
+  position: absolute;
+  right: 0;
+  font-weight: 800;
+  font-size: 13px;
+  border-radius: 0 0 0 50px;
+  padding: 10px 16px 10px 28px;
+  border: 2px dashed $white;
+  transition: 0.8s all;
+  z-index: 99;
+  top: 0;
+}
+.locations:hover {
+  border: 2px dashed $white;
+  background-color: transparent;
+  color: $white;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin related_work-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin related_work-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin related_work-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin related_work-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin related_work-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin related_work-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin related_work-mixin-max-sm() {
+  .related_work {
+    background-size: auto;
+    padding: 55px 0 40px;
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+      & .portfolio_page_box {
+        height: 350px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin related_work-mixin-max-md() {
+  .related_work {
+    padding: 65px 0 40px;
+    & .portfolio_page_box {
+      height: 330px;
+      & .locations {
+        padding: 9px 16px 9px 26px;
+      }
+      & .portfolio_hover {
+        & .portfolio_hover_inner {
+          & .portfolio_tags {
+            & .tag_port {
+              font-size: 11px;
+              margin-bottom: 10px;
+              border: 1px dashed;
+            }
+          }
+        }
+      }
+    }
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin related_work-mixin-max-lg() {
+  .related_work {
+    padding: 70px 0 70px;
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin related_work-mixin-max-xl() {
+  .related_work {
+    & .portfolio_page_box {
+      height: 350px;
+    }
+  }
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include portfolio_single-mixin-min-sm();
+  @include related_work-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include portfolio_single-mixin-min-md();
+  @include related_work-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include portfolio_single-mixin-min-lg();
+  @include related_work-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include portfolio_single-mixin-min-xl();
+  @include related_work-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include portfolio_single-mixin-min-xxl();
+  @include related_work-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include portfolio_single-mixin-max-xl();
+  @include related_work-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include portfolio_single-mixin-max-lg();
+  @include related_work-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include portfolio_single-mixin-max-md();
+  @include related_work-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include portfolio_single-mixin-max-sm();
+  @include related_work-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include portfolio_single-mixin-max-xs();
+  @include related_work-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

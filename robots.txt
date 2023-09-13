@@ -1,0 +1,68 @@
+User-agent: *
+Disallow: /request-demo.php
+Disallow: /aapp/*
+Disallow: /imgglobal/admin/login
+Disallow: /blog/tag/
+Disallow: /blog/wp-content/
+Disallow: /website-development-company-rewari.php
+Disallow: /website-development-company-neemrana.php
+Disallow: /nidhi-company-software-kerala.php
+Disallow: /php-blog-development-solutions.php
+Disallow: /website-development-company-gurgaon.php
+Disallow: /website-development-company-bhiwadi.php
+Disallow: /a/
+Disallow: /portfolio.php?page=*
+Disallow: /public
+Disallow: /public/*
+
+Allow: /blog/wp-admin/
+Allow: /portfolio/mysure11
+Allow: /images/company-profile.pdf
+
+Noindex: /thankyou.php
+Noindex: /hiring.php
+Noindex: /hiring_thankyou.php
+Noindex: /blog/blog
+Noindex: /blog/web_root/css1/
+Noindex: /blog/web_root/js/
+Noindex: /college-management-software.php
+Noindex: /customer-relationship-management-software.php
+Noindex: /gps-tracking-software.php
+Noindex: /industrial-erp-development.php
+Noindex: /institute-management-software.php
+Noindex: /payroll-management-software.php
+Noindex: /school-management-software.php
+Noindex: /wordpress-website-development.php
+
+Disallow: /sms/Assets/white_label/css/style.css
+Disallow: /sms/Assets/user/js/bundle.js
+Disallow: /sms/Assets/white_label/js/bootsnav.js
+Disallow: /sms/Assets/white_label/images/http1.jpg
+Disallow: /sms/Assets/Assets/white_label/css/loader.css
+Disallow: /sms/Assets/white_label/js/jquery-2.2.3.js
+Disallow: /sms/Assets/white_label/js/bootstrap.min.js
+Disallow: /sms/Assets/white_label/css/mycss.css
+Disallow: /sms/Assets/user/js/jquery.min.js
+Disallow: /sms/Assets/user/js/sweet-alert.js
+Disallow: /sms/sign-up
+Disallow: /sms/terms_conditions
+Disallow: /blog/web_root/css1/Classes/PHPExcel/Writer/Excel5/Worksheet.php
+Disallow: /blog/web_root/css1/Classes/PHPExcel/Writer/Excel5/Workbook.php
+Disallow: /blog/web_root/css1/Classes/PHPExcel/Worksheet/Drawing/Shadow.php
+Disallow: /blog/web_root/css1/Classes/PHPExcel/Worksheet/MemoryDrawing.php
+Disallow: /blog/web_root/css1/Classes/PHPExcel/Worksheet/BaseDrawing.php
+Disallow: /blog/web_root/css1/Classes/PHPExcel/Worksheet/Drawing.php
+Disallow:/blog/web_root/css1/Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php
+
+Allow: /*.webp
+Allow: /*.jpeg
+Allow: /*.jpg
+Allow: /*.JPEG
+Allow: /*.JPG
+Allow: /*.GIF
+Allow: /*.gif
+Allow: /*.PNG
+Allow: /*.png
+Allow: /*.xml
+
+Sitemap: https://www.imgglobalinfotech.com/sitemap.xml

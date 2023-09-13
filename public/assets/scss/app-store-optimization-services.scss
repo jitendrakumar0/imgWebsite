@@ -1,0 +1,1215 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+// New-Portfolio
+.portfolioBox {
+  position: relative;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  overflow: hidden;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0px 12px 12px -5px !important;
+  cursor: pointer;
+}
+.portfolioBox:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(180deg,rgba(0,0,0,0) 21.88%,rgba(0,0,0,.7) 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+}
+.portfolioBox img {
+  height: 100%;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+}
+.portfolioBox .portfolioBoxContent {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  padding: 30px 20px;
+  width: 100%;
+  transform: translate(0,10px);
+  -webkit-transform: translate(0,10px);
+  -ms-transform: translate(0,10px);
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  overflow: hidden;
+  -moz-transform: translate(0,10px);
+  -o-transform: translate(0,10px);
+}
+.portfolioBox:hover .portfolioBoxContent {
+  transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+}
+.portfolioBox:hover img{
+  transform:scale(1.05);
+  -webkit-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -o-transform:scale(1.05);
+}
+.portfolioBox:hover::before{
+  background:linear-gradient(180deg,rgba(0,0,0,0) 0,#000 100%);
+  transform:translateY(0);
+  -webkit-transform:translateY(0);
+  -moz-transform:translateY(0);
+  -ms-transform:translateY(0);
+  -o-transform:translateY(0);
+}
+
+.portfolioBox .portfolioBoxContent h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.portfolioBox .portfolioBoxContent p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+.portfolioBox .portfolioBoxContent button.view_btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1d73f8;
+  background: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transform: translate(0,20px);
+  -webkit-transform: translate(0,20px);
+  -ms-transform: translate(0,20px);
+}
+
+//  Transform Vision 
+.about_iphone {
+  background: lighten($gray-200, 4);
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+      }
+      &:nth-child(2) {
+        filter: contrast(0);
+        left: -18px;
+        bottom: -27px;
+        width: 350px;
+      }
+      &:nth-child(3) {
+        width: 250px;
+        left: -242px;
+        top: 0px;
+        transform: rotate(39deg);
+      }
+    }
+  }
+  & .justify {
+    text-align: justify;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin about_iphone-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin about_iphone-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin about_iphone-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin about_iphone-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin about_iphone-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin about_iphone-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin about_iphone-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin about_iphone-mixin-max-md() {
+  .about_iphone {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin about_iphone-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin about_iphone-mixin-max-xl() {
+}
+
+// Web Design Sales
+.web-design-sales-drive {
+  background: $white;
+  background-size: cover;
+}
+.web-design-sales-drive .to-access-item {
+  border-radius: 10px;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 0 auto 30px;
+  transition: 0.5s all;
+  position: relative;
+  background: darken($theme1, 40);
+}
+.web-design-sales-drive .to-access-item:hover {
+  transform: translateY(-10px);
+  background: darken($theme2, 40);
+}
+.web-design-sales-drive .to-access-item .to-access-thumb {
+  margin: 0 auto 28px;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+}
+.web-design-sales-drive .to-access-item .to-access-thumb span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #c2c6f7;
+  animation: rotate2 8s linear infinite;
+  animation-play-state: paused;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  content: "";
+}
+.web-design-sales-drive .to-access-item .to-access-thumb span::after {
+  background-size: contain;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(0deg, $theme1 0, $theme1 100%);
+  width: 13px;
+  height: 13px;
+  left: auto;
+  bottom: auto;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  content: "";
+}
+.web-design-sales-drive .to-access-item .to-access-thumb span::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(0deg, $theme1 0, $theme1 100%);
+  left: 5px;
+  bottom: 5px;
+}
+.web-design-sales-drive .to-access-item .to-access-thumb .thumb {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 2.419px 9.703px 12.48px 0.52px #dbdaff80;
+  background: $white;
+  position: absolute;
+  right: 0;
+  left: 0px;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: $theme1;
+}
+.web-design-sales-drive .to-access-item .to-access-thumb .thumb img {
+  width: 100%;
+  max-width: 40px;
+}
+.web-design-sales-drive .to-access-item.active .to-access-thumb span {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+.web-design-sales-drive .to-access-item:hover .to-access-thumb span {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+@keyframes rotate2 {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(1440deg);
+    transform: translate(-50%, -50%) rotate(1440deg);
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin web-design-sales-drive-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin web-design-sales-drive-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin web-design-sales-drive-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin web-design-sales-drive-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin web-design-sales-drive-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin web-design-sales-drive-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin web-design-sales-drive-mixin-max-sm() {
+  .web-design-sales-drive {
+    background-size: auto;
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin web-design-sales-drive-mixin-max-md() {
+  .web-design-sales-drive {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin web-design-sales-drive-mixin-max-lg() {
+  .web-design-sales-drive {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin web-design-sales-drive-mixin-max-xl() {
+}
+
+// Portal Services
+.portal_services .arrow_dots {
+  position: absolute;
+  top: 37%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  transform: rotate(-3deg);
+  opacity: 0.8;
+}
+.portal_services_box {
+  transition: all 200ms ease-in-out 0s;
+  border: 1px solid $gray-400;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background: $white;
+  transform: translateY(-10px);
+  &::after {
+    content: "";
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    right: -20%;
+    left: -20%;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: -1;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    background-color: $theme3;
+    height: 251px;
+    top: -191px;
+    border-radius: 0 0 50% 50%;
+  }
+}
+.portal_services_box:hover {
+  box-shadow: 0px 5px 25px $gray-300;
+}
+.portal_services::after {
+  content: "";
+  background: url(../../../img/app-store-optimization/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.portal_services .api_ico img {
+  max-width: 60px;
+}
+.portal_services .animate_img {
+  position: absolute;
+  left: -370px;
+  animation: ani-rotate 50s linear infinite;
+  top: -260px;
+  -webkit-filter: brightness(0.94);
+  filter: brightness(0.94);
+}
+.portal_services .animate_img2 {
+  position: absolute;
+  right: -370px;
+  animation: ani-rotate 50s linear infinite;
+  bottom: -260px;
+  filter: brightness(0.94);
+}
+@keyframes ani-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin portal_services-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin portal_services-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin portal_services-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin portal_services-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin portal_services-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin portal_services-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin portal_services-mixin-max-sm() {
+  .portal_services {
+    background-size: auto;
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin portal_services-mixin-max-md() {
+  .portal_services {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    & .animate_img {
+      max-width: 340px;
+      left: -190px;
+      top: -150px;
+    }
+    & .animate_img2 {
+      max-width: 340px;
+      right: -190px;
+      bottom: -150px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin portal_services-mixin-max-lg() {
+  .portal_services {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    & .animate_img {
+      max-width: 440px;
+      left: -190px;
+      top: -150px;
+    }
+    & .animate_img2 {
+      max-width: 440px;
+      right: -190px;
+      bottom: -150px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin portal_services-mixin-max-xl() {
+  .portal_services {
+    & .animate_img {
+      max-width: 500px;
+      left: -190px;
+      top: -150px;
+    }
+    & .animate_img2 {
+      max-width: 500px;
+      right: -190px;
+      bottom: -150px;
+    }
+  }
+}
+
+// contact with us section
+.contact-with-us-section {
+  background-color: darken($theme1, 40);
+  & .heading {
+    &::after {
+      background-color: darken($theme1, 40);
+    }
+  }
+  & .form-floating {
+    & .form-control {
+      border-left: 4px solid $theme3;
+    }
+    &.is-valid {
+      border-left: 4px solid $success;
+    }
+  }
+  & .was-validated .form-control:invalid {
+    border-left: 4px solid $danger;
+  }
+  & .was-validated .form-control:valid {
+    border-left: 4px solid $success;
+  }
+  & .sparater-block {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgba($white, 0.5);
+    left: 30px;
+    top: 0;
+    & span {
+      font-weight: 300;
+      height: 48px;
+      font-size: 16px;
+      color: $white;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      line-height: 48px;
+      background: darken($theme1, 40);
+      position: absolute;
+      top: 50%;
+      left: -11px;
+      margin-top: -32px;
+    }
+    & span {
+      left: -24px;
+      width: 48px;
+      border-radius: 100%;
+      text-align: center;
+    }
+  }
+  & .emailid-block {
+    & a {
+      width: 100%;
+      float: left;
+      border-radius: 5px;
+      background: rgba($black, 0.46);
+      border: 1px solid rgba($gray-800, 0.23);
+      padding: 14px 10px 10px 90px;
+      position: relative;
+      min-height: 80px;
+      transition: 0.5s all;
+      & i {
+        position: absolute;
+        left: 22px;
+        top: 23px;
+        width: 28px;
+        height: 39px;
+        font-size: 32px;
+        border-right: 1px solid rgba($white, 0.1);
+        padding: 2px 44px 0px 0;
+      }
+      & span {
+        &.small-text {
+          font-size: 14px;
+          color: $theme1;
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          display: flex;
+        }
+        &.large-text {
+          font-size: 20px;
+          color: $white;
+          line-height: 34px;
+        }
+      }
+    }
+    &.skype_block {
+      & a {
+        background-color: rgba($gray-800, 0.5);
+      }
+    }
+    & a {
+      &:hover {
+        &::before {
+          background: rgba($theme1, 0.1);
+        }
+      }
+    }
+  }
+  & .listing-block {
+    & h3 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 18px;
+      color: $white;
+      letter-spacing: 0.2px;
+    }
+    & ul {
+      width: 100%;
+      float: left;
+      margin-top: 19px;
+      & li {
+        list-style: none;
+        font-weight: 300;
+        font-size: 17px;
+        color: $white;
+        letter-spacing: 0.4px;
+        margin-bottom: 11px;
+        padding-left: 42px;
+        position: relative;
+      }
+      &.bluts {
+        & li {
+          padding-left: 32px;
+          &:after {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background-color: $theme3;
+            border-radius: 100%;
+            top: 7px;
+            content: "";
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin contact-with-us-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin contact-with-us-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin contact-with-us-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin contact-with-us-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin contact-with-us-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin contact-with-us-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin contact-with-us-section-mixin-max-sm() {
+  .contact-with-us-section {
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+    & .form-floating {
+      .form-control {
+        height: 52px;
+        font-size: 14px;
+      }
+      & label {
+        font-size: 13px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin contact-with-us-section-mixin-max-md() {
+}
+// Large devices (desktops, less than 1200px)
+@mixin contact-with-us-section-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin contact-with-us-section-mixin-max-xl() {
+}
+
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  background: url(../../../img/ios-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  background: url(../../../img/ios-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin faq_section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin faq_section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin faq_section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin faq_section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin faq_section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin faq_section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin faq_section-mixin-max-sm() {
+  .faq_section {
+    & .portfolio-bg-layer {
+      width: 210px;
+      height: 210px;
+    }
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+    .accordion-item {
+      & .accordion-header {
+        & .accordion-button {
+          padding: 12px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin faq_section-mixin-max-md() {
+  .faq_section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin faq_section-mixin-max-lg() {
+  .faq_section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin faq_section-mixin-max-xl() {
+}
+
+// related services
+.related-services {
+  background: $white;
+  background-size: cover;
+  & .related-services-btn {
+    transition: 0.5s all;
+    &:hover {
+      background-color: $theme2 !important;
+    }
+  }
+}
+
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include about_iphone-mixin-min-sm();
+  @include web-design-sales-drive-mixin-min-sm();
+  @include portal_services-mixin-min-sm();
+  @include faq_section-mixin-min-sm();
+  @include contact-with-us-section-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include about_iphone-mixin-min-md();
+  @include web-design-sales-drive-mixin-min-md();
+  @include portal_services-mixin-min-md();
+  @include faq_section-mixin-min-md();
+  @include contact-with-us-section-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include about_iphone-mixin-min-lg();
+  @include web-design-sales-drive-mixin-min-lg();
+  @include portal_services-mixin-min-lg();
+  @include faq_section-mixin-min-lg();
+  @include contact-with-us-section-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include about_iphone-mixin-min-xl();
+  @include web-design-sales-drive-mixin-min-xl();
+  @include portal_services-mixin-min-xl();
+  @include faq_section-mixin-min-xl();
+  @include contact-with-us-section-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include about_iphone-mixin-min-xxl();
+  @include web-design-sales-drive-mixin-min-xxl();
+  @include portal_services-mixin-min-xxl();
+  @include faq_section-mixin-min-xxl();
+  @include contact-with-us-section-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include about_iphone-mixin-max-xl();
+  @include web-design-sales-drive-mixin-max-xl();
+  @include portal_services-mixin-max-xl();
+  @include faq_section-mixin-max-xl();
+  @include contact-with-us-section-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include about_iphone-mixin-max-lg();
+  @include web-design-sales-drive-mixin-max-lg();
+  @include portal_services-mixin-max-lg();
+  @include faq_section-mixin-max-lg();
+  @include contact-with-us-section-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include about_iphone-mixin-max-md();
+  @include web-design-sales-drive-mixin-max-md();
+  @include portal_services-mixin-max-md();
+  @include faq_section-mixin-max-md();
+  @include contact-with-us-section-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include about_iphone-mixin-max-sm();
+  @include web-design-sales-drive-mixin-max-sm();
+  @include portal_services-mixin-max-sm();
+  @include faq_section-mixin-max-sm();
+  @include contact-with-us-section-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include about_iphone-mixin-max-xs();
+  @include web-design-sales-drive-mixin-max-xs();
+  @include portal_services-mixin-max-xs();
+  @include faq_section-mixin-max-xs();
+  @include contact-with-us-section-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+
+// Portfolio Slider
+// Fantasy Cricket App Feature section
+.fantasy_cricket_features {
+  & .cricket_features {
+    padding: 30px 25px 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 50px 0px rgba($black, 0.149);
+    transition: 0.8s all;
+    position: relative;
+    overflow: hidden;
+    & img {
+      transition: 0.5s all;
+    }
+    &::after {
+      content: '';
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      bottom: -50%;
+      right: -50%;
+      opacity: 0;
+      transform: scale(0.1);
+      background: linear-gradient(45deg, darken($theme1, 40), darken($theme1, 20));
+      position: absolute;
+      transition: 0.3s cubic-bezier(0.13, 0.03, 0.75, 1.05);
+      z-index: -1;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        transform: rotateY(360deg);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/website-development-company-alwar/bubble-o.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: left top;
+    z-index: 0;
+    filter: brightness(0.94);
+    background-size: 60px;
+  }
+}
+
+
+// Medium devices (tablets, less than 992px)
+@mixin fantasy_cricket_features-mixin-max-md() {
+  .fantasy_cricket_features {
+    & .cricket_features {
+      transform: translateY(0px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        filter: brightness(14.5);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin want-to-join-section-mixin-max-xl() {
+}
+
+// fantasy-cricket-app-slider
+.fantasy-cricket-app-slider {
+  & .fantasy-cricket-sldier {
+    & .owl-nav {
+      width: 100%;
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      height: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.disabled {
+        display: none !important;
+      }
+      & button[class*="owl-"] {
+        font-size: 20px;
+        background: $theme3 !important;
+        width: 40px;
+        height: 40px;
+        color: $white !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 0px 5px;
+        opacity: 1;
+        transform-style: preserve-3d;
+        position: relative;
+        & i {
+          transform: translateZ(20px);
+          display: block;
+        }
+      }
+      & button.owl-prev {
+        left: -75px;
+      }
+      & button.owl-next {
+        right: -75px;
+      }
+    }
+    & .owl-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      &.disabled {
+        display: none !important;
+      }
+      & .owl-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+        background: $white;
+        border: 1px solid $gray-300;
+        box-shadow: 0px 1px 0px 0px $gray-300;
+        margin: 0px 3px;
+        transition: 0.5s all;
+        &.active {
+          background: $theme3;
+          width: 32px;
+        }
+      }
+    }
+  }
+}
+.fantasy-cricket-app-slider::after {
+  content: "";
+  background: url(../../../img/fantasy-cricket-app-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.fantasy-cricket-sldier-img img {
+  max-width: 630px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.fantasy-cricket-app-slider .animate_img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  left: -270px;
+  animation: ani-rotate 50s linear infinite;
+  top: -230px;
+  filter: brightness(0.94);
+}
+.fantasy-cricket-app-slider .animate_img1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  right: -270px;
+  animation: ani-rotate 50s linear infinite;
+  bottom: -230px;
+  filter: brightness(0.94);
+}
+@keyframes ani-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin fantasy-cricket-app-slider-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin fantasy-cricket-app-slider-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin fantasy-cricket-app-slider-mixin-max-md() {
+  .fantasy-cricket-app-slider {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0;
+      }
+      &::after {
+        right: 0;
+        animation: headings 3s infinite;
+      }
+    }
+    & .fantasy-cricket-sldier {
+      & .owl-nav {
+        & button.owl-prev {
+          left: -47px;
+        }
+        & button.owl-next {
+          right: -47px;
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin fantasy-cricket-app-slider-mixin-max-lg() {
+  .fantasy-cricket-app-slider {
+    & .container {
+      max-width: 88%;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin fantasy-cricket-app-slider-mixin-max-xl() {
+  .fantasy-cricket-app-slider {
+    .container {
+      max-width: 1040px;
+    }
+  }
+}
+

@@ -1,0 +1,814 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+  &::before {
+    content: "";
+    background: url(../../../img/static-website-designing/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+    z-index: 0;
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/static-website-designing/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    z-index: 0;
+    background-repeat: no-repeat;
+    mix-blend-mode: overlay;
+  }
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        -webkit-filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+                filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        -webkit-filter: invert(1);
+                filter: invert(1);
+      }
+    }
+  }
+  & > * {
+    &::before {
+      content: "";
+      background: url(../../../img/static-website-designing/bubble-o.webp);
+      position: absolute;
+      top: 20%;
+      left: 13%;
+      background-position: top right;
+      -webkit-filter: brightness(0.2);
+              filter: brightness(0.2);
+      z-index: 0;
+      transform: rotateY(180deg) rotateX(180deg);
+      width: 150px;
+      height: 150px;
+      background-size: 100px;
+    }
+  }
+}
+
+
+// New-Portfolio Section 
+
+.portfolioBox {
+  position: relative;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  overflow: hidden;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0px 12px 12px -5px !important;
+  cursor: pointer;
+
+&:hover .portfolioBoxContent {
+      transform: translate(0,0);
+      -webkit-transform: translate(0,0);
+      -ms-transform: translate(0,0);
+    }
+    &:hover img{
+      transform:scale(1.05);
+      -webkit-transform:scale(1.05);
+      -ms-transform:scale(1.05);
+      -moz-transform:scale(1.05);
+      -o-transform:scale(1.05);
+    }
+    & :hover::before{
+      background:linear-gradient(180deg,rgba(0,0,0,0) 0,#000 100%);
+      transform:translateY(0);
+      -webkit-transform:translateY(0);
+      -moz-transform:translateY(0);
+      -ms-transform:translateY(0);
+      -o-transform:translateY(0);
+    }
+    
+   & .portfolioBoxContent {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        padding: 30px 20px;
+        width: 100%;
+        transform: translate(0,10px);
+        -webkit-transform: translate(0,10px);
+        -ms-transform: translate(0,10px);
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        overflow: hidden;
+        -moz-transform: translate(0,10px);
+        -o-transform: translate(0,10px);
+
+        & h4 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+          }
+        & p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+          }
+        }
+  
+        & img {
+          height: 100%;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: scale(1);
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+        }
+        & button .view_btn {
+          font-weight: 700;
+          font-size: 16px;
+          color: #1d73f8;
+          background: 0;
+          border: 0;
+          padding: 0;
+          outline: 0;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translate(0,20px);
+          -webkit-transform: translate(0,20px);
+          -ms-transform: translate(0,20px);
+        }
+        &::before{
+          content: '';
+          width: 100%;
+          height: 100%;
+          display: block;
+          background: linear-gradient(180deg,rgba(0,0,0,0) 21.88%,rgba(0,0,0,.7) 100%);
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translateY(0px);
+          -webkit-transform: translateY(0px);
+          -moz-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+          -o-transform: translateY(0px);
+   }  
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+
+// understanding-ionic-apps-section
+.understanding-ionic-apps-section {
+  background: #f5f6f8;
+}
+.understanding-ionic-apps-section::before {
+  content: "";
+  background: url(../../../img/static-website-designing/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.understanding-ionic-apps-section::after {
+  content: "";
+  background: url(../../../img/static-website-designing/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.understanding-ionic-apps-section .tilt_image_pos img:nth-child(1) {
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.understanding-ionic-apps-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin understanding-ionic-apps-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin understanding-ionic-apps-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin understanding-ionic-apps-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin understanding-ionic-apps-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin understanding-ionic-apps-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin understanding-ionic-apps-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin understanding-ionic-apps-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin understanding-ionic-apps-section-mixin-max-md() {
+  .understanding-ionic-apps-section {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin understanding-ionic-apps-section-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin understanding-ionic-apps-section-mixin-max-xl() {
+}
+
+// ionic benefits section
+.ionic-benefits-section {
+  background: darken($theme1, 40);
+  background-size: cover;
+  & .ionic-benefits-box {
+    background: rgba($black, 0.46);
+    border: 1px solid rgba($gray-800, 0.23);
+    border-radius: 10px;
+    transition: 0.5s;
+    & .ionic-benefits-box-ico {
+      display: block;
+      margin: 15px 0;
+      & img {
+        max-width: 65px;
+      }
+    }
+    & span {
+      & i {
+        color: $theme3;
+      }
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      left: 12px;
+      top: 12px;
+      width: calc(100% - 24px);
+      height: calc(100% - 24px);
+      background: rgba($theme1, 0.1);
+      border-radius: 10px;
+      -webkit-backdrop-filter: blur(19px);
+              backdrop-filter: blur(19px);
+      transition: 0.5s all;
+      transition-delay: 0s;
+      z-index: 0;
+    }
+    &:hover {
+      background: rgba($theme1, 0.1);
+      &::before {
+        background: rgba($black, 0.46);
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin ionic-benefits-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin ionic-benefits-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin ionic-benefits-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin ionic-benefits-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin ionic-benefits-section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin ionic-benefits-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin ionic-benefits-section-mixin-max-sm() {
+  .ionic-benefits-section {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin ionic-benefits-section-mixin-max-md() {
+  .ionic-benefits-section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin ionic-benefits-section-mixin-max-lg() {
+  .ionic-benefits-seccenter {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin ionic-benefits-section-mixin-max-xl() {
+}
+
+.redesign-web-features::after {
+  content: "";
+  background: url(../../../img/static-website-designing/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.redesign-web-features::before {
+  content: "";
+  background: url(../../../img/static-website-designing/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.boxdiv {
+  background: #f9f9f9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background 0.2s ease;
+  text-align: center;
+  box-shadow: inset 0 0 15px #00000033;
+  min-height: 100px;
+  border-radius: 5px;
+  display: flex;
+  color: #e09c19;
+  align-items: center;
+  transition: 0.5s all;
+}
+.boxdiv:hover {
+  background: #e09c19;
+  color: #fff;
+  box-shadow: inset 0 0 20px #0000004d;
+  transform: translateY(-8px);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin redesign-web-features-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin redesign-web-features-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin redesign-web-features-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin redesign-web-features-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin redesign-web-features-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin redesign-web-features-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin redesign-web-features-mixin-max-sm() {
+  .redesign-web-features {
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin redesign-web-features-mixin-max-md() {
+  .redesign-web-features {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin redesign-web-features-mixin-max-lg() {
+  .redesign-web-features {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+    & .boxdiv {
+      min-height: auto;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin redesign-web-features-mixin-max-xl() {
+}
+
+// Redesign Web Portfolio
+.project-wrap {
+  position: relative;
+  height: 340px;
+  overflow: hidden;
+  border-radius: 20px;
+  z-index: 0;
+  margin-bottom: 30px;
+  background: var(--bg);
+  background-size: cover;
+}
+.project-wrap:after,
+.project-wrap:before {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(darken($theme1, 40), 0.8);
+  width: 100%;
+  height: 50%;
+  content: "";
+  opacity: 0.7;
+  transition: all 0.6s ease;
+}
+.project-wrap:before {
+  top: -50%;
+}
+.project-wrap:after {
+  bottom: -50%;
+}
+.project-wrap .text {
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  display: block;
+  width: 100%;
+}
+.project-wrap .text .icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: $theme3;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: $white;
+}
+.project-wrap:hover:before {
+  top: 0;
+  right: 0;
+}
+.project-wrap:hover:after {
+  bottom: 0;
+  left: 0;
+}
+.project-wrap:hover .text {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  content: "";
+  background: darken($theme1, 40);
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin redesign-web-portfolio-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin redesign-web-portfolio-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin redesign-web-portfolio-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin redesign-web-portfolio-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin redesign-web-portfolio-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin redesign-web-portfolio-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin redesign-web-portfolio-mixin-max-sm() {
+  .redesign-web-portfolio {
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+    & .overlay {
+      height: 300px;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin redesign-web-portfolio-mixin-max-md() {
+  .redesign-web-portfolio {
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    & .overlay {
+      height: 28%;
+    }
+    & .project-wrap {
+      & .text {
+        & .icon {
+          font-size: 15px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin redesign-web-portfolio-mixin-max-lg() {
+  .redesign-web-portfolio {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+    & .project-wrap {
+      height: 290px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin redesign-web-portfolio-mixin-max-xl() {
+}
+
+
+// Contact Us Project section
+.Contact_us_project {
+  background: darken($theme3, 40);
+}
+.Contact_us_project .proposal_bg::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: -89px;
+  top: -64px;
+  width: 252px;
+  height: 242px;
+  background: url(../../../img/static-website-designing/bubble-o.webp);
+  background-size: 140px;
+  filter: brightness(0);
+  opacity: 0.2;
+  transform: rotate(45deg);
+}
+.Contact_us_project .proposal_bg::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: url(../../../img/static-website-designing/bg-pattern-cl.webp);
+  background-size: cover;
+  width: 150px;
+  height: 189px;
+  right: -43px;
+  top: -40px;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include top_banner-mixin-min-sm();
+  @include understanding-ionic-apps-section-mixin-min-sm();
+  @include ionic-benefits-section-mixin-min-sm();
+  @include redesign-web-features-mixin-min-sm();
+  @include redesign-web-portfolio-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include top_banner-mixin-min-md();
+  @include understanding-ionic-apps-section-mixin-min-md();
+  @include ionic-benefits-section-mixin-min-md();
+  @include redesign-web-features-mixin-min-md();
+  @include redesign-web-portfolio-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include top_banner-mixin-min-lg();
+  @include understanding-ionic-apps-section-mixin-min-lg();
+  @include ionic-benefits-section-mixin-min-lg();
+  @include redesign-web-features-mixin-min-lg();
+  @include redesign-web-portfolio-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include top_banner-mixin-min-xl();
+  @include understanding-ionic-apps-section-mixin-min-xl();
+  @include ionic-benefits-section-mixin-min-xl();
+  @include redesign-web-features-mixin-min-xl();
+  @include redesign-web-portfolio-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include top_banner-mixin-min-xxl();
+  @include understanding-ionic-apps-section-mixin-min-xxl();
+  @include ionic-benefits-section-mixin-min-xxl();
+  @include redesign-web-features-mixin-min-xxl();
+  @include redesign-web-portfolio-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include top_banner-mixin-max-xl();
+  @include understanding-ionic-apps-section-mixin-max-xl();
+  @include ionic-benefits-section-mixin-max-xl();
+  @include redesign-web-features-mixin-max-xl();
+  @include redesign-web-portfolio-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include top_banner-mixin-max-lg();
+  @include understanding-ionic-apps-section-mixin-max-lg();
+  @include ionic-benefits-section-mixin-max-lg();
+  @include redesign-web-features-mixin-max-lg();
+  @include redesign-web-portfolio-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include top_banner-mixin-max-md();
+  @include understanding-ionic-apps-section-mixin-max-md();
+  @include ionic-benefits-section-mixin-max-md();
+  @include redesign-web-features-mixin-max-md();
+  @include redesign-web-portfolio-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include top_banner-mixin-max-sm();
+  @include understanding-ionic-apps-section-mixin-max-sm();
+  @include ionic-benefits-section-mixin-max-sm();
+  @include redesign-web-features-mixin-max-sm();
+  @include redesign-web-portfolio-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include top_banner-mixin-max-xs();
+  @include understanding-ionic-apps-section-mixin-max-xs();
+  @include ionic-benefits-section-mixin-max-xs();
+  @include redesign-web-features-mixin-max-xs();
+  @include redesign-web-portfolio-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

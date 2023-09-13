@@ -1,0 +1,1094 @@
+@charset "UTF-8";
+@import "variables";
+
+.why-hire-developers-img{
+  background: #f7f7f7;
+}
+
+.leftside{
+  & img{
+    animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
+  }
+  @-webkit-keyframes howtowork2 {
+    0% {
+      transform: translateX(8px);
+    }
+    100% {
+      transform: translateX(-8px);
+    }
+  }
+
+  @keyframes howtowork2 {
+    0% {
+      transform: translateX(8px);
+    }
+    100% {
+      transform: translateX(-8px);
+    }
+  }
+} 
+.banner-cta1{
+  // background: url(../../../img/hire-android-app-developers/dream-project-bg.webp);
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+  border-radius: 10px;
+  
+   & .div:last-child{
+    font-size: 39px !important;
+   }
+  & .expert-btn{
+    padding: 6px 22px !important;
+    cursor: pointer;
+    transition: all ease .4s;
+    border-radius: 4px !important;
+    &:hover{
+      background-color: #e09c19 !important;
+      color: #fff;
+    }
+  }
+}
+.banner-cta2{
+  // background: url(../../../img/hire-android-app-developers/pattern.png) left top no-repeat #2b64e9;
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+  border-radius: 10px;
+  & .expert-btn{
+    padding: 6px 22px !important;
+    cursor: pointer;
+    transition: all ease .4s;
+    border-radius: 4px !important;
+    &:hover{
+      background-color: #e09c19 !important;
+      color: #fff;
+    }
+  }
+}
+.developers-process{
+  // background: #f7f7f7;
+    & .shapes-circle{
+      width: 600px;
+      height: 600px;
+      background: #ebf2ff;
+      position: absolute;
+      top: 50%;
+      right: -100px;
+      z-index: -1;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      transform: translate(0,-50%);
+      }
+      & .count{
+        color: #0b5a7b !important;
+        counter-increment: count;
+        content: counters(count, ".", decimal-leading-zero);
+      }
+      & .service-box{
+          border: 2px dashed #0b5a7b;
+          border-radius: 15px;
+          &:hover{
+            border: 2px dashed #e09c19;
+          }
+        &:hover .service_ico img{
+          -moz-transform: scale(-1) rotate(180deg);
+              -o-transform: scale(-1) rotate(180deg);
+              -ms-transform: scale(-1) rotate(180deg);
+              -webkit-transform: scale(-1) rotate(180deg);
+              transform: scale(-1) rotate(180deg);
+              cursor: pointer;
+        }
+        & .service_ico {
+            & img{
+                -moz-transition: all 400ms ease-out 0s;
+                -webkit-transition: all 400ms ease-out 0s;
+                -ms-transition: all 400ms ease-out 0s;
+                -o-transition: all 400ms ease-out 0s;
+                transition: all 400ms ease-out 0s;
+              }
+            }
+        & .arrow-3{
+          left: 50%;
+          bottom: -64px;
+          height: 50px;
+        }
+      }
+}
+.hire-section {
+  background: #0b5a7b;
+  & .leftimg{
+    background-position: center;
+    background: url(../../../img/hire-android-app-developers/hiring-benifits.jpg);
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.top-develpers-section{
+  background: #eff3ff;
+  & .accordion-item {
+      margin-bottom: -1px;
+      background-color: #fff;
+      border-bottom: 1px solid rgba(0,0,0,0.125);
+  }
+
+  & .accordion-button:not(.collapsed)::after {
+      background-image: none m !important;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+  }
+}
+.box {
+  border: 1px solid transparent;
+  transition: .3s all ease-in;
+  &:hover{
+    border: 1px solid #0b5a7b;
+    transition: .3s all ease-in;
+  }
+ 
+}
+// New-Portfolio Section 
+.portfolioBox {
+  position: relative;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  overflow: hidden;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0px 12px 12px -5px !important;
+  cursor: pointer;
+
+&:hover .portfolioBoxContent {
+      transform: translate(0,0);
+      -webkit-transform: translate(0,0);
+      -ms-transform: translate(0,0);
+    }
+    &:hover img{
+      transform:scale(1.05);
+      -webkit-transform:scale(1.05);
+      -ms-transform:scale(1.05);
+      -moz-transform:scale(1.05);
+      -o-transform:scale(1.05);
+    }
+    & :hover::before{
+      background:linear-gradient(180deg,rgba(0,0,0,0) 0,#000 100%);
+      transform:translateY(0);
+      -webkit-transform:translateY(0);
+      -moz-transform:translateY(0);
+      -ms-transform:translateY(0);
+      -o-transform:translateY(0);
+    }
+    
+   & .portfolioBoxContent {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        padding: 30px 20px;
+        width: 100%;
+        transform: translate(0,10px);
+        -webkit-transform: translate(0,10px);
+        -ms-transform: translate(0,10px);
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        overflow: hidden;
+        -moz-transform: translate(0,10px);
+        -o-transform: translate(0,10px);
+
+        & .h4 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+          }
+        & p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+          }
+        }
+  
+        & img {
+          height: 100%;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: scale(1);
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+        }
+        & button .view_btn {
+          font-weight: 700;
+          font-size: 16px;
+          color: #1d73f8;
+          background: 0;
+          border: 0;
+          padding: 0;
+          outline: 0;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translate(0,20px);
+          -webkit-transform: translate(0,20px);
+          -ms-transform: translate(0,20px);
+        }
+        &::before{
+          content: '';
+          width: 100%;
+          height: 100%;
+          display: block;
+          background: linear-gradient(180deg,rgba(0,0,0,0) 21.88%,rgba(0,0,0,.7) 100%);
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translateY(0px);
+          -webkit-transform: translateY(0px);
+          -moz-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+          -o-transform: translateY(0px);
+   }  
+}
+// why-choose-section
+.why-choose-section{
+
+}
+// industries
+.industries {
+  background-color: #f9f9f9 ;
+  & .industries_item {
+    cursor: pointer;
+    &:hover img{
+      -moz-transform: scale(-1) rotate(180deg);
+      -o-transform: scale(-1) rotate(180deg);
+      -ms-transform: scale(-1) rotate(180deg);
+      -webkit-transform: scale(-1) rotate(180deg);
+      transform: scale(-1) rotate(180deg);
+      
+    }
+    // background: darken($theme1, 35);
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px rgb(255 255 255 / 20%);
+        border: 2px dotted #549bb6;
+        transition: .5s all;
+    & img{
+      -moz-transition: all 400ms ease-out 0s;
+      -webkit-transition: all 400ms ease-out 0s;
+      -ms-transition: all 400ms ease-out 0s;
+      -o-transition: all 400ms ease-out 0s;
+      transition: all 400ms ease-out 0s;
+     
+    }
+   
+
+  }
+}
+
+// Faq section
+
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin faq_section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin faq_section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin faq_section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin faq_section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin faq_section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin faq_section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin faq_section-mixin-max-sm() {
+  .faq_section {
+    & .portfolio-bg-layer {
+      width: 210px;
+      height: 210px;
+    }
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+    .accordion-item {
+      & .accordion-header {
+        & .accordion-button {
+          padding: 12px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin faq_section-mixin-max-md() {
+  .faq_section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin faq_section-mixin-max-lg() {
+  .faq_section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin faq_section-mixin-max-xl() {
+}
+
+.hire-develpers-section{
+  background-color: #eee;
+  & .box{
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    transition: .3s;
+    & .text-ios{
+      color: #555555;
+    }
+    & .text-android{
+      color: #79c257;
+    }
+    & .text-nodejs{
+      color: #3C873A;
+    }
+    & .text-laravel{
+      color: #F05340;
+    }
+    & .text-react-native{
+      color: #61DBFB;
+    }
+    & .text-flutter{
+      color: #085b9f;
+    }
+    & .text-reactjs{
+      color: #61DBFB;
+    }
+    & .text-java{
+      color: #ea2e2f;
+    }
+    & .text-php{
+      color: #6b7eb8;
+    }
+    & .text-web-designer{
+      color: #860065;
+    }
+    & .text-python{
+      color: #7AA8CE;
+    }
+    & .text-angular{
+      color: #c40030;
+    }
+    & .text-full-stack{
+      color: #F8C8BE ;
+    }
+    & .text-mean-stack{
+      color: #5dc07e;
+    }
+    & .text-mern-stack{
+      color: #a1c68e;
+    }
+    & .text-web{
+      color: #56B0EB;
+    }
+    & .text-mobile-app{
+      color: #818DAA;
+    }
+    & .text-ui-ux{
+      color: #e6c688 ;
+    }
+
+
+ 
+  }
+}
+
+.major-industries-section{
+  & .overview-industries{
+      position: relative;
+      transition: 0.3s all ease-in;
+      overflow: hidden;
+      &:hover {
+        & .industries-tittle{
+          transition: 0.3s all ease-in-out;
+          bottom: 0px;
+          min-height: auto;
+          cursor: pointer;
+        }
+        & .overviewIndustriesInner {
+          &::before {
+            visibility: visible;
+          }
+        }
+      }
+      & .overviewIndustriesInner {
+        position: relative;
+        &::before {
+          visibility: hidden;
+          content: "";
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+          background-color: rgba($black, .2);
+          backdrop-filter: blur(5px);
+          transition: 0.3s all ease-in-out;
+        }
+      }
+      & img{
+        position: relative;
+        transition: 0.3s all ease-in;
+        z-index: 0;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+        & .industries-tittle{
+          z-index: 1;
+          position: absolute;
+          bottom: -147px;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+          text-align: left;
+          min-height: 170px;
+          transition: 0.3s all ease-in-out;
+      }
+  }
+}
+
+.major-industries-section{
+  & .overview-industries2{
+      position: relative;
+      transition: 0.3s all ease-in;
+      overflow: hidden;
+      &:hover {
+        & .industries-tittle2{
+          transition: 0.3s all ease-in-out;
+          bottom: 0px;
+          min-height: auto;
+          cursor: pointer;
+        }
+        & .overviewIndustriesInner {
+          &::before {
+            visibility: visible;
+          }
+        }
+      }
+      & .overviewIndustriesInner {
+        position: relative;
+        &::before {
+          visibility: hidden;
+          content: "";
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+          background-color: rgba($black, .2);
+          backdrop-filter: blur(5px);
+          transition: 0.3s all ease-in-out;
+        }
+      }
+      & img{
+        position: relative;
+        transition: 0.3s all ease-in;
+        z-index: 0;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+       }
+        & .industries-tittle2{
+          z-index: 1;
+          position: absolute;
+          bottom: -147px;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+          text-align: left;
+          min-height: 170px;
+          transition: 0.3s all ease-in-out;
+      }
+  }
+}
+// contact with us section
+.contact-with-us-section {
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: url(../../../img/ecommerce-website-development/dots.webp);
+    background-size: 225px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-size: cover;
+  }
+  background-color: darken($theme1, 40);
+  & .heading {
+    &::after {
+      background-color: darken($theme1, 40);
+    }
+  }
+  & .form-floating {
+    & .form-control {
+      border-left: 4px solid $theme3;
+    }
+    &.is-valid {
+      border-left: 4px solid $success;
+    }
+  }
+  & .was-validated .form-control:invalid {
+    border-left: 4px solid $danger;
+  }
+  & .was-validated .form-control:valid {
+    border-left: 4px solid $success;
+  }
+  & .sparater-block {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgba($white, 0.5);
+    left: 30px;
+    top: 0;
+    & span {
+      font-weight: 300;
+      height: 48px;
+      font-size: 16px;
+      color: $white;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      line-height: 48px;
+      background: darken($theme1, 40);
+      position: absolute;
+      top: 50%;
+      left: -11px;
+      margin-top: -32px;
+    }
+    & span {
+      left: -24px;
+      width: 48px;
+      border-radius: 100%;
+      text-align: center;
+    }
+  }
+  & .emailid-block {
+    & a {
+      width: 100%;
+      float: left;
+      border-radius: 5px;
+      background: rgba($black, 0.46);
+      border: 1px solid rgba($gray-800, 0.23);
+      padding: 14px 10px 10px 90px;
+      position: relative;
+      min-height: 80px;
+      transition: 0.5s all;
+      & i {
+        position: absolute;
+        left: 22px;
+        top: 23px;
+        width: 28px;
+        height: 39px;
+        font-size: 32px;
+        border-right: 1px solid rgba($white, 0.1);
+        padding: 2px 44px 0px 0;
+      }
+      & span {
+        &.small-text {
+          font-size: 14px;
+          color: $theme1;
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          display: flex;
+        }
+        &.large-text {
+          font-size: 20px;
+          color: $white;
+          line-height: 34px;
+        }
+      }
+    }
+    &.skype_block {
+      & a {
+        background-color: rgba($gray-800, 0.5);
+      }
+    }
+    & a {
+      &:hover {
+        &::before {
+          background: rgba($theme1, 0.1);
+        }
+      }
+    }
+  }
+  & .listing-block {
+    & h3 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 18px;
+      color: $white;
+      letter-spacing: 0.2px;
+    }
+    & ul {
+      width: 100%;
+      float: left;
+      margin-top: 19px;
+      & li {
+        list-style: none;
+        font-weight: 300;
+        font-size: 17px;
+        color: $white;
+        letter-spacing: 0.4px;
+        margin-bottom: 11px;
+        padding-left: 42px;
+        position: relative;
+      }
+      &.bluts {
+        & li {
+          padding-left: 32px;
+          &:after {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background-color: $theme3;
+            border-radius: 100%;
+            top: 7px;
+            content: "";
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+  & .g-recaptcha {
+    & > * {
+      width: auto !important;
+      height: auto !important;
+      & iframe {
+        width: 100% !important;
+      }
+    }
+  }
+}
+ 
+// enquiry form Section
+.form-select{
+  height: 58px;
+  border-left: 4px solid #e09c19;
+}
+.contactModal {
+ & .modal-dialog {
+   & .modal-content {
+     & .modal-header {
+       border: none !important;
+       background: darken($theme1, 40);
+       & .modal-title {
+         color: $white;
+       }
+     }
+     & .modal-footer {
+       border: none !important;
+       background: darken($theme1, 40);
+     }
+   }
+ }
+}
+
+
+
+@mixin services-coman-mixin-max-xs(){
+  .services-coman{
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+
+@mixin services-coman-mixin-max-sm(){
+  .services-coman{
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+@mixin why-hire-developers-img-mixin-max-xs(){
+  .why-hire-developers-img{
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+@mixin developers-process-mixin-max-xs(){
+  .developers-process{
+    & .process2{
+        flex-direction: column-reverse;
+    }
+    & .arrow-1{
+       display: none;
+    }
+    & .arrow-3{
+      display: none;
+    }
+   
+  }
+}
+@mixin major-industries-section-mixin-max-xs(){
+  .major-industries-section{
+    & img{
+      transition: .3s all ease-in;
+      min-height: 250px;
+      height: auto;
+      object-fit: cover;
+    }
+    & .overview-industries{ 
+      & .industries-tittle{
+          bottom: 0 !important;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+      }
+    }
+
+    & .overview-industries2{ 
+      & .industries-tittle2{
+          bottom: 0 !important;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+      }
+    }
+  }
+}
+@mixin major-industries-section-mixin-max-sm(){
+  .major-industries-section{
+    & img{
+      transition: .3s all ease-in;
+      min-height: 250px;
+      height: auto;
+      object-fit: cover;
+    }
+    & .overview-industries{ 
+      & .industries-tittle{
+          bottom: 0 !important;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+      }
+    }
+
+    & .overview-industries2{ 
+      & .industries-tittle2{
+          bottom: 0 !important;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+      }
+    }
+  }
+}
+@mixin major-industries-section-mixin-max-md(){
+  .major-industries-section{
+    & img{
+      transition: .3s all ease-in;
+    }
+    & .overview-industries{ 
+      & .industries-tittle{
+          bottom: 0px !important;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+      }
+    }
+
+    & .overview-industries2{ 
+      & .industries-tittle2{
+          bottom: 0 !important;
+          left: 0;
+          width: 100%;
+          padding: 1px 30px 40px;
+      }
+    }
+  }
+}
+@mixin developers-process-mixin-max-sm(){
+  .developers-process{
+    & .process2{
+        flex-direction: column-reverse;
+    }
+    & .arrow-1{
+       display: none;
+    }
+    & .arrow-3{
+      display: none;
+    }
+   
+  }
+}
+@mixin developers-process-mixin-max-md(){
+  .developers-process{
+    & .process2{
+        flex-direction: column-reverse;
+    }
+    & .arrow-1{
+       display: none;
+    }
+    & .arrow-3{
+      display: none;
+    }
+   
+  }
+}
+
+@mixin banner-cta1-mixin-max-xs(){
+  .banner-cta1  {
+    & .expert-btn{
+      padding: 8px 25px !important;
+    }
+   }
+  }
+@mixin banner-cta1-mixin-max-md(){
+  .banner-cta1{
+   
+  }
+}
+@mixin services-coman-mixin-max-md(){
+  .services-coman{
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+@mixin why-hire-developers-img-mixin-max-md(){
+  .why-hire-developers-img{
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+@mixin developers-process-mixin-max-md(){
+  .developers-process{
+    & .process2{
+        flex-direction: inherit;
+    }
+    & .arrow-1{
+       display: block;
+    }
+    & .arrow-3{
+      display: block;
+    }
+   
+  }
+}
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+ 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+ 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+
+}
+// XX-Large devices (larger desktops, 1400px and up)
+
+
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+}
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include services-coman-mixin-max-md(); 
+  @include banner-cta1-mixin-max-md(); 
+  @include why-hire-developers-img-mixin-max-md(); 
+   @include developers-process-mixin-max-md(); 
+   @include major-industries-section-mixin-max-md(); 
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include services-coman-mixin-max-sm(); 
+
+  @include developers-process-mixin-max-sm(); 
+  @include major-industries-section-mixin-max-sm(); 
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include services-coman-mixin-max-xs(); 
+  @include why-hire-developers-img-mixin-max-xs(); 
+  @include banner-cta1-mixin-max-xs(); 
+  @include developers-process-mixin-max-xs(); 
+  @include major-industries-section-mixin-max-xs(); 
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

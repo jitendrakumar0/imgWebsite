@@ -1,0 +1,91 @@
+@each $btnName, $btnValue in $btnTextWhite {
+  .btn-#{$btnName} {
+    &:hover {
+      color: $white;
+    }
+    color: $white;
+    & span {
+      color: $white;
+    }
+    &::before,
+    &::after {
+      color: $white;
+    }
+  }
+}
+
+[class*="btn-"] {
+  position: relative;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 9px;
+    right: 9px;
+    bottom: -6px;
+    border-radius: 10px;
+    transform: translateZ(-1px);
+  }
+  & > span {
+    transform: translateZ(30px);
+  }
+}
+
+@each $btnName, $btnValue in $colors {
+  .btn-#{$btnName} {
+    background: linear-gradient(180deg, $btnValue, darken($btnValue, 10));
+    &::before {
+      background: rgba($btnValue, 0.5);
+      border: 1px solid $btnValue;
+    }
+    &:hover {
+      background: linear-gradient(
+        180deg,
+        darken($btnValue, 2),
+        darken($btnValue, 15)
+      );
+    }
+  }
+}
+
+// Waves
+a.wave-1,
+button.wave-1,
+input.wave-1 {
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: "";
+    background-color: rgba($black, 0.1);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+  }
+  &:hover {
+    &::before {
+      -webkit-animation: hover-btn 0.8s cubic-bezier(0.77, 0, 0.175, 1) both;
+      animation: hover-btn 0.8s cubic-bezier(0.77, 0, 0.175, 1) both;
+      width: 100%;
+    }
+  }
+}
+
+@keyframes hover-btn {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.tz {
+  transform: translateZ(var(--tz));
+}

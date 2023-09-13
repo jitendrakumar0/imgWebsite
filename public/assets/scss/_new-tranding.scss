@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+
+
+@mixin media-breakpoint($name) {
+  @if $name ==basic {
+    @content;
+  }
+}
+@mixin media-breakpoint-up($name) {
+  @if $name ==sm {
+    @media (min-width: 576px) {
+      @content;
+    }
+  }
+  @else if $name ==md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @else if $name ==lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+  @else if $name ==xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+  @else if $name ==xxl {
+    @media (min-width: 1400px) {
+      @content;
+    }
+  }
+}
+@mixin media-breakpoint-down($name) {
+  @if $name ==sm {
+    @media (max-width: 575.98px) {
+      @content;
+    }
+  }
+  @else if $name ==md {
+    @media (max-width: 767.98px) {
+      @content;
+    }
+  }
+  @else if $name ==lg {
+    @media (max-width: 991.98px) {
+      @content;
+    }
+  }
+  @else if $name ==xl {
+    @media (max-width: 1199.98px) {
+      @content;
+    }
+  }
+  @else if $name ==xxl {
+    @media (max-width: 1399.98px) {
+      @content;
+    }
+  }
+}
+@include media-breakpoint(basic) {
+  .trandingSection {
+    & .trandingTabs {
+      margin-bottom: -150px;
+      & .nav-tabs {
+        border: none;
+        & .nav-item {
+          padding: 8px 8px 0px 8px;
+          & .nav-link {
+            border: none;
+            padding: 0;
+            padding-bottom: 8px;
+            transition: border 0.3s ease-in-out;
+            color: $secondary;
+            font-weight: 600;
+            font-size: 17px;
+            border-bottom-width: 0px;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            &.customNavBtn {
+              &.card {
+                width: 120px;
+                display: block;
+                border: none;
+                text-decoration: none;
+                & .card-body {
+                  width: 100%;
+                  padding: 10px;
+                  font-weight: 600;
+                  & .imgOuter {
+                    width: 50px;
+                    margin: auto;
+                    margin-bottom: 10px;
+                    & img {
+                      object-fit: contain;
+                      aspect-ratio: 2/2;
+                    }
+                  }
+                }
+                &:hover {
+                  box-shadow: 0 0 10px 10px rgba(0,0,0,.03);
+                }
+                &.active {
+                  box-shadow: 0 0 10px 10px rgba(0,0,0,.03);
+                  & .card-body {
+                    font-weight: 600;
+                  }
+                }
+              }
+            }
+            &::before {
+              content: "";
+              width: 0%;
+              height: 3px;
+              background-color: $black;
+              border-radius: 15px;
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              transition: all 0.3s ease-in-out;
+            }
+            &.active::before {
+              color: $black;
+              width: 100%;
+            }
+            &:hover::before {
+              width: 100%;
+            }
+          }
+          &:first-child {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+    & .tabsContentSection {
+      & .tab-content {
+        & .tab-pane {
+          & .leftSide {
+            padding-top: 150px;
+          }
+          & .rightSide {
+            & .norImg {
+              border-radius: 30px;
+              overflow: hidden;
+              max-height: 460px;
+              &:hover {
+                & img {
+                  transform: scale(1.1);
+                }
+              }
+              & img {
+                object-fit: contain;
+                width: 100%;
+                transition: transform 0.3s ease-in-out;
+              }
+            }
+            & .newAddedCarousel2 {
+              max-height: 440px;
+              height: 100%;
+              & .owl-stage-outer {
+                height: 100%;
+                padding: 0;
+                & .owl-stage {
+                  height: 100%;
+                  & .owl-item {
+                    height: 100%;
+                    // scale: 0.7;
+                    // transition: all 0.5s ease-in-out;
+                    // opacity: 0;
+                    &.active {
+                      // scale: unset;
+                      // opacity: 1;
+                    }
+                    & a {
+                      height: 100%;
+                      & img {
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 30px;
+                        overflow: hidden;
+                      }
+                    }
+                  }
+                }
+              }
+              & .owl-dots {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                & .owl-dot {
+                  display: inline-block;
+                  margin: 10px 10px 0 10px!important;
+                  height: 10px;
+                  width: 10px;
+                  background: lighten($black, 40);
+                  vertical-align: middle;
+                  cursor: pointer;
+                  border: 3px solid transparent;
+                  border-radius: 50%;
+                  box-shadow: none;
+                  padding: 0!important;
+                  &.active {
+                    background: $black;
+                    border: 3px solid $black;
+                    width: 14px;
+                    height: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(md) {
+}
+@include media-breakpoint-up(lg) {
+}
+@include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xxl) {
+}
+@include media-breakpoint-down(xxl) {
+}
+@include media-breakpoint-down(xl) {
+  .trandingSection {
+    & .trandingTabs {
+      & .nav-tabs {
+        & .nav-item {
+          & .nav-link {
+            &.customNavBtn {
+              &.card {
+                max-width: 100px;
+                & .card-body {
+                  padding: 5px;
+                  & .imgOuter {
+                    width: 40px;
+                    & img {
+                    }
+                  }
+                }
+                &:hover {
+                }
+              }
+            }
+            &::before {
+            }
+            &.active::before {
+            }
+            &:hover::before {
+            }
+          }
+          &:first-child {
+          }
+        }
+      }
+    }
+    & .tabsContentSection {
+      & .tab-content {
+        & .tab-pane {
+          & .leftSide {
+            padding-top: 130px;
+          }
+          & .rightSide {
+            & .newAddedCarousel2 {
+              & .owl-stage-outer {
+                & .owl-stage {
+                  & .owl-item {
+                    & a {
+                      & img {
+                      }
+                    }
+                  }
+                }
+              }
+              & .owl-dots {
+                & .owl-dot {
+                  &.active {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(lg) {
+  .trandingSection {
+  & .trandingTabs {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    & .nav-tabs {
+      & .nav-item {
+        & .nav-link {
+          &::before {
+          }
+          &.active::before {
+          }
+          &:hover::before {
+          }
+        }
+        &:first-child {
+        }
+      }
+    }
+    }
+    & .tabsContentSection {
+    & .tab-content {
+      & .tab-pane {
+        & .leftSide {
+          padding-top: 25px;
+          & .card {
+            & .card-body {
+              & .imgOuter {
+                & img {
+                }
+              }
+            }
+            &:hover {
+            }
+          }
+        }
+        & .rightSide {
+          & .newAddedCarousel2 {
+            & .owl-stage-outer {
+              & .owl-stage {
+                & .owl-item {
+                  & a {
+                    & img {
+                    }
+                  }
+                }
+              }
+            }
+            & .owl-dots {
+              & .owl-dot {
+                &.active {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  .trandingSection {
+    & .trandingTabs {
+    & .nav-tabs {
+      flex-wrap: nowrap;
+      overflow: auto hidden;
+      & .nav-item {
+        & .nav-link {
+          font-size: 16px;
+          &::before {
+          }
+          &.active::before {
+          }
+          &:hover::before {
+          }
+        }
+        &:first-child {
+        }
+      }
+    }
+    }
+    & .tabsContentSection {
+    & .tab-content {
+      & .tab-pane {
+        & .leftSide {
+          & .card {
+            max-width: 90px;
+            & .card-body {
+              padding: 5px;
+              & .imgOuter {
+                width: 40px;
+                & img {
+                }
+              }
+            }
+            &:hover {
+            }
+          }
+        }
+        & .rightSide {
+          & .newAddedCarousel2 {
+            & .owl-stage-outer {
+              & .owl-stage {
+                & .owl-item {
+                  & a {
+                    & img {
+                      border-radius: 15px;
+                    }
+                  }
+                }
+              }
+            }
+            & .owl-dots {
+              & .owl-dot {
+                margin: 10px 5px 0 5px !important;
+                width: 8px;
+                height: 8px;
+                &.active {
+                  width: 12px;
+                  height: 12px;
+                  border-width: 1.5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+}

@@ -1,0 +1,240 @@
+.form-select {
+  height: 58px;
+  border-left: 4px solid #e09c19;
+}
+
+.contactModal .modal-dialog .modal-content .modal-header {
+  border: none !important;
+  background: #03151d;
+}
+.contactModal .modal-dialog .modal-content .modal-header .modal-title {
+  color: #fff;
+}
+.contactModal .modal-dialog .modal-content .modal-footer {
+  border: none !important;
+  background: #03151d;
+}
+
+.contact-with-us-section {
+  background-color: #03151d;
+}
+.contact-with-us-section .heading::after {
+  background-color: #03151d;
+}
+.contact-with-us-section .form-floating .form-control {
+  border-left: 4px solid #e09c19;
+}
+.contact-with-us-section .form-floating.is-valid {
+  border-left: 4px solid #198754;
+}
+.contact-with-us-section .was-validated .form-control:invalid {
+  border-left: 4px solid #dc3545;
+}
+.contact-with-us-section .was-validated .form-control:valid {
+  border-left: 4px solid #198754;
+}
+.contact-with-us-section .sparater-block {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  left: 30px;
+  top: 0;
+}
+.contact-with-us-section .sparater-block span {
+  font-weight: 300;
+  height: 48px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  line-height: 48px;
+  background: #03151d;
+  position: absolute;
+  top: 50%;
+  left: -11px;
+  margin-top: -32px;
+}
+.contact-with-us-section .sparater-block span {
+  left: -24px;
+  width: 48px;
+  border-radius: 100%;
+  text-align: center;
+}
+.contact-with-us-section .emailid-block a {
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.46);
+  border: 1px solid rgba(52, 58, 64, 0.23);
+  padding: 14px 10px 10px 90px;
+  position: relative;
+  min-height: 80px;
+  transition: 0.5s all;
+}
+.contact-with-us-section .emailid-block a i {
+  position: absolute;
+  left: 22px;
+  top: 23px;
+  width: 28px;
+  height: 39px;
+  font-size: 32px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2px 44px 0px 0;
+}
+.contact-with-us-section .emailid-block a span.small-text {
+  font-size: 14px;
+  color: #139ed9;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  display: flex;
+}
+.contact-with-us-section .emailid-block a span.large-text {
+  font-size: 20px;
+  color: #fff;
+  line-height: 34px;
+}
+.contact-with-us-section .emailid-block.skype_block a {
+  background-color: rgba(52, 58, 64, 0.5);
+}
+.contact-with-us-section .emailid-block a:hover::before {
+  background: rgba(19, 158, 217, 0.1);
+}
+.contact-with-us-section .listing-block h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 0.2px;
+}
+.contact-with-us-section .listing-block ul {
+  width: 100%;
+  float: left;
+  margin-top: 19px;
+}
+.contact-with-us-section .listing-block ul li {
+  list-style: none;
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: 0.4px;
+  margin-bottom: 11px;
+  padding-left: 42px;
+  position: relative;
+}
+.contact-with-us-section .listing-block ul.bluts li {
+  padding-left: 32px;
+}
+.contact-with-us-section .listing-block ul.bluts li:after {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #e09c19;
+  border-radius: 100%;
+  top: 7px;
+  content: "";
+  left: 0;
+}
+
+.portfolioBox {
+  position: relative;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0px 12px 12px -5px !important;
+  cursor: pointer;
+}
+.portfolioBox:hover .portfolioBoxContent {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+}
+.portfolioBox:hover img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.portfolioBox :hover::before {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+.portfolioBox .portfolioBoxContent {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  padding: 30px 20px;
+  width: 100%;
+  transform: translate(0, 10px);
+  -webkit-transform: translate(0, 10px);
+  -ms-transform: translate(0, 10px);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  overflow: hidden;
+  -moz-transform: translate(0, 10px);
+  -o-transform: translate(0, 10px);
+}
+.portfolioBox .portfolioBoxContent h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.portfolioBox .portfolioBoxContent p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+.portfolioBox img {
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+}
+.portfolioBox button .view_btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1d73f8;
+  background: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: translate(0, 20px);
+  -webkit-transform: translate(0, 20px);
+  -ms-transform: translate(0, 20px);
+}
+.portfolioBox::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 21.88%, rgba(0, 0, 0, 0.7) 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+}/*# sourceMappingURL=ecommerce-website-designing-in-alwar.min.css.map */

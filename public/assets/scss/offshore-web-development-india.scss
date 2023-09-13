@@ -1,0 +1,740 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+ 
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        filter: invert(1);
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+// offshore software
+.Hire_Offshore_Developers_From_IMG_section {
+  background: lighten($gray-200, 4);
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+      }
+      &:nth-child(2) {
+        filter: contrast(0);
+      }
+    }
+  }
+}
+
+// offshore-specialise
+.offshore-specialise {
+  background: var(--bg);
+  background-size: cover;
+}
+.offshore-specialise-box {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: $white;
+  position: relative;
+  transition: 0.5s all;
+  border-bottom: 7px solid $theme3;
+  border-top: 7px solid $theme3;
+}
+.offshore-specialise-box .icon img {
+  transition: 0.5s all;
+  max-width: 100%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.offshore-specialise-box .btn-custom {
+  opacity: 0;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: -28px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background: $white;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: 4px solid $theme3;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: $theme1;
+}
+.offshore-specialise-box:hover {
+  transform: translateY(-5px);
+}
+.offshore-specialise-box .media-body strong {
+  font-size: 18px;
+  font-weight: 700;
+  color: #139ed9;
+  text-transform: capitalize;
+}
+.offshore-specialise-box:hover .btn-custom {
+  opacity: 1;
+  right: 30px;
+}
+
+// client testimonials
+
+.client-testimonials {
+  background-color: darken($theme1, 40);
+}
+.client-testimonials .avatar {
+  margin: auto;
+  border-radius: 50%;
+  max-width: 96px;
+}
+.slider_icon .avatar {
+  height: 80px;
+  width: 80px !important;
+  border-radius: 30px 10px 30px;
+}
+.customers-testimonials .box {
+  opacity: 0.2;
+  transform: scale3d(0.8, 0.8, 1);
+  transition: 0.5s all;
+}
+.customers-testimonials .owl-item.active.center .box {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+.customers-testimonials .level-item {
+  background-color: #3b779045;
+  border-radius: 4px;
+  padding: 30px 30px;
+}
+.ellipsis-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ellipsis-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ellipsis-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ellipsis-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// our clients
+.our-clients {
+  background-color: darken($theme1, 40);
+}
+
+.our-clients-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.our-clients-inner ul li {
+  width: 33.1%;
+  text-align: center;
+}
+.our-clients-inner ul li a {
+  display: flex;
+  border: 1px solid $white;
+  background-color: $white;
+  border-radius: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 100%;
+  margin-bottom: 4px;
+  transition: 0.5s all;
+}
+.our-clients-inner ul li a img {
+  transition: 0.5s all;
+}
+.our-clients::before {
+  content: "";
+  background: url(../../../img/offshore-web-development-india/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+
+// offshare_services_company
+.offshare_services_company {
+  background: var(--bg);
+  background-size: cover;
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+      }
+      &:nth-child(2) {
+        filter: contrast(0);
+      }
+    }
+  }
+}
+
+// Portal Services
+.portal_services .arrow_dots {
+  position: absolute;
+  top: 37%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  transform: rotate(-3deg);
+  opacity: 0.8;
+}
+.portal_services_box {
+  transition: all 200ms ease-in-out 0s;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+.portal_services_box:hover {
+  box-shadow: 0px 5px 25px #ccc;
+  transform: translateY(-10px);
+}
+.portal_services::after {
+  content: "";
+  background: url(../../../img/offshore-web-development-india/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.portal_services_box .api_ico {
+  font-size: 50px;
+  color: $theme1;
+}
+.portal_services_box .api_ico img {
+  max-width: 70px;
+  margin-bottom: 10px;
+  filter: grayscale(1);
+  transition: 0.5s all;
+}
+.portal_services_box:hover .api_ico img {
+  filter: grayscale(0);
+}
+
+// offshore-services
+
+.offshore-services::after {
+  content: "";
+  background: url(../../../img/offshore-web-development-india/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.offshore-services-box-text {
+  background-color: darken($theme1, 20);
+  transition: 0.8s all;
+}
+.services-box-outer {
+  border: 4px solid darken($theme1, 20);
+}
+.services-box-ico img {
+  filter: grayscale(1);
+  transition: 0.5s all;
+  max-width: 45px;
+}
+.offshore-services-box:hover .services-box-ico img {
+  filter: grayscale(0);
+}
+// FAQ Services SECTION CSS START
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  background: url(../../../img/offshore-web-development-india/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  background: url(../../../img/offshore-web-development-india/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include top_banner-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include top_banner-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include top_banner-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include top_banner-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include top_banner-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include top_banner-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include top_banner-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include top_banner-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include top_banner-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include top_banner-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+// Portfolio Slider
+// Fantasy Cricket App Feature section
+.fantasy_cricket_features {
+  & .cricket_features {
+    padding: 30px 25px 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 50px 0px rgba($black, 0.149);
+    transition: 0.8s all;
+    position: relative;
+    overflow: hidden;
+    & img {
+      transition: 0.5s all;
+    }
+    &::after {
+      content: '';
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      bottom: -50%;
+      right: -50%;
+      opacity: 0;
+      transform: scale(0.1);
+      background: linear-gradient(45deg, darken($theme1, 40), darken($theme1, 20));
+      position: absolute;
+      transition: 0.3s cubic-bezier(0.13, 0.03, 0.75, 1.05);
+      z-index: -1;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        transform: rotateY(360deg);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/website-development-company-alwar/bubble-o.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: left top;
+    z-index: 0;
+    filter: brightness(0.94);
+    background-size: 60px;
+  }
+}
+
+
+// Medium devices (tablets, less than 992px)
+@mixin fantasy_cricket_features-mixin-max-md() {
+  .fantasy_cricket_features {
+    & .cricket_features {
+      transform: translateY(0px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        filter: brightness(14.5);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin want-to-join-section-mixin-max-xl() {
+}
+
+// fantasy-cricket-app-slider
+.fantasy-cricket-app-slider {
+  & .fantasy-cricket-sldier {
+    & .owl-nav {
+      width: 100%;
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      height: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.disabled {
+        display: none !important;
+      }
+      & button[class*="owl-"] {
+        font-size: 20px;
+        background: $theme3 !important;
+        width: 40px;
+        height: 40px;
+        color: $white !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 0px 5px;
+        opacity: 1;
+        transform-style: preserve-3d;
+        position: relative;
+        & i {
+          transform: translateZ(20px);
+          display: block;
+        }
+      }
+      & button.owl-prev {
+        left: -75px;
+      }
+      & button.owl-next {
+        right: -75px;
+      }
+    }
+    & .owl-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      &.disabled {
+        display: none !important;
+      }
+      & .owl-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+        background: $white;
+        border: 1px solid $gray-300;
+        box-shadow: 0px 1px 0px 0px $gray-300;
+        margin: 0px 3px;
+        transition: 0.5s all;
+        &.active {
+          background: $theme3;
+          width: 32px;
+        }
+      }
+    }
+  }
+}
+.fantasy-cricket-app-slider::after {
+  content: "";
+  background: url(../../../img/fantasy-cricket-app-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.fantasy-cricket-sldier-img img {
+  max-width: 630px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.fantasy-cricket-app-slider .animate_img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  left: -270px;
+  animation: ani-rotate 50s linear infinite;
+  top: -230px;
+  filter: brightness(0.94);
+}
+.fantasy-cricket-app-slider .animate_img1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  right: -270px;
+  animation: ani-rotate 50s linear infinite;
+  bottom: -230px;
+  filter: brightness(0.94);
+}
+@keyframes ani-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin fantasy-cricket-app-slider-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin fantasy-cricket-app-slider-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin fantasy-cricket-app-slider-mixin-max-md() {
+  .fantasy-cricket-app-slider {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0;
+      }
+      &::after {
+        right: 0;
+        animation: headings 3s infinite;
+      }
+    }
+    & .fantasy-cricket-sldier {
+      & .owl-nav {
+        & button.owl-prev {
+          left: -47px;
+        }
+        & button.owl-next {
+          right: -47px;
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin fantasy-cricket-app-slider-mixin-max-lg() {
+  .fantasy-cricket-app-slider {
+    & .container {
+      max-width: 88%;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin fantasy-cricket-app-slider-mixin-max-xl() {
+  .fantasy-cricket-app-slider {
+    .container {
+      max-width: 1040px;
+    }
+  }
+}
+

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import "variables";
+.navbar{
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+.img_sitemap {
+  // background-image: url("../../../img/sitemap/bg-img.webp");
+  & .links_sitemap {
+    &::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -27px;
+      height: 20px;
+      width: 20px;
+      border-radius: 50px;
+      border: 3px solid #139ed961;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -27px;
+      height: 20px;
+      width: 20px;
+      border-radius: 28px;
+      border-left: 4px solid $theme1;
+      transition: 0.5s all;
+    }
+    &:hover {
+      &::before {
+        transform: rotate(176deg);
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin img_sitemap-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin img_sitemap-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin img_sitemap-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin img_sitemap-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin img_sitemap-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin img_sitemap-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin img_sitemap-mixin-max-sm() {
+  .img_sitemap {
+    & .links_sitemap {
+      overflow-wrap: break-word;
+      &::after {
+        top: 1px;
+        left: -21px;
+        height: 16px;
+        width: 16px;
+        border-radius: 50px;
+        border: 2px solid #139ed961;
+      }
+      &::before {
+        top: 1px;
+        left: -22px;
+        height: 16px;
+        width: 16px;
+        border-left: 3px solid $theme1;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin img_sitemap-mixin-max-md() {
+}
+// Large devices (desktops, less than 1200px)
+@mixin img_sitemap-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin img_sitemap-mixin-max-xl() {
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include img_sitemap-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include img_sitemap-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include img_sitemap-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include img_sitemap-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include img_sitemap-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include img_sitemap-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include img_sitemap-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include img_sitemap-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include img_sitemap-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include img_sitemap-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+@import "variables";
+
+@mixin media-breakpoint($name) {
+  @if $name ==basic {
+    @content;
+  }
+}
+
+
+@mixin media-breakpoint-up($name) {
+  @if $name ==sm {
+    @media (min-width: 576px) {
+      @content;
+    }
+  }
+
+  @else if $name ==md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @else if $name ==lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $name ==xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $name ==xxl {
+    @media (min-width: 1400px) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-down($name) {
+  @if $name ==sm {
+    @media (max-width: 575.98px) {
+      @content;
+    }
+  }
+
+  @else if $name ==md {
+    @media (max-width: 767.98px) {
+      @content;
+    }
+  }
+
+  @else if $name ==lg {
+    @media (max-width: 991.98px) {
+      @content;
+    }
+  }
+
+  @else if $name ==xl {
+    @media (max-width: 1199.98px) {
+      @content;
+    }
+  }
+
+  @else if $name ==xxl {
+    @media (max-width: 1399.98px) {
+      @content;
+    }
+  }
+}
+
+@include media-breakpoint(basic) {
+  .aboutNewSection {
+    & .countBoxOuter {
+      // position: absolute;
+      // right: 100px;
+      // left: auto;
+      // top: 10px;
+      // bottom: auto;
+      background-color: transparent;
+      display: flex;
+      // width: 310px;
+      // height: 310px;
+      & .countBox {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: 2px solid $theme1;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 25px 5px;
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out;
+        cursor: default;
+        animation: countPopup 2s linear infinite;
+        animation-delay: var(--d);
+        transform: scale(0.9);
+        & .aboutNumberText {    
+          background: url(./../../../img/about-us-new/textbg1.avif) center;
+          background-repeat: repeat;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          -webkit-background-clip: text;
+          text-align: center;
+          font-weight: 600;
+          font-size: 34px;
+          background-size: contain;
+          line-height: 1;
+        }
+        @keyframes countPopup {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(0.9);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+  .forTargetSection {
+    position: absolute;
+    height: 94px;
+    z-index: -1;
+    width: 100%;
+    top: -94px;
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(md) {
+}
+@include media-breakpoint-up(lg) {
+}
+@include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xxl) {
+}
+
+
+@include media-breakpoint-down(xxl) {
+  .aboutNewSection {
+    & .countBoxOuter {
+      // right: 56px;
+      // top: -25px;
+      // width: 250px;
+      // height: 250px;
+      & .countBox {
+        padding: 20px 5px;
+        & .aboutNumberText {
+          font-size: 30px;
+        }
+        &:hover {
+        }
+      }
+    }
+  } 
+  .forTargetSection {
+    height: 86px;
+  }
+}
+@include media-breakpoint-down(xl) {
+  .aboutNewSection {
+    & .countBoxOuter {
+      // right: 28px;
+      // top: -20px;
+      // width: 230px;
+      // height: 230px;
+      & .countBox {
+        padding: 13px 5px;
+        & .aboutNumberText {
+          font-size: 22px;
+        }
+        &:hover {
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(lg) {
+  .aboutNewSection {
+    & .countBoxOuter {
+      // right: 110px;
+      // top: 40px;
+      // width: 275px;
+      // height: 275px;
+      & .countBox {
+        & .aboutNumberText {
+          font-size: 30px;
+        }
+        &:hover {
+        }
+      }
+    }
+  }
+  .forTargetSection {
+    height: 66px;
+  }
+}
+@include media-breakpoint-down(md) {
+  .aboutNewSection {
+    & .heading {
+      &::before {
+        right: 0;
+      }
+      &::after {    
+        right: 0px;
+        animation: headings 3s infinite;
+      }
+    }
+    & .countBoxOuter {
+      // right: 55px;
+      // top: 0px;
+      // width: 240px;
+      // height: 240px;
+      & .countBox {
+        & .aboutNumberText {
+        }
+        &:hover {
+        }
+      }
+    }
+  }
+  .forTargetSection {
+    height: 0px;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .aboutNewSection {
+    & .heading {
+      &::before {
+      }
+      &::after {
+      }
+    }
+    & .countBoxOuter {
+      // position: static;
+      // width: 100%;
+      & .countBox {
+        & .aboutNumberText {
+        }
+        &:hover {
+        }
+      }
+    }
+  }
+}
+
+
+

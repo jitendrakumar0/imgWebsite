@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+@import "variables";
+.navbar {
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+
+// protfolio section
+  .protfolio-views{
+    background: #03151d !important;
+    border-radius: 15px;
+    & .expert-btn {
+      padding: 9px 20px !important;
+      cursor: pointer;
+      border-radius: 35px !important;
+      background: #c9f804;
+    }
+    & .quites{
+      position: absolute;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #d1e3eb 0, #b2aa9c 100%);
+      filter: blur(0.3px);
+    }
+  }
+  .portfolio_hover {
+    background: #03151d !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+.portfolio_main_img{
+  & .poerfolio-sec{
+          position: relative;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          overflow: hidden;
+          cursor: pointer;
+          
+          & img{
+            transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            &:hover{
+              transition: all .3s ease;
+              -webkit-transition: all .3s ease;
+              -ms-transition: all .3s ease;
+              transform:scale(1.05);
+              -webkit-transform:scale(1.05);
+              -ms-transform:scale(1.05);
+              -moz-transform:scale(1.05);
+              -o-transform:scale(1.05);
+              cursor: pointer;
+            }
+          }
+        }
+      & .btn-custom{
+        transition: all .3s ease;
+        position: absolute;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 11px 15px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 38px;
+        background: #e09c19;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        bottom: 25px;
+        font-weight: bold;
+      
+    }
+  }
+// Services
+.services {
+  & .s-sidebar {
+      overflow-x: auto !important;
+      overflow-y: hidden;
+      display: -webkit-box;
+      display: -moz-box;
+      flex-wrap: nowrap;
+      & .s-item {
+      transition: .5s ease-in-out;
+      color: #222;
+      border-bottom: 5px solid transparent !important;
+          &:hover{
+              border-bottom: 5px solid #e09c19 !important;
+           
+          }
+          &.active {
+              border-bottom: 5px solid #e09c19 !important;
+              color: #222;
+              border-color: #dee2e600 #dee2e600 #fff ;
+          }
+      }
+    }
+  }
+
+// portfolio
+.portfolio-silde {
+    & .owl-stage-outer {
+      padding: 0px;
+      & .owl-height{
+         height: 608px !important;
+      }
+      & .owl-stage {
+        & .owl-item {
+          & .eso_img {
+            & img {
+              border-radius: 20px;
+              height: auto;
+              width: 100%;
+              max-width: 664px;
+              max-height: 370px;
+            }
+          }
+          & .eso_content {
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+    & .owl-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -38px;
+      &.disabled {
+        display: none !important;
+      }
+      & .owl-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+        background: $white;
+        border: 1px solid $gray-500;
+        box-shadow: 0px 1px 0px 0px $gray-300;
+        margin: 0px 3px;
+        transition: 0.5s all;
+        &.active {
+          background: $theme3;
+          width: 32px;
+        }
+      }
+    }
+    & .owl-nav {
+      display: none !important;
+      &.disabled {
+        display: none !important;
+      }
+      width: auto;
+      position: absolute;
+      inset: -61px 0px auto auto;
+      margin: auto;
+      height: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      & button[class*="owl-"] {
+        font-size: 20px;
+        background: linear-gradient(135deg, #139ed9 0, #e09c19 100%);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 0px 5px;
+        transform-style: preserve-3d;
+        position: relative;
+        // @extend %tras-05;
+        & i {
+          transform: translateZ(20px);
+          display: block;
+          color:$white;
+        }
+      }
+      & button.owl-prev {
+      }
+      & button.owl-next {
+      }
+    }
+  }
+
+  
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .protfolio-views .expert-btn {
+    padding: 4px 14px !important;
+  }
+  .btn-custom {
+    bottom: 65px  !important;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .protfolio-views .expert-btn {
+    padding: 1px 8px !important;
+  }
+  
+  .protfolio-views{
+
+    & .quites{
+      position: relative;
+    }
+  }
+  .btn-custom {
+    bottom: 65px  !important;
+  }
+
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  // @include app-features-section-mixin-max-xs(); 
+  .protfolio-views .expert-btn {
+    padding: 1px 8px !important;
+}
+.protfolio-views{
+
+  & .quites{
+    position: relative;
+  }
+}
+.btn-custom {
+  bottom: 65px  !important;
+}
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+

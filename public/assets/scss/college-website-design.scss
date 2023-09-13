@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+//  Trustworthy Professional Designs section
+.Trustworthy_Professional_Designs_section {
+  background: lighten($gray-200, 4);
+  &::before {
+    content: "";
+    background: url(../../../img/college-website-design/footer-bg-3.webp);
+    position: absolute;
+    inset: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/college-website-design/footer-bg-3.webp);
+    position: absolute;
+    inset: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+      }
+      &:nth-child(2) {
+        filter: contrast(0);
+        left: -18px;
+        bottom: -27px;
+        width: 350px;
+      }
+      &:nth-child(3) {
+        width: 250px;
+        left: -242px;
+        top: 0px;
+        transform: rotate(39deg);
+      }
+    }
+  }
+  & .justify {
+    text-align: justify;
+  }
+}
+
+//  Backed By Digital Marketing section
+.Backed_By_Digital_Marketing_section {
+  background: lighten($gray-200, 4);
+  &::before {
+    content: "";
+    background: url(../../../img/college-website-design/footer-bg-3.webp);
+    position: absolute;
+    inset: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/college-website-design/footer-bg-3.webp);
+    position: absolute;
+    inset: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+      }
+      &:nth-child(2) {
+        filter: contrast(0);
+        left: -18px;
+        bottom: -27px;
+        width: 350px;
+      }
+      &:nth-child(3) {
+        width: 250px;
+        left: -242px;
+        top: 0px;
+        transform: rotate(39deg);
+      }
+    }
+  }
+  & .justify {
+    text-align: justify;
+  }
+}
+
+//  Easy To Manage section
+.Easy_To_Manage_section {
+  background: lighten($gray-200, 4);
+  &::before {
+    content: "";
+    background: url(../../../img/college-website-design/footer-bg-3.webp);
+    position: absolute;
+    inset: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/college-website-design/footer-bg-3.webp);
+    position: absolute;
+    inset: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  & .tilt_image_pos {
+    & img {
+      &:nth-child(1) {
+        transform: translateZ(var(--tz)) rotate(-16deg);
+        filter: drop-shadow(2px 4px 6px #212529);
+      }
+      &:nth-child(2) {
+        filter: contrast(0);
+        left: -18px;
+        bottom: -27px;
+        width: 350px;
+      }
+      &:nth-child(3) {
+        width: 250px;
+        left: -242px;
+        top: 0px;
+        transform: rotate(39deg);
+      }
+    }
+  }
+  & .justify {
+    text-align: justify;
+  }
+}
+
+// choose features
+.choose_features::after {
+  content: "";
+  background: url(../../../img/college-website-design/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  -webkit-filter: brightness(0.94);
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+
+// completely informative
+.completely_informative {
+  background: var(--bg);
+  background-size: cover;
+}
+
+// Contact Us project
+.Contact_us_project {
+  background: darken($theme1, 40);
+  &::after {
+    content: "";
+    background: url(../../../img/college-website-design/bubble-o.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: left top;
+    z-index: 0;
+    background-size: 60px;
+    opacity: 0.05;
+  }
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  // @include top_banner-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  // @include top_banner-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // @include top_banner-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  // @include top_banner-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  // @include top_banner-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  // @include top_banner-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  // @include top_banner-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  // @include top_banner-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  // @include top_banner-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  // @include top_banner-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

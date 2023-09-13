@@ -1,0 +1,109 @@
+.ecommerce-solutions-benifits .arrow_dots {
+  position: absolute;
+  top: 37%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  transform: rotate(-3deg);
+  opacity: 0.8;
+}
+
+.ecommerce-solutions-benifits::after {
+  content: "";
+  background: url(../../../img/custom-erp-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+
+.ecommerce-solutions-benifits .api_ico img {
+  max-width: 60px;
+}
+
+.why-choose-ionic-section {
+  background: #fff;
+}
+
+.Contact_us_project {
+  background: #03151d;
+}
+
+@media (max-width: 1199.98px) {
+  .ecommerce-solutions-benifits .heading.center span {
+    font-size: 28px;
+  }
+  .why-choose-ionic-section .heading.center span {
+    font-size: 28px;
+  }
+  .Contact_us_project .heading.center span {
+    font-size: 28px;
+  }
+  .Contact_us_project .heading.center span br {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .ecommerce-solutions-benifits .heading.center {
+    font-size: 12px;
+  }
+  .ecommerce-solutions-benifits .heading.center span {
+    font-size: 24px;
+  }
+  .why-choose-ionic-section .heading.center {
+    font-size: 12px;
+  }
+  .why-choose-ionic-section .heading.center span {
+    font-size: 24px;
+  }
+  .Contact_us_project .heading.center {
+    font-size: 12px;
+  }
+  .Contact_us_project .heading.center span {
+    font-size: 24px;
+  }
+  .Contact_us_project::after {
+    background-size: 540px;
+  }
+  .Contact_us_project .proposal_bg::before {
+    background-size: 120px;
+    left: -99px;
+    top: -74px;
+    width: 212px;
+    height: 202px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ecommerce-solutions-benifits {
+    background-size: auto;
+  }
+  .ecommerce-solutions-benifits .heading.center span {
+    font-size: 20px;
+  }
+  .why-choose-ionic-section .heading.center span {
+    font-size: 20px;
+  }
+  .Contact_us_project .heading.center span {
+    font-size: 20px;
+  }
+  .Contact_us_project .proposal_bg::before {
+    background-size: 80px;
+    left: -119px;
+    top: -84px;
+    width: 182px;
+    height: 142px;
+  }
+  .Contact_us_project .proposal_bg::after {
+    width: 130px;
+    height: 139px;
+  }
+  .Contact_us_project::after {
+    background-size: 430px;
+  }
+}/*# sourceMappingURL=custom-erp-development.min.css.map */

@@ -1,0 +1,1314 @@
+@charset "UTF-8";
+
+@import "variables";
+// enquiry form
+.form-select{
+  height: 58px;
+  border-left: 4px solid #e09c19;
+}
+.contactModal {
+ & .modal-dialog {
+   & .modal-content {
+     & .modal-header {
+       border: none !important;
+       background: darken($theme1, 40);
+       & .modal-title {
+         color: $white;
+       }
+     }
+     & .modal-footer {
+       border: none !important;
+       background: darken($theme1, 40);
+     }
+   }
+ }
+}
+
+// New-Portfolio Section 
+
+.portfolioBox {
+  position: relative;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  overflow: hidden;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0px 12px 12px -5px !important;
+  cursor: pointer;
+
+&:hover .portfolioBoxContent {
+      transform: translate(0,0);
+      -webkit-transform: translate(0,0);
+      -ms-transform: translate(0,0);
+    }
+    &:hover img{
+      transform:scale(1.05);
+      -webkit-transform:scale(1.05);
+      -ms-transform:scale(1.05);
+      -moz-transform:scale(1.05);
+      -o-transform:scale(1.05);
+    }
+    & :hover::before{
+      background:linear-gradient(180deg,rgba(0,0,0,0) 0,#000 100%);
+      transform:translateY(0);
+      -webkit-transform:translateY(0);
+      -moz-transform:translateY(0);
+      -ms-transform:translateY(0);
+      -o-transform:translateY(0);
+    }
+    
+   & .portfolioBoxContent {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        padding: 30px 20px;
+        width: 100%;
+        transform: translate(0,10px);
+        -webkit-transform: translate(0,10px);
+        -ms-transform: translate(0,10px);
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        overflow: hidden;
+        -moz-transform: translate(0,10px);
+        -o-transform: translate(0,10px);
+
+        & h4 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+          }
+        & p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+          }
+        }
+  
+        & img {
+          height: 100%;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: scale(1);
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+        }
+        & button .view_btn {
+          font-weight: 700;
+          font-size: 16px;
+          color: #1d73f8;
+          background: 0;
+          border: 0;
+          padding: 0;
+          outline: 0;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translate(0,20px);
+          -webkit-transform: translate(0,20px);
+          -ms-transform: translate(0,20px);
+        }
+        &::before{
+          content: '';
+          width: 100%;
+          height: 100%;
+          display: block;
+          background: linear-gradient(180deg,rgba(0,0,0,0) 21.88%,rgba(0,0,0,.7) 100%);
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          transform: translateY(0px);
+          -webkit-transform: translateY(0px);
+          -moz-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+          -o-transform: translateY(0px);
+   }  
+}
+
+// contact with us section
+.contact-with-us-section {
+ background-color: darken($theme1, 40);
+ & .heading {
+   &::after {
+     background-color: darken($theme1, 40);
+   }
+ }
+ & .form-floating {
+   & .form-control {
+     border-left: 4px solid $theme3;
+   }
+   &.is-valid {
+     border-left: 4px solid $success;
+   }
+ }
+ & .was-validated .form-control:invalid {
+   border-left: 4px solid $danger;
+ }
+ & .was-validated .form-control:valid {
+   border-left: 4px solid $success;
+ }
+
+ & .sparater-block {
+   position: absolute;
+   width: 1px;
+   height: 100%;
+   background: rgba($white, 0.5);
+   left: 30px;
+   top: 0;
+   & span {
+     font-weight: 300;
+     height: 48px;
+     font-size: 16px;
+     color: $white;
+     letter-spacing: 0.6px;
+     text-transform: uppercase;
+     line-height: 48px;
+     background: darken($theme1, 40);
+     position: absolute;
+     top: 50%;
+     left: -11px;
+     margin-top: -32px;
+   }
+   & span {
+     left: -24px;
+     width: 48px;
+     border-radius: 100%;
+     text-align: center;
+   }
+ }
+
+ & .emailid-block {
+   & a {
+     width: 100%;
+     float: left;
+     border-radius: 5px;
+     background: rgba($black, 0.46);
+     border: 1px solid rgba($gray-800, 0.23);
+     padding: 14px 10px 10px 90px;
+     position: relative;
+     min-height: 80px;
+     transition: 0.5s all;
+     & i {
+       position: absolute;
+       left: 22px;
+       top: 23px;
+       width: 28px;
+       height: 39px;
+       font-size: 32px;
+       border-right: 1px solid rgba($white, 0.1);
+       padding: 2px 44px 0px 0;
+     }
+     & span {
+       &.small-text {
+         font-size: 14px;
+         color: $theme1;
+         font-weight: 300;
+         text-transform: uppercase;
+         letter-spacing: 2.2px;
+         display: flex;
+       }
+       &.large-text {
+         font-size: 20px;
+         color: $white;
+         line-height: 34px;
+       }
+     }
+   }
+   &.skype_block {
+     & a {
+       background-color: rgba($gray-800, 0.5);
+     }
+   }
+   & a {
+     &:hover {
+       &::before {
+         background: rgba($theme1, 0.1);
+       }
+     }
+   }
+ }
+ & .listing-block {
+   & h3 {
+     margin: 0;
+     font-weight: 700;
+     font-size: 18px;
+     color: $white;
+     letter-spacing: 0.2px;
+   }
+   & ul {
+     width: 100%;
+     float: left;
+     margin-top: 19px;
+     & li {
+       list-style: none;
+       font-weight: 300;
+       font-size: 17px;
+       color: $white;
+       letter-spacing: 0.4px;
+       margin-bottom: 11px;
+       padding-left: 42px;
+       position: relative;
+     }
+     &.bluts {
+       & li {
+         padding-left: 32px;
+         &:after {
+           position: absolute;
+           width: 8px;
+           height: 8px;
+           background-color: $theme3;
+           border-radius: 100%;
+           top: 7px;
+           content: "";
+           left: 0;
+         }
+       }
+     }
+   }
+ }
+}
+
+
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+  
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        -webkit-filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+                filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        -webkit-filter: invert(1);
+                filter: invert(1);
+      }
+    }
+  }
+  & > * {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 20%;
+      left: 13%;
+      background-position: top right;
+      -webkit-filter: brightness(0.2);
+              filter: brightness(0.2);
+      z-index: 0;
+      transform: rotateY(180deg) rotateX(180deg);
+      width: 150px;
+      height: 150px;
+      background-size: 100px;
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+
+// transform_vision
+.transform_vision {
+  background: #f5f6f8;
+}
+
+.transform_vision .tilt_image_pos img:nth-child(1) {
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.transform_vision .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin transform_vision-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin transform_vision-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin transform_vision-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin transform_vision-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin transform_vision-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin transform_vision-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin transform_vision-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin transform_vision-mixin-max-md() {
+  .transform_vision {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        -webkit-animation: headings 3s infinite !important;
+                animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin transform_vision-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin transform_vision-mixin-max-xl() {
+}
+
+
+// Ux Ui Services CSS START
+
+.ux-ui-services-box {
+  background: var(--bg);
+  height: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  position: relative;
+}
+.ux-ui-services-box span {
+  color: $white;
+  font-size: 50px;
+}
+.ux-ui-services-box::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $black;
+  height: 100%;
+  width: 100%;
+  transition: 0.8s all;
+  opacity: 0.9;
+}
+.ux-ui-services-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transition: 0.5s all;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  margin: 0 auto;
+  z-index: 1;
+}
+.ux-ui-services-box:hover::before {
+  background-color: darken($theme1, 10);
+  border-radius: 0;
+  width: 100%;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin ux-ui-services-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin ux-ui-services-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin ux-ui-services-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin ux-ui-services-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin ux-ui-services-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin ux-ui-services-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin ux-ui-services-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin ux-ui-services-mixin-max-md() {
+  .ux-ui-services{
+    & .ux-ui-services-box{
+      padding: 40px 20px;
+      height: auto;
+      & span{
+        font-size: 40px;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin ux-ui-services-mixin-max-lg() {
+  .ux-ui-services{
+    & .ux-ui-services-box{
+      padding: 0 20px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin ux-ui-services-mixin-max-xl() {
+}
+ 
+ 
+
+
+// Ux Ui Offered CSS START
+.ux-ui-offered {
+  background: var(--bg);
+  background-size: cover;
+}
+.grid-item-inner {
+  text-align: center;
+  background-color: $theme1;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 40px #0c0c0c1a;
+  padding-top: 8px;
+}
+.item--icon-abs img {
+  max-width: 50px;
+}
+.grid-item-over,
+.item--featured,
+.item--holder {
+  position: relative;
+}
+.item--holder {
+  transition-delay: 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: $white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 30px 10px;
+  transform-origin: 50% 0%;
+  transition: all 300ms linear 100ms;
+  transform: perspective(500px) rotateX(0deg);
+}
+.item--meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0e0e0e;
+  padding: 40px;
+  transform-origin: 50% 0%;
+  transition: all 300ms linear 0ms;
+  opacity: 0;
+  transform: perspective(500px) rotateX(-90deg);
+}
+.grid-item-inner:hover .item--holder,
+.grid-item-inner:hover .item--holder {
+  opacity: 0;
+  transform: perspective(500px) rotateX(-90deg);
+  transition-delay: 0s;
+  transition: all 300ms linear 0ms;
+}
+.item--gap {
+  width: 76px;
+  height: 3px;
+  margin: auto;
+  position: relative;
+}
+.item--gap:before,
+.item--gap:after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: $theme1;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from($theme1),
+    to($theme3)
+  );
+}
+.item--gap:before {
+  left: 0;
+  width: 19px;
+}
+.item--gap:after {
+  right: 0;
+  width: 51px;
+}
+.item--icon-abs {
+  margin-top: -20px;
+  margin-bottom: 12px;
+}
+ 
+// Small devices (landscape phones, 576px and up)
+@mixin ux-ui-offered-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin ux-ui-offered-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin ux-ui-offered-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin ux-ui-offered-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin ux-ui-offered-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin ux-ui-offered-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin ux-ui-offered-mixin-max-sm() {
+  .ux-ui-offered{
+    & .item--featured{
+      & img {
+        height: 250px;
+      }
+    }
+    & .item--icon-abs{
+      & img{
+        max-width: 65px;
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin ux-ui-offered-mixin-max-md() {
+  
+}
+// Large devices (desktops, less than 1200px)
+@mixin ux-ui-offered-mixin-max-lg() {
+  .ux-ui-offered{
+    & .item--icon-abs {
+      & img{
+        max-width: 35px;
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin ux-ui-offered-mixin-max-xl() {
+}
+
+
+
+
+// Ux Ui Wireframe Design CSS START
+.section_main_img {
+  background: var(--bg);
+  background-size: cover;
+}
+// .ui-wireframe-design .portfolio-bg-layer { 
+//   animation: 5s ease 0s normal none infinite running border_animate2;
+//   background: rgba($theme1, 0.2) none repeat scroll 0 0;
+//   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+//   height: 490px;
+//   right: -240px;
+//   position: absolute;
+//   top: 50%;
+//   transition: all 0.3s ease 0s;
+//   width: 560px;
+//   z-index: 1;
+//   margin-right: 0;
+//   transform: translateY(-50%);
+// }
+.ui-wireframe-design .ui_box_2 .portfolio-bg-layer {
+  background: rgba($theme2, 0.2) none repeat scroll 0 0;
+}
+.ui-wireframe-design .ui_box_3 .portfolio-bg-layer {
+  background: rgba($success, 0.2) none repeat scroll 0 0;
+}
+.section_main_img img {
+  width: 100%;
+}
+.section_main_img::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $theme1;
+  height: 100%;
+  width: 100%;
+  transition: 0.8s all;
+  opacity: 0.7;
+}
+.ui_box_2 .section_main_img::after {
+  background-color: $theme2;
+}
+.ui_box_3 .section_main_img::after {
+  background-color: $success;
+}
+.section_main_img:hover::after {
+  background-color: $black;
+  opacity: 0.5;
+}
+.wireframe-design-content {
+  background: var(--bg);
+  background-size: cover;
+}
+.list-circle {
+  list-style-type: circle;
+} 
+// Ux Ui Wireframe Design CSS END
+  
+
+
+
+// App Devolopement Services section
+.app_development_services {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotateX(180deg);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: 402px;
+    opacity: 0.1;
+  }
+  & .devolopment_service_tab {
+    & .s-sidebar {
+      & .s-item {
+        color: $white;
+        text-decoration: none;
+        border: 3px solid rgba($white, 0.8);
+        border-radius: 7px;
+        padding: 14px 14px;
+        &.wave-1 {
+          &::before {
+            background-color: rgba($white, 0.1);
+          }
+        }
+        &:hover,
+        &.active {
+          border: 3px solid rgba($white, 1);
+        }
+      }
+    }
+  }
+}
+.app_service_content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: translateZ(-30px);
+  background-size: cover;
+}
+.tab_icos i {
+  background: linear-gradient(135deg, $theming1 0, $theming2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+// Small devices (landscape phones, 576px and up)
+@mixin app_development_services-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin app_development_services-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin app_development_services-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin app_development_services-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin app_development_services-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin app_development_services-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin app_development_services-mixin-max-sm() {
+  .app_development_services {
+    & .heading.right {
+      & span {
+        font-size: 20px;
+      }
+    }
+  }
+  [data-hash*="app-service"] {
+      display: block !important;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin app_development_services-mixin-max-md() {
+  .app_development_services {
+    & .heading.right {
+      text-align: center;
+      font-size: 12px;
+      &::before {
+        left: 0;
+      }
+      &::after {
+        left: 0 !important;
+      }
+      & span {
+        font-size: 24px;
+      }
+    }
+    & .devolopment_service_tab {
+      & .s-sidebar {
+        & .s-item {
+          padding: 8px 12px;
+          font-size: 12px;
+          border: 2px solid white;
+        }
+        & .s-item.active {
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+  [data-hash*="app-service"] {
+    display: block !important;
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin app_development_services-mixin-max-lg() {
+  .app_development_services {
+    & .heading.right {
+      & span {
+        font-size: 28px;
+      }
+    }
+    & .devolopment_service_tab {
+      & .s-sidebar {
+        & .s-item {
+          padding: 10px 14px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin app_development_services-mixin-max-xl() {
+}
+ 
+ 
+
+// FAQ Services SECTION CSS START
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  background: url(../../../img/elearning-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  background: url(../../../img/elearning-app-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+  @include top_banner-mixin-min-sm();
+  @include transform_vision-mixin-min-sm();
+  @include ux-ui-services-mixin-min-sm(); 
+  @include ux-ui-offered-mixin-min-sm(); 
+  @include app_development_services-mixin-min-sm(); 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include top_banner-mixin-min-md();
+  @include transform_vision-mixin-min-md();
+  @include ux-ui-services-mixin-min-md(); 
+  @include ux-ui-offered-mixin-min-md(); 
+  @include app_development_services-mixin-min-md(); 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include top_banner-mixin-min-lg();
+  @include transform_vision-mixin-min-lg();
+  @include ux-ui-services-mixin-min-lg(); 
+  @include ux-ui-offered-mixin-min-lg(); 
+  @include app_development_services-mixin-min-lg(); 
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include top_banner-mixin-min-xl();
+  @include transform_vision-mixin-min-xl();
+  @include ux-ui-services-mixin-min-xl(); 
+  @include ux-ui-offered-mixin-min-xl(); 
+  @include app_development_services-mixin-min-xl(); 
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include top_banner-mixin-min-xxl();
+  @include transform_vision-mixin-min-xxl();
+  @include ux-ui-services-mixin-min-xxl(); 
+  @include ux-ui-offered-mixin-min-xxl(); 
+  @include app_development_services-mixin-min-xxl(); 
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include top_banner-mixin-max-xl();
+  @include transform_vision-mixin-max-xl();
+  @include ux-ui-services-mixin-max-xl(); 
+  @include ux-ui-offered-mixin-max-xl(); 
+  @include app_development_services-mixin-max-xl(); 
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include top_banner-mixin-max-lg();
+  @include transform_vision-mixin-max-lg();
+  @include ux-ui-services-mixin-max-lg(); 
+  @include ux-ui-offered-mixin-max-lg(); 
+  @include app_development_services-mixin-max-lg(); 
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include top_banner-mixin-max-md();
+  @include transform_vision-mixin-max-md();
+  @include ux-ui-services-mixin-max-md(); 
+  @include ux-ui-offered-mixin-max-md(); 
+  @include app_development_services-mixin-max-md(); 
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include top_banner-mixin-max-sm();
+  @include transform_vision-mixin-max-sm();
+  @include ux-ui-services-mixin-max-sm(); 
+  @include ux-ui-offered-mixin-max-sm(); 
+  @include app_development_services-mixin-max-sm(); 
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include top_banner-mixin-max-xs();
+  @include transform_vision-mixin-max-xs();
+  @include ux-ui-services-mixin-max-xs(); 
+  @include ux-ui-offered-mixin-max-xs(); 
+  @include app_development_services-mixin-max-xs(); 
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+// Portfolio Slider
+// Fantasy Cricket App Feature section
+.fantasy_cricket_features {
+  & .cricket_features {
+    padding: 30px 25px 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 50px 0px rgba($black, 0.149);
+    transition: 0.8s all;
+    position: relative;
+    overflow: hidden;
+    & img {
+      transition: 0.5s all;
+    }
+    &::after {
+      content: '';
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      bottom: -50%;
+      right: -50%;
+      opacity: 0;
+      transform: scale(0.1);
+      background: linear-gradient(45deg, darken($theme1, 40), darken($theme1, 20));
+      position: absolute;
+      transition: 0.3s cubic-bezier(0.13, 0.03, 0.75, 1.05);
+      z-index: -1;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        transform: rotateY(360deg);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+  &::after {
+    content: "";
+    background: url(../../../img/website-development-company-alwar/bubble-o.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: left top;
+    z-index: 0;
+    filter: brightness(0.94);
+    background-size: 60px;
+  }
+}
+
+
+// Medium devices (tablets, less than 992px)
+@mixin fantasy_cricket_features-mixin-max-md() {
+  .fantasy_cricket_features {
+    & .cricket_features {
+      transform: translateY(0px);
+      border-radius: 10px 10px 40px 10px;
+      & img {
+        filter: brightness(14.5);
+      }
+      & * {
+        color: $white !important;
+      }
+      &::after {
+        content: '';
+        border-radius: 10px 10px 40px 10px;
+        bottom: 0%;
+        right: 0%;
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin want-to-join-section-mixin-max-xl() {
+}
+
+// fantasy-cricket-app-slider
+.fantasy-cricket-app-slider {
+  & .fantasy-cricket-sldier {
+    & .owl-nav {
+      width: 100%;
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      height: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &.disabled {
+        display: none !important;
+      }
+      & button[class*="owl-"] {
+        font-size: 20px;
+        background: $theme3 !important;
+        width: 40px;
+        height: 40px;
+        color: $white !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 0px 5px;
+        opacity: 1;
+        transform-style: preserve-3d;
+        position: relative;
+        & i {
+          transform: translateZ(20px);
+          display: block;
+        }
+      }
+      & button.owl-prev {
+        left: -75px;
+      }
+      & button.owl-next {
+        right: -75px;
+      }
+    }
+    & .owl-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      &.disabled {
+        display: none !important;
+      }
+      & .owl-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+        background: $white;
+        border: 1px solid $gray-300;
+        box-shadow: 0px 1px 0px 0px $gray-300;
+        margin: 0px 3px;
+        transition: 0.5s all;
+        &.active {
+          background: $theme3;
+          width: 32px;
+        }
+      }
+    }
+  }
+}
+.fantasy-cricket-app-slider::after {
+  content: "";
+  background: url(../../../img/fantasy-cricket-app-development/bubble-o.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left top;
+  z-index: 0;
+  filter: brightness(0.94);
+  background-size: 60px;
+}
+.fantasy-cricket-sldier-img img {
+  max-width: 630px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.fantasy-cricket-app-slider .animate_img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  left: -270px;
+  animation: ani-rotate 50s linear infinite;
+  top: -230px;
+  filter: brightness(0.94);
+}
+.fantasy-cricket-app-slider .animate_img1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 25% 95%;
+  right: -270px;
+  animation: ani-rotate 50s linear infinite;
+  bottom: -230px;
+  filter: brightness(0.94);
+}
+@keyframes ani-rotate {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin fantasy-cricket-app-slider-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin fantasy-cricket-app-slider-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin fantasy-cricket-app-slider-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin fantasy-cricket-app-slider-mixin-max-md() {
+  .fantasy-cricket-app-slider {
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0;
+      }
+      &::after {
+        right: 0;
+        animation: headings 3s infinite;
+      }
+    }
+    & .fantasy-cricket-sldier {
+      & .owl-nav {
+        & button.owl-prev {
+          left: -47px;
+        }
+        & button.owl-next {
+          right: -47px;
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin fantasy-cricket-app-slider-mixin-max-lg() {
+  .fantasy-cricket-app-slider {
+    & .container {
+      max-width: 88%;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin fantasy-cricket-app-slider-mixin-max-xl() {
+  .fantasy-cricket-app-slider {
+    .container {
+      max-width: 1040px;
+    }
+  }
+}
+
+

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+.weServeIndSection {
+  & .newindustriesboxwrapper {
+    & .card {
+      height: 100%;
+      text-decoration: none;
+      border: none;
+      border-radius: 10px;
+      transition:all 0.3s ease-in-out;
+      position: relative;
+      box-shadow: 0 0 30px rgba(0,0,0,0.04);
+      & .card-body {
+        padding: 40px 10px;
+        border-radius: 10px;
+        background-color: $white;
+        &.body2 {
+          padding: 40px 10px;
+          height: auto;
+          z-index: 1;
+          min-height: min-content;
+          background: linear-gradient(45deg, rgba(darken($theme1, 20), 1), rgba(darken($theme1, 40), 1));
+          position: absolute;
+          inset:0;
+          width: 100%;
+          transform: scale(0);
+          margin: auto;
+          transition: all 0.3s ease-in-out;
+          & .imgOuter {
+            & img {
+              filter: brightness(50) sepia(100);
+            }
+          }
+        }
+        & .imgOuter {
+          width: 54px;
+          height: 54px;
+          margin:auto;
+        }
+      }
+      &:hover {
+        & .body2 {
+          transform: scale(1.08);
+        }
+      }
+    }
+  }
+}
+
+
+@mixin media-breakpoint($name) {
+  @if $name ==basic {
+    @content;
+  }
+}
+@mixin media-breakpoint-up($name) {
+  @if $name ==sm {
+    @media (min-width: 576px) {
+      @content;
+    }
+  }
+  @else if $name ==md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @else if $name ==lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+  @else if $name ==xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+  @else if $name ==xxl {
+    @media (min-width: 1400px) {
+      @content;
+    }
+  }
+}
+@mixin media-breakpoint-down($name) {
+  @if $name ==sm {
+    @media (max-width: 575.98px) {
+      @content;
+    }
+  }
+  @else if $name ==md {
+    @media (max-width: 767.98px) {
+      @content;
+    }
+  }
+  @else if $name ==lg {
+    @media (max-width: 991.98px) {
+      @content;
+    }
+  }
+  @else if $name ==xl {
+    @media (max-width: 1199.98px) {
+      @content;
+    }
+  }
+  @else if $name ==xxl {
+    @media (max-width: 1399.98px) {
+      @content;
+    }
+  }
+}
+@include media-breakpoint(basic) {
+}
+@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(md) {
+}
+@include media-breakpoint-up(lg) {
+}
+@include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xxl) {
+}
+
+@include media-breakpoint-down(xxl) {
+}
+@include media-breakpoint-down(xl) {
+}
+@include media-breakpoint-down(lg) {
+}
+@include media-breakpoint-down(md) {
+  .weServeIndSection {
+    & .newindustriesboxwrapper {
+      flex-wrap: nowrap;
+      overflow: auto;
+      justify-content: start !important;
+      & .card {
+        min-width: 225px;
+        & .card-body {
+          position: absolute;
+          transform: scale(0);
+          &.body2 {
+            position: static;
+            transform: unset;
+          }
+          & .imgOuter {
+          }
+        }
+        &:hover {
+          & .body2 {
+          }
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .weServeIndSection {
+    & .newindustriesboxwrapper {
+      & .card {
+        max-width: 225px;
+        & .card-body {
+          &.body2 {
+            padding: 25px 10px;
+          }
+          & .imgOuter {
+          }
+        }
+        &:hover {
+          & .body2 {
+          }
+        }
+      }
+    }
+  }
+}
+
+

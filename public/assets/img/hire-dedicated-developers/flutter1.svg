@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="flutter" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<g clip-path="url(#clip0_6_116)">
+<path d="M14.3039 1.07715H45.6959C53.0261 1.07715 58.9682 7.01939 58.9682 14.3495V45.7415C58.9682 53.0717 53.0261 59.0139 45.6959 59.0139H14.3039C6.97373 59.0139 1.03149 53.0717 1.03149 45.7415V14.3495C1.03149 7.01939 6.97373 1.07715 14.3039 1.07715Z" fill="#242938" stroke="white" stroke-width="1.26953" stroke-dasharray="0,0,0,208.97256469726562"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,208.97256469726562; 
+          0,104.48628234863281,104.48628234863281,0; 
+          208.97256469726562,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M29.9642 33.201L34.1706 28.9957C34.1898 28.9961 34.2123 28.9971 34.2431 28.9986C34.256 28.9991 34.2704 28.9997 34.2865 29.0005C34.3432 29.0029 34.4309 29.0064 34.5258 28.9982L45.3782 29.0008L35.5835 38.7859L29.9642 33.201ZM34.1482 9.86264L45.3878 9.8501L24.7768 30.4504L24.7758 30.4514L19.556 35.642L13.9658 30.045L34.1482 9.86264Z" fill="#44D1FD" stroke="white" stroke-width="1.26953" stroke-dasharray="0,0,0,123.11930847167969"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,123.11930847167969; 
+          0,61.559654235839844,61.559654235839844,0; 
+          123.11930847167969,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M22.7292 39.6114L29.1466 33.2021L35.5845 39.6005L35.6113 39.629L29.1482 46.032L22.7292 39.6114Z" fill="#1FBCFD" stroke-dasharray="0,0,0,36.3624267578125"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,36.3624267578125; 
+          0,18.18121337890625,18.18121337890625,0; 
+          36.3624267578125,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M35.6091 40.4429L45.3865 50.2301C43.7475 50.2321 42.1085 50.2314 40.469 50.2309C38.3685 50.2301 36.2672 50.2292 34.1659 50.234C34.1592 50.2275 34.1516 50.2201 34.143 50.2116L34.1155 50.1842L34.0837 50.1526C34.0652 50.1344 34.0431 50.1131 34.0189 50.0911L29.9658 46.0337L35.6091 40.4429Z" fill="#08589C" stroke="white" stroke-width="1.26953" stroke-dasharray="0,0,0,38.938682556152344"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,38.938682556152344; 
+          0,19.469341278076172,19.469341278076172,0; 
+          38.938682556152344,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+</g>
+<defs>
+<clipPath id="clip0_6_116">
+<rect width="60" height="59.0909" fill="white" transform="translate(0 0.5)" stroke-dasharray="0,0,0,238.18179321289062"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,238.18179321289062; 
+          0,119.09089660644531,119.09089660644531,0; 
+          238.18179321289062,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+</clipPath>
+</defs>
+<setting>{"type":"direct","speed":20,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>

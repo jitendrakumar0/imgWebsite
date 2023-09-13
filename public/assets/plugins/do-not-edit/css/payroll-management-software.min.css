@@ -1,0 +1,220 @@
+.top_banner {
+  background: linear-gradient(90deg, #03151d 50%, rgba(3, 21, 29, 0.0096) 56%, rgba(3, 21, 29, 0.004) 76%), var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+}
+.top_banner .heading::after {
+  background: #03151d;
+}
+.top_banner .top_banner-left-part img:nth-child(1) {
+  filter: drop-shadow(2px 4px 6px #03151d);
+}
+.top_banner .top_banner-left-part img:nth-child(2) {
+  filter: invert(1);
+}
+
+.about_iphone {
+  background: #f5f6f8;
+}
+.about_iphone .tilt_image_pos img:nth-child(1) {
+  transform: translateZ(var(--tz)) rotate(-16deg);
+  filter: drop-shadow(2px 4px 6px #212529);
+}
+.about_iphone .tilt_image_pos img:nth-child(2) {
+  filter: contrast(0);
+  left: -18px;
+  bottom: -27px;
+  width: 350px;
+}
+.about_iphone .tilt_image_pos img:nth-child(3) {
+  width: 250px;
+  left: -242px;
+  top: 0px;
+  transform: rotate(39deg);
+}
+.about_iphone .justify {
+  text-align: justify;
+}
+
+.devolopements-benefits {
+  background-color: #03151d;
+  background-size: cover;
+}
+
+.devolopements-benefits-box {
+  background: rgba(19, 158, 217, 0.1);
+  transition: 0.5s;
+}
+
+.devolopements-benefits-box:hover {
+  background-color: rgba(52, 58, 64, 0.5);
+}
+
+.devolopements-benefits-box-count {
+  position: absolute;
+  left: -25px;
+  height: 50px;
+  background-color: #e09c19;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: #fff;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.devolopements-benefits-box:hover .devolopements-benefits-box-count {
+  border-radius: 10px;
+}
+
+.features-of-collage .boxdiv {
+  background: #f9f9f9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background 0.2s ease;
+  text-align: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+  min-height: 100px;
+  border-radius: 5px;
+  display: flex;
+  color: #e09c19;
+  align-items: center;
+  transition: 0.5s all;
+}
+
+.features-of-collage .boxdiv:hover {
+  background: #e09c19;
+  color: #fff;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3019607843);
+  transform: translateY(-8px);
+}
+
+.Contact_us_project {
+  background: #03151d;
+}
+
+.Contact_us_project::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(../../../img/payroll-management-software/double-bubble-outline.webp);
+  background-size: 450px;
+  opacity: 0.05;
+  background-position: bottom;
+}
+
+@media (max-width: 1199.98px) {
+  .about_iphone .heading.left span {
+    font-size: 28px;
+  }
+  .about_iphone::after {
+    background-size: 1300px;
+  }
+  .about_iphone::before {
+    background-size: 1300px;
+  }
+  .devolopements-benefits .heading.left span {
+    font-size: 28px;
+  }
+  .features-of-collage .heading.center span {
+    font-size: 28px;
+  }
+  .features-of-collage::after {
+    background-size: 1300px;
+  }
+  .features-of-collage::before {
+    background-size: 1300px;
+  }
+  .features-of-collage .boxdiv {
+    min-height: auto;
+  }
+}
+@media (max-width: 991.98px) {
+  .top_banner {
+    background: linear-gradient(90deg, #03151d 50%, #03151d 100%), var(--bg);
+  }
+  .top_banner::before {
+    background: none;
+  }
+  .top_banner .heading {
+    text-align: center !important;
+  }
+  .top_banner .heading::before {
+    right: 0 !important;
+  }
+  .top_banner .heading::after {
+    right: 0 !important;
+    animation: headings 3s infinite !important;
+  }
+  .about_iphone .heading.left {
+    font-size: 12px;
+  }
+  .about_iphone .heading.left span {
+    font-size: 24px;
+  }
+  .about_iphone::after {
+    background-size: 1200px;
+  }
+  .about_iphone::before {
+    background-size: 1200px;
+  }
+  .devolopements-benefits .heading.left {
+    font-size: 12px;
+  }
+  .devolopements-benefits .heading.left span {
+    font-size: 24px;
+  }
+  .features-of-collage .heading.center {
+    font-size: 12px;
+  }
+  .features-of-collage .heading.center span {
+    font-size: 24px;
+  }
+  .features-of-collage::after {
+    background-size: 1200px;
+  }
+  .features-of-collage::before {
+    background-size: 1200px;
+  }
+}
+@media (max-width: 767.98px) {
+  .about_iphone .heading.left span {
+    font-size: 20px;
+  }
+  .about_iphone::after {
+    background-size: 900px;
+  }
+  .about_iphone::before {
+    background-size: 900px;
+  }
+  .devolopements-benefits .heading.left {
+    text-align: center;
+  }
+  .devolopements-benefits .heading.left span {
+    font-size: 20px;
+  }
+  .devolopements-benefits .heading.left::after {
+    right: 0;
+  }
+  .devolopements-benefits .heading.left::before {
+    right: 0;
+  }
+  .devolopements-benefits .devolopements-benefits-box-count {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -27px;
+  }
+  .features-of-collage .heading.center span {
+    font-size: 20px;
+  }
+  .features-of-collage::after {
+    background-size: 900px;
+  }
+  .features-of-collage::before {
+    background-size: 900px;
+  }
+}/*# sourceMappingURL=payroll-management-software.min.css.map */
