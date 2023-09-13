@@ -94,7 +94,7 @@ $('.owl-portfolio-slider').owlCarousel({
     navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
 });
 
-$('.blog_slider').owlCarousel({
+$('.blog_slider-main').owlCarousel({
     loop: false,
     nav: true,
     dots: false,
@@ -135,16 +135,18 @@ $('.blog_slider').owlCarousel({
         1299: {
             dots: false,
             nav: false,
-            items: 4,
+            items: 3,
         },
         1499: {
-            items: 4,
+            items: 3,
             dots: false,
             nav: false,
         }
     },
     navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
 });
+
+
 
 // Active navbar on scroll
 $(window).scroll(function () {

@@ -43,7 +43,7 @@
    The future of digital attendance with no chances of frauds is here. IMG Global Infotech has made its name in the market for providing biometric attendance systems specialising in fingerprint scanners, facial recognition, smart cards and any other form of smart attendance system.
    @endsection('hero_tagline')
    @section('hero_btn')
-   {{-- <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 text-white fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
+   {{-- <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 text-white fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
       <span class="d-block"><span>Get Free Consultation</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
    </a> --}}
    @endsection('hero_btn')
@@ -59,9 +59,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a>
                      </li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Biometric Attendance Software</li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Biometric Attendance Software</li>
                   </ol>
                </nav>
             </div>
@@ -91,7 +91,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Smart <b> Attendance System</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">The biometric time and attendance system by IMG Global Infotech is aimed to enhancing security among workers and safeguard the working environment along with protecting company’s valuable data. Our unique time and attendance system is available to businesses organisations at any location in the country. The biometric system can recognise and individual’s physical features like fingerprint, iris and face. This eliminates the chances of proxy attendance in the workplace.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">The biometric time and attendance system by IMG Global Infotech is aimed to enhancing security among workers and safeguard the working environment along with protecting company’s valuable data. Our unique time and attendance system is available to businesses organisations at any location in the country. The biometric system can recognise and individual’s physical features like fingerprint, iris and face. This eliminates the chances of proxy attendance in the workplace.</div>
                      </div>
                   </div>
                </div>
@@ -115,7 +115,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h2 class="d-none invisible">Flawless payroll calculation</h2>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Flawless payroll calculation
                      </div>
                   </div>
@@ -128,7 +128,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Avoidance of proxy attendance</h3>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Avoidance of proxy attendance
                      </div>
                   </div>
@@ -141,7 +141,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Saves cost and manpower</h3>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Saves cost and manpower
                      </div>
                   </div>
@@ -154,7 +154,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Get real time attendance calculator</h3>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Get real time attendance calculator
                      </div>
                   </div>
@@ -167,7 +167,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Prevent any kind of unauthorised access</h3>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Prevent any kind of unauthorised access
                      </div>
                   </div>
@@ -180,7 +180,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Manage leaves and holidays efficiently</h3>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Manage leaves and holidays efficiently
                      </div>
                   </div>
@@ -193,7 +193,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Complete record of employees presence</h3>
-                     <div class="col fw-bold fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-lg-18 fs-md-16 fs-15 text-dark d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Complete record of employees presence
                      </div>
                   </div>
@@ -217,7 +217,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">State Of <b> The Art System</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is known for providing the latest and best to their clients. Reach out to us and get the best of innovative technology in form of biometric attendance system. We are here to assist you in any kind of queries of problems you face after instalment of smart attendance system. Our professionals are well trained to manage clients and solve their queries in the least time possible.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is known for providing the latest and best to their clients. Reach out to us and get the best of innovative technology in form of biometric attendance system. We are here to assist you in any kind of queries of problems you face after instalment of smart attendance system. Our professionals are well trained to manage clients and solve their queries in the least time possible.</div>
                      </div>
                   </div>
                   <div class="col-lg-5 pe-lg-5 top_banner-left-part">
@@ -255,7 +255,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Cloud based access to attendance data</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Cloud based access to attendance data</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -263,7 +263,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Report generation on employee attendance</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Report generation on employee attendance</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -271,7 +271,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Live attendance tracking of individuals</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Live attendance tracking of individuals</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -279,7 +279,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Time stamping entry and exits of all the employees</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Time stamping entry and exits of all the employees</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -287,7 +287,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Individual attendance tracking and monitoring</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Individual attendance tracking and monitoring</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -295,7 +295,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Management of working shifts</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Management of working shifts</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -303,7 +303,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Report management and scheduling.</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Report management and scheduling.</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -311,7 +311,7 @@
                         <div class="col-auto ps-0">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Centralised data collection of multiple from multiple offices.
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Centralised data collection of multiple from multiple offices.
                         </div>
                      </div>
                   </div>

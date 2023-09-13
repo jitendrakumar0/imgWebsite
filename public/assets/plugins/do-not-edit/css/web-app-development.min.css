@@ -257,9 +257,11 @@
   background: #03151d;
 }
 .top_banner .top_banner-left-part img:nth-child(1) {
+  -webkit-filter: drop-shadow(2px 4px 6px #03151d);
   filter: drop-shadow(2px 4px 6px #03151d);
 }
 .top_banner .top_banner-left-part img:nth-child(2) {
+  -webkit-filter: invert(1);
   filter: invert(1);
 }
 
@@ -269,10 +271,12 @@
 
 .Have_an_App_Idea_section .tilt_image_pos img:nth-child(1) {
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .Have_an_App_Idea_section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -282,10 +286,12 @@
 
 .Web_Application_Development_Technologies_section .tilt_image_pos img:nth-child(1) {
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .Web_Application_Development_Technologies_section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -320,8 +326,7 @@
 
 .tab_icos i {
   background: linear-gradient(135deg, #139ed9 0, #ff6d00 100%);
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   margin-bottom: 20px;
@@ -353,8 +358,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -367,6 +374,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -401,8 +409,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -416,6 +426,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -469,6 +480,7 @@ button.accordion-button {
   }
   .top_banner .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .Have_an_App_Idea_section .heading {
@@ -479,6 +491,7 @@ button.accordion-button {
   }
   .Have_an_App_Idea_section .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .Web_Application_Development_Technologies_section .heading {
@@ -489,6 +502,7 @@ button.accordion-button {
   }
   .Web_Application_Development_Technologies_section .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
 }
@@ -655,9 +669,11 @@ button.accordion-button {
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=web-app-development.min.css.map */
+}

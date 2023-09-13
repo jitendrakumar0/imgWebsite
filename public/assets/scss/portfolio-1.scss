@@ -54,14 +54,13 @@
           }
         }
       & .btn-custom{
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         position: absolute;
-        right: 10px;
+        right: 33px;
         width: 40px;
         height: 40px;
         border-radius: 50%;
         text-transform: uppercase;
-        font-weight: 900;
         font-size: 15px;
         letter-spacing: 1px;
         padding: 11px 15px;
@@ -69,14 +68,38 @@
         color: #fff;
         line-height: 38px;
         background: #e09c19;
-        transition: all .3s ease;
-        -webkit-transition: all .3s ease;
-        -ms-transition: all .3s ease;
-        bottom: 25px;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        bottom: 100px;
         font-weight: bold;
-      
-    }
+     }
+
+     & .btn-custom2{
+          transition: all 0.3s ease;
+          position: absolute;
+          right: 33px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          text-transform: uppercase;
+          font-size: 15px;
+          letter-spacing: 1px;
+          padding: 11px 15px;
+          text-decoration: none;
+          color: #fff;
+          line-height: 38px;
+          background: #e09c19;
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          bottom: 50px;
+          font-weight: bold;
+   }
   }
+  .dW_sZ::-webkit-scrollbar, div::-webkit-scrollbar {
+    display: none;
+}
 // Services
 .services {
   & .s-sidebar {
@@ -88,6 +111,7 @@
       & .s-item {
       transition: .5s ease-in-out;
       color: #222;
+   
       border-bottom: 5px solid transparent !important;
           &:hover{
               border-bottom: 5px solid #e09c19 !important;
@@ -266,7 +290,7 @@
   }
 }
 .btn-custom {
-  bottom: 65px  !important;
+  bottom: 46px  !important;
 }
 }
 

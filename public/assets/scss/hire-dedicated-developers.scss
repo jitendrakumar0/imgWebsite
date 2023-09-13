@@ -256,7 +256,6 @@
            border-bottom: none;
           // height: 450px;
            overflow-y: auto;
-           background: #fff;
        }
        & .nav-tabs::-webkit-scrollbar {
             width:10px;
@@ -573,6 +572,7 @@
             border-radius: 99em;
             background-color: #111;
             font-weight: bold;
+            font-size: 18px;
           }
       }
     }

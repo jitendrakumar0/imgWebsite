@@ -50,12 +50,12 @@
                              <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2 mt-lg-5 mt-md-5 mt-sm-5 mt-5">
                                  <div class="row">
                                      <h4 class="d-none invisible"> Fantasy Sports App</h4>
-                                     <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-900 text-md-start text-center"> Fantasy Sports App</div>
+                                     <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-md-start text-center"> Fantasy Sports App</div>
                                      <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">Fantasy sports app development refers to the process of creating mobile applications that allow users to participate in virtual sports competitions, build their fantasy teams, and compete with other users based on real-life sports events.</div>
                                      <div class="col-12 py-3">
                                          <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
                                              <div class="col d-flex">
-                                                 <a href="{{asset('/fantasy-cricket-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                 <a href="{{asset('/fantasy-cricket-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                      <div class="imgOuter">
                                                          <img src="{{asset('/public')}}/assets/img/new-services/fantasy-cricket-app.svg" width="20" height="20" class="w-100" alt="Fantasy Cricket App">
                                                      </div>
@@ -63,7 +63,7 @@
                                                  </a>
                                              </div>
                                              <div class="col d-flex">
-                                                 <a href="{{asset('/fantasy-kabaddi-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                 <a href="{{asset('/fantasy-kabaddi-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                      <div class="imgOuter">
                                                          <img src="{{asset('/public')}}/assets/img/new-services/kabaddi-app.svg" width="20" height="20" class="w-100" alt="Kabaddi App">
                                                      </div>
@@ -71,7 +71,7 @@
                                                  </a>
                                              </div>
                                              <div class="col d-flex">
-                                                 <a href="{{asset('/fantasy-football-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                 <a href="{{asset('/fantasy-football-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                      <div class="imgOuter">
                                                          <img src="{{asset('/public')}}/assets/img/new-services/football-app.svg" width="20" height="19" class="w-100" alt="Football App">
                                                      </div>
@@ -81,7 +81,7 @@
 
 
                                              <div class="col d-flex">
-                                                 <a href="{{asset('/fantasy-stock-market-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                 <a href="{{asset('/fantasy-stock-market-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                      <div class="imgOuter">
                                                          <img src="{{asset('/public')}}/assets/img/new-services/fantasy-stock-app.svg" width="20" height="19" class="w-100" alt="Fantasy Stock App">
                                                      </div>
@@ -92,7 +92,7 @@
                                          </div>
                                      </div>
                                      <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                         <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-4">
+                                         <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                              <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                          </a>
                                      </div>
@@ -116,12 +116,12 @@
                               <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                   <div class="row">
                                       <h4 class="d-none invisible">Mobile App Development</h4>
-                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-900 text-md-start text-center">Mobile App Development</div>
+                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-m text-md-start text-center">Mobile App Development</div>
                                       <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">If you have an idea, that's not enough, a team of professionals is always required to transform the idea into reality. We intend to deliver a best-in-class and intuitive mobile app by executing plans based on your idea. Our experts are available at your service without any time barrier.</div>
                                       <div class="col-12 py-3">
                                           <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/android-application-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/android-application-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/android.svg" class="w-100" width="20" height="25" alt="Android App">
                                                       </div>
@@ -129,7 +129,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/ios-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/ios-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/apple.svg" class="w-100" width="20" height="22" alt="iOS App">
                                                       </div>
@@ -137,7 +137,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/flutter-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/flutter-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/fluter.svg" class="w-100" width="20" height="21" alt="Flutter App">
                                                       </div>
@@ -145,7 +145,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/react-native-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/react-native-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/React.svg" class="w-100" width="20" height="20" alt="React Native App">
                                                       </div>
@@ -155,7 +155,7 @@
                                           </div>
                                       </div>
                                       <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-4">
+                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                               <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                           </a>
                                       </div>
@@ -179,12 +179,12 @@
                               <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                   <div class="row">
                                       <h4 class="d-none invisible">Website Designing</h4>
-                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-900 text-md-start text-center">Website Designing</div>
-                                      <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">IMG is a growing and the most trusted company delivering website designing services. Transforming your designing idea into full fledged reality made us one of the most reputed <a href="javascript:;" class="text-decoration-none text-dark fw-bold">website designing company in Jaipur</a> and allowed us to stand out from others.</div>
+                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-md-start text-center">Website Designing</div>
+                                      <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">IMG is a growing and the most trusted company delivering website designing services. Transforming your designing idea into full fledged reality made us one of the most reputed <a href="javascript:;" class="text-decoration-none text-dark fw-m">website designing company in Jaipur</a> and allowed us to stand out from others.</div>
                                       <div class="col-12 py-3">
                                           <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/parallax-web-designing.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/parallax-web-designing.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/parllax-website-designing.svg" width="20" height="20" class="w-100" alt="Parallax Website Designing">
                                                       </div>
@@ -192,7 +192,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/dynamic-website-designing.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/dynamic-website-designing.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/dynamic-web-designing.svg" width="20" height="20" class="w-100" alt="Dynamic Website Designing">
                                                       </div>
@@ -200,7 +200,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/responsive-web-designing.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/responsive-web-designing.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/responsive-website.svg" width="20" height="19" class="w-100" alt="Website Responsive">
                                                       </div>
@@ -208,7 +208,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/website-redesigning.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/website-redesigning.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/responsive.svg" width="20" height="20" class="w-100" alt="Website Re-designing">
                                                       </div>
@@ -218,7 +218,7 @@
                                           </div>
                                       </div>
                                       <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-4">
+                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                               <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                           </a>
                                       </div>
@@ -242,12 +242,12 @@
                               <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                   <div class="row">
                                       <h4 class="d-none invisible">Web Development</h4>
-                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-900 text-md-start text-center">Web Development</div>
+                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-m text-md-start text-center">Web Development</div>
                                       <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">We transform your website into effective communication channels that deliver the best results and drive online growth. We provide web development solutions within the expected timeframe and budget. We build customized, clear, and clean websites that create lasting impressions interactively.</div>
                                       <div class="col-12 py-3">
                                           <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/ecommerce-website-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/ecommerce-website-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/ecommerce-developement.svg" width="20" height="20" class="w-100" alt="Ecommerce Development">
                                                       </div>
@@ -255,7 +255,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/web-portal-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/web-portal-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/web-portal-development.svg" width="20" height="20" class="w-100" alt="Web Portal Development">
                                                       </div>
@@ -263,7 +263,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/cms-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/cms-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/cms-development.svg" width="20" height="20" class="w-100" alt="CMS Development">
                                                       </div>
@@ -273,7 +273,7 @@
                                           </div>
                                       </div>
                                       <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-4">
+                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                               <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                           </a>
                                       </div>
@@ -297,12 +297,12 @@
                               <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                   <div class="row">
                                       <h4 class="d-none invisible">Custom ERP Development</h4>
-                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-900 text-md-start text-center">Custom ERP Development</div>
+                                      <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-md-start text-center">Custom ERP Development</div>
                                       <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">We specialize in developing customized ERP solutions that meet the unique needs of your business. Contact us today to learn more about our services and how we can help streamline your operations and improve your bottom line.</div>
                                       <div class="col-12 py-3">
                                           <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/school-management-software.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/school-management-software.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/school-managment-com.svg" width="20" height="20" class="w-100" alt="School Management Software">
                                                       </div>
@@ -310,7 +310,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/mlm-software-development-company.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/mlm-software-development-company.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/mlm-software.svg" width="20" height="20" class="w-100" alt="MLM Software">
                                                       </div>
@@ -318,7 +318,7 @@
                                                   </a>
                                               </div>
                                               <div class="col d-flex">
-                                                  <a href="{{asset('/online-exam-app-development.php')}}" class="serivcesLinks fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
+                                                  <a href="{{asset('/online-exam-app-development.php')}}" class="serivcesLinks fw-m fs-md-15 fs-13 w-md-100 w-lg-auto w-100 w-sm-auto mx-sm-auto ms-lg-0 justify-content-sm-center justify-content-md-start">
                                                       <div class="imgOuter">
                                                           <img src="{{asset('/public')}}/assets/img/new-services/web-portal-development.svg" width="20" height="20" class="w-100" alt="Online Exam">
                                                       </div>
@@ -328,7 +328,7 @@
                                           </div>
                                       </div>
                                       <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-4">
+                                          <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                               <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                           </a>
                                       </div>
@@ -360,7 +360,7 @@
             <h1 class="d-none invisible">Our Services</h1>
             <h2 class="d-none invisible">Services of IMG</h2>
             <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Our <b> Services</b></span></div>
-            <div class="col-12 fs-md-16 fs-sm-15 fs-14 text-center fw-600 mt-3 mb-2">Merely having a website is not sufficient! A successful web presentation that accurately reflects your business is essential.</div>
+            <div class="col-12 fs-md-16 fs-sm-15 fs-14 text-center fw-l mt-3 mb-2">Merely having a website is not sufficient! A successful web presentation that accurately reflects your business is essential.</div>
          </div>
          <div class="row mt-5">
             <div class="col-lg-4 col-md-6 col-12 d-flex align-items-strecth">
@@ -370,10 +370,10 @@
                         <img src="{{asset('/public')}}/assets/img/services/trophy.webp" class="" alt="Website Design">
                      </div>
                      <h3 class="d-none invisible">Website Design</h3>
-                     <div class="service-heading fw-900 fs-19 lh-normal text-theme1">Website Design</div>
-                     <div class="fw-600 fs-16 text-muted mt-2">Your website is your most important marketing asset. There are too many websites in online market today. IMG Global Infotech makes your website stand out from the crowd. We don't just create a website to be placed online but more than that, our venture is to build an engaging space owned by your business online. Websites are important for every kind of business whether big or small.</div>
+                     <div class="service-heading fw-m fs-19 lh-normal text-theme1">Website Design</div>
+                     <div class="fw-l fs-16 text-muted mt-2">Your website is your most important marketing asset. There are too many websites in online market today. IMG Global Infotech makes your website stand out from the crowd. We don't just create a website to be placed online but more than that, our venture is to build an engaging space owned by your business online. Websites are important for every kind of business whether big or small.</div>
                      <div class="pt-4">
-                        <a href="{{asset('/website-design.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                        <a href="{{asset('/website-design.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                            <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -387,10 +387,10 @@
                         <img src="{{asset('/public')}}/assets/img/services/trophy.webp" class="" alt="Digital Marketing Services">
                      </div>
                      <h3 class="d-none invisible">Digital Marketing Services</h3>
-                     <div class="service-heading fw-900 fs-19 lh-normal text-theme1">Digital Marketing Services</div>
-                     <div class="fw-600 fs-16 text-muted mt-2">Digital marketing benefits businesses of all sizes by giving access to the mass market at an affordable price. Unlike TV or print advertising, it allows truly personalised marketing. It is the latest form of marketing and promises to cover the maximum area in the field of marketing. It is cheaper and more effective than the traditional form of marketing.</div>
+                     <div class="service-heading fw-m fs-19 lh-normal text-theme1">Digital Marketing Services</div>
+                     <div class="fw-l fs-16 text-muted mt-2">Digital marketing benefits businesses of all sizes by giving access to the mass market at an affordable price. Unlike TV or print advertising, it allows truly personalised marketing. It is the latest form of marketing and promises to cover the maximum area in the field of marketing. It is cheaper and more effective than the traditional form of marketing.</div>
                      <div class="pt-4">
-                        <a href="{{asset('digital-marketing-agency-in-india.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                        <a href="{{asset('digital-marketing-agency-in-india.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                            <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -404,10 +404,10 @@
                         <img src="{{asset('/public')}}/assets/img/services/trophy.webp" class="" alt="Web App Development">
                      </div>
                      <h3 class="d-none invisible">Web App Development</h3>
-                     <div class="service-heading fw-900 fs-19 lh-normal text-theme1">Web App Development</div>
-                     <div class="fw-600 fs-16 text-muted mt-2">With our high Quality Web Development India Services, we are providing customized Web Development solution to the approval of our clients across the globe ranging from start-ups to well established companies looking to for high quality web design services in India. IMG Global Infotech has reputed itself as a benchmark setter among web development company India with its professional web development team.</div>
+                     <div class="service-heading fw-m fs-19 lh-normal text-theme1">Web App Development</div>
+                     <div class="fw-l fs-16 text-muted mt-2">With our high Quality Web Development India Services, we are providing customized Web Development solution to the approval of our clients across the globe ranging from start-ups to well established companies looking to for high quality web design services in India. IMG Global Infotech has reputed itself as a benchmark setter among web development company India with its professional web development team.</div>
                      <div class="pt-4">
-                        <a href="{{asset('/web-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                        <a href="{{asset('/web-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                            <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -421,10 +421,10 @@
                         <img src="{{asset('/public')}}/assets/img/services/trophy.webp" class="" alt="Mobile App Development">
                      </div>
                      <h3 class="d-none invisible">Mobile App Development</h3>
-                     <div class="service-heading fw-900 fs-19 lh-normal text-theme1">Mobile App Development</div>
-                     <div class="fw-600 fs-16 text-muted mt-2">IMG Global Infotech Pvt. Ltd. has extensive experience in creating high performing and robust, digitally ahead and feature-packed native mobile applications for all the major mobile platforms including iOS, Android and native apps. Our professionals, as experts at HTML5 development, we can also build cross-platform mobile applications that are flexible and would on any device or platform.</div>
+                     <div class="service-heading fw-m fs-19 lh-normal text-theme1">Mobile App Development</div>
+                     <div class="fw-l fs-16 text-muted mt-2">IMG Global Infotech Pvt. Ltd. has extensive experience in creating high performing and robust, digitally ahead and feature-packed native mobile applications for all the major mobile platforms including iOS, Android and native apps. Our professionals, as experts at HTML5 development, we can also build cross-platform mobile applications that are flexible and would on any device or platform.</div>
                      <div class="pt-4">
-                        <a href="{{asset('/mobile-app-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                        <a href="{{asset('/mobile-app-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                            <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -438,10 +438,10 @@
                         <img src="{{asset('/public')}}/assets/img/services/trophy.webp" class="" alt="Software Development">
                      </div>
                      <h3 class="d-none invisible">Software Development</h3>
-                     <div class="service-heading fw-900 fs-19 lh-normal text-theme1">Software Development</div>
-                     <div class="fw-600 fs-16 text-muted mt-2">Software development is a merger of several activities like designing, testing, programming, planning, bug fixing & more, which allow development & maintenance of an application or software. This simple yet important process is enlarging & enhancing globalization, as well as changing our lifestyle. In this tech-savvy world, software development & advancement is helping businesses, small & large, reach great heights of success.</div>
+                     <div class="service-heading fw-m fs-19 lh-normal text-theme1">Software Development</div>
+                     <div class="fw-l fs-16 text-muted mt-2">Software development is a merger of several activities like designing, testing, programming, planning, bug fixing & more, which allow development & maintenance of an application or software. This simple yet important process is enlarging & enhancing globalization, as well as changing our lifestyle. In this tech-savvy world, software development & advancement is helping businesses, small & large, reach great heights of success.</div>
                      <div class="pt-4">
-                        <a href="{{asset('/software-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                        <a href="{{asset('/software-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                            <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -455,10 +455,10 @@
                         <img src="{{asset('/public')}}/assets/img/services/trophy.webp" class="" alt="E-Commerce Website Development">
                      </div>
                      <h3 class="d-none invisible">E-Commerce Website Development</h3>
-                     <div class="service-heading fw-900 fs-19 lh-normal text-theme1">E-Commerce Website Development</div>
-                     <div class="fw-600 fs-16 text-muted mt-2">IMG Global Infotech has been the leader in eCommerce Website Development to all kinds of businesses ranging from Multi-National Companies, Brand Store Chains, Dealers, and Merchants and also to brand new Start-ups. We are known to deliver custom made eCommerce Websites and Apps to our customers, unique to their brand to bring the best of results in their online business.</div>
+                     <div class="service-heading fw-m fs-19 lh-normal text-theme1">E-Commerce Website Development</div>
+                     <div class="fw-l fs-16 text-muted mt-2">IMG Global Infotech has been the leader in eCommerce Website Development to all kinds of businesses ranging from Multi-National Companies, Brand Store Chains, Dealers, and Merchants and also to brand new Start-ups. We are known to deliver custom made eCommerce Websites and Apps to our customers, unique to their brand to bring the best of results in their online business.</div>
                      <div class="pt-4">
-                        <a href="{{asset('/ecommerce-website-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                        <a href="{{asset('/ecommerce-website-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                            <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -479,7 +479,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get A Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>
@@ -499,7 +499,7 @@
           <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
           <input type="hidden" name="type" value="Fantasy Cricket App Development" />
           <div class="modal-header align-items-start">
-             <div class="modal-title fw-bold" id="exampleModalLabel">
+             <div class="modal-title fw-m" id="exampleModalLabel">
                 <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                    <div class="row align-items-center">
                       <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-22 fs-lg-23 fs-md-19 fs-17">Get Appointment With <b> Our Experts</b></span></div>
@@ -518,7 +518,7 @@
                             <div class="col-md-12">
                                <div class="form-floating">
                                   <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                  <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                  <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                   <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                </div>
                             </div>
@@ -771,7 +771,7 @@
                                           <div class="col-8 ps-0">
                                           <div class="form-floating">
                                               <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 " id="phoneNumber" placeholder="Enter Phone Number" required>
-                                              <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                              <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                               <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                           </div>
                                           </div>
@@ -780,7 +780,7 @@
                             <div class="col-md-12">
                                <div class="form-floating">
                                   <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID">
-                                  <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                  <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                   {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                </div>
                             </div>
@@ -808,8 +808,8 @@
 
                               <div class="col-md-12">
                                   <div class="form-floating">
-                                      <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                                      <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                                      <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                      <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                       </div>
                               </div> 
@@ -820,7 +820,7 @@
              </div> 
           </div>
           <div class="modal-footer px-5 pb-4">
-             <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+             <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                 <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
              </button>
           </div>

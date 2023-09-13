@@ -21,12 +21,12 @@
   &::before {
     content: "";
     position: absolute;
-    top: -6px;
-    left: 9px;
-    right: 9px;
-    bottom: -6px;
-    border-radius: 10px;
-    transform: translateZ(-1px);
+    // top: -6px;
+    // left: 9px;
+    // right: 9px;
+    // bottom: -6px;
+    // border-radius: 10px;
+    // transform: translateZ(-1px);
   }
   & > span {
     transform: translateZ(30px);
@@ -88,4 +88,19 @@ input.wave-1 {
 
 .tz {
   transform: translateZ(var(--tz));
+}
+
+//  Home button
+.btn-button1{
+    color: $white;
+    width: auto;
+    border-radius: 4px;
+    background-color: #006aff;
+    text-transform: capitalize;
+    &:focus{
+      outline: 0 !important;
+    }
+    &:active{
+      outline: 0 !important;
+    }
 }

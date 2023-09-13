@@ -66,8 +66,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -80,6 +82,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -220,4 +223,4 @@
   .transform_vision::before {
     background-size: 900px;
   }
-}/*# sourceMappingURL=product-review.min.css.map */
+}

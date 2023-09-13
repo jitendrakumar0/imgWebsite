@@ -44,7 +44,7 @@
    e-Learning solutions that redefine the way how education is imparted
    @endsection('hero_tagline')
    @section('hero_btn')
-   <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 text-white fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
+   <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 text-white fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
       <span class="d-block"><span>Get a Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
    </a>
    @endsection('hero_btn')
@@ -60,8 +60,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">elearning app development</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">elearning app development</li>
                   </ol>
                </nav>
             </div>
@@ -90,13 +90,13 @@
                               <div class="col-12 heading fs-md-14 fs-12 left pt-5"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">eLearning <b>Solutions</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Our e-Learning app development services provide fast access to all types of study materials and enhance learning via digital devices and methods. Boost the capability and power of thinking in students.</div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Education and knowledge are now quickly gained through different advanced technologies. We use latest technologies and tools, namely Virtual Reality (VR), Augmented Reality (AR), Machine Learning (ML), and Artificial Intelligence (AI), to improve online education through mobile applications. As the best learning app development solutions, we offer custom made eLearning app development solutions for the tutoring and education industry. Engagement is an opportunity and challenge in the eLearning industry. We promise to deliver the best options and offer the best engaging and interactive students' solutions to overcome industry barriers.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Our e-Learning app development services provide fast access to all types of study materials and enhance learning via digital devices and methods. Boost the capability and power of thinking in students.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Education and knowledge are now quickly gained through different advanced technologies. We use latest technologies and tools, namely Virtual Reality (VR), Augmented Reality (AR), Machine Learning (ML), and Artificial Intelligence (AI), to improve online education through mobile applications. As the best learning app development solutions, we offer custom made eLearning app development solutions for the tutoring and education industry. Engagement is an opportunity and challenge in the eLearning industry. We promise to deliver the best options and offer the best engaging and interactive students' solutions to overcome industry barriers.</div>
                      </div>
                   </div>
                </div>
                <div class="row">
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">We have a proven record for eLearning app development solutions, and the students will be able to engage and interact with learners and students. Apart from this, there is a higher chance for you to offer more innovative and advanced learning methods like mobile learning, remote learning, and more. As the leading education app development company, we will help manage your education sector activities in a profit-oriented and optimized manner.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">We have a proven record for eLearning app development solutions, and the students will be able to engage and interact with learners and students. Apart from this, there is a higher chance for you to offer more innovative and advanced learning methods like mobile learning, remote learning, and more. As the leading education app development company, we will help manage your education sector activities in a profit-oriented and optimized manner.</div>
                </div>
             </div>
          </div>
@@ -112,7 +112,7 @@
                   <div class="row mx-0 pb-2">
                      <h2 class="d-none invisible">eLearning App Development Services</h2>
                      <div class="col-12 heading fs-md-14 fs-12 text-white left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> eLearning App <b>Development Services </b></span></div>
-                     <div class="col-12 fw-600 fs-17 text-white text-start mt-3 px-0">We have developed the best-in-class eLearning app that both the teachers and students love alike. We focus on developing the best eLearning apps that promote education for all.</div>
+                     <div class="col-12 fw-l fs-17 text-white text-start mt-3 px-0">We have developed the best-in-class eLearning app that both the teachers and students love alike. We focus on developing the best eLearning apps that promote education for all.</div>
                   </div>
                </div>
                <div class="row s-sidebar px-3 py-4 gap-4 d-lg-flex d-none">
@@ -159,8 +159,8 @@
                               </span>
                            </div>
                            <h3 class="d-none invisible">Live-Streaming</h3>
-                           <div class="col-12 fs-md-20 fs-sm-18 fs-16 text-theme3 fw-900 tz" style="--tz:30px;">Live-Streaming</div>
-                           <div class="col-12 fs-md-16 fs-sm-15 fs-14 fw-600 py-4 tz" style="--tz:30px;">The mobile application development company has a creative team of education app developers who creates high-quality live video and audio streaming e-Learning apps.</div>
+                           <div class="col-12 fs-md-20 fs-sm-18 fs-16 text-theme3 fw-m tz" style="--tz:30px;">Live-Streaming</div>
+                           <div class="col-12 fs-md-16 fs-sm-15 fs-14 fw-l py-4 tz" style="--tz:30px;">The mobile application development company has a creative team of education app developers who creates high-quality live video and audio streaming e-Learning apps.</div>
                            <div class="col-12">
                               <!-- <a class="btn btn-theme3 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                                  <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
@@ -286,7 +286,7 @@
          <div class="row mx-0 pb-5">
             <h2 class="d-none invisible">Why choose IMG Global Infotech for eLearning app development?</h2>
             <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Why choose IMG Global Infotech for<b> eLearning app development? </b></span></div>
-            <div class="col-12 fw-600 fs-17 text-muted text-center mt-3">We offer the best solutions when it comes to eLearning. We unify the latest technologies and tools to provide better eLearning experiences. Here are the reasons why you should choose us.</div>
+            <div class="col-12 fw-l fs-17 text-muted text-center mt-3">We offer the best solutions when it comes to eLearning. We unify the latest technologies and tools to provide better eLearning experiences. Here are the reasons why you should choose us.</div>
          </div>
          <div class="row justify-content-center">
             <div class="col-md-8">
@@ -295,7 +295,7 @@
                      <div class="ecommerce_solutions_box">
                         <div class="row shadow mx-0 border rounded-end">
                            <h3 class="d-none invisible">Dedicated account manager</h3>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
                               Dedicated account manager
                            </div>
                         </div>
@@ -305,7 +305,7 @@
                      <div class="ecommerce_solutions_box">
                         <div class="row shadow mx-0 border rounded-end">
                            <h3 class="d-none invisible">Experienced crew of team</h3>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
                               Experienced crew of team
                            </div>
                         </div>
@@ -315,7 +315,7 @@
                      <div class="ecommerce_solutions_box">
                         <div class="row shadow mx-0 border rounded-end">
                            <h3 class="d-none invisible">On-time delivery</h3>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
                               On-time delivery
                            </div>
                         </div>
@@ -325,7 +325,7 @@
                      <div class="ecommerce_solutions_box">
                         <div class="row shadow mx-0 border rounded-end">
                            <h3 class="d-none invisible">World-class services</h3>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
                               World-class services
                            </div>
                         </div>
@@ -335,7 +335,7 @@
                      <div class="ecommerce_solutions_box">
                         <div class="row shadow mx-0 border rounded-end">
                            <h3 class="d-none invisible">Price match guarantee</h3>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
                               Price match guarantee
                            </div>
                         </div>
@@ -345,7 +345,7 @@
                      <div class="ecommerce_solutions_box">
                         <div class="row shadow mx-0 border rounded-end">
                            <h3 class="d-none invisible">Processes and tools.</h3>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-muted border border-2 border-theme3 py-2">
                               Processes and tools.
                            </div>
                         </div>
@@ -374,7 +374,7 @@
                         </button>
                      </h2>
                      <div id="collapseOne" class="position-relative accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-muted">
                            An eLearning app is defined as a group of online applications that depend on the latest technology to provide the best virtual learning experiences. eLearning apps have a significant role in transforming the training and education industry with online learning management solutions. The eLearning solutions app also enhances the educational outcome and training to generate a better revenue stream.
                         </div>
                      </div>
@@ -386,7 +386,7 @@
                         </button>
                      </h2>
                      <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-muted">
                            The cost of developing an eLearning app varies based on different factors like project requirements, platform selection, features needed, complexity, and more. If you need to know the accurate cost, please contact us.
                         </div>
                      </div>
@@ -398,7 +398,7 @@
                         </button>
                      </h2>
                      <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-muted">
                            The total time to build an eLearning app differs based on the app complexity. The functionality required, several revisions, customized designing works are also factoring to check to determine the time. We have the best developers who follow the best approach to deliver the best results with minimum time and revisions.
                         </div>
                      </div>
@@ -409,146 +409,193 @@
       </div>
    </div>
    
-    <!-- latest blog section -->
-    <div class="container-fluid insights position-relative overflow-hidden">
-        <div class="container position-relative zi-1 py-md-5 py-4">
+   
+         <!-- latest blog section -->
+    <div class="container-fluid blog-section position-relative overflow-hidden">
+        <div class="container position-relative zi-1 py-md-5 py-2">
             <div class="row">
-                <div class="col-12">
-                    <div class="row align-items-center">
-                        <h4 class="d-none invisible">Latest Blogs</h4>
-                        <h2 class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></h2>
-                        <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
-                                <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-12 ">
+                    <div class="row align-items-center justify-content-center">
+                       <div class="col-xl-8 col-lg-8 col-md-8 headingv2 fs-md-14 fs-12 text-center mb-sm-0 mb-3">
+                            <span class="fs-xl-26 fs-lg-24 fs-md-21 fs-20"> 
+                             <span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22 text-theme3 d-block">Our Sneak Peak into the Tech-World!</span>
+                                 Get Exciting Updates About Latest Technologies, Development Tips, & Trending Solutions Via Our Blogs </span></div>
+                      </div>
+                   </div>
+
                 <div class="col-12 h-100">
                     <div class="row align-items-start">
                         <div class="col-12">
                             <div class="row">
-                              <div class="col-12 h-100 px-0 pt-2">
-                                        <div class="row align-items-start mt-md-3 mt-2">
+                                <div class="col-12 h-100 px-0 pt-2">
+                                    <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
-                                                <div class="row blog_slider owl-carousel">
-                                                   <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="302" height="auto" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
-                                                           </div>
-                                                     </a> 
-                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                         <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
-                                                         data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
-                                                         </div>
-                                                      </div>
-                                                   </a>  
-                                                   <a href="https://www.imgglobalinfotech.com/blog/readymade-fantasy-cricket-app-development-cost" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageReadymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" alt="Fantasy-Cricket-App-Development-Cost-A-Complete-Guide"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Cricket-App-Development-for-IPL-2023.webp" alt="Fantasy-Cricket-App-Development-for-IPL-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Cricket App Development for IPL 2023</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-for-wpl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Sports-App-Development-for-Womens-Premier-League-2023.webp" alt="Fantasy-Sports-App-Development-for-Womens-Premier-League-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Feb 13, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Sports App Development for Women's Premier League 2023</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/top-10-restaurant-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageTop-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features.webp" alt="Top-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Jan 27, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Top 10 Restaurant App Development Companies in India 2023 - Cost and K..</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/how-much-money-can-you-earn-through-mobile-apps-in-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageHow-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023.webp" alt="How-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Jan 23, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">How Much Money Can You Earn Through Mobile Apps in 2023?</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/top-10-medicine-delivery-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageList-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023.webp" alt="List-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Jan 16, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">List of Top 10 Medicine Delivery App Development Companies in India 20..</div>
-                                                      </div>
-                                                   </a>
-                                                </div>
-                                            </div> 
-                                        </div>
-                                   </div>                  
-                             </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
-                        <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+                                                <div class="row blog_slider-main owl-carousel">
 
+                                                <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageA-Comprehensive-Guide-to-Developing-Multi-Sport-Fantasy-Apps.webp" class="img-fluid" alt="A Comprehensive Guide To Developing Multi-Sport Fantasy Apps" width="302" height="170">
+                                                            </a>  
+                                                            </div>
+                                                          <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide" class = "text-decoration-none">
+                                                            <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">A Comprehensive Guide To Developing Multi-Sport Fantasy Apps</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 Developing a multi-sport fantasy app is a complex process, but it can be rewarding. In this guide, we will discuss the key steps in developing a successful multi-sport fantasy app, as the fantasy app development company suggested.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Sep 04, 2023</span>
+                                                            </div>
+                                                        </div> 
+                                                     </div>
+
+                                                <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageThe-Ultimate-Guide-to-Fantasy-Cricket-App-Development.webp" class="img-fluid" alt="The Ultimate Guide To Fantasy Cricket App Development" width="302" height="170">
+                                                            </a>  
+                                                            </div>
+                                                          <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development" class = "text-decoration-none">
+                                                            <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">The Ultimate Guide To Fantasy Cricket App Development</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                  How to develop a fantasy cricket app? This guide can be your savior. So, let’s dive into the step-by-step process of fantasy cricket app development without further delay.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Aug 25, 2023</span>
+                                                            </div>
+                                                        </div> 
+                                                     </div>
+
+
+                                                    <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website">
+                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-to-Create-a-Fantasy-Sports-Website-6-Easy-Steps.jpg" class="img-fluid" alt="How To Create A Fantasy Sports Website - 6 Easy Steps" width="302" height="170">
+                                                                </a>
+                                                            </div>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website" class="text-decoration-none">
+                                                             <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">How To Create A Fantasy Sports Website - 6 Easy Steps</div>
+                                                            </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 In this blog, the professionals of a fantasy cricket website development company in India will unveil the secrets to creating a fantasy sports website.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Aug 18, 2023</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                     </div>
+                                                     <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageList-Of-Top-10-Best-Fantasy-Cricket-Apps-in-India-2023.jpg" class="img-fluid" alt="List Of Top 10 Best Fantasy Cricket Apps In India 2023" width="302" height="170">
+                                                            </a>  
+                                                            </div>
+                                                          <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india" class = "text-decoration-none">
+                                                            <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">List Of Top 10 Best Fantasy Cricket Apps In India 2023</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                              The top fantasy cricket app list includes Dream11, MyTeam11, ESPN, MyCircle11, and MPL. Each fantasy app has unique features, user experience, and contest offerings.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Aug 10, 2023</span>
+                                                            </div>
+                                                        </div> 
+                                                     </div>
+                                                     <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageTop-Fantasy-Sports-App-Development-Companies-in-India.jpg" class="img-fluid" alt="Top Fantasy Sports App Development Companies In India [2023]" width="302" height="170">
+                                                            </a>
+                                    
+                                                            </div>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India" class="text-decoration-none">
+                                                             <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">Top Fantasy Sports App Development Companies In India [2023]</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                This comprehensive guide highlights the list of the top fantasy sports app development companies in India, providing cutting-edge solutions for immersive sports gaming experiences.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Jul 13, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                     </div>
+
+                                                     <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-To-Develop-Fantasy-Cricket-App-for-Asia-Cup-2023-A-Complete-Guide.jpg" class="img-fluid" alt="How To Develop Fantasy Cricket App For Asia Cup 2023 - [A Complete Guide]" width="302" height="170">
+                                                            </a>
+                                    
+                                                            </div>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup" class="text-decoration-none">
+                                                             <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">How To Develop Fantasy Cricket App For Asia Cup 2023 - [A Complete Guide]</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 Fantasy app development for cricket requires a significant investment of time and resources. It is essential to have a comprehensive understanding of the entire development process to achieve the desired outcome. Check this blog to know how to develop a fantasy cricket app for Asia cup 2023
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Jul 06, 2023</span>
+                                                            </div>
+                                                        </div>
+                                                     </div>
+
+
+                                                     
+                                                   </div>
+                                                 </div>
+                                               </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>    
+
+                            <div class="col-12 text-center align-items-center pb-xl-5 pb-lg-5 pb-md-0 pb-sm-0 pb-sm-0">
+                                <a href="{{asset('/blog')}}" class="btn  btn-button1 text-capitalize text-white fs-xl-18 fs-lg-18 fs-md-19 fs-15 py-lg-1 py-0 my-3 px-lg-5 py-2 px-3 ms-md-2">
+                                <span class="d-flex align-items-center"><span>View all Blog  </span><i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                            </a>
+                          </div>
+                        </div>
+                     </div>
+               
+               
+ 
+                  
+                     
 @endsection
 @push('scripts')
    <script src="{{asset('/public')}}/assets/plugins/owl/owl.carousel.min.js"></script>

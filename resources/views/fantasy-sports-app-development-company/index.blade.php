@@ -186,9 +186,9 @@
                             @include('layouts.preloader')<nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
                                 <div class="container topbar d-lg-block d-none">
                                     <ul class="row justify-content-end mx-0 w-100 list-unstyled">
-                                        <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-light d-flex rounded align-items-center wave-1 px-2 py-2 topbar-email" href="mailto:info@imgglobalinfotech.com"><i class="imgs me-1 fs-xxl-16 fs-14 img-envelope"></i> <span>info@imgglobalinfotech.com</span></a></li>
-                                        <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-light d-flex rounded align-items-center wave-1 px-2 py-2 topbar-skype" href="skype:kunwar.neeraj.rajput?call"><i class="imgb me-1 fs-xxl-16 fs-14 img-skype"></i> <span>live:kunwar.neeraj.rajput</span></a></li>
-                                        {{-- <li class="col-auto px-xxl-1 px-0 pe-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-light d-flex rounded align-items-center wave-1 px-2 py-2 topbar-phone" href="tel:+919876543210"><i class="imgs me-1 fs-xxl-16 fs-14 img-phone"></i> <span>+91 9876543210</span></a></li> --}}
+                                        <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-l d-flex rounded align-items-center wave-1 px-2 py-2 topbar-email" href="mailto:info@imgglobalinfotech.com"><i class="imgs me-1 fs-xxl-16 fs-14 img-envelope"></i> <span>info@imgglobalinfotech.com</span></a></li>
+                                        <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-l d-flex rounded align-items-center wave-1 px-2 py-2 topbar-skype" href="skype:kunwar.neeraj.rajput?call"><i class="imgb me-1 fs-xxl-16 fs-14 img-skype"></i> <span>live:kunwar.neeraj.rajput</span></a></li>
+                                        {{-- <li class="col-auto px-xxl-1 px-0 pe-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-l d-flex rounded align-items-center wave-1 px-2 py-2 topbar-phone" href="tel:+919876543210"><i class="imgs me-1 fs-xxl-16 fs-14 img-phone"></i> <span>+91 9876543210</span></a></li> --}}
                                     </ul>
                                 </div>
                                 <div class="container bottombar">
@@ -1360,18 +1360,18 @@
                                                     <div class="row justify-content-lg-start justify-content-md-center justify-content-center">
                                                         <div class="col-auto mt-xl-0 mt-lg-0 mt-md-0 mt-4 mt-sm-0">
                                                             <div class="row justify-content-lg-start justify-content-md-center justify-content-center mt-xl-0 mt-lg-0 mt-md-0 mt-sm-0 mt-5">
-                                                                <div class="col-auto hero_title1 fs-xxl-50 fs-xl-50 fs-lg-50 fs-md-50 fs-sm-28 fs-27 fw-900 text-white lh-sm">Fantasy Sports <br>App Development</div>
-                                                                <div class="col-auto hero_taging text-light py-2 fw-800 fs-xxl-17 fs-xl-15 fs-lg-16 fs-md-14 fs-sm-15 fs-17 text-lg-start text-md-center text-center">
+                                                                <div class="col-auto hero_title1 fs-xxl-50 fs-xl-50 fs-lg-50 fs-md-50 fs-sm-28 fs-27 fw-m text-white lh-sm">Fantasy Sports <br>App Development</div>
+                                                                <div class="col-auto hero_taging text-light py-2 fw-l fs-xxl-17 fs-xl-15 fs-lg-16 fs-md-14 fs-sm-15 fs-17 text-lg-start text-md-center text-center">
                                                                 IMG delivers creative and intuitive fantasy sports apps to drive your business growth at a high pace. Apps are equipped with seamless and rich features resulting in delivering a user-friendly experience. 
                                                                  </div>
                                                             </div>
                                                             <div class="col-auto pt-3 hero_slider_btn">
                                                                     <div class="row justify-content-lg-start justify-content-md-center justify-content-center">
                                                                         <div class="col-auto text-center text-md-left ">
-                                                                        <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-md-14 fs-sm-13 fs-13 fw-bold my-3 py-2 px-md-4 px-5">
+                                                                        <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-md-14 fs-sm-13 fs-13 fw-m my-3 py-2 px-md-4 px-5">
                                                                                 <span class="d-block"><span>+91 -9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                                             </a>
-                                                                            <a href="#portfolio" class="btn btn-theme1 text-white fs-md-14 fs-sm-13 fs-13 fw-bold my-3 py-2 px-4 ms-md-2 px-md-4 px-3">
+                                                                            <a href="#portfolio" class="btn btn-theme1 text-white fs-md-14 fs-sm-13 fs-13 fw-m my-3 py-2 px-4 ms-md-2 px-md-4 px-3">
                                                                                 <span class="d-block"><span>View Portfolio</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                                             </a>
                                                                         </div>
@@ -1393,7 +1393,7 @@
                                                             <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
                                                             <input type="hidden" name="type" value="Fantasy Cricket App Development" />
                                                             <div class="col-12 align-items-start pt-4">
-                                                            <h5 class="col-12 fw-bold">
+                                                            <h5 class="col-12 fw-m">
                                                                 <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                                                                     <div class="row align-items-center">
                                                                         <h2 class="d-none invisible">Get Appointment With Our Experts</h2>
@@ -1410,14 +1410,14 @@
                                                                             <div class="col-md-12">
                                                                                 <div class="form-floating">
                                                                                     <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                                                                    <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                                                                    <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                                                                     <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-12">
                                                                                     <div class="row">
                                                                                         <div class="col-4 pe-0">
-                                                                                            <select class="form-select rounded-0 fw-600 h-100" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
+                                                                                            <select class="form-select rounded-0 fw-m h-100" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
                                                                                               <option value="IN +91" selected="selected"> IN +91</option>
                                                                                                <option value="AF +93">AF +93</option>
                                                                                                         <option value="AL +355">AL +355</option>
@@ -1663,7 +1663,7 @@
                                                                                             <div class="col-8 ps-0">
                                                                                             <div class="form-floating">
                                                                                                 <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                                                                <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                                                                <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                                                                 <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                                                                             </div>
                                                                                             </div>
@@ -1671,8 +1671,8 @@
                                                                                 </div>
                                                                             <div class="col-md-12">
                                                                                 <div class="form-floating">
-                                                                                    <input type="email" name="email" class="form-control rounded-0 fw-600" id="emailID" placeholder="Enter Email ID">
-                                                                                    <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                                                                    <input type="email" name="email" class="form-control rounded-0 fw-m" id="emailID" placeholder="Enter Email ID">
+                                                                                    <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                                                                     {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                                                                 </div>
                                                                             </div>
@@ -1680,7 +1680,7 @@
 
                                                                             <div class="col-md-12 ">
                                                                                     <div class="form-floating">
-                                                                                            <select name="type"required="" id="type" class="form-control rounded-0 pt-2 fw-600">
+                                                                                            <select name="type"required="" id="type" class="form-control rounded-0 pt-2 fw-m">
                                                                                                 <option value="">Looking For *</option>
                                                                                                 <option value="Fantasy Cricket App Development">Fantasy Cricket App Development</option>
                                                                                                 <option value="Fantasy Football App Development">Fantasy Football App Development</option>
@@ -1692,13 +1692,13 @@
 
                                                                                 <div class="col-md-12" style="pointer-events:none;">
                                                                                     <div class="Disabled">
-                                                                                        <input disabled type="text" name="type" class="bg-white form-control rounded-0 fw-600 h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
+                                                                                        <input disabled type="text" name="type" class="bg-white form-control rounded-0 fw-m h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
                                                                                       </div>
                                                                                 </div> 
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-12 px-5 py-3">
-                                                                        <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+                                                                        <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                                                                             <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                                         </button>
                                                                         </div>
@@ -1722,7 +1722,7 @@
                                                             <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
                                                             <input type="hidden" name="type" value="Fantasy Cricket App Development" />
                                                             <div class="col-12 align-items-start pt-4">
-                                                            <h5 class="col-12 fw-bold">
+                                                            <h5 class="col-12 fw-m">
                                                                 <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                                                                     <div class="row align-items-center">
                                                                         <h2 class="d-none invisible">Get Appointment With Our Experts</h2>
@@ -1739,14 +1739,14 @@
                                                                             <div class="col-md-12">
                                                                                 <div class="form-floating">
                                                                                     <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                                                                    <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                                                                    <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                                                                     <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-12">
                                                                                     <div class="row">
                                                                                         <div class="col-4 pe-0">
-                                                                                            <select class="form-select rounded-0 fw-600 h-100" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
+                                                                                            <select class="form-select rounded-0 fw-m h-100" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
                                                                                               <option value="IN +91" selected="selected"> IN +91</option>
                                                                                                <option value="AF +93">AF +93</option>
                                                                                                         <option value="AL +355">AL +355</option>
@@ -1992,7 +1992,7 @@
                                                                                             <div class="col-8 ps-0">
                                                                                             <div class="form-floating">
                                                                                                 <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                                                                <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                                                                <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                                                                 <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                                                                             </div>
                                                                                             </div>
@@ -2000,8 +2000,8 @@
                                                                                 </div>
                                                                             <div class="col-md-12">
                                                                                 <div class="form-floating">
-                                                                                    <input type="email" name="email" class="form-control rounded-0 fw-600" id="emailID" placeholder="Enter Email ID">
-                                                                                    <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                                                                    <input type="email" name="email" class="form-control rounded-0 fw-m" id="emailID" placeholder="Enter Email ID">
+                                                                                    <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                                                                     {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                                                                 </div>
                                                                             </div>
@@ -2009,7 +2009,7 @@
 
                                                                             <div class="col-md-12 ">
                                                                                     <div class="form-floating">
-                                                                                            <select name="type"required="" id="type" class="form-control rounded-0 pt-2 fw-600">
+                                                                                            <select name="type"required="" id="type" class="form-control rounded-0 pt-2 fw-m">
                                                                                                 <option value="">Looking For *</option>
                                                                                                 <option value="Fantasy Cricket App Development">Fantasy Cricket App Development</option>
                                                                                                 <option value="Fantasy Football App Development">Fantasy Football App Development</option>
@@ -2021,14 +2021,14 @@
 
                                                                                 <div class="col-md-12" style="pointer-events:none;">
                                                                                     <div class="Disabled">
-                                                                                        <input disabled type="text" name="type" class="bg-white form-control rounded-0 fw-600 h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
+                                                                                        <input disabled type="text" name="type" class="bg-white form-control rounded-0 fw-m h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
                                                                                       </div>
                                                                                 </div> 
                                                                             </div>
                                                                          </div>
 
                                                                         <div class="col-12 px-5 py-3">
-                                                                            <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+                                                                            <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                                                                                 <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                                             </button>
                                                                         </div>
@@ -2084,8 +2084,8 @@
                                                             <div class="col-12">
                                                             <div class="row">
                                                                 <h3 class="d-none invisible">Circket</h3>
-                                                                <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-19 text-uppercase lh-normal text-muted head">Circket</div>
-                                                                <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-16 text-dark "> Our experts follow a versatile approach to deliver the best-in-industry app and its fully functional features. </div>
+                                                                <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-19 text-uppercase lh-normal text-muted head">Circket</div>
+                                                                <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-16 text-dark "> Our experts follow a versatile approach to deliver the best-in-industry app and its fully functional features. </div>
                                                             </div>
                                                             </div>
                                                         </div>
@@ -2103,8 +2103,8 @@
                                                             <div class="col-12 topside2">
                                                             <div class="row">
                                                                 <h3 class="d-none invisible">Football</h3>
-                                                                <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-19 text-uppercase lh-normal text-muted head">Football</div>
-                                                                <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-16 text-dark"> We build a desired Football app for your business to engage various users and make it more user friendly.</div>
+                                                                <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-19 text-uppercase lh-normal text-muted head">Football</div>
+                                                                <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-16 text-dark"> We build a desired Football app for your business to engage various users and make it more user friendly.</div>
                                                             </div>
                                                             </div>
                                                         </div>
@@ -2124,8 +2124,8 @@
                                                             <div class="col-12">
                                                             <div class="row">
                                                                 <h3 class="d-none invisible">Kabaddi</h3>
-                                                                <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-19 text-uppercase lh-normal text-muted head">Kabaddi</div>
-                                                                <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-16 text-dark">   We create a highly engaging kabaddi app with scalable and powerful backend support in your operating system.  </div>
+                                                                <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-19 text-uppercase lh-normal text-muted head">Kabaddi</div>
+                                                                <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-16 text-dark">   We create a highly engaging kabaddi app with scalable and powerful backend support in your operating system.  </div>
                                                             </div>
                                                             </div>
                                                         </div>
@@ -2152,13 +2152,13 @@
                                                     <div class="col-lg-12 col-md-12 col-12 useradmin pt-0 pt-lg-0 pt-md-0 mb-lg-4 d-flex justify-content-center mx-auto p-0">  
                                                         <ul class="nav nav-tabs border-0 mb-md-0 mb-md-4 mb-4">
                                                             <li class="nav-item">
-                                                                <a class="nav-link active btn text-dark fs-lg-17 fs-md-17 fs-11 fw-bold  mx-2 pe-lg-4 pe-md-4 pe-2 ps-lg-4 ps-md-4 ps-2" data-bs-toggle="tab" href="#home"> User Panel </a>
+                                                                <a class="nav-link active btn text-dark fs-lg-17 fs-md-17 fs-11 fw-m  mx-2 pe-lg-4 pe-md-4 pe-2 ps-lg-4 ps-md-4 ps-2" data-bs-toggle="tab" href="#home"> User Panel </a>
                                                             </li>
                                                             <li class="nav-item">
-                                                                <a class="nav-link btn text-dark fs-lg-17 fs-md-17 fs-11 fw-bold  mx-2 pe-lg-4 pe-md-4 pe-2 ps-lg-4 ps-md-4 ps-2" data-bs-toggle="tab" href="#menu1">Admin Panel</a>
+                                                                <a class="nav-link btn text-dark fs-lg-17 fs-md-17 fs-11 fw-m  mx-2 pe-lg-4 pe-md-4 pe-2 ps-lg-4 ps-md-4 ps-2" data-bs-toggle="tab" href="#menu1">Admin Panel</a>
                                                             </li>
                                                             <li class="nav-item">
-                                                                <a class="nav-link btn text-dark fs-lg-17 fs-md-17 fs-11 fw-bold  mx-2 pe-lg-4 pe-md-4 pe-2 ps-lg-4 ps-md-4 ps-2" data-bs-toggle="tab" href="#menu2">Advanced Feature</a>
+                                                                <a class="nav-link btn text-dark fs-lg-17 fs-md-17 fs-11 fw-m  mx-2 pe-lg-4 pe-md-4 pe-2 ps-lg-4 ps-md-4 ps-2" data-bs-toggle="tab" href="#menu2">Advanced Feature</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -2175,7 +2175,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35" src="{{GETFOLDERPATH()}}/login.webp" alt="login" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Registration Login</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Registration Login</div>
                                                                                     </div>
                                                                                 </div>
                                                                              </div>
@@ -2188,7 +2188,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/dashborad.webp" alt="dashborad" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Dashboard</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Dashboard</div>
                                                                                     </div>
                                                                                 </div>
                                                                               </div>
@@ -2201,7 +2201,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/contestparticipation.webp" alt="custom web development" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Contest Participation</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Contest Participation</div>
                                                                                     </div>
                                                                                 </div>
                                                                               </div>
@@ -2214,7 +2214,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/paymenthistory.webp" alt="paymenthistory" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Playing History</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Playing History</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2227,7 +2227,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 mx-auto" src="{{GETFOLDERPATH()}}/instentwithdrow.webp" alt="instentwithdrows" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Instant withdraw</div>
+                                                                                            <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Instant withdraw</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -2248,7 +2248,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/teamcomparision.webp" alt="team-comparision" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Team Comparison</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Team Comparison</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2261,7 +2261,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/leader.webp" alt="leader-board" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">leader board </div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">leader board </div>
                                                                                     </div>
                                                                                 </div>
                                                                               </div>
@@ -2274,7 +2274,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/joincontest.webp" alt="join-contest" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Join Contest</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Join Contest</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2287,7 +2287,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/eazypayment.webp" alt="eazypayment" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Easy to Pay Mode</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Easy to Pay Mode</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2300,7 +2300,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/trangectionhistory.webp" alt="trangectionhistory" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Transaction History</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Transaction History</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2319,7 +2319,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/usermanagment.webp" alt="usermanagment" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">User Management</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">User Management</div>
                                                                                         </div>
                                                                                     </div>
                                                                                   </div>
@@ -2332,7 +2332,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/manageplayer.webp" alt="manageplayer" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Manage Players</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Manage Players</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -2345,7 +2345,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/multipalpaymentoption.webp" alt="multipalpaymentoption" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Multiple Payment Options</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Multiple Payment Options</div>
                                                                                         </div>
                                                                                     </div>
                                                                                    </div>
@@ -2358,7 +2358,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/referral.webp" alt="Bonus And Referral" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Bonus And Referral</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Bonus And Referral</div>
                                                                                         </div>
                                                                                     </div>
                                                                                   </div>
@@ -2378,7 +2378,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/bounceandrefreal.webp" alt="custom web development" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Bonus And Referral</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Bonus And Referral</div>
                                                                                         </div>
                                                                                     </div>
                                                                                   </div>
@@ -2391,7 +2391,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/rewards.webp" alt="rewards" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Exciting Rewards</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Exciting Rewards</div>
                                                                                         </div>
                                                                                     </div>
                                                                                     </div>
@@ -2404,7 +2404,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/dashbourd.webp" alt="dashbourd" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Intuitive Dashboard</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Intuitive Dashboard</div>
                                                                                         </div>
                                                                                     </div>
                                                                                   </div>
@@ -2419,7 +2419,7 @@
                                                                                         <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/managecontests.webp" alt="managecontests" height="100%" width="100%" class="img-fluid">
                                                                                         </div>
                                                                                             <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                            <div class="col-12 fw-900 fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Manage Contests</div>
+                                                                                            <div class="col-12 fw-m fs-md-13 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Manage Contests</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -2437,7 +2437,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/wellfeed.webp" alt="wellfeed" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Wall Feed</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Wall Feed</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2450,7 +2450,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/multipalsports.webp" alt="multipalsports" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Multiple Sports</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Multiple Sports</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2463,7 +2463,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/live.webp" alt="live">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0"> Live Match Scores</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0"> Live Match Scores</div>
                                                                                     </div>
                                                                                 </div>
                                                                               </div>
@@ -2477,7 +2477,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/instentwithdrow.webp" alt="instentwithdrow" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Instant withdraw</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Instant withdraw</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2496,7 +2496,7 @@
                                                                                     <img class="img-fluid w-md-50 w-50 " src="{{GETFOLDERPATH()}}/team.webp" alt="team" height="100%" width="100%">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Real-time Analytics</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Real-time Analytics</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2509,7 +2509,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/user-games.webp" alt="user-games" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Push Notification</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Push Notification</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2522,7 +2522,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/livefantasy.webp" alt="livefantasy" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Live Fantasy</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-14 fs-13 text-uppercase lh-normal text-dark head ps-0">Live Fantasy</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2535,7 +2535,7 @@
                                                                                     <img class="img-fluid w-lg-40 w-md-40 w-sm-35 w-35 " src="{{GETFOLDERPATH()}}/mail.webp" alt="mail" height="100%" width="100%" class="img-fluid">
                                                                                     </div>
                                                                                         <div class="col-xl-8 col-md-8 col-sm-6 col-8 ps-0">
-                                                                                        <div class="col-12 fw-900 fs-md-14 fs-sm-13 fs-13 text-uppercase lh-normal text-dark head ps-0">Mail reminder system</div>
+                                                                                        <div class="col-12 fw-m fs-md-14 fs-sm-13 fs-13 text-uppercase lh-normal text-dark head ps-0">Mail reminder system</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2561,11 +2561,11 @@
                                     <div class="row align-items-center mx-lg-5 mx-md-2 mx-0">
                                         <div class="col-lg-8 col-md-8 col-12">
                                             
-                                          <div class="col-12 fw-600 fs-md-20 fs-lg-23 fs-16 text-white fw-900 text-md-start text-center">Let us build your innovative fantasy app to gain higher user engagement. </div>
+                                          <div class="col-12 fw-m fs-md-20 fs-lg-23 fs-16 text-white  text-md-start text-center">Let us build your innovative fantasy app to gain higher user engagement. </div>
                                           <div class="col-12 fs-lg-23 fs-md-23 fs-19 text-white text-md-start text-center"> Want To reate a Fantasy Sports App?</div>
                                          </div>
                                             <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-lg-end justify-content-md-end justify-content-center py-2">
-                                                <a href="#contact-with-us-section" class="btn expert-btn fs-lg-14 fs-md-14 fs-11 fw-bold py-3 px-md-4 px-4 bg-white">
+                                                <a href="#contact-with-us-section" class="btn expert-btn fs-lg-14 fs-md-14 fs-11 fw-m py-3 px-md-4 px-4 bg-white">
                                                 <span class="d-block"><span>Get in Touch</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -2657,13 +2657,13 @@
                             <div class="container want-to-join-section cta-btn position-relative mt-3 pt-3 pb-5 mb-5">
                                 <div class="row mx-0 align-items-center">
                                     <div class="col-lg-12 col-12 text-center">
-                                    <div class="col-12 fw-600 fs-md-28 fs-sm-16 fs-19 text-dark text-center py-md-1 fw-900">Hire Remotely Fantasy Sports App Developer?  </div>
-                                    <div class="col-12 fw-600 fs-md-14 fs-sm-14 fs-15 text-dark text-center py-md-1 mb-md-0 mb-3">Connect with our expert and discuss your project requirements to get a perfect solution</div>
+                                    <div class="col-12 fw-m fs-md-28 fs-sm-16 fs-19 text-dark text-center py-md-1 ">Hire Remotely Fantasy Sports App Developer?  </div>
+                                    <div class="col-12 fw-l fs-md-14 fs-sm-14 fs-15 text-dark text-center py-md-1 mb-md-0 mb-3">Connect with our expert and discuss your project requirements to get a perfect solution</div>
                                      </div>
                                 </div>
                                       <div class="col-12 pt-lg-3 pt-md-3 text-center">
                                        
-                                        <a href="#contact-with-us-section" class="cta1 fs-md-14 fs-11 fw-900 py-1 px-md-3 text-decoration-none px-3">
+                                        <a href="#contact-with-us-section" class="cta1 fs-md-14 fs-11 fw-m py-1 px-md-3 text-decoration-none px-3">
                                         <span><i class="fs-xxl-14 fs-14 imgs img-phone-volume position-relative"></i> Talk to Our Experts</span>
                                       </a>
                                   
@@ -2684,29 +2684,29 @@
                                                 <div class="col-md-3 col-sm-6 col-12">
                                                     <div class="st-box">
                                                         <span></span>
-                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-bold">250+</strong>
-                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-900">Apps Delivered</h5>
+                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-m">250+</strong>
+                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-m">Apps Delivered</h5>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 col-sm-6 col-12">
                                                     <div class="st-box">
                                                         <span></span>
-                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-bold">200+</strong>
-                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-900">Happy Clients</h5>
+                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-m">200+</strong>
+                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-m">Happy Clients</h5>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 col-sm-6 col-12">
                                                     <div class="st-box">
                                                         <span></span>
-                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-bold">1200+</strong>
-                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-900">Successfully Projects</h5>
+                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-m">1200+</strong>
+                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-m">Successfully Projects</h5>
                                                     </div>
                                               </div>
                                                 <div class="col-md-3 col-sm-6 col-12">
                                                     <div class="st-box">
                                                         <span></span>
-                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-bold">8+</strong>
-                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-900">Years in Industry</h5>
+                                                        <strong class="text-theme1 fs-xl-35 fs-lg-35 fs-md-22 fs-20 fw-m">8+</strong>
+                                                        <h5 class="fs-xl-20 fs-lg-20 fs-md-16 fs-sm-15 fs-20 fw-m">Years in Industry</h5>
                                                     </div>
                                               </div>
                                         </div>
@@ -2735,7 +2735,7 @@
                         </button>
                      </h2>
                      <div id="collapseOne" class="position-relative accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         The factors which affect the development of fantasy sports apps are platform, app size and what type of features you wish to add. There are separate costs of building fantasy sports apps as you can choose either an android or iOS platform to launch your application. However, you can launch your app on both platforms but that will increase the cost of development. 
                         </div>
                      </div>
@@ -2748,7 +2748,7 @@
                         </button>
                      </h2>
                      <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         Our experts who are responsible for building your app have specialized in this field and have all the skills and knowledge of app structure and its relative platform. However, they are available for you to assist all the time. We not only build your app based on your customized needs but also deliver support after you have launched your app. Our experts never fail to deliver projects on time and we never compromise on project quality. 
 
                         </div>
@@ -2762,7 +2762,7 @@
                         </button>
                      </h2>
                      <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         We have acquired excellence and success in delivering a varied quantity of projects to our multiple clients. We deliver apps of fantasy cricket, fantasy football, fantasy kabaddi and mainly customized based on the games you wish to add. You can consult with our experts and state your business needs and 
                         we will deliver the same with seamless Ui Experience.
                         </div>
@@ -2776,7 +2776,7 @@
                         </button>
                      </h2>
                      <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         Yes, we deliver 24/7 support to our clients as per their requirements. Our team is always ready to give their best in analyzing your concerns and giving you solutions in time. You can put your app issues after launching to our team and we are available to assist you and to deliver maintenance service. 
                         </div>
                      </div>
@@ -2788,7 +2788,7 @@
                         </button>
                      </h2>
                      <div id="collapsefive" class="position-relative accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                            <div class="col-12">
                               <p>Here's a quick round-up of benefits:-</p>
                            </div>
@@ -2823,7 +2823,7 @@
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-25 fs-lg-25 fs-md-24 fs-18">Book a call to build intuitive and <br> user-friendly  application with IMG. </b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">We aim to deliver a seamless and robust app experience along with innovative strategies for all our clients and customers.</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">We aim to deliver a seamless and robust app experience along with innovative strategies for all our clients and customers.</div>
                </div>
               
             </div>
@@ -2837,7 +2837,7 @@
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600" for="name">Name</label>
+                        <label class="fw-m" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -3090,7 +3090,7 @@
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                          <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                          <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -3100,14 +3100,14 @@
                               <div class="col-md-5">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" >
-                                    <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                    <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                                  </div>
                               </div>
 
                                  <div class="col-md-7">
                                     <div class="form-floating">
-                                          <select name="requirement" required="" class="form-control rounded-0 pt-2 fw-400">
+                                          <select name="requirement" required="" class="form-control rounded-0 pt-2 fw-l">
                                           <option value="">Looking For *</option>
                                           <option value="Fantasy Cricket App Development">Fantasy Cricket App Development</option>
                                           <option value="Fantasy Football App Development">Fantasy Football App Development</option>
@@ -3121,13 +3121,13 @@
 
                                  <div class="col-md-12" style="pointer-events:none;">
                                     <div class="Disabled">
-                                        <input disabled type="text" name="type" class="bg-white form-control rounded-0 fw-600 h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
+                                        <input disabled type="text" name="type" class="bg-white form-control rounded-0 fw-m h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
                                         </div>
                                 </div> 
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-m hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>

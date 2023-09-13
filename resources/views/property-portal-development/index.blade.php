@@ -45,9 +45,9 @@
 										<div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Property Portal <b> Development Company</b></span></div>
 									</div>
 								</div>
-								<div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">"Real Estate/ Property Portal/ Website Development" Now a days property portals are becoming very popular. Property portals is a most important tools to make your property get listed among the sellers and buyers and renters. In today’s generation. Property portal development has turned into one of the fastest developing industries worldwide, and people across the world are using the Internet to the property for sale, buy or for rent."</div>
+								<div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">"Real Estate/ Property Portal/ Website Development" Now a days property portals are becoming very popular. Property portals is a most important tools to make your property get listed among the sellers and buyers and renters. In today’s generation. Property portal development has turned into one of the fastest developing industries worldwide, and people across the world are using the Internet to the property for sale, buy or for rent."</div>
 								<div class="col-12 pt-4">
-									<a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d; will-change: transform; transform: perspective(2500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500"> <span class="d-block"><span>Get Free Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
+									<a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d; will-change: transform; transform: perspective(2500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500"> <span class="d-block"><span>Get Free Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 									</a>
 								</div>
 							</div>
@@ -72,10 +72,10 @@
 				<div class="col-md-12">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb mb-0">
-							<li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-							<li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
-							<li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-portal-development.php')}}">Web Portal Development</a></li>
-							<li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Property Portal Development</li>
+							<li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+							<li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
+							<li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-portal-development.php')}}">Web Portal Development</a></li>
+							<li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Property Portal Development</li>
 						</ol>
 					</nav>
 				</div>
@@ -104,7 +104,7 @@
 										<div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Property <b> Portal?</b></span></div>
 									</div>
 								</div>
-								<div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is a leading web development company we provide a best solutions so that people searches real estate agent, builders, agencies, brokers and property like homes and condos, and many other things that are related to this industry as per their needs. We have a fruitful experience in developing and launching alluring and eye catchy Property portal development. We offer property portal website design and online solution. We very well understand that Property portal development is one of the medium through which properties being listed among all the sellers, buyers and renters. We architect Property portal development with the main intention to allure mammoth number of web visitors.</div>
+								<div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is a leading web development company we provide a best solutions so that people searches real estate agent, builders, agencies, brokers and property like homes and condos, and many other things that are related to this industry as per their needs. We have a fruitful experience in developing and launching alluring and eye catchy Property portal development. We offer property portal website design and online solution. We very well understand that Property portal development is one of the medium through which properties being listed among all the sellers, buyers and renters. We architect Property portal development with the main intention to allure mammoth number of web visitors.</div>
 							</div>
 						</div>
 					</div>
@@ -125,109 +125,109 @@
 							<div class="row mx-0 pb-4">
 								<h2 class="d-none invisible">Why Choose IMG Global Infotech For Property Portal Development?</h2>
 								<div class="col-12 heading fs-md-14 fs-12 left text-white mb-4"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Why Choose IMG Global Infotech For Property For <b> Property Portal Development?</b></span></div>
-								<div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white px-0">We specialize in both B2B and B2C Property Portal development – fully feature reach online portals which will promote your products and services. Our portal solutions are also designed and developed with highly user friendly search features. You can always look into our SEO and SMO services to get your portal on the top rankings on the web.</div>
+								<div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white px-0">We specialize in both B2B and B2C Property Portal development – fully feature reach online portals which will promote your products and services. Our portal solutions are also designed and developed with highly user friendly search features. You can always look into our SEO and SMO services to get your portal on the top rankings on the web.</div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Custom design </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Custom design </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Unlimited Page </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Unlimited Page </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Responsive Mobile Friendly </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Responsive Mobile Friendly </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Unlimited Property Listing </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Unlimited Property Listing </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">New Development Listings </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">New Development Listings </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Post Requirement Tools </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Post Requirement Tools </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Post Property Module </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Post Property Module </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Higher Ranking Search engine</div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Higher Ranking Search engine</div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Hosting and maintenance </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Hosting and maintenance </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Social Media Integration</div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Social Media Integration</div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Email and domain </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Email and domain </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Image gallery optimization </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Image gallery optimization </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Registration and property Upload </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Registration and property Upload </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Online payments </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Online payments </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Blogs and newsletters </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Blogs and newsletters </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Live Chat </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Live Chat </div>
 							</div>
 						</div>
 						<div class="col-12 mt-md-4 mt-3">
 							<div class="row align-items-center">
 								<div class="col-auto"> <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i> </div>
-								<div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Online admin </div>
+								<div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Online admin </div>
 							</div>
 						</div>
 					</div>

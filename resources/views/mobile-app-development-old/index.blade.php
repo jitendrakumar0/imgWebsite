@@ -1266,7 +1266,7 @@ Building Eye catchy and innovative mobile app with steadid commitment towards ti
 
                                             <div class="col-md-12">
                                              <div class="form-floating">
-                                                <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                                <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
                                                 <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                                    <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                              </div>
@@ -1606,7 +1606,7 @@ Building Eye catchy and innovative mobile app with steadid commitment towards ti
 
                                 <div class="col-md-12">
                                     <div class="form-floating">
-                                        <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                        <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
                                         <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                             <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                         </div>

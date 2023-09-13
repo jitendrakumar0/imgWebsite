@@ -505,124 +505,7 @@ button.accordion-button {
  
   }
 }
-.major-industries-section{
-  & .overview-industries{
-      position: relative;
-      transition: 0.3s all ease-in;
-      overflow: hidden;
-      &:hover {
-        & .industries-tittle{
-          transition: 0.3s all ease-in-out;
-          bottom: 0px;
-          min-height: auto;
-          cursor: pointer;
-        }
-        & .overviewIndustriesInner {
-          &::before {
-            visibility: visible;
-          }
-        }
-      }
-      & .overviewIndustriesInner {
-        position: relative;
-        &::before {
-          visibility: hidden;
-          content: "";
-          position: absolute;
-          inset: 0;
-          z-index: 1;
-          background-color: rgba($black, .2);
-          backdrop-filter: blur(5px);
-          transition: 0.3s all ease-in-out;
-        }
-      }
-      & img{
-        position: relative;
-        transition: 0.3s all ease-in;
-        z-index: 0;
-      }
-      &:hover {
-        img {
-          transform: scale(1.1);
-        }
-      }
-        & .industries-tittle{
-          z-index: 1;
-          position: absolute;
-          bottom: -147px;
-          left: 0;
-          width: 100%;
-          padding: 1px 30px 40px;
-          text-align: left;
-          min-height: 170px;
-          transition: 0.3s all ease-in-out;
-      }
-  }
-}
 
-.major-industries-section{
-  & .overview-industries2{
-      position: relative;
-      transition: 0.3s all ease-in;
-      overflow: hidden;
-      &:hover {
-        & .industries-tittle2{
-          transition: 0.3s all ease-in-out;
-          bottom: 0px;
-          min-height: auto;
-          cursor: pointer;
-        }
-        & .industryHiddenText {
-          height: 0px !important;
-        }
-        & .overviewIndustriesInner {
-          &::before {
-            visibility: visible;
-          }
-        }
-      }
-      & .overviewIndustriesInner {
-        position: relative;
-        &::before {
-          visibility: hidden;
-          content: "";
-          position: absolute;
-          inset: 0;
-          z-index: 1;
-          background-color: rgba($black, .2);
-          backdrop-filter: blur(5px);
-          transition: 0.3s all ease-in-out;
-        }
-      }
-      & img{
-        position: relative;
-        transition: 0.3s all ease-in;
-        z-index: 0;
-      }
-      &:hover {
-        img {
-          transform: scale(1.1);
-        }
-       }
-        & .industries-tittle2{
-          z-index: 1;
-          position: absolute;
-          bottom: -150%;
-          left: 0;
-          width: 100%;
-          padding: 1px 20px 20px;
-          text-align: left;
-          // min-height: 170px;
-          transition: 0.3s all ease-in-out;
-      }
-      & .industryHiddenText {
-        position: absolute;
-        padding: 1px 20px 20px !important;
-        bottom: 0;
-        transition: height 0.3s ease-in-out;
-      }
-  }
-}
 // contact with us section
 .contact-with-us-section {
   &::before {
@@ -811,6 +694,132 @@ button.accordion-button {
  }
 }
 
+.industries-sec{
+  & .col{
+    padding: 5px;
+    & a{
+      transition: .3s ease-in-out;
+      display: block;
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+     &:hover:after {
+        height: 100%;
+        background: linear-gradient(0deg,#0e2dff 0,rgba(0,0,0,0) 100%);
+        }
+        &:hover figcaption{
+          height: 100%;
+        }
+      &:after{
+          transition: .3s ease-in-out;
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background: linear-gradient(0deg,#000 0,rgba(255,255,255,0) 100%);
+          height: 130px;
+          opacity: .7;
+         
+      }
+        & figure {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          top: 0;
+          height: 100%;
+          & img{
+            transition: .3s ease-in-out;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+
+            &:hover{
+              transform: scale(1.1)
+            }
+      
+          }
+      }
+   
+    & figcaption {
+      transition: .3s ease-in-out;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+      
+  }
+  }
+   }
+}
+  
+ @mixin industries-sec-mixin-max-xs() {
+  .industries-sec{
+    & .col{
+        max-width: 50%;
+        flex: 0 0 50%;
+        &:nth-child(5) {
+            max-width: 100%;
+            flex: 0 0 100%
+        }
+        &:nth-child(6) {
+            max-width: 100%;
+            flex: 0 0 100%
+        }
+        &:nth-child(11) {
+          max-width: 100%;
+          flex: 0 0 100%
+         }
+          & a{
+            height: 160px;
+         
+            }
+        }
+        & figcaption {
+          font-size: 16px !important;
+          
+       }
+      }
+    }
+  
+    @mixin industries-sec-mixin-max-sm() {
+      .industries-sec{
+        & .col{
+            max-width: 50%;
+            flex: 0 0 50%;
+            &:nth-child(5) {
+                max-width: 100%;
+                flex: 0 0 100%
+            }
+            &:nth-child(6) {
+                max-width: 100%;
+                flex: 0 0 100%
+            }
+            &:nth-child(11) {
+              max-width: 100%;
+              flex: 0 0 100%
+             }
+              & a{
+                height: 160px;
+             
+                }
+            }
+            & figcaption {
+              font-size: 16px !important;
+              
+           }
+          }
+     }
+
 
 
 @mixin services-coman-mixin-max-xs(){
@@ -873,86 +882,7 @@ button.accordion-button {
    
   }
 }
-@mixin major-industries-section-mixin-max-xs(){
-  .major-industries-section{
-    & img{
-      transition: .3s all ease-in;
-      min-height: 250px;
-      height: auto;
-      object-fit: cover;
-      aspect-ratio: 1/0.85;
-    }
-    & .overview-industries{ 
-      & .industries-tittle{
-          bottom: 0 !important;
-          left: 0;
-          width: 100%;
-          padding: 1px 30px 40px;
-      }
-    }
 
-    & .overview-industries2{ 
-      & .industries-tittle2{
-          bottom: 0 !important;
-          left: 0;
-          width: 100%;
-          padding: 1px 18px 18px;
-      }
-    }
-  }
-}
-@mixin major-industries-section-mixin-max-sm(){
-  .major-industries-section{
-    & img{
-      transition: .3s all ease-in;
-      min-height: 250px;
-      height: auto;
-      object-fit: cover;
-      aspect-ratio: 1/0.6;
-    }
-    & .overview-industries{ 
-      & .industries-tittle{
-          bottom: 0 !important;
-          left: 0;
-          width: 100%;
-          padding: 1px 30px 40px;
-      }
-    }
-
-    & .overview-industries2{ 
-      & .industries-tittle2{
-          bottom: 0 !important;
-          left: 0;
-          width: 100%;
-          padding: 1px 30px 30px;
-      }
-    }
-  }
-}
-@mixin major-industries-section-mixin-max-md(){
-  .major-industries-section{
-    & img{
-      transition: .3s all ease-in;
-    }
-    & .overview-industries{ 
-      & .industries-tittle{
-          bottom: 0px !important;
-          left: 0;
-          width: 100%;
-          padding: 1px 30px 40px;
-      }
-    }
-
-    & .overview-industries2{ 
-      & .industries-tittle2{
-          bottom: 0 !important;
-          left: 0;
-          width: 100%;
-          padding: 1px 30px 40px;
-      }
-    }
-  }
-}
 @mixin developers-process-mixin-max-sm(){
   .developers-process{
     & .process2{
@@ -1081,15 +1011,15 @@ button.accordion-button {
   @include banner-cta1-mixin-max-md(); 
   @include why-hire-developers-img-mixin-max-md(); 
    @include developers-process-mixin-max-md(); 
-   @include major-industries-section-mixin-max-md(); 
+
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
   @include services-coman-mixin-max-sm(); 
-
+  @include industries-sec-mixin-max-sm(); 
   @include developers-process-mixin-max-sm(); 
-  @include major-industries-section-mixin-max-sm(); 
+  
 }
 
 // X-Small devices (portrait phones, less than 576px)
@@ -1098,7 +1028,8 @@ button.accordion-button {
   @include why-hire-developers-img-mixin-max-xs(); 
   @include banner-cta1-mixin-max-xs(); 
   @include developers-process-mixin-max-xs(); 
-  @include major-industries-section-mixin-max-xs(); 
+  @include industries-sec-mixin-max-xs(); 
+
 }
 
 // XX-Large devices (larger desktops)

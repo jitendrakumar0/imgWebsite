@@ -1,22 +1,22 @@
 @extends('main')
 @push('meta')
    <!--  Title -->
-   <title>Hire Python Developers from India | Hire Dedicated Python Developers</title>
+   <title>Hire Python Developers | Python Developers for Hire</title>
 
    <!-- Required meta tags -->
-   <meta name="title" content="Hire Python Developers from India | Hire Dedicated Python Developers" />
-   <meta name="description" content=" Looking to hire dedicated Python developers in India? IMG has a skilled team of Python developers based in India ready to bring your project to life." />
+   <meta name="title" content="Hire Python Developers | Python Developers for Hire" />
+   <meta name="description" content=" Hire dedicated Python developers on an hourly, monthly, or full-time basis. We have a team of top Python developers who can help you with your project needs." />
    <meta name="keywords" content="" />
 
    <!-- Twitter Meta -->
-   <meta name="twitter:title" content="Hire Python Developers from India | Hire Dedicated Python Developers">
-   <meta name="twitter:description" content=" Looking to hire dedicated Python developers in India? IMG has a skilled team of Python developers based in India ready to bring your project to life.">
+   <meta name="twitter:title" content="Hire Python Developers | Python Developers for Hire">
+   <meta name="twitter:description" content=" Hire dedicated Python developers on an hourly, monthly, or full-time basis. We have a team of top Python developers who can help you with your project needs.">
    <meta name="twitter:image" content="{{GETFOLDERPATH()}}/Hire-python-developer.webp">
 
    <!-- Facebook Meta -->
    <meta property="og:url" content="{{asset('/')}}hire-python-developers.php">
-   <meta property="og:title" content="Hire Python Developers from India | Hire Dedicated Python Developers">
-   <meta property="og:description" content=" Looking to hire dedicated Python developers in India? IMG has a skilled team of Python developers based in India ready to bring your project to life.">
+   <meta property="og:title" content="Hire Python Developers | Python Developers for Hire">
+   <meta property="og:description" content=" Hire dedicated Python developers on an hourly, monthly, or full-time basis. We have a team of top Python developers who can help you with your project needs.">
    <meta property="og:image" content="{{GETFOLDERPATH()}}/Hire-python-developer.webp">
    <meta property="og:image:secure_url" content="{{GETFOLDERPATH()}}/Hire-python-developer.webp">
 
@@ -41,10 +41,10 @@ We are providing cutting-edge python development solutions for your company by r
 @endsection('hero_tagline')
 @section('hero_btn')
 <div class="col-12 pt-3 text-lg-start text-center">
-	   <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-14 fw-bold my-3 py-2 px-4">
+	   <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-14 fw-m my-3 py-2 px-4">
 		  <span class="d-block"><span>+91 -9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
 	   </a>
-	   <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-14 fw-bold my-3 py-2 px-4 ms-md-2">
+	   <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-14 fw-m my-3 py-2 px-4 ms-md-2">
 		  <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
 	   </a>
 	</div>
@@ -63,9 +63,9 @@ We are providing cutting-edge python development solutions for your company by r
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/offshore-web-development-india.php')}}">Hire Dedicated Developers</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Hire Python Developers </li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/offshore-web-development-india.php')}}">Hire Dedicated Developers</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Hire Python Developers </li>
                   </ol>
                </nav>
             </div>
@@ -100,11 +100,11 @@ We are providing cutting-edge python development solutions for your company by r
                               </div>
                             </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We are a one-stop shop to hire python developers to build robust applications. For your company, we provide Python developers who are knowledgeable, talented, and proficient in using the most recent Python development trends and technology. This enables them to produce scalable and reliable online applications. Whether you want to work on commercial-grade, mid-large-scale projects or recruit Python programmers for reliable back-end systems. Our Python developers, who are experienced with the Flask, Django, and Web2py frameworks, have you covered.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We believe in working on a principle to develop high-quality solutions at an unbeatable price. By engaging our Python developers, who are skilled at adhering to cost-effective development practises, you can also take advantage of our cost-effective Python development services and save up to 60% of your development costs. </div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We are a one-stop shop to hire python developers to build robust applications. For your company, we provide Python developers who are knowledgeable, talented, and proficient in using the most recent Python development trends and technology. This enables them to produce scalable and reliable online applications. Whether you want to work on commercial-grade, mid-large-scale projects or recruit Python programmers for reliable back-end systems. Our Python developers, who are experienced with the Flask, Django, and Web2py frameworks, have you covered.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We believe in working on a principle to develop high-quality solutions at an unbeatable price. By engaging our Python developers, who are skilled at adhering to cost-effective development practises, you can also take advantage of our cost-effective Python development services and save up to 60% of your development costs. </div>
                      </div>
                      <div class="col-12 pt-3 text-lg-start text-md-center text-center mt-md-1">
-                           <a href="tel:+91-9694097245" target="_blank" class="btn btn-theme3 text-white fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
+                           <a href="tel:+91-9694097245" target="_blank" class="btn btn-theme3 text-white fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
                               <span class="d-block"><span>let's Get Connect</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -124,19 +124,19 @@ We are providing cutting-edge python development solutions for your company by r
                               <h3 class="d-none invisible">Why Hire Python Developers from IMG Global Infotech?</h3>
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark">Why Hire Python Developers from <b>IMG Global Infotech?</b></span></div>
                            </div>
-                           <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
+                           <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
                            Hiring a python developer from us would be the right choice because it will make your business thrive in on-going market trends. It may benefit for fast project development making sure all quality standards are matched. There are multiple reasons Python is preferable by developers. The python is highly readable and popular language amongst developer community due to numerous libraries easily accessible.
                         </div>
                            <div>
                               <div class="row">
                                  <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                      <div class="col-12 col-lg-12 position-relative">
-                                        <ul class="fw-700 fs-16 text-dark list-unstyled text-capitalize ">
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
+                                        <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
                                          
                                        </ul>
                                     </div>
@@ -144,12 +144,12 @@ We are providing cutting-edge python development solutions for your company by r
 
                                  <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                      <div class="col-12 col-lg-12 position-relative">
-                                        <ul class="fw-700 fs-16 text-dark list-unstyled text-capitalize ">
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
+                                        <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
                                        </ul>
                                     </div>
                                  </div>
@@ -169,11 +169,11 @@ We are providing cutting-edge python development solutions for your company by r
                      <div class="row align-items-center mx-lg-5 mx-md-2 mx-0">
                         <div class="col-lg-8 col-md-8 col-12">
                            <h3 class="d-none invisible">Ready to start your dream project?</h3>
-                           <div class="col-12 fs-lg-30 fs-md-25 fs-20 text-white text-md-start text-center"> Ready to start your dream project?</div>
-                           <div class="col-12 fw-600 fs-md-24 fs-lg-38 fs-19 text-white fw-900 text-md-start text-center">We have a TEAM to get you there.</div>
+                           <div class="col-12 fs-lg-25 fs-md-25 fs-20 text-white text-md-start text-center"> Ready to start your dream project?</div>
+                           <div class="col-12 fw-m fs-md-24 fs-lg-38 fs-19 text-white  text-md-start text-center">We have a TEAM to get you there.</div>
                         </div>
                            <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-lg-end justify-content-md-end justify-content-center py-2">
-                               <a href="{{asset('/hire-python-developers.php#contactWithUss')}}" class="btn expert-btn fs-lg-20 fs-md-17 fs-14 fw-bold py-3 px-md-4 px-4 bg-white">
+                               <a href="{{asset('/hire-python-developers.php#contactWithUss')}}" class="btn expert-btn fs-lg-20 fs-md-17 fs-14 fw-m py-3 px-md-4 px-4 bg-white">
                               <span class="d-block"><span>Get in Touch</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -187,7 +187,7 @@ We are providing cutting-edge python development solutions for your company by r
                 <div class="row mx-0 pb-3">
                   <h3 class="d-none invisible">Process to Hire Python Developers</h3>
                       <div class="col-12 heading fs-md-14 fs-12 center py-4"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Process to Hire  <b> Python Developers </b></span></div>
-                         <div class="col-lg-10 col-md-12 col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mt-4 mb-4 mx-auto text-center">   
+                         <div class="col-lg-10 col-md-12 col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mt-4 mb-4 mx-auto text-center">   
                            To ensure that our team consists of only the brightest and most experienced professionals, we employ a formal hiring procedure that includes the following steps:
                      </div>
                 </div>
@@ -203,7 +203,7 @@ We are providing cutting-edge python development solutions for your company by r
                                            <div class="col-auto count position-absolute left-lg-10px top-lg-8px left-13px top-10px fw-900 fs-lg-18 fs-md-18 fs-20">01</div>
                                           <span class="service_ico d-grid mx-auto justify-content-center align-items-center">
                                             <img class="w-lg-30 w-md-30 w-15 mx-auto mb-2 " src="{{GETFOLDERPATH()}}/budget.webp" alt="We Analyze Requirements"></span>
-                                           <div class="fw-600 text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1 px-2">We Analyze Requirements</div>
+                                           <div class="fw-m text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1 px-2">We Analyze Requirements</div>
                                           <div class="arrow-1 position-absolute right-lg-n65px right-md-n67px right-n32px top-lg-70px top-60px">
                                              <img class="w-50px d-lg-block d-md-block d-done"src="{{GETFOLDERPATH()}}/our-hiring-model-left-arrow.webp" alt="arrow">
                                          </div>
@@ -215,7 +215,7 @@ We are providing cutting-edge python development solutions for your company by r
                                            <div class="col-auto count position-absolute left-lg-10px top-lg-8px left-13px top-10px fw-900 fs-lg-18 fs-md-18 fs-20">02</div>
                                           <span class="service_ico d-grid mx-auto justify-content-center align-items-center">
                                             <img class="w-lg-30 w-md-30 w-15 mx-auto mb-2" src="{{GETFOLDERPATH()}}/confirm-your-budget.webp" alt="Confirm Your Budget"></span>
-                                           <div class="fw-600 text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1">Confirm Your Budget</div>
+                                           <div class="fw-m text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1">Confirm Your Budget</div>
                                            <div class="arrow-1 position-absolute right-lg-n65px right-md-n67px right-n32px top-lg-70px top-60px">
                                              <img class="w-50px"src="{{GETFOLDERPATH()}}/our-hiring-model-left-arrow.webp" alt="arrow">
                                          </div>
@@ -227,7 +227,7 @@ We are providing cutting-edge python development solutions for your company by r
                                            <div class="col-auto count position-absolute left-lg-10px top-lg-8px left-13px top-10px fw-900 fs-lg-18 fs-md-18 fs-20">03</div>
                                           <span class="service_ico d-grid mx-auto justify-content-center align-items-center">
                                             <img class="w-lg-30 w-md-30 w-15 mx-auto mb-2" src="{{GETFOLDERPATH()}}/process-3.webp" alt="We Send Resume of Resources"></span>
-                                           <div class="fw-600 text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1">We Send Resume of Resources</div>
+                                           <div class="fw-m text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1">We Send Resume of Resources</div>
                                           <div class="arrow-3 position-absolute">
                                              <img class="h-45px"src="{{GETFOLDERPATH()}}/our-hiring-model-bottom-arrow.webp" alt="arrow">
                                          </div>
@@ -241,7 +241,7 @@ We are providing cutting-edge python development solutions for your company by r
                                            <div class="col-auto count position-absolute left-lg-10px top-lg-8px left-13px top-10px fw-900 fs-lg-18 fs-md-18 fs-20">06</div>
                                           <span class="service_ico d-grid mx-auto justify-content-center align-items-center">
                                             <img class="w-lg-30 w-md-30 w-15 mx-auto mb-2" src="{{GETFOLDERPATH()}}/process-4.webp" alt="Daily Work Updates &  Communication"></span>
-                                           <div class="fw-600 text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1"> Daily Work Updates &  Communication</div>
+                                           <div class="fw-m text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1"> Daily Work Updates &  Communication</div>
                                            <div class="arrow-1 position-absolute right-n65px top-50px">
                                              <img class="w-50px"src="{{GETFOLDERPATH()}}/our-hiring-model-right-arrow.webp" alt="arrow">
                                          </div>
@@ -253,7 +253,7 @@ We are providing cutting-edge python development solutions for your company by r
                                            <div class="col-auto count position-absolute left-lg-10px top-lg-8px left-13px top-10px fw-900 fs-lg-18 fs-md-18 fs-20">05</div>
                                           <span class="service_ico d-grid mx-auto justify-content-center align-items-center">
                                             <img class="w-lg-30 w-md-30 w-15 mx-auto mb-2" src="{{GETFOLDERPATH()}}/process-5.webp" alt="You assign projects &  work on your project"></span>
-                                           <div class="fw-600 text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1">You assign projects &  work on your project</div>
+                                           <div class="fw-m text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1">You assign projects &  work on your project</div>
                                            <div class="arrow-1 position-absolute right-n65px top-55px">
                                              <img class="w-50px"src="{{GETFOLDERPATH()}}/our-hiring-model-right-arrow.webp" alt="arrow">
                                          </div>
@@ -266,7 +266,7 @@ We are providing cutting-edge python development solutions for your company by r
                                            <div class="col-auto count position-absolute left-lg-10px top-lg-8px left-13px top-10px fw-900 fs-lg-18 fs-md-18 fs-20">04</div>
                                           <span class="service_ico d-grid mx-auto justify-content-center align-items-center">
                                             <img class="w-lg-30 w-md-30 w-15 mx-auto mb-2" src="{{GETFOLDERPATH()}}/process-6.webp" alt="You shortlist & Interview them"></span>
-                                           <div class="fw-600 text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1 px-2">You shortlist & Interview them</div>
+                                           <div class="fw-m text-dark fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-center lh-1 px-2">You shortlist & Interview them</div>
                                         
                                        </div>
                                   </div>
@@ -282,7 +282,7 @@ We are providing cutting-edge python development solutions for your company by r
                               <div class="row align-items-lg-end align-items-md-center justify-content-lg-end justify-content-md-center">
                                  <div class="col-xl-6 col-lg-6 col-md-12 ps-lg-5 ps-md-0">
                                     <h3 class="d-none invisible">Join Forces with a Trustworthy Python Full Stack Developer</h3>
-                                    <div class="col-12 fw-900 fs-lg-32 fs-md-38 fs-sm-22 fs-22 text-white text-lg-start text-center ">Join Forces with a Trustworthy Python Full Stack Developer</div>
+                                    <div class="col-12 fw-m fs-lg-32 fs-md-38 fs-sm-22 fs-22 text-white text-lg-start text-center ">Join Forces with a Trustworthy Python Full Stack Developer</div>
                                     <div class="col-12 fs-lg-17 fs-md-16 fs-sm-17 fs-17 text-white text-lg-start text-center mt-3"> Python is now the language of choice for businesses and developers to construct cutting-edge software, AI/ML projects, and data science apps because of its versatility and simplicity. Our development team can translate your concept into safe and adaptable software applications using cutting-edge Python technologies thanks to its more than 22 years of development experience.</div>
                                     <div class="col-12 fs-lg-17 fs-md-16 fs-sm-17 fs-17 text-white text-lg-start text-center mt-3">Hire a capable Python back end developer from to collaborate with your team on continual innovation while working towards a shared vision. Let's take advantage of this chance to use Python to transform your innovative ideas into future-proof apps.
 </div>
@@ -295,10 +295,10 @@ We are providing cutting-edge python development solutions for your company by r
                      <div class="container banner-cta2 py-lg-5 py-md-5 py-3 py-2 zi-2 position-relative mt-lg-5 mt-md-5 mt-5 mb-5">
                      <div class="row align-items-center mx-lg-2 mx-md-2 mx-0">
                         <div class="row align-items-center">
-                           <div class="col-lg-8 col-md-8 col-12 fw-600 fs-md-25 fs-lg-25 fs-20 text-white fw-900 text-md-center text-center">Want to hire dedicated Python developer for your project?</div>
+                           <div class="col-lg-8 col-md-8 col-12 fw-m fs-md-25 fs-lg-25 fs-20 text-white  text-md-center text-center">Want to hire dedicated Python developer for your project?</div>
                      
                            <div class="col-lg-4 col-md-12 col-12 d-flex justify-content-lg-center justify-content-md-center justify-content-center py-2">
-                              <a href="{{asset('/hire-python-developers.php#contactWithUss')}}" class="btn expert-btn fs-lg-16 fs-md-16 fs-14 fw-bold py-3 px-md-4 px-4 bg-white">
+                              <a href="{{asset('/hire-python-developers.php#contactWithUss')}}" class="btn expert-btn fs-lg-16 fs-md-16 fs-14 fw-m py-3 px-md-4 px-4 bg-white">
                            <span class="d-block"><span class="text-black">Hire Python developer</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -306,139 +306,112 @@ We are providing cutting-edge python development solutions for your company by r
                   </div>
                   </div>
 
-              <!-- Start major-industries-section-->
-                    <div class="container-fluid overflow-hidden major-industries-section py-4 position-relative">
+                  {{-- Start major-industries-section --}}
+                    <div class="container-fluid overflow-hidden major-industries-section py-4 position-relative industries-sec">
                       <div class="container position-relative pt-md-3 pb-md-2">
                         <div class="row">
                            <div class="row mx-0 mb-lg-4 mb-md-4 mb-3">
                               <h3 class="d-none invisible">All Important Industries are Covered</h3>
                                <div class="col-12 heading fs-md-14 fs-16"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">All Important Industries are  <b>Covered</b> </span></div>
-                                <div class="col-lg-10 col-md-12 col-12 fw-600 fs-lg-18 fs-md-18 fs-sm-16 fs-16 text-mute mt-4 mb-4 mx-auto text-center">   
+                                <div class="col-lg-10 col-md-12 col-12 fw-l fs-lg-18 fs-md-18 fs-sm-16 fs-16 text-mute mt-4 mb-4 mx-auto text-center">   
                                  When you hire Android application developers from us, you are hiring a team that has developed hundreds of apps for various industry sectors. Our Android app developers have hands-on expertise developing custom Android apps for the industries listed below.
                              </div>
                            </div>
-                        </div>
 
-                              <div class="row">
-                                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries mb-lg-0 mb-lg-0 mb-4">   
-                                       <div class="overflow-hidden overviewIndustriesInner">
-                                             <img class="w-100 position-relative img1" src="{{GETFOLDERPATH()}}/Industries1.webp" alt="Banking and Finance">
-                                       </div>
-                                       <div class="industries-tittle">
-                                          <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-lg-2 py-md-2 py-2">Banking and Finance</div>
-                                          <div class="col-lg-5 col-md-8 col-12 fs-lg-15 fs-md-14 fs-sm-18 fs-17 text-white ">We provide banking and finance apps to accelerate the growth of your business, by building ROI centric and flawless features.</div>
-                                          <div class="col-12 learn-links text-white py-lg-2 py-md-2 py-2 fs-lg-15 fs-md-14 fs-sm-18 fs-17"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                     </div>
-                                 </div>
-
-                                 <div class="col-lg-4 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries">   
-                                    <div class="overflow-hidden overviewIndustriesInner">
-                                          <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries2.webp" alt="Fantasy Sports">
-                                    </div>
-                                    <div class="industries-tittle">
-                                          <h4 class="d-none invisible">Fantasy Sports</h4>
-                                       <div class="col-12 fs-lg-28 fs-md-28 fs-sm-15 fs-16 text-white py-2">Fantasy Sports </div>
-                                       <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">We provide fully functional and engaging fantasy sports apps that will be enrolling flawless features and will be built based on your customised needs.</div>
-                                       <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                   </div>
-                                 </div>
-                             </div>
-
-                              <div class="row py-2">
-                                   <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">  
-                                       <div class="col-lg-12 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries2 py-2">   
-                                             <div class="overflow-hidden overviewIndustriesInner">
-                                                   <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries3.webp" alt="Healthcare">
-                                             </div>
-                                             <div class="industries-tittle2">
-                                                   <h4 class="d-none invisible">Healthcare</h4>
-                                                <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">Healthcare </div>
-                                                <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">We create customised and seamless healthcare apps for better integration and rich featured operations leading to higher user engagement. </div>
-                                                <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                          </div>
-                                       </div>
-
-                                       <div class="col-lg-12 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries2 py-2">   
-                                          <div class="overflow-hidden overviewIndustriesInner">
-                                                <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries4.webp" alt="Media and Entertainment">
-                                          </div>
-                                          <div class="industries-tittle2">
-                                                <h4 class="d-none invisible">Media and Entertainment</h4>
-                                             <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">Media and Entertainment </div>
-                                             <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">We apply cutting edge technologies to deliver best-in-industry creative media and entertainment apps able to engage the highest number of users.</div>
-                                             <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                         </div>
-                                      </div>
-                                   </div>
-
-                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">  
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries2 py-2">   
-                                          <div class="overflow-hidden overviewIndustriesInner">
-                                                <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries5.webp" alt="EdTech Solution">
-                                          </div>
-                                          <div class="industries-tittle2">
-                                                <h4 class="d-none invisible">EdTech Solution</h4>
-                                             <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">EdTech Solution</div>
-                                             <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">We build edtech softwares installing SDK giving seamless experience to app users. Providing customised solutions for all edt5ech institutions.</div>
-                                             <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                       </div>
-                                      </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">  
-                                       <div class="col-lg-12 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries2 py-2">   
-                                             <div class="overflow-hidden overviewIndustriesInner">
-                                                   <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries6.webp" alt="Travel and Tourism">
-                                             </div>
-                                             <div class="industries-tittle2">
-                                                   <h4 class="d-none invisible">Travel and Tourism</h4>
-                                                <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">Travel and Tourism </div>
-                                                <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">Travel app makes travel easier and we deliver advanced features that will be helping app users in various ways and making it more feasible.</div>
-                                                <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                          </div>
-                                       </div>
-
-                                          <div class="col-lg-12 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries2 py-2">   
-                                                <div class="overflow-hidden overviewIndustriesInner">
-                                                      <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries7.webp" alt="Retail and Ecommerce App">
-                                                </div>
-                                                <div class="industries-tittle2">
-                                                      <h4 class="d-none invisible">Retail and Ecommerce App</h4>
-                                                   <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">Retail and Ecommerce App </div>
-                                                   <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">We create Retail and ecommerce apps that improve the shopping experience resulting in high user satisfaction and engagement.</div>
-                                                   <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                             </div>
-                                          </div>
-                                    </div>
-                                 </div>
-
-                           <div class="row py-2">
-                              <div class="col-lg-4 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries2 mb-lg-0 mb-lg-0 mb-4">   
-                                 <div class="overflow-hidden overviewIndustriesInner">
-                                       <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries8.webp" alt="Logistics Services App">
-                                 </div>
-                                  <div class="industries-tittle2">
-                                       <h4 class="d-none invisible">Logistics Services App</h4>
-                                       <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">Logistics Services App</div>
-                                       <div class="col-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">We build an app that assists your business requirement in such a way that it exceeds the traffic and increases the range of your services.</div>
-                                       <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                   </div>
-                              </div>
-
-                              <div class="col-lg-8 col-md-12 col-sm-12 col-12 overflow-hidden position-relative overview-industries">   
-                                 <div class="overflow-hidden overviewIndustriesInner">
-                                       <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Industries9.webp" alt="Social App">
-                                 </div>
-                                 <div class="industries-tittle">
-                                       <h4 class="d-none invisible">Social App</h4>
-                                       <div class="col-12 fs-lg-28 fs-md-28 fs-sm-16 fs-16 text-white py-4">Social App  </div>
-                                       <div class="col-12 col-lg-5 col-md-12 fs-lg-15 fs-md-15 fs-sm-18 fs-17 text-white ">Our development process will deliver a resilient social app with advanced features enrolled in it helping in gaining market share.</div>
-                                       <div class="col-12 learn-links text-white py-2"><a href="javascript:;" class="text-white text-decoration-none">Learn More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></a></div>
-                                 </div>
-                              </div>
-                           </div>
-                      </div>
-                  </div>
+                           <div class="row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="285" height="220" alt="Banking and Finance" src="{{asset('/public')}}/assets/img/hero-section/bank-and-finance.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Banking and Finance </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="383" height="220" alt="Fantasy Sports" src="{{asset('/public')}}/assets/img/hero-section/fantasy-sports.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded"> Fantasy Sports </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="187" height="220"  alt="Healthcare" src="{{asset('/public')}}/assets/img/hero-section/healthcare.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Healthcare </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="285" height="220" alt="EdTech Solution" src="{{asset('/public')}}/assets/img/hero-section/edTech-solution.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  EdTech Solution </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="285" height="220" alt="Travel and Tourism" src="{{asset('/public')}}/assets/img/hero-section/travel-and-tourism.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded"> Travel and Tourism </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="580" height="220"  alt="Media and Entertainment" src="{{asset('/public')}}/assets/img/hero-section/media-and-entertainment.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Media and Entertainment </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="285" height="220" src="{{asset('/public')}}/assets/img/hero-section/retail-and-ecommerce-app.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Retail and Ecommerce App  </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="285" height="220" alt="Logistics Services App" src="{{asset('/public')}}/assets/img/hero-section/logistics-services-app.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Logistics Services App </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="187" height="220" alt="Social App" src="{{asset('/public')}}/assets/img/hero-section/social-app.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Social App  </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="384" height="220"  alt="Real Estate" src="{{asset('/public')}}/assets/img/hero-section/real-estate.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded">  Real Estate </figcaption>
+                                </a>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 col">
+                                <a class="lazyloaded" href="#0">
+                                    <figure class="lazyloaded">
+                                        <img class="ls-is-cached lazyloaded" width="285" height="220" alt="On-demand" src="{{asset('/public')}}/assets/img/hero-section/on-demand.webp"/>
+                                    </figure>
+                                    <figcaption class="lazyloaded"> On-demand  </figcaption>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+       
 
       <!--Awards and Recognition -->
                  <div class="container-fluid overflow-hidden top-develpers-section py-4 position-relative">
@@ -447,7 +420,7 @@ We are providing cutting-edge python development solutions for your company by r
                          <div class="row mx-0 mb-lg-4 mb-md-5 mb-3"> 
                               <h3 class="d-none invisible">Awards and Recognition</h3>
                            <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Awards  <b>  and Recognition</b> </span></div>
-                                 <div class="col-lg-10 col-md-12 col-12 fw-600 fs-lg-18 fs-md-18 fs-sm-15 fs-14 text-mute  mt-lg-4 mb-lg-4 mt-md-4 mb-md-4 mt-1 mb-1 mx-auto text-center">   
+                                 <div class="col-lg-10 col-md-12 col-12 fw-l fs-lg-18 fs-md-18 fs-sm-15 fs-14 text-mute  mt-lg-4 mb-lg-4 mt-md-4 mb-md-4 mt-1 mb-1 mx-auto text-center">   
                                     According to the ratings and reviews of top platforms, IMG Global Infotech is one of the best mobile app development company and solution providers in the industry.
                              </div>
                            </div>
@@ -656,9 +629,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-ios-developer.webp" alt="Hire iOS Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-ios"> Hire iOS Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-ios"> Hire iOS Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-ios-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-ios">
+							<a href="{{ asset('/hire-ios-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-ios">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -671,9 +644,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-24 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-android-developer.webp" alt="Hire Android Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-android"> Hire Android Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-android"> Hire Android Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-android-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-android">
+							<a href="{{ asset('/hire-android-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-android">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -685,9 +658,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-26 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-node-js-developers.webp" alt="Hire Node.JS Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-nodejs"> Hire Node.JS Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-nodejs"> Hire Node.JS Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-node-js-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-nodejs">
+							<a href="{{ asset('/hire-node-js-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-nodejs">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -699,9 +672,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-react-native-developer.webp" alt="Hire React Native Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-react-native"> Hire React Native Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-react-native"> Hire React Native Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-react-native-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-react-native">
+							<a href="{{ asset('/hire-react-native-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-react-native">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -714,9 +687,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-24 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-flutter-developer.webp" alt="Hire Flutter Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-flutter"> Hire Flutter Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-flutter"> Hire Flutter Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-flutter-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-flutter">
+							<a href="{{ asset('/hire-flutter-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-flutter">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -728,9 +701,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-23 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-react.js-developers.webp" alt="Hire React.JS Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-reactjs"> Hire React.JS Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-reactjs"> Hire React.JS Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-react-js-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-reactjs">
+							<a href="{{ asset('/hire-react-js-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-reactjs">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -742,9 +715,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-java-developer.webp" alt="Hire Java Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-java"> Hire Java Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-java"> Hire Java Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-java-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-java">
+							<a href="{{ asset('/hire-java-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-java">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -756,9 +729,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-php-developer.webp" alt="Hire php Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-php"> Hire php Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-php"> Hire php Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-php-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-php">
+							<a href="{{ asset('/hire-php-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-php">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -770,9 +743,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-web-designer.webp" alt="Hire Web Designer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-web-designer"> Hire Web Designer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-web-designer"> Hire Web Designer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-web-desginers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-web-designer">
+							<a href="{{ asset('/hire-web-desginers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-web-designer">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -784,9 +757,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-angular-developer.webp" alt="Hire Angular Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-angular"> Hire Angular Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-angular"> Hire Angular Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-angular-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-angular">
+							<a href="{{ asset('/hire-angular-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-angular">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -799,9 +772,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-pythan-developer.webp" alt="Hire Python Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-python"> Hire Python Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-python"> Hire Python Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-python-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-python">
+							<a href="{{ asset('/hire-python-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-python">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -814,9 +787,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-full-stack-developer.webp" alt="Hire Full Stack Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-full-stack"> Hire Full Stack Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-full-stack"> Hire Full Stack Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-full-stack-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-full-stack">
+							<a href="{{ asset('/hire-full-stack-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-full-stack">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -829,9 +802,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-web-developer.webp" alt="Hire Web Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-web"> Hire Web Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-web"> Hire Web Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-web-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-web">
+							<a href="{{ asset('/hire-web-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-web">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -844,9 +817,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-mean-stack-developer.webp" alt="Hire Mean Stack Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-mean-stack"> Hire Mean Stack Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-mean-stack"> Hire Mean Stack Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-mean-stack-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-mean-stack">
+							<a href="{{ asset('/hire-mean-stack-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-mean-stack">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -858,9 +831,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-mern-stack-developer.webp" alt="Hire Mern Stack Developer ">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-mern-stack"> Hire Mern Stack Developer </div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-mern-stack"> Hire Mern Stack Developer </div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-mern-stack-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-mern-stack">
+							<a href="{{ asset('/hire-mern-stack-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-mern-stack">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -872,9 +845,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-mobile-app-developer.webp" alt="Hire Mobile App Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-mobile-app"> Hire Mobile App Developer</div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-mobile-app"> Hire Mobile App Developer</div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-mobile-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-mobile-app">
+							<a href="{{ asset('/hire-mobile-app-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-mobile-app">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -887,9 +860,9 @@ We are providing cutting-edge python development solutions for your company by r
 					   <div class="col-12 text-lg-start mb-2">
 						  <img class="w-lg-25 w-md-30 w-20 position-relative" src="{{GETFOLDERPATH()}}/hire-ui-ux-developer.webp" alt="Hire UI UX Developer">
 						</div>
-						  <div class="col-12 fw-900 fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-ui-ux"> Hire UI UX Developer</div>
+						  <div class="col-12 fw-m fs-lg-20 fs-md-19 fs-19 my-lg-3 my-md-3 my-1 text-capitalize text-ui-ux"> Hire UI UX Developer</div>
 						  <div class="col-lg-12 col-md-12 col-12">
-							<a href="{{ asset('/hire-ui-ux-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-bold text-decoration-none text-ui-ux">
+							<a href="{{ asset('/hire-ui-ux-developers.php') }}" class="fs-lg-17 fs-md-17 fs-14 fw-m text-decoration-none text-ui-ux">
 							   <span class="text-black">See More <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 						  </a>
 					  </div>
@@ -925,7 +898,7 @@ We are providing cutting-edge python development solutions for your company by r
                         </button>
                      </div>
                      <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         Python, despite being thought of as simple, is a programming language. If you want the finest outcomes from your web development project, you need people who know the language inside and out and can use it with the best technical solutions to bring your ideas to life. As such resource, you can use a Python development team. When you outsource your web development project, you also don't have to involve your internal IT team. They are now free to deal with other fundamental business-related challenges.
                      </div>
                   </div>
@@ -938,7 +911,7 @@ We are providing cutting-edge python development solutions for your company by r
                         </button>
                      </div>
                      <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         Although costs may differ from one region to another, Python developers typically charge between $50 and $100. Although less experienced Python coders will cost less, you won't get their degree of in-depth knowledge. If you're interested in learning more, get in touch with us for a solution that won't burn a hole in your wallet. All our clientele across the globe are satisfied working with our hired python developers model
                         </div>
                      </div>
@@ -951,7 +924,7 @@ We are providing cutting-edge python development solutions for your company by r
                         </button>
                      </div>
                      <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                         Yes, during the project's timeline, you will have complete control over the project and be able to contact the development team whenever you choose. In addition, we will designate a project manager to serve as your single point of contact and give you regular updates on the progress of the project.
                         </div>
                      </div>
@@ -965,7 +938,7 @@ We are providing cutting-edge python development solutions for your company by r
                         </button>
                      </div>
                      <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                        <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                            <div class="col-12">
                            After carefully analysing the requirements of your project, we send qualified and experienced programmers to work on it in a reliable IT environment. We allow our clients to shortlist and finalize the python developers by taking an interview and finalized the candidates. We make all the efforts to fulfil the expectations level to hire python developer. From the given applicants if none is suitable the more developers will be shortlisted and share across to review their profiles. We provide you with complete success and peace of mind.
                            </div>
@@ -983,227 +956,194 @@ We are providing cutting-edge python development solutions for your company by r
    </div> 
 
    
-    
     <!-- latest blog section -->
-    <div class="container-fluid insights position-relative overflow-hidden">
-        <div class="container position-relative zi-1 py-md-5 py-4">
+    <div class="container-fluid blog-section position-relative overflow-hidden">
+        <div class="container position-relative zi-1 py-md-5 py-2">
             <div class="row">
-                <div class="col-12">
-                    <div class="row align-items-center">
-                        <h3 class="d-none invisible">Latest Blogs</h3>
-                        <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
-                        <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
-                                <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-12 ">
+                    <div class="row align-items-center justify-content-center">
+                       <div class="col-xl-8 col-lg-8 col-md-8 headingv2 fs-md-14 fs-12 text-center mb-sm-0 mb-3">
+                            <span class="fs-xl-26 fs-lg-24 fs-md-21 fs-20"> 
+                             <span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22 text-theme3 d-block">Our Sneak Peak into the Tech-World!</span>
+                                 Get Exciting Updates About Latest Technologies, Development Tips, & Trending Solutions Via Our Blogs </span></div>
+                      </div>
+                   </div>
+
                 <div class="col-12 h-100">
                     <div class="row align-items-start">
                         <div class="col-12">
                             <div class="row">
-                              <div class="col-12 h-100 px-0 pt-2">
+                                <div class="col-12 h-100 px-0 pt-2">
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
-                                                <div class="row blog_slider owl-carousel">
+                                                <div class="row blog_slider-main owl-carousel">
 
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
-                                                           </div>
-                                                        </a> 
-
-                                                        <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-a-flutter-app" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
-                                                           </div>
-                                                        </a> 
-
-
-                                                     <a href="https://www.imgglobalinfotech.com/blog/doctor-on-demand-mobile-application-development-cost-and-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
-                                                           </div>
-                                                     </a> 
-
-                                                     <a href="https://www.imgglobalinfotech.com/blog/10-best-real-estate-application-for-buyers-sellers" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
-                                                           </div>
-                                                     </a> 
-
-                                                    <a href="https://www.imgglobalinfotech.com/blog/fuel-delivery-mobile-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
-                                                           </div>
-                                                     </a> 
-
-                                                <a href="https://www.imgglobalinfotech.com/blog/top-15-celebrity-look-alike-apps" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
-                                                           </div>
-                                                     </a> 
-
-
-
-                                                    <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-food-delivery-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
-                                                           </div>
-                                                     </a> 
-
-                                                  <a href="https://www.imgglobalinfotech.com/blog/how-to-build-a-mobile-app-from-scratch" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
-                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
-                                                                </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
-                                                           </div>
-                                                     </a> 
-                                                    <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                            <div class="row mx-1 py-3 bg-white">
-                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
-                                                                 </div>
-                                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                    <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
-                                                                </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
-                                                            </div>
-                                                      </a> 
-                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                       <div class="row mx-1 py-3 bg-white">
-                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                          <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
-                                                          </div>
-                                                          <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                             <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
-                                                          </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
-                                                          </div>
-                                                       </div>
-                                                    </a>  
-
-                                                     <a href="https://www.imgglobalinfotech.com/blog/readymade-fantasy-cricket-app-development-cost" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                        <div class="row mx-1 py-3 bg-white rounded">
+                                                <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
-                                                             </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageA-Comprehensive-Guide-to-Developing-Multi-Sport-Fantasy-Apps.webp" class="img-fluid" alt="A Comprehensive Guide To Developing Multi-Sport Fantasy Apps" width="302" height="170">
+                                                            </a>  
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                          <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide" class = "text-decoration-none">
+                                                            <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">A Comprehensive Guide To Developing Multi-Sport Fantasy Apps</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 Developing a multi-sport fantasy app is a complex process, but it can be rewarding. In this guide, we will discuss the key steps in developing a successful multi-sport fantasy app, as the fantasy app development company suggested.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Sep 04, 2023</span>
+                                                            </div>
+                                                        </div> 
+                                                     </div>
+
+                                                <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageThe-Ultimate-Guide-to-Fantasy-Cricket-App-Development.webp" class="img-fluid" alt="The Ultimate Guide To Fantasy Cricket App Development" width="302" height="170">
+                                                            </a>  
+                                                            </div>
+                                                          <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development" class = "text-decoration-none">
+                                                            <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">The Ultimate Guide To Fantasy Cricket App Development</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                  How to develop a fantasy cricket app? This guide can be your savior. So, let’s dive into the step-by-step process of fantasy cricket app development without further delay.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Aug 25, 2023</span>
+                                                            </div>
+                                                        </div> 
+                                                     </div>
+
+
+                                                    <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website">
+                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-to-Create-a-Fantasy-Sports-Website-6-Easy-Steps.jpg" class="img-fluid" alt="How To Create A Fantasy Sports Website - 6 Easy Steps" width="302" height="170">
+                                                                </a>
+                                                            </div>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website" class="text-decoration-none">
+                                                             <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">How To Create A Fantasy Sports Website - 6 Easy Steps</div>
+                                                            </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 In this blog, the professionals of a fantasy cricket website development company in India will unveil the secrets to creating a fantasy sports website.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Aug 18, 2023</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                     </div>
+                                                     <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageList-Of-Top-10-Best-Fantasy-Cricket-Apps-in-India-2023.jpg" class="img-fluid" alt="List Of Top 10 Best Fantasy Cricket Apps In India 2023" width="302" height="170">
+                                                            </a>  
+                                                            </div>
+                                                          <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india" class = "text-decoration-none">
+                                                            <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">List Of Top 10 Best Fantasy Cricket Apps In India 2023</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                              The top fantasy cricket app list includes Dream11, MyTeam11, ESPN, MyCircle11, and MPL. Each fantasy app has unique features, user experience, and contest offerings.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Aug 10, 2023</span>
+                                                            </div>
+                                                        </div> 
+                                                     </div>
+                                                     <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                            <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageTop-Fantasy-Sports-App-Development-Companies-in-India.jpg" class="img-fluid" alt="Top Fantasy Sports App Development Companies In India [2023]" width="302" height="170">
+                                                            </a>
+                                    
+                                                            </div>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India" class="text-decoration-none">
+                                                             <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">Top Fantasy Sports App Development Companies In India [2023]</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                This comprehensive guide highlights the list of the top fantasy sports app development companies in India, providing cutting-edge solutions for immersive sports gaming experiences.
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Jul 13, 2023</span>
                                                             </div>
                                                         </div>
-                                                    </a>
+                                                     </div>
 
-                                                  <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                        <div class="row mx-1 py-3 bg-white rounded">
+                                                     <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
-                                                             </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                            <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-To-Develop-Fantasy-Cricket-App-for-Asia-Cup-2023-A-Complete-Guide.jpg" class="img-fluid" alt="How To Develop Fantasy Cricket App For Asia Cup 2023 - [A Complete Guide]" width="302" height="170">
+                                                            </a>
+                                    
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup" class="text-decoration-none">
+                                                             <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">How To Develop Fantasy Cricket App For Asia Cup 2023 - [A Complete Guide]</div>
+                                                           </a>
+                                                              <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 Fantasy app development for cricket requires a significant investment of time and resources. It is essential to have a comprehensive understanding of the entire development process to achieve the desired outcome. Check this blog to know how to develop a fantasy cricket app for Asia cup 2023
+                                                              </div>
+                                                            <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    </a>
+                                                                    <span class="text-theme1 fw-m">Jul 06, 2023</span>
                                                             </div>
                                                         </div>
-                                                    </a>
+                                                     </div>
 
-                                                  
-                                                </div>
-                                            </div> 
+
+                                                     
+                                                   </div>
+                                                 </div>
+                                               </div>
+                                            </div>
                                         </div>
-                                    </div>                  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
-                        <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
-                    </a>
-                </div>
-				
-				 <div id="contactWithUss"></div>
-            </div>
-        </div>
-    </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>    
 
+                            <div class="col-12 text-center align-items-center pb-xl-5 pb-lg-5 pb-md-0 pb-sm-0 pb-sm-0">
+                                <a href="{{asset('/blog')}}" class="btn  btn-button1 text-capitalize text-white fs-xl-18 fs-lg-18 fs-md-19 fs-15 py-lg-1 py-0 my-3 px-lg-5 py-2 px-3 ms-md-2">
+                                <span class="d-flex align-items-center"><span>View all Blog  </span><i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                            </a>
+                          </div>
+                        </div>
+                     </div>
+               
+               
+ 
+                  
     
 <!-- contact with us section -->
-<div class="container-fluid contact-with-us-section position-relative overflow-hidden" id="contact-with-us-section">
+<!-- <div class="container-fluid contact-with-us-section position-relative overflow-hidden" id="contact-with-us-section">
       <div class="container position-relative zi-1 py-5">
          <div class="row align-items-center border border-5 rounded p-3 border-white">
             <div class="col-lg-6">
@@ -1211,10 +1151,10 @@ We are providing cutting-edge python development solutions for your company by r
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Get Appointment With <br>Our Experts</b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">Let's create beautiful and user-friendly mobile applications together!</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">Let's create beautiful and user-friendly mobile applications together!</div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
                </div>
             </div>
             <div class="col-lg-6 pt-lg-0 pt-4 px-lg-2 px-0">
@@ -1227,7 +1167,7 @@ We are providing cutting-edge python development solutions for your company by r
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600" for="name">Name</label>
+                        <label class="fw-m" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -1480,7 +1420,7 @@ We are providing cutting-edge python development solutions for your company by r
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                          <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                          <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -1490,7 +1430,7 @@ We are providing cutting-edge python development solutions for your company by r
                               <div class="col-md-5">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" >
-                                    <label class="fw-600" for="emailID">Email ID</label>
+                                    <label class="fw-m" for="emailID">Email ID</label>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                                  </div>
                               </div>
@@ -1521,14 +1461,14 @@ We are providing cutting-edge python development solutions for your company by r
                                  <div class="col-md-12">
                         <div class="form-floating">
                               <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                              <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                              <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                               </div>
                      </div> 
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-m hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>
@@ -1538,7 +1478,7 @@ We are providing cutting-edge python development solutions for your company by r
          </div>
       </div>
    </div>
-   
+    -->
 
    
    <!-- Modal -->
@@ -1550,7 +1490,7 @@ We are providing cutting-edge python development solutions for your company by r
             <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
             <input type="hidden" name="type" value="Fantasy Cricket App Development" />
             <div class="modal-header align-items-start">
-               <div class="modal-title fw-bold" id="exampleModalLabel">
+               <div class="modal-title fw-m" id="exampleModalLabel">
                   <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                      <div class="row align-items-center">
                         <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-22 fs-lg-23 fs-md-19 fs-17">Get Appointment With <b> Our Experts</b></span></div>
@@ -1569,7 +1509,7 @@ We are providing cutting-edge python development solutions for your company by r
                               <div class="col-md-12">
                                  <div class="form-floating">
                                     <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                    <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                    <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                     <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                  </div>
                               </div>
@@ -1821,7 +1761,7 @@ We are providing cutting-edge python development solutions for your company by r
                                             <div class="col-8 ps-0">
                                             <div class="form-floating">
                                                 <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                 <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                             </div>
                                             </div>
@@ -1830,7 +1770,7 @@ We are providing cutting-edge python development solutions for your company by r
                               <div class="col-md-12">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID">
-                                    <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                    <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                     {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                  </div>
                               </div>
@@ -1858,8 +1798,8 @@ We are providing cutting-edge python development solutions for your company by r
 
                                 <div class="col-md-12">
                                     <div class="form-floating">
-                                        <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                                        <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                                        <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                        <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                             <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                         </div>
                                 </div> 
@@ -1870,7 +1810,7 @@ We are providing cutting-edge python development solutions for your company by r
                </div> 
             </div>
             <div class="modal-footer px-5 pb-4">
-               <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+               <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                   <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </button>
             </div>

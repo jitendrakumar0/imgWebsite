@@ -47,9 +47,9 @@
                            </div>
                         </div>
                         <h2 class="d-none invisible">The most prominent Social media marketing agency in India to improve your business!</h2>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3">The most prominent Social media marketing agency in India to improve your business!</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3">The most prominent Social media marketing agency in India to improve your business!</div>
                         <div class="col-12 pt-4">
-                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Get a Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -75,9 +75,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/digital-marketing-services.php')}}">Digital Marketing Services</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">SMO Service</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/digital-marketing-services.php')}}">Digital Marketing Services</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">SMO Service</li>
                   </ol>
                </nav>
             </div>
@@ -107,13 +107,13 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Best Social Media Marketing<b> Agency in India</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-17 fs-sm-15 fs-14 text-muted mt-3 justify">IMG Global Infotech is one of the results-driven social media marketing companies in India, specializes in handling both paid and organic social media marketing campaigns. A smart crew of professionals is experienced in different social media platforms like LinkedIn, Twitter, Pinterest, Facebook, and more. The SMO consultants have good knowledge of maintaining the online social reputation and increasing traffic for an extended period. We help in increasing your online sales and to enhance your online reputation.</div>
-                        <div class="col-12 fw-600 fs-md-17 fs-sm-15 fs-14 text-muted mt-3 justify">We enable the client to develop and manage the best social media services for all businesses. We use unique, relevant, and useful SMO services to make the company get better visibility on social media platforms.</div>
+                        <div class="col-12 fw-l fs-md-17 fs-sm-15 fs-14 text-muted mt-3 justify">IMG Global Infotech is one of the results-driven social media marketing companies in India, specializes in handling both paid and organic social media marketing campaigns. A smart crew of professionals is experienced in different social media platforms like LinkedIn, Twitter, Pinterest, Facebook, and more. The SMO consultants have good knowledge of maintaining the online social reputation and increasing traffic for an extended period. We help in increasing your online sales and to enhance your online reputation.</div>
+                        <div class="col-12 fw-l fs-md-17 fs-sm-15 fs-14 text-muted mt-3 justify">We enable the client to develop and manage the best social media services for all businesses. We use unique, relevant, and useful SMO services to make the company get better visibility on social media platforms.</div>
                      </div>
                   </div>
                </div>
                <div class="row">
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-15 fs-14 text-muted mt-3 justify">For any small, medium, and large enterprises, social media is one of the best places to market their services and products. IMG Global Infotech SMO services help acquire higher leads and seek the visitors' attention to turn them into a paid customer. Every business type requires the best social media optimization services company that clearly understands the platforms to showcase their business products and services uniquely. As the best social media optimization company in India, IMG Global Infotech has the best Digital Marketing Services Company who are proficient and experienced in handling different social media sites.</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-15 fs-14 text-muted mt-3 justify">For any small, medium, and large enterprises, social media is one of the best places to market their services and products. IMG Global Infotech SMO services help acquire higher leads and seek the visitors' attention to turn them into a paid customer. Every business type requires the best social media optimization services company that clearly understands the platforms to showcase their business products and services uniquely. As the best social media optimization company in India, IMG Global Infotech has the best Digital Marketing Services Company who are proficient and experienced in handling different social media sites.</div>
                </div>
             </div>
          </div>
@@ -128,7 +128,7 @@
                <div class="row pb-5 mx-0">
                   <h2 class="d-none invisible">Our Process</h2>
                   <div class="col-12 heading fs-md-14 fs-12 center text-white left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Our <b>Process </b></span></div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-15 fs-14 text-white text-justify mt-3 ps-0">Our team of talented and smart social media experts analyzes, plan, optimize, and bring results by performing a perfect strategy. As the best digital marketing consultants in India, we follow the latest technology, trends, algorithm, and other changes to deliver guaranteed results.</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-15 fs-14 text-white text-justify mt-3 ps-0">Our team of talented and smart social media experts analyzes, plan, optimize, and bring results by performing a perfect strategy. As the best digital marketing consultants in India, we follow the latest technology, trends, algorithm, and other changes to deliver guaranteed results.</div>
                </div>
                <div class="row s-sidebar px-4 py-2 gap-4">
                   <a href="javascript:;" id="app-service-1" class="col-auto s-item wave-1 active" style="--tz:20px;">
@@ -173,8 +173,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/social-media-marketing-services/Flexible-and-Mobile-Engagement-Models.webp" alt="Flexible-and-Mobile-Engagement-Models">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Audit</div>
-                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-600 py-4 tz" style="--tz:30px;">Social media audit holds different steps to plan, analyse, and evaluate the business profiles on social media and also includes the strategies relevant to utilizing and managing the profiles on the social media for the desired results.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Audit</div>
+                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-l py-4 tz" style="--tz:30px;">Social media audit holds different steps to plan, analyse, and evaluate the business profiles on social media and also includes the strategies relevant to utilizing and managing the profiles on the social media for the desired results.</div>
                         </div>
                      </div>
                   </div>
@@ -188,8 +188,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/social-media-marketing-services/360-Degrees-sERVICES.webp" alt="360-Degrees-sERVICES">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Build Your Audience</div>
-                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-600 py-4 tz" style="--tz:30px;">The social media consultants create business profiles on every social media page and focus on the right strategies to create an online presence. This will help in attracting the audience to your site.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Build Your Audience</div>
+                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-l py-4 tz" style="--tz:30px;">The social media consultants create business profiles on every social media page and focus on the right strategies to create an online presence. This will help in attracting the audience to your site.</div>
                         </div>
                      </div>
                   </div>
@@ -203,8 +203,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/social-media-marketing-services/Customer Engagment.webp" alt="Customer Engagment">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Customer Engagment</div>
-                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-600 py-4 tz" style="--tz:30px;">Once we bring the visitors to your site, we do the next step to engage with the customers and make them buy your products or services. By doing so, the traffic converted will turn into paid customers.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Customer Engagment</div>
+                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-l py-4 tz" style="--tz:30px;">Once we bring the visitors to your site, we do the next step to engage with the customers and make them buy your products or services. By doing so, the traffic converted will turn into paid customers.</div>
                         </div>
                      </div>
                   </div>
@@ -218,8 +218,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/social-media-marketing-services/Experienced-Ios-Mobile-App-Developers.webp" alt="Experienced-Ios-Mobile-App-Developers">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Social Posting</div>
-                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-600 py-4 tz" style="--tz:30px;">We make sure we post information about your products or services on social media platforms daily so that the targeted audience can use it to get your products or services. When you post updates about your business regularly, your targeted audience will come to know more about you and start trusting your business.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Social Posting</div>
+                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-l py-4 tz" style="--tz:30px;">We make sure we post information about your products or services on social media platforms daily so that the targeted audience can use it to get your products or services. When you post updates about your business regularly, your targeted audience will come to know more about you and start trusting your business.</div>
                         </div>
                      </div>
                   </div>
@@ -233,8 +233,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/social-media-marketing-services/Business-Solution-Architecture.webp" alt="Business-Solution-Architecture">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Social Media Advertising</div>
-                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-600 py-4 tz" style="--tz:30px;">Social media is the best platform to promote your business products and service through advertisements. Trust choosing IMG Global Infotech for making this happen and deliver guaranteed results.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Social Media Advertising</div>
+                           <div class="col-12 fs-md-18 fs-sm-15 fs-14 fw-l py-4 tz" style="--tz:30px;">Social media is the best platform to promote your business products and service through advertisements. Trust choosing IMG Global Infotech for making this happen and deliver guaranteed results.</div>
                         </div>
                      </div>
                   </div>
@@ -250,7 +250,7 @@
          <div class="row mx-0 pb-5">
             <h2 class="d-none invisible">Our Social Media Marketing services</h2>
             <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Our Social Media <b>Marketing Services </b></span></div>
-            <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz px-0" style="--tz:30px;">As the best social media agency in India, we offer social media marketing services that bring you massive benefits for your business.</div>
+            <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz px-0" style="--tz:30px;">As the best social media agency in India, we offer social media marketing services that bring you massive benefits for your business.</div>
          </div>
          <div class="row develop-boxes">
             <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch">
@@ -259,8 +259,8 @@
                      <img src="{{asset('/public')}}/assets/img/social-media-marketing-services/Facebook.webp" alt="Facebook">
                   </span>
                   <h3 class="d-none invisible">Facebook Marketing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Facebook</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">We have top consultants who provide the best Facebook marketing services as per the clients' requirements and expectations. We have experienced social media marketers who create a business profile on your Facebook page to increase the followers and likes, interact with the targeted audience of yours to promote your business online, post intuitive content that engages customers, and more for delivering the best results.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Facebook</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">We have top consultants who provide the best Facebook marketing services as per the clients' requirements and expectations. We have experienced social media marketers who create a business profile on your Facebook page to increase the followers and likes, interact with the targeted audience of yours to promote your business online, post intuitive content that engages customers, and more for delivering the best results.</div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch">
@@ -269,8 +269,8 @@
                      <img src="{{asset('/public')}}/assets/img/social-media-marketing-services/Pinterest.webp" alt="Pinterest">
                   </span>
                   <h3 class="d-none invisible">Pinterest Marketing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Pinterest</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">We are the most promising SMO company in India that offers the best Pinterest marketing services to improve your business value. It enables advertising the business in the correct path. We provide Pinterest marketing services like increasing engagement, followers, posting pin regularly, creating boards, account setup, and more at cost-effective prices Our experts will help in enhancing the sales immediately.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Pinterest</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">We are the most promising SMO company in India that offers the best Pinterest marketing services to improve your business value. It enables advertising the business in the correct path. We provide Pinterest marketing services like increasing engagement, followers, posting pin regularly, creating boards, account setup, and more at cost-effective prices Our experts will help in enhancing the sales immediately.</div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch">
@@ -279,8 +279,8 @@
                      <img src="{{asset('/public')}}/assets/img/social-media-marketing-services/Instagrama.webp" alt="instagram">
                   </span>
                   <h3 class="d-none invisible">instagram Marketing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz" style="--tz:30px;">instagram</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Instagram is the most reputed video and image sharing social media site with higher hype among the young generations. It is used for advertising your business and boost sales successfully. Our Instagram marketers follow strategies and Instagram social media practices like creating a business profile, posting posts daily, increasing the followers as per the requirements, and more. The experienced social media consultants from our side ensure 100% guaranteed results.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">instagram</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Instagram is the most reputed video and image sharing social media site with higher hype among the young generations. It is used for advertising your business and boost sales successfully. Our Instagram marketers follow strategies and Instagram social media practices like creating a business profile, posting posts daily, increasing the followers as per the requirements, and more. The experienced social media consultants from our side ensure 100% guaranteed results.</div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch">
@@ -289,8 +289,8 @@
                      <img src="{{asset('/public')}}/assets/img/social-media-marketing-services/Tweeter.webp" alt="Twitter">
                   </span>
                   <h3 class="d-none invisible">Twitter Marketing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Twitter</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Twitter is the best and quick way to advertise your business on a large scale. We have SMO consultants who deliver top-notch twitter marketing services to engage with the customers and increase the audiences for global and local companies. Twitter marketing services from IMG Global Infotech include setting up accounts and maintenance, increasing tag followers, posting tweets daily, and promoting them to bring the best results. We have well trained and experienced twitter marketing professionals who take the Twitter campaign in the right format.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Twitter</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Twitter is the best and quick way to advertise your business on a large scale. We have SMO consultants who deliver top-notch twitter marketing services to engage with the customers and increase the audiences for global and local companies. Twitter marketing services from IMG Global Infotech include setting up accounts and maintenance, increasing tag followers, posting tweets daily, and promoting them to bring the best results. We have well trained and experienced twitter marketing professionals who take the Twitter campaign in the right format.</div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch">
@@ -299,8 +299,8 @@
                      <img src="{{asset('/public')}}/assets/img/social-media-marketing-services/Linkedin.webp" alt="Linkedin">
                   </span>
                   <h3 class="d-none invisible">Linkedin Marketing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Linkedin</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">LinkedIn is one of the professional social media platforms that help increase professional followers for your business. The LinkedIn marketing services from us helps to improve your online brand visibility to the targeted audiences. Some of the LinkedIn marketing services include setting up a page on LinkedIn, posting in profile, relevant groups for increasing the connections and followers as per the requirement of the business. The SMO consultants will help in developing your brand on social media platforms and generate leads efficiently.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Linkedin</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">LinkedIn is one of the professional social media platforms that help increase professional followers for your business. The LinkedIn marketing services from us helps to improve your online brand visibility to the targeted audiences. Some of the LinkedIn marketing services include setting up a page on LinkedIn, posting in profile, relevant groups for increasing the connections and followers as per the requirement of the business. The SMO consultants will help in developing your brand on social media platforms and generate leads efficiently.</div>
                </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch">
@@ -309,8 +309,8 @@
                      <img src="{{asset('/public')}}/assets/img/social-media-marketing-services/Youtube.webp" alt="You Tube">
                   </span>
                   <h3 class="d-none invisible">You Tube Marketing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz" style="--tz:30px;">You Tube</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">YouTube is one of the popular video marketing platforms which ranks second when compared to other video channels. We provide different YouTube marketing services like creating a YouTube profile, uploading videos daily, increasing likes, subscribers, comments, and views at cost-effective prices based on the business's requirements. We have well skilled YouTube marketing professionals who have good knowledge and the right path for promoting your business videos. </div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">You Tube</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">YouTube is one of the popular video marketing platforms which ranks second when compared to other video channels. We provide different YouTube marketing services like creating a YouTube profile, uploading videos daily, increasing likes, subscribers, comments, and views at cost-effective prices based on the business's requirements. We have well skilled YouTube marketing professionals who have good knowledge and the right path for promoting your business videos. </div>
                </div>
             </div>
          </div>
@@ -327,25 +327,25 @@
          </div>
          <div class="row justify-content-center">
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/seo-services.php')}}" class="btn btn-theme2 fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/seo-services.php')}}" class="btn btn-theme2 fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">SEO Services</h3>
                   <span class="d-block"><span>SEO Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/pay-per-click-services.php')}}" class="btn btn-theme1 fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/pay-per-click-services.php')}}" class="btn btn-theme1 fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">Pay Per Click (PPC) Services</h3>
                   <span class="d-block"><span>Pay Per Click (PPC) Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/app-store-optimization-services.php')}}" class="btn btn-theme3 fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/app-store-optimization-services.php')}}" class="btn btn-theme3 fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">ASO Services</h3>
                   <span class="d-block"><span>ASO Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/local-business-listing-services.php')}}" class="btn btn-indigo fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/local-business-listing-services.php')}}" class="btn btn-indigo fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">Local SEO</h3>
                   <span class="d-block"><span>Local SEO</span></span>
                </a>
@@ -364,7 +364,7 @@
                         <h4 class="d-none invisible">Latest Blogs</h4>
                         <h2 class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></h2>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -384,11 +384,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="302" height="auto" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">Apr 21, 2023</span> 
                                                                    <span> By Lokesh Saini</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                            </div>
                                                      </a> 
                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
@@ -397,11 +397,11 @@
                                                          <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Apr 12, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                         <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                          </div>
                                                       </div>
                                                    </a>  
@@ -410,11 +410,11 @@
                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageReadymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" alt="Fantasy-Cricket-App-Development-Cost-A-Complete-Guide"width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Apr 03, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]</div>
+                                                         <div class="col-12 fs-14 fw-l lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]</div>
                                                       </div>
                                                    </a>
                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
@@ -422,11 +422,11 @@
                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Cricket-App-Development-for-IPL-2023.webp" alt="Fantasy-Cricket-App-Development-for-IPL-2023"width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Feb 21, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Cricket App Development for IPL 2023</div>
+                                                         <div class="col-12 fs-14 fw-l lanth-text">Fantasy Cricket App Development for IPL 2023</div>
                                                       </div>
                                                    </a>
                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-for-wpl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
@@ -434,11 +434,11 @@
                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Sports-App-Development-for-Womens-Premier-League-2023.webp" alt="Fantasy-Sports-App-Development-for-Womens-Premier-League-2023"width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Feb 13, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Sports App Development for Women's Premier League 2023</div>
+                                                         <div class="col-12 fs-14 fw-l lanth-text">Fantasy Sports App Development for Women's Premier League 2023</div>
                                                       </div>
                                                    </a>
                                                    <a href="https://www.imgglobalinfotech.com/blog/top-10-restaurant-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
@@ -446,11 +446,11 @@
                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageTop-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features.webp" alt="Top-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features"width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Jan 27, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Top 10 Restaurant App Development Companies in India 2023 - Cost and K..</div>
+                                                         <div class="col-12 fs-14 fw-l lanth-text">Top 10 Restaurant App Development Companies in India 2023 - Cost and K..</div>
                                                       </div>
                                                    </a>
                                                    <a href="https://www.imgglobalinfotech.com/blog/how-much-money-can-you-earn-through-mobile-apps-in-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
@@ -458,11 +458,11 @@
                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageHow-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023.webp" alt="How-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023"width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Jan 23, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">How Much Money Can You Earn Through Mobile Apps in 2023?</div>
+                                                         <div class="col-12 fs-14 fw-l lanth-text">How Much Money Can You Earn Through Mobile Apps in 2023?</div>
                                                       </div>
                                                    </a>
                                                    <a href="https://www.imgglobalinfotech.com/blog/top-10-medicine-delivery-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
@@ -470,11 +470,11 @@
                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageList-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023.webp" alt="List-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023"width="302" height="auto" >
                                                          </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                         <div class="col-12 fs-14 text-muted fw-m py-2">
                                                             <span class="text-theme3 me-2">Jan 16, 2023</span> 
                                                             <span> By Lokesh Saini</span>
                                                          </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">List of Top 10 Medicine Delivery App Development Companies in India 20..</div>
+                                                         <div class="col-12 fs-14 fw-l lanth-text">List of Top 10 Medicine Delivery App Development Companies in India 20..</div>
                                                       </div>
                                                    </a>
                                                 </div>
@@ -487,7 +487,7 @@
                 </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>
@@ -505,10 +505,10 @@
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Get Appointment With<b> Our Expertsnnect </b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">Let's create beautiful and user-friendly mobile applications together!</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">Let's create beautiful and user-friendly mobile applications together!</div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
                </div>
             </div>
             <div class="col-lg-6 pt-lg-0 pt-4 px-lg-2 px-0">
@@ -521,7 +521,7 @@
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600" for="name">Name</label>
+                        <label class="fw-m" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -778,7 +778,7 @@
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                          <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                          <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -788,7 +788,7 @@
                            <div class="col-md-5">
                               <div class="form-floating">
                                  <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" >
-                                 <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                 <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                               </div>
                            </div>
@@ -813,22 +813,22 @@
                                        </select>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div>
                                        <!-- <input type="text" name="requirement" class="form-control rounded-0 fs-md-16 fs-14" id="Requierment" placeholder="Enter Requierment Name" required> -->
-                                       <!-- <label class="fw-600 fs-md-16 fs-14" for="Requierment"></label> -->
+                                       <!-- <label class="fw-m fs-md-16 fs-14" for="Requierment"></label> -->
                                        <!-- <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div> -->
                                  </div>
                          </div>
 
                          <div class="col-md-12">
                            <div class="form-floating">
-                              <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                              <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                              <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                              <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                            </div>
                         </div> 
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-m hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>

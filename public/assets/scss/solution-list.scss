@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@import "variables";
+
+body {
+  transition: background 1s ease;
+}
+
+
+
+.service-section{
+    & .svg_1{
+        position: absolute;
+        height: 14%;
+        bottom: 0%;
+        left: -13px;
+        width: auto;
+    }
+    & .svg_2{
+        position: absolute;
+        height: 14%;
+        top: 0;
+        right: -13px;
+        width: auto;
+    }
+    & .service_box{
+        &:before{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 90%;
+            border: 1px dashed $theme1;
+            display: inline-block;
+            margin: 5px 0 0 -28px;
+            
+        }
+        & .service_list{
+            &::before{
+                position: absolute;
+                content: "";
+                width: 15px;
+                height: 15px;
+                background-color: $white;
+                display: inline-block;
+                border-radius: 10px;
+                margin: 5px 0 0 -35px;
+                background-image: url(../../../img/solution-list/icn-app.svg);
+            }
+        }
+    }
+    & .owl-carousel-4 .owl-nav{
+        display: none !important;
+    }
+    & .read-mr{
+        transition: all 1s ease;
+            position: relative;
+            overflow: hidden;
+        & .product-content{
+            bottom: 40px;
+            & .project-name{
+                font-size: 30px;
+            }
+            & .cnts{
+                font-size: 15px;
+                opacity: 0.8;
+            }
+            & .digit{
+                border-right: 1px solid $white;
+                // margin-right: 30px;
+                & .digit-nmbr{
+                    font-size: 25px;
+                }
+                &:last-child{
+                    border: none;
+                }
+                & .cntents{
+                    font-size: 13px;
+                    opacity: 0.8;
+                }
+            }
+            
+        }
+        & .r-more{
+            bottom: 20px;
+            right: 30px;    
+        }
+        &:before{
+            // background-color: rgba(0,0,0,.1019607843);
+            background-color: rgb(182 182 182 / 11%);
+            content: "";
+            left: -100%;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 1s;
+            position: absolute;
+            top: 0;
+        }
+        &:hover:before{
+            left: 0;
+            opacity: 1;
+        }
+        &:after{
+            // background-color: rgba(0,0,0,.1019607843);
+            background-color: rgb(182 182 182 / 11%);
+            content: "";
+            opacity: 0;
+            position: absolute;
+            right: -100%;
+            top: 0;
+            transition: all 1s;
+            width: 100%;
+            height: 100%;
+        }
+        &:hover:after{
+            right: 0;
+            opacity: 1;
+        }
+    }
+}
+
+
+@mixin solution_list_section-mixin-max-sm(){
+
+    .service-section {
+      & .read-mr{
+      
+        & .r-more {
+           display: none;
+        }
+        & .product-content {
+            bottom: 1px;
+        }
+    }
+  } 
+
+
+}
+@mixin solution_list_section-mixin-max-md(){}
+@mixin solution_list_section-mixin-max-lg(){}
+@mixin solution_list_section-mixin-max-xl(){}
+@mixin solution_list_section-mixin-min-xxl(){}
+
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include solution_list_section-mixin-min-xxl();
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include solution_list_section-mixin-max-xl();
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include solution_list_section-mixin-max-lg();
+
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include solution_list_section-mixin-max-md();
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include solution_list_section-mixin-max-sm();
+
+}

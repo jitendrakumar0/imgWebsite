@@ -186,18 +186,22 @@
 }
 
 .web-design-sales-drive .to-access-item.active .to-access-thumb span {
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 .web-design-sales-drive .to-access-item:hover .to-access-thumb span {
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 @keyframes rotate2 {
   0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0);
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
+    -webkit-transform: translate(-50%, -50%) rotate(1440deg);
     transform: translate(-50%, -50%) rotate(1440deg);
   }
 }
@@ -243,8 +247,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -258,6 +264,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -640,9 +647,11 @@ button.accordion-button {
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=pay-per-click.min.css.map */
+}

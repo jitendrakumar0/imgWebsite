@@ -5,6 +5,14 @@
 .leftside img {
   animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
 }
+@-webkit-keyframes howtowork2 {
+  0% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
+}
 @keyframes howtowork2 {
   0% {
     transform: translateX(8px);
@@ -73,10 +81,18 @@
   border: 2px dashed #e09c19;
 }
 .developers-process .service-box:hover .service_ico img {
+  -moz-transform: scale(-1) rotate(180deg);
+  -o-transform: scale(-1) rotate(180deg);
+  -ms-transform: scale(-1) rotate(180deg);
+  -webkit-transform: scale(-1) rotate(180deg);
   transform: scale(-1) rotate(180deg);
   cursor: pointer;
 }
 .developers-process .service-box .service_ico img {
+  -moz-transition: all 400ms ease-out 0s;
+  -webkit-transition: all 400ms ease-out 0s;
+  -ms-transition: all 400ms ease-out 0s;
+  -o-transition: all 400ms ease-out 0s;
   transition: all 400ms ease-out 0s;
 }
 .developers-process .service-box .arrow-3 {
@@ -97,6 +113,8 @@
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
@@ -112,6 +130,7 @@
 }
 .top-develpers-section .accordion-button:not(.collapsed)::after {
   background-image: none m !important;
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -237,9 +256,17 @@
   transition: 0.5s all;
 }
 .industries .industries_item:hover img {
+  -moz-transform: scale(-1) rotate(180deg);
+  -o-transform: scale(-1) rotate(180deg);
+  -ms-transform: scale(-1) rotate(180deg);
+  -webkit-transform: scale(-1) rotate(180deg);
   transform: scale(-1) rotate(180deg);
 }
 .industries .industries_item img {
+  -moz-transition: all 400ms ease-out 0s;
+  -webkit-transition: all 400ms ease-out 0s;
+  -ms-transition: all 400ms ease-out 0s;
+  -o-transition: all 400ms ease-out 0s;
   transition: all 400ms ease-out 0s;
 }
 
@@ -255,8 +282,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -269,6 +298,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -368,102 +398,6 @@ button.accordion-button {
 }
 .hire-develpers-section .box .text-ui-ux {
   color: #e6c688;
-}
-
-.major-industries-section .overview-industries {
-  position: relative;
-  transition: 0.3s all ease-in;
-  overflow: hidden;
-}
-.major-industries-section .overview-industries:hover .industries-tittle {
-  transition: 0.3s all ease-in-out;
-  bottom: 0px;
-  min-height: auto;
-  cursor: pointer;
-}
-.major-industries-section .overview-industries:hover .overviewIndustriesInner::before {
-  visibility: visible;
-}
-.major-industries-section .overview-industries .overviewIndustriesInner {
-  position: relative;
-}
-.major-industries-section .overview-industries .overviewIndustriesInner::before {
-  visibility: hidden;
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  transition: 0.3s all ease-in-out;
-}
-.major-industries-section .overview-industries img {
-  position: relative;
-  transition: 0.3s all ease-in;
-  z-index: 0;
-}
-.major-industries-section .overview-industries:hover img {
-  transform: scale(1.1);
-}
-.major-industries-section .overview-industries .industries-tittle {
-  z-index: 1;
-  position: absolute;
-  bottom: -147px;
-  left: 0;
-  width: 100%;
-  padding: 1px 30px 40px;
-  text-align: left;
-  min-height: 170px;
-  transition: 0.3s all ease-in-out;
-}
-
-.major-industries-section .overview-industries2 {
-  position: relative;
-  transition: 0.3s all ease-in;
-  overflow: hidden;
-}
-.major-industries-section .overview-industries2:hover .industries-tittle2 {
-  transition: 0.3s all ease-in-out;
-  bottom: 0px;
-  min-height: auto;
-  cursor: pointer;
-}
-.major-industries-section .overview-industries2:hover .overviewIndustriesInner::before {
-  visibility: visible;
-}
-.major-industries-section .overview-industries2 .overviewIndustriesInner {
-  position: relative;
-}
-.major-industries-section .overview-industries2 .overviewIndustriesInner::before {
-  visibility: hidden;
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  transition: 0.3s all ease-in-out;
-}
-.major-industries-section .overview-industries2 img {
-  position: relative;
-  transition: 0.3s all ease-in;
-  z-index: 0;
-}
-.major-industries-section .overview-industries2:hover img {
-  transform: scale(1.1);
-}
-.major-industries-section .overview-industries2 .industries-tittle2 {
-  z-index: 1;
-  position: absolute;
-  bottom: -147px;
-  left: 0;
-  width: 100%;
-  padding: 1px 30px 40px;
-  text-align: left;
-  min-height: 170px;
-  transition: 0.3s all ease-in-out;
 }
 
 .contact-with-us-section {
@@ -627,6 +561,67 @@ button.accordion-button {
   background: #03151d;
 }
 
+.industries-sec .col {
+  padding: 5px;
+}
+.industries-sec .col a {
+  transition: 0.3s ease-in-out;
+  display: block;
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+.industries-sec .col a:hover:after {
+  height: 100%;
+  background: linear-gradient(0deg, #0e2dff 0, rgba(0, 0, 0, 0) 100%);
+}
+.industries-sec .col a:hover figcaption {
+  height: 100%;
+}
+.industries-sec .col a:after {
+  transition: 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(0deg, #000 0, rgba(255, 255, 255, 0) 100%);
+  height: 130px;
+  opacity: 0.7;
+}
+.industries-sec .col a figure {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+}
+.industries-sec .col a figure img {
+  transition: 0.3s ease-in-out;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.industries-sec .col a figure img:hover {
+  transform: scale(1.1);
+}
+.industries-sec .col a figcaption {
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  z-index: 1;
+}
+
 @media (max-width: 991.98px) {
   .services-coman .heading {
     text-align: center !important;
@@ -636,6 +631,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-hire-developers-img .heading {
@@ -646,6 +642,7 @@ button.accordion-button {
   }
   .why-hire-developers-img .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .developers-process .process2 {
@@ -657,21 +654,6 @@ button.accordion-button {
   .developers-process .arrow-3 {
     display: block;
   }
-  .major-industries-section img {
-    transition: 0.3s all ease-in;
-  }
-  .major-industries-section .overview-industries .industries-tittle {
-    bottom: 0px !important;
-    left: 0;
-    width: 100%;
-    padding: 1px 30px 40px;
-  }
-  .major-industries-section .overview-industries2 .industries-tittle2 {
-    bottom: 0 !important;
-    left: 0;
-    width: 100%;
-    padding: 1px 30px 40px;
-  }
 }
 @media (max-width: 767.98px) {
   .services-coman .heading {
@@ -682,7 +664,30 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
+  }
+  .industries-sec .col {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+  .industries-sec .col:nth-child(5) {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .industries-sec .col:nth-child(6) {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .industries-sec .col:nth-child(11) {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .industries-sec .col a {
+    height: 160px;
+  }
+  .industries-sec figcaption {
+    font-size: 16px !important;
   }
   .developers-process .process2 {
     flex-direction: column-reverse;
@@ -692,25 +697,6 @@ button.accordion-button {
   }
   .developers-process .arrow-3 {
     display: none;
-  }
-  .major-industries-section img {
-    transition: 0.3s all ease-in;
-    min-height: 250px;
-    height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .major-industries-section .overview-industries .industries-tittle {
-    bottom: 0 !important;
-    left: 0;
-    width: 100%;
-    padding: 1px 30px 40px;
-  }
-  .major-industries-section .overview-industries2 .industries-tittle2 {
-    bottom: 0 !important;
-    left: 0;
-    width: 100%;
-    padding: 1px 30px 40px;
   }
 }
 @media (max-width: 575.98px) {
@@ -722,6 +708,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-hire-developers-img .heading {
@@ -732,6 +719,7 @@ button.accordion-button {
   }
   .why-hire-developers-img .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .banner-cta1 .expert-btn {
@@ -746,23 +734,26 @@ button.accordion-button {
   .developers-process .arrow-3 {
     display: none;
   }
-  .major-industries-section img {
-    transition: 0.3s all ease-in;
-    min-height: 250px;
-    height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .industries-sec .col {
+    max-width: 50%;
+    flex: 0 0 50%;
   }
-  .major-industries-section .overview-industries .industries-tittle {
-    bottom: 0 !important;
-    left: 0;
-    width: 100%;
-    padding: 1px 30px 40px;
+  .industries-sec .col:nth-child(5) {
+    max-width: 100%;
+    flex: 0 0 100%;
   }
-  .major-industries-section .overview-industries2 .industries-tittle2 {
-    bottom: 0 !important;
-    left: 0;
-    width: 100%;
-    padding: 1px 30px 40px;
+  .industries-sec .col:nth-child(6) {
+    max-width: 100%;
+    flex: 0 0 100%;
   }
-}/*# sourceMappingURL=hire-flutter-app-developers.min.css.map */
+  .industries-sec .col:nth-child(11) {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .industries-sec .col a {
+    height: 160px;
+  }
+  .industries-sec figcaption {
+    font-size: 16px !important;
+  }
+}

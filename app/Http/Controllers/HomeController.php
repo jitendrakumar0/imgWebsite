@@ -25,7 +25,7 @@ class HomeController extends Controller
         //        DB::table('blogs')->where('id',$value->id)->update(['blog_image'=>$image_name]);
         //     }
         // }
-        return view('index');
+        return view('newimg');
     }
     public function get_routes($addr)
     {
@@ -54,6 +54,12 @@ class HomeController extends Controller
     {
         return view('about-us0.index');
     }
+
+    public function newimg()
+    {
+        return view('newimg');
+    }
+
     public function index_seo()
     {
         return view('index-seo');
@@ -83,6 +89,27 @@ class HomeController extends Controller
     public function case_study(){
         return view('case-study.index');
     }
+
+    public function solution()
+    {
+        return view('solution.index');
+    }
+
+    public function solution_1()
+    {
+        return view('solution-1.index');
+    }
+
+    public function dating()
+    {
+        return view('dating.index');
+    }
+
+    public function solution_list()
+    {
+        return view('solution-list.index');
+    }
+
 
     public function case_study_detail(){
         return view('case-study-detail.index');
@@ -179,7 +206,29 @@ class HomeController extends Controller
 
      public function portfolio_1()
      {
-         return view('portfolio-1.index');
+		 
+		 $bgc = '';
+
+        $select = ['location', 'title', 'tagline', 'image', 'tech', 'slug'];
+        $portfolios = DB::table('galleries')
+            ->where('section_image','!=',NULL)
+            ->where('image','!=',NULL)
+            ->where('single_image','!=',NULL)
+            ->where('tab_status', 1)
+            ->orderBy('id', 'DESC')
+            ->select($select)
+            ->paginate(21);
+    
+        $portfolio_category = DB::table('portfolio_category')
+                                ->join('galleries', 'portfolio_category.id', 'galleries.category')
+                                ->where('galleries.section_image','!=',NULL)
+                                ->where('galleries.image','!=',NULL)
+                                ->where('galleries.single_image','!=',NULL)
+                                ->select('portfolio_category.*')
+                                ->distinct('portfolio_category.id')
+                                ->get();
+        return view('portfolio.index', compact('portfolios', 'portfolio_category', 'bgc'));
+		 
      }
 
     //  public function android_application_development_company()
@@ -386,11 +435,39 @@ class HomeController extends Controller
           return view('hire-dedicated-developers.index');
       }
 
+        #demo pages
+        public function real_estate_demo()
+        {
+            return view('realestate-demo.index');
+        }
+
+
 
       public function casestudy()
        {
            return view('casestudy.index');
        }
+
+       public function casestudy_1()
+       {
+           return view('casestudy-1.index');
+       }
+
+       public function casestudy_2()
+       {
+           return view('casestudy-2.index');
+       }
+
+       public function casestudy_3()
+       {
+           return view('casestudy-3.index');
+       }
+
+       public function casestudy_4()
+       {
+           return view('casestudy-4.index');
+       }
+       
 
        public function ready_to_move()
        {
@@ -876,7 +953,7 @@ class HomeController extends Controller
             ->where('blogs.title', 'like', '%' . $value . '%')
             ->orderBy('blogs.blog_date', 'DESC')
             ->where('blogs.status', 1)
-            ->paginate(20);
+            ->paginate(10);
             // ->get();
 
             $feature_blogs = DB::table('blogs')
@@ -908,7 +985,7 @@ class HomeController extends Controller
         $blog = DB::table('blogs')
             ->join('blog_category', 'blog_category.id', 'blogs.category')
             ->join('blog_author', 'blog_author.id', 'blogs.blog_author')
-            ->select('blog_category.title as category_title', 'blog_category.slugcategory as slugcategory', 'blog_author.author_name as author_name', 'blogs.*')
+            ->select('blog_category.title as category_title', 'blog_category.slugcategory as slugcategory', 'blog_author.author_name as author_name', 'blog_author.image as author_image', 'blogs.*')
             ->where('blogs.status', 1)
             ->where('blogs.urlBlog', $id)
             ->first();
@@ -938,14 +1015,23 @@ class HomeController extends Controller
                 )
                 ->orderBy('blogs.blog_date', 'DESC')
                 ->where('blogs.status', 1)
-                ->limit(12)
+                ->where('blogs.urlBlog','!=', $id)
+                ->where('blogs.category', $blog->category)
+                ->limit(3)
+                ->get();
+
+            $blogsRecent = DB::table('blogs')->select('title','urlBlog')
+                ->orderBy('id', 'DESC')
+                ->where('status', 1)
+                ->where('urlBlog','!=', $id)
+                ->limit(5)
                 ->get();
 
             $blog->tags_foo = DB::table('blog_tags')
                                 ->select('tags','tags_slug')
                                 ->whereIn('id', explode(',', $blog->tags_foo) )
                                 ->get();
-            return view('blog.view', compact('blog', 'comments', 'blogs'));
+            return view('blog.view', compact('blog', 'comments', 'blogs', 'blogsRecent'));
         }
         else{
             return view('errors.404');
@@ -1030,7 +1116,7 @@ class HomeController extends Controller
                 ->orderBy('blogs.blog_date', 'DESC')
                 ->whereRaw("find_in_set('".$bgc->id."',blogs.category)")
                 ->where('blogs.status', 1)
-                ->paginate(20);
+                ->paginate(10);
                 //->get();
 
                 $feature_blogs = DB::table('blogs')
@@ -1094,7 +1180,7 @@ class HomeController extends Controller
                 ->orderBy('blogs.blog_date', 'DESC')
                 ->whereRaw("find_in_set('".$bgc->id."',blogs.tags_foo)")
                 ->where('blogs.status', 1)
-                ->paginate(20);
+                ->paginate(10);
                 //->get();
 
                 $feature_blogs = DB::table('blogs')
@@ -1245,36 +1331,41 @@ class HomeController extends Controller
 
     public function quote_action(Request $request)
     {
+        $referral_link = $request->headers->all();
+        
         $input = $request->all();
         $json = [];
-        if (trim($input['getname']) != '' && trim($input['getnumber']) != '' && trim($input['getlooking']) != '') {
+        if (trim($input['getname']) != '' && trim($input['getnumber']) != '') {
             $insertData = array(
                 'name' => $input['getname'],
                 'email' => $input['getemail'],
+                'phonecode' => $input['country_code'],
                 'mobile' => $input['getnumber'],
-                'skype' => $input['getskype'],
-                'companyname' => $input['companyname'],
-                'website' => $input['website'],
-                'looking' => $input['getlooking'],
+                'skype' => 'NA',
+                'companyname' => 'NA',
+                'website' => 'NA',
+                'looking' => 'NA',
                 'budget' => $input['getbudget'],
-                'description' => $input['getdetail']
+                'description' => $input['getdetail'],
+                'lazyImage' => 'NA',
+                'location' => (isset($referral_link['referer'][0]) ? $referral_link['referer'][0] : '')
             );
             // dump($input);
-            $responseData = VALIDATERECAPTCHA($request->get('g-recaptcha-response'));
+            // $responseData = VALIDATERECAPTCHA($request->get('g-recaptcha-response'));
             // dump($responseData);
-            if (!$responseData->success) {
-                $json['error'] = '1';
-                $json['msg'] = "Please check on the reCAPTCHA box.";
-            } else {
+            // if (!$responseData->success) {
+            //     $json['error'] = '1';
+            //     $json['msg'] = "Please check on the reCAPTCHA box.";
+            // } else {
                 $file_name = "";
-                if (isset($_FILES['getfile'])) {
-                    $file_name = "requestqoute" . strtolower($_FILES['getfile']['name']);
+                if (isset($_FILES['getfile']['name']) && !empty($_FILES['getfile']['name'])) {
+                    $file_name = "requestqoute-".rand().'.'.pathinfo($_FILES['getfile']['name'], PATHINFO_EXTENSION);
                     $file_size = $_FILES['getfile']['size'];
                     $file_tmp = $_FILES['getfile']['tmp_name'];
                     $file_type = $_FILES['getfile']['type'];
-                    $file_ext = strtolower(end(explode(getfile)));
+                    //$file_ext = strtolower(end(explode(getfile)));
 
-                    move_uploaded_file($file_tmp, "admin/images/requestquote/" . $file_name);
+                    move_uploaded_file($file_tmp, "imgadmin2/assets/images/" . $file_name);
                 }
                 $insertData['image'] = $file_name;
                 $sqlinsertID = DB::table('request_quote')->insertGetId($insertData);
@@ -1283,14 +1374,18 @@ class HomeController extends Controller
 
                 $leads = array(
                     'name' => $insertData['name'],
+                    'phonecode' => $insertData['phonecode'],
                     'mobile' => $insertData['mobile'],
                     'email' => $insertData['email'],
                     'type' => 'Request Quote',
-                    'type_id' => $sqlinsertID
+                    'type_id' => $sqlinsertID,
+                    'location' => $insertData['location']
                 );
                 DB::table('leads')->insert($leads);
-                $json = SENDQUOTEMAIL($insertData, 'test');
-            }
+				$insertData['number']=$input['getnumber'];
+
+                $json = SENDQUOTEMAIL($insertData, 'prod');
+            //}
         } else {
             $json['error'] = '1';
             $json['msg'] = "Please Fill All Mandatory Fields";
@@ -1367,7 +1462,8 @@ class HomeController extends Controller
     }
     public function contact_action(Request $request)
     {
-        
+        $referral_link = $request->headers->all();
+
         $input = $request->all();
         $json = [];
         $phoneCode = "IN +91";
@@ -1382,8 +1478,8 @@ class HomeController extends Controller
             'phonecode' => $phoneCode,
             'requirement' => (isset($input['requirement']) ? $input['requirement'] : ''),
             'organization' => (isset($input['organization']) ? $input['organization'] : ''),
-            'message' => (isset($input['mmessage']) ? $input['mmessage'] : '')
-
+            'message' => (isset($input['mmessage']) ? $input['mmessage'] : ''),
+            'location' => (isset($referral_link['referer'][0]) ? $referral_link['referer'][0] : ''),
         );
 
         $mobileregex = "/^[6-9][0-9]{9}$/";
@@ -1406,11 +1502,12 @@ class HomeController extends Controller
                     'mobile' => $insertData['mobile'],
                     'email' => $insertData['email'],
                     'type' => 'Contact',
-                    'type_id' => $sql
+                    'type_id' => $sql,
+                    'location' => $insertData['location'],
                 );
                 $sql1 = DB::table('leads')->insert($leads);
 
-                SENDCONTACTUSMAIL($insertData, 'test');
+                SENDCONTACTUSMAIL($insertData, 'prod');
                 SMSCURL('test', 'contact');
 
                 $json['error'] = '0';
@@ -1428,6 +1525,8 @@ class HomeController extends Controller
 
     public function digitalform_action(Request $request)
     {
+        $referral_link = $request->headers->all();
+
         $input = $request->all();
         $json = [];
         $phoneCode = "IN +91";
@@ -1448,7 +1547,8 @@ class HomeController extends Controller
                 'phonecode' => $phoneCode,
                 'mobile' => $input['tel'],
                 'website_url' => (isset($input['website']) ? $input['website'] : ''),
-                'type' => $input['type']
+                'type' => $input['type'],
+                'location' => (isset($referral_link['referer'][0]) ? $referral_link['referer'][0] : '')
             );
 
             $responseData = VALIDATERECAPTCHA($request->get('g-recaptcha-response'));
@@ -1466,10 +1566,17 @@ class HomeController extends Controller
                     'mobile' => $insertData['mobile'],
                     'email' => $insertData['email'],
                     'type' => $type,
-                    'type_id' => $sql
+                    'type_id' => $sql,
+                    'location' => $insertData['location']
+
                 );
                 $sql1 = DB::table('leads')->insert($leads);
 
+                $insertData['requirement']=$type;
+				$insertData['message']=$input['message'];
+				
+				SENDCONTACTUSMAIL($insertData, 'prod');
+            
                 $json['error'] = '0';
                 $json['msg'] = "Rquest received successfully.";
           //  }

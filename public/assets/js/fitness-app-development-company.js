@@ -2,23 +2,23 @@
 
     
   $('.fantasy-cricket-sldier').owlCarousel({
-    loop: true,
+     loop: true,
     center: false,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
+   autoplay: false,
+   autoplayTimeout: 3000,
+   autoplayHoverPause: true,
     dots: true,
     margin: 8,
     responsiveClass: true,
     responsive: {
       0: {
-        items: 2,
+        items: 1,
         dots: true,
         loop: true,
         nav: false
       },
       500: {
-        items: 2,
+        items: 1,
         dots: true,
         loop: true,
         nav: false

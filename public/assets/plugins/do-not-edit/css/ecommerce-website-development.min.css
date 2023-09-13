@@ -569,9 +569,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -608,8 +610,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -623,6 +627,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -652,6 +657,7 @@ button.accordion-button::after {
 .accordion-button:not(.collapsed) {
   background-color: #ff6d00;
   color: #fff;
+  -webkit-box-shadow: unset;
   box-shadow: unset;
   outline: unset;
 }
@@ -853,4 +859,4 @@ button.accordion-button::after {
     animation: headings 3s linear infinite;
     right: 0;
   }
-}/*# sourceMappingURL=ecommerce-website-development.min.css.map */
+}

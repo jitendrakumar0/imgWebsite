@@ -10,13 +10,13 @@
     responsiveClass: true,
     responsive: {
       0: {
-        items: 2,
+        items: 1,
         dots: true,
         loop: true,
         nav: false
       },
       500: {
-        items: 2,
+        items: 1,
         dots: true,
         loop: true,
         nav: false

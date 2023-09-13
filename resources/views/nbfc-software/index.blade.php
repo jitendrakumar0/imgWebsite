@@ -45,9 +45,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> NBFC <b>Software</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">NBFC Software is complete software that helps in every step of finance management and loan management. It is specially developed software that helps Non-banking financial company to manage their database.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is software that that covers entire life cycle of a loan Management right Like: Loan Product definition, File Processing and documentation, Loan Amount Calculation, Billing, processing of Loan Accounts, foreclosure, and termination.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">IMG Global Infotech, is one of the leading software development company in India which develop a fully customized Non-banking financial software as well as mobile app that help every NBFC company to manage their operations.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">NBFC Software is complete software that helps in every step of finance management and loan management. It is specially developed software that helps Non-banking financial company to manage their database.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is software that that covers entire life cycle of a loan Management right Like: Loan Product definition, File Processing and documentation, Loan Amount Calculation, Billing, processing of Loan Accounts, foreclosure, and termination.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">IMG Global Infotech, is one of the leading software development company in India which develop a fully customized Non-banking financial software as well as mobile app that help every NBFC company to manage their operations.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -71,8 +71,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">NBFC Software</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">NBFC Software</li>
                   </ol>
                </nav>
             </div>
@@ -95,8 +95,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 mb-md-0 mb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px right-auto">01</span>
                   <h3 class="d-none invisible">Fully web based</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Fully web based</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">It is fully web based software that can be run on any kind of platform whether it would be mobile, laptop, tablet or anything else.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Fully web based</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">It is fully web based software that can be run on any kind of platform whether it would be mobile, laptop, tablet or anything else.
                   </div>
                </div>
             </div>
@@ -104,8 +104,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 mb-md-0 mb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px right-auto">02</span>
                   <h3 class="d-none invisible">More Security and transparency</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">More Security and transparency</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">We manage database with high level of encryption. Through this software we provide secured architecture and sense of security to database.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">More Security and transparency</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">We manage database with high level of encryption. Through this software we provide secured architecture and sense of security to database.
                   </div>
                </div>
             </div>
@@ -113,8 +113,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 mb-md-0 mb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px right-auto">03</span>
                   <h3 class="d-none invisible">Dedicated support center</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Dedicated support center</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">We believe in customer satisfaction and that’s why we along with our team of experts provide 24X7 services to our customer.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Dedicated support center</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">We believe in customer satisfaction and that’s why we along with our team of experts provide 24X7 services to our customer.
                   </div>
                </div>
             </div>
@@ -133,32 +133,32 @@
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Complete KYC with verification process and Documentations</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Complete KYC with verification process and Documentations</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Complete KYC with verification process and Documentations</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Keep status of Active, Reject and Close Loan</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Keep status of Active, Reject and Close Loan
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Keep status of Active, Reject and Close Loan
                   </div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Loan Foreclosure settings and statements.</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Loan Foreclosure settings and statements.</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Loan Foreclosure settings and statements.</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Details about EMI Collected through Cheque or Cash</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Details about EMI Collected through Cheque or Cash</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Details about EMI Collected through Cheque or Cash</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">SMS Notifications about EMI Dates</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">SMS Notifications about EMI Dates
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">SMS Notifications about EMI Dates
                   </div>
                </div>
             </div>
@@ -179,7 +179,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get Free Consultation</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

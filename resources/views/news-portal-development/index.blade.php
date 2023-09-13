@@ -45,9 +45,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> News Portal <b> Development Company</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">"Banners are the eye-catching and appealing way to promote your business. It helps company to became a brand by publicize on outdoor basis. It is a cost-effective way to market your product and sales. IMG Global Infotech Pvt. Ltd. is specialized in banner designing and help to create a banner, which you can use to promote your Website. We try our best to provide effective, fast, efficient and optimized banners."</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">"Banners are the eye-catching and appealing way to promote your business. It helps company to became a brand by publicize on outdoor basis. It is a cost-effective way to market your product and sales. IMG Global Infotech Pvt. Ltd. is specialized in banner designing and help to create a banner, which you can use to promote your Website. We try our best to provide effective, fast, efficient and optimized banners."</div>
                         <div class="col-12 pt-4">
-                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d; will-change: transform; transform: perspective(2500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d; will-change: transform; transform: perspective(2500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Get Free Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -74,10 +74,10 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-portal-development.php')}}">Web Portal Development</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">News Portal Development</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-portal-development.php')}}">Web Portal Development</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">News Portal Development</li>
                   </ol>
                </nav>
             </div>
@@ -107,7 +107,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why News <b> Portal Development? </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is a leading web development services company has state of art knowledge and fruitful experience in developing and launching alluring and eye catchy news portal development. We offer news channel website design and online newspaper website solutions or newspaper, media, news channel industry, and even for individual freelance journalists. We very well understand that news portal is one of the medium to reach current information and technology. We design to make site that is flexible and easy to navigate. We architect elegant news portal with the main intention to allure mammoth number of web visitors.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is a leading web development services company has state of art knowledge and fruitful experience in developing and launching alluring and eye catchy news portal development. We offer news channel website design and online newspaper website solutions or newspaper, media, news channel industry, and even for individual freelance journalists. We very well understand that news portal is one of the medium to reach current information and technology. We design to make site that is flexible and easy to navigate. We architect elegant news portal with the main intention to allure mammoth number of web visitors.</div>
                      </div>
                   </div>
                </div>
@@ -130,7 +130,7 @@
                      <div class="row mx-0 pb-4">
                         <h2 class="d-none invisible">Why Choose IMG Global Infotech For News Portal Development?</h2>
                         <div class="col-12 heading fs-md-14 fs-12 left text-white mb-4"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Why Choose IMG Global Infotech For <b> News Portal Development?</b></span></div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white px-0">IMG Global Infotech Pvt. Ltd. takes pride in coming out with user friendly news portal that provide appealing and efficient news portal development services. Our news portal development enables us to publish publications, press releases, columns, articles, blogs and other news related content from all across the globe.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white px-0">IMG Global Infotech Pvt. Ltd. takes pride in coming out with user friendly news portal that provide appealing and efficient news portal development services. Our news portal development enables us to publish publications, press releases, columns, articles, blogs and other news related content from all across the globe.</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -138,7 +138,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">News website and web portal development</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">News website and web portal development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -146,7 +146,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Customize news portal development</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Customize news portal development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -154,7 +154,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Customize News Portal design</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Customize News Portal design</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -162,7 +162,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Integrating Content Management System (CMS)</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Integrating Content Management System (CMS)</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -170,7 +170,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Very good interface</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Very good interface</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -178,7 +178,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Maintenance and Support</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Maintenance and Support</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -186,7 +186,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Images and Video posts</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Images and Video posts</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -194,7 +194,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Multilevel features (Admin, Author, Users and more)</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Multilevel features (Admin, Author, Users and more)</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -202,7 +202,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Easy managing administration panel</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Easy managing administration panel</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -210,7 +210,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Event Calendar</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Event Calendar</div>
                      </div>
                   </div>
                   <div class="col-12 mt-md-4 mt-3">
@@ -218,7 +218,7 @@
                         <div class="col-auto">
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme1 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
-                        <div class="col fw-bold fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Newsletters</div>
+                        <div class="col fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-15 text-theme1 bg-white ms-n5 py-md-2 py-1 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Newsletters</div>
                      </div>
                   </div>
                </div>

@@ -8,7 +8,13 @@
   background: #fcfcfc !important;
 }
 .why-us-box:hover {
+  -webkit-transform: translate(0px, -3px);
+  -moz-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
   transform: translate(0px, -3px);
+  -webkit-box-shadow: 0px 10px 12px rgba(24, 47, 189, 0.1);
+  -moz-box-shadow: 0px 10px 12px rgba(24, 47, 189, 0.1);
   box-shadow: 0px 10px 12px rgba(24, 47, 189, 0.1);
   border-color: transparent;
   transition: all 500ms ease;
@@ -104,6 +110,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   transition-delay: 400ms;
   transform: translateX(100%);
@@ -369,4 +376,4 @@
     margin-left: 20px;
     margin-right: 0;
   }
-}/*# sourceMappingURL=career.min.css.map */
+}

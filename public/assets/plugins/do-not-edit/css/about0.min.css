@@ -9,9 +9,17 @@
   background: #f6f6f6;
 }
 .top-develpers-section .review img {
+  -moz-transition: all 400ms ease-out 0s;
+  -webkit-transition: all 400ms ease-out 0s;
+  -ms-transition: all 400ms ease-out 0s;
+  -o-transition: all 400ms ease-out 0s;
   transition: all 400ms ease-out 0s;
 }
 .top-develpers-section .review:hover img {
+  -moz-transform: scale(-1) rotate(180deg);
+  -o-transform: scale(-1) rotate(180deg);
+  -ms-transform: scale(-1) rotate(180deg);
+  -webkit-transform: scale(-1) rotate(180deg);
   transform: scale(-1) rotate(180deg);
 }
 .top-develpers-section .accordion-item {
@@ -21,6 +29,7 @@
 }
 .top-develpers-section .accordion-button:not(.collapsed)::after {
   background-image: none m !important;
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -83,10 +92,17 @@
   z-index: 0;
 }
 .process-section .process-item .process-head {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-justify-content: space-between;
   -moz-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
@@ -342,6 +358,9 @@
   filter: invert(1);
 }
 .awards-box .overviews-product:hover {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
   transition: all 0.5s ease-in-out;
   opacity: 1;
@@ -858,4 +877,4 @@
   .agile-team .heading.left span {
     font-size: 20px;
   }
-}/*# sourceMappingURL=about0.min.css.map */
+}

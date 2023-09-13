@@ -46,9 +46,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> RFID Attendance <b> Software Development</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3 text-lg-start text-center">It has become important for every institute, college and schools to keep the student safety at Prime. Keeping this in mind IMG Global Infotech is providing RFID attendance management system for schools and colleges and other working in my payments to increase safety. It is important for schools to keep their children safe from the outside crime.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3 text-lg-start text-center">It has become important for every institute, college and schools to keep the student safety at Prime. Keeping this in mind IMG Global Infotech is providing RFID attendance management system for schools and colleges and other working in my payments to increase safety. It is important for schools to keep their children safe from the outside crime.</div>
                         <div class="col-12 pt-4 text-lg-start text-center">
-                           <a href="{{asset('/contact-us.php')}}" class="btn btn btn-indigo fs-14 fw-bold py-2 px-4">
+                           <a href="{{asset('/contact-us.php')}}" class="btn btn btn-indigo fs-14 fw-m py-2 px-4">
                               <span class="d-block"><span>Get Free Consultation</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -74,9 +74,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/school-management-software.php')}}">School Management Software</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">RFID Attendance System Development</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/school-management-software.php')}}">School Management Software</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">RFID Attendance System Development</li>
                   </ol>
                </nav>
             </div>
@@ -105,7 +105,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left pt-5"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Smart <b> Attendance System</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">The era of traditional attendance system of pen blackaper3is far behind us. Schools now need to upgrade themselves with smart attendance systems that run on RFID technology. This is important to provide authorized access to students and faculties in the school and avoid any kind of notorious criminals inside the school campus or any of the school facilities like buses and transportation.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">The era of traditional attendance system of pen blackaper3is far behind us. Schools now need to upgrade themselves with smart attendance systems that run on RFID technology. This is important to provide authorized access to students and faculties in the school and avoid any kind of notorious criminals inside the school campus or any of the school facilities like buses and transportation.</div>
                      </div>
                   </div>
                </div>
@@ -129,8 +129,8 @@
                         <i class="imgd img-fingerprint"></i>
                      </div>
                      <h3 class="d-none invisible">Scan and Go</h3>
-                     <div class="fw-900 fs-md-20 fs-sm-18 fs-17 lh-normal text-theme3 content-head">Scan and Go</div>
-                     <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">We provide ID card scanners that run on RFID technology to mark the attendance of students through a smart card. All you have to do scan the card.</div>
+                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme3 content-head">Scan and Go</div>
+                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">We provide ID card scanners that run on RFID technology to mark the attendance of students through a smart card. All you have to do scan the card.</div>
                   </div>
                </div>
             </div>
@@ -141,8 +141,8 @@
                         <i class="imgd img-transporter-3"></i>
                      </div>
                      <h3 class="d-none invisible">Walk-in reader</h3>
-                     <div class="fw-900 fs-md-20 fs-sm-18 fs-17 lh-normal text-info content-head">Walk-in reader</div>
-                     <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">The RFID walk-in reader can be very effective in marking the attendance of students while the enter classes and during their leave automatically.</div>
+                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-info content-head">Walk-in reader</div>
+                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">The RFID walk-in reader can be very effective in marking the attendance of students while the enter classes and during their leave automatically.</div>
                   </div>
                </div>
             </div>
@@ -153,8 +153,8 @@
                         <i class="imgd img-location-circle"></i>
                      </div>
                      <h3 class="d-none invisible">School transportation tracking</h3>
-                     <div class="fw-900 fs-md-20 fs-sm-18 fs-17 lh-normal text-success content-head">School transportation tracking</div>
-                     <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">With this service parents, teachers and school management can know the location of their transportation buses and enhance the safety of students travelling.</div>
+                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-success content-head">School transportation tracking</div>
+                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">With this service parents, teachers and school management can know the location of their transportation buses and enhance the safety of students travelling.</div>
                   </div>
                </div>
             </div>
@@ -165,8 +165,8 @@
                         <i class="imgd img-id-card"></i>
                      </div>
                      <h3 class="d-none invisible">RFID cards</h3>
-                     <div class="fw-900 fs-md-20 fs-sm-18 fs-17 lh-normal text-theme2 content-head">RFID cards</div>
-                     <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">RFID cards can be issued to students, teachers and Management of school to track their presence. This prevents any kind of unauthorised access in the school to outsiders.</div>
+                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme2 content-head">RFID cards</div>
+                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">RFID cards can be issued to students, teachers and Management of school to track their presence. This prevents any kind of unauthorised access in the school to outsiders.</div>
                   </div>
                </div>
             </div>
@@ -186,24 +186,24 @@
                <div class="attendance-system-box text-center shadow">
                   <span class="attendance-system-box-images"><img src="{{GETFOLDERPATH()}}/SCHOOL-ADMINISTRATION.webp" alt="School administration"></span>
                   <h3 class="d-none invisible">School administration</h3>
-                  <div class="fw-bold fs-md-20 fs-sm-18 fs-17 lh-normal text-white text-uppercase"> School administration</div>
-                  <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-black mt-3">The RFID system in place the school management can track the arrival and leaving time of all the students individually. Any late arrivals and absentees can be monitored automatically through the software. Any missing students can be easily notified through the system.</div>
+                  <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-white text-uppercase"> School administration</div>
+                  <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-black mt-3">The RFID system in place the school management can track the arrival and leaving time of all the students individually. Any late arrivals and absentees can be monitored automatically through the software. Any missing students can be easily notified through the system.</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch py-md-2 py-4">
                <div class="attendance-system-box text-center shadow">
                   <span class="attendance-system-box-images"><img src="{{GETFOLDERPATH()}}/PARENTS-AND-GUARDIANS.webp" alt="Parents and guardians"></span>
                   <h3 class="d-none invisible">Parents and guardians</h3>
-                  <div class="fw-bold fs-md-20 fs-sm-18 fs-17 lh-normal text-white text-uppercase"> Parents and guardians</div>
-                  <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-black mt-3">Parents and guardians can keep the track of attendance of their ward in school. This is to ensure the safety of students in the school. Tracking transportation can help them to pick up the students on time from bus stops. Any kind of leaves and absentees can be monitored by parents.</div>
+                  <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-white text-uppercase"> Parents and guardians</div>
+                  <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-black mt-3">Parents and guardians can keep the track of attendance of their ward in school. This is to ensure the safety of students in the school. Tracking transportation can help them to pick up the students on time from bus stops. Any kind of leaves and absentees can be monitored by parents.</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch py-md-2 py-4">
                <div class="attendance-system-box text-center shadow">
                   <span class="attendance-system-box-images"><img src="{{GETFOLDERPATH()}}/SAFETY-AND-SECURITY.webp" alt="Safety and security"></span>
                   <h3 class="d-none invisible">Safety and security</h3>
-                  <div class="fw-bold fs-md-20 fs-sm-18 fs-17 lh-normal text-white text-uppercase">Safety and security</div>
-                  <div class="fw-600 fs-md-16 fs-sm-15 fs-14 text-black mt-3">With the increase in crime with school students in the country it is important for schools and colleges to employ RFID attendance system for security and safety all the students that come to attend the classes every day. There is no compromise in security and safety of the students.</div>
+                  <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-white text-uppercase">Safety and security</div>
+                  <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-black mt-3">With the increase in crime with school students in the country it is important for schools and colleges to employ RFID attendance system for security and safety all the students that come to attend the classes every day. There is no compromise in security and safety of the students.</div>
                </div>
             </div>
          </div>
@@ -221,7 +221,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get A Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

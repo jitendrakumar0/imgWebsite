@@ -27,6 +27,7 @@
 										<th>Mobile</th>
 										<th>Email</th>
 										<th>Description</th>
+										<th>Location</th>
 										<?php if($this->session->userdata('store100type')=='master_user'){?>
 										<th>Assign To</th> 
 										<?php }?>
@@ -54,9 +55,9 @@
 												$typeValue=$value['type'];
 												 
 												if($value['type']=='Request Quote'){ 
-													$desResult=$this->db->select('description')->get_where('request_quote',array('id'=>$value['type_id']))->row_array();
+													$desResult=$this->db->select('budget,description')->get_where('request_quote',array('id'=>$value['type_id']))->row_array();
 													if(!empty($desResult)){
-														$typeValue='Request Quote-'.$desResult['description'];
+														$typeValue='Request Quote-'.$desResult['budget'].' - '.$desResult['description'];
 													}
 												}else if($value['type']=='Contact'){ 
 													$desResult=$this->db->select('message,organization')->get_where('contact',array('id'=>$value['type_id']))->row_array();
@@ -94,6 +95,7 @@
 												
 											?>
 										</td>
+										<td><?= $value['location']; ?></td>
 										<?php if($this->session->userdata('store100type')=='master_user'){?>
 										<?php if($value['assign_to'] =='0'){?>
 										<td>Not Assign Yet</td>
@@ -156,6 +158,7 @@
 										<th>Mobile</th>
 										<th>Email</th>
 										<th>Description</th>
+										<th>Location</th>
 										<th>Assign To</th>
 										<th style="width:20%">Action</th>
 									</tr>
@@ -178,11 +181,15 @@
 										<td>
 											<?php 
 								$typeValue=$value['type'];
-								 
+								$quote_file = "";
 								if($value['type']=='Request Quote'){ 
-									$desResult=$this->db->select('description')->get_where('request_quote',array('id'=>$value['type_id']))->row_array();
+									$desResult=$this->db->select('budget,description,image')->get_where('request_quote',array('id'=>$value['type_id']))->row_array();
 									if(!empty($desResult)){
-										$typeValue='Request Quote-'.$desResult['description'];
+										$typeValue='Request Quote-'.$desResult['budget'].' - '.$desResult['description'];
+										if(!empty($desResult['image'])){
+											$quote_file = $desResult['image'];
+											
+										}
 									}
 								}else if($value['type']=='Contact'){ 
 									$desResult=$this->db->select('message,organization')->get_where('contact',array('id'=>$value['type_id']))->row_array();
@@ -220,6 +227,7 @@
 								
 							?>
 										</td>
+										<td><?= $value['location']; ?></td>
 										<?php if($value['assign_to'] =='0'){?>
 										<td>Not Assign Yet</td>
 										<?php } else { ?>
@@ -247,6 +255,10 @@
 											<a href="<?= base_url('Leads/delete_lead_request/'.$value['id']);?>"
 												onclick="return confirm('Are you sure want to delete this entry.')"
 												class="fa fa-trash btn-danger" style="background:#ed5650" title="Delete"></a>
+											<?php } ?>
+
+											<?php if(!empty($quote_file)){ ?>
+                                             <a target="_blank" style="background:#ed5650" title="Quote Document" href="<?= base_url('assets/images/'.$quote_file); ?>"><i class="fa fa-file" aria-hidden="true"></i></a>
 											<?php } ?>
 
 										</td>

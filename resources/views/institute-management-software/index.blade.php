@@ -45,10 +45,10 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Institute <b>Management Software</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Institute Management Software is an integrated solution for institutes that aimed to make administrative work easier and allow institutes to handle day-to-day functions in a comprehensive manner.It connects various departments of institutes and improves communication between them.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It contains variety of modules that effectively manage all school related activities easily as well as it does not need much more human involvement for processing.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">With the initiative to bring advancement in education sector, IMG Global Infotech develops an Institute Management Software as well as Mobile App that easily manage all education institutes and their related activities hassle-free.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">We at IMG believe in customer satisfaction and therefore we customize the website or modules of software according to the needs of customer.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Institute Management Software is an integrated solution for institutes that aimed to make administrative work easier and allow institutes to handle day-to-day functions in a comprehensive manner.It connects various departments of institutes and improves communication between them.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It contains variety of modules that effectively manage all school related activities easily as well as it does not need much more human involvement for processing.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">With the initiative to bring advancement in education sector, IMG Global Infotech develops an Institute Management Software as well as Mobile App that easily manage all education institutes and their related activities hassle-free.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">We at IMG believe in customer satisfaction and therefore we customize the website or modules of software according to the needs of customer.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -72,8 +72,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Institute Management Software</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Institute Management Software</li>
                   </ol>
                </nav>
             </div>
@@ -96,8 +96,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 mb-md-0 mb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px right-auto">01</span>
                   <h3 class="d-none invisible">Trusted Solution</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Trusted Solution</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">We protect the software from any kind of malware infection and provide end to end point solutions. Here, we provide best solution to our clients.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Trusted Solution</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">We protect the software from any kind of malware infection and provide end to end point solutions. Here, we provide best solution to our clients.
                   </div>
                </div>
             </div>
@@ -105,8 +105,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 mb-md-0 mb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px right-auto">02</span>
                   <h3 class="d-none invisible">Compatible</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Compatible</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">We provide a software that is compatible with all kind of device whether it would be a mobile, laptop, tab or any other device and can be easily accessed anywhere, anytime.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Compatible</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">We provide a software that is compatible with all kind of device whether it would be a mobile, laptop, tab or any other device and can be easily accessed anywhere, anytime.
                   </div>
                </div>
             </div>
@@ -114,8 +114,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 mb-md-0 mb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px right-auto">03</span>
                   <h3 class="d-none invisible">Error prone data</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Error prone data </div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Education institutions need accurate management. This software will removes data duplication and data redundancy problem and maintains records error-free.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Error prone data </div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">Education institutions need accurate management. This software will removes data duplication and data redundancy problem and maintains records error-free.
                   </div>
                </div>
             </div>
@@ -134,32 +134,32 @@
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Fees Management</h3>
-                  <div class="col-12 fw-900 fs-16 lh-normal boxdiv-head text-uppercase">Fees Management</div>
+                  <div class="col-12 fw-m fs-16 lh-normal boxdiv-head text-uppercase">Fees Management</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Finance Management</h3>
-                  <div class="col-12 fw-900 fs-16 lh-normal boxdiv-head text-uppercase">Finance Management
+                  <div class="col-12 fw-m fs-16 lh-normal boxdiv-head text-uppercase">Finance Management
                   </div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Timetable Management</h3>
-                  <div class="col-12 fw-900 fs-16 lh-normal boxdiv-head text-uppercase">Timetable Management</div>
+                  <div class="col-12 fw-m fs-16 lh-normal boxdiv-head text-uppercase">Timetable Management</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Attendance Management</h3>
-                  <div class="col-12 fw-900 fs-16 lh-normal boxdiv-head text-uppercase">Attendance Management</div>
+                  <div class="col-12 fw-m fs-16 lh-normal boxdiv-head text-uppercase">Attendance Management</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Human Resouce and Payroll</h3>
-                  <div class="col-12 fw-900 fs-16 lh-normal boxdiv-head text-uppercase">Human Resouce and Payroll
+                  <div class="col-12 fw-m fs-16 lh-normal boxdiv-head text-uppercase">Human Resouce and Payroll
                   </div>
                </div>
             </div>
@@ -179,7 +179,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

@@ -44,6 +44,14 @@
     transform: translateY(0);
   }
 }
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
 @keyframes mover {
   0% {
     transform: translateY(0);
@@ -76,6 +84,14 @@
 
 .leftside img {
   animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes howtowork2 {
+  0% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
 }
 @keyframes howtowork2 {
   0% {
@@ -145,6 +161,7 @@
   left: 30px;
 }
 .mobile-aap-section .app-service .services-icons .icon_overlay img {
+  -webkit-transform: scaleX(1.1) skewY(356deg) translateX(-4px) translateY(-7px);
   transform: scaleX(1.1) skewY(356deg) translateX(-4px) translateY(-7px);
 }
 .mobile-aap-section .app-service .services-icons img {
@@ -193,7 +210,13 @@
   background: #fcfcfc !important;
 }
 .why-us-box:hover {
+  -webkit-transform: translate(0px, -3px);
+  -moz-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
   transform: translate(0px, -3px);
+  -webkit-box-shadow: 0px 10px 12px rgba(24, 47, 189, 0.1);
+  -moz-box-shadow: 0px 10px 12px rgba(24, 47, 189, 0.1);
   box-shadow: 0px 10px 12px rgba(24, 47, 189, 0.1);
   border-color: transparent;
   transition: all 500ms ease;
@@ -241,6 +264,8 @@
   border-radius: 130px;
   border: 1px solid #0b5a7b;
   background: #fff;
+  -moz-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 .why-love-sec .love-working-boxs:nth-of-type(2) {
@@ -448,7 +473,7 @@
   -o-transform: translate(0, 10px);
 }
 .portfolioBox .portfolioBoxContent h4 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   color: #fff;
 }
@@ -561,6 +586,14 @@
 .leftside img {
   animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
 }
+@-webkit-keyframes howtowork2 {
+  0% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
+}
 @keyframes howtowork2 {
   0% {
     transform: translateX(8px);
@@ -595,9 +628,17 @@
   background: #f6f6f6;
 }
 .top-develpers-section .review img {
+  -moz-transition: all 400ms ease-out 0s;
+  -webkit-transition: all 400ms ease-out 0s;
+  -ms-transition: all 400ms ease-out 0s;
+  -o-transition: all 400ms ease-out 0s;
   transition: all 400ms ease-out 0s;
 }
 .top-develpers-section .review:hover img {
+  -moz-transform: scale(-1) rotate(180deg);
+  -o-transform: scale(-1) rotate(180deg);
+  -ms-transform: scale(-1) rotate(180deg);
+  -webkit-transform: scale(-1) rotate(180deg);
   transform: scale(-1) rotate(180deg);
 }
 .top-develpers-section .accordion-item {
@@ -607,6 +648,7 @@
 }
 .top-develpers-section .accordion-button:not(.collapsed)::after {
   background-image: none m !important;
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -749,8 +791,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -763,6 +807,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -803,6 +848,14 @@ button.accordion-button {
 
 .leftside img {
   animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes howtowork2 {
+  0% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
 }
 @keyframes howtowork2 {
   0% {
@@ -892,6 +945,7 @@ button.accordion-button {
   }
   .best-app-development .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
 }
@@ -1012,4 +1066,4 @@ button.accordion-button {
     top: 50%;
     font-size: 28px;
   }
-}/*# sourceMappingURL=mobile-app-development.min.css.map */
+}

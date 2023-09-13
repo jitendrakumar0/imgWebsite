@@ -1,0 +1,273 @@
+body {
+  transition: background 1s ease;
+}
+
+.hover-img {
+  transition: all 0.3s;
+}
+.hover-img:hover {
+  transform: scale(1.1);
+}
+
+.blink {
+  text-decoration: blink;
+  animation: Color 4s linear infinite;
+  color: #000;
+}
+
+@keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+  20% {
+    color: #4fc1e9;
+  }
+  40% {
+    color: #ffce54;
+  }
+  60% {
+    color: #fc6e51;
+  }
+  80% {
+    color: #ed5565;
+  }
+  100% {
+    color: #ac92ec;
+  }
+}
+.text-theme4 {
+  color: #073548;
+}
+
+.bussiness_banner .buis_ban {
+  background: #0b2040;
+  padding: 20px 50px;
+  border-radius: 15px;
+}
+.bussiness_banner .buis_ban .buis_icon {
+  height: 14px;
+  width: 14px;
+  background-color: #203350;
+  border-radius: 50%;
+  position: relative;
+}
+.bussiness_banner .buis_ban .buis_icon::after {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-color: #e1c03b;
+  border-radius: 50%;
+  top: -5px;
+  left: -5px;
+  z-index: -1;
+}
+.bussiness_banner .buis_ban .btn-button1:hover {
+  color: #fff !important;
+  transition: all 0.5s;
+}
+.bussiness_banner .buis_ban .btn-button1:hover .buis_icon {
+  background-color: #fff;
+}
+
+.industry_section .indust_box {
+  border: 1px solid #e6e6e6;
+  transition: all 0.3s;
+}
+.industry_section .indust_box img {
+  transition: all 0.3s;
+}
+.industry_section .indust_box :hover img {
+  transform: rotate(360deg);
+}
+
+.food_solution_section_1 .fd_inner_content {
+  transition: all 0.5s;
+}
+.food_solution_section_1 .fd_inner_content .fd_heading .fd_dot {
+  background: #fbd642;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.food_solution_section_1 .fd_inner_content .fd_heading .fd_dot i {
+  color: #203350;
+}
+.food_solution_section_1 .fd_inner_content:hover {
+  background: #073548;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+.food_solution_section_1 .fd_inner_content:hover .fd_heading {
+  color: #fff !important;
+}
+.food_solution_section_1 .fd_inner_content:hover .fd-txt {
+  color: #fff !important;
+}
+.food_solution_section_1 .fd_inner_content:hover .fd_dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.food_solution_section_2 .feature_box::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 74%;
+  background-color: #073548;
+  display: inline-block;
+  margin: 5px 0 0 -28px;
+}
+.food_solution_section_2 .feature_box.feet_key::before {
+  height: 60%;
+}
+.food_solution_section_2 .feature_box .feature_list::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #073548;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 5px 0 0 -35px;
+}
+.food_solution_section_2 .feature_btn {
+  background: #073548;
+  border-radius: 30px;
+}
+
+.food_solution_section_3 .solution_tabs {
+  border-bottom: 0;
+  flex-wrap: wrap;
+}
+.food_solution_section_3 .solution_tabs .nav-link {
+  border: none;
+  border-radius: 0;
+}
+.food_solution_section_3 .solution_tabs .nav-link:hover {
+  isolation: none;
+  border-bottom: 3px solid #a3a2a2;
+  box-shadow: none;
+  border-radius: 0;
+}
+.food_solution_section_3 .solution_tabs .nav-link:focus {
+  isolation: none;
+  border-bottom: 3px solid #000;
+  box-shadow: none;
+}
+.food_solution_section_3 .solution_tabs .nav-link.active {
+  border-radius: 0;
+  border-bottom: 3px solid #000;
+}
+.food_solution_section_3 .tech_icons {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  padding: 15px;
+  border: 1px solid #f5f5f5;
+  transition: all 0.3s;
+}
+.food_solution_section_3 .tech_icons img {
+  filter: grayscale(100%);
+}
+.food_solution_section_3 .tech_icons:hover {
+  border: 1px solid #0b2040;
+}
+.food_solution_section_3 .tech_icons:hover img {
+  filter: grayscale(0);
+}
+
+.food_solution_section_4 .solutionTesimonial .solu_test_box {
+  padding: 24px 20px;
+  border: 1px solid #d5dade;
+  white-space: normal;
+  transition: 0.25s ease-out;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box .sol_list li {
+  list-style: circle;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box .count_box {
+  background-color: #203350;
+  top: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box .arrowsCon {
+  top: 48%;
+  right: 40px;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box .arrowsCon .circlePro {
+  border: 2px solid #d5dade;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box .arrowsCon .dashPro {
+  color: #d5dade;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box .arrowsCon .dashPro::before {
+  content: "";
+  flex: 1;
+  background: currentColor;
+  -webkit-clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+          clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box.solu_bx_mt {
+  margin-top: 44px;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box:hover {
+  border-color: #fbd642;
+  box-shadow: 1px 2px 15px -2px #ccc;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box:hover .count_box {
+  background-color: #fbd642;
+  color: #203350;
+}
+.food_solution_section_4 .solutionTesimonial .solu_test_box:hover .circlePro {
+  background-color: #fbd642;
+}
+.food_solution_section_4 .solutionTesimonial .owl-stage {
+  margin-left: -12px;
+}
+
+.featured_client_section .client_box {
+  background-color: #f5f5f5;
+  transition: 0.3s;
+  position: relative;
+}
+.featured_client_section .client_box:hover {
+  background-color: #000;
+}
+.featured_client_section .client_box:hover img {
+  filter: invert(1);
+}
+
+.dating_section .dat_img img {
+  width: 300px;
+}
+.dating_section .date_bg {
+  background: rgb(241, 235, 255);
+  border-radius: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .work_section .work_box {
+    display: block !important;
+  }
+  .work_section .work_box .work_icon {
+    margin-bottom: 12px;
+  }
+  .bussiness_banner .buis_ban {
+    padding: 23px 0;
+  }
+  .bussiness_banner .buis_ban .bann_btn {
+    justify-content: center !important;
+  }
+  .food_solution_section_4 .solu_test_box .arrowsCon {
+    display: none !important;
+  }
+  .food_solution_section_4 .solu_test_box.solu_bx_mt {
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=solution.css.map */

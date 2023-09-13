@@ -140,6 +140,7 @@
   bottom: 0;
   background-position: left top;
   z-index: 0;
+  -webkit-filter: brightness(0.94);
   filter: brightness(0.94);
   background-size: 60px;
 }
@@ -164,4 +165,4 @@
   z-index: 0;
   background-size: 60px;
   opacity: 0.05;
-}/*# sourceMappingURL=college-website-design.min.css.map */
+}

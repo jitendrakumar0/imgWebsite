@@ -56,8 +56,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Great Team With <b>Great Ideas</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-17 fs-md-15 fs-14 text-muted mt-0 justify">IMG Global infotech Pvt. Ltd. is one of India’s leading professional IT Company, specialising in Web App Development Services, Software Solutions, UI & UX design, Digital Media Marketing. We take pride in providing 360 degree technological solution to all your business demands. Established in 2014, the company has come a long way since its inception, overcoming several different barriers and bringing home numerous awards and accolades.</div>
-                        <div class="col-12 fw-600 fs-lg-17 fs-md-15 fs-14 text-muted mt-3 justify">With offices in Jaipur, Dehradun and Alwar, the team enables us to meet the demands of clients and candidates whose needs extend beyond local markets. Whilst our strong local foundations provide us with unique insights into local industry and culture, our onshore team provides us with insight on international business and opportunities.</div>
+                        <div class="col-12 fw-l fs-lg-17 fs-md-15 fs-14 text-muted mt-0 justify">IMG Global infotech Pvt. Ltd. is one of India’s leading professional IT Company, specialising in Web App Development Services, Software Solutions, UI & UX design, Digital Media Marketing. We take pride in providing 360 degree technological solution to all your business demands. Established in 2014, the company has come a long way since its inception, overcoming several different barriers and bringing home numerous awards and accolades.</div>
+                        <div class="col-12 fw-l fs-lg-17 fs-md-15 fs-14 text-muted mt-3 justify">With offices in Jaipur, Dehradun and Alwar, the team enables us to meet the demands of clients and candidates whose needs extend beyond local markets. Whilst our strong local foundations provide us with unique insights into local industry and culture, our onshore team provides us with insight on international business and opportunities.</div>
                      </div>
                   </div>
                </div>
@@ -78,8 +78,8 @@
                      <img src="{{asset('/public')}}/assets/img/mission-and-vision/comman-shape.webp" class="lazy-image w-100 shadow" data-src="{{asset('/public')}}/assets/img/mission-and-vision/mission.webp"alt="Mission" width="100" height="auto">
                    </div>
                   <div class="content_vision">
-                     <div class="fw-900 fs-xxl-22 fs-xl-20 fs-lg-19 fs-md-17 fs-16 lh-normal">- Mission -</div>
-                     <div class="fw-600 fs-lg-16 fs-md-15 fs-15 mt-2 mb-0">Our mission at IMG Global Infotech is to work towards the success of our clients in the most passionate and innovative way. We believe in incorporating dedication, enthusiasm and commitment in all our process while pursuing excellence in our work.</div>
+                     <div class="fw-m fs-xxl-22 fs-xl-20 fs-lg-19 fs-md-17 fs-16 lh-normal">- Mission -</div>
+                     <div class="fw-l fs-lg-16 fs-md-15 fs-15 mt-2 mb-0">Our mission at IMG Global Infotech is to work towards the success of our clients in the most passionate and innovative way. We believe in incorporating dedication, enthusiasm and commitment in all our process while pursuing excellence in our work.</div>
                   </div>
                   <div class="btn_view">
                      <!-- <a class="btn btn-theme3 fs-lg-14 fs-md-13 fs-12 fw-bold hero_read_more_btn py-2 px-lg-4 px-md-3 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
@@ -94,8 +94,8 @@
                      <img src="{{asset('/public')}}/assets/img/mission-and-vision/comman-shape.webp" class="lazy-image w-100 shadow" data-src="{{asset('/public')}}/assets/img/mission-and-vision/vision.webp"alt="Vision" width="100" height="auto">
                 </div>
                   <div class="content_vision">
-                     <div class="fw-900 fs-xxl-22 fs-xl-20 fs-lg-19 fs-md-17 fs-16 lh-normal">- Vision -</div>
-                     <div class="fw-600 fs-lg-16 fs-md-15 fs-15 mt-2 mb-0">Our Vision at IMG Global Infotech is to grow both vertically and horizontally to ascertain ourselves on top as a preferred IT solution provider in India. Providing outstanding software and web solutions with remarkable results and 100% customer satisfaction is our main motto.</div>
+                     <div class="fw-m fs-xxl-22 fs-xl-20 fs-lg-19 fs-md-17 fs-16 lh-normal">- Vision -</div>
+                     <div class="fw-l fs-lg-16 fs-md-15 fs-15 mt-2 mb-0">Our Vision at IMG Global Infotech is to grow both vertically and horizontally to ascertain ourselves on top as a preferred IT solution provider in India. Providing outstanding software and web solutions with remarkable results and 100% customer satisfaction is our main motto.</div>
                   </div>
                   <div class="btn_view">
                      <!-- <a class="btn btn-theme3 fs-lg-14 fs-md-13 fs-12 fw-bold hero_read_more_btn py-2 px-lg-4 px-md-3 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
@@ -110,8 +110,8 @@
                       <img src="{{asset('/public')}}/assets/img/mission-and-vision/comman-shape.webp" class="lazy-image w-100 shadow" data-src="{{asset('/public')}}/assets/img/mission-and-vision/our-values.webp"alt="Our Values" width="100" height="auto">
                    </div>
                   <div class="content_vision">
-                     <div class="fw-900 fs-xxl-22 fs-xl-20 fs-lg-19 fs-md-17 fs-16 lh-normal">- Our Values -</div>
-                     <div class="fw-600 fs-lg-16 fs-md-15 fs-15 mt-2 mb-0">Customer satisfaction is our #1 Priority. IMG Global Infotech was founded on the principle of offering reliable and efficient solution to customers and satisfying their needs. The irresistible force behind everything we do in our business is our strong ethics and beliefs.</div>
+                     <div class="fw-m fs-xxl-22 fs-xl-20 fs-lg-19 fs-md-17 fs-16 lh-normal">- Our Values -</div>
+                     <div class="fw-l fs-lg-16 fs-md-15 fs-15 mt-2 mb-0">Customer satisfaction is our #1 Priority. IMG Global Infotech was founded on the principle of offering reliable and efficient solution to customers and satisfying their needs. The irresistible force behind everything we do in our business is our strong ethics and beliefs.</div>
                   </div>
                   <div class="btn_view">
                      <!-- <a class="btn btn-theme3 fs-lg-14 fs-md-13 fs-12 fw-bold hero_read_more_btn py-2 px-lg-4 px-md-3 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">

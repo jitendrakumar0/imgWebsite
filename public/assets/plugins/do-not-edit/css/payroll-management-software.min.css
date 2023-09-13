@@ -7,9 +7,11 @@
   background: #03151d;
 }
 .top_banner .top_banner-left-part img:nth-child(1) {
+  -webkit-filter: drop-shadow(2px 4px 6px #03151d);
   filter: drop-shadow(2px 4px 6px #03151d);
 }
 .top_banner .top_banner-left-part img:nth-child(2) {
+  -webkit-filter: invert(1);
   filter: invert(1);
 }
 
@@ -74,21 +76,30 @@
   background: #f9f9f9;
   padding-top: 15px;
   padding-bottom: 15px;
+  -webkit-transition: background 0.2s ease;
   transition: background 0.2s ease;
   text-align: center;
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
   min-height: 100px;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: #e09c19;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: 0.5s all;
   transition: 0.5s all;
 }
 
 .features-of-collage .boxdiv:hover {
   background: #e09c19;
   color: #fff;
+  -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3019607843);
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3019607843);
+  -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
 
@@ -147,6 +158,7 @@
   }
   .top_banner .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .about_iphone .heading.left {
@@ -217,4 +229,4 @@
   .features-of-collage::before {
     background-size: 900px;
   }
-}/*# sourceMappingURL=payroll-management-software.min.css.map */
+}

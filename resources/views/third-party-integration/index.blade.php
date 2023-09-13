@@ -45,7 +45,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Third Party <b> Integration</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3">Third party integration is now became an important part of each and every web development project. Third party integration is a document that is supplies by 3rd party software vendors and contains all the technical required to integrate software to custom applications. It add the latest consumer features, ensuring you have the appropriate site analytics and marketing metrics, or integrating your business process applications into your website.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3">Third party integration is now became an important part of each and every web development project. Third party integration is a document that is supplies by 3rd party software vendors and contains all the technical required to integrate software to custom applications. It add the latest consumer features, ensuring you have the appropriate site analytics and marketing metrics, or integrating your business process applications into your website.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -69,9 +69,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Third Party integration</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Third Party integration</li>
                   </ol>
                </nav>
             </div>
@@ -101,8 +101,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Advantages Of <b> Third Party Integration </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Third party integration is now became an important part of each and every web development project. Third party integration is a document that is supplies by 3rd party software vendors and contains all the technical required to integrate software to custom applications. It add the latest consumer features, ensuring you have the appropriate site analytics and marketing metrics, or integrating your business process applications into your website.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Based on our extensive experience and in depth knowledge of the market, IMG Global Infotech will select and integrate third party tools and applications into your existing website. We believe in providing engaging, seamless,and unified end result that makes an attractive impression over the consumers.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Third party integration is now became an important part of each and every web development project. Third party integration is a document that is supplies by 3rd party software vendors and contains all the technical required to integrate software to custom applications. It add the latest consumer features, ensuring you have the appropriate site analytics and marketing metrics, or integrating your business process applications into your website.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Based on our extensive experience and in depth knowledge of the market, IMG Global Infotech will select and integrate third party tools and applications into your existing website. We believe in providing engaging, seamless,and unified end result that makes an attractive impression over the consumers.</div>
                         <div class="col-auto mt-3">
                            <div class="row align-items-center">
                               <div class="col-auto">
@@ -169,43 +169,43 @@
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-theme3 border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">Discussion forums</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Discussion forums<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Discussion forums<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-success border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">Chat systems</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Chat systems<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Chat systems<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-theme2 border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">Social media</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Social media<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Social media<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-theme1 border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">Shopping cart</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Shopping cart<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Shopping cart<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-success border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">Payment processing</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Payment processing<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Payment processing<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-theme3 border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">News feed</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">News feed<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">News feed<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-top border-theme1 border-4 text-lg-end text-center">
                         <h3 class="d-none invisible">Tracking solution</h3>
-                        <div class="col-12 fw-600 text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Tracking solution<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                        <div class="col-12 fw-m text-muted fs-md-16 fs-sm-15 fs-14 lh-normal">Tracking solution<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                      </div>
                   </div>
                </div>

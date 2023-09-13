@@ -20,7 +20,10 @@
 .development_services .development_services_box {
   background: #fff;
   padding: 25px;
+  -webkit-transition: z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease;
+  transition: z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease;
   transition: box-shadow 0.2s ease, z-index 0s 0.2s ease;
+  transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease;
   text-align: center;
   position: relative;
   border-radius: 0px;
@@ -37,6 +40,7 @@
   height: 60px;
   opacity: 1;
   visibility: visible;
+  -webkit-transition: 0.5s all;
   transition: 0.5s all;
   right: 0;
   left: 0;
@@ -44,7 +48,9 @@
   border-radius: 50%;
   margin: 0 auto;
   z-index: -1;
+  -webkit-transform: scale(5);
   transform: scale(5);
+  -webkit-transform-origin: bottom;
   transform-origin: bottom;
 }
 
@@ -54,6 +60,7 @@
 
 .development_services .development_services_box:hover::after {
   background-color: #e09c19;
+  -webkit-transform: scale(1);
   transform: scale(1);
   height: 100%;
   width: 100%;
@@ -107,21 +114,30 @@
   background: #f9f9f9;
   padding-top: 15px;
   padding-bottom: 15px;
+  -webkit-transition: background 0.2s ease;
   transition: background 0.2s ease;
   text-align: center;
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
   min-height: 100px;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: #e09c19;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: 0.5s all;
   transition: 0.5s all;
 }
 
 .boxdiv:hover {
   background: #e09c19;
   color: #fff;
+  -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3019607843);
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3019607843);
+  -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
 
@@ -146,4 +162,4 @@
     right: 0 !important;
     animation: headings 3s infinite !important;
   }
-}/*# sourceMappingURL=hospital-management-software.min.css.map */
+}

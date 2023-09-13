@@ -45,7 +45,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Payroll <b>Management System</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Payroll and HR management software is an extreme software solution that help companies to smoothly handle their HR, Payroll and Accounts departments by prompt and accurate salary processing, Loans and Advances handling, effective handling of Reimbursements, efficient management of PF, ESIC challans and TDS which are legal requirements of Government of India, taxes and deductions management, year-end documentation and much more. It offers an effective management solution for large, medium and small companies. The software simplifies daily management processes so that the time will save for other more lucrative work.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Payroll and HR management software is an extreme software solution that help companies to smoothly handle their HR, Payroll and Accounts departments by prompt and accurate salary processing, Loans and Advances handling, effective handling of Reimbursements, efficient management of PF, ESIC challans and TDS which are legal requirements of Government of India, taxes and deductions management, year-end documentation and much more. It offers an effective management solution for large, medium and small companies. The software simplifies daily management processes so that the time will save for other more lucrative work.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -68,8 +68,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Payroll Management Software</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Payroll Management Software</li>
                   </ol>
                </nav>
             </div>
@@ -98,13 +98,13 @@
                               <div class="col-12 heading fs-md-14 fs-12 left pt-5"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Payroll<b> Management Software</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Payroll and HR management software is an extreme software solution that help companies to smoothly handle their HR, Payroll and Accounts departments by prompt and accurate salary processing, Loans and Advances handling, effective handling of Reimbursements, efficient management of PF, ESIC challans and TDS which are legal requirements of Government of India, taxes and deductions management, year-end documentation and much more. It offers an effective management solution for large, medium and small companies. The software simplifies daily management processes so that the time will save for other more lucrative work.</div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Errors can’t be controlled in a manual data processing and so that work is increased instead of decreasing even if a single error occurs like if employees attendance and leaves get mismatched then salary issue generates i.e. employees can get less or more salary. Also manual data processing is time consuming and is susceptible to error probability. Therefore a powerful software system is must in a company to automate the work flow with zero percent error chances.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Payroll and HR management software is an extreme software solution that help companies to smoothly handle their HR, Payroll and Accounts departments by prompt and accurate salary processing, Loans and Advances handling, effective handling of Reimbursements, efficient management of PF, ESIC challans and TDS which are legal requirements of Government of India, taxes and deductions management, year-end documentation and much more. It offers an effective management solution for large, medium and small companies. The software simplifies daily management processes so that the time will save for other more lucrative work.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Errors can’t be controlled in a manual data processing and so that work is increased instead of decreasing even if a single error occurs like if employees attendance and leaves get mismatched then salary issue generates i.e. employees can get less or more salary. Also manual data processing is time consuming and is susceptible to error probability. Therefore a powerful software system is must in a company to automate the work flow with zero percent error chances.</div>
                      </div>
                   </div>
                </div>
                <div class="row">
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Our payroll and HR Management software is specially designed to tackle all facets of your HR, Payroll and Accounts processing. It is easy to use, functionally rich, scalable and user friendly software which enables you to run your business professionally. As it is a fully functioned computerized program therefore it is easily accessible from anywhere and anytime on any device. Few best services of our software are: secure login to accounting and payroll department, accurate salary calculation and pay slips management, statutory compliance such as PF, PT, ESI and TDS reports management, consolidate reports of accounting and payroll expenses.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0 justify">Our payroll and HR Management software is specially designed to tackle all facets of your HR, Payroll and Accounts processing. It is easy to use, functionally rich, scalable and user friendly software which enables you to run your business professionally. As it is a fully functioned computerized program therefore it is easily accessible from anywhere and anytime on any device. Few best services of our software are: secure login to accounting and payroll department, accurate salary calculation and pay slips management, statutory compliance such as PF, PT, ESI and TDS reports management, consolidate reports of accounting and payroll expenses.</div>
                </div>
             </div>
          </div>
@@ -127,8 +127,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px">01</span>
                   <h3 class="d-none invisible">Highly Scalable & Configurable</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Highly Scalable & Configurable</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">It is highly configurable and can be smoothly integrated with the the the Human Resource Information System (HRIS), salary calculation or pay-slips, deductions, taxes applied and leave, attendance.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Highly Scalable & Configurable</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">It is highly configurable and can be smoothly integrated with the the the Human Resource Information System (HRIS), salary calculation or pay-slips, deductions, taxes applied and leave, attendance.
                   </div>
                </div>
             </div>
@@ -136,8 +136,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px">02</span>
                   <h3 class="d-none invisible">Streamline Compliance Actions</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Streamline Compliance Actions</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">It Considers taxation rules according to your country in which it is implemented. It works as per the government laws and shows employee investment declaration for tax benefits and deducts tax details according to that.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Streamline Compliance Actions</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">It Considers taxation rules according to your country in which it is implemented. It works as per the government laws and shows employee investment declaration for tax benefits and deducts tax details according to that.
                   </div>
                </div>
             </div>
@@ -145,8 +145,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px">03</span>
                   <h3 class="d-none invisible">All In One Software</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">All In One Software </div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">HR and payroll management software processes numerous works at a time like it manages accounting reports and payroll expenses, wage reports, salary calculation and pay slips, leave and attendance management.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">All In One Software </div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">HR and payroll management software processes numerous works at a time like it manages accounting reports and payroll expenses, wage reports, salary calculation and pay slips, leave and attendance management.
                   </div>
                </div>
             </div>
@@ -165,31 +165,31 @@
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Biometric Attendance</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Biometric Attendance</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Biometric Attendance</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Dynamic Leaves, Working hour Setting</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Dynamic Leaves, Working hour Setting</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Dynamic Leaves, Working hour Setting</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Auto Salary Calculations at the end of month</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Auto Salary Calculations at the end of month</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Auto Salary Calculations at the end of month</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Customized Dynamic Reports</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Customized Dynamic Reports</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Customized Dynamic Reports</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">0% Complexity (easy to use)</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">0% Complexity (easy to use)</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">0% Complexity (easy to use)</div>
                </div>
             </div>
          </div>
@@ -208,7 +208,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

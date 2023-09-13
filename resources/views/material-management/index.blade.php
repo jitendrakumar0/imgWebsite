@@ -45,8 +45,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Material <b> Management</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Material management plays an important in real estate business. While designing a house, bridge or anything else material is an important asset. Therefore to manage quality and quantity of a material, material management proofs to be a great help.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is important part of real state software that is used to monitor supply market, develop supply option, keep details about the quantity of material and support organization for supply base. It also keeps record of purchase invoice and order, Invalid challan details and many more.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Material management plays an important in real estate business. While designing a house, bridge or anything else material is an important asset. Therefore to manage quality and quantity of a material, material management proofs to be a great help.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is important part of real state software that is used to monitor supply market, develop supply option, keep details about the quantity of material and support organization for supply base. It also keeps record of purchase invoice and order, Invalid challan details and many more.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -69,8 +69,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Material Management</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Material Management</li>
                      </li>
                   </ol>
                </nav>
@@ -101,7 +101,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Advance requirement planning for productio</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Advance requirement planning for production</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Advance requirement planning for production</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4 ps-0">
@@ -110,7 +110,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Automate vendor schedulin</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Automate vendor scheduling</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Automate vendor scheduling</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4 ps-0">
@@ -119,7 +119,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Purchase indent generatio</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Purchase indent generation</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Purchase indent generation</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4 ps-0">
@@ -128,7 +128,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Repacking, replacement of materia</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Repacking, replacement of material</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Repacking, replacement of material</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4 ps-0">
@@ -137,7 +137,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Generate various reports related to materials</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Generate various reports related to materials</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Generate various reports related to materials</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4 ps-0">
@@ -146,7 +146,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Keeps record of purchase invoice and order</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Keeps record of purchase invoice and order</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Keeps record of purchase invoice and order</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4 ps-0">
@@ -155,7 +155,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-sm-19 fs-18 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Monitor supply market</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Monitor supply market</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Monitor supply market</div>
                      </div>
                   </div>
                </div>
@@ -177,7 +177,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

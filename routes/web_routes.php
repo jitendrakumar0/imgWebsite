@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 Route::get('/index-seo', 'HomeController@index_seo');
-
+Route::get('/newimg', 'HomeController@newimg');
 //Route::get('/{addr}', 'HomeController@get_routes');
 
 Route::get('/about-us.php', 'HomeController@about_us');
@@ -39,7 +39,7 @@ Route::get('/blog/tag/{id}', 'HomeController@blogtag');
 
 
 Route::get('/portfolio/category/{id}', 'HomeController@portfoliocategory');
-Route::get('/portfolio.php', 'HomeController@portfolioIndex');
+Route::get('/portfolio.php', 'HomeController@portfolio_1');
 Route::get('/portfolio/{slug}', 'HomeController@portfolioSingle');
 Route::post('/portfolio/search', 'HomeController@portfoliosearch');
 
@@ -88,7 +88,7 @@ Route::get('/ecommerce-website-development-company-in-alwar.php', 'HomeControlle
 
 
 Route::get('/ecommerce-website-development-1.php', 'HomeController@ecommerce_website_development_1');
-Route::get('/portfolio-1.php', 'HomeController@portfolio_1');
+// Route::get('/portfolio-1.php', 'HomeController@portfolio_1');
 
 // Route::get('/android-application-development-company.php', 'HomeController@android_application_development_company');
 // Route::get('/ios-app-development-company.php', 'HomeController@ios_app_development_company');
@@ -118,7 +118,23 @@ Route::get('/hire-ui-ux-developers.php', 'HomeController@hire_ui_ux_developers')
 Route::get('/hire-dedicated-developers.php', 'HomeController@hire_dedicated_developers');
 
 Route::get('/casestudy.php', 'HomeController@casestudy');
+Route::get('/casestudy-1.php', 'HomeController@casestudy_1');
+Route::get('/casestudy-2.php', 'HomeController@casestudy_2');
+Route::get('/casestudy-3.php', 'HomeController@casestudy_3');
+Route::get('/casestudy-4.php', 'HomeController@casestudy_4');
 Route::get('/ready-to-move.php', 'HomeController@ready_to_move');
+
+Route::get('/realestate-demo.php', 'HomeController@real_estate_demo');
+
+
+Route::get('/solution.php', 'HomeController@solution');
+
+
+Route::get('/solution-1.php', 'HomeController@solution_1');
+
+Route::get('/dating.php', 'HomeController@dating');
+
+Route::get('/solution-list.php', 'HomeController@solution_list');
 
 // Route::get('/grocery-app-development-company.php', 'HomeController@grocery_app_development_company');
 // Route::get('/food-delivery-app-development-company.php', 'HomeController@food_delivery_app_development_company');

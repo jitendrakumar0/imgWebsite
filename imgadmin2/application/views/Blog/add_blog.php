@@ -1,6 +1,6 @@
 <?php 
 $root = root();
-$id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category=''; $description=''; $tags_foo=''; $meta_title=''; $meta_keyword=''; $meta_description=''; 
+$id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category=''; $short_description=''; $description=''; $tags_foo=''; $meta_title=''; $meta_keyword=''; $meta_description=''; $faq=''; $background_color=''; $background_color_status='0'; 
 
 	if(!empty($result)){ 
 		$id=$result['id'];
@@ -9,11 +9,15 @@ $id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category='';
 		$blog_date=$result['blog_date'];
 		$category=explode(',',$result['category']);
 		$blog_author=explode(',',$result['blog_author']);
+        $short_description=$result['short_description'];
 		$description=$result['description'];    
 		$meta_title=$result['meta_title'];
 		$meta_keyword=$result['meta_keyword'];
 		$meta_description=$result['meta_description'];
 		$tags_foo=explode(',',$result['tags_foo']);
+        $faq = $result['faq'];
+        $background_color = $result['background_color'];
+        $background_color_status = $result['background_color_status'];
 	}
 
 ?>
@@ -83,6 +87,11 @@ $id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category='';
                                 <label for="exampleInputEmail1">Blog Date</label>
                                 <input type="date" required name="blog_date" placeholder="Blog Date" class="form-control" value="<?php echo $blog_date; ?>"/>
                             </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Short Description</label>
+                                <textarea  name="short_description" rows="3" placeholder="Short Description" class="form-control" value=""><?php echo $short_description; ?></textarea>
+                            </div>
                 
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Description</label>
@@ -150,6 +159,21 @@ $id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category='';
                                 <input type="hidden" name="id" value="<?= $id; ?>" />
                                 <input type="hidden" name="old_image" value="<?= $blog_image; ?>" />
                             </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Background Color</label>
+                                <input type="color"  name="background_color" placeholder="Background Color" class="form-control" value="<?php echo $background_color; ?>"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Background Color Status</label>
+                                <select class="form-control" name="background_color_status" >
+                                    
+                                    <option value="0" <?php if($background_color_status=='0'){echo 'selected';}?> >No</option>
+                                    <option value="1" <?php if($background_color_status=='1'){echo 'selected';}?> >Yes</option>
+                                    
+                                </select>
+                            </div>
                     
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Meta Title</label>
@@ -165,6 +189,44 @@ $id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category='';
                                 <label for="exampleInputEmail1">Meta Description</label>
                                 <input type="text"  name="meta_description" placeholder="Meta Description" class="form-control" value="<?php echo $meta_description; ?>"/>
                             </div>
+
+                            <?php if(!empty($faq)){
+                                  $faqResult = json_decode($faq,true);
+                                  foreach($faqResult as $key=>$faqdata) {   
+                            ?>
+                            <div id="existing_question<?= $key; ?>">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">FAQ Question</label>
+                                    <input type="text"  name="faq_question[]" placeholder="FAQ Question" class="form-control" value="<?= $faqdata['question']; ?>"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">FAQ Answer</label>
+                                    <textarea  name="faq_answer[]" rows="3" placeholder="FAQ Answer" class="form-control" value=""><?= $faqdata['answer']; ?></textarea>
+                                </div>
+
+                                <button class="btn btn-danger" id="" onclick="remove_existing(<?= $key; ?>)" type="button"><i class="bi bi-trash"></i> Delete</button>
+                            </div>
+                            
+                            <?php } } ?>    
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">FAQ Question</label>
+                                <input type="text"  name="faq_question[]" placeholder="FAQ Question" class="form-control" value=""/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">FAQ Answer</label>
+                                <textarea  name="faq_answer[]" rows="3" placeholder="FAQ Answer" class="form-control" value=""></textarea>
+                            </div>
+
+                            <div id="newinput"></div>
+                            <button id="rowAdder" type="button" class="btn btn-dark">
+                                <span class="bi bi-plus-square-dotted">
+                                </span> ADD
+                            </button>
+
+
                             <?php if($blog_image==''){ ?>
                                 <div class="form-group text-center">
                                     <input type="submit" value="Submit" class="btn btn-info" />
@@ -248,4 +310,28 @@ $id=""; $blog_image=''; $title=''; $blog_author=''; $blog_date=''; $category='';
             return false;
         }
     }
+
+        $("#rowAdder").click(function () {
+            newRowAdd =
+            '<div id="row"> <div class="form-group">'+
+                                '<label for="exampleInputEmail1">FAQ Question</label>'+
+                                '<input type="text"  name="faq_question[]" placeholder="FAQ Question" class="form-control" value=""/>'+
+                            '</div>'+
+                            '<div class="form-group">'+
+                                '<label for="exampleInputEmail1">FAQ Answer</label>'+
+                                '<textarea  name="faq_answer[]" rows="3" placeholder="FAQ Answer" class="form-control" value=""></textarea>'+
+                            '</div>'+
+                            '<div class="input-group-prepend">' +
+                '<button class="btn btn-danger" id="DeleteRow" type="button">' +
+                '<i class="bi bi-trash"></i> Delete</button> </div></div>';
+            $('#newinput').append(newRowAdd);
+        });
+        $("body").on("click", "#DeleteRow", function () {
+            $(this).parents("#row").remove();
+        });
+
+        function remove_existing(removeid){
+            $('#existing_question'+removeid).remove();
+        }
+    
 </script>

@@ -277,6 +277,7 @@
   position: absolute;
   z-index: 1;
   inset: 0;
+  -webkit-transform: translateZ(-30px);
   transform: translateZ(-30px);
   background-size: cover;
 }
@@ -294,8 +295,7 @@
 
 .tab_icos i {
   background: linear-gradient(135deg, #139ed9 0, #ff6d00 100%);
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   margin-bottom: 20px;
@@ -360,8 +360,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -375,17 +377,21 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
 }
 
 .creative-intuitive-web .tilt_image_pos img:nth-child(1) {
+  -webkit-transform: translateZ(var(--tz)) rotate(-16deg);
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .creative-intuitive-web .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -495,9 +501,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=ecommerce-website-development-company-in-alwar.min.css.map */
+}

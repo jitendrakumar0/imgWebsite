@@ -60,8 +60,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Ecommerce Website Design</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Ecommerce Website Design</li>
                   </ol>
                </nav>
             </div>
@@ -75,8 +75,8 @@
          <div class="row mx-0 pb-5">
             <h2 class="d-none invisible">Build Your Online Store By Top ECommerce Web Design Company</h2>
             <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Build Your Online Store By Top ECommerce <b> Web Design Company </b></span></div>
-            <div class="col-12 fw-600 fs-16 text-muted mt-3 mb-3 px-0">Our website's primary goal for online store development is to provide the best user experience to the customers and offer an easy management facility for the administrator. We are a top-notch web development company that designs the best website design for your online store based on user requirements. We also follow the latest standards and trends when it comes to the online store development process. Both administrators and users will get their expected benefits with our eCommerce web design and development services.</div>
-            <div class="col-12 fw-600 fs-16 text-black mt-3 mb-3 px-0">Some of the features that the administrators acquire include:</div>
+            <div class="col-12 fw-l fs-16 text-muted mt-3 mb-3 px-0">Our website's primary goal for online store development is to provide the best user experience to the customers and offer an easy management facility for the administrator. We are a top-notch web development company that designs the best website design for your online store based on user requirements. We also follow the latest standards and trends when it comes to the online store development process. Both administrators and users will get their expected benefits with our eCommerce web design and development services.</div>
+            <div class="col-12 fw-l fs-16 text-black mt-3 mb-3 px-0">Some of the features that the administrators acquire include:</div>
          </div>
          <div class="row">
             <div class="col-12 mb-4">
@@ -86,7 +86,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Easy management of discounts and offers</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Easy management of discounts and offers
                      </div>
                   </div>
@@ -99,7 +99,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Seamless inventory management</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Seamless inventory management
                      </div>
                   </div>
@@ -112,7 +112,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Easy to monitor eCommerce analytics</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Easy to monitor eCommerce analytics
                      </div>
                   </div>
@@ -125,7 +125,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Manage order and simple tracking process.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Manage order and simple tracking process.
                      </div>
                   </div>
@@ -138,7 +138,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Manage product attributes</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Manage product attributes
                      </div>
                   </div>
@@ -151,7 +151,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Easy integration of shipping and tax.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Easy integration of shipping and tax.
                      </div>
                   </div>
@@ -159,7 +159,7 @@
             </div>
          </div>
          <div class="row mx-0 pb-5">
-            <div class="col-12 fw-600 fs-16 text-black mt-3 mb-3 px-0">Some of the benefits we avail for the users include:</div>
+            <div class="col-12 fw-m fs-16 text-black mt-3 mb-3 px-0">Some of the benefits we avail for the users include:</div>
          </div>
          <div class="row">
             <div class="col-12 mb-4">
@@ -169,7 +169,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Filters and categories to streamline the search</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Filters and categories to streamline the search
                      </div>
                   </div>
@@ -182,7 +182,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Secured payment gateways</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Secured payment gateways
                      </div>
                   </div>
@@ -195,7 +195,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Proper order tracking modes</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Proper order tracking modes
                      </div>
                   </div>
@@ -208,7 +208,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Engaging interface and easy navigation</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Engaging interface and easy navigation
                      </div>
                   </div>
@@ -221,7 +221,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">The quick and easy checkout process</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         The quick and easy checkout process
                      </div>
                   </div>
@@ -234,7 +234,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Various product images for real-life experience.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-m fs-md-18 fs-sm-16 fs-14 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Various product images for real-life experience.
                      </div>
                   </div>
@@ -261,8 +261,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">360 degree eCommerce Web Design and Development Services</h3>
-                              <div class="col-12 fw-900 fs-17 text-uppercase lh-normal benefits_heads text-theme3">360 degree eCommerce Web Design and Development Services</div>
-                              <div class="col-12 fw-600 fs-16 text-muted mt-3">The eCommerce company website or the online store we deliver is the joint effort of IMG Global Infotech's pool of professionals, including digital marketers, expert strategists, developers, designers, and more. We ensure whether the online store we provide is a full-fledged eCommerce site with multiple features like user-friendliness, high performance, and fully functional site.</div>
+                              <div class="col-12 fw-m fs-17 text-uppercase lh-normal benefits_heads text-theme3">360 degree eCommerce Web Design and Development Services</div>
+                              <div class="col-12 fw-l fs-16 text-muted mt-3">The eCommerce company website or the online store we deliver is the joint effort of IMG Global Infotech's pool of professionals, including digital marketers, expert strategists, developers, designers, and more. We ensure whether the online store we provide is a full-fledged eCommerce site with multiple features like user-friendliness, high performance, and fully functional site.</div>
                            </div>
                         </div>
                      </div>
@@ -279,8 +279,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">High-functional eCommerce Websites</h3>
-                              <div class="col-12 fw-900 fs-17 text-uppercase lh-normal benefits_heads text-theme3">High-functional eCommerce Websites</div>
-                              <div class="col-12 fw-600 fs-16 text-muted mt-3">The eCommerce website or online store we deliver has the options for selling products, processing orders via shopping, and charging the customers' credit cards. Management systems, product catalogs, 360-degree shopping carts with good customization capabilities are some of the best features included in our eCommerce web design services. We also optimize them for Search engines so that your website gets easily ranked on the search engines.
+                              <div class="col-12 fw-m fs-17 text-uppercase lh-normal benefits_heads text-theme3">High-functional eCommerce Websites</div>
+                              <div class="col-12 fw-l fs-16 text-muted mt-3">The eCommerce website or online store we deliver has the options for selling products, processing orders via shopping, and charging the customers' credit cards. Management systems, product catalogs, 360-degree shopping carts with good customization capabilities are some of the best features included in our eCommerce web design services. We also optimize them for Search engines so that your website gets easily ranked on the search engines.
                               </div>
                            </div>
                         </div>
@@ -298,8 +298,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Continuous Website Optimization and SEO-friendly Designs</h3>
-                              <div class="col-12 fw-900 fs-17 text-uppercase lh-normal benefits_heads text-theme3">Continuous Website Optimization and SEO-friendly Designs</div>
-                              <div class="col-12 fw-600 fs-16 text-muted mt-3">Outperform and outrank your website ahead of the competitors with our effective eCommerce website design services. We enable your business to rank higher using Search Engine Optimization (SEO) services. We take care of everything on your online store right from planning to execution for conversion rate analysis and marketability.
+                              <div class="col-12 fw-m fs-17 text-uppercase lh-normal benefits_heads text-theme3">Continuous Website Optimization and SEO-friendly Designs</div>
+                              <div class="col-12 fw-l fs-16 text-muted mt-3">Outperform and outrank your website ahead of the competitors with our effective eCommerce website design services. We enable your business to rank higher using Search Engine Optimization (SEO) services. We take care of everything on your online store right from planning to execution for conversion rate analysis and marketability.
                               </div>
                            </div>
                         </div>
@@ -317,15 +317,15 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Reliable eCommerce Designs</h3>
-                              <div class="col-12 fw-900 fs-17 text-uppercase lh-normal benefits_heads text-theme3">Reliable eCommerce Designs</div>
-                              <div class="col-12 fw-600 fs-16 text-muted mt-3">Our pool of web designers, developers, and other experts ensures you deliver a long-lasting, reliable, and scalable online store for your products. The display looks amazing and is also made responsive to any type of device. We guarantee a complete functional, beautiful, and responsive site.</div>
+                              <div class="col-12 fw-m fs-17 text-uppercase lh-normal benefits_heads text-theme3">Reliable eCommerce Designs</div>
+                              <div class="col-12 fw-l fs-16 text-muted mt-3">Our pool of web designers, developers, and other experts ensures you deliver a long-lasting, reliable, and scalable online store for your products. The display looks amazing and is also made responsive to any type of device. We guarantee a complete functional, beautiful, and responsive site.</div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="col-12 fw-600 fs-16 text-muted mt-3 text-center">Apart from that, our eCommerce website design services are scalable, superior UI/UX, mobile-friendly, and hassle-free deployment.
+            <div class="col-12 fw-l fs-16 text-muted mt-3 text-center">Apart from that, our eCommerce website design services are scalable, superior UI/UX, mobile-friendly, and hassle-free deployment.
             </div>
          </div>
       </div>
@@ -354,8 +354,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">What Is ECommerce <b> Web Development? </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Ecommerce website development is the best option if you need to increase your customer base and sales. Whether you need to overcome the downside of deals with the existing ones or start a new online store, eCommerce web development can be used to acquire the best results.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">As the best eCommerce web development agency, we offer the best eCommerce web design and development solutions with access to manage product inventories, advanced security features, multiple payment gateway integrations, rich user interfaces, product catalog, commission, rating and reviews, microsite features, product approval, reports, and more. We deliver a solid foundation of success by performing eCommerce SEO, secure website (HTTPS), responsive design, custom eCommerce development solutions, and custom eCommerce web design.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Ecommerce website development is the best option if you need to increase your customer base and sales. Whether you need to overcome the downside of deals with the existing ones or start a new online store, eCommerce web development can be used to acquire the best results.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">As the best eCommerce web development agency, we offer the best eCommerce web design and development solutions with access to manage product inventories, advanced security features, multiple payment gateway integrations, rich user interfaces, product catalog, commission, rating and reviews, microsite features, product approval, reports, and more. We deliver a solid foundation of success by performing eCommerce SEO, secure website (HTTPS), responsive design, custom eCommerce development solutions, and custom eCommerce web design.</div>
                      </div>
                   </div>
                </div>
@@ -387,7 +387,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">M-commerce development</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">M-commerce development</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">M-commerce development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -396,7 +396,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Plug-in and module development</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Plug-in and module development</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Plug-in and module development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -405,7 +405,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Payment gateway integration</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Payment gateway integration</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Payment gateway integration</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -414,7 +414,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">eCommerce website design customization</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">eCommerce website design customization</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">eCommerce website design customization</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -423,7 +423,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Shipping services</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Shipping services</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Shipping services</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -432,7 +432,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Maintenance and support</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Maintenance and support</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Maintenance and support</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -441,7 +441,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Custom eCommerce web development</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Custom eCommerce web development</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Custom eCommerce web development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -450,7 +450,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">eCommerce application development</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">eCommerce application development</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">eCommerce application development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -459,7 +459,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">online lead generation and conversion</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">online lead generation and conversion</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">online lead generation and conversion</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -468,7 +468,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Enterprise eCommerce development</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Enterprise eCommerce development</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Enterprise eCommerce development</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -477,7 +477,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme1 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Reporting and progressive analysis</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Reporting and progressive analysis</div>
+                        <div class="col fw-l fs-md-18 fs-sm-16 fs-14 text-theme1 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme1 border-4 border-bottom border-theme1 border-3">Reporting and progressive analysis</div>
                      </div>
                   </div>
                </div>
@@ -496,7 +496,7 @@
          <div class="row">
             <div class="col-md-12">
                <div class="row">
-                  <div class="col-12 text-center fw-600 fs-md-18 fs-sm-16 fs-14 text-muted mt-3">The cost of developing an eCommerce website design relies on different factors, including the site's functionalities & features, the complexity of the eCommerce platform you pick, the robustness of the store, and more. You can get a free eCommerce Website Design quote by reaching out to your eCommerce website design and development project.</div>
+                  <div class="col-12 text-center fw-l fs-md-18 fs-sm-16 fs-14 text-muted mt-3">The cost of developing an eCommerce website design relies on different factors, including the site's functionalities & features, the complexity of the eCommerce platform you pick, the robustness of the store, and more. You can get a free eCommerce Website Design quote by reaching out to your eCommerce website design and development project.</div>
                </div>
             </div>
          </div>
@@ -513,7 +513,7 @@
                         <h3 class="d-none invisible">Latest Blogs</h3>
                         <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -527,18 +527,59 @@
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 20, 2023</span> 
+                                                                   <span> By Dipti Singhal </span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top Custom Software Development Companies</div>
+                                                           </div>
+                                                        </a>
 
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-To-Develop-Hotel-Booking-App-Cost-Features-2023.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 07, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How To Develop Hotel Booking App: Cost, Features (2023)</div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Innovative-Healthcare-Business-Ideas-for-Startups-and-Aspiring-Entrepreneurs.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 05, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                            <div class="row mx-1 py-3 bg-white">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
                                                            </div>
                                                         </a> 
 
@@ -548,11 +589,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
                                                            </div>
                                                         </a> 
 
@@ -563,11 +604,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
                                                            </div>
                                                      </a> 
 
@@ -577,11 +618,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -591,11 +632,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -605,11 +646,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
                                                            </div>
                                                      </a> 
 
@@ -621,11 +662,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
                                                            </div>
                                                      </a> 
 
@@ -635,37 +676,37 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
                                                            </div>
                                                      </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                             <div class="row mx-1 py-3 bg-white">
                                                                 <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                  <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
                                                                  </div>
-                                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                     <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
+                                                                    <span> By Dipti Singhal</span>
                                                                 </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                             </div>
                                                       </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                        <div class="row mx-1 py-3 bg-white">
                                                           <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                           <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
                                                           </div>
-                                                          <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
                                                              <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
+                                                             <span> By Dipti Singhal</span>
                                                           </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                           </div>
                                                        </div>
                                                     </a>  
@@ -674,13 +715,13 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
                                                             </div>
                                                         </div>
                                                     </a>
@@ -689,19 +730,17 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
                                                             </div>
                                                         </div>
                                                     </a>
-
-                                                  
-                                                </div>
+                                               </div>
                                             </div> 
                                         </div>
                                     </div>                  
@@ -711,7 +750,7 @@
                     </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>

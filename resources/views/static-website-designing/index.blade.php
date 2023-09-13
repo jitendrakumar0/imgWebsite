@@ -45,7 +45,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Static <b> Website Designing</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">In simpler terms Static Website is a website with multiple webpages, and no changes can be made to it. If there is any need for amendment or changes the client has to contact Developers back at IMG Global Infotech. These sorts of websites are fit for business that are displaying information on the website like articles, news, media, NGO’s etc.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">In simpler terms Static Website is a website with multiple webpages, and no changes can be made to it. If there is any need for amendment or changes the client has to contact Developers back at IMG Global Infotech. These sorts of websites are fit for business that are displaying information on the website like articles, news, media, NGO’s etc.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -71,8 +71,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Static Website designing</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Static Website designing</li>
                   </ol>
                </nav>
             </div>
@@ -103,8 +103,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Choosing Static Website Is A <b> Beneficial For Your Business? </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">If you are looking for some low cost management website for your business,</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Static Website is what you need. These websites are easy to handle at the client’s end, as the main purpose of such a website is displaying information. Businesses looking for solutions to display information such as product details, their professional details, some sort of tables and data, Static website would be a better choice for them. Any changes that are to be made will be done by the developers at IMG Global Infotech. Just keep this in mind before opting for Static Website that, if any amendments are to be made on request by the client, only the developer could make them.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">If you are looking for some low cost management website for your business,</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Static Website is what you need. These websites are easy to handle at the client’s end, as the main purpose of such a website is displaying information. Businesses looking for solutions to display information such as product details, their professional details, some sort of tables and data, Static website would be a better choice for them. Any changes that are to be made will be done by the developers at IMG Global Infotech. Just keep this in mind before opting for Static Website that, if any amendments are to be made on request by the client, only the developer could make them.</div>
                      </div>
                   </div>
                </div>
@@ -127,7 +127,7 @@
                   <div class="col-12 text-end position-ralative zi-2 text-lg-end text-md-center text-center">
                      <span class="ionic-benefits-box-ico" style="--tz:20px;"><img src="{{asset('/public')}}/assets/img/static-website-designing/Secure-As-There's-No-Intermrdiary.webp" alt="Secure, as there’s no intermediary"></span>
                      <h3 class="d-none invisible">Secure, as there’s no intermediary</h3>
-                     <div class="col-12 fw-600 fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Secure, as there’s no intermediary</div>
+                     <div class="col-12 fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Secure, as there’s no intermediary</div>
                   </div>
                </div>
             </div>
@@ -136,7 +136,7 @@
                   <div class="col-12 text-center position-ralative zi-2">
                      <span class="ionic-benefits-box-ico" style="--tz:20px;"><img src="{{asset('/public')}}/assets/img/static-website-designing/Ideal-For-Small-Websites.webp" alt="Ideal for small websites."></span>
                      <h3 class="d-none invisible">Ideal for small websites.</h3>
-                     <div class="col-12 fw-600 fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Ideal for small websites.</div>
+                     <div class="col-12 fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Ideal for small websites.</div>
                   </div>
                </div>
             </div>
@@ -145,7 +145,7 @@
                   <div class="col-12 text-start position-ralative zi-2 text-lg-start text-md-center text-center">
                      <span class="ionic-benefits-box-ico" style="--tz:20px;"><img src="{{asset('/public')}}/assets/img/static-website-designing/Less-Operation-Time-And-Easy-Navigation.webp" alt="Less operation time and easy navigation."></span>
                      <h3 class="d-none invisible">Less operation time and easy navigation.</h3>
-                     <div class="col-12 fw-600 fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Less operation time and easy navigation.</div>
+                     <div class="col-12 fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Less operation time and easy navigation.</div>
                   </div>
                </div>
             </div>
@@ -154,7 +154,7 @@
                   <div class="col-12 text-end position-ralative zi-2 text-lg-end text-md-center text-center">
                      <span class="ionic-benefits-box-ico" style="--tz:20px;"><img src="{{asset('/public')}}/assets/img/static-website-designing/Mobile-Responsive.webp" alt="Mobile responsive."></span>
                      <h3 class="d-none invisible">Mobile responsive.</h3>
-                     <div class="col-12 fw-600 fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Mobile responsive.</div>
+                     <div class="col-12 fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Mobile responsive.</div>
                   </div>
                </div>
             </div>
@@ -163,7 +163,7 @@
                   <div class="col-12 text-center position-ralative zi-2">
                      <span class="ionic-benefits-box-ico" style="--tz:20px;"><img src="{{asset('/public')}}/assets/img/static-website-designing/Quick-To-Develop.webp" alt="Quick to develop."></span>
                      <h3 class="d-none invisible">Quick to develop.</h3>
-                     <div class="col-12 fw-600 fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Quick to develop.</div>
+                     <div class="col-12 fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Quick to develop.</div>
                   </div>
                </div>
             </div>
@@ -172,7 +172,7 @@
                   <div class="col-12 text-start position-ralative zi-2 text-lg-start text-md-center text-center">
                      <span class="ionic-benefits-box-ico" style="--tz:20px;"><img src="{{asset('/public')}}/assets/img/static-website-designing/Faster-To-Transfer-On-Sl.webp" alt="Faster to transfer on slow connections."></span>
                      <h3 class="d-none invisible">Faster to transfer on slow connections.</h3>
-                     <div class="col-12 fw-600 fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Faster to transfer on slow connections.</div>
+                     <div class="col-12 fw-l fs-xxl-18 fs-xl-18 fs-lg-16 fs-md-15 fs-14 text-white mt-0 mb-3 para_ionic text-capitalize tz" style="--tz:20px;">Faster to transfer on slow connections.</div>
                   </div>
                </div>
             </div>
@@ -190,32 +190,32 @@
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Responsive Design</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Responsive Design</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Responsive Design</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Search Engine Optimization</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Search Engine Optimization
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Search Engine Optimization
                   </div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Fast Loading</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Fast Loading</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Fast Loading</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Good Web Adresses</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Good Web Adresses</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Good Web Adresses</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-xxl-4 my-xl-4 my-lg-3 my-md-3 my-2">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Social Media Integration</h3>
-                  <div class="col-12 fw-bold fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Social Media Integration
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Social Media Integration
                   </div>
                </div>
             </div>
@@ -233,12 +233,12 @@
                   <h2 class="d-none invisible">Race to the Top</h2>
                   <div class="col-12 heading fs-md-14 fs-12 center text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Race to <b> the Top</b></span></div>
                   <h3 class="d-none invisible">In the Era of Digital Transformation, your business needs to adapts and shift to Digital Marketing. In order to rise above the rest, join hands with IMG Global Infotech Pvt. Ltd. today and get only the best professional services for your business.</h3>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mb-4 pt-3 text-center">In the Era of Digital Transformation, your business needs to adapts and shift to Digital Marketing. In order to rise above the rest, join hands with IMG Global Infotech Pvt. Ltd. today and get only the best professional services for your business.</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mb-4 text-center">Discuss Promotion plans for your business with an expert from IMG Global Infotech Pvt. Ltd. today over a Cup <br> of Coffee and take your business to maximum heights. Let sky be the only limit for your business.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mb-4 pt-3 text-center">In the Era of Digital Transformation, your business needs to adapts and shift to Digital Marketing. In order to rise above the rest, join hands with IMG Global Infotech Pvt. Ltd. today and get only the best professional services for your business.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mb-4 text-center">Discuss Promotion plans for your business with an expert from IMG Global Infotech Pvt. Ltd. today over a Cup <br> of Coffee and take your business to maximum heights. Let sky be the only limit for your business.</div>
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme2 fs-md-14 fs-12 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme2 fs-md-14 fs-12 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

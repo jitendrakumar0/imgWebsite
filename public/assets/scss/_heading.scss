@@ -1,5 +1,53 @@
 //    https://codepen.io/vedadesigns/pen/GPxYZg
 
+
+    // heading new 
+.headingv2 {
+  font-weight: 600;
+  // font-weight: 800;
+  display: inline-grid;
+  font-size: 14px;
+  // text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  color: $gray-800;
+  & span {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: normal;
+    // text-transform: capitalize;
+    padding-top: 4px;
+    & b {
+      font-weight: 600;
+      background: linear-gradient(135deg, $theme1 0, $theme3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+ 
+  &.left {
+    text-align: left;
+    &::before {
+      right: auto;
+    }
+    &::after {
+      right: auto;
+      animation: headings_left 3s linear infinite;
+    }
+  }
+  &.right {
+    text-align: right;
+    &::before {
+      left: auto;
+    }
+    &::after {
+      left: auto;
+      animation: headings_right 3s linear infinite;
+    }
+  }
+}
+
+
 .heading {
   font-weight: 600;
   // font-weight: 800;
@@ -129,6 +177,19 @@
     left: auto;
   }
 }
+
+.fw-h{
+  font-weight: 900 !important;
+}
+.fw-m{
+  font-weight: 600 !important;
+}
+
+.fw-l{
+  font-weight: 400 !important;
+}
+
+
 
 // Small devices (landscape phones, 576px and up)
 @mixin heading-fs-12-mixin-min-sm() {

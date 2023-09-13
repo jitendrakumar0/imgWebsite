@@ -11,6 +11,7 @@
   z-index: 0;
   background: url(../../../img/brand-awareness/footer-bg-3.webp);
   background-size: contain;
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   background-repeat: no-repeat;
 }
@@ -94,4 +95,4 @@
   bottom: 0;
   margin: auto;
   opacity: 0.5;
-}/*# sourceMappingURL=brand-awareness.min.css.map */
+}

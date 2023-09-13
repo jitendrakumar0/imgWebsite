@@ -141,9 +141,9 @@
                 <nav class="navbar navbar-expand-lg navbar-light bg-light d-block">
                     <div class="container topbar d-lg-block d-none">
                         <ul class="row justify-content-end mx-0 w-100 list-unstyled">
-                            <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-light d-flex rounded align-items-center wave-1 px-2 py-2 topbar-email" href="mailto:info@imgglobalinfotech.com"><i class="imgs me-1 fs-xxl-16 fs-14 img-envelope"></i> <span>info@imgglobalinfotech.com</span></a></li>
-                            <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-light d-flex rounded align-items-center wave-1 px-2 py-2 topbar-skype" href="skype:kunwar.neeraj.rajput?call"><i class="imgb me-1 fs-xxl-16 fs-14 img-skype"></i> <span>live:kunwar.neeraj.rajput</span></a></li>
-                            {{-- <li class="col-auto px-xxl-1 px-0 pe-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-light d-flex rounded align-items-center wave-1 px-2 py-2 topbar-phone" href="tel:+919876543210"><i class="imgs me-1 fs-xxl-16 fs-14 img-phone"></i> <span>+91 9876543210</span></a></li> --}}
+                            <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-l d-flex rounded align-items-center wave-1 px-2 py-2 topbar-email" href="mailto:info@imgglobalinfotech.com"><i class="imgs me-1 fs-xxl-16 fs-14 img-envelope"></i> <span>info@imgglobalinfotech.com</span></a></li>
+                            <li class="col-auto px-xxl-1 px-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-l d-flex rounded align-items-center wave-1 px-2 py-2 topbar-skype" href="skype:kunwar.neeraj.rajput?call"><i class="imgb me-1 fs-xxl-16 fs-14 img-skype"></i> <span>live:kunwar.neeraj.rajput</span></a></li>
+                            {{-- <li class="col-auto px-xxl-1 px-0 pe-0"><a class="text-decoration-none fs-xxl-14 fs-11 fw-l d-flex rounded align-items-center wave-1 px-2 py-2 topbar-phone" href="tel:+919876543210"><i class="imgs me-1 fs-xxl-16 fs-14 img-phone"></i> <span>+91 9876543210</span></a></li> --}}
                         </ul>
                     </div>
                     <div class="container bottombar">
@@ -956,9 +956,9 @@
                                         <div class="row justify-content-lg-start justify-content-md-center justify-content-center">
                                             <div class="col-auto mt-xl-0 mt-lg-0 mt-md-0 mt-0 mt-sm-0">
                                                 <div class="row justify-content-lg-start justify-content-md-center justify-content-center mt-xl-0 mt-lg-0 mt-md-0 mt-sm-0 mt-0">
-                                                    <div class="col-auto hero_title1 fs-xxl-30 fs-xl-27 fs-lg-25 fs-md-22 fs-sm-20 fs-18 fw-900 text-white lh-sm">Trusted Mobile App <br> Development Company </div>
+                                                    <div class="col-auto hero_title1 fs-xxl-30 fs-xl-27 fs-lg-25 fs-md-22 fs-sm-20 fs-18 fw-m text-white lh-sm">Trusted Mobile App <br> Development Company </div>
                                                     
-                                                    <div class="col-auto hero_taging text-light pt-3 fw-800 fs-xxl-15 fs-xl-14 fs-lg-13 fs-md-12 fs-sm-12 fs-11 text-lg-start text-md-center text-center">
+                                                    <div class="col-auto hero_taging text-light pt-3 fw-l fs-xxl-15 fs-xl-14 fs-lg-13 fs-md-12 fs-sm-12 fs-11 text-lg-start text-md-center text-center">
                                                         Delivering performance-driven, highly customized Mobile app solutions to cater your precise business needs. 
                                                         </div>
                                                     <div class="col-12 px-0 py-md-4 pt-3 pb-0">
@@ -969,8 +969,8 @@
                                                                         <img src="{{asset('/public')}}/assets/img/achievements-section/successful-projects.webp" class="h-xxl-40px h-35px countIcon" alt="successful-projects">
                                                                     </div>
                                                                     <h3 class="d-none invisible">Successful Projects</h3>
-                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-900">1200 <span class="ms-n1 fw-600 text-white">+</span></div>
-                                                                    <div class="col-12 text-xl-start text-center text-white fw-600 fs-xl-14 fs-md-13 fs-12">Successful Projects</div>
+                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-m">1200 <span class="ms-n1 fw-l text-white">+</span></div>
+                                                                    <div class="col-12 text-xl-start text-center text-white fw-l fs-xl-14 fs-md-13 fs-12">Successful Projects</div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-3 col-6 py-sm-0 py-2">
@@ -979,8 +979,8 @@
                                                                         <img src="{{asset('/public')}}/assets/img/achievements-section/success-ratio.webp" class="h-xxl-40px h-35px countIcon" alt="Team Members">
                                                                     </div>
                                                                     <h3 class="d-none invisible">Apps Developed</h3>
-                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-900">250 <span class="ms-n1 fw-600 text-white">+</span></div>
-                                                                    <div class="col-12 text-xl-start text-center text-white fw-600 fs-xl-14 fs-md-13 fs-12">Apps Developed</div>
+                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-m">250 <span class="ms-n1 fw-l text-white">+</span></div>
+                                                                    <div class="col-12 text-xl-start text-center text-white fw-l fs-xl-14 fs-md-13 fs-12">Apps Developed</div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-3 col-6 py-sm-0 py-2">
@@ -989,8 +989,8 @@
                                                                         <img src="{{asset('/public')}}/assets/img/achievements-section/team-members.webp" class="h-xxl-40px h-35px countIcon" alt="Team Members">
                                                                     </div>
                                                                     <h3 class="d-none invisible">Team Members</h3>
-                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-900">100 <span class="ms-n1 fw-600 text-white">+</span></div>
-                                                                    <div class="col-12 text-xl-start text-center text-white fw-600 fs-xl-14 fs-md-13 fs-12">Team Members</div>
+                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-m">100 <span class="ms-n1 fw-l text-white">+</span></div>
+                                                                    <div class="col-12 text-xl-start text-center text-white fw-l fs-xl-14 fs-md-13 fs-12">Team Members</div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-3 col-6 py-sm-0 py-2">
@@ -999,7 +999,7 @@
                                                                         <img src="{{asset('/public')}}/assets/img/achievements-section/year-in-insustry.webp" class="h-xxl-40px h-35px countIcon" alt="year-in-insustry">
                                                                     </div>
                                                                     <h3 class="d-none invisible">Years in Industry</h3>
-                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-900">8 <span class="ms-n1 fw-600 text-white">+</span></div>
+                                                                    <div class="col-12 text-xl-start text-center fs-xl-30 fs-md-25 fs-sm-21 fs-18 text-white fw-m">8 <span class="ms-n1 fw-600 text-white">+</span></div>
                                                                     <div class="col-12 text-xl-start text-center text-white fw-600 fs-xl-14 fs-md-13 fs-12">Years in Industry</div>
                                                                 </div>
                                                             </div>
@@ -1009,17 +1009,17 @@
                                                 <div class="col-auto hero_slider_btn pb-md-0 pb-4">
                                                     <div class="row justify-content-lg-start justify-content-md-center justify-content-center">
                                                         <div class="col-auto text-center text-md-left ">
-                                                        <a href="tel:+91-9694097245" class="btn btn-theme2 text-white fs-md-13 fs-sm-12 fs-11 fw-bold my-3 py-2 px-md-4 px-5 rounded-pill">
+                                                        <a href="tel:+91-9694097245" class="btn btn-theme2 text-white fs-md-13 fs-sm-12 fs-11 fw-m my-3 py-2 px-md-4 px-5 rounded-pill">
                                                                 <span class="d-block"><span>+91-9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                             </a>
-                                                            <a href="#portfolio" class="btn btn-theme1 text-white fs-md-13 fs-sm-12 fs-11 fw-bold my-3 py-2 px-md-4 px-5 rounded-pill">
+                                                            <a href="#portfolio" class="btn btn-theme1 text-white fs-md-13 fs-sm-12 fs-11 fw-m my-3 py-2 px-md-4 px-5 rounded-pill">
                                                                 <span class="d-block"><span>Our Recent Work</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                             </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 {{-- <div class="col-12 text-white fs-lg-14 fs-13">
-                                                    Call us now at &nbsp; <a href="tel:+91-9694097245" class="text-decoration-none callUsNowAt text-white fw-bold"> +91-9694097245</a>
+                                                    Call us now at &nbsp; <a href="tel:+91-9694097245" class="text-decoration-none callUsNowAt text-white fw-m"> +91-9694097245</a>
                                                 </div> --}}
                                                 
                                             </div>
@@ -1037,7 +1037,7 @@
                                                 <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
                                                 <input type="hidden" name="type" value="Mobile App Development" />
                                                 <div class="col-12 align-items-start pt-4">
-                                                <h5 class="col-12 fw-bold">
+                                                <h5 class="col-12 fw-m">
                                                     <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                                                         <div class="row align-items-center">
                                                             <h2 class="d-none invisible">Connect With Our Experts</h2>
@@ -1054,14 +1054,14 @@
                                                                 <div class="col-md-12">
                                                                     <div class="form-floating">
                                                                         <input type="text" name="name" class="form-control rounded shadow-none" id="name" placeholder="Enter Full Name" required>
-                                                                        <label class="fw-600" for="name">Name</label>
+                                                                        <label class="fw-m" for="name">Name</label>
                                                                         <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-12">
                                                                         <div class="row">
                                                                             <div class="col-3 pe-0">
-                                                                                <select class="form-select fs-13 rounded-0 rounded-start fw-600 h-100 shadow-none" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
+                                                                                <select class="form-select fs-13 rounded-0 rounded-start fw-m h-100 shadow-none" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
                                                                                     <option value="IN +91" selected="selected"> IN +91</option>
                                                                                     <option value="IR +98">IR +98</option>
                                                                                     <option value="IQ +964">IQ +964</option>
@@ -1307,7 +1307,7 @@
                                                                                 <div class="col-9 ps-0">
                                                                                 <div class="form-floating">
                                                                                     <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control shadow-none rounded-0 rounded-end border-start-0" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                                                    <label class="fw-600" for="phoneNumber">Mobile Number</label>
+                                                                                    <label class="fw-m" for="phoneNumber">Mobile Number</label>
                                                                                     <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                                                                 </div>
                                                                                 </div>
@@ -1315,13 +1315,13 @@
                                                                     </div>
                                                                 <div class="col-md-12">
                                                                     <div class="form-floating">
-                                                                        <input type="email" name="email" class="form-control rounded shadow-none fw-600" id="emailID" placeholder="Enter Email ID" required>
-                                                                        <label class="fw-600" for="emailID">Email ID</label>
+                                                                        <input type="email" name="email" class="form-control rounded shadow-none fw-m" id="emailID" placeholder="Enter Email ID" required>
+                                                                        <label class="fw-m" for="emailID">Email ID</label>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-12 ">
                                                                         <div class="form-floating">
-                                                                            <select name="" required="" id="type" class="form-control rounded shadow-none pt-2 fw-600" readonly disabled>
+                                                                            <select name="" required="" id="type" class="form-control rounded shadow-none pt-2 fw-m" readonly disabled>
                                                                                 <option value="Mobile App Development">Mobile App Development</option>
                                                                             </select>
                                                                         </div> 
@@ -1329,7 +1329,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="col-12 px-4 py-4">
-                                                            <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-13 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+                                                            <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-13 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                                                                 <span class="d-block"><span>Schedule Your Free Consultation</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                             </button>
                                                             </div>
@@ -1353,7 +1353,7 @@
                                                 <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
                                                 <input type="hidden" name="type" value="Mobile App Development" />
                                                 <div class="col-12 align-items-start pt-4">
-                                                <h5 class="col-12 fw-bold">
+                                                <h5 class="col-12 fw-m">
                                                     <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                                                         <div class="row align-items-center">
                                                             <h2 class="d-none invisible">Connect With Our Experts</h2>
@@ -1370,14 +1370,14 @@
                                                 <div class="col-md-12">
                                                     <div class="form-floating">
                                                         <input type="text" name="name" class="form-control rounded shadow-none" id="name" placeholder="Enter Full Name" required>
-                                                        <label class="fw-600" for="name">Name</label>
+                                                        <label class="fw-m" for="name">Name</label>
                                                         <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                         <div class="row">
                                                             <div class="col-4 pe-0">
-                                                                <select class="form-select fs-13 rounded-0 rounded-start fw-600 h-100 shadow-none" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
+                                                                <select class="form-select fs-13 rounded-0 rounded-start fw-m h-100 shadow-none" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
                                                                     <option value="IN +91" selected="selected"> IN +91</option>
                                                                     <option value="IR +98">IR +98</option>
                                                                     <option value="IQ +964">IQ +964</option>
@@ -1623,7 +1623,7 @@
                                                                 <div class="col-8 ps-0">
                                                                 <div class="form-floating">
                                                                     <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 rounded-end border-start-0 shadow-none" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                                    <label class="fw-600" for="phoneNumber">Mobile Number</label>
+                                                                    <label class="fw-m" for="phoneNumber">Mobile Number</label>
                                                                     <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                                                 </div>
                                                                 </div>
@@ -1631,15 +1631,15 @@
                                                     </div>
                                                 <div class="col-md-12">
                                                     <div class="form-floating">
-                                                        <input type="email" name="email" class="form-control rounded shadow-none fw-600" id="emailID" placeholder="Enter Email ID" required>
-                                                        <label class="fw-600" for="emailID">Email ID</label>
+                                                        <input type="email" name="email" class="form-control rounded shadow-none fw-m" id="emailID" placeholder="Enter Email ID" required>
+                                                        <label class="fw-m" for="emailID">Email ID</label>
                                                     </div>
                                                 </div>
                                                 
 
                                                 <div class="col-md-12 ">
                                                     <div class="form-floating">
-                                                        <select name="" required="" id="type" class="form-control rounded shadow-none pt-2 fw-600" disabled>
+                                                        <select name="" required="" id="type" class="form-control rounded shadow-none pt-2 fw-m" disabled>
                                                             <option value="Mobile App Development">Mobile App Development</option>
                                                         </select>
                                                     </div> 
@@ -1647,14 +1647,14 @@
 
                                                     <div class="col-md-12" style="pointer-events:none;">
                                                         <div class="Disabled">
-                                                            <input disabled type="text" name="" class="bg-white form-control rounded shadow-none fw-600 h-56px text-dark py-3" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
+                                                            <input disabled type="text" name="" class="bg-white form-control rounded shadow-none fw-m h-56px text-dark py-3" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
                                                             </div>
                                                     </div> 
                                                 </div>
                                                 </div>
 
                                             <div class="col-12 px-5 py-3">
-                                                <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+                                                <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                                                     <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                 </button>
                                             </div>
@@ -1689,8 +1689,8 @@
                                                                         <div class="col-12 heading fs-md-14 fs-12 left text-lg-start text-center"><span class="fs-xl-31 fs-lg-27 fs-md-20 fs-16">Transform Your Idea Into Reality With <br> <b> IMG Global Infotech </b></span></div>
                                                                      </div>
                                                                   </div>
-                                                                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-sm-14 fs-13 text-muted text-lg-start text-center mt-3">Whether you are looking for native mobile or cross-platform apps, our team of highly skilled mobile app developers will help you transform your innovative app idea into a feature-packed, top-performing mobile app. We aim for a seamless user experience and have successfully delivered 250+ custom-mobile app development projects over time.</div>
-                                                                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-sm-14 fs-13 text-muted text-lg-start text-center mt-3">Being a leading mobile app development company, we provide a complete range of mobile app development solutions to increase your customer engagement, increase sales, and boost your business growth. We adjust to our client’s needs and develop engaging apps meeting their expectations.</div>
+                                                                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-sm-14 fs-13 text-muted text-lg-start text-center mt-3">Whether you are looking for native mobile or cross-platform apps, our team of highly skilled mobile app developers will help you transform your innovative app idea into a feature-packed, top-performing mobile app. We aim for a seamless user experience and have successfully delivered 250+ custom-mobile app development projects over time.</div>
+                                                                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-sm-14 fs-13 text-muted text-lg-start text-center mt-3">Being a leading mobile app development company, we provide a complete range of mobile app development solutions to increase your customer engagement, increase sales, and boost your business growth. We adjust to our client’s needs and develop engaging apps meeting their expectations.</div>
                                                                   
                                                                </div>
                                                            
@@ -1714,9 +1714,9 @@
                                                                         <span class="fs-xl-30 fs-lg-30 fs-md-30 fs-16">Leverage Our <br><b>  Technology Expertise</b></span></div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-7 col-md-12 col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-13 text-muted text-lg-start text-md-center text-center py-3 p-0"> Creating native & hybrid apps with the latest technology that captivates your users.</div>
+                                                                <div class="col-lg-7 col-md-12 col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-13 text-muted text-lg-start text-md-center text-center py-3 p-0"> Creating native & hybrid apps with the latest technology that captivates your users.</div>
                                                                  <div class="col-12 pt-lg-3 pt-md-3 text-lg-start text-center p-0 d-xl-block d-lg-block d-md-block d-sm-block d-block mb-4">
-                                                                    <a href="#contact-with-us-section" class="btn btn-theme1 btnStyle1 fs-md-14 fs-11 fw-900 py-1 px-md-3 px-3 text-decoration-none text-white me-lg-4 me-md-0 me-1">
+                                                                    <a href="#contact-with-us-section" class="btn btn-theme1 btnStyle1 fs-md-14 fs-11 fw-m py-1 px-md-3 px-3 text-decoration-none text-white me-lg-4 me-md-0 me-1">
                                                                     <span> Get A Quote <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i> </span>
                                                                     </a>
                                                                 </div>
@@ -1734,8 +1734,8 @@
                                                                                     <div class="col-12 text-center">
                                                                                         <img src="{{GETFOLDERPATH()}}/android-pp-development.png" width="100" height="auto" class="w-md-60px w-50px" alt="ios-app-development">
                                                                                     </div>
-                                                                                    <div class="col-12 text-center fw-900 fs-md-19 fs-sm-18 fs-15 mt-3 text-dark"> Android App</div>
-                                                                                    <div class="col-12 fw-600 fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> As a renowned mobile app development company, we hold extensive exposure in the Android App Development field.</div>
+                                                                                    <div class="col-12 text-center fw-m fs-md-19 fs-sm-18 fs-15 mt-3 text-dark"> Android App</div>
+                                                                                    <div class="col-12 fw-l fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> As a renowned mobile app development company, we hold extensive exposure in the Android App Development field.</div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -1747,10 +1747,10 @@
                                                                                 <div class="col-12 text-center icon">
                                                                                     <img src="{{asset('/public')}}/assets/img/mobile-app-development/ios-app-development.webp" width="100" height="auto" class="w-md-60px w-50px" alt="ios-app-development">
                                                                                 </div>
-                                                                                <div class="col-12 text-center fw-900 fs-md-19 fs-sm-18 fs-15 mt-3 text-dark">
+                                                                                <div class="col-12 text-center fw-m fs-md-19 fs-sm-18 fs-15 mt-3 text-dark">
                                                                                     iOS App
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> iOS app development requires expertise on Apple Hardware, iPhone, and iPad.</div>
+                                                                                <div class="col-12 fw-l fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> iOS app development requires expertise on Apple Hardware, iPhone, and iPad.</div>
                                                                             </div>
                                                                             </div>
                                                                         </div>
@@ -1764,10 +1764,10 @@
                                                                                 <div class="col-12 text-center icon">
                                                                                     <img src="{{asset('/public')}}/assets/img/mobile-app-development/flutter-app-development.webp" width="100" height="auto" class="w-md-60px w-50px" alt="ios-app-development">
                                                                                 </div>
-                                                                                <div class="col-12 text-center fw-900 fs-md-19 fs-sm-18 fs-15 mt-3 text-dark">
+                                                                                <div class="col-12 text-center fw-m fs-md-19 fs-sm-18 fs-15 mt-3 text-dark">
                                                                                     Flutter App
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> We create highly intuitive, responsive, and feature-rich flutter apps that provide seamless user experiences.</div>
+                                                                                <div class="col-12 fw-l fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> We create highly intuitive, responsive, and feature-rich flutter apps that provide seamless user experiences.</div>
                                                                             </div>
                                                                             </div>
                                                                         </div>
@@ -1779,10 +1779,10 @@
                                                                                 <div class="col-12 text-center icon">
                                                                                     <img src="{{asset('/public')}}/assets/img/mobile-app-development/react-native.webp" width="100" height="auto" class="w-md-60px w-50px" alt="ios-app-development">
                                                                                 </div>
-                                                                                <div class="col-12 text-center fw-900 fs-md-19 fs-sm-18 fs-15 mt-3 text-dark">
+                                                                                <div class="col-12 text-center fw-m fs-md-19 fs-sm-18 fs-15 mt-3 text-dark">
                                                                                     React Native App
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> Our developers use React Native to create truly native apps that seldom compromise your user experiences.</div>
+                                                                                <div class="col-12 fw-l fs-lg-15 fs-md-15 fs-sm-15 fs-13 text-muted py-2 p-2"> Our developers use React Native to create truly native apps that seldom compromise your user experiences.</div>
                                                                             </div>
                                                                             </div>
                                                                         </div>
@@ -1817,7 +1817,7 @@
                                                                                    <i class="imgs img-star-half text-theme3"></i>
                                                                                    <span>4.6/5</span>
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
+                                                                                <div class="col-12 fw-l fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
                                                                              </div>
                                                                           </div>
                                                                        </div>
@@ -1835,7 +1835,7 @@
                                                                                    <i class="imgs img-star-half text-theme3"></i>
                                                                                    <span>4.8/5</span>
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
+                                                                                <div class="col-12 fw-l fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
                                                                              </div>
                                                                           </div>
                                                                        </div>
@@ -1854,7 +1854,7 @@
                                                                                    <i class="imgs img-star-half text-theme3"></i>
                                                                                    <span>4.9/5</span>
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
+                                                                                <div class="col-12 fw-l fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
                                                                              </div>
                                                                           </div>
                                                                        </div>
@@ -1872,7 +1872,7 @@
                                                                                    <i class="imgs img-star-half text-theme3"></i>
                                                                                    <span>4.4/5</span>
                                                                                 </div>
-                                                                                <div class="col-12 fw-600 fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
+                                                                                <div class="col-12 fw-l fs-md-16 fs-13 text-dark my-3 text-center text-capitalize ">recognized as top app Developers on google
                                                                              </div>
                                                                           </div>
                                                                        </div>
@@ -1898,7 +1898,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/fantacy-sports.svg" class="w-100 h-auto" alt="Fantasy Sports App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Fantasy Sports App
                                                                                     </div>
                                                                                 </div>
@@ -1908,7 +1908,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/fantacy-sports.svg" class="w-100 h-auto" alt="Fantasy Sports App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Fantasy Sports App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1925,7 +1925,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/health-care.svg" class="w-100 h-auto" alt="Healthcare App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Healthcare App
                                                                                     </div>
                                                                                 </div>
@@ -1935,7 +1935,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/health-care.svg" class="w-100 h-auto" alt="Healthcare App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Healthcare App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1952,7 +1952,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/retails-and-ecommerce.svg" class="w-100 h-auto" alt="Grocery App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Grocery App
                                                                                     </div>
                                                                                 </div>
@@ -1962,7 +1962,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/retails-and-ecommerce.svg" class="w-100 h-auto" alt="Grocery App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Grocery App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1979,7 +1979,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/logistic-services-app.svg" class="w-100 h-auto" alt="Food Delivery App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Food Delivery App
                                                                                     </div>
                                                                                 </div>
@@ -1989,7 +1989,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/logistic-services-app.svg" class="w-100 h-auto" alt="Food Delivery App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Food Delivery App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2006,7 +2006,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/doctor-on-demand.svg" class="w-100 h-auto" alt="Doctor on Demand App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Doctor on Demand App
                                                                                     </div>
                                                                                 </div>
@@ -2016,7 +2016,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/doctor-on-demand.svg" class="w-100 h-auto" alt="Doctor on Demand App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Doctor on Demand App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2033,7 +2033,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/auto-mobile.svg" class="w-100 h-auto" alt="Taxi Booking App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Taxi Booking App
                                                                                     </div>
                                                                                 </div>
@@ -2043,7 +2043,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/auto-mobile.svg" class="w-100 h-auto" alt="Taxi Booking App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Taxi Booking App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2060,7 +2060,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/elearning-app.svg" class="w-100 h-auto" alt="Elearning App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Elearning App
                                                                                     </div>
                                                                                 </div>
@@ -2070,7 +2070,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/elearning-app.svg" class="w-100 h-auto" alt="Elearning App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Elearning App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2087,7 +2087,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/online-exam.svg" class="w-100 h-auto" alt="Online Exam App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Online Exam App
                                                                                     </div>
                                                                                 </div>
@@ -2097,7 +2097,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/online-exam.svg" class="w-100 h-auto" alt="Online Exam App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Online Exam App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2114,7 +2114,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/pharmacy-app.svg" class="w-100 h-auto" alt="Pharmacy App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Pharmacy App
                                                                                     </div>
                                                                                 </div>
@@ -2124,7 +2124,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/pharmacy-app.svg" class="w-100 h-auto" alt="Pharmacy App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Pharmacy App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2141,7 +2141,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/fashion-app.svg" class="w-100 h-auto" alt="Fashion App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-muted pt-2 fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Fashion App
                                                                                     </div>
                                                                                 </div>
@@ -2151,7 +2151,7 @@
                                                                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/fashion-app.svg" class="w-100 h-auto" alt="Fashion App">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-12 text-white pt-2 text-white fw-900 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                                                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                                                                         Fashion App
                                                                                     </div>
                                                                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -2169,11 +2169,11 @@
                                     <div class="row align-items-center mx-lg-5 mx-md-2 mx-0">
                                         <div class="col-lg-12 col-md-12 col-12">
                                             
-                                            <div class="col-12 fw-600 fs-md-32 fs-lg-32 fs-16 text-white fw-900 text-md-center text-center py-md-2">Want to Know How Much Exactly Your Mobile App Idea Will Cost? </div>
+                                            <div class="col-12  fs-md-32 fs-lg-32 fs-16 text-white fw-m text-md-center text-center py-md-2">Want to Know How Much Exactly Your Mobile App Idea Will Cost? </div>
                                             <div class="col-lg-6 col-md-10 col-sm-12 col-12 fs-lg-17 fs-md-17 fs-13 pt-md-0 pt-3 text-white text-md-center text-center mx-auto"> "The Experts Are Just A Click Away. Get A Quote."</div>
                                         </div>
                                             <div class="col-lg-12 col-md-12 col-12 d-flex justify-content-lg-center justify-content-md-center justify-content-center py-4">
-                                                <a href="#contact-with-us-section" class="btn btnStyle2 btn-theme1 px-md-5 px-4 fs-lg-13 fs-md-13 fs-11 fw-bold fw-bold rounded-pill">
+                                                <a href="#contact-with-us-section" class="btn btnStyle2 btn-theme1 px-md-5 px-4 fs-lg-13 fs-md-13 fs-11  fw-m rounded-pill">
                                                 <span class="d-block"><span>Share Your Idea </span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -2186,19 +2186,19 @@
                                                    <div class="row mx-0 pb-3">
                                                       <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-16 text-dark"> Why Choose  <b>IMG?</b></span></div>
                                                    </div>
-                                                   <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-13 text-mute mb-4">   
+                                                   <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-13 text-mute mb-4">   
                                                       The Android developers with us at can provide solid app solutions that effectively and specifically fix your company's problems. You can collaborate with our android app developers online in order to build secure and user-friendly enterprise applications. Hire android application developers to build a hyper contextual experience using mobile apps in the Android ecosystem on a continuous basis.
                                                 </div>
                                                    <div>
                                                       <div class="row">
                                                          <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                                              <div class="col-12 col-lg-12 position-relative">
-                                                                <ul class="fw-700 fs-md-16 fs-13 text-dark list-unstyled text-capitalize ">
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
+                                                                <ul class="fw-l fs-md-16 fs-13 text-dark list-unstyled text-capitalize ">
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
                                                                  
                                                                </ul>
                                                             </div>
@@ -2206,12 +2206,12 @@
                         
                                                          <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                                              <div class="col-12 col-lg-12 position-relative">
-                                                                <ul class="fw-700 fs-md-16 fs-13 text-dark list-unstyled text-capitalize ">
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
-                                                                  <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
+                                                                <ul class="fw-l fs-md-16 fs-13 text-dark list-unstyled text-capitalize ">
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
+                                                                  <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-md-25px w-20px p-1 position-relative" src="{{asset('/public')}}/assets/img/hire-android-app-developers/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
                                                                </ul>
                                                             </div>
                                                          </div>
@@ -2243,7 +2243,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1" 
                                             src="{{asset('/public')}}/assets/img/portfolio-section/beliver11.webp"  alt="beliver11"  >
                                                 <div class="portfolioBoxContent">
-                                                    <div class="h5 text-white fw-bold">Beliver11</div>
+                                                    <div class="h5 text-white fw-m">Beliver11</div>
                                                 <p>Fantasy Sports App</p>
                                             </div>
                                         </div>
@@ -2254,7 +2254,7 @@
                                         <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/EcoCosmo-Project.webp" alt="EcoCosmo-Project">
                                             <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">EcoCosmo</div>
+                                                <div class="h5 text-white fw-m">EcoCosmo</div>
                                                 <p>Tracking App</p>
                                             </div>
                                         </div>
@@ -2265,7 +2265,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp"class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/coaching-select.webp" alt="coaching-select">
                                                 <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Coaching Select</div>
+                                                <div class="h5 text-white fw-m">Coaching Select</div>
                                                 <p>Education Website</p>
                                             </div>
                                         </div>
@@ -2276,7 +2276,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/myfab11.webp"  alt="MyFab11">
                                                 <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">MyFab11 App </div>
+                                                <div class="h5 text-white fw-m">MyFab11 App </div>
                                                 <p>Fantasy Sports App</p>
                                             </div>
                                         </div>
@@ -2287,7 +2287,7 @@
                                         <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/Health-app.webp" alt="Health-app">
                                                 <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">I-KNOW</div>
+                                                <div class="h5 text-white fw-m">I-KNOW</div>
                                                 <p>Health App</p>
                                             </div>
                                         </div>
@@ -2298,7 +2298,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/sariskafuncity.webp" alt="sariskafuncity">
                                                 <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Sariska Fun City</div>
+                                                <div class="h5 text-white fw-m">Sariska Fun City</div>
                                                 <p>Water Park Website</p>
                                             </div>
                                         </div>
@@ -2309,7 +2309,7 @@
                                         <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/royal11-project.webp"  alt="royal11-project">
                                             <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Royal 11 </div>
+                                                <div class="h5 text-white fw-m">Royal 11 </div>
                                                 <p>Fantasy Sports App</p>
                                             </div>
                                         </div>
@@ -2320,7 +2320,7 @@
                                         <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/now-vue.webp" alt="now-vue">
                                                 <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Now Vue </div>
+                                                <div class="h5 text-white fw-m">Now Vue </div>
                                                 <p>Guest Check In App</p>
                                             </div>
                                         </div>
@@ -2331,7 +2331,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/My-Pitch.webp" alt="My-Pitch">
                                                     <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">My Pitch </div>
+                                                <div class="h5 text-white fw-m">My Pitch </div>
                                                 <p>Fantasy Sports App</p>
                                             </div>
                                         </div>
@@ -2342,7 +2342,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/emerals.webp" alt="emerals">
                                                     <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Emerals</div>
+                                                <div class="h5 text-white fw-m">Emerals</div>
                                                 <p>Clothes Shopping Website</p>
                                             </div>
                                         </div>
@@ -2353,7 +2353,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                             src="{{asset('/public')}}/assets/img/portfolio-section/ipay.webp"  alt="ipay">
                                                     <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">iPay</div>
+                                                <div class="h5 text-white fw-m">iPay</div>
                                                 <p>Recharge App</p>
                                             </div>
                                         </div>
@@ -2364,7 +2364,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp"class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1" 
                                                 src="{{asset('/public')}}/assets/img/portfolio-section/propira.webp" alt="propira">
                                             <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Propira</div>
+                                                <div class="h5 text-white fw-m">Propira</div>
                                                 <p>Real Estate Website</p>
                                             </div>
                                         </div>
@@ -2375,7 +2375,7 @@
                                             <img width="415" height="519" data-src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
                                                 src="{{asset('/public')}}/assets/img/portfolio-section/destist-online.webp" alt="destist-online">
                                                 <div class="portfolioBoxContent">
-                                                <div class="h5 text-white fw-bold">Dentist Online</div>
+                                                <div class="h5 text-white fw-m">Dentist Online</div>
                                                 <p>Health App</p>
                                             </div>
                                         </div>
@@ -2389,13 +2389,13 @@
                             <div class="container want-to-join-section cta-btn position-relative mt-3 pt-md-4 pt-3 pb-md-5 pb-4 mb-3">
                                 <div class="row mx-0 align-items-center">
                                     <div class="col-lg-12 col-12 text-center">
-                                    <div class="col-12 fw-600 fs-md-28 fs-sm-16 fs-16 text-dark text-center py-md-1 fw-900">Let's Create Big Stories Together</div>
-                                    <div class="col-12 fw-600 fs-md-14 fs-sm-14 fs-13 text-dark text-center py-md-1 mb-md-0 mb-3">Mobile is in our nerves. We don't just build apps, we create brand. Choosing us will be your best decision.</div>
+                                    <div class="col-12 fw-m fs-md-28 fs-sm-16 fs-16 text-dark text-center py-md-1 ">Let's Create Big Stories Together</div>
+                                    <div class="col-12 fw-l fs-md-14 fs-sm-14 fs-13 text-dark text-center py-md-1 mb-md-0 mb-3">Mobile is in our nerves. We don't just build apps, we create brand. Choosing us will be your best decision.</div>
                                      </div>
                                 </div>
                                       <div class="col-12 pt-lg-3 pt-md-3 text-center">
                                        
-                                        <a href="#contact-with-us-section" class="btn btn-theme1 btnStyle1 rounded-pill fs-md-14 fs-11 fw-900 py-1 px-md-5 text-decoration-none px-4">
+                                        <a href="#contact-with-us-section" class="btn btn-theme1 btnStyle1 rounded-pill fs-md-14 fs-11 fw-m py-1 px-md-5 text-decoration-none px-4">
                                         <span><i class="fs-xxl-14 fs-14 imgs img-phone-volume position-relative"></i> Get A Quote</span>
                                       </a>
                                   
@@ -2420,7 +2420,7 @@
                                </button>
                             </div>
                             <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                               <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                               <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                                Cross-platform app development refers to development that runs on various platforms, like iOS and Android. It's built using a single codebase that can be used across various platforms, despite having to write codes separately for every platform. Native app development refers to app development that is specifically built to run on a single platform, like Android or iOS. Such apps are written in specific programming languages and frameworks for that particular platform, like Java or Kotlin for Android.
                                </div>
                             </div>
@@ -2433,7 +2433,7 @@
                          </button>
                       </div>
                       <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                         <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                         <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                             Well, it relies on project needs, but some common prerequisites are:
                       <div class="col-12">
                                                  
@@ -2458,7 +2458,7 @@
                          </button>
                       </div>
                       <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                         <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                         <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                          The cost of mobile app development, on average, may start from $10,000 and go up depending on the app complexity, type of app, number of features you want to include, and more factors. 
                          </div>
                       </div>
@@ -2471,7 +2471,7 @@
                          </button>
                       </div>
                       <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                         <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                         <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                             <div class="col-12">
                                <p>The time to develop and launch a mobile app may vary depending on the app's complexity, development team size, and resources available to the team. 
 
@@ -2490,7 +2490,7 @@
                          </button>
                       </div>
                       <div id="collapsefive" class="position-relative accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-                         <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                         <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                             <div class="col-12">
                                <p>Yes, we offer ongoing support, maintenance, and updates post-deployment of your app. Such a service will help to keep your app up-to-date with the latest security updates and technology and resolve the issues, if any, on time. 
                                  </p>
@@ -2519,7 +2519,7 @@
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-25 fs-lg-25 fs-md-24 fs-16">Get Free <b> Quotes Now ! </b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-13 fw-600 mt-3">Got An Idea? Leave A Message To Us And We Will Reach Out To You Soon.</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-13 fw-l mt-3">Got An Idea? Leave A Message To Us And We Will Reach Out To You Soon.</div>
                </div>
               
             </div>
@@ -2533,7 +2533,7 @@
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control fs-13 rounded shadow-none" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600 fs-13" for="name">Name</label>
+                        <label class="fw-m fs-13" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -2787,7 +2787,7 @@
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="border-start-0 form-control fs-13 rounded-0 rounded-end shadow-none fs-md-16 fs-14" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                          <label class="fw-600 fs-13" for="phoneNumber">Mobile Number</label>
+                                          <label class="fw-m fs-13" for="phoneNumber">Mobile Number</label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -2797,14 +2797,14 @@
                               <div class="col-md-5">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control fs-13 rounded shadow-none" id="emailID" placeholder="Enter Email ID" required>
-                                    <label class="fw-600 fs-13" for="emailID">Email ID</label>
+                                    <label class="fw-m fs-13" for="emailID">Email ID</label>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                                  </div>
                               </div>
 
                                  <div class="col-md-7">
                                     <div class="form-floating">
-                                        <select name="requirement" required="" class="form-control fs-13 rounded shadow-none pt-2 fw-400" disabled>
+                                        <select name="requirement" required="" class="form-control fs-13 rounded shadow-none pt-2 fw-m" disabled>
                                         <option value="Mobile App Development">Mobile App Development</option>
                                         </select>
                                     </div>
@@ -2812,13 +2812,13 @@
 
                                  <div class="col-md-12" style="pointer-events:none;">
                                     <div class="Disabled">
-                                        <input disabled type="text" name="" class="bg-white form-control fs-13 rounded shadow-none fw-600 h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
+                                        <input disabled type="text" name="" class="bg-white form-control fs-13 rounded shadow-none fw-m h-56px text-dark" id="type" placeholder=" I wish to book a call with expert." required style="border-left: 4px solid #e09c19;">
                                         </div>
                                 </div> 
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 btnStyle1 rounded-pill fs-14 fw-bold hero_read_more_btn px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 btnStyle1 rounded-pill fs-14 fw-m hero_read_more_btn px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>

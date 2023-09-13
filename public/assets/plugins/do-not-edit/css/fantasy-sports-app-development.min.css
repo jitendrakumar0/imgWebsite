@@ -6,6 +6,7 @@
 .top-games {
   cursor: pointer;
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   border: 4px solid rgba(0, 0, 0, 0.0705882353);
   background-size: auto 200%;
@@ -22,22 +23,62 @@
   top: -3px;
 }
 .top-games:hover {
+  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   background-position: bottom;
   transform: perspective(200px) scaleX(1);
 }
 .top-games:hover {
+  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   color: #fff;
+  -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
   transform: translateY(-15px);
 }
 .top-games img {
   margin: auto;
 }
 .top-games img:hover {
+  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+  -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.bnner_head {
+  background-image: url(../../../img/fantasy-sports-app-development/image4.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.bnner_head::before {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.4117647059);
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.whatsp_icons {
+  height: 60px;
+  width: 60px;
+  background: #0c7a1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 19px;
+  left: 15px;
+  border-radius: 50%;
+  line-height: 0;
+  z-index: 999;
 }
 
 .portfolioBox {
@@ -165,22 +206,7 @@
 }
 
 .client-testimonials .avatar {
-  margin: auto;
-  border-radius: 50%;
-  max-width: 96px;
-}
-
-.slider_icon .avatar {
-  height: 80px;
-  width: 80px !important;
-  border-radius: 30px 10px 30px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  top: -52px;
-  border: 2px solid #fff;
-  background: #fff;
-  padding: 4px;
+  max-width: 54px;
 }
 
 .customers-testimonials .owl-dots {
@@ -218,11 +244,7 @@
   padding: 62px 30px 0;
 }
 .customers-testimonials .level-item > div {
-  border: 4px solid #fff;
-  padding: 29px 15px 0;
-  border-radius: 10px;
   position: relative;
-  height: 240px;
 }
 
 .useradmin {
@@ -347,12 +369,12 @@
 }
 
 .services-boxs {
-  height: 260px;
-  padding: 10px 15px 10px;
+  height: 186px;
+  padding: 22px 15px 10px;
   border-radius: 16px;
-  border: 4px solid #139ed9;
-  background: #fff;
+  background: #f8f8f9;
   font-size: 16px !important;
+  transition: all 0.5s;
 }
 .services-boxs .services-item-icon {
   width: 105px;
@@ -379,7 +401,18 @@
 }
 .services-boxs .item-content {
   transition: 0.5s;
-  text-align: center;
+}
+.services-boxs .service-count {
+  color: #000;
+  opacity: 0.03;
+  right: 25px;
+  top: 25px;
+  line-height: 70px;
+  transition: all 0.5s;
+}
+.services-boxs:hover .service-count {
+  opacity: 0.5;
+  transform: scale(1.1);
 }
 
 .benefits-boxs {
@@ -448,8 +481,34 @@
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
 
+.new_sports_platform {
+  background: #03151d;
+}
+.new_sports_platform .fantasy_sports_service_image {
+  border-radius: 18px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+}
+.new_sports_platform .fantasy_sports_service_image img {
+  transition: all 0.5s;
+}
+.new_sports_platform .fantasy_sports_service_image img:hover {
+  transform: scale(1.1);
+}
+
+.Development_Features .nav-tabs .btn-check:focus + .btn, .Development_Features .nav-tabs .btn:focus {
+  background: #139ed9 !important;
+  box-shadow: none !important;
+}
+
 .award-winning-section {
   background: #f5f6f8;
+}
+.award-winning-section .lazy-image {
+  transition: all 0.5s;
+}
+.award-winning-section .lazy-image:hover {
+  transform: scale(1.1);
 }
 
 .award-winning-section::before {
@@ -461,6 +520,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   transform: rotateY(180deg) rotateX(180deg);
@@ -476,6 +536,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -483,10 +544,12 @@
 
 .award-winning-section .tilt_image_pos img:nth-child(1) {
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .award-winning-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -503,6 +566,7 @@
   z-index: 0;
   background: url(../../../img/fantasy-sports-app-development/footer-bg-3.webp);
   background-size: contain;
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   background-repeat: no-repeat;
 }
@@ -513,11 +577,6 @@
 
 .fantasy_cricket_features .cricket_features img {
   transition: 0.5s all;
-}
-.fantasy_cricket_features .cricket_features:hover {
-  transform: translateY(-5px) scale(0.98);
-  box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0);
-  border-color: #adb5bd;
 }
 .fantasy_cricket_features::after {
   content: "";
@@ -733,6 +792,33 @@
   background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+.Development_Features .feature-block-one {
+  position: relative;
+}
+.Development_Features .feature-block-one::after {
+  transform: translateY(-50%);
+  content: "";
+  width: 5px;
+  height: 50%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.Development_Features .feature-block-one:hover:after {
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.Development_Features .feature-block-one:hover h5 {
+  color: #000 !important;
+}
+.Development_Features .nav-tabs .btn-feature {
+  border: 1px solid #fff;
+  border-radius: 24px;
+}
 
 .agile-team {
   background: #fff;
@@ -890,9 +976,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -908,8 +996,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -922,6 +1012,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -1120,6 +1211,12 @@ button.accordion-button {
   .Furnishing_Benefits_Proffered .heading.center span {
     font-size: 28px;
   }
+  .new_sports_platform h2 {
+    text-align: center;
+  }
+  .new_sports_platform .sport_txt {
+    text-align: center;
+  }
 }
 @media (min-width: 992.98px) {
   .fantasy_cricket_features .heading.center {
@@ -1152,14 +1249,12 @@ button.accordion-button {
   .faq_section::before {
     background-size: 1200px;
   }
-  .award-winning-section .heading {
-    text-align: center !important;
-  }
   .award-winning-section .heading::before {
     right: 0 !important;
   }
   .award-winning-section .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .Development_Process .heading.center {
@@ -1178,6 +1273,12 @@ button.accordion-button {
 @media (max-width: 1199.98px) {
   .services-boxs {
     height: auto;
+  }
+  .bnner_head {
+    height: auto;
+  }
+  .customers-testimonials .level-item {
+    padding: 3px 30px 0;
   }
 }
 @media (max-width: 767.98px) {
@@ -1210,8 +1311,17 @@ button.accordion-button {
   .Furnishing_Benefits_Proffered .heading.center span {
     font-size: 20px;
   }
+  .new_sports_platform h2 {
+    text-align: center;
+  }
+  .new_sports_platform .sport_txt {
+    text-align: center;
+  }
 }
 @media (max-width: 575.98px) {
+  .whatsp_icons {
+    bottom: 70px;
+  }
   .services-boxs {
     padding: 30px 15px 25px;
     height: auto;
@@ -1220,48 +1330,59 @@ button.accordion-button {
     height: auto;
     padding: 29px 15px 0;
   }
+  .new_sports_platform h2 {
+    text-align: center;
+  }
+  .new_sports_platform .sport_txt {
+    text-align: center;
+  }
 }
 .fantasy_cricket_features .cricket_features {
-  border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.15);
   transition: 0.8s all;
   position: relative;
-  overflow: hidden;
+  background: #094964;
 }
 .fantasy_cricket_features .cricket_features img {
   transition: 0.5s all;
 }
 .fantasy_cricket_features .cricket_features::after {
-  content: "";
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  bottom: -50%;
-  right: -50%;
-  opacity: 0;
-  transform: scale(0.1);
-  background: linear-gradient(45deg, #03151d, #0b5a7b);
   position: absolute;
-  transition: 0.3s cubic-bezier(0.13, 0.03, 0.75, 1.05);
-  z-index: -1;
+  content: "";
+  width: 40%;
+  height: 70%;
+  transition: 0.5s;
+  top: -9px;
+  left: -9px;
+  border-top: 4px solid #094c69;
+  border-left: 4px solid #094c69;
+}
+.fantasy_cricket_features .cricket_features::before {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 70%;
+  transition: 0.5s;
+  bottom: -9px;
+  right: -9px;
+  border-bottom: 4px solid #094c69;
+  border-right: 4px solid #094c69;
 }
 .fantasy_cricket_features .cricket_features:hover {
-  transform: translateY(-10px);
-  border-radius: 10px 10px 40px 10px;
+  width: 100%;
 }
 .fantasy_cricket_features .cricket_features:hover img {
   transform: rotateY(360deg);
 }
-.fantasy_cricket_features .cricket_features:hover * {
-  color: #fff !important;
+.fantasy_cricket_features .cricket_features:hover:before {
+  width: 100%;
+  height: 100%;
+  border-color: #094c69;
 }
-.fantasy_cricket_features .cricket_features:hover::after {
-  content: "";
-  border-radius: 10px 10px 40px 10px;
-  bottom: 0%;
-  right: 0%;
-  transform: scale(1);
-  opacity: 1;
+.fantasy_cricket_features .cricket_features:hover:after {
+  width: 100%;
+  height: 100%;
+  border-color: #094c69;
 }
 .fantasy_cricket_features::after {
   content: "";
@@ -1384,9 +1505,11 @@ button.accordion-button {
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=fantasy-sports-app-development.min.css.map */
+}

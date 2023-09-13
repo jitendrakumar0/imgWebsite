@@ -45,9 +45,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Wordpress Website <b> Development</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Wordpress is an open source content management system and provide endless functions to its users. It was first released in market in the year 2003 and since then it has booming IT market by becoming one of the best open source platform. Wordpress has acquired immense recognition over the past few years because it is so easy to use and manage that even a non-technical person can also post content of their choice with an ease. Building a website using Wordpress is cost-effective strategy to promote your products and services online and it is also being adopted by many business owners today.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Wordpress is an open source content management system and provide endless functions to its users. It was first released in market in the year 2003 and since then it has booming IT market by becoming one of the best open source platform. Wordpress has acquired immense recognition over the past few years because it is so easy to use and manage that even a non-technical person can also post content of their choice with an ease. Building a website using Wordpress is cost-effective strategy to promote your products and services online and it is also being adopted by many business owners today.</div>
                         <div class="col-12 pt-4">
-                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d; will-change: transform; transform: perspective(2500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d; will-change: transform; transform: perspective(2500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Get a Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -74,9 +74,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Wordpress Website Development</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Wordpress Website Development</li>
                   </ol>
                </nav>
             </div>
@@ -107,8 +107,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Wordpress <b> Website? </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech specializes in providing industries best software development services to its clients, to help their business flourish world-wide. Our unparalleled Wordpress website development services are the result of innovation and ingenuity of our dedicated developers who put their creative ideas aligned with the specific requirements of the clients. Our expert Wordpress web developers strive hard to ensure that our each client get well customized and personalized web services with on time delivery.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Wordpress is an open source content management system and provide endless functions to its users. It was first released in market in the year 2003 and since then it has booming IT market by becoming one of the best open source platform. Wordpress has acquired immense recognition over the past few years because it is so easy to use and manage that even a non-technical person can also post content of their choice with an ease. Building a website using Wordpress is cost-effective strategy to promote your products and services online and it is also being adopted by many business owners today.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech specializes in providing industries best software development services to its clients, to help their business flourish world-wide. Our unparalleled Wordpress website development services are the result of innovation and ingenuity of our dedicated developers who put their creative ideas aligned with the specific requirements of the clients. Our expert Wordpress web developers strive hard to ensure that our each client get well customized and personalized web services with on time delivery.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Wordpress is an open source content management system and provide endless functions to its users. It was first released in market in the year 2003 and since then it has booming IT market by becoming one of the best open source platform. Wordpress has acquired immense recognition over the past few years because it is so easy to use and manage that even a non-technical person can also post content of their choice with an ease. Building a website using Wordpress is cost-effective strategy to promote your products and services online and it is also being adopted by many business owners today.</div>
                      </div>
                   </div>
                </div>
@@ -133,8 +133,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count">01</span>
                   <h3 class="d-none invisible">Easy to Use and Manage</h3>
-                  <div class="col-12 fw-900 text-theme3 fs-lg-18 fs-md-16 fs-15 text-uppercase lh-normal">Easy to Use and Manage</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Wordpress is completely user friendly CMS. It is used by millions of users and almost every day new users are connecting with Wordpress community by creating their first Wordpress blog or a website. It is really easy to install, fairly easy to use and one can easily manage it without the need of any instructions or manual this is the reason why users quickly adapt to Wordpress.
+                  <div class="col-12 fw-m text-theme3 fs-lg-18 fs-md-16 fs-15 text-uppercase lh-normal">Easy to Use and Manage</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Wordpress is completely user friendly CMS. It is used by millions of users and almost every day new users are connecting with Wordpress community by creating their first Wordpress blog or a website. It is really easy to install, fairly easy to use and one can easily manage it without the need of any instructions or manual this is the reason why users quickly adapt to Wordpress.
                   </div>
                </div>
             </div>
@@ -142,8 +142,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count">02</span>
                   <h3 class="d-none invisible">Extendable by using themes and Plug-ins</h3>
-                  <div class="col-12 fw-900 text-theme3 fs-lg-18 fs-md-16 fs-15 text-uppercase lh-normal">Extendable by using themes and Plug-ins</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Wordpress offers a vast library of plugins and templates to its users. There are thousands of free themes/ templates are available in Wordpress to choose from. Themes are available for just everything you want, whether you want a business theme, eCommerce theme, photography, themes all are available here to give your website any look you want.
+                  <div class="col-12 fw-m text-theme3 fs-lg-18 fs-md-16 fs-15 text-uppercase lh-normal">Extendable by using themes and Plug-ins</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Wordpress offers a vast library of plugins and templates to its users. There are thousands of free themes/ templates are available in Wordpress to choose from. Themes are available for just everything you want, whether you want a business theme, eCommerce theme, photography, themes all are available here to give your website any look you want.
                   </div>
                </div>
             </div>
@@ -151,8 +151,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count">03</span>
                   <h3 class="d-none invisible">Complete Customization</h3>
-                  <div class="col-12 fw-900 text-theme3 fs-lg-18 fs-md-16 fs-15 text-uppercase lh-normal">Complete Customization</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Wordpress blogs and websites are completely customizable and one can change its each and every aspect whenever they want. It is also considered as an idea CMS for those who didn't have any prior knowledge of designing a website.
+                  <div class="col-12 fw-m text-theme3 fs-lg-18 fs-md-16 fs-15 text-uppercase lh-normal">Complete Customization</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Wordpress blogs and websites are completely customizable and one can change its each and every aspect whenever they want. It is also considered as an idea CMS for those who didn't have any prior knowledge of designing a website.
                   </div>
                </div>
             </div>
