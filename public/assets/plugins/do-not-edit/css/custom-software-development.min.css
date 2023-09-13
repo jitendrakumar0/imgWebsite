@@ -11,6 +11,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   transform: rotateY(180deg) rotateX(180deg);
@@ -26,6 +27,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -33,10 +35,12 @@
 
 .custom_software .tilt_image_pos img:nth-child(1) {
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .custom_software .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -141,8 +145,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -156,6 +162,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -185,6 +192,7 @@ button.accordion-button::after {
 .accordion-button:not(.collapsed) {
   background-color: #ff6d00;
   color: #fff;
+  -webkit-box-shadow: unset;
   box-shadow: unset;
   outline: unset;
 }
@@ -216,4 +224,4 @@ button.accordion-button::after {
   .software-devolopement-list .heading.center span {
     font-size: 20px;
   }
-}/*# sourceMappingURL=custom-software-development.min.css.map */
+}

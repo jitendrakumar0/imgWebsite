@@ -291,6 +291,26 @@ class Blog extends Admin
         $data['blog_author'] = implode(',', $this->input->post('blog_author'));
         $data['category'] = implode(',', $this->input->post('category'));
         $data['tags_foo'] = implode(',', $this->input->post('tags_foo'));
+
+        $faq = [];
+        if(!empty($this->input->post('faq_question'))){
+            $faq_question = $this->input->post('faq_question');
+            $faq_answer = $this->input->post('faq_answer');
+            $fcount = "0";
+            foreach($faq_question as $fquestion){
+                if(!empty($fquestion)){
+                    $faq_data['question'] = $fquestion;
+                    $faq_data['answer'] = $faq_answer[$fcount];
+                    $faq[] = $faq_data;
+                    $fcount++;
+                }
+            }
+        }
+        unset($data['faq_question']);
+        unset($data['faq_answer']);
+        $data['faq'] =  json_encode($faq);
+
+
         if ($data['id'] == '') {
             unset($data['id']);
             $data['status'] = 0;

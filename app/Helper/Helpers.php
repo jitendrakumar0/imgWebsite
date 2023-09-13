@@ -7,6 +7,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+
 // use Route;
 // $db = new DB();
 // get url of blogs images from live server
@@ -598,9 +599,7 @@ if(!function_exists('SMSCURL')){
 if(!function_exists('SENDQUOTEMAIL')){
     function SENDQUOTEMAIL($insertData,$type){
         switch ($type) {
-            case 'prod':
-                # code...
-                break;
+            case 'prod': 
                 $subject = "Request a Quote";
                     $message = "
                     <html>
@@ -616,7 +615,7 @@ if(!function_exists('SENDQUOTEMAIL')){
                     </tr>
                     <tr>
                     <td style='color:#E19D13;font-size:13px;font-weight: bold;'> Phone No. : </td>
-                    <td color:#333333;font-size:13px;>".$insertData['number']."</td>
+                    <td color:#333333;font-size:13px;>+".$insertData['phonecode'].' '.$insertData['number']."</td>
                     </tr>
                     <tr>
                     <td style='color:#E19D13;font-size:13px;font-weight: bold;'> Skype User-Id/Number : </td>
@@ -641,14 +640,21 @@ if(!function_exists('SENDQUOTEMAIL')){
                     <tr>
                     <td style='color:#E19D13;font-size:13px;font-weight: bold;'> Project Details : </td>
                     <td color:#333333;font-size:13px;>".$insertData['description']."</td>
+                    </tr>
+                    <tr>
+                    <td style='color:#E19D13;font-size:13px;font-weight: bold;'> Location : </td>
+                    <td color:#333333;font-size:13px;>".$insertData['location']."</td>
                     </tr>";
                     
-                $file = file_get_contents(asset('/public')."/quote/".$insertData['image']);
+                
                     
-                if($file_name){
+                if($insertData['image'] && $insertData['image']!=''){
+
+                    //$file = file_get_contents(asset('/imgadmin2')."/assets/images/".$insertData['image']);
+
                     $message.="<tr>
                     <td style='color:#E19D13;font-size:13px;font-weight: bold;'> Uploaded File link : </td>
-                    <td color:#333333;font-size:13px;><a href='".asset('/public')."/quote/".$insertData['image']."'> Click Here</a></td>
+                    <td color:#333333;font-size:13px;><a href='".asset('/imgadmin2')."/assets/images/".$insertData['image']."'> Click Here</a></td>
                     </tr>";
                 } 
                     
@@ -661,17 +667,19 @@ if(!function_exists('SENDQUOTEMAIL')){
                     </body>
                     </html>
                     ";
-                    // Always set content-type when sending HTML email
-                $headers = "MIME-Version: 1.0" . "\r\n";
-                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                // More headers
-                $headers .= "From: imgglobalinfotech\r\n";
-                    
-                    // if($result->num_rows>0){
-                        // while ($rowq = $result->fetch_assoc()){
-                            // mail($rowq['email'],$subject,$message,$headers);
-                        // }
-                    // } 
+					
+                    $app_name =  env('APP_NAME'); 
+					$adminEmail  = env('MAIL_USERNAME'); 
+					$message1=$message;
+					
+					\Mail::send([], [], function($message) use ($app_name,$adminEmail,$subject,$message1)
+					{
+						$message->from($adminEmail, $app_name);
+						$message->subject($subject);
+						$message->to('mohit@imgglobalinfotech.com');
+						$message->cc('divyanshseoconsult@gmail.com');
+						$message->setBody($message1,'text/html');
+					});
                     
                 $json['error']='0';
                 $json['msg']='Quote Request Form Submitted Successfully';
@@ -685,16 +693,17 @@ if(!function_exists('SENDQUOTEMAIL')){
         
     }
 }
+
 if(!function_exists('SENDCONTACTUSMAIL')){
     function SENDCONTACTUSMAIL($insertData,$type){
+ 
         $adminResult = "SELECT * FROM admin_email Where status = '1'";
         $adminResult = DB::table('admin_email')->where('status','1')->first();
         switch ($type) {
             case 'prod':
-                # code...
-                break;
+				
                 $subject = "Contact Mail";
-                    $message = "
+                    $message1 = "
                     <html>
                         <body>
                         <p style='color:#E19D13;font-size:14px;font-weight: bold;'>From IMG Global Infotech ".$insertData['name']." wants to contact you</p>
@@ -709,7 +718,7 @@ if(!function_exists('SENDCONTACTUSMAIL')){
                         </tr>
                         <tr>
                         <td style='color:#E19D13;font-size:13px;font-weight: bold;'>Phone No. : </td>
-                        <td color:#333333;font-size:13px;>".$insertData['mobile']."</td>
+                        <td color:#333333;font-size:13px;>+".$insertData['phonecode'].' '.$insertData['mobile']."</td>
                         </tr>
                         <tr>
                         <td style='color:#E19D13;font-size:13px;font-weight: bold;'>Requirement : </td>
@@ -720,6 +729,10 @@ if(!function_exists('SENDCONTACTUSMAIL')){
                         <td color:#333333;font-size:13px;>".$insertData['message']."</td>
                         </tr>
                         <tr>
+                        <td style='color:#E19D13;font-size:13px;font-weight: bold;'>Location : </td>
+                        <td color:#333333;font-size:13px;>".$insertData['location']."</td>
+                        </tr>
+                        <tr>
                         <td> <br/><br/><br/>Thank you,<br/><br/> IMG Global Infotech </td>
                         <td></td>
                         </tr>
@@ -727,18 +740,19 @@ if(!function_exists('SENDCONTACTUSMAIL')){
                         </body>
                     </html>
                         ";
-
-                        // Always set content-type when sending HTML email
-                        $headers = "MIME-Version: 1.0" . "\r\n";
-                        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                        // More headers 
-                        $headers .= "From: imgglobalinfotech\r\n";
-                    
-                    // if($result->num_rows>0){
-                        // while ($rowq = $result->fetch_assoc()){
-                            // mail($rowq['email'],$subject,$message,$headers);
-                        // }
-                    // } 
+					
+						$app_name =  env('APP_NAME'); 
+						$adminEmail  = env('MAIL_USERNAME'); 
+						 
+						\Mail::send([], [], function($message) use ($app_name,$adminEmail,$subject,$message1)
+						{
+							$message->from($adminEmail, $app_name);
+							$message->subject($subject);
+							$message->to('mohit@imgglobalinfotech.com');
+							$message->cc('divyanshseoconsult@gmail.com');
+							$message->setBody($message1,'text/html');
+						});
+						
                     
                 return 1;
             default:

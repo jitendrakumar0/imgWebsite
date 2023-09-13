@@ -104,19 +104,36 @@
            {{--  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=9b5a83c9-de45-457b-8b2e-e7dd2c65b48a"> </script> --}}
             <!-- End of imgglobalinfotech9794 Zendesk Widget script -->
 
-        <!--Start of Tawk.to Script-->
-        <script src="//code.tidio.co/hab2wmpdzgob3t1frsoscpivjsws64jo.js" async></script> 
-        <!--End of Tawk.to Script-->
+           <!--Start of Tawk.to Script-->
+            <script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/647de1d394cf5d49dc5be458/1h25rk9mu';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+            </script>
+            <!--End of Tawk.to Script-->
          
-
-       
-        <!-- Google Tag Manager -->
-        {{-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      <!-- Google Tag Manager -->
+           <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PXQC6XV');</script> --}}
+            })(window,document,'script','dataLayer','GTM-PXQC6XV');</script> 
     <!-- End Google Tag Manager -->
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-N2Q0NVDS4P"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-N2Q0NVDS4P');
+		</script>
 
 
         @stack('meta')
@@ -153,8 +170,9 @@
         {{-- <script async src="https://cse.google.com/cse.js?cx=f99a2f0b162ad43b6"></script> --}}
         <!-- custom styles (optional) -->
         <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/do-not-edit/css/style.min.css" />
-        @stack('styles')
-        
+        <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/intl-tel-input/intlTelInput.css">
+        <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/do-not-edit/css/newindex1.min.css">
+  @stack('styles')
     </head>
     {{-- <body oncontextmenu="return false"> --}}
     <body>
@@ -205,13 +223,18 @@
             </div>
         </div>
 
+    <script src="{{asset('/public')}}/assets/plugins/owl/owl.carousel.min.js"></script>
+    <script src="{{asset('/public')}}/assets/js/newindex.min.js"></script>
+    <script src="{{asset('/public')}}/assets/js/contact-us.min.js"></script>
+    <script src="{{asset('/public')}}/assets/js/index.min.js"></script>
 
-        <!-- Optional JavaScript -->
-
+<!-- <script src="{{asset('/public')}}/assets/js/fantasy-cricket-app-development.min.js"></script> -->
+        <!-- Optional JavaScript --> 
         <script src="{{asset('/public')}}/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="{{asset('/public')}}/assets/js/buttons.min.js"></script>
          <!-- Optional JavaScript -->
-     
+         <script src="{{asset('/public')}}/assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+         <!-- <script src="{{asset('/public')}}/assets/js/newindex.min.js"></script> -->
         {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js'></script> --}}
         
          @stack('scripts')

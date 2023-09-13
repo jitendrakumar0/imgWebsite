@@ -45,7 +45,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Inventory <b> Management Software</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Inventory management software is computerized system developed for tracking sales, deliveries, ordering and product’s inventory levels. It is also used in the manufacturing and retail industry to create work orders, bills of items, and various other production related data. Organizations use inventory software to escape from product outage and overstock.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Inventory management software is computerized system developed for tracking sales, deliveries, ordering and product’s inventory levels. It is also used in the manufacturing and retail industry to create work orders, bills of items, and various other production related data. Organizations use inventory software to escape from product outage and overstock.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -69,8 +69,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Inventory Management Software</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Inventory Management Software</li>
                   </ol>
                </nav>
             </div>
@@ -84,8 +84,8 @@
          <div class="row">
             <div class="col-12">
                <div class="row">
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 mb-lg-3 text-center">Inventory software requirements differ by industry to Industry. Like in manufacturing industry it is used for multi-level serial number tracking, revision level monitoring, attributed stock tracking, and kitting capabilities for value added distributors. In process manufacturing industry which regularly require part control and property monitoring, entire forward and backward traceability of lot numbers, and date management of expire products. Hence a strong inventory management software is required by every small or large business to manage their order fill-rates, operational costs, and to maintain their profit margins.</div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 mb-lg-3 text-center">We at IMG Global Infotech provides you a complete set of inventory management, manufacturing, distribution and purchasing capabilities software that helps you to move your stock to the right place, at right time, at right cost. By our Inventory Software solutions you’ll be able to manage your inventory levels and costs in better ways and thus can better meet the expectations of customers.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 mb-lg-3 text-center">Inventory software requirements differ by industry to Industry. Like in manufacturing industry it is used for multi-level serial number tracking, revision level monitoring, attributed stock tracking, and kitting capabilities for value added distributors. In process manufacturing industry which regularly require part control and property monitoring, entire forward and backward traceability of lot numbers, and date management of expire products. Hence a strong inventory management software is required by every small or large business to manage their order fill-rates, operational costs, and to maintain their profit margins.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 mb-lg-3 text-center">We at IMG Global Infotech provides you a complete set of inventory management, manufacturing, distribution and purchasing capabilities software that helps you to move your stock to the right place, at right time, at right cost. By our Inventory Software solutions you’ll be able to manage your inventory levels and costs in better ways and thus can better meet the expectations of customers.</div>
                </div>
             </div>
          </div>
@@ -108,8 +108,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px">01</span>
                   <h3 class="d-none invisible">Convenient of Inventory Tracking</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Convenient of Inventory Tracking </div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Compared to outdated techniques like stock card, inventory software is more manageable in keeping the track of inventories.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Convenient of Inventory Tracking </div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">Compared to outdated techniques like stock card, inventory software is more manageable in keeping the track of inventories.
                   </div>
                </div>
             </div>
@@ -117,8 +117,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px">02</span>
                   <h3 class="d-none invisible">Efficient Order Placement</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Efficient Order Placement</div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Keeping right track of inventory quantities of numerous products can be a difficult task. But with the help of a right software solution you will get notification automatically when a certain product is getting out of stock or low in quantity and needs to be reordered.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Efficient Order Placement</div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">Keeping right track of inventory quantities of numerous products can be a difficult task. But with the help of a right software solution you will get notification automatically when a certain product is getting out of stock or low in quantity and needs to be reordered.
                   </div>
                </div>
             </div>
@@ -126,8 +126,8 @@
                <div class="devolopements-benefits-box text-md-start text-center position-relative shadow rounded p-md-4 pt-5 pb-4 px-3 ps-md-5">
                   <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px">03</span>
                   <h3 class="d-none invisible">Better customer satisfaction</h3>
-                  <div class="col-12 text-start fw-900 text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Better customer satisfaction </div>
-                  <div class="col-12 text-start fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-2">Good inventory software provides real time information to the officials, thus helping them to respond quickly to the newest trends, enhancement or any other changes in the marketing environment.
+                  <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-15 text-uppercase lh-normal">Better customer satisfaction </div>
+                  <div class="col-12 text-start fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-2">Good inventory software provides real time information to the officials, thus helping them to respond quickly to the newest trends, enhancement or any other changes in the marketing environment.
                   </div>
                </div>
             </div>
@@ -146,31 +146,31 @@
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Stock Management</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Stock Management</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Stock Management</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Dynamic Party / Company / Item Details</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Dynamic Party / Company / Item Details</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Dynamic Party / Company / Item Details</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Purchase / Issue / Sale Management</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Purchase / Issue / Sale Management</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Purchase / Issue / Sale Management</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">Billing Format</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Billing Format</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">Billing Format</div>
                </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch my-4">
                <div class="boxdiv w-100 px-3">
                   <h3 class="d-none invisible">auto notification for minimum quantity items</h3>
-                  <div class="col-12 fw-900 fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">auto notification for minimum quantity items</div>
+                  <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal boxdiv-head text-uppercase">auto notification for minimum quantity items</div>
                </div>
             </div>
          </div>
@@ -189,7 +189,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

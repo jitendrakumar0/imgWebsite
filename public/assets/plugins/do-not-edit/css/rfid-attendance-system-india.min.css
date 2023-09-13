@@ -44,8 +44,7 @@
   height: 380px;
   max-width: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 30px 30px 0 0;
   transition: 0.5s all;
   filter: grayscale(1);
@@ -137,4 +136,4 @@
     right: 0 !important;
     animation: headings 3s infinite !important;
   }
-}/*# sourceMappingURL=rfid-attendance-system-india.min.css.map */
+}

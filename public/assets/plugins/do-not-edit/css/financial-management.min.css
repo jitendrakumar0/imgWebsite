@@ -66,7 +66,11 @@
   background-size: cover;
   background-position: center;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -91,4 +95,4 @@
     right: 0 !important;
     animation: headings 3s infinite !important;
   }
-}/*# sourceMappingURL=financial-management.min.css.map */
+}

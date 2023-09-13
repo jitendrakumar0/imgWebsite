@@ -48,6 +48,14 @@
     transform: translateY(0);
   }
 }
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
 @keyframes mover {
   0% {
     transform: translateY(0);
@@ -284,8 +292,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -298,6 +308,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -538,11 +549,9 @@ button.accordion-button {
   cursor: pointer;
   transition: transform 0.3s linear;
   aspect-ratio: 1/1;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 50px !important;
-  -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 .app-features-section .feature-block-one:hover {
   cursor: pointer;
@@ -595,6 +604,7 @@ button.accordion-button {
   }
   .busstosolution .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .services-coman .heading {
@@ -605,6 +615,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-hire-developers-img .heading {
@@ -615,6 +626,7 @@ button.accordion-button {
   }
   .why-hire-developers-img .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .developers-process .process2 {
@@ -651,6 +663,7 @@ button.accordion-button {
   }
   .btob-process .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .btob-process img {
@@ -673,6 +686,7 @@ button.accordion-button {
   }
   .busstosolution .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .services-coman .heading {
@@ -683,6 +697,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .developers-process .process2 {
@@ -698,8 +713,7 @@ button.accordion-button {
     transition: 0.3s all ease-in;
     min-height: 250px;
     height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .major-industries-section .overview-industries .industries-tittle {
     bottom: 0 !important;
@@ -731,6 +745,7 @@ button.accordion-button {
   }
   .btob-process .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .btob-process img {
@@ -753,6 +768,7 @@ button.accordion-button {
   }
   .busstosolution .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .features_mobile_app .heading {
@@ -763,6 +779,7 @@ button.accordion-button {
   }
   .features_mobile_app .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .services-coman .heading {
@@ -773,6 +790,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-hire-developers-img .heading {
@@ -783,6 +801,7 @@ button.accordion-button {
   }
   .why-hire-developers-img .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .banner-cta1 .expert-btn {
@@ -801,8 +820,7 @@ button.accordion-button {
     transition: 0.3s all ease-in;
     min-height: 250px;
     height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .major-industries-section .overview-industries .industries-tittle {
     bottom: 0 !important;
@@ -824,6 +842,7 @@ button.accordion-button {
   }
   .why-should-section .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .useradmin li a {
@@ -835,4 +854,4 @@ button.accordion-button {
     margin: 5px !important;
     line-height: 27px;
   }
-}/*# sourceMappingURL=b2c-app-development-company.min.css.map */
+}

@@ -46,8 +46,8 @@
 										<div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Financial <b> Management</b></span></div>
 									</div>
 								</div>
-								<div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Financial management is design to manage various financial issues related to real estate like deliver automation, control and integration for property accounting. It is a full suite for financial management activities.</div>
-								<div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is used to manage vendor database, payable rents, service charge accounting, rent demand statements and various reports. It is powerful and easily customized software.</div>
+								<div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Financial management is design to manage various financial issues related to real estate like deliver automation, control and integration for property accounting. It is a full suite for financial management activities.</div>
+								<div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is used to manage vendor database, payable rents, service charge accounting, rent demand statements and various reports. It is powerful and easily customized software.</div>
 							</div>
 						</div>
 						<div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -70,8 +70,8 @@
 				<div class="col-md-12">
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb mb-0">
-							<li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-							<li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Financial Management</li>
+							<li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+							<li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Financial Management</li>
 						</ol>
 					</nav>
 				</div>
@@ -101,7 +101,7 @@
 									<i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
 								</div>
 								<h3 class="d-none invisible">Manage account payable and receivable</h3>
-								<div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Manage account payable and receivable</div>
+								<div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Manage account payable and receivable</div>
 							</div>
 						</div>
 						<div class="col-12 mt-4 ps-0">
@@ -110,7 +110,7 @@
 									<i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
 								</div>
 								<h3 class="d-none invisible">Manage loan and mortgage details</h3>
-								<div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Manage loan and mortgage details</div>
+								<div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Manage loan and mortgage details</div>
 							</div>
 						</div>
 						<div class="col-12 mt-4 ps-0">
@@ -119,7 +119,7 @@
 									<i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
 								</div>
 								<h3 class="d-none invisible">Handle purchase and sale ledger</h3>
-								<div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Handle purchase and sale ledger</div>
+								<div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Handle purchase and sale ledger</div>
 							</div>
 						</div>
 						<div class="col-12 mt-4 ps-0">
@@ -128,7 +128,7 @@
 									<i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
 								</div>
 								<h3 class="d-none invisible">Maintain client accounting and income distribution</h3>
-								<div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Maintain client accounting and income distribution</div>
+								<div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Maintain client accounting and income distribution</div>
 							</div>
 						</div>
 						<div class="col-12 mt-4 ps-0">
@@ -137,7 +137,7 @@
 									<i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
 								</div>
 								<h3 class="d-none invisible">Generate reports according to the requirement of client and vendor</h3>
-								<div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Generate reports according to the requirement of client and vendor</div>
+								<div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Generate reports according to the requirement of client and vendor</div>
 							</div>
 						</div>
 					</div>
@@ -159,7 +159,7 @@
 					</div>
 				</div>
 				<div class="col-12 pt-3 text-center">
-					<a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+					<a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
 						<span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
 					</a>
 				</div>

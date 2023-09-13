@@ -1,3 +1,17 @@
+$('.customers-testimonials').owlCarousel({
+    loop: true,
+    // center: true,
+    dots: true,
+	text:true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: { items: 1 },
+      768: { items: 3 },
+      1170: { items: 3 }
+    }
+});
 
 $('.fantasy-games-sldier').owlCarousel({
 	loop: true,
@@ -44,6 +58,7 @@ $('.fantasy-games-sldier').owlCarousel({
 });
 
 
+
 $('.fantasy-cricket-sldier').owlCarousel({
 	loop: true,
 	items: 1,
@@ -87,20 +102,7 @@ $('.fantasy-cricket-sldier').owlCarousel({
 	},
 	navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
 });
-$('.customers-testimonials').owlCarousel({
-    loop: true,
-    center: true,
-    dots: true,
-	text:true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    responsive: {
-      0: { items: 1 },
-      768: { items: 2 },
-      1170: { items: 2 }
-    }
-});
+
 $('.dashboard_live_demo_carousel').owlCarousel({
 	items: 1,
 	merge: true,
@@ -118,6 +120,7 @@ $('.dashboard_live_demo_carousel').owlCarousel({
 	},
 	navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
 });
+
 
 // Contact Us Form
 

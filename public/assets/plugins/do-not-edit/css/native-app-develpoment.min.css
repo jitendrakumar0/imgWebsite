@@ -137,6 +137,14 @@
 .leftside img {
   animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
 }
+@-webkit-keyframes howtowork2 {
+  0% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
+}
 @keyframes howtowork2 {
   0% {
     transform: translateX(8px);
@@ -189,6 +197,7 @@
 }
 .top-develpers-section .accordion-button:not(.collapsed)::after {
   background-image: none m !important;
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -314,9 +323,17 @@
   transition: 0.5s all;
 }
 .industries .industries_item:hover img {
+  -moz-transform: scale(-1) rotate(180deg);
+  -o-transform: scale(-1) rotate(180deg);
+  -ms-transform: scale(-1) rotate(180deg);
+  -webkit-transform: scale(-1) rotate(180deg);
   transform: scale(-1) rotate(180deg);
 }
 .industries .industries_item img {
+  -moz-transition: all 400ms ease-out 0s;
+  -webkit-transition: all 400ms ease-out 0s;
+  -ms-transition: all 400ms ease-out 0s;
+  -o-transition: all 400ms ease-out 0s;
   transition: all 400ms ease-out 0s;
 }
 
@@ -332,8 +349,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -346,6 +365,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -554,6 +574,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-hire-developers-img .heading {
@@ -564,6 +585,7 @@ button.accordion-button {
   }
   .why-hire-developers-img .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
 }
@@ -576,6 +598,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
 }
@@ -588,6 +611,7 @@ button.accordion-button {
   }
   .services-coman .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-hire-developers-img .heading {
@@ -598,6 +622,7 @@ button.accordion-button {
   }
   .why-hire-developers-img .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .banner-cta1 .expert-btn {
@@ -606,4 +631,4 @@ button.accordion-button {
   .reasonSection .reasonCard {
     padding: 1rem;
   }
-}/*# sourceMappingURL=native-app-develpoment.min.css.map */
+}

@@ -52,12 +52,11 @@
 .portfolio_main_img .btn-custom {
   transition: all 0.3s ease;
   position: absolute;
-  right: 10px;
+  right: 33px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   text-transform: uppercase;
-  font-weight: 900;
   font-size: 15px;
   letter-spacing: 1px;
   padding: 11px 15px;
@@ -68,8 +67,33 @@
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  bottom: 25px;
+  bottom: 100px;
   font-weight: bold;
+}
+.portfolio_main_img .btn-custom2 {
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 33px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 11px 15px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 38px;
+  background: #e09c19;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  bottom: 50px;
+  font-weight: bold;
+}
+
+.dW_sZ::-webkit-scrollbar, div::-webkit-scrollbar {
+  display: none;
 }
 
 .services .s-sidebar {
@@ -191,6 +215,6 @@
     position: relative;
   }
   .btn-custom {
-    bottom: 65px !important;
+    bottom: 46px !important;
   }
-}/*# sourceMappingURL=portfolio-1.min.css.map */
+}

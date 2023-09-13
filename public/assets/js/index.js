@@ -293,10 +293,10 @@ $('.blog_slider').owlCarousel({
         1299: {
             dots: false,
             nav: false,
-            items: 4,
+            items: 3,
         },
         1499: {
-            items: 4,
+            items: 3,
             dots: false,
             nav: false,
         }

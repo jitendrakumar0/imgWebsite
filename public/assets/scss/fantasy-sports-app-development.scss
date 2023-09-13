@@ -5,6 +5,7 @@
   height: 58px;
   border-left: 4px solid #e09c19 !important;
 }
+
 //  Most Popular Games 
 .top-games{
    & span{
@@ -54,6 +55,42 @@
    }
 }
 
+
+
+.bnner_head {
+  background-image: url(../../../img/fantasy-sports-app-development/image4.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  &::before{
+    position: absolute;
+    content: "";
+    background: #00000069;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%; 
+  }
+}
+
+
+.whatsp_icons{
+  height: 60px;
+  width: 60px;
+  background: #0c7a1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 19px;
+  left: 15px;
+  border-radius: 50%;
+  line-height: 0;
+  z-index: 999;
+}
 // New-Portfolio Section 
 
 .portfolioBox {
@@ -186,22 +223,21 @@
   }
 }
 .client-testimonials .avatar {
-  margin: auto;
-  border-radius: 50%;
-  max-width: 96px;
+  // margin: auto;
+  max-width: 54px;
 }
-.slider_icon .avatar {
-  height: 80px;
-  width: 80px !important;
-  border-radius: 30px 10px 30px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  top: -52px;
-  border: 2px solid #fff;
-  background: #fff;
-  padding: 4px;
-}
+// .slider_icon .avatar {
+//   height: 80px;
+//   width: 80px !important;
+//   border-radius: 30px 10px 30px;
+//   position: absolute;
+//   left: 50%;
+//   transform: translate(-50%);
+//   top: -52px;
+//   border: 2px solid #fff;
+//   background: #fff;
+//   padding: 4px;
+// }
 .customers-testimonials {
   // & .box {
   //   opacity: 0.8;
@@ -242,11 +278,11 @@
     border-radius: 15px;
     padding: 62px 30px 0;
     > div{
-      border: 4px solid #fff;
-      padding: 29px 15px 0;
-      border-radius: 10px;
+      // border: 4px solid #fff;
+      // padding: 29px 15px 0;
+      // border-radius: 10px;
       position: relative;
-      height: 240px;
+      // height: 240px;
       
     }
     
@@ -388,12 +424,13 @@
 //  App Development Process
 
 .services-boxs {
-  height: 260px;
-  padding: 10px 15px 10px;
+  height: 186px;
+  padding: 22px 15px 10px;
   border-radius: 16px;
-  border: 4px solid #139ed9;
-  background: #fff;
+  // border: 4px solid #139ed9;
+  background: #f8f8f9;
   font-size: 16px !important;
+  transition: all .5s;
        & .services-item-icon {
             width: 105px;
             height: 105px;
@@ -419,8 +456,23 @@
          }
           & .item-content {
             transition: .5s;
-            text-align: center;
+         
           }
+
+          & .service-count{
+            color: #000;
+            opacity: .03;
+            right: 25px;
+            top: 25px;
+            line-height: 70px;
+            transition: all .5s;
+        }
+
+        &:hover .service-count{
+           opacity: 0.5;
+           transform: scale(1.1);
+        }
+
     }
 
     // Major Benefits of Fantasy Sports App
@@ -499,11 +551,52 @@
   }
 }
 
+// new_sports_platform
+
+.new_sports_platform{
+  background: #03151d;
+  & .fantasy_sports_service_image{
+    border-radius: 18px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+      & img{
+        transition: all .5s;
+
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    } 
+  }
+
+  
+.Development_Features{
+
+  & .nav-tabs{ 
+
+    & .btn-check:focus+.btn, .btn:focus{
+         background: #139ed9 !important;
+         box-shadow: none !important;
+    }
+  }
+
+}
+  
+
+
 
 
 //  Award Winning section
 .award-winning-section {
   background: #f5f6f8;
+
+  & .lazy-image{
+      transition: all .5s;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+  } 
 }
 .award-winning-section::before {
   content: "";
@@ -570,7 +663,7 @@
 @mixin award-winning-section-mixin-max-md() {
   .award-winning-section {
     & .heading {
-      text-align: center !important;
+      // text-align: center !important;
       &::before {
         right: 0 !important;
       }
@@ -618,9 +711,9 @@
       transition: 0.5s all;
     }
     &:hover {
-      transform: translateY(-5px) scale(0.98);
-      box-shadow: 0px 5px 50px 0px rgba($black, 0);
-      border-color: $gray-500;
+      // transform: translateY(-5px) scale(0.98);
+      // box-shadow: 0px 5px 50px 0px rgba($black, 0);
+      // border-color: $gray-500;
      
     }
   }
@@ -1077,6 +1170,40 @@
         background-clip: text;
         -webkit-text-fill-color: rgba($white, 0);
       }
+    }
+  }
+
+  & .feature-block-one {
+    position: relative;
+
+    &::after{
+      transform: translateY(-50%);
+      content: "";
+      width: 5px;
+      height: 50%;
+      background-color: #fff;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      z-index: -1;
+      transition: .5s;
+  }
+  
+  &:hover:after{
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+
+  &:hover h5{
+    color: #000 !important;
+  }
+}
+
+  & .nav-tabs {
+    & .btn-feature{
+       border: 1px solid #fff;
+      border-radius: 24px;
     }
   }
 }
@@ -1780,9 +1907,48 @@ button.accordion-button {
 }
 
 
-// No media query for `xs` since this is the default in Bootstrap
+// small device for `xs` 
 
-// Small devices (landscape phones, 576px and up)
+@mixin new_sports_platform-mixin-max-xs(){
+  .new_sports_platform{
+    
+   & h2{
+       text-align: center;
+   }
+   & .sport_txt{
+      text-align: center;
+   }
+  } 
+ }
+
+// tablets device for `md/lg` 
+ @mixin new_sports_platform-mixin-max-lg(){
+  .new_sports_platform{
+    
+    & h2{
+        text-align: center;
+    }
+    & .sport_txt{
+       text-align: center;
+    }
+   } 
+ }
+
+
+@mixin new_sports_platform-mixin-max-sm(){
+  .new_sports_platform{
+      
+    & h2{
+        text-align: center;
+    }
+    & .sport_txt{
+      text-align: center;
+    }
+  } 
+} 
+
+
+
 @media (min-width: 576px) {  
 
 
@@ -1867,6 +2033,7 @@ button.accordion-button {
   @include award-winning-section-mixin-max-lg(); 
   @include Development_Process-mixin-max-lg(); 
   @include Furnishing_Benefits_Proffered-mixin-max-lg(); 
+  @include new_sports_platform-mixin-max-lg();
 }
 
 // Medium devices (tablets, less than 992px)
@@ -1885,7 +2052,13 @@ button.accordion-button {
 @media (max-width: 1199.98px) {
   .services-boxs {
     height: auto;
-}
+  }
+  .bnner_head{
+    height: auto;
+  }
+  .customers-testimonials .level-item {
+    padding: 3px 30px 0;
+   }
 }
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
@@ -1899,10 +2072,15 @@ button.accordion-button {
   @include award-winning-section-mixin-max-sm(); 
   @include Development_Process-mixin-max-sm(); 
   @include Furnishing_Benefits_Proffered-mixin-max-sm(); 
+  @include new_sports_platform-mixin-max-sm(); 
 }
+
 
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  .whatsp_icons{
+    bottom: 70px;
+  }
    .services-boxs {
       padding: 30px 15px 25px;
       height: auto;
@@ -1912,6 +2090,7 @@ button.accordion-button {
     padding: 29px 15px 0;
 }
 
+
   @include fantasy_cricket_features-mixin-max-xs(); 
   @include Development_Features-mixin-max-xs(); 
   @include agile-team-mixin-max-xs(); 
@@ -1920,7 +2099,9 @@ button.accordion-button {
   @include award-winning-section-mixin-max-xs(); 
   @include Development_Process-mixin-max-xs(); 
   @include Furnishing_Benefits_Proffered-mixin-max-xs(); 
+  @include new_sports_platform-mixin-max-xs();
 }
+
 
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width
@@ -1931,44 +2112,69 @@ button.accordion-button {
 .fantasy_cricket_features {
   & .cricket_features {
   
-    border-radius: 5px 5px 5px 5px;
+    // border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 5px 50px 0px rgb(0 0 0 / 15%);
     transition: .8s all;
     position: relative;
-    overflow: hidden;
+    background: #094964;
+    // overflow: hidden;
     & img {
       transition: 0.5s all;
     }
     &::after {
-      content: '';
-      border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      bottom: -50%;
-      right: -50%;
-      opacity: 0;
-      transform: scale(0.1);
-      background: linear-gradient(45deg, darken($theme1, 40), darken($theme1, 20));
-      position: absolute;
-      transition: 0.3s cubic-bezier(0.13, 0.03, 0.75, 1.05);
-      z-index: -1;
+     position: absolute;
+      content: "";
+      width: 40%;
+      height: 70%;
+      transition: .5s;
+      top: -9px;
+      left: -9px;
+      border-top: 4px solid #094c69;
+      border-left: 4px solid #094c69;
     }
+    &::before{
+      position: absolute;
+      content: "";
+      width: 40%;
+      height: 70%;
+      transition: .5s;
+      bottom: -9px;
+      right: -9px;
+      border-bottom: 4px solid #094c69;
+      border-right: 4px solid #094c69;
+    }
+
     &:hover {
-      transform: translateY(-10px);
-      border-radius: 10px 10px 40px 10px;
+      // transform: translateY(-10px);
+      // border-radius: 10px 10px 40px 10px;
+      width: 100%;
       & img {
         transform: rotateY(360deg);
       }
-      & * {
-        color: $white !important;
-      }
+      // & * {
+      //   color: $white !important;
+      // }
       &::after {
-        content: '';
-        border-radius: 10px 10px 40px 10px;
-        bottom: 0%;
-        right: 0%;
-        transform: scale(1);
-        opacity: 1;
+        // content: '';
+        // border-radius: 10px 10px 40px 10px;
+        // bottom: 0%;
+        // right: 0%;
+        // transform: scale(1);
+        // opacity: 1;
+      }
+    }
+
+    &:hover{
+
+      &:before{
+        width: 100%;
+        height: 100%;
+        border-color: #094c69;
+      }
+      &:after{
+        width: 100%;
+        height: 100%;
+        border-color: #094c69;
       }
     }
   }
@@ -1988,12 +2194,14 @@ button.accordion-button {
 }
 
 
+
+
 // Medium devices (tablets, less than 992px)
 @mixin fantasy_cricket_features-mixin-max-md() {
   .fantasy_cricket_features {
     & .cricket_features {
-      transform: translateY(0px);
-      border-radius: 10px 10px 40px 10px;
+      // transform: translateY(0px);
+      // border-radius: 10px 10px 40px 10px;
       & img {
         filter: brightness(14.5);
       }
@@ -2002,11 +2210,11 @@ button.accordion-button {
       }
       &::after {
         content: '';
-        border-radius: 10px 10px 40px 10px;
-        bottom: 0%;
-        right: 0%;
-        transform: scale(1);
-        opacity: 1;
+        // border-radius: 10px 10px 40px 10px;
+        // bottom: 0%;
+        // right: 0%;
+        // transform: scale(1);
+        // opacity: 1;
       }
     }
   }

@@ -375,7 +375,7 @@
                         <h3 class="d-none invisible">Latest Blogs</h3>
                         <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -389,18 +389,59 @@
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 20, 2023</span> 
+                                                                   <span> By Dipti Singhal </span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top Custom Software Development Companies</div>
+                                                           </div>
+                                                        </a>
 
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-To-Develop-Hotel-Booking-App-Cost-Features-2023.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 07, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How To Develop Hotel Booking App: Cost, Features (2023)</div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Innovative-Healthcare-Business-Ideas-for-Startups-and-Aspiring-Entrepreneurs.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 05, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                            <div class="row mx-1 py-3 bg-white">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
                                                            </div>
                                                         </a> 
 
@@ -410,11 +451,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
                                                            </div>
                                                         </a> 
 
@@ -425,11 +466,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
                                                            </div>
                                                      </a> 
 
@@ -439,11 +480,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -453,11 +494,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -467,11 +508,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
                                                            </div>
                                                      </a> 
 
@@ -483,11 +524,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
                                                            </div>
                                                      </a> 
 
@@ -497,37 +538,37 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
                                                            </div>
                                                      </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                             <div class="row mx-1 py-3 bg-white">
                                                                 <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                  <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
                                                                  </div>
-                                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                     <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
+                                                                    <span> By Dipti Singhal</span>
                                                                 </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                             </div>
                                                       </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                        <div class="row mx-1 py-3 bg-white">
                                                           <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                           <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
                                                           </div>
-                                                          <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
                                                              <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
+                                                             <span> By Dipti Singhal</span>
                                                           </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                           </div>
                                                        </div>
                                                     </a>  
@@ -536,13 +577,13 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
                                                             </div>
                                                         </div>
                                                     </a>
@@ -551,19 +592,17 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
                                                             </div>
                                                         </div>
                                                     </a>
-
-                                                  
-                                                </div>
+                                               </div>
                                             </div> 
                                         </div>
                                     </div>                  
@@ -573,7 +612,7 @@
                     </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>
@@ -582,7 +621,6 @@
             </div>
         </div>
     </div>
-
    
 
   <!-- contact with us section -->
@@ -910,7 +948,7 @@
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-floating">
-                                                   <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                                   <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
                                                    <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                                       <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                                    </div>
@@ -1248,7 +1286,7 @@
 
                                 <div class="col-md-12">
                                     <div class="form-floating">
-                                        <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                        <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
                                         <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                             <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                         </div>

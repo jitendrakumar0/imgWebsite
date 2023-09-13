@@ -1,22 +1,22 @@
 @extends('main')
 @push('meta')
    <!--  Title -->
-   <title> Custom Software Development Services, Software Development Company in India - IMG Global Infotech</title>
+   <title> Software Development Company | Software Development Services</title>
 
    <!-- Required meta tags -->
-   <meta name="title" content=" Custom Software Development Services, Software Development Company in India - IMG Global Infotech" />
-   <meta name="description" content=" IMG Global Infotech is a leading Software Development Company offering custom software development services & solutions to start-ups & enterprises." />
+   <meta name="title" content=" Software Development Company | Software Development Services" />
+   <meta name="description" content=" Need software development services? Trust IMG Global best software development company. With 10+ years of experience, we provide top custom software according to need." />
    <meta name="keywords" content="software development company, software development services, custom software development company, software development services company, enterprise software development company, software development consulting services, enterprise software development firm" />
 
    <!-- Twitter Meta -->
-   <meta name="twitter:title" content=" Custom Software Development Services, Software Development Company in India - IMG Global Infotech">
-   <meta name="twitter:description" content=" IMG Global Infotech is a leading Software Development Company offering custom software development services & solutions to start-ups & enterprises.">
+   <meta name="twitter:title" content=" Software Development Company | Software Development Services">
+   <meta name="twitter:description" content=" Need software development services? Trust IMG Global best software development company. With 10+ years of experience, we provide top custom software according to need.">
    <meta name="twitter:image" content="{{asset('/public')}}/assets/img/software-development/Custom-Software-Development-Services.webp">
 
    <!-- Facebook Meta -->
    <meta property="og:url" content="{{asset('/')}}software-development.php">
-   <meta property="og:title" content="Custom Software Development Services, Software Development Company in India - IMG Global Infotech">
-   <meta property="og:description" content=" IMG Global Infotech is a leading Software Development Company offering custom software development services & solutions to start-ups & enterprises.">
+   <meta property="og:title" content="Software Development Company | Software Development Services">
+   <meta property="og:description" content=" Need software development services? Trust IMG Global best software development company. With 10+ years of experience, we provide top custom software according to need.">
    <meta property="og:image" content="{{asset('/public')}}/assets/img/software-development/Custom-Software-Development-Services.webp">
    <meta property="og:image:secure_url" content="{{asset('/public')}}/assets/img/software-development/Custom-Software-Development-Services.webp">
 
@@ -46,10 +46,10 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Custom Software <b>Development Services</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">The innovation beyond reimagining your Enterprise business applications.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Propelled by innovation and driven by values, IMG Global Infotech increases your business growth by developing best class solutions.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">The innovation beyond reimagining your Enterprise business applications.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Propelled by innovation and driven by values, IMG Global Infotech increases your business growth by developing best class solutions.</div>
                         <div class="col-12 pt-4">
-                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Request for proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -76,8 +76,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/software-development.php')}}">Software Development Services</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/software-development.php')}}">Software Development Services</a></li>
                   </ol>
                </nav>
             </div>
@@ -106,8 +106,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Software Development <b>Company</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is one of the pre-eminent software development companies that offer competitive, agile, and innovative software development services for custom application and software development. We have a dedicated software development team that enables us to deliver creative and attractive software applications and mobile apps that simplify your business process. We make use of big data and provide the best solutions that make the development process clear.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We are the custom software development company that influences industry best practices to deliver scalable and robust customer software to the clients at competitive pricing. We have a proven record of delivering 100+ custom software solutions to all types of businesses, starting from start-ups to enterprises. As the top-notch enterprise software development services company, we provide software development consulting services to our customers. We develop scalable and beautiful custom software applications through in-depth technical processes, domain knowledge, and consulting capabilities.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG Global Infotech is one of the pre-eminent software development companies that offer competitive, agile, and innovative software development services for custom application and software development. We have a dedicated software development team that enables us to deliver creative and attractive software applications and mobile apps that simplify your business process. We make use of big data and provide the best solutions that make the development process clear.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We are the custom software development company that influences industry best practices to deliver scalable and robust customer software to the clients at competitive pricing. We have a proven record of delivering 100+ custom software solutions to all types of businesses, starting from start-ups to enterprises. As the top-notch enterprise software development services company, we provide software development consulting services to our customers. We develop scalable and beautiful custom software applications through in-depth technical processes, domain knowledge, and consulting capabilities.</div>
                      </div>
                   </div>
                </div>
@@ -124,7 +124,7 @@
                <div class="row mx-0">
                   <h2 class="d-none invisible">Out Best-in-Class Software Development Consulting Services</h2>
                   <div class="col-12 heading fs-md-14 fs-12 text-white left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Out Best-in-Class Software <b>Development Consulting Services </b></span></div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-white text-start mt-3 px-0">As the top-notch offshore enterprise software development firm, we take your business to the next level. The primary goal is to design and create the best software products for the clients as per their expectations and requirements. We have a dedicated team of software developers who deliver the best works for any development project. Following are some of the best software development consulting services that our UI/UX design services company offer.</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-white text-start mt-3 px-0">As the top-notch offshore enterprise software development firm, we take your business to the next level. The primary goal is to design and create the best software products for the clients as per their expectations and requirements. We have a dedicated team of software developers who deliver the best works for any development project. Following are some of the best software development consulting services that our UI/UX design services company offer.</div>
                </div>
                <div class="row s-sidebar mx-0 py-4 gap-4 justify-content-start">
                   <a href="javascript:;" id="app-service-1" class="col-auto s-item wave-1 active" style="--tz:20px;">
@@ -163,8 +163,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/software-development/Front-end-Development-service.webp" alt="Front-end-Development-service">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Front-end-Development-service</div>
-                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-600 py-4 tz" style="--tz:30px;">A business's success depends on the visually appealing, interactive, and attractive web front end pages. It is responsible for gaining visitor confidence & trust and reflects the company and the organization's goal. We provide front end and UI development services with inclusive dependability, usability, and UX design.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Front-end-Development-service</div>
+                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-l py-4 tz" style="--tz:30px;">A business's success depends on the visually appealing, interactive, and attractive web front end pages. It is responsible for gaining visitor confidence & trust and reflects the company and the organization's goal. We provide front end and UI development services with inclusive dependability, usability, and UX design.</div>
                            <div class="col-12">
                               <!-- <a class="btn btn-theme2 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                                  <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
@@ -183,8 +183,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/software-development/Do-not-let-Development-Service.webp" alt="Do-not-let-Development-Service">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Do not let Development Service</div>
-                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-600 py-4 tz" style="--tz:30px;">Get captivating and feature-rich cross and native platform mobile and web applications, expert assistance that will increase your business's growth, and take your website to the next level. The clients can enjoy 360-degree application and software development for desktop and web applications. We have creative developers who offer high-end, scalable, and reliable apps using MVC, ASP.NET, C#, and more.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Do not let Development Service</div>
+                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-l py-4 tz" style="--tz:30px;">Get captivating and feature-rich cross and native platform mobile and web applications, expert assistance that will increase your business's growth, and take your website to the next level. The clients can enjoy 360-degree application and software development for desktop and web applications. We have creative developers who offer high-end, scalable, and reliable apps using MVC, ASP.NET, C#, and more.</div>
                            <div class="col-12">
                               <!-- <a class="btn btn-theme2 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                                  <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
@@ -203,8 +203,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/software-development/Backend-Development-Service.webp" alt="Backend-Development-Service">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Backend Development Service</div>
-                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-600 py-4 tz" style="--tz:30px;">The back end is the primary factor that interconnects and connects different parts of the software application. Without an efficient and effective backend development, there is no chance of experiencing a good website design. IMG Global Infotech provides the best and comprehensive development services. We manage and process different data effectively using our developer's knowledge in other frameworks and languages.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Backend Development Service</div>
+                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-l py-4 tz" style="--tz:30px;">The back end is the primary factor that interconnects and connects different parts of the software application. Without an efficient and effective backend development, there is no chance of experiencing a good website design. IMG Global Infotech provides the best and comprehensive development services. We manage and process different data effectively using our developer's knowledge in other frameworks and languages.</div>
                            <div class="col-12">
                               <!-- <a class="btn btn-theme2 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                                  <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
@@ -223,8 +223,8 @@
                                  <img class="h-90px" src="{{asset('/public')}}/assets/img/software-development/Mobile-development-service.webp" alt="Mobile-development-service">
                               </span>
                            </div>
-                           <div class="col-12 fs-22 text-theme3 fw-900 tz" style="--tz:30px;">Mobile development service</div>
-                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-600 py-4 tz" style="--tz:30px;">Having a highly dynamic, user-friendly, and easy to use mobile app is mandatory. Mobile apps are essential, and they help small- and large-scale enterprises reach different users across the globe to simplify daily activities. We offer you the best strategies and solutions to assist in connecting with customers worldwide and provide state-of-the-art Mobile App Development Services.</div>
+                           <div class="col-12 fs-22 text-theme3 fw-m tz" style="--tz:30px;">Mobile development service</div>
+                           <div class="col-12 fs-md-18 fs-sm-17 fs-16 fw-l py-4 tz" style="--tz:30px;">Having a highly dynamic, user-friendly, and easy to use mobile app is mandatory. Mobile apps are essential, and they help small- and large-scale enterprises reach different users across the globe to simplify daily activities. We offer you the best strategies and solutions to assist in connecting with customers worldwide and provide state-of-the-art Mobile App Development Services.</div>
                            <div class="col-12">
                               <!-- <a class="btn btn-theme2 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                                  <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
@@ -260,10 +260,10 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Top-notch Enterprise Software <b>Development Company Process</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">SWe follow agile methodology when it comes to the custom software development process. We initiate the development phase once the technical and visual custom software designs are finished. The software developers use the WebStorm IDE for coding, visual studio, android studio, XCode, and more. The code is committed daily to Bitbucket or GitHub. Developers then review the code once the code is executed</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">For continuous integration, the Jenkin process is triggered. The builds are then delivered continuously for testing using advanced tools. The software testers and then install this release on the devices and identify the issues and bugs. Once the problems are found, it's then sent to Jira backlog, and the complete process is repeated. Continuous testing and delivery of the software deal with rapid development.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">SWe follow agile methodology when it comes to the custom software development process. We initiate the development phase once the technical and visual custom software designs are finished. The software developers use the WebStorm IDE for coding, visual studio, android studio, XCode, and more. The code is committed daily to Bitbucket or GitHub. Developers then review the code once the code is executed</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">For continuous integration, the Jenkin process is triggered. The builds are then delivered continuously for testing using advanced tools. The software testers and then install this release on the devices and identify the issues and bugs. Once the problems are found, it's then sent to Jira backlog, and the complete process is repeated. Continuous testing and delivery of the software deal with rapid development.</div>
                         <div class="col-12 pt-3 text-lg-start text-center">
-                           <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Enquire Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -281,71 +281,71 @@
          <div class="row mx-0 pb-5">
             <h2 class="d-none invisible">Technologies Offer By Enterprise Software Development Company</h2>
             <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Technologies Offer By Enterprise<b> Software Development Company </b></span></div>
-            <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted text-center mt-3 justify">As the top-notch software development services company, we offer the following technologies.</div>
+            <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted text-center mt-3 justify">As the top-notch software development services company, we offer the following technologies.</div>
          </div>
          <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4 order-xl-2">
                <div class="cms_box bg-white text-center">
                   <i class="imgl img-link fs-45 text-theme1"></i>
                   <h3 class="d-none invisible">Blockchain</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Blockchain</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We have worked on 30+ blockchain projects and help automate their operations. Enterprises incorporate security within their blockchain technology.</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Blockchain</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We have worked on 30+ blockchain projects and help automate their operations. Enterprises incorporate security within their blockchain technology.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4 order-xl-1">
                <div class="cms_box bg-theme1 text-center">
                   <i class="imgl img-mobile fs-45 text-white"></i>
                   <h3 class="d-none invisible">Mobile Apps </h3>
-                  <div class="col-12 fw-900 text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Mobile Apps </div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">We develop scalable and smooth mobile applications that suit your brand and industry within a limited period.</div>
+                  <div class="col-12 fw-m text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Mobile Apps </div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">We develop scalable and smooth mobile applications that suit your brand and industry within a limited period.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4 order-xl-4">
                <div class="cms_box bg-white text-center">
                   <i class="imgl img-microchip fs-45 text-theme1"></i>
                   <h3 class="d-none invisible">Artficial Intelligence</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Artficial Intelligence</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We influence the AI potential to develop business applications that include voice assistant systems, data analytics, automation, and more.</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Artficial Intelligence</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We influence the AI potential to develop business applications that include voice assistant systems, data analytics, automation, and more.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4 order-xl-3">
                <div class="cms_box bg-theme1 text-center">
                   <i class="imgl img-laptop fs-45 text-white"></i>
                   <h3 class="d-none invisible">Web Application</h3>
-                  <div class="col-12 fw-900 text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Web Application</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">Our team of software developers offers backend and frontend development services who have experience in PHP, ReactJS, NodeJS, Python, and other programming languages.</div>
+                  <div class="col-12 fw-m text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Web Application</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">Our team of software developers offers backend and frontend development services who have experience in PHP, ReactJS, NodeJS, Python, and other programming languages.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4">
                <div class="cms_box bg-white text-center">
                   <i class="imgb img-android fs-45 text-theme1"></i>
                   <h3 class="d-none invisible">RPA</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">RPA</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We enable businesses to decrease human efforts by quickly developing software robots that perform a high-volume transaction and repetitive tasks.</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">RPA</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We enable businesses to decrease human efforts by quickly developing software robots that perform a high-volume transaction and repetitive tasks.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4">
                <div class="cms_box bg-theme1 text-center">
                   <i class="imgl img-chart-bar fs-45 text-white"></i>
                   <h3 class="d-none invisible">Internet of things</h3>
-                  <div class="col-12 fw-900 text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Internet of things</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">We make use of the various IoT technologies and edge computing to develop connected apps that collect data, analyze, make use of the collected data to insights.</div>
+                  <div class="col-12 fw-m text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Internet of things</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">We make use of the various IoT technologies and edge computing to develop connected apps that collect data, analyze, make use of the collected data to insights.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4">
                <div class="cms_box bg-white text-center">
                   <i class="imgd img-microphone fs-45 text-theme1"></i>
                   <h3 class="d-none invisible">Alexa</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Alexa</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We develop Alexa skills for all types of businesses from start-ups and enterprises to quickly manage their task and improve the business process.</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Alexa</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz" style="--tz:30px;">We develop Alexa skills for all types of businesses from start-ups and enterprises to quickly manage their task and improve the business process.</div>
                </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex align-items-stretch mb-4">
                <div class="cms_box bg-theme1 text-center">
                   <i class="imgl img-laptop   fs-45 text-white"></i>
                   <h3 class="d-none invisible">Computer Vision</h3>
-                  <div class="col-12 fw-900 text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Computer Vision</div>
-                  <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">We have smart AI developers who develop AI-enabled applications with computer vision for start-ups and enterprises.</div>
+                  <div class="col-12 fw-m text-white fs-md-19 fs-sm-18 fs-17 lh-normal mt-3 tz" style="--tz:30px;">Computer Vision</div>
+                  <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-white mt-2 tz" style="--tz:30px;">We have smart AI developers who develop AI-enabled applications with computer vision for start-ups and enterprises.</div>
                </div>
             </div>
          </div>
@@ -357,7 +357,7 @@
          <div class="row mx-0 pb-5">
             <h2 class="d-none invisible">Why Choose IMG Global Infotech Custom Software Development Services?</h2>
             <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Why Choose IMG Global Infotech Custom <b>Software Development Services? </b></span></div>
-            <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz px-0">We deliver complete and customized solutions to the customers. Our developers work round the clock to provide superior services and solutions for different business requirements. Here are a few reasons listed to choose IMG Global Infotech regarding software development consulting services.</div>
+            <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted mt-2 tz px-0">We deliver complete and customized solutions to the customers. Our developers work round the clock to provide superior services and solutions for different business requirements. Here are a few reasons listed to choose IMG Global Infotech regarding software development consulting services.</div>
          </div>
          <div class="row">
             <div class="col-12 mb-4">
@@ -367,7 +367,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Top-notch application development services</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Top-notch application development services
                      </div>
                   </div>
@@ -380,7 +380,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Scalable and flexible solutions</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Scalable and flexible solutions
                      </div>
                   </div>
@@ -393,7 +393,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Round the clock support and maintenance</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Round the clock support and maintenance
                      </div>
                   </div>
@@ -406,7 +406,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Compatible applications</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Compatible applications
                      </div>
                   </div>
@@ -419,7 +419,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Get personalized solutions</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Get personalized solutions
                      </div>
                   </div>
@@ -432,13 +432,13 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Increased protection and security</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Increased protection and security
                      </div>
                   </div>
                </div>
             </div>
-            <div class="col-12 fw-600 fs-md-17 fs-sm-16 fs-15 text-muted text-center mt-2 tz">Enhance your customer pool size and increase your business growth with IMG Global Infotech software development solutions at cost-effective pricing.</div>
+            <div class="col-12 fw-l fs-md-17 fs-sm-16 fs-15 text-muted text-center mt-2 tz">Enhance your customer pool size and increase your business growth with IMG Global Infotech software development solutions at cost-effective pricing.</div>
          </div>
       </div>
    </div>
@@ -460,7 +460,7 @@
                         </button>
                      </h2>
                      <div id="collapseOne" class="position-relative accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-sm-15 fs-14 text-dark">
+                        <div class="accordion-body fw-l fs-sm-15 fs-14 text-dark">
                            There are many factors and decisions to make before choosing the best software development services company in India. You need to check with the contractor before starting the work with them, as this is the crucial factor in deciding on your success. You can also contact the past company clients and get an idea of it. Once after the shortlist, you can continue the verification process.
                         </div>
                      </div>
@@ -472,7 +472,7 @@
                         </button>
                      </h2>
                      <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-sm-15 fs-14 text-dark">
+                        <div class="accordion-body fw-l fs-sm-15 fs-14 text-dark">
                            Outsourcing software development is an essential part of corporate strategies for different businesses. This is the working model used by other companies and also seeks more specialization, quality, and agility in every process. Besides the economics of cost control, time, and scale, many custom software development services provide the maximum benefits you should focus on. Developing a partnership with companies is also another significant benefit of outsourcing a software development firm. You can easily optimize the time for professionals and managers to expand the business in a structured way.
                         </div>
                      </div>
@@ -493,7 +493,7 @@
                         <h3 class="d-none invisible">Latest Blogs</h3>
                         <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -507,18 +507,59 @@
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 20, 2023</span> 
+                                                                   <span> By Dipti Singhal </span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top Custom Software Development Companies</div>
+                                                           </div>
+                                                        </a>
 
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-To-Develop-Hotel-Booking-App-Cost-Features-2023.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 07, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How To Develop Hotel Booking App: Cost, Features (2023)</div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Innovative-Healthcare-Business-Ideas-for-Startups-and-Aspiring-Entrepreneurs.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 05, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                            <div class="row mx-1 py-3 bg-white">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
                                                            </div>
                                                         </a> 
 
@@ -528,11 +569,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
                                                            </div>
                                                         </a> 
 
@@ -543,11 +584,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
                                                            </div>
                                                      </a> 
 
@@ -557,11 +598,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -571,11 +612,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -585,11 +626,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
                                                            </div>
                                                      </a> 
 
@@ -601,11 +642,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
                                                            </div>
                                                      </a> 
 
@@ -615,37 +656,37 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
                                                            </div>
                                                      </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                             <div class="row mx-1 py-3 bg-white">
                                                                 <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                  <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
                                                                  </div>
-                                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                     <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
+                                                                    <span> By Dipti Singhal</span>
                                                                 </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                             </div>
                                                       </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                        <div class="row mx-1 py-3 bg-white">
                                                           <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                           <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
                                                           </div>
-                                                          <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
                                                              <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
+                                                             <span> By Dipti Singhal</span>
                                                           </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                           </div>
                                                        </div>
                                                     </a>  
@@ -654,13 +695,13 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
                                                             </div>
                                                         </div>
                                                     </a>
@@ -669,19 +710,17 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
                                                             </div>
                                                         </div>
                                                     </a>
-
-                                                  
-                                                </div>
+                                               </div>
                                             </div> 
                                         </div>
                                     </div>                  
@@ -691,7 +730,7 @@
                     </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>

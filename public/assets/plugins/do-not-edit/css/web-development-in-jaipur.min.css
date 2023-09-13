@@ -372,9 +372,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -428,11 +430,13 @@
   bottom: 0;
   background-position: left top;
   z-index: 0;
+  -webkit-filter: brightness(0.94);
   filter: brightness(0.94);
   background-size: 60px;
 }
 
 .portfolio-bg-layer {
+  -webkit-animation: 5s ease 0s normal none infinite running border_animate2;
   animation: 5s ease 0s normal none infinite running border_animate2;
   background: #efefef none repeat scroll 0 0;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
@@ -442,9 +446,25 @@
   margin: 0 auto;
   position: absolute;
   top: -80px;
+  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 370px;
   z-index: 1;
+}
+
+@-webkit-keyframes border_animate2 {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
 }
 @keyframes border_animate2 {
   0% {
@@ -472,7 +492,11 @@
   background-size: cover;
   background-position: center;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -493,4 +517,4 @@
     right: 0 !important;
     animation: headings 3s infinite !important;
   }
-}/*# sourceMappingURL=web-development-in-jaipur.min.css.map */
+}

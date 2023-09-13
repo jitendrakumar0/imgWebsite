@@ -128,6 +128,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   transform: rotateY(180deg) rotateX(180deg);
@@ -142,6 +143,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -149,10 +151,12 @@
 
 .award-winning-section .tilt_image_pos img:nth-child(1) {
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .award-winning-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -169,6 +173,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   transform: rotateY(180deg) rotateX(180deg);
@@ -184,6 +189,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -191,10 +197,12 @@
 
 .why-we-are-section .tilt_image_pos img:nth-child(1) {
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .why-we-are-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
 }
 
@@ -326,9 +334,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -481,8 +491,7 @@
   opacity: 0;
   transition: 0.35s;
   background-color: rgba(0, 0, 0, 0.6);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .mad_portf_box figcaption div {
   transform: translateX(-106%);
@@ -669,8 +678,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -683,6 +694,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -746,6 +758,7 @@ button.accordion-button {
   }
   .award-winning-section .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .why-we-are-section .heading {
@@ -756,6 +769,7 @@ button.accordion-button {
   }
   .why-we-are-section .heading::after {
     right: 0 !important;
+    -webkit-animation: headings 3s infinite !important;
     animation: headings 3s infinite !important;
   }
   .faq_section .heading.center {
@@ -809,4 +823,4 @@ button.accordion-button {
     box-shadow: none;
     border: 2px solid rgba(255, 255, 255, 0.5);
   }
-}/*# sourceMappingURL=mobile-app-development-old.min.css.map */
+}

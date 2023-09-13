@@ -45,9 +45,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Nidhi <b>Company Software</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Nidhi Company Web based online Software inclue feature Share Management, SB Account, RD, FD, Loan Management, Accounting Management & API integration as per Coutomer Requirement.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Nidhi Company Web based online Software inclue feature Share Management, SB Account, RD, FD, Loan Management, Accounting Management & API integration as per Coutomer Requirement.</div>
                         <div class="col-12 pt-3">
-                           <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Get Free Consultation</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -74,8 +74,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Nidhi Company Software</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Nidhi Company Software</li>
                   </ol>
                </nav>
             </div>
@@ -93,7 +93,7 @@
                      <div class="row">
                         <h2 class="d-none invisible">About Nidhi Software</h2>
                         <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> About <b>Nidhi Software</b></span></div>
-                        <div class="col-12 fs-md-16 fs-sm-15 fs-14 text-dark fw-600 pt-4 ps-0 ">IMG Global Infotech holds the powerful Nidhi company software that handles various directions of workflows. Nidhi banking software makes online administration easier, including member and work registration, financial & legal control, complete loan management, and more. The Nidhi company software is mandatory to cover various Nidhi management and administration processes. Our Nidhi company schemes are developed to simplify your daily transactions, administrative, and financial management tasks.</div>
+                        <div class="col-12 fs-md-16 fs-sm-15 fs-14 text-dark fw-l pt-4 ps-0 ">IMG Global Infotech holds the powerful Nidhi company software that handles various directions of workflows. Nidhi banking software makes online administration easier, including member and work registration, financial & legal control, complete loan management, and more. The Nidhi company software is mandatory to cover various Nidhi management and administration processes. Our Nidhi company schemes are developed to simplify your daily transactions, administrative, and financial management tasks.</div>
                      </div>
                   </div>
                </div>
@@ -123,7 +123,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">What Is <b>Nidhi Software?</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">If you are looking for sustainable, customized, and innovative Nidhi software solutions, IMG Global Infotech has the best What Is Nidhi Software? that will support the business and processes and the various operating systems, browsers, and devices, and multiple locations. The benefits of Nidhi Company include a complete and latest feature Nidhi software solutions for any banking or fund companies.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">If you are looking for sustainable, customized, and innovative Nidhi software solutions, IMG Global Infotech has the best What Is Nidhi Software? that will support the business and processes and the various operating systems, browsers, and devices, and multiple locations. The benefits of Nidhi Company include a complete and latest feature Nidhi software solutions for any banking or fund companies.</div>
                      </div>
                   </div>
                </div>
@@ -153,7 +153,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Do You Need <b>Nidhi Software?</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Nidhi Company is one of the NDFC that focuses on banking activities. It means the members of Nidhi Company data should be maintained securely, and therefore the best option is undoubtedly the Nidhi software that can manage the data of members. The Nidhi company system is designed to be complicated, and accordingly, just the software cannot handle the Nidhi Company. IMG Global Infotech on Nidhi Company is the most preferred Nidhi software in the market, and using it is very simple.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Nidhi Company is one of the NDFC that focuses on banking activities. It means the members of Nidhi Company data should be maintained securely, and therefore the best option is undoubtedly the Nidhi software that can manage the data of members. The Nidhi company system is designed to be complicated, and accordingly, just the software cannot handle the Nidhi Company. IMG Global Infotech on Nidhi Company is the most preferred Nidhi software in the market, and using it is very simple.</div>
                      </div>
                   </div>
                </div>
@@ -177,7 +177,7 @@
                      <div class="row mx-0 pb-4">
                         <h2 class="d-none invisible">What Are The Nidhi Training Modules Available In IMG Global Infotech?</h2>
                         <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> What Are The Nidhi Training Modules Available In <b>IMG Global Infotech? </b></span></div>
-                        <div class="col-12 fw-600 fs-17 text-white mt-3 px-0">Our experts help you to train the following modules efficiently.</div>
+                        <div class="col-12 fw-l fs-17 text-white mt-3 px-0">Our experts help you to train the following modules efficiently.</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -186,7 +186,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi Company – An overview</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi Company – An overview</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi Company – An overview</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -195,7 +195,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Loans under Nidhi Company</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Loans under Nidhi Company</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Loans under Nidhi Company</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -204,7 +204,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi compliances</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi compliances</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi compliances</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -213,7 +213,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi company loans</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi company loans</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi company loans</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -222,7 +222,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Encumbered deposits</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Encumbered deposits</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Encumbered deposits</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -231,7 +231,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">How to join members</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">How to join members</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">How to join members</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -240,7 +240,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi Company restrictions</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi Company restrictions</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi Company restrictions</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -249,7 +249,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">How to register a Nidhi Company</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">How to register a Nidhi Company</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">How to register a Nidhi Company</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -258,7 +258,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi interest rates</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi interest rates</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi interest rates</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -267,7 +267,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi micro finances</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi micro finances</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi micro finances</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -276,7 +276,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-md-20 fs-16 bg-theme3 d-flex w-md-60px w-50px h-md-60px h-50px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Nidhi Company RBI approval process</h3>
-                        <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi Company RBI approval process</div>
+                        <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Nidhi Company RBI approval process</div>
                      </div>
                   </div>
                </div>
@@ -299,7 +299,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Auto Membership process</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Auto Membership process
                      </div>
                   </div>
@@ -312,7 +312,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">NDH- 3 and Nidhi compiled software</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         NDH- 3 and Nidhi compiled software
                      </div>
                   </div>
@@ -325,7 +325,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Top-notch and best quality Nidhi software in India.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Top-notch and best quality Nidhi software in India.
                      </div>
                   </div>
@@ -338,7 +338,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">It is developed especially for Nidhi Companies.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         It is developed especially for Nidhi Companies.
                      </div>
                   </div>
@@ -351,7 +351,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Affordable and simple pricing</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Affordable and simple pricing
                      </div>
                   </div>
@@ -364,7 +364,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">All interest calculators, interest rates, and Nidhi forms available.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         All interest calculators, interest rates, and Nidhi forms available.
                      </div>
                   </div>
@@ -377,7 +377,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">The best Nidhi software that adheres to the Nidhi company rules.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         The best Nidhi software that adheres to the Nidhi company rules.
                      </div>
                   </div>
@@ -390,7 +390,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Auto notification in case of any corrections to be made.</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Auto notification in case of any corrections to be made.
                      </div>
                   </div>
@@ -403,7 +403,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">The trusted and most preferred brand</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         The trusted and most preferred brand
                      </div>
                   </div>
@@ -416,7 +416,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Offer 24/7 GST support</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Offer 24/7 GST support
                      </div>
                   </div>
@@ -429,7 +429,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Best training facilities</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Best training facilities
                      </div>
                   </div>
@@ -442,7 +442,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">User-friendly and interactive design</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         User-friendly and interactive design
                      </div>
                   </div>
@@ -455,7 +455,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Simple user interface</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Simple user interface
                      </div>
                   </div>
@@ -468,7 +468,7 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Simple user interface</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Simple user interface
                      </div>
                   </div>
@@ -481,14 +481,14 @@
                         <span><i class="imgs img-check rounded-start text-white fs-22 bg-theme1 d-flex w-50px h-50px justify-content-center align-items-center position-relative zi-2"></i></span>
                      </div>
                      <h3 class="d-none invisible">Mobile and web-based</h3>
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                     <div class="col fw-l fs-md-18 fs-sm-17 fs-16 text-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                         Mobile and web-based
                      </div>
                   </div>
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Become a Client</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>
@@ -502,7 +502,7 @@
          <div class="row mx-0 pb-5">
             <h2 class="d-none invisible">IMG Global Infotech Follows The Government Act!</h2>
             <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> IMG Global Infotech Follows <b>The Government Act! </b></span></div>
-            <div class="col-12 fw-600 fs-17 text-black text-center mt-3">There are plenty of companies that offer Nidhi software, but we are different as we purely follow
+            <div class="col-12 fw-l fs-17 text-black text-center mt-3">There are plenty of companies that offer Nidhi software, but we are different as we purely follow
                the government rules and policies. We provide the best Nidhi software
                that acts as per the Nidhi company rules act.</div>
          </div>
@@ -519,8 +519,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Term deposits</h3>
-                              <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Term deposits</div>
-                              <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Recurring deposit, MIS (Monthly Income Scheme), daily/pigmy deposit, and fixed deposit account.</div>
+                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Term deposits</div>
+                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Recurring deposit, MIS (Monthly Income Scheme), daily/pigmy deposit, and fixed deposit account.</div>
                            </div>
                         </div>
                      </div>
@@ -539,8 +539,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Share Management</h3>
-                              <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Share Management</div>
-                              <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Dividend calculation, share certificate print and withdraw/add share.
+                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Share Management</div>
+                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Dividend calculation, share certificate print and withdraw/add share.
                               </div>
                            </div>
                         </div>
@@ -560,8 +560,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Membership Management</h3>
-                              <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Membership Management</div>
-                              <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Customer registration/online member, customer management/member, customer panel/online member.
+                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Membership Management</div>
+                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Customer registration/online member, customer management/member, customer panel/online member.
                               </div>
                            </div>
                         </div>
@@ -581,8 +581,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Advanced and loans</h3>
-                              <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Advanced and loans</div>
-                              <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Personal loan, secured loan, vehicle loan, and loan on deposits, business loan, unsecured loan, gold loan, and group loan.</div>
+                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Advanced and loans</div>
+                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Personal loan, secured loan, vehicle loan, and loan on deposits, business loan, unsecured loan, gold loan, and group loan.</div>
                            </div>
                         </div>
                      </div>
@@ -601,8 +601,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Report</h3>
-                              <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Report</div>
-                              <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Comprehensive collection report, pending installment reports, 100+ kinds of MIS reports, branch collection report, daily collection report, late fees report, etc.</div>
+                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Report</div>
+                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Comprehensive collection report, pending installment reports, 100+ kinds of MIS reports, branch collection report, daily collection report, late fees report, etc.</div>
                            </div>
                         </div>
                      </div>
@@ -621,8 +621,8 @@
                         <div class="col-12">
                            <div class="row">
                               <h3 class="d-none invisible">Accounting</h3>
-                              <div class="col-12 fw-900 fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Accounting</div>
-                              <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Ledger/sub-ledger, journal voucher entry, cash book, bank book, trial balance, general ledger, balance sheet, contra voucher entry, daybook, payment, and receipt AC, loss and profit account.</div>
+                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Accounting</div>
+                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">Ledger/sub-ledger, journal voucher entry, cash book, bank book, trial balance, general ledger, balance sheet, contra voucher entry, daybook, payment, and receipt AC, loss and profit account.</div>
                            </div>
                         </div>
                      </div>

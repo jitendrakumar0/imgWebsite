@@ -49,10 +49,10 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-12 fw-bold fs-md-20 fs-16 text-white mt-3">Words Marking Our Worth!</div>
-                        <div class="col-12 fw-600 fs-md-16 fs-14 text-white mb-3 mt-3">Our global clients are elemental to our success story. We pride ourselves on exceptional service & retention. No matter how small or big your project, we assure you the highest level of dedication to deliver upon your expectations. See what our clients have to say about working with team IMG Global Infotech.</div>
+                        <div class="col-12 fw-l fs-md-20 fs-16 text-white mt-3">Words Marking Our Worth!</div>
+                        <div class="col-12 fw-l fs-md-16 fs-14 text-white mb-3 mt-3">Our global clients are elemental to our success story. We pride ourselves on exceptional service & retention. No matter how small or big your project, we assure you the highest level of dedication to deliver upon your expectations. See what our clients have to say about working with team IMG Global Infotech.</div>
                         <div class="col-12 pt-4">
-                           <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Enquire Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -78,8 +78,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Testimonials</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Testimonials</li>
                   </ol>
                </nav>
             </div>
@@ -100,15 +100,15 @@
                         <div class="col-md-12">
                            <div class="py-3 px-4 bg-dark shadow rounded mb-3 border-top border-theme3 border-4 text-md-end text-center">
                               <h3 class="d-none invisible">We are proactive, efficient & experienced.</h3>
-                              <div class="col-12 fw-600 text-light fs-md-16 fs-sm-15 fs-14 lh-normal">We are proactive, efficient & experienced.<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                              <div class="col-12 fw-l text-light fs-md-16 fs-sm-15 fs-14 lh-normal">We are proactive, efficient & experienced.<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                            </div>
                            <div class="py-3 px-4 bg-dark shadow rounded mb-3 border-top border-theme3 border-4 text-md-end text-center">
                               <h3 class="d-none invisible">We deliver practical IT solutions for startups, SMEs, and large enterprises.</h3>
-                              <div class="col-12 fw-600 text-light fs-md-16 fs-sm-15 fs-14 lh-normal">We deliver practical IT solutions for startups, SMEs, and large enterprises.<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                              <div class="col-12 fw-l text-light fs-md-16 fs-sm-15 fs-14 lh-normal">We deliver practical IT solutions for startups, SMEs, and large enterprises.<span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                            </div>
                            <div class="py-3 px-4 bg-dark shadow rounded mb-3 border-top border-theme3 border-4 text-md-end text-center">
                               <h3 class="d-none invisible">We offer dedicated client support.</h3>
-                              <div class="col-12 fw-600 text-light fs-md-16 fs-sm-15 fs-14 lh-normal">We offer dedicated client support. <span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
+                              <div class="col-12 fw-l text-light fs-md-16 fs-sm-15 fs-14 lh-normal">We offer dedicated client support. <span class="imgl img-star ms-2 d-lg-inline-block d-none"></span></div>
                            </div>
                         </div>
                      </div>
@@ -148,7 +148,7 @@
 <div class="row">
 	<div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			<p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="background-color:white"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#222222">They developed my company&#39;s Website and helped in driving Website Traffic which in turn reached customers faster. Neeraj Sir &amp; their team has always listened to all the issues and queries.</span></span></span></span></span></span></p>
 		 </div>
 		 <div class="row align-items-end">
@@ -160,7 +160,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Samarpan International</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Samarpan International</div>
 					 <h3 class="d-none invisible">Samarpan International</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -172,7 +172,7 @@
 			<div class="col-md-6 text-md-end text-center">
 				 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google Review:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google Review:</div>
 					 </div>
 					 <div class="col">
 						
@@ -206,7 +206,7 @@
 
 	  <div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			<p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:#222222">As a part of mount litera zee school, I would like to thanks IMG Global Infotech to build such an impressive website that would help to gain visibility in front of parents as well as students.</span></span></span></span></span></p>
 		 </div>
 		 <div class="row align-items-end">
@@ -218,7 +218,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Mount Litera Zee School Alwar</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Mount Litera Zee School Alwar</div>
 					 <h3 class="d-none invisible">Mount Litera Zee School Alwar</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -230,7 +230,7 @@
 			<div class="col-md-6 text-md-end text-center">
 											 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google Review:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google Review:</div>
 					 </div>
 					 <div class="col">
 						 <div class="rate_ico">
@@ -262,7 +262,7 @@
 
 	<div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			<p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:#222222">I have been taking services from IMG for digital marketing activities for quite some time now. There has been a substantial increase in customers at my business. The traditional marketing ways were getting too slow for the digital age. Thank to IMG Global Infotech Pvt. Ltd. that now I can promote my business online and upgrade with the technology.</span></span></span></span></span></p>
 		 </div>
 		 <div class="row align-items-end">
@@ -274,7 +274,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Nandini Infosys</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Nandini Infosys</div>
 					 <h3 class="d-none invisible">Nandini Infosys</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -286,7 +286,7 @@
 			<div class="col-md-6 text-md-end text-center">
 				 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google Review:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google Review:</div>
 					 </div>
 					 <div class="col">
 						 <div class="rate_ico">
@@ -318,7 +318,7 @@
 
 		 <div class="col-12 mb-4">
                   <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
                         <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="background-color:white"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#222222">The best company for website designing. my website looks stunning and designed in a committed timeline. Great work. Recommended for the website.</span></span></span></span></span></span></p>
                      </div>
                      <div class="row align-items-end">
@@ -330,7 +330,7 @@
                               </span>
                            </div>
                            <div class="col-md-auto py-2 text-center border-end border-start">
-                              <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Anu Rajput</div>
+                              <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Anu Rajput</div>
                               <h3 class="d-none invisible">Anu Rajput</h3>
                            </div>
                            <div class="col-auto py-2">
@@ -344,7 +344,7 @@
 			<div class="col-md-6 text-md-end text-center">
 				 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google Review:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google Review:</div>
 					 </div>
 					    <div class="col">
 						    <div class="rate_ico">
@@ -376,7 +376,7 @@
 
 	 <div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			<p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:#222222">After searching a lot, we found them via my relative and it is really a good thing for me. they are really professional and co-operative. my account manager mr. lokesh is keen to help me in every possible manner. i strongly recommend to other people for the same era of services.</span></span></span></span></span></p>
 		 </div>
 		 <div class="row align-items-end">
@@ -388,7 +388,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Sanjay Sharma</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Sanjay Sharma</div>
 					 <h3 class="d-none invisible">Sanjay Sharma</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -401,7 +401,7 @@
 			<div class="col-md-6 text-md-end text-center">
 				 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google Review:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google Review:</div>
 					 </div>
 					 <div class="col">
 						  <div class="rate_ico">
@@ -433,7 +433,7 @@
    
    <div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			<p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:#222222">Best web and app development company. they help in every manner to satisfy the client. we are very happy with the services they provided.</span></span></span></span></span></p>
 		 </div>
 		 <div class="row align-items-end">
@@ -445,7 +445,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Negocia Global</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Negocia Global</div>
 					 <h3 class="d-none invisible">Negocia Global</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -457,7 +457,7 @@
 			<div class="col-md-6 text-md-end text-center">
 											 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google Review:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google Review:</div>
 					 </div>
 					 <div class="col">
 						
@@ -490,7 +490,7 @@
 
 		 <div class="col-12 mb-4">
          <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-            <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+            <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
                <p>I would like to thanks IMG global Infotech and its team to build such an appealing and attractive website and mobile app for our institute.</p>
             </div>
             <div class="row align-items-end">
@@ -502,7 +502,7 @@
                      </span>
                   </div>
                   <div class="col-md-auto py-2 text-center border-end border-start">
-                     <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Civilian Institute</div>
+                     <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Civilian Institute</div>
                      <h3 class="d-none invisible">Civilian Institute</h3>
                   </div>
                   <div class="col-auto py-2">
@@ -514,7 +514,7 @@
 			<div class="col-md-6 text-md-end text-center">
 				 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google:</div>
 					 </div>
 					 <div class="col">
 						 <div class="rate_ico">
@@ -541,7 +541,7 @@
 
 	<div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			Enjoyed working with IMG Global Infotech. My project was well executed by IMG website developing team and it was delivered to me in stipulated time. Thanks IMG!                     </div>
 		 <div class="row align-items-end">
 			<div class="col-md-6">
@@ -552,7 +552,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Samarpan Art &amp; Handicrafts</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Samarpan Art &amp; Handicrafts</div>
 					 <h3 class="d-none invisible">Samarpan Art &amp; Handicrafts</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -568,7 +568,7 @@
    </div>
 		 <div class="col-12 mb-4">
             <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-               <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+               <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
                   <p>IMG Global Infotech did a Great job with my project. They suggested and worked with me on the various designs and functions of my website until I was satisfied. The technical and designing skills of IMG&acirc;&euro;&trade;s developers are great with PHP.</p>
                </div>
                <div class="row align-items-end">
@@ -580,7 +580,7 @@
                         </span>
                      </div>
                      <div class="col-md-auto py-2 text-center border-end border-start">
-                        <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">NIDA Designing Institute Agra</div>
+                        <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">NIDA Designing Institute Agra</div>
                         <h3 class="d-none invisible">NIDA Designing Institute Agra</h3>
                      </div>
                      <div class="col-auto py-2">
@@ -598,7 +598,7 @@
 
 			   <div class="col-12 mb-4">
                <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
                      IMG Global Infotech Pvt. Ltd. helped us in reaching to the needed ones through a global stage. I recommend them to everyone who wants to build a responsive website.
                   </div>
                   <div class="row align-items-end">
@@ -610,7 +610,7 @@
                            </span>
                         </div>
                         <div class="col-md-auto py-2 text-center border-end border-start">
-                           <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Sethi Children Hospital</div>
+                           <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Sethi Children Hospital</div>
                            <h3 class="d-none invisible">Sethi Children Hospital</h3>
                         </div>
                         <div class="col-auto py-2">
@@ -628,7 +628,7 @@
    
    <div class="col-12 mb-4">
 	  <div class="testimonials_revive_box bg-white position-relative shadow p-4 ps-4 pt-5 rounded">
-		 <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
+		 <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted ps-5 description-box">
 			<p>Enjoyed working with IMG Global Infotech. My project was well executed by IMG&rsquo;s website developing team and it was delivered to me in stipulated time.</p>
 		 </div>
 		 <div class="row align-items-end">
@@ -640,7 +640,7 @@
 					 </span>
 				  </div>
 				  <div class="col-md-auto py-2 text-center border-end border-start">
-					 <div class="fw-bold text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Tija Icecream</div>
+					 <div class="fw-l text-theme1 rounded-pill fs-lg-16 fs-md-17 fs-16 lh-normal">Tija Icecream</div>
 					 <h3 class="d-none invisible">Tija Icecream</h3>
 				  </div>
 				  <div class="col-auto py-2">
@@ -652,7 +652,7 @@
 			<div class="col-md-6 text-md-end text-center">
 											 <div class="py-2 px-2 bg-dark shadow rounded mt-md-0 mt-2 border-top border-theme2 border-4 row d-inline-flex mx-0 align-items-center">
 					 <div class="col-auto pe-0">
-						<div class="fw-600 text-white fs-md-14 fs-13">Google:</div>
+						<div class="fw-l text-white fs-md-14 fs-13">Google:</div>
 					 </div>
 					 <div class="col">
 						

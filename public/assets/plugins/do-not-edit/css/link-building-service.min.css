@@ -88,11 +88,14 @@
 }
 
 .understanding-ionic-apps-section .tilt_image_pos img:nth-child(1) {
+  -webkit-transform: translateZ(var(--tz)) rotate(-16deg);
   transform: translateZ(var(--tz)) rotate(-16deg);
+  -webkit-filter: drop-shadow(2px 4px 6px #212529);
   filter: drop-shadow(2px 4px 6px #212529);
 }
 
 .understanding-ionic-apps-section .tilt_image_pos img:nth-child(2) {
+  -webkit-filter: contrast(0);
   filter: contrast(0);
   left: -18px;
   bottom: -27px;
@@ -125,6 +128,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -321,4 +325,4 @@
     margin: 0 auto;
     top: -27px;
   }
-}/*# sourceMappingURL=link-building-service.min.css.map */
+}

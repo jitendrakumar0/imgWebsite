@@ -51,7 +51,7 @@
                                                     <div class="col-auto hero_title1 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-30 fs-sm-30 fs-25 text-white text-center">Fantasy Sports </div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
-                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-25 fw-100 text-light"> App Development </div>
+                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-25 fw-l text-light"> App Development </div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
                                                     <div class="col-auto py-lg-1 py-2">
@@ -66,10 +66,10 @@
                                                     <div class="col-auto pt-lg-3 pt-0 hero_slider_btn p-0">
                                                         <div class="row justify-content-md-start justify-content-center">
                                                             <div class="col-auto text-center text-md-left pb-5">
-                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-100 my-3 py-2 px-lg-4 px-3">
+                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-m my-3 py-2 px-lg-4 px-3">
                                                                     <span class="d-block"><span>+91-9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                                 </a>
-                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-100 my-3 px-lg-4 py-2 px-3 ms-md-2">
+                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3 ms-md-2">
                                                                     <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                                 </a>
                                                             </div>
@@ -105,7 +105,7 @@
                                                     <div class="col-auto hero_title1 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-30 fs-sm-30 fs-25 text-white text-center">Hire Dedicated</div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
-                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-25 fw-100 text-light"> Developers</div>
+                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-25 fw-l text-light"> Developers</div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
                                                     <div class="col-auto py-lg-1 py-2">
@@ -120,10 +120,10 @@
                                                     <div class="col-auto pt-lg-3 pt-0 hero_slider_btn p-0">
                                                         <div class="row justify-content-md-start justify-content-center">
                                                             <div class="col-auto text-center text-md-left pb-5">
-                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-100 my-3 py-2 px-lg-4 px-3">
+                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-m my-3 py-2 px-lg-4 px-3">
                                                                     <span class="d-block"><span>+91-9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                                 </a>
-                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-100 my-3 px-lg-4 py-2 px-3 ms-md-2">
+                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3 ms-md-2">
                                                                     <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                                 </a>
                                                             </div>
@@ -159,7 +159,7 @@
                                                     <div class="col-auto hero_title1 fs-xxl-6060 fs-xl-60 fs-lg-60 fs-md-30 fs-sm-30 fs-30 text-white">Mobile App</div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
-                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-30 fw-100 text-light"> Development</div>
+                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-30 fw-l text-light"> Development</div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
                                                     <div class="col-auto py-lg-1 py-2">
@@ -174,10 +174,10 @@
                                                     <div class="col-auto pt-lg-3 pt-0 hero_slider_btn p-0">
                                                         <div class="row justify-content-md-start justify-content-center">
                                                             <div class="col-auto text-center text-md-left pb-5">
-                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-100 my-3 py-2 px-lg-4 px-3">
+                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-m my-3 py-2 px-lg-4 px-3">
                                                                     <span class="d-block"><span>+91-9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                                 </a>
-                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-100 my-3 px-lg-4 py-2 px-3 ms-md-2">
+                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3 ms-md-2">
                                                                     <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                                 </a>
                                                             </div>
@@ -213,7 +213,7 @@
                                                     <div class="col-auto hero_title1 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-30 fs-sm-30 fs-25 text-white">eCommerce </div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center text-center">
-                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-30 fw-100 text-light">Development </div>
+                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-30 fw-l text-light">Development </div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
                                                     <div class="col-auto py-lg-1 py-2">
@@ -228,10 +228,10 @@
                                                     <div class="col-auto pt-lg-3 pt-0 hero_slider_btn p-0">
                                                         <div class="row justify-content-md-start justify-content-center">
                                                             <div class="col-auto text-center text-md-left pb-5">
-                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-100 my-3 py-2 px-lg-4 px-3">
+                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-m my-3 py-2 px-lg-4 px-3">
                                                                     <span class="d-block"><span>+91-9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                                 </a>
-                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-100 my-3 px-lg-4 py-2 px-3 ms-md-2">
+                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3 ms-md-2">
                                                                     <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                                 </a>
                                                             </div>
@@ -267,7 +267,7 @@
                                                     <div class="col-auto hero_title1 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-30 fs-sm-30 fs-30 text-white">MLM Software</div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
-                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-30 fw-100 text-light">Development</div>
+                                                    <div class="col-auto hero_title2 fs-xxl-60 fs-xl-60 fs-lg-60 fs-md-40 fs-sm-40 fs-30 fw-l text-light">Development</div>
                                                 </div>
                                                 <div class="row justify-content-md-start justify-content-center">
                                                     <div class="col-auto py-lg-1 py-2">
@@ -283,10 +283,10 @@
                                                     <div class="col-auto pt-lg-3 pt-0 hero_slider_btn p-0">
                                                         <div class="row justify-content-md-start justify-content-center">
                                                             <div class="col-auto text-center text-md-left pb-5">
-                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-100 my-3 py-2 px-lg-4 px-3">
+                                                            <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-lg-14 fs-12 fw-m my-3 py-2 px-lg-4 px-3">
                                                                     <span class="d-block"><span>+91-9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                                                                 </a>
-                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-100 my-3 px-lg-4 py-2 px-3 ms-md-2">
+                                                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3 ms-md-2">
                                                                     <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                                                 </a>
                                                             </div>
@@ -336,31 +336,31 @@
                                 <div class="col-sm-3 col-6">
                                     <div class="countBox" style="--d: 0s">
                                         <div class="aboutNumberText">1200+</div>
-                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-600">Successful <br>Projects</div>
+                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-m">Successful <br>Projects</div>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-6">
                                     <div class="countBox" style="--d: 1s">
                                         <div class="aboutNumberText">98%</div>
-                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-600">Success <br>Ratio</div>
+                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-m">Success <br>Ratio</div>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-6">
                                     <div class="countBox" style="--d: 2s">
                                         <div class="aboutNumberText">100+</div>
-                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-600">Team <br>Members</div>
+                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-m">Team <br>Members</div>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-6">
                                     <div class="countBox" style="--d: 3s">
                                         <div class="aboutNumberText">8+</div>
-                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-600">Years in <br>Industry</div>
+                                        <div class="fs-xxl-16 fs-xl-15 fs-lg-14 fs-sm-13 fs-12 lh-normal text-dark fw-m">Years in <br>Industry</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-auto text-center text-md-left px-0 mt-4">
-                            <a href="#portfolioTarget" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-600 my-3 px-lg-4 py-2 px-3 ms-md-2">
+                            <a href="#portfolioTarget" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3 ms-md-2">
                                 <span class="d-block"><span>Our Recent Work</span><i class="imgr ms-2 img-long-arrow-right  position-relative bottom-n2px"></i></span>
                             </a>
                         </div>
@@ -372,25 +372,25 @@
                         <div class="col-6">
                             <div class="countBox" style="--d: 0s">
                                 <div class="aboutNumberText">1200+</div>
-                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15 lh-normal text-dark fw-600">Successful <br>Projects</div>
+                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15 lh-normal text-dark fw-m">Successful <br>Projects</div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="countBox" style="--d: 1s">
                                 <div class="aboutNumberText">98%</div>
-                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15lh-norma text-dark fw-600">Success <br>Ratio</div>
+                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15lh-norma text-dark fw-m">Success <br>Ratio</div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="countBox" style="--d: 1s">
                                 <div class="aboutNumberText">100+</div>
-                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15 lh-normal text-dark fw-600">Team <br>Members</div>
+                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15 lh-normal text-dark fw-m">Team <br>Members</div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="countBox" style="--d: 0s">
                                 <div class="aboutNumberText">8+</div>
-                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15 lh-normal text-dark fw-600">Years in <br>Industry</div>
+                                <div class="fs-xxl-18 fs-xl-17 fs-lg-16 fs-15 lh-normal text-dark fw-m">Years in <br>Industry</div>
                             </div>
                         </div>
                     </div> --}}
@@ -456,7 +456,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -480,7 +480,7 @@
                                 <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                     <div class="row">
                                         <h4 class="d-none invisible">Website Designing</h4>
-                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-600 text-md-start text-center">Website Designing</div>
+                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-md-start text-center">Website Designing</div>
                                         <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">IMG is a growing and the most trusted company delivering website designing services. Transforming your designing idea into full fledged reality made us one of the most reputed <a href="javascript:;" class="text-decoration-none text-dark fw-600">website designing company in Jaipur</a> and allowed us to stand out from others.</div>
                                         <div class="col-12 py-3">
                                             <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
@@ -519,7 +519,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -543,7 +543,7 @@
                                 <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                     <div class="row">
                                         <h4 class="d-none invisible">Web Development</h4>
-                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-600 text-md-start text-center">Web Development</div>
+                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-m text-md-start text-center">Web Development</div>
                                         <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">We transform your website into effective communication channels that deliver the best results and drive online growth. We provide web development solutions within the expected timeframe and budget. We build customized, clear, and clean websites that create lasting impressions interactively.</div>
                                         <div class="col-12 py-3">
                                             <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
@@ -574,7 +574,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -598,7 +598,7 @@
                                 <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                     <div class="row">
                                         <h4 class="d-none invisible">Custom ERP Development</h4>
-                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-600 text-md-start text-center">Custom ERP Development</div>
+                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-md-start text-center">Custom ERP Development</div>
                                         <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">We specialize in developing customized ERP solutions that meet the unique needs of your business. Contact us today to learn more about our services and how we can help streamline your operations and improve your bottom line.</div>
                                         <div class="col-12 py-3">
                                             <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
@@ -629,7 +629,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -653,7 +653,7 @@
                                 <div class="col-lg-6 col-md-5 col-12 leftPart p-xxl-4 p-2">
                                     <div class="row">
                                         <h4 class="d-none invisible">MVP Startups</h4>
-                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-600 text-md-start text-center">MVP Startups</div>
+                                        <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme1 fw-m text-md-start text-center">MVP Startups</div>
                                         <div class="col-12 fs-md-17 fs-15 my-md-4 mb-md-4 mb-1 mt-1 serviceContent text-md-start text-center">We specialize in helping startups launch their products quickly and efficiently, with a focus on validating ideas and minimizing risk. Contact us today to learn more about our services and how we can help bring your idea to life.</div>
                                         {{-- <div class="col-12 py-3">
                                             <div class="row row-cols-lg-2 g-3 row-cols-md-1 row-cols-2">
@@ -684,7 +684,7 @@
                                             </div>
                                         </div> --}}
                                         <div class="col-12 text-center text-md-start pt-3 pb-3 pb-md-0">
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>Talk to our Experts</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -735,10 +735,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">Food Delivery app</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Food Delivery app</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Food Delivery app</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">We design mobile applications that enable users to order food from local restaurants.</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -754,10 +754,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">Grocery App</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Grocery App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Grocery App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">Leverage the best mobile Grocery App Development using the most robust and latest technology you've ever come across.</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -773,10 +773,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">Medicine Delivery App</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Medicine Delivery App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Medicine Delivery App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">Get the best medicine delivery app and evaluate your business to a height.</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -792,10 +792,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">Taxi Booking App</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Taxi Booking App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Taxi Booking App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">Get user-friendly, feature-rich Uber like Taxi Booking Apps with 100% customization.</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -811,10 +811,10 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Home Services App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Home Services App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quibusdam praesentium sapiente unde illum laudantium saepe odio eveniet adipisci dolore. Necessitatibus quisquam sit rerum omnis, quod architecto nostrum laudantium cupiditate!</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -831,10 +831,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">eLearning App</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">eLearning App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">eLearning App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">eLearning solutions that redefine the way how education is imparted</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -850,10 +850,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">Online Classes App</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Online Classes App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Online Classes App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">Taking Online Examination to the Next Level with Customized App Solutions</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -870,10 +870,10 @@
                                             <div class="col-12">
                                                 <div class="row animateDetailBox">
                                                     <h4 class="d-none invisible">Lecture Notes Selling App</h4>
-                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-600 lh-normal text-center text-md-start">Lecture Notes Selling App</div>
+                                                    <div class="col-12 animateHeading fs-md-20 fs-sm-20 fs-18 fw-m lh-normal text-center text-md-start">Lecture Notes Selling App</div>
                                                     <div class="col-12 animateSubHeading fs-lg-15 fs-md-15 fs-sm-15 fs-14 text-dark my-1 text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quibusdam praesentium sapiente unde illum laudantium saepe odio eveniet adipisci dolore. Necessitatibus quisquam sit rerum omnis, quod architecto nostrum laudantium cupiditate!</div>
                                                     <div class="col-12 text-md-start text-center mt-2">
-                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-600 py-xxl-2 py-1 px-3">
+                                                        <button class="btn btn-theme1 fs-xxl-12 fs-11 fw-m py-xxl-2 py-1 px-3">
                                                             <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                         </button>
                                                     </div>
@@ -885,7 +885,7 @@
                             </div>
                         </div>
                         <div class="col-12 text-lg-start text-center d-lg-none mt-4">
-                            <a href="{{asset('/mobile-app-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                            <a href="{{asset('/mobile-app-development.php')}}" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                 <span class="d-block"><span>Explore More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -906,15 +906,15 @@
                         <div class="col-xl-9 col-12 mx-auto">
                             <div class="row">
                                 <h3 class="col-12 d-none invisible">Let’s turn your business idea into reality</h3>
-                                <div class="col-12 fs-lg-38 fs-md-34 fs-sm-28 fs-20 fw-600 text-white mb-4 text-center">
+                                <div class="col-12 fs-lg-38 fs-md-34 fs-sm-28 fs-20 fw-m text-white mb-4 text-center">
                                     Let’s turn your business idea into reality
                                 </div>
-                                <div class="col-12 text-center fs-lg-20 fs-md-18 fs-sm-16 fs-14 fw-500 text-white mb-5">
+                                <div class="col-12 text-center fs-lg-20 fs-md-18 fs-sm-16 fs-14 fw-l text-white mb-5">
                                     Do you want to experience the best in class quality mobile apps? Send us your inquiry and
                                     one of our executives will catch you up in no time by Call, Email or Skype.
                                 </div>
                                 <div class="col-12 text-center">
-                                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                         <span class="d-block"><span>Book A Discovery Call</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                     </a>
                                 </div>
@@ -961,7 +961,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/fantacy-sports.webp" class="w-100 h-auto" alt="Fantasy-Sports">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Fantasy Sports
                                     </div>
                                 </div>
@@ -971,7 +971,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/fantacy-sports.webp" class="w-100 h-auto" alt="Fantasy-Sports">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Fantasy Sports
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -989,7 +989,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/health-care.webp" class="w-100 h-auto" alt="Healthcare">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Healthcare
                                     </div>
                                 </div>
@@ -999,7 +999,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/health-care.webp" class="w-100 h-auto" alt="Healthcare">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Healthcare
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1017,7 +1017,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/banking-and-finance.webp" class="w-100 h-auto" alt="Banking-and-Finance">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Banking and Finance
                                     </div>
                                 </div>
@@ -1027,7 +1027,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/banking-and-finance.webp" class="w-100 h-auto" alt="Banking-and-Finance">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Banking and Finance
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1045,7 +1045,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/travel-and-tourism.webp" class="w-100 h-auto" alt="Travel-and-Tourism">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Travel and Tourism
                                     </div>
                                 </div>
@@ -1055,7 +1055,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/travel-and-tourism.webp" class="w-100 h-auto" alt="Travel-and-Tourism">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Travel and Tourism
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1073,7 +1073,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/edtech-solution.webp" class="w-100 h-auto" alt="Edtech-Solution">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Edtech Solution
                                     </div>
                                 </div>
@@ -1083,7 +1083,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/edtech-solution.webp" class="w-100 h-auto" alt="Edtech-Solution">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Edtech Solution
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1101,7 +1101,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/logistic-services-app.webp" class="w-100 h-auto" alt="Logistic-Services-Apps">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Logistic Services Apps
                                     </div>
                                 </div>
@@ -1111,7 +1111,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/logistic-services-app.webp" class="w-100 h-auto" alt="Logistic-Services-Apps">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Logistic Services Apps
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1129,7 +1129,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/media-and-entertainment.webp" class="w-100 h-auto" alt="Media-and-Entertainment">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Media and Entertainment
                                     </div>
                                 </div>
@@ -1139,7 +1139,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/media-and-entertainment.webp" class="w-100 h-auto" alt="Media-and-Entertainment">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Media and Entertainment
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1157,7 +1157,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/retails-and-ecommerce.webp" class="w-100 h-auto" alt="Retails-and-Ecommerce-Apps">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Retails and Ecommerce Apps
                                     </div>
                                 </div>
@@ -1167,7 +1167,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/retails-and-ecommerce.webp" class="w-100 h-auto" alt="Retails-and-Ecommerce-Apps">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                        Retails and Ecommerce Apps
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1185,7 +1185,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/social-apps.webp" class="w-100 h-auto" alt="Social-Apps">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Social Apps
                                     </div>
                                 </div>
@@ -1195,7 +1195,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/social-apps.webp" class="w-100 h-auto" alt="Social-Apps">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Social Apps
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1213,7 +1213,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/auto-mobile.webp" class="w-100 h-auto" alt="Automobile">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-muted pt-2 fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-muted pt-2 fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Automobile
                                     </div>
                                 </div>
@@ -1223,7 +1223,7 @@
                                             <img width="54" height="54" src="{{asset('/public')}}/assets/img/new-industries/auto-mobile.webp" class="w-100 h-auto" alt="Automobile">
                                         </div>
                                     </div>
-                                    <div class="col-12 text-white pt-2 text-white fw-600 fs-xl-17 fs-lg-15 fs-14 text-center">
+                                    <div class="col-12 text-white pt-2 text-white fw-m fs-xl-17 fs-lg-15 fs-14 text-center">
                                         Automobile
                                     </div>
                                     <div class="col-12 fs-12 pt-2 text-white text-center">
@@ -1256,17 +1256,17 @@
                                     <div class="col-auto text-center">
                                         <h3 class="d-none invisible">Hire Remote Developer</h3>
                                         <div class="heading fs-md-14 fs-12 left d-none d-md-block">
-                                            <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20 fw-600 lh-1 pt-0"> Hire Remote <br><b class="fs-xxl-56 fs-xl-46 fs-md-36 fs-26 fw-600 lh-sm">Developer</b></span>
+                                            <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20 fw-m lh-1 pt-0"> Hire Remote <br><b class="fs-xxl-56 fs-xl-46 fs-md-36 fs-26 fw-m lh-sm">Developer</b></span>
                                         </div>
                                         <div class="heading fs-md-14 fs-12 text-center d-md-none">
-                                            <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20 fw-600 lh-1 pt-0"> Hire Remote <b class="fs-xxl-56 fs-xl-46 fs-md-36 fs-26 fw-600 lh-sm">Developer</b></span>
+                                            <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20 fw-m lh-1 pt-0"> Hire Remote <b class="fs-xxl-56 fs-xl-46 fs-md-36 fs-26 fw-m lh-sm">Developer</b></span>
                                         </div>
                                     </div>
                                     <div class="col-auto pt-4 fs-xl-18 fs-md-16 fs-14 text-dark text-md-start text-center me-lg-5 pe-lg-5">We are offering a dedicated team model that consists of developers and team members who hold the best industry experience along with strong technical knowledge and expertise.</div>
                                 </div>
                             </div>
                             {{-- <div class="col-md-auto col-12 text-center d-none d-md-block">
-                                <a href="javascript:;" class="btn btn-theme1 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                <a href="javascript:;" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                     <span class="d-block"><span>let's Connect</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                 </a>
                             </div> --}}
@@ -1280,7 +1280,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/android.webp" alt="Hire-Android-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire Android Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire Android Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1290,7 +1290,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/java.webp" alt="Hire-Java-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire Java Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire Java Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1300,7 +1300,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/node-js.webp" alt="Hire-Node.JS-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire Node.JS Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire Node.JS Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1310,7 +1310,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/react-native.webp" alt="Hire-React-Native-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire React Native Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire React Native Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1320,7 +1320,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/flutter.webp" alt="Hire-Flutter-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire Flutter Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire Flutter Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1330,7 +1330,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/reactsvg.webp" alt="Hire-React.JS-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire React.JS Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire React.JS Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1340,7 +1340,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/webdesign.webp" alt="Hire-Web-Designer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600"> Hire Web Designer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m"> Hire Web Designer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1350,7 +1350,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/Php.webp" alt="Hire-php-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire php Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire php Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1360,7 +1360,7 @@
                                         <div class="imgOuter">
                                             <img width="50" height="67" src="{{asset('/public')}}/assets/img/new-hire-developers/angular.webp" alt="Hire-Angular-Developer">
                                         </div>
-                                        <strong class="text-dark fs-15 d-block fw-600">Hire Angular Developer </strong>
+                                        <strong class="text-dark fs-15 d-block fw-m">Hire Angular Developer </strong>
                                     </div>
                                 </a>
                             </div>
@@ -1368,17 +1368,17 @@
                                 <a href="{{ asset('offshore-web-development-india.php') }}" class="card customBg p-1">
                                     <div class="card-body d-flex align-items-center py-4 justify-content-center flex-column text-white">
                                         <i class="imgd fs-md-25 fs-20 img-long-arrow-right position-relative bottom-n2px ms-2 mb-2"></i>
-                                        <strong class="fs-md-15 fs-14 d-block text-uppercase text-center fw-600">Let's Connect</strong>
+                                        <strong class="fs-md-15 fs-14 d-block text-uppercase text-center fw-m">Let's Connect</strong>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="row flex-column">
-                            {{-- <div class="col fs-xl-18 fs-md-16 fs-14 text-dark fw-600 mt-4 text-center text-md-start">
+                            {{-- <div class="col fs-xl-18 fs-md-16 fs-14 text-dark fw-l mt-4 text-center text-md-start">
                                 We are offering a dedicated team model that consists of developers and team members who hold the best industry experience along with strong technical knowledge and expertise.
                             </div> --}}
                             {{-- <div class="col text-center mt-4 d-block d-md-none">
-                                <a href="javascript:;" class="btn btn-theme1 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                <a href="javascript:;" class="btn btn-theme1 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                     <span class="d-block"><span>let's contact</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                 </a>
                             </div> --}}
@@ -1450,12 +1450,12 @@
                                         <div class="col-lg-5 col-12 mb-4 mb-lg-0 leftSide">
                                             <div class="row">
                                                 <h4 class="d-none invisible">AR/VR App Development</h4>
-                                                <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-600 text-lg-start text-center">AR/VR App Development</div>
+                                                <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-lg-start text-center">AR/VR App Development</div>
                                                 <div class="col-12 fs-lg-17 fs-md-16 fs-14 my-md-4 mb-2 mt-1 service_content text-lg-start text-center">
                                                     Do you want to expand your business with innovative AR/VR development services? As a leading augmented reality development company, that merges experience with creativity to deliver highly-immersive applications for your brand which aim to create an inexorable whirl in the market - and we do this by offering the following set of AR/VR app development services.
                                                 </div>
                                                 <div class="col-12 pt-4 d-none d-lg-block">
-                                                    <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                                    <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                         <span class="d-block"><span>View More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                     </a>
                                                 </div>
@@ -1475,7 +1475,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 mt-5 text-center d-lg-none">
-                                            <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>View More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -1486,12 +1486,12 @@
                                         <div class="col-lg-5 col-12 mb-4 mb-lg-0 leftSide">
                                             <div class="row">
                                                 <h4 class="d-none invisible">Wearable App Development</h4>
-                                                <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-600 text-lg-start text-center">Wearable App Development</div>
+                                                <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-lg-start text-center">Wearable App Development</div>
                                                 <div class="col-12 fs-lg-17 fs-md-16 fs-14 my-md-4 mb-2 mt-1 service_content text-lg-start text-center">
                                                     We perform end-to-end app development for wearable devices. Right from the creation of robust backend infrastructure to the integration of APIs bringing multiple applications and features on a single platform, we specialize in creating a wearable app that doesn’t let wearable device limitations get in the way of experience.
                                                 </div>
                                                 <div class="col-12 pt-4 d-none d-lg-block">
-                                                    <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                                    <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                         <span class="d-block"><span>View More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                     </a>
                                                 </div>
@@ -1511,7 +1511,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 mt-5 text-center d-lg-none">
-                                            <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>View More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -1522,12 +1522,12 @@
                                         <div class="col-lg-5 col-12 mb-4 mb-lg-0 leftSide">
                                             <div class="row">
                                                 <h4 class="d-none invisible">IoT App Development</h4>
-                                                <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-600 text-lg-start text-center">IoT App Development</div>
+                                                <div class="col-12 fs-md-22 fs-sm-20 fs-18 text-theme3 fw-m text-lg-start text-center">IoT App Development</div>
                                                 <div class="col-12 fs-lg-17 fs-md-16 fs-14 my-md-4 mb-0 mt-1 service_content text-lg-start text-center">
                                                     IoT app development is a whole different ballgame as compared to traditional application development. That’s why our services in this field keep in mind the intricacies of an IoT ecosystem, as well as the changing hardware and software requirements that enable a seamless UX for IoT applications. We build cloud based, high speed IoT solutions that leverage the tremendous power of our client’s data.
                                                 </div>
                                                 <div class="col-12 pt-4 d-none d-lg-block">
-                                                    <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                                    <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                         <span class="d-block"><span>View More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                     </a>
                                                 </div>
@@ -1547,7 +1547,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 mt-5 text-center d-lg-none">
-                                            <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                                            <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                                                 <span class="d-block"><span>View More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                             </a>
                                         </div>
@@ -1581,7 +1581,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-beliver11.webp"  alt="beliver11"  >
                             <div class="portfolioBoxContent">
                                 <h4 class="d-none invisible">Beliver11</h4>
-                                <div class="h5 text-white fw-600">Beliver11</div>
+                                <div class="h5 text-white fw-m">Beliver11</div>
                             <p>Fantasy Sports App</p>
                         </div>
                     </div>
@@ -1593,7 +1593,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-EcoCosmo-Project.webp" alt="EcoCosmo-Project">
                         <div class="portfolioBoxContent">
                             <h4 class="d-none invisible">EcoCosmo</h4>
-                            <div class="h5 text-white fw-600">EcoCosmo</div>
+                            <div class="h5 text-white fw-m">EcoCosmo</div>
                             <p>Tracking App</p>
                         </div>
                     </div>
@@ -1605,7 +1605,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-myfab11.webp"  alt="MyFab11">
                             <div class="portfolioBoxContent">
                                 <h4 class="d-none invisible">MyFab11 App</h4>
-                            <div class="h5 text-white fw-600">MyFab11 App </div>
+                            <div class="h5 text-white fw-m">MyFab11 App </div>
                             <p>Fantasy Sports App</p>
                         </div>
                     </div>
@@ -1617,7 +1617,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-Health-app.webp" alt="I-KNOW">
                             <div class="portfolioBoxContent">
                                 <h4 class="d-none invisible">I-KNOW</h4>
-                            <div class="h5 text-white fw-600">I-KNOW</div>
+                            <div class="h5 text-white fw-m">I-KNOW</div>
                             <p>Health App</p>
                         </div>
                     </div>
@@ -1630,7 +1630,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-royal11-project.webp"  alt="royal11-project">
                         <div class="portfolioBoxContent">
                             <h4 class="d-none invisible">Royal 11</h4>
-                            <div class="h5 text-white fw-600">Royal 11 </div>
+                            <div class="h5 text-white fw-m">Royal 11 </div>
                             <p>Fantasy Sports App</p>
                         </div>
                     </div>
@@ -1642,7 +1642,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-now-vue.webp" alt="now-vue">
                             <div class="portfolioBoxContent">
                                 <h4 class="d-none invisible">Now Vue</h4>
-                            <div class="h5 text-white fw-600">Now Vue </div>
+                            <div class="h5 text-white fw-m">Now Vue </div>
                             <p>Guest Check In App</p>
                         </div>
                     </div>
@@ -1654,7 +1654,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-My-Pitch.webp" alt="My-Pitch">
                                 <div class="portfolioBoxContent">
                                     <h4 class="d-none invisible">My Pitch </h4>
-                            <div class="h5 text-white fw-600">My Pitch </div>
+                            <div class="h5 text-white fw-m">My Pitch </div>
                             <p>Fantasy Sports App</p>
                         </div>
                     </div>
@@ -1666,7 +1666,7 @@
                         data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-ipay.webp"  alt="ipay">
                                 <div class="portfolioBoxContent">
                                     <h4 class="d-none invisible">iPay</h4>
-                            <div class="h5 text-white fw-600">iPay</div>
+                            <div class="h5 text-white fw-m">iPay</div>
                             <p>Recharge App</p>
                         </div>
                     </div>
@@ -1679,7 +1679,7 @@
                             data-src="{{asset('/public')}}/assets/img/portfolio-section/xl-destist-online.webp" alt="destist-online">
                             <div class="portfolioBoxContent">
                                 <h4 class="d-none invisible">Dentist Online</h4>
-                            <div class="h5 text-white fw-600">Dentist Online</div>
+                            <div class="h5 text-white fw-m">Dentist Online</div>
                             <p>Health App</p>
                         </div>
                     </div>
@@ -1707,7 +1707,7 @@
                                     </div>
                                     <div class="col-12 cardTextSection p-lg-4 p-3">
                                         <div class="row mx-0">
-                                            <div class="col-12 fs-lg-20 fs-18 fw-600 text-center text-dark">
+                                            <div class="col-12 fs-lg-20 fs-18 fw-m text-center text-dark">
                                                 MyFab11
                                             </div>
                                             <div class="col-12 px-0 pt-lg-3 pt-2">
@@ -1717,7 +1717,7 @@
                                                             <div class="col-auto iconOuter p-0">
                                                                 <img src="{{asset('/public')}}/assets/img/new-case-study/tagiconandroid.webp" class="h-auto" width="19" height="23" alt="Android">
                                                             </div>
-                                                            <div class="col-auto fs-lg-16 fs-15 fw-600 cardBtnText">
+                                                            <div class="col-auto fs-lg-16 fs-15 fw-m cardBtnText">
                                                                 Android
                                                             </div>
                                                         </div>
@@ -1727,7 +1727,7 @@
                                                             <div class="col-auto iconOuter p-0">
                                                                 <img src="{{asset('/public')}}/assets/img/new-case-study/tagiconwebsite.webp" width="19" height="20" alt="Website">
                                                             </div>
-                                                            <div class="col-auto fs-lg-16 fs-15 fw-600 text-theme1">
+                                                            <div class="col-auto fs-lg-16 fs-15 fw-m text-theme1">
                                                                 Website
                                                             </div>
                                                         </div>
@@ -1747,7 +1747,7 @@
                                     </div>
                                     <div class="col-12 cardTextSection p-lg-4 p-3">
                                         <div class="row mx-0">
-                                            <div class="col-12 fs-lg-20 fs-18 fw-600 text-center text-dark">
+                                            <div class="col-12 fs-lg-20 fs-18 fw-m text-center text-dark">
                                                 Propira
                                             </div>
                                             <div class="col-12 px-0 pt-lg-3 pt-2">
@@ -1757,7 +1757,7 @@
                                                             <div class="col-auto iconOuter">
                                                                 <img src="{{asset('/public')}}/assets/img/new-case-study/tagiconandroid.webp" width="12" height="20" alt="Android">
                                                             </div>
-                                                            <div class="col-auto fs-lg-16 fs-15 fw-600 cardBtnText">
+                                                            <div class="col-auto fs-lg-16 fs-15 fw-m cardBtnText">
                                                                 Android
                                                             </div>
                                                         </div>
@@ -1767,7 +1767,7 @@
                                                             <div class="col-auto iconOuter p-0">
                                                                 <img src="{{asset('/public')}}/assets/img/new-case-study/tagiconwebsite.webp" width="19" height="20" alt="Website">
                                                             </div>
-                                                            <div class="col-auto fs-lg-16 fs-15 fw-600 text-theme1">
+                                                            <div class="col-auto fs-lg-16 fs-15 fw-m text-theme1">
                                                                 Website
                                                             </div>
                                                         </div>
@@ -1777,7 +1777,7 @@
                                                             <div class="col-auto iconOuter">
                                                                 <img src="{{asset('/public')}}/assets/img/new-case-study/tagiconios.webp" alt="iOS">
                                                             </div>
-                                                            <div class="col-auto fs-lg-16 fs-15 fw-600 text-dark">
+                                                            <div class="col-auto fs-lg-16 fs-15 fw-m text-dark">
                                                                 iOS
                                                             </div>
                                                         </div>
@@ -1792,7 +1792,7 @@
                     </div>
                 </div>
                 {{-- <div class="col-12 text-center pt-md-5 pt-4 pb-2">
-                    <a href="javascript:;" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-1 px-4">
+                    <a href="javascript:;" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-4">
                         <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div> --}}
@@ -1813,7 +1813,7 @@
                                 <div class="col-12 px-0 heading fs-md-14 fs-12 left text-dark text-center text-xl-start"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Our Client  <br class="d-sm-none d-xl-block"><b> Love Us?</b></span></div>
                                 <div class="col-12 fs-md-17 fs-sm-15 fs-14 text-dark px-0 py-3 text-center text-xl-start">Our global clients are elemental to our success story. We pride ourselves on exceptional service & retention. No matter how small or big your project, we assure you the highest level of dedication to deliver upon your expectations. See what our clients have to say about working with team IMG Global Infotech.                                </div>
                                 <div class="col-xl-auto text-center text-xl-start px-0 d-none d-xl-block">
-                                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-600 my-3 px-lg-4 py-2 px-3">
+                                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3">
                                         <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                                     </a>
                                 </div>
@@ -1834,9 +1834,9 @@
                                         </div>
                                         <div class="col">
                                             <div class="row bg-white mx-0">
-                                                <div class="col-12 userName fs-xl-22 fs-lg-18 fs-16 text-theme3 fw-600">Mr. Arpit Jain</div>
+                                                <div class="col-12 userName fs-xl-22 fs-lg-18 fs-16 text-theme3 fw-m">Mr. Arpit Jain</div>
                                                 <div class="col-12 userDes fs-xl-17 fs-lg-15  fs-13 text-dark">Samarpan International</div>
-                                                <div class="col-12 userLocation fs-xl-17 fs-lg-15  fs-13 text-dark fw-600 d-flex align-items-center">
+                                                <div class="col-12 userLocation fs-xl-17 fs-lg-15  fs-13 text-dark fw-l d-flex align-items-center">
                                                     <img src="{{asset('/public')}}/assets/img/new-testimonial/locationicon.webp" class="h-16px w-11px me-1" width="11" height="16" alt="location-icon">
                                                     <span>India</span>
                                                 </div>
@@ -1854,9 +1854,9 @@
                                         </div>
                                         <div class="col">
                                             <div class="row bg-white mx-0">
-                                                <div class="col-12 userName fs-xl-22 fs-lg-18 fs-16 text-theme3 fw-600">Dr. Subhash Chandra</div>
+                                                <div class="col-12 userName fs-xl-22 fs-lg-18 fs-16 text-theme3 fw-m">Dr. Subhash Chandra</div>
                                                 <div class="col-12 userDes fs-xl-17 fs-lg-15  fs-13 text-dark">Mount Litera Zee School</div>
-                                                <div class="col-12 userLocation fs-xl-17 fs-lg-15 fs-13 text-dark fw-600 d-flex align-items-center">
+                                                <div class="col-12 userLocation fs-xl-17 fs-lg-15 fs-13 text-dark fw-l d-flex align-items-center">
                                                     <img src="{{asset('/public')}}/assets/img/new-testimonial/locationicon.webp" class="h-16px w-11px me-1" width="11" height="16" alt="location-icon">
                                                     <span>India</span>
                                                 </div>
@@ -1874,9 +1874,9 @@
                                         </div>
                                         <div class="col">
                                             <div class="row bg-white mx-0">
-                                                <div class="col-12 userName fs-xl-22 fs-lg-18 fs-16 text-theme3 fw-600">Mr. Sanjay Sharma</div>
+                                                <div class="col-12 userName fs-xl-22 fs-lg-18 fs-16 text-theme3 fw-m">Mr. Sanjay Sharma</div>
                                                 <div class="col-12 userDes fs-xl-17 fs-lg-15  fs-13 text-dark">JPRC Hospital</div>
-                                                <div class="col-12 userLocation fs-xl-17 fs-lg-15 fs-13 text-dark fw-600 d-flex align-items-center">
+                                                <div class="col-12 userLocation fs-xl-17 fs-lg-15 fs-13 text-dark fw-l d-flex align-items-center">
                                                     <img src="{{asset('/public')}}/assets/img/new-testimonial/locationicon.webp" class="h-16px w-11px me-1" width="11" height="16" alt="location-icon">
                                                     <span>India</span>
                                                 </div>
@@ -1888,7 +1888,7 @@
                             </div>
                         </div>
                         <div class="col-xl-auto text-center text-xl-start px-0 d-xl-none mt-2">
-                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-600 my-3 px-lg-4 py-2 px-3">
+                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-lg-14 fs-12 fw-m my-3 px-lg-4 py-2 px-3">
                                 <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                             </a>
                         </div>
@@ -1908,7 +1908,7 @@
                         <h3 class="d-none invisible">Latest Blogs</h3>
                         <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -1922,181 +1922,248 @@
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
-
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
-                                                                   <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">Top Custom Software Development Companies</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 We have brought this comprehensive list of the best custom software development companies that have earned quite a reputation in the market for consistently delivering top-notch solutions.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
+                                                           </div>
+                                                        </a>
+
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/develop-hotel-booking-app-cost-features.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/develop-hotel-booking-app-cost-features.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">How To Develop Hotel Booking App: Cost, Features (2023)s</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                Apps for booking hotels are meticulously created to assist customers in booking hotels, hostels, resorts, and other accommodations from anywhere with a few clicks.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/innovative-healthcare-business-ideas.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/innovative-healthcare-business-ideas.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                Explore innovative startup opportunities for aspiring entrepreneurs looking to make a meaningful impact in healthcare.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-a-flutter-app" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-Much-Does-It-Cost-To-Develop-A-Flutter-App.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-Much-Does-It-Cost-To-Develop-A-Flutter-App.webp" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
+                                                                </div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">How Much Does It Cost To Develop A Flutter App?</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                Explore the costs involved in developing a Flutter app and make informed decisions for your mobile application project.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
                                                            </div>
                                                         </a> 
 
-                                                        <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-a-flutter-app" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                        <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-a-mewe-app" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-to-Develop-A-Social-Media-App-Like-MeWe.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-to-Develop-A-Social-Media-App-Like-MeWe.webp" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
-                                                                   <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">How To Develop A Social Media App Like MeWe?</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                In the widely expanded world of social media, every new app stands only half of the chance to survive. But if there is an app like MeWe with unique features and strong privacy policies, the chances of survival increase automatically.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
                                                            </div>
                                                         </a> 
 
-
+<!-- 
                                                      <a href="https://www.imgglobalinfotech.com/blog/doctor-on-demand-mobile-application-development-cost-and-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                           <div class="row mx-1 py-3">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
-                                                                   <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">Top Custom Software Development Companies</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 We have brought this comprehensive list of the best custom software development companies that have earned quite a reputation in the market for consistently delivering top-notch solutions.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
                                                            </div>
                                                      </a> 
 
                                                      <a href="https://www.imgglobalinfotech.com/blog/10-best-real-estate-application-for-buyers-sellers" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                           <div class="row mx-1 py-3">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
-                                                                   <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
-                                                               </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">Top Custom Software Development Companies</div>
+                                                                <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                 We have brought this comprehensive list of the best custom software development companies that have earned quite a reputation in the market for consistently delivering top-notch solutions.
+                                                              </div>
+                                                              <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                        <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                    <span class="text-theme1 fw-m">Jun 20, 2023</span>
+                                                            </div>
                                                            </div>
-                                                     </a> 
+                                                     </a>  -->
 
-                                                    <a href="https://www.imgglobalinfotech.com/blog/fuel-delivery-mobile-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                    <!-- <a href="https://www.imgglobalinfotech.com/blog/fuel-delivery-mobile-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
                                                            </div>
                                                      </a> 
 
                                                 <a href="https://www.imgglobalinfotech.com/blog/top-15-celebrity-look-alike-apps" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                           <div class="row mx-1 py-3">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
                                                            </div>
                                                      </a> 
 
 
 
                                                     <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-food-delivery-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                           <div class="row mx-1 py-3 ">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
                                                            </div>
                                                      </a> 
 
                                                   <a href="https://www.imgglobalinfotech.com/blog/how-to-build-a-mobile-app-from-scratch" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                           <div class="row mx-1 py-3 bg-white">
+                                                           <div class="row mx-1 py-3 ">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
                                                            </div>
                                                      </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                            <div class="row mx-1 py-3 bg-white">
+                                                            <div class="row mx-1 py-3 ">
                                                                 <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                  <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
                                                                  </div>
-                                                                <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                     <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
+                                                                    <span> By Dipti Singhal</span>
                                                                 </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                             </div>
                                                       </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                       <div class="row mx-1 py-3 bg-white">
+                                                       <div class="row mx-1 py-3 ">
                                                           <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                           <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
                                                           </div>
-                                                          <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
                                                              <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
+                                                             <span> By Dipti Singhal</span>
                                                           </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                           </div>
                                                        </div>
                                                     </a>  
 
                                                      <a href="https://www.imgglobalinfotech.com/blog/readymade-fantasy-cricket-app-development-cost" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                        <div class="row mx-1 py-3 bg-white rounded">
+                                                        <div class="row mx-1 py-3  rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
                                                             </div>
                                                         </div>
                                                     </a>
 
                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                        <div class="row mx-1 py-3 bg-white rounded">
+                                                        <div class="row mx-1 py-3  rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-600 py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
                                                             </div>
                                                         </div>
-                                                    </a>
-
-                                                  
-                                                </div>
+                                                    </a> -->
+                                               </div>
                                             </div> 
                                         </div>
                                     </div>                  
@@ -2106,7 +2173,7 @@
                     </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-600 py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>
@@ -2141,7 +2208,7 @@
                                             <div class="py-md-2 py-2 col-md-6 ">
                                                 <div class="form-floating">
                                                     <input type="text" name="contactname" class="form-control rounded-0 fs-md-16 fs-14" id="contactname" placeholder="Enter Full Name" required>
-                                                    <label class="fw-600 fs-md-16 fs-14" for="contactname"> Name <label class="text-danger">* </label></label>
+                                                    <label class="fw-m fs-md-16 fs-14" for="contactname"> Name <label class="text-danger">* </label></label>
                                                     <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                                                 </div>
                                             </div>
@@ -2154,7 +2221,7 @@
                                                     <div class="col-md-9 col-9 ps-0">
                                                         <div class="form-floating">
                                                           <input type="tel" name="contactnumber" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                            <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                            <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                             <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                                         </div>
                                                     </div>
@@ -2288,7 +2355,7 @@
                                             <div class="col-8 ps-0">
                                             <div class="form-floating">
                                                 <input type="tel" name="contactnumber" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 " id="contactphoneNumber" placeholder="Enter Phone Number" required>
-                                                <label class="fw-600" for="contactphoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                <label class="fw-m" for="contactphoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                 <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                             </div>
                                             </div>
@@ -2297,7 +2364,7 @@
                                             <div class="py-md-2 py-2 col-md-12">
                                                 <div class="form-floating">
                                                     <input type="email" name="contactemail" class="form-control rounded-0 fs-md-16 fs-14" id="contactemailID" placeholder="Enter Email ID" >
-                                                    <label class="fw-600 fs-md-16 fs-14" for="contactemailID">Email ID (Optional)</label>
+                                                    <label class="fw-m fs-md-16 fs-14" for="contactemailID">Email ID (Optional)</label>
                                                     <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                                                 </div>
                                             </div>
@@ -2327,15 +2394,15 @@
 
                                             <div class="col-md-12">
                                                 <div class="form-floating">
-                                                    <input type="text" name="type" class="form-control rounded-0" id="typemessage" placeholder="Wirte a Message" required >
-                                                    <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                                                    <input type="text" name="message" class="form-control rounded-0" id="typemessage" placeholder="Wirte a Message" required >
+                                                    <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                                         <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                                     </div>
                                             </div> 
                                            
 
                                             <div class="col-sm-auto col-12 align-self-center pt-4">
-                                                <button type="btn" id="conBtn" class="btn btn-theme2 fs-xxl-13 fs-11 fw-600 py-xxl-2 py-2 px-4 w-xl-auto w-100">
+                                                <button type="btn" id="conBtn" class="btn btn-theme2 fs-xxl-13 fs-11 fw-m py-xxl-2 py-2 px-4 w-xl-auto w-100">
                                                     <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                                                 </button>
                                             </div>
@@ -2347,7 +2414,7 @@
                         </div>
                         <div class="col-xl-6 position-relative ps-xl-5 ps-3">
                             <div class="sparater-block w-xl-1px w-100 h-xl-100 h-1px left-xl-30px left-0px top-xl-0 top-30px">
-                                <span class="fw-600 left-xl-n24px left-0 right-xl-auto right-0 mx-auto mt-n4">OR</span>
+                                <span class="fw-m left-xl-n24px left-0 right-xl-auto right-0 mx-auto mt-n4">OR</span>
                             </div>
                             <div class="row mx-0 ms-xl-4 ms-n1 pd-xl-0 pd-lg-0 pd-md-0 pt-xl-0 pt-lg-0 pt-5">
                                 <div class="col-12 heading fs-md-14 fs-12 left text-white d-xl-grid d-none mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Lets talk about <b> your project!</b></span></div>
@@ -2397,7 +2464,7 @@
           <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
           <input type="hidden" name="type" value="Fantasy Cricket App Development" />
           <div class="modal-header align-items-start">
-             <div class="modal-title fw-600" id="exampleModalLabel">
+             <div class="modal-title fw-m" id="exampleModalLabel">
                 <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                    <div class="row align-items-center">
                       <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-22 fs-lg-23 fs-md-19 fs-17">Get Appointment With <b> Our Experts</b></span></div>
@@ -2416,7 +2483,7 @@
                             <div class="col-md-12">
                                <div class="form-floating">
                                   <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                  <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                  <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                   <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                </div>
                             </div>
@@ -2669,7 +2736,7 @@
                                           <div class="col-8 ps-0">
                                           <div class="form-floating">
                                               <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 " id="phoneNumber" placeholder="Enter Phone Number" required>
-                                              <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                              <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                               <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                           </div>
                                           </div>
@@ -2678,7 +2745,7 @@
                             <div class="col-md-12">
                                <div class="form-floating">
                                   <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID">
-                                  <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                  <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                   {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                </div>
                             </div>
@@ -2706,8 +2773,8 @@
 
                               <div class="col-md-12">
                                   <div class="form-floating">
-                                      <input type="text" name="type" class="form-control rounded-0" id="contactMessage" placeholder="Wirte a Message" required >
-                                      <label class="fw-600 fs-md-16 fs-14" for="contactMessage"> Wirte a Message</label> 
+                                      <input type="text" name="message" class="form-control rounded-0" id="contactMessage" placeholder="Wirte a Message" required >
+                                      <label class="fw-m fs-md-16 fs-14" for="contactMessage"> Wirte a Message</label> 
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                       </div>
                               </div> 
@@ -2718,7 +2785,7 @@
              </div> 
           </div>
           <div class="modal-footer px-5 pb-4">
-             <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-600 py-2 px-md-4 px-3 w-100">
+             <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                 <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
              </button>
           </div>

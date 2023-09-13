@@ -44,7 +44,7 @@
    In the mobile world, we are committed to offer top-notch service and improve your business by delivering the best app. Meet your audience in the app through our ASO Services!
    @endsection('hero_tagline')
    @section('hero_btn')
-   <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 text-white fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
+   <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 text-white fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
       <span class="d-block"><span>Enquire Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
    </a>
    @endsection('hero_btn')
@@ -61,11 +61,11 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a>
                      </li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/digital-marketing-services.php')}}">Digital Marketing Services</a>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/digital-marketing-services.php')}}">Digital Marketing Services</a>
                      </li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">APP Store Optimization(ASO)</li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">APP Store Optimization(ASO)</li>
                   </ol>
                </nav>
             </div>
@@ -97,14 +97,14 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">We are the app marketing agency that implements the best practices of SEO and ASO to increase the organic downloads of your app in a quality way. As the best App Store Optimization agency, we offer 360-degree ASO services that provide you that extra edge for any product to make it successful and visible. All types of online businesses should use the best ASO service provider to acquire the targeted traffic and get a good number of downloads. We take care of the app marketing and also provide the best ASO to bring results. Choosing us as your app store optimization company means you are assured of a beautiful app that makes sense and makes it more appealing to the users.</div>
-                        <div class="col-12 fw-600 fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">We are the world-class App marketing agency that offers top-class services to provide your app with higher downloads and views.</div>
+                        <div class="col-12 fw-l fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">We are the app marketing agency that implements the best practices of SEO and ASO to increase the organic downloads of your app in a quality way. As the best App Store Optimization agency, we offer 360-degree ASO services that provide you that extra edge for any product to make it successful and visible. All types of online businesses should use the best ASO service provider to acquire the targeted traffic and get a good number of downloads. We take care of the app marketing and also provide the best ASO to bring results. Choosing us as your app store optimization company means you are assured of a beautiful app that makes sense and makes it more appealing to the users.</div>
+                        <div class="col-12 fw-l fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">We are the world-class App marketing agency that offers top-class services to provide your app with higher downloads and views.</div>
                      </div>
                   </div>
                </div>
                <div class="row">
-                  <div class="col-12 fw-600 fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">Our professionals ensure that the chosen keywords are used in the right way to acquire more traffic. We optimize and keep track of the app performance for the chosen keywords. We use the latest technology, trends, and tools for monitoring competitors, search rankings, and keywords to take your business app to the next level.</div>
-                  <div class="col-12 fw-600 fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">We ensure to optimize the app architecture while analyzing ratings and reviews. There are many reviews done on your app, namely the size, screenshot, icons, titles, crash rate, app downloads, and more. Our ASO Services also covers iOS compliance, and category analysis. You can quickly learn about your app visibility on the Apple store and Google play store. We deliver insightful reports to the clients so that they can see the steady growth of their app in a shorter time period. We analyze the app performance thoroughly based on a few metrics and create the best strategies for improving the future.</div>
+                  <div class="col-12 fw-l fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">Our professionals ensure that the chosen keywords are used in the right way to acquire more traffic. We optimize and keep track of the app performance for the chosen keywords. We use the latest technology, trends, and tools for monitoring competitors, search rankings, and keywords to take your business app to the next level.</div>
+                  <div class="col-12 fw-l fs-lg-17 fs-md-15 fs-14 text-muted mt-md-3 mt-0 justify">We ensure to optimize the app architecture while analyzing ratings and reviews. There are many reviews done on your app, namely the size, screenshot, icons, titles, crash rate, app downloads, and more. Our ASO Services also covers iOS compliance, and category analysis. You can quickly learn about your app visibility on the Apple store and Google play store. We deliver insightful reports to the clients so that they can see the steady growth of their app in a shorter time period. We analyze the app performance thoroughly based on a few metrics and create the best strategies for improving the future.</div>
                </div>
             </div>
          </div>
@@ -129,8 +129,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Keyword Research</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Keyword Research</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">We have a consultant team of ASO professionals who analyze the whole business and then choose the right keywords that your targeted audience search for in the App store. By doing so, your app can quickly list top on the search results.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Keyword Research</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">We have a consultant team of ASO professionals who analyze the whole business and then choose the right keywords that your targeted audience search for in the App store. By doing so, your app can quickly list top on the search results.</div>
                   </div>
                </div>
             </div>
@@ -143,8 +143,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">App Reviews and Ratings</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">App Reviews and Ratings</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">A website or online business should have positive & right reviews and ratings for their downloads to get increased. We seek users to provide favorable ratings and reviews once they use the app to improve the chance of getting higher downloads.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">App Reviews and Ratings</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">A website or online business should have positive & right reviews and ratings for their downloads to get increased. We seek users to provide favorable ratings and reviews once they use the app to improve the chance of getting higher downloads.</div>
                   </div>
                </div>
             </div>
@@ -157,8 +157,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Evaluating Backlinks</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Evaluating Backlinks</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Our consultants analyze and understand entirely about the client business app. By doing so, we find out the good works that will bring the result in the future. We come up with the right backlink opportunities and track the impact of the ranking on your app.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Evaluating Backlinks</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Our consultants analyze and understand entirely about the client business app. By doing so, we find out the good works that will bring the result in the future. We come up with the right backlink opportunities and track the impact of the ranking on your app.</div>
                   </div>
                </div>
             </div>
@@ -171,8 +171,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Content Generation</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Content Generation</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Best description and unique content always make sense. We choose relevant and quality description content with keywords so that there is a high chance for the app to get higher downloads.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Content Generation</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Best description and unique content always make sense. We choose relevant and quality description content with keywords so that there is a high chance for the app to get higher downloads.</div>
                   </div>
                </div>
             </div>
@@ -185,8 +185,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Icon Creation for App Screenshots</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Icon Creation for App Screenshots</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Screenshots play an essential role. Users provide importance to the app screenshots that are available on the respective app page. When you have the right icons and screenshots, it helps in increasing the number of downloads automatically. We help in getting impactful and proper icons and screenshots.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Icon Creation for App Screenshots</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Screenshots play an essential role. Users provide importance to the app screenshots that are available on the respective app page. When you have the right icons and screenshots, it helps in increasing the number of downloads automatically. We help in getting impactful and proper icons and screenshots.</div>
                   </div>
                </div>
             </div>
@@ -199,8 +199,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Visual Optimization</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Visual Optimization</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Our consultants check out all the photos and videos on your app and then develop the graphic that needs to be added and removed, the recommendations to be added, and more. This will help in marketing your app and also optimize them for the success of the app.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Visual Optimization</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">Our consultants check out all the photos and videos on your app and then develop the graphic that needs to be added and removed, the recommendations to be added, and more. This will help in marketing your app and also optimize them for the success of the app.</div>
                   </div>
                </div>
             </div>
@@ -213,8 +213,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Audio and Reputation Management</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Audio and Reputation Management</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">The ASO service provider audits the app architecture and page from scratch. We provide high-class support throughout the process of reputation management and audit.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Audio and Reputation Management</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">The ASO service provider audits the app architecture and page from scratch. We provide high-class support throughout the process of reputation management and audit.</div>
                   </div>
                </div>
             </div>
@@ -227,8 +227,8 @@
                   </div>
                   <div class="row">
                      <h3 class="d-none invisible">Analysis Operator</h3>
-                     <div class="col-12 fw-900 text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Analysis Operator</div>
-                     <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">The team of ASO professionals conduct in-depth competitive analysis and identify things that work and don't work for their app to improve.</div>
+                     <div class="col-12 fw-m text-white mb-1 fs-lg-19 fs-md-17 fs-16 text-capitalize lh-normal tz text-center" style="--tz:30px;">Analysis Operator</div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-15 text-light mt-2 mb-3 tz text-center" style="--tz:30px;">The team of ASO professionals conduct in-depth competitive analysis and identify things that work and don't work for their app to improve.</div>
                   </div>
                </div>
             </div>
@@ -245,7 +245,7 @@
                   <h2 class="d-none invisible">Why IMG Global Infotech for Best ASO Service Provider?</h2>
                   <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Why IMG Global Infotech For Best<b> ASO Service Provider?</b></span>
                   </div>
-                  <h3 class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-dark py-4 text-center">Being the primary App Marketing Agency, our ASO service provider, and consultant's primary goal is to increase the mobile app traffic by using the best ASO strategies, technologies, and tools.</h3>
+                  <h3 class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-dark py-4 text-center">Being the primary App Marketing Agency, our ASO service provider, and consultant's primary goal is to increase the mobile app traffic by using the best ASO strategies, technologies, and tools.</h3>
                </div>
             </div>
          </div>
@@ -256,8 +256,8 @@
                      <img src="{{GETFOLDERPATH()}}/App-Store-Optimization-Cost.webp" alt="App Store Optimization Cost">
                   </span>
                   <h4 class="d-none invisible">App Store Optimization Cost</h4>
-                  <div class="col-12 fw-900 text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">App Store Optimization Cost</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">Never worry about the app store optimization cost as we provide the best ASO services at a cost-effective rate. We make use of the right ASO tools and trends that offer accurate data to increase your rankings and optimize your app page.</div>
+                  <div class="col-12 fw-m text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">App Store Optimization Cost</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">Never worry about the app store optimization cost as we provide the best ASO services at a cost-effective rate. We make use of the right ASO tools and trends that offer accurate data to increase your rankings and optimize your app page.</div>
                </a>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-12 mb-lg-5 mb-md-4 mb-4 d-flex align-items-stretch">
@@ -266,8 +266,8 @@
                      <img src="{{GETFOLDERPATH()}}/Superior-Project-Manager.webp" alt="Superior Project Manager">
                   </span>
                   <h4 class="d-none invisible">Superior Project Manager</h4>
-                  <div class="col-12 fw-900 text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">Superior Project Manager</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">We have the best project manager who takes care of all types of projects, including small, big, or giant enterprises. We guarantee good results for any kind of business.</div>
+                  <div class="col-12 fw-m text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">Superior Project Manager</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">We have the best project manager who takes care of all types of projects, including small, big, or giant enterprises. We guarantee good results for any kind of business.</div>
                </a>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-12 mb-lg-5 mb-md-4 mb-4 d-flex align-items-stretch">
@@ -276,8 +276,8 @@
                      <img src="{{GETFOLDERPATH()}}/Reporting.webp" alt="Reporting">
                   </span>
                   <h4 class="d-none invisible">Reporting</h4>
-                  <div class="col-12 fw-900 text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">Reporting</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">We ensure that we provide regular reports to the clients to analyze the performance of their app. The report enables us to create a strong roadmap to enhance your brand's results and performance in the future.</div>
+                  <div class="col-12 fw-m text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">Reporting</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">We ensure that we provide regular reports to the clients to analyze the performance of their app. The report enables us to create a strong roadmap to enhance your brand's results and performance in the future.</div>
                </a>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-12 mb-lg-5 mb-md-4 mb-4 d-flex align-items-stretch">
@@ -286,8 +286,8 @@
                      <img src="{{GETFOLDERPATH()}}/Guaranteed-Increase-in-ROI-and-Revenue.webp" alt="Guaranteed Increase in ROI and Revenue">
                   </span>
                   <h4 class="d-none invisible">Guaranteed Increase in ROI and Revenue</h4>
-                  <div class="col-12 fw-900 text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">Guaranteed Increase in ROI and Revenue</div>
-                  <div class="col-12 fw-600 fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">Our ASO services' main goal is to enhance the revenue of the client's app, which leads to improvement in the ROI. We generate more customers to your app, and therefore the number of downloads get increased.</div>
+                  <div class="col-12 fw-m text-theme1 fs-lg-18 fs-md-17 fs-16  lh-normal mt-2 tz" style="--tz:30px;">Guaranteed Increase in ROI and Revenue</div>
+                  <div class="col-12 fw-l fs-lg-16 fs-md-15 fs-14 text-muted mt-2 tz" style="--tz:30px;">Our ASO services' main goal is to enhance the revenue of the client's app, which leads to improvement in the ROI. We generate more customers to your app, and therefore the number of downloads get increased.</div>
                </a>
             </div>
          </div>
@@ -313,7 +313,7 @@
                         </button>
                      </h2>
                      <div id="collapseOne" class="position-relative accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-theme1">ASO, referred to as App Store Optimization, is a powerful technique used for enhancing the mobile app ranking within the Windows store, google play store, apple app store, and other app store ecosystems. Mobile app SEO or App Store Marketing are two different terms used for the ASO.</div>
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-theme1">ASO, referred to as App Store Optimization, is a powerful technique used for enhancing the mobile app ranking within the Windows store, google play store, apple app store, and other app store ecosystems. Mobile app SEO or App Store Marketing are two different terms used for the ASO.</div>
                      </div>
                   </div>
                   <div class="accordion-item mb-4 position-relative zi-2">
@@ -323,7 +323,7 @@
                         </button>
                      </h2>
                      <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-theme1">There is not much difference between ASO and SEO. When it comes to SEO, it's a technique to improve your website pages using targeted keywords on the SERPs. ASO helps in facilitating the best app downloads. It also helps in enhancing audience engagement, app reviews, and brand awareness.</div>
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-theme1">There is not much difference between ASO and SEO. When it comes to SEO, it's a technique to improve your website pages using targeted keywords on the SERPs. ASO helps in facilitating the best app downloads. It also helps in enhancing audience engagement, app reviews, and brand awareness.</div>
                      </div>
                   </div>
                   <div class="accordion-item mb-4 position-relative zi-2">
@@ -333,7 +333,7 @@
                         </button>
                      </h2>
                      <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-theme1">There are different ways to enhance your app store ranking. Some of them include research for the right keywords, picking the relevant title, unique content, enticing description, visuals, and more. External promotions, frequent updates, reviews & ratings can also enhance your app store rankings.</div>
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-theme1">There are different ways to enhance your app store ranking. Some of them include research for the right keywords, picking the relevant title, unique content, enticing description, visuals, and more. External promotions, frequent updates, reviews & ratings can also enhance your app store rankings.</div>
                      </div>
                   </div>
                   <div class="accordion-item mb-4 position-relative zi-2">
@@ -343,7 +343,7 @@
                         </button>
                      </h2>
                      <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-15 fs-14 text-theme1">If you are great at keyword research, then you can easily rank on Google Play Store. You need to make use of the relevant title and descriptions. Usage frequency, uninstalls, downloads, reviews, and ratings also play an essential role in increasing the Google play store ranking. Informative screenshots, promotions, and backlinks can also make the audience download your app.</div>
+                        <div class="accordion-body fw-l fs-md-15 fs-14 text-theme1">If you are great at keyword research, then you can easily rank on Google Play Store. You need to make use of the relevant title and descriptions. Usage frequency, uninstalls, downloads, reviews, and ratings also play an essential role in increasing the Google play store ranking. Informative screenshots, promotions, and backlinks can also make the audience download your app.</div>
                      </div>
                   </div>
                </div>
@@ -364,31 +364,31 @@
          </div>
          <div class="row justify-content-center">
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/digital-marketing-services.php')}}" class="btn btn-theme3 fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/digital-marketing-services.php')}}" class="btn btn-theme3 fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">Digital Marketing Services</h3>
                   <span class="d-block"><span>Digital Marketing Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/seo-services.php')}}" class="btn btn-theme1 fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/seo-services.php')}}" class="btn btn-theme1 fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">SEO Services</h3>
                   <span class="d-block"><span>SEO Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/pay-per-click-services.php')}}" class="btn btn-theme2 fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/pay-per-click-services.php')}}" class="btn btn-theme2 fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">Pay Per Click (PPC) Services</h3>
                   <span class="d-block"><span>Pay Per Click (PPC) Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/social-media-marketing-services.php')}}" class="btn btn-indigo fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/social-media-marketing-services.php')}}" class="btn btn-indigo fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">SMO/SMM Services</h3>
                   <span class="d-block"><span>SMO/SMM Services</span></span>
                </a>
             </div>
             <div class="col-sm-auto col-12 mb-3">
-               <a href="{{asset('/local-business-listing-services.php')}}" class="btn btn-pink fs-12 fw-bold w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/local-business-listing-services.php')}}" class="btn btn-pink fs-12 fw-m w-sm-auto w-100 py-2 px-2" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <h3 class="d-none invisible">Local SEO</h3>
                   <span class="d-block"><span>Local SEO</span></span>
                </a>
@@ -404,10 +404,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row align-items-center">
-                        <h4 class="d-none invisible">Latest Blogs</h4>
-                        <h2 class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></h2>
+                        <h3 class="d-none invisible">Latest Blogs</h3>
+                        <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -418,126 +418,243 @@
                         <div class="col-12">
                             <div class="row">
                               <div class="col-12 h-100 px-0 pt-2">
-                                        <div class="row align-items-start mt-md-3 mt-2">
+                                    <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
-                                                   <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                            <div class="row mx-1 py-3 bg-white">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
-                                                                data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="302" height="auto" >
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                                   <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 20, 2023</span> 
+                                                                   <span> By Dipti Singhal </span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top Custom Software Development Companies</div>
+                                                           </div>
+                                                        </a>
+
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-To-Develop-Hotel-Booking-App-Cost-Features-2023.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 07, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How To Develop Hotel Booking App: Cost, Features (2023)</div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Innovative-Healthcare-Business-Ideas-for-Startups-and-Aspiring-Entrepreneurs.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 05, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 30, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                           </div>
+                                                        </a> 
+
+                                                        <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-a-flutter-app" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 25, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                           </div>
+                                                        </a> 
+
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/doctor-on-demand-mobile-application-development-cost-and-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 23, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
                                                            </div>
                                                      </a> 
-                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                         <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
-                                                         data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
-                                                         </div>
-                                                      </div>
-                                                   </a>  
-                                                   <a href="https://www.imgglobalinfotech.com/blog/readymade-fantasy-cricket-app-development-cost" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageReadymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" alt="Fantasy-Cricket-App-Development-Cost-A-Complete-Guide"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Cricket-App-Development-for-IPL-2023.webp" alt="Fantasy-Cricket-App-Development-for-IPL-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Cricket App Development for IPL 2023</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-for-wpl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Sports-App-Development-for-Womens-Premier-League-2023.webp" alt="Fantasy-Sports-App-Development-for-Womens-Premier-League-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Feb 13, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Sports App Development for Women's Premier League 2023</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/top-10-restaurant-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageTop-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features.webp" alt="Top-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Jan 27, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">Top 10 Restaurant App Development Companies in India 2023 - Cost and K..</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/how-much-money-can-you-earn-through-mobile-apps-in-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageHow-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023.webp" alt="How-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Jan 23, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">How Much Money Can You Earn Through Mobile Apps in 2023?</div>
-                                                      </div>
-                                                   </a>
-                                                   <a href="https://www.imgglobalinfotech.com/blog/top-10-medicine-delivery-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                      <div class="row mx-1 py-3 bg-white">
-                                                         <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                            <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageList-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023.webp" alt="List-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023"width="302" height="auto" >
-                                                         </div>
-                                                         <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                            <span class="text-theme3 me-2">Jan 16, 2023</span> 
-                                                            <span> By Lokesh Saini</span>
-                                                         </div>
-                                                         <div class="col-12 fs-14 fw-600 lanth-text">List of Top 10 Medicine Delivery App Development Companies in India 20..</div>
-                                                      </div>
-                                                   </a>
-                                                </div>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-best-real-estate-application-for-buyers-sellers" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 19, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                           </div>
+                                                     </a> 
+
+                                                    <a href="https://www.imgglobalinfotech.com/blog/fuel-delivery-mobile-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 16, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                           </div>
+                                                     </a> 
+
+                                                <a href="https://www.imgglobalinfotech.com/blog/top-15-celebrity-look-alike-apps" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 10, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                           </div>
+                                                     </a> 
+
+
+
+                                                    <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-food-delivery-app-development" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 09, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                           </div>
+                                                     </a> 
+
+                                                  <a href="https://www.imgglobalinfotech.com/blog/how-to-build-a-mobile-app-from-scratch" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">May 03, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                           </div>
+                                                     </a> 
+                                                    <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
+                                                                 </div>
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                    <span class="text-theme3 me-2">Apr 21, 2023</span> 
+                                                                    <span> By Dipti Singhal</span>
+                                                                </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                            </div>
+                                                      </a> 
+                                                    <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                       <div class="row mx-1 py-3 bg-white">
+                                                          <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                          <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
+                                                          </div>
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                             <span class="text-theme3 me-2">Apr 12, 2023</span> 
+                                                             <span> By Dipti Singhal</span>
+                                                          </div>
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          </div>
+                                                       </div>
+                                                    </a>  
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/readymade-fantasy-cricket-app-development-cost" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white rounded">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
+                                                             </div>
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                <span class="text-theme3 me-2">Apr 03, 2023</span> 
+                                                                <span> By Dipti Singhal</span>
+                                                            </div>
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            </div>
+                                                        </div>
+                                                    </a>
+
+                                                  <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                        <div class="row mx-1 py-3 bg-white rounded">
+                                                            <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                             <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
+                                                             </div>
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                <span class="text-theme3 me-2">Feb 21, 2023</span> 
+                                                                <span> By Dipti Singhal</span>
+                                                            </div>
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                               </div>
                                             </div> 
                                         </div>
-                                   </div>                  
-                             </div>
+                                    </div>                  
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>
+				
+				 <div id="contactWithUss"></div>
             </div>
         </div>
     </div>
 
+    
    <!-- contact with us section -->
    <div class="container-fluid contact-with-us-section position-relative overflow-hidden" id="contact-with-us-section">
       <div class="container position-relative zi-1 py-5">
@@ -548,10 +665,10 @@
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Get Appointment With<b> Our Expertsnnect </b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-5">Let's create beautiful and user-friendly mobile applications together!</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-5">Let's create beautiful and user-friendly mobile applications together!</div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
                </div>
             </div>
             <div class="col-lg-6 pt-lg-0 pt-4 px-lg-2 px-0">
@@ -564,7 +681,7 @@
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600" for="name">Name</label>
+                        <label class="fw-m" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -819,7 +936,7 @@
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                          <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                          <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -829,7 +946,7 @@
                            <div class="col-md-5">
                               <div class="form-floating">
                                  <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" >
-                                 <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                 <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                               </div>
                            </div>
@@ -854,14 +971,14 @@
                                        </select>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div>
                                        <!-- <input type="text" name="requirement" class="form-control rounded-0 fs-md-16 fs-14" id="Requierment" placeholder="Enter Requierment Name" required> -->
-                                       <!-- <label class="fw-600 fs-md-16 fs-14" for="Requierment"></label> -->
+                                       <!-- <label class="fw-m fs-md-16 fs-14" for="Requierment"></label> -->
                                        <!-- <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div> -->
                                  </div>
                          </div>
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-m hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>

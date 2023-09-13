@@ -42,3 +42,15 @@
             }, false)
         })
 })()
+
+
+var el = document.getElementById('phone1');
+var input = document.querySelector("#phone1");
+if (el != null) {
+    window.intlTelInput(input, {
+        initialCountry: "in",
+        separateDialCode: true,
+        preferredCountries: ['in', 'us'],
+        // utilsScript: "assets/vendor/intl-tel-input/js/utils.js",
+    });
+}

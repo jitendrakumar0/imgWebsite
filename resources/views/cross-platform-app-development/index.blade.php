@@ -1,27 +1,27 @@
 @extends('main')
 @push('meta')
    <!--  Title -->
-   <title>Hire Android App Developers from India</title>
+   <title>Cross Platform App Development Company | IMG Global Infotech</title>
 
    <!-- Required meta tags -->
-   <meta name="title" content="Hire Android App Developers from India" />
-   <meta name="description" content="Hire android developers in a variety of ways from IMG Global Infotech. We design, develop, and implement robust apps by skilled android developers using cutting-edge technologies." />
+   <meta name="title" content="Cross Platform App Development Company | IMG Global Infotech" />
+   <meta name="description" content="We are top cross-platform app development company who provides cross-platform app development services to make your app work on any device or platform" />
    <meta name="keywords" content="" />
 
    <!-- Twitter Meta -->
-   <meta name="twitter:title" content="Hire Android App Developers from India">
-   <meta name="twitter:description" content="Hire android developers in a variety of ways from IMG Global Infotech. We design, develop, and implement robust apps by skilled android developers using cutting-edge technologies.">
-   <meta name="twitter:image" content="{{GETFOLDERPATH()}}/hire-android-developers_banner.webp">
+   <meta name="twitter:title" content="Cross Platform App Development Company | IMG Global Infotech">
+   <meta name="twitter:description" content="We are top cross-platform app development company who provides cross-platform app development services to make your app work on any device or platform">
+   <meta name="twitter:image" content="{{GETFOLDERPATH()}}/Cross-platform-App-Development-Services.webp">
 
    <!-- Facebook Meta -->
-   <meta property="og:url" content="{{asset('/')}}hire-android-app-developers.php">
-   <meta property="og:title" content="Hire Android App Developers from India">
-   <meta property="og:description" content="Hire android developers in a variety of ways from IMG Global Infotech. We design, develop, and implement robust apps by skilled android developers using cutting-edge technologies.">
-   <meta property="og:image" content="{{GETFOLDERPATH()}}/hire-android-developers_banner.webp">
-   <meta property="og:image:secure_url" content="{{GETFOLDERPATH()}}/hire-android-developers_banner.webp">
+   <meta property="og:url" content="{{asset('/')}}cross-platform-app-development">
+   <meta property="og:title" content="Cross Platform App Development Company | IMG Global Infotech">
+   <meta property="og:description" content="We are top cross-platform app development company who provides cross-platform app development services to make your app work on any device or platform">
+   <meta property="og:image" content="{{GETFOLDERPATH()}}/Cross-platform-App-Development-Services.webp">
+   <meta property="og:image:secure_url" content="{{GETFOLDERPATH()}}/Cross-platform-App-Development-Services.webp">
 
    <meta name="classification" content="" />
-   <link rel="canonical" href="{{asset('/')}}hire-android-app-developers.php" />
+   <link rel="canonical" href="{{asset('/')}}cross-platform-app-development" />
    <meta name="robots" content="noindex, nofollow" />
 @endpush
 @push('styles')
@@ -31,27 +31,29 @@
 @section('content')
 {{-- Hero Section --}}
 @section('hero_hiddenHeading')
-Hire Android App Developer
+Cross Platform App Development
 @endsection('hero_hiddenHeading')
 @section('hero_heading')
-<span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Cross Platform App <b>Development</b></span>
+<span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Cross Platform App  <b>Development Services</b></span>
 @endsection('hero_heading')
 @section('hero_tagline')
-Our worldwide clientele demonstrates excellence in the development of advanced and scalable Android apps. We design, develop, and implement the robust apps by skilled android developer using cutting-edge technologies. It provides strong user experience you've ever encountered. We make easy to hire android app developers to convert app idea from concept to reality. 
+Through the creation of universal code, the use of a common UI framework, and the facilitation of the overall development 
+process, cross-platform development works as a one size fit for all approach.
+ We fulfill the mobile app requirements of the client that works on Android and iOS devices. 
 @endsection('hero_tagline')
 @section('hero_btn')
 <div class="col-12 pt-3 text-lg-start text-center">
-	   <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-14 fw-bold my-3 py-2 px-4">
+	   <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-14 fw-m my-3 py-2 px-4">
 		  <span class="d-block"><span>+91 -9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
 	   </a>
-	   <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-14 fw-bold my-3 py-2 px-4 ms-md-2">
+	   <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-14 fw-m my-3 py-2 px-4 ms-md-2">
 		  <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
 	   </a>
 	</div>
 @endsection('hero_btn')
 @section('hero_img')
 <div class="leftside">
-<img class="w-100 position-relative " src="{{GETFOLDERPATH()}}/hire-android-developers_banner.webp" alt="Hire Android App Developer"></div>
+<img class="w-100 position-relative " src="{{GETFOLDERPATH()}}/Cross-platform-App-Development-Services.webp" alt="Cross Platform App Development"></div>
 @endsection('hero_img')
 @include('inner-page-section.hero.index')
 
@@ -63,9 +65,9 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/offshore-web-development-india.php')}}">Hire Dedicated Developers</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Cross Platform App Development</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/offshore-web-development-india.php')}}">Hire Dedicated Developers</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Cross Platform App Development</li>
                   </ol>
                </nav>
             </div>
@@ -84,20 +86,21 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                         <div class="col-12">
                            <div class="row mx-0 pt-lg-0">
                                  <div class="col-12 p-0">
-                                 <div class="row mx-0">
-                                    <h2 class="d-none invisible">Hire Android App Developers</h2>
-                                    <h3 class="d-none invisible">HNative Mobile App Development Company</h3>
-                                    <div class="col-12 heading fs-md-14 fs-12 left text-dark">
-                                       <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Hire Android App <b>Programmers</b></span></div>
+                                    <div class="row mx-0">
+                                    <h2 class="d-none invisible">Create Top-Notch Hybrid Applications Using the Most Recent Technologies</h2>
+                                      <div class="col-12 heading fs-md-14 fs-12 left text-dark">
+                                       <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Create Top-Notch Hybrid Applications Using the Most<b> Recent Technologies</b></span></div>
                                  </div>
                               </div>
                             </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Mobile phones have become indispensable in today's digital society. As a result, businesses that want to contact their customers' mobile apps are valuable assets. If you own a company and want to increase your revenue, now is the time to transform it. Then, it’s time to hire dedicated android developer to generate revenue from this trend. Concerned about finding a competent on such short notice? No worries. You can hire android developer in a variety of ways from IMG Global Infotech.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">That's correct! Hire a top Android app developer for a variety of time periods spanning from days to weeks and months. You can hire android app programmers on a full-time, part-time, or hourly basis, depending on the needs of the project. </div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">The cross-platform application development is the future to develop robust apps. It helps to develop mobile apps that cuts down the cost and the time require to built it. We are glad to consider ourselves as 
+                           the pioneers in the industry for developing cross-platform app development. With the help of expert developers in cross-platform development that builds apps keeping in mind the user experience. </div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">Our goods are praised for their excellent quality in the cross-platform sector. Utilizing cross-platform technologies, we identify specific business needs and create plans to create the best solutions. We believe in making the best use of cutting-edge technology by our experienced developers. The wide range of cross-platforms we are using at present comprises of Ionic, Sencha, Cocos, 2DX, Phone gap, Cordova and so on. Our expertise is to provide best of the best cross-platform applications. We keep ourselves away 
+                           from the competitors with the strong commitment, experience and expertise in cross-platform app development. </div>
                      </div>
                      <div class="col-12 pt-3 text-lg-start text-md-center text-center mt-md-1">
-                        <a href="tel:+91-9694097245" target="_blank" class="btn btn-theme2 text-white fs-xxl-13 fs-11 fw-bold py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
+                        <a href="tel:+91-9694097245" target="_blank" class="btn btn-theme2 text-white fs-xxl-13 fs-11 fw-m py-xxl-2 py-1 px-lg-4 px-3 mb-xl-0 mb-3">
                            <span class="d-block"><span>let's Get Connect</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                         </a>
                      </div>
@@ -105,7 +108,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                   <div class="col-lg-5 top_banner-left-part mt-4 mt-lg-0">
                      <div class="row justify-content-center">
                         <div class="col-lg-10 col-md-5 col-12 px-4 px-sm-2 position-relative leftside">
-                           <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Native-App-Development-hero-image.webp" alt="Hire Android App Programmers with Years of Experience">
+                           <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Top-notch-hybrid-applications-recent-technologies.webp" alt="Create Top Notch Hybrid Applications Using The Most Recent Technologies">
                         </div>
                      </div>
                   </div>
@@ -114,7 +117,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                   <div class="col-lg-5 top_banner-left-part order-2 order-lg-1 mt-4 mt-lg-0">
                      <div class="row justify-content-center">
                         <div class="col-lg-10 col-md-5 col-12 px-4 px-sm-2 position-relative leftside">
-                           <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/Native-app-development.webp" alt="Hire Android App Programmers with Years of Experience">
+                           <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/mobile-app-development-servcies.webp" alt="Mobile App Development Servcies">
                         </div>
                      </div>
                   </div>
@@ -124,34 +127,37 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                            <a href="javascript:;" class="row nativeBox text-decoration-none align-items-center">
                               <div class="col-auto">
                                  <div class="leftIconOuter rounded-circle w-63px h-63px shadow p-2 d-flex align-items-center justify-content-center">
-                                    <img src="{{GETFOLDERPATH()}}/ios_Native-iOS-App-Development-copy-2.webp" class="w-40px h-40px" alt="">
+                                    <img src="{{GETFOLDERPATH()}}/Experienced-Developers-Cross-platform-apps.webp" class="w-40px h-40px" alt="Experience Developers for Cross Platform Apps">
                                  </div>
                               </div>
                               <div class="col d-sm-none px-0">
-                                 <div class="rightHeading fw-bold fs-lg-21 fs-md-19 fs-18 lh-15">Native iOS App <br>Development</div>
+                                 <h4 class="d-none invisible">Experience Developers for Cross-platform Apps</h4>
+                                 <div class="rightHeading fw-m fs-lg-21 fs-md-19 fs-18 lh-15">Experience Developers for Cross-platform Apps</div>
                               </div>
                               <div class="col-sm col-12 mt-3 mt-sm-0">
-                                 <div class="rightHeading fw-bold fs-lg-21 fs-md-19 fs-18 lh-15 d-none d-sm-block">Native iOS App Development</div>
-                                 <div class="text-dark fs-15 fw-400 lh-15">
-                                    We provide iOS App development services that include iPhone App Development, iPad App Development, 
-                                    and iBeacon App Development. Build an app that attracts the customer and converts them instantly. 
-                                    We design and develop such iOS apps.
+                                 <div class="rightHeading fw-m fs-lg-21 fs-md-19 fs-18 lh-15 d-none d-sm-block">Experience Developers for Cross-platform Apps</div>
+                                 <div class="text-dark fs-15 fw-l lh-15">
+                                 You may be sure that your mobile website will be accessible on a number of platforms thanks to our cross-platform app developers. Ultimately, 
+                                 organizations may create native apps that look, feel, and work on any platform or device by using cross-platform mobile app development.
                                  </div>
                               </div>
                            </a>
                            <a href="javascript:;" class="row mt-5 nativeAndBox text-decoration-none align-items-center">
                               <div class="col-auto">
                                  <div class="leftIconOuter rounded-circle w-63px h-63px shadow p-2 d-flex align-items-center justify-content-center">
-                                    <img src="{{GETFOLDERPATH()}}/native-Android-App-Development.webp" class="w-40px h-40px" alt="">
+                                    <img src="{{GETFOLDERPATH()}}/customers-happy.webp" class="w-40px h-40px" alt="Our Top Priority is Keeping Customers Happy">
                                  </div>
                               </div>
                               <div class="col d-sm-none px-0">
-                                 <div class="rightHeading fw-bold fs-lg-21 fs-md-19 fs-18 lh-15">Native Android App <br>Development</div>
+                                   <h4 class="d-none invisible">Our Top Priority is Keeping Customers Happy.</h4>
+                                 <div class="rightHeading fw-m fs-lg-21 fs-md-19 fs-18 lh-15">Our Top Priority is Keeping Customers Happy.</div>
                               </div>
                               <div class="col-sm col-12 mt-3 mt-sm-0">
-                                 <div class="rightHeading fw-bold fs-lg-21 fs-md-19 fs-18 d-none d-sm-block lh-15">Native Android App Development</div>
-                                 <div class="text-dark fs-15 fw-400 lh-15">
-                                    The reason behind our designs being innovative is that we have highly innovative and creative designers who think differently, and are always able to deliver an out-of-box design that is loved by the users.
+                                 <div class="rightHeading fw-m fs-lg-21 fs-md-19 fs-18 d-none d-sm-block lh-15">Our Top Priority is Keeping Customers Happy.</div>
+                                 <div class="text-dark fs-15 fw-l lh-15">
+                                 Our cross-platform developers create web, mobile, and custom solutions that can function across many device platforms and operating systems in order 
+                                 to suit your needs. Our development team comprises of project manager, account manager and delivery team to reach the end goal. All of our
+                                  clients are surveyed, and the results are given to the respective management head.
                                  </div>
                               </div>
                            </a>
@@ -165,64 +171,69 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
    </div>
 
    {{-- Reason Section start --}}
+
    <div class="container-fluid overflow-hidden py-4 py-lg-5 reasonSection">
       <div class="container">
          <div class="row">
-            <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Reasons to Choose<b> Native App Development</b> </span></div>
+          <h2 class="d-none invisible">Reasons to Choose Cross Platform App Development</h2>
+            <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Reasons to Choose<b> Cross Platform App Development</b> </span></div>
             <div class="col-12 mt-4">
                <div class="row mx-0 g-3 g-sm-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
                   <div class="col">
                      <div class="row align-items-center flex-column mx-0 gx-0 h-100 reasonCard">
                         <div class="col-12 text-center">
-                           <img src="{{GETFOLDERPATH()}}/great-performance-icon.svg" class="h-50px w-50px" alt="great performance icon">
+                           <img src="{{GETFOLDERPATH()}}/Approach_Focused 1.webp" class="h-50px w-50px" alt="Approach Focused on Results">
                         </div>
-                        <div class="col-12 text-center fw-bold fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Great Performance</div>
+                        <div class="col-12 text-center fw-m fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Approach Focused on Results</div>
                         <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Native Mobile Application will always have greater performance as compared to hybrid apps. Native apps tend to perform better and faster.</div>
                      </div>
                   </div>
+                  
                   <div class="col">
                      <div class="row align-items-center flex-column mx-0 gx-0 h-100 reasonCard">
                         <div class="col-12 text-center">
-                           <img src="{{GETFOLDERPATH()}}/Decent-Interaction.svg" class="h-50px w-50px" alt="Decent Interaction">
+                           <img src="{{GETFOLDERPATH()}}/Quick_Delivery.webp" class="h-50px w-50px" alt="Quick Delivery">
                         </div>
-                        <div class="col-12 text-center fw-bold fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Decent Interaction</div>
-                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Native Mobile apps have good integration with the hardware of the device. So, the native app will have better access to the camera, wifi, and other such hardware.</div>
+                        <div class="col-12 text-center fw-m fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Quick Delivery </div>
+                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center"> By using an agile process, we include our clients at every turn. You can rely on prompt delivery and cost-effective solutions that are created to meet objectives on time and within budget.</div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="row align-items-center flex-column mx-0 gx-0 h-100 reasonCard">
                         <div class="col-12 text-center">
-                           <img src="{{GETFOLDERPATH()}}/great-ui-ux.svg" class="h-50px w-50px" alt="great ui ux">
+                           <img src="{{GETFOLDERPATH()}}/Experienced_Team.webp" class="h-50px w-50px" alt="Experienced Team">
                         </div>
-                        <div class="col-12 text-center fw-bold fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Great UI/UX</div>
-                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Native Apps will get the benefit of great UI/UX as its designing will be native based and not on the web-view. So, native apps get good UI/UX.</div>
+                        <div class="col-12 text-center fw-m fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Experienced Team</div>
+                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Our team of talented developers stays current with technological advancements to ensure the finest possible development of a custom cross-platform solution. They also look at ways to develop apps with unrivalled UI/UX designs.</div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="row align-items-center flex-column mx-0 gx-0 h-100 reasonCard">
                         <div class="col-12 text-center">
-                           <img src="{{GETFOLDERPATH()}}/Increased-Security.svg" class="h-50px w-50px" alt="Increased Security">
+                           <img src="{{GETFOLDERPATH()}}/Different_Technologies.webp" class="h-50px w-50px" alt="Different Technologies">
                         </div>
-                        <div class="col-12 text-center fw-bold fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Increased Security</div>
-                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Web-views apps rely on different browsers and hence are not able to offer the desired security, while native apps offer much better security.</div>
+                        <div class="col-12 text-center fw-m fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Different Technologies</div>
+                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Be it the creation of cross-platform HTML5 apps for your company or the development of PhoneGap or Titanium applications. </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="row align-items-center flex-column mx-0 gx-0 h-100 reasonCard">
                         <div class="col-12 text-center">
-                           <img src="{{GETFOLDERPATH()}}/Offline-Available.svg" class="h-50px w-50px" alt="Offline Available">
+                           <img src="{{GETFOLDERPATH()}}/Comprehensive_Methodology.webp" class="h-50px w-50px" alt="Comprehensive Methodology">
                         </div>
-                        <div class="col-12 text-center fw-bold fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Offline Available</div>
-                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">As the web-view apps rely on the internet to get loaded, native apps are different. Native apps do not require the internet to get loaded, in most cases.</div>
+                        <div class="col-12 text-center fw-m fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Comprehensive Methodology</div>
+                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center"> Our strategy is adaptable yet thorough, and it uses tried-and-true techniques to produce
+                            excellent outcomes when developing a strong mobile application. </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="row align-items-center flex-column mx-0 gx-0 h-100 reasonCard">
                         <div class="col-12 text-center">
-                           <img src="{{GETFOLDERPATH()}}/Dedicated-SDK.svg" class="h-50px w-50px" alt="Dedicated SDK">
+                           <img src="{{GETFOLDERPATH()}}/Proven_Track_Record.webp" class="h-50px w-50px" alt="Proven Track Record">
                         </div>
-                        <div class="col-12 text-center fw-bold fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Dedicated SDK</div>
-                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">Native Apps are built on a particular SDK, which already offers updated solutions and libraries that help to reduce the development time and cost.</div>
+                        <div class="col-12 text-center fw-m fs-xxl-25 fs-xl-23 text-dark fs-sm-19 fs-18 mt-2 mb-1">Proven Track Record</div>
+                        <div class="col-12 fs-14 fs-sm-15 fs-xl-15 fs-xxl-16 text-center">We are renowned in the industry as the reliable partner for businesses on the exclusive dashboards of Clutch and Good Firms. This helps us to showcase our industry driven knowledge in proper project execution. In addition, we also believe in happy 
+                           customers, commitment to exceptional service, and desire to go above and beyond the set expectations. </div>
                      </div>
                   </div>
                </div>
@@ -237,11 +248,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
       <div class="row align-items-center mx-lg-5 mx-md-2 mx-0">
          <div class="col-lg-8 col-md-8 col-12">
             <h3 class="d-none invisible">Ready to start your dream project?</h3>
-            <div class="col-12 fs-lg-30 fs-md-25 fs-20 text-white text-md-start text-center"> Ready to start your dream project?</div>
-            <div class="col-12 fw-600 fs-md-24 fs-lg-38 fs-19 text-white fw-900 text-md-start text-center">We have a TEAM to get you there.</div>
+            <div class="col-12 fs-lg-25 fs-md-25 fs-20 text-white text-md-start text-center"> Ready to start your dream project?</div>
+            <div class="col-12 fw-m fs-md-24 fs-lg-38 fs-19 text-white  text-md-start text-center">We have a TEAM to get you there.</div>
          </div>
          <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-lg-end justify-content-md-end justify-content-center py-2">
-            <a href="{{asset('/hire-android-app-developers.php#contactWithUss')}}" class="btn expert-btn fs-lg-20 fs-md-17 fs-14 fw-bold py-3 px-md-4 px-4 bg-white">
+            <a href="{{asset('/cross-platform-app-development#contactWithUss')}}" class="btn expert-btn fs-lg-20 fs-md-17 fs-14 fw-m py-3 px-md-4 px-4 bg-white">
                <span class="d-block"><span>Get in Touch</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
             </a>
          </div>
@@ -252,8 +263,8 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
    <div class="container-fluid developmentProcess py-lg-5 py-4 bg-white">
       <div class="container">
          <div class="row mx-0 mb-lg-4 mb-md-4 mb-3">
-            <h3 class="d-none invisible">Our Native App Development Process</h3>
-            <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Our Native App Development <b>Process</b> </span></div>
+            <h3 class="d-none invisible">Cross Platform App Development Process</h3>
+            <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Cross Platform App <b>Development Process</b> </span></div>
          </div>
          <div class="row mb-5">
             <div class="col-12 text-dark text-center fs-16">
@@ -266,60 +277,60 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                   <div class="col">
                      <div class="card h-100 rounded-0 border-0 shadow-lg processBox">
                         <div class="boxImgOuter">
-                           <img src="{{GETFOLDERPATH()}}/Requirement-Analysis.png" class="w-100 h-100" alt="">
+                           <img src="{{GETFOLDERPATH()}}/Requirement_Analysis.webp" class="w-100 h-100" alt="Requirement Analysis">
                         </div>
                         <div class="card-body d-flex flex-column h-100 p-sm-4 p-3">
-                           <div class="fs-16 fw-600 mb-sm-3 mb-2 text-dark">Requirement Analysis</div>
-                           <div class="fs-15 text-dark flex-fill">Identify requirements, define team structure & prepare product roadmap</div>
-                           <div class="fs-sm-40 fs-30 text-end fw-600 lh-sm mt-2 cardNo">01</div>
+                           <div class="fs-16 fw-m mb-sm-3 mb-2 text-dark">Requirement Analysis </div>
+                           <div class="fs-15 text-dark flex-fill">Create a product plan, define team roles, and identify requirements.</div>
+                           <div class="fs-sm-40 fs-30 text-end fw-m lh-sm mt-2 cardNo">01</div>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="card h-100 rounded-0 border-0 shadow-lg processBox">
                         <div class="boxImgOuter">
-                           <img src="{{GETFOLDERPATH()}}/Requirement-Analysis.png" class="w-100 h-100" alt="">
+                           <img src="{{GETFOLDERPATH()}}/Designing__Wireframing.webp" class="w-100 h-100" alt="Designing & Wireframing">
                         </div>
                         <div class="card-body d-flex flex-column h-100 p-sm-4 p-3">
-                           <div class="fs-16 fw-600 mb-sm-3 mb-2 text-dark">Wireframing & Designing</div>
-                           <div class="fs-15 text-dark flex-fill">Creating seamless and effortless user experience with a polished design</div>
-                           <div class="fs-sm-40 fs-30 text-end fw-600 lh-sm mt-2 cardNo">02</div>
+                           <div class="fs-16 fw-m mb-sm-3 mb-2 text-dark">Designing & Wireframing</div>
+                           <div class="fs-15 text-dark flex-fill">Our team is competent in achieving a sleek design and a seamless and simple user experience</div>
+                           <div class="fs-sm-40 fs-30 text-end fw-m lh-sm mt-2 cardNo">02</div>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="card h-100 rounded-0 border-0 shadow-lg processBox">
                         <div class="boxImgOuter">
-                           <img src="{{GETFOLDERPATH()}}/Requirement-Analysis.png" class="w-100 h-100" alt="">
+                           <img src="{{GETFOLDERPATH()}}/Development.webp" class="w-100 h-100" alt="Development">
                         </div>
                         <div class="card-body d-flex flex-column h-100 p-sm-4 p-3">
-                           <div class="fs-16 fw-600 mb-sm-3 mb-2 text-dark">Development</div>
-                           <div class="fs-15 text-dark flex-fill">Backend, API, and mobile app development following agile process</div>
-                           <div class="fs-sm-40 fs-30 text-end fw-600 lh-sm mt-2 cardNo">03</div>
+                           <div class="fs-16 fw-m mb-sm-3 mb-2 text-dark">Development</div>
+                           <div class="fs-15 text-dark flex-fill">Development of backend, API, and mobile applications using an agile methodology</div>
+                           <div class="fs-sm-40 fs-30 text-end fw-m lh-sm mt-2 cardNo">03</div>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="card h-100 rounded-0 border-0 shadow-lg processBox">
                         <div class="boxImgOuter">
-                           <img src="{{GETFOLDERPATH()}}/Requirement-Analysis.png" class="w-100 h-100" alt="">
+                           <img src="{{GETFOLDERPATH()}}/In-depth_Testing.webp" class="w-100 h-100" alt="In Depth Testing">
                         </div>
                         <div class="card-body d-flex flex-column h-100 p-sm-4 p-3">
-                           <div class="fs-16 fw-600 mb-sm-3 mb-2 text-dark">Testing</div>
-                           <div class="fs-15 text-dark flex-fill">Validating app's quality with a series of testing criteria</div>
-                           <div class="fs-sm-40 fs-30 text-end fw-600 lh-sm mt-2 cardNo">04</div>
+                           <div class="fs-16 fw-m mb-sm-3 mb-2 text-dark">In-depth Testing</div>
+                           <div class="fs-15 text-dark flex-fill">App quality is verified using a set of testing criteria</div>
+                           <div class="fs-sm-40 fs-30 text-end fw-m lh-sm mt-2 cardNo">04</div>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="card h-100 rounded-0 border-0 shadow-lg processBox">
                         <div class="boxImgOuter">
-                           <img src="{{GETFOLDERPATH()}}/Requirement-Analysis.png" class="w-100 h-100" alt="">
+                           <img src="{{GETFOLDERPATH()}}/Requirement-Analysis.png" class="w-100 h-100" alt="Deploying With Support">
                         </div>
                         <div class="card-body d-flex flex-column h-100 p-4">
-                           <div class="fs-16 fw-600 mb-3 text-dark">Deployment & Support</div>
-                           <div class="fs-14 text-dark flex-fill">Launching app on Google and Apple store with support for future revisions</div>
-                           <div class="fs-sm-40 fs-30 text-end fw-600 lh-sm mt-2 cardNo">05</div>
+                           <div class="fs-16 fw-m mb-3 text-dark">Deploying with Support</div>
+                           <div class="fs-14 text-dark flex-fill">Launching the app on Google Play and the Apple Store, with support for future updates</div>
+                           <div class="fs-sm-40 fs-30 text-end fw-m lh-sm mt-2 cardNo">05</div>
                         </div>
                      </div>
                   </div>
@@ -334,78 +345,81 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
          <h2 class="d-none invisible">Our Hiring Dedicated Developers Models</h2>
          <div class="col-md-5 col-12 heading fs-md-14 fs-12 text-md-start text-center left text-dark"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20 pt-0">Our Hiring Dedicated  <br> <b>Developers Models </b></span>
          </div>
-         <div class="col-md-7 col-12 fs-lg-28 fs-md-21 fs-16 text-dark mt-md-0 mt-3 text-md-start text-center"> <span>  We deploy   <span class="fw-900">   top-notch   </span>agile teams who define and enable your vision on-demand. </span></div>
+         <div class="col-md-7 col-12 fs-lg-28 fs-md-21 fs-16 text-dark mt-md-0 mt-3 text-md-start text-center"> <span>  We deploy   <span class="fw-m">   top-notch   </span>agile teams who define and enable your vision on-demand. </span></div>
       </div>
    </div>
    
-   <!---- Our Hiring Dedicated Developers Models  ---->
-   <div class="container-fluid rect-native-srvices ">
+   {{-- Our Hiring Dedicated Developers Models --}}
+
+   <div class="container-fluid rect-native-srvices">
       <div class="container pt-md-5 py-5 pb-md-2 position-relative zi-9">
          <div class="row justify-content-center boxs-align">
             <div class="col-md-12">
                <div class="row ">
                   <div class="col-12 col-sm-6 col-lg-4 col-md-4 mb-4 d-flex align-items-stretch">
                            <div class="service-box pb-3 w-100 pt-md-2 position-relative fulltime">
-                              <div class="service_ico mb-3 col-12 fw-900 fs-md-28 fs-18 mt-3 text-dark text-left ps-3">  Full Time</div>
+                              <div class="service_ico mb-3 col-12 fw-m fs-md-28 fs-18 mt-3 text-dark text-left ps-3">Full Time</div>
                               <h3 class="d-none invisible"></h3>
                               <div class="col-12  text-dark fs-md-16 fs-sm-18 fs-17 lh-normal bg-white">
                                     <div class="d-flex timing_details">
-                                       <img src="{{GETFOLDERPATH()}}/fulltime.webp" class="h-60px position-absolute right-15px right-15px text-center top-md-n15 top-n40" alt="" >
+                                       <img src="{{GETFOLDERPATH()}}/fulltime.webp" class="h-60px position-absolute right-15px right-15px text-center top-md-n15 top-n40" alt="Full Time">
                                        <div class="w-50 hours_per_day mt-lg-3">
                                              <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-800">Hours Per Day</div>
-                                             <span class="fw-900"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">9</strong> hrs/day</span>
+                                             <span class="fw-m"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">9</strong> hrs/day</span>
                                        </div>
                                        <div class="w-50 hours_per_day mt-lg-3">
                                              <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-800">Minimum</div>
-                                             <span class="fw-900"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">30</strong> days</span>
+                                             <span class="fw-m"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">30</strong> days</span>
                                        </div>
                                     </div>
                               </div>
                            </div>
-                  </div>
+                      </div>
+
                   <div class="col-12 col-sm-6 col-lg-4 col-md-4 mb-4 d-flex align-items-stretch">
-                           <div class="service-box pb-3 w-100 pt-md-2 position-relative parttime">
-                              <div class="service_ico mb-3 col-12 fw-900 fs-md-28 fs-18 mt-3 text-dark text-left ps-3">  Part Time</div>
-                              <h3 class="d-none invisible"></h3>
-                              <div class="col-12  text-dark fs-md-16 fs-sm-18 fs-17 lh-normal bg-white">
-                                    <div class="d-flex timing_details">
-                                       <img src="{{GETFOLDERPATH()}}/parttime.webp" class="h-60px position-absolute right-15px right-15px text-center top-md-n15 top-n40" alt="" >
-                                       <div class="w-50 hours_per_day mt-lg-3">
-                                             <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-800">Hours Per Day</div>
-                                             <span class="fw-900"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">9</strong> hrs/day</span>
-                                       </div>
-                                       <div class="w-50 hours_per_day mt-lg-3">
-                                             <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-800">Minimum</div>
-                                             <span class="fw-900"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">30</strong> days</span>
-                                       </div>
-                                    </div>
+                     <div class="service-box pb-3 w-100 pt-md-2 position-relative parttime">
+                        <div class="service_ico mb-3 col-12 fw-m fs-md-28 fs-18 mt-3 text-dark text-left ps-3"> Part Time</div>
+                        <h3 class="d-none invisible"></h3>
+                        <div class="col-12  text-dark fs-md-16 fs-sm-18 fs-17 lh-normal bg-white">
+                              <div class="d-flex timing_details">
+                                 <img src="{{GETFOLDERPATH()}}/parttime.webp" class="h-60px position-absolute right-15px right-15px text-center top-md-n15 top-n40" alt="Part Time" >
+                                 <div class="w-50 hours_per_day mt-lg-3">
+                                       <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-l">Hours Per Day</div>
+                                       <span class="fw-m"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">9</strong> hrs/day</span>
+                                 </div>
+                                 <div class="w-50 hours_per_day mt-lg-3">
+                                       <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-l">Minimum</div>
+                                       <span class="fw-m"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">30</strong> days</span>
+                                 </div>
                               </div>
+                        </div>
                            </div>
-                  </div>
+                      </div>
+
                   <div class="col-12 col-sm-6 col-lg-4 col-md-4 mb-4 d-flex align-items-stretch">
                            <div class="service-box pb-3 w-100 pt-md-2 position-relative hourlytime">
-                              <div class="service_ico mb-3 col-12 fw-900 fs-md-28 fs-18 mt-3 text-dark text-left ps-3">Hourly</div>
+                              <div class="service_ico mb-3 col-12 fw-m fs-md-28 fs-18 mt-3 text-dark text-left ps-3">Hourly</div>
                               <h3 class="d-none invisible"></h3>
                               <div class="col-12  text-dark fs-md-16 fs-sm-18 fs-17 lh-normal bg-white">
                                     <div class="d-flex timing_details">
-                                       <img src="{{GETFOLDERPATH()}}/hourly.webp" class="h-60px position-absolute right-15px right-15px text-center top-md-n15 top-n40" alt="" >
+                                       <img src="{{GETFOLDERPATH()}}/hourly.webp" class="h-60px position-absolute right-15px right-15px text-center top-md-n15 top-n40" alt="Hourly" >
                                        <div class="w-50 hours_per_day mt-lg-3">
-                                             <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-800">Hours Per Day</div>
-                                             <span class="fw-900"><strong class="text-theme1 fs-md-20 fs-sm-20 fs-17 d-block">Flexible</strong> hrs/day</span>
+                                             <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-l">Hours Per Day</div>
+                                             <span class="fw-m"><strong class="text-theme1 fs-md-20 fs-sm-20 fs-17 d-block">Flexible</strong> hrs/day</span>
                                        </div>
                                        <div class="w-50 hours_per_day mt-lg-3">
-                                             <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-800">Minimum Hours</div>
-                                             <span class="fw-900"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">50 </strong> Hours</span>
+                                             <div class="col-12 fs-md-16 fs-sm-16 fs-16 mb-3 fw-l">Minimum Hours</div>
+                                             <span class="fw-m"><strong class="text-theme3 fs-md-20 fs-sm-20 fs-17">50 </strong> Hours</span>
                                        </div>
                                     </div>
+                                 </div>
                               </div>
                            </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </div>
-   </div>
 
    <!-- Start Portfolio Section -->
    <div class="container-fluid overflow-hidden bg-white new-portfolio position-relative">
@@ -450,7 +464,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
             <div class="col-lg-12 col-md-12">
                <div class="portfolioBox ">
                   <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
-                     data-src="{{asset('/public')}}/assets/img/portfolio-section/Health-app.webp" alt="I-kown">
+                     data-src="{{asset('/public')}}/assets/img/portfolio-section/Health-app.webp" alt="I kown">
                         <div class="portfolioBoxContent">
                            <div class="h4">I-kown</div>
                            <p>Health App</p>
@@ -512,28 +526,30 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
    </div>
 
 
-   <!-- why-hire-developers-img -->
+   {{-- Why Hire Developers IMG GLOBAL INFOTECH --}}
+
    <div class="container-fluid overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-5 py-5 position-relative">
          <div class="container">
             <div class="row align-content-center align-items-center position-relative">
                         <div class="col-lg-7 col-md-12">
                            <div class="row mx-0 pb-3">
-                              <h3 class="d-none invisible">Why Hire Android App Developers from IMG Global Infotech?</h3>
-                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Why Hire Android App Developers from  <b>IMG Global Infotech?</b></span></div>
+                              <h3 class="d-none invisible">Why Hire Cross Platform App Developers From Img Global Infotech?</h3>
+                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Why Hire Cross Platform App Developers From <b>IMG Global Infotech?</b></span></div>
                            </div>
-                           <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
-                              The Android developers with us at can provide solid app solutions that effectively and specifically fix your company's problems. You can collaborate with our android app developers online in order to build secure and user-friendly enterprise applications. Hire android application developers to build a hyper contextual experience using mobile apps in the Android ecosystem on a continuous basis.
+                           <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
+                           Only cross-platform app development can address all of the components of a smart cross-channel mobile strategy, including speed to market, compatible technology, simple updates, and overall cost effectiveness. 
+                           Our multi-platform mobile technology professionals create high-performing cross-platform apps as a leading cross platform mobile app development agency that deliver exceptional engagement and conversions across platforms, devices, industries, and audiences.
                            </div>
                            <div>
                               <div class="row">
                                  <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                      <div class="col-12 col-lg-12 position-relative">
-                                        <ul class="fw-700 fs-16 text-dark list-unstyled text-capitalize ">
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
+                                        <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
                                          
                                        </ul>
                                     </div>
@@ -541,12 +557,12 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
 
                                  <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                      <div class="col-12 col-lg-12 position-relative">
-                                        <ul class="fw-700 fs-16 text-dark list-unstyled text-capitalize ">
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
-                                          <li class="fw-700 align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
+                                        <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
+                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="{{GETFOLDERPATH()}}/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
                                        </ul>
                                     </div>
                                  </div>
@@ -554,35 +570,38 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                            </div>
                         </div>
                         <div class="col-lg-5 col-md-12 col-12 p-0 leftside">
-                          <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/android-team.webp" alt="android-team">
+                          <img class="w-100 position-relative" src="{{GETFOLDERPATH()}}/img-gloabl-infotech-team.webp" alt="IMG Global Infotech Team">
                          </div>
-            </div>
-         </div>
-   </div>
+                      </div>
+                  </div>
+              </div>
 
-   <!-- Start Cta Button Section -->
-   <div class="container banner-cta2 py-lg-5 py-md-5 py-3 py-2 zi-2 position-relative mt-lg-5 mt-md-5 mt-5 mb-5">
-                     <div class="row align-items-center mx-lg-2 mx-md-2 mx-0">
+
+            {{-- Start Cta Button Section  ---}}
+       
+                <div class="container banner-cta2 py-lg-5 py-md-5 py-3 py-2 zi-2 position-relative mt-lg-5 mt-md-5 mt-5 mb-5">
+                      <div class="row align-items-center mx-lg-2 mx-md-2 mx-0">
                         <div class="row align-items-center">
-                           <div class="col-lg-8 col-md-8 col-12 fw-600 fs-md-25 fs-lg-25 fs-20 text-white fw-900 text-md-center text-center">Want to hire dedicated Android developer for your project?</div>
+                           <div class="col-lg-8 col-md-8 col-12 fw-m fs-md-25 fs-lg-25 fs-20 text-white text-md-center text-center">Want to Hire Dedicated Cross Platform App Developer For Your Project?</div>
                      
                            <div class="col-lg-4 col-md-12 col-12 d-flex justify-content-lg-center justify-content-md-center justify-content-center py-2">
-                              <a href="{{asset('/hire-android-app-developers.php#contactWithUss')}}" class="btn expert-btn fs-lg-16 fs-md-16 fs-14 fw-bold py-3 px-md-4 px-4 bg-white">
-                           <span class="d-block"><span class="text-black">Hire Android developer</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
+                              <a href="{{asset('/hire-dedicated-developers#contactWithUss')}}" class="btn expert-btn fs-lg-16 fs-md-16 fs-14 fw-m py-3 px-md-4 px-4 bg-white">
+                           <span class="d-block"><span class="text-black">Hire Cross Platform Developer</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                            </div>
                         </div>
-                     </div>
-   </div>   
+                    </div>
+               </div>   
 
-   <!--Awards and Recognition -->
-   <div class="container-fluid overflow-hidden top-develpers-section py-4 position-relative">
-      <div class="container position-relative pt-md-3 pb-md-2">
+               {{-- Awards and Recognition ---}}         
+ 
+         <div class="container-fluid overflow-hidden top-develpers-section py-4 position-relative">
+           <div class="container position-relative pt-md-3 pb-md-2">
                         <div class="row">
                            <div class="row mx-0 mb-lg-4 mb-md-5 mb-3"> 
                               <h3 class="d-none invisible">Awards and Recognition</h3>
                               <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Awards  <b>  and Recognition</b> </span></div>
-                              <div class="col-lg-10 col-md-12 col-12 fw-600 fs-lg-18 fs-md-18 fs-sm-15 fs-14 text-mute  mt-lg-4 mb-lg-4 mt-md-4 mb-md-4 mt-1 mb-1 mx-auto text-center">   
+                              <div class="col-lg-10 col-md-12 col-12 fw-l fs-lg-18 fs-md-18 fs-sm-15 fs-14 text-mute  mt-lg-4 mb-lg-4 mt-md-4 mb-md-4 mt-1 mb-1 mx-auto text-center">   
                                  According to the ratings and reviews of top platforms, IMG Global Infotech is one of the best mobile app development company and solution providers in the industry.
                               </div>
                            </div>
@@ -653,10 +672,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                  </div>
                               </div>
                         </div>
-      </div>
-   </div>   
+                     </div>
+                  </div>   
                 
-   <!-- Start faq section -->
+   {{-- Start Faq Section ---}}
+
    <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-5"> 
       <div class="container position-relative zi-2">
          <div class="row mx-0 pb-5">
@@ -671,74 +691,74 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                         <div class="accordion-item mb-4 position-relative zi-2">
                            <div class="accordion-header" id="headingOne">
                               <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                 Which programming languages are used to develop a mobile app?
+                              How much does creating cross-platform apps cost?
 
                               </button>
                            </div>
                            <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                              <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
-                                 Swift and Objective-C are the most popular App development languages for creating iOS apps. In the case of Android App development, however, the favoured languages are Kotlin and Java.
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              The actual development cost for a cross-platform app depends on multiple factors such as technical integrations, platform support, complexity of the project and the requirements. Depending on the cross-platform mobile app development company you select, prices will change.
+                               Cross-platform app development costs can be less expensive than other types of app development in some circumstances, and it is almost always less expensive to create an app that operates across several platforms at once rather than creating apps for each platform separately. Cross-platform app development is quicker
+                             and requires less work for quality testing because it uses a single piece of code that can be reused.
+
                               </div>
                            </div>
                         </div>
                         <div class="accordion-item mb-4 position-relative zi-2">
                            <div class="accordion-header" id="headingTwo">
                               <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                 Is it profitable to develop a mobile application?
+                              Existing native business app that I have. Can cross-platform app development assist me?
                               </button>
                            </div>
                            <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                              <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
-                                 Mobile App development is a profitable with no doubt about it. You can monetise your app directly with in-app features or indirectly through methods such as advertisements. You can even contact prospective customers via a dedicated business app.
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              It can be used to expand your current application by adding a single view. However, integration across all platforms is required. Before deciding to make the investment, we advise business owners to carefully weigh the time and expense involved in integrating cross-platform capability into their current solution. We can assist you in determining the viability based on the emphasis of your business and can direct you towards the ideal solution. It would consist of 
+                              selecting the framework that best complements your ecosystem. Connect with our representative to discuss in detail. 
                               </div>
                            </div>
                         </div>
                         <div class="accordion-item mb-4 position-relative zi-2">
                            <div class="accordion-header" id="headingThree">
                               <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                 What is the actual role of a mobile app development company?
+                              How much time is required to create a cross-platform application?
                               </button>
                            </div>
                            <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                              <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
-                                 A reliable App development company first understands their App development customer, and then proposes a development solution based on that understanding. Once you hire android developer they will conduct study on the target audience in order to create a user-friendly application jam-packed with advanced functionalities. Furthermore, the mobile app development firm will assist their client in publishing their App on the App Store.
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              Cross-platform app development is usually quicker than native app development and unquestionably quicker than developing separate apps for each platform you intend to use. Your application's complexity and the number of platforms you plan to deliver
+                               it on will both have an impact on how quickly your project is finished.
                               </div>
                            </div>
                         </div>
                         <div class="accordion-item mb-4 position-relative zi-2">
                            <div class="accordion-header" id="headingfour">
                               <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                 Describe the process of developing a mobile app?
+                              How do you protect the data in my cross-platform app?
                               </button>
                            </div>
                            <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                              <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
                                  <div class="col-12">
-                                    <p>Our mobile app development method has been tried and tested. The costs are as follows:</p>
+                                 Security is a built-in element of most app systems, including iOS and Android. For instance, the code and functionality of any specific programs in the app store would never interact since Android apps are hosted on separate virtual machines. That increases everyone's sense of security.
+                                 With IMG Global Infotech, we strive to offer even more security, making sure that the data in your app is secure from the beginning of your project through
+                                 implementation and beyond. Basically, this comprises of taking into consideration the security frameworks and develop apps with the full proof DevSecOps practices. 
+
                                  </div>
-                                 <div class="col-12">
-                                    <ul>
-                                       <li><b>Step 1:</b> Through understanding of app idea</li>
-                                       <li><b>Step 2:</b> Do a Detailed market research</li>
-                                       <li><b>Step 3:</b> List down your app technical specifications</li>
-                                       <li><b>Step 4:</b> Start working on design mock-up</li>
-                                       <li><b>Step 5:</b> Start developing an app</li>
-                                       <li><b>Step 6:</b> Publish mobile app on the app store</li>
-                                    </ul>
-                                 </div>
+                               
                               </div>
                            </div>
                         </div>
                         <div class="accordion-item mb-4 position-relative zi-2">
                            <div class="accordion-header" id="headingFive">
                               <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                 Would you like to book an appointment with expert?
+                              Will I be able to keep the cross-platform app's source code?
                               </button>
                            </div>
                            <div id="collapseFive" class="position-relative accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                              <div class="accordion-body fw-600 fs-lg-15 fs-md-14 text-muted fs-14">
-                                 Take the first step to design and develop a mobile app you ever need. <br>
-                                 Our team specialize in creating a mobile apps that gives successful experience to our client for their customers. 
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              The concept of "owning" source code is a little misleading and can be challenging to understand. Open source code, which is shared code made available for usage by any developers, is frequently the foundation of app development activity. To improve productivity and speed up the time to market, this code can be used as the foundation for developing mobile applications.
+                              We do not conceal your code from you or make it challenging to access or transfer to other providers. By getting in touch with us about your potential project, you may find out more about how we work with our partners and how we support you, including providing open access to your code.
+
                               </div>
                            </div>
                         </div>
@@ -760,7 +780,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                         <h3 class="d-none invisible">Latest Blogs</h3>
                         <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -774,18 +794,59 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 20, 2023</span> 
+                                                                   <span> By Dipti Singhal </span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top Custom Software Development Companies</div>
+                                                           </div>
+                                                        </a>
 
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-To-Develop-Hotel-Booking-App-Cost-Features-2023.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 07, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How To Develop Hotel Booking App: Cost, Features (2023)</div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Innovative-Healthcare-Business-Ideas-for-Startups-and-Aspiring-Entrepreneurs.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 05, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                            <div class="row mx-1 py-3 bg-white">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
                                                            </div>
                                                         </a> 
 
@@ -795,11 +856,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
                                                            </div>
                                                         </a> 
 
@@ -810,11 +871,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
                                                            </div>
                                                      </a> 
 
@@ -824,11 +885,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -838,11 +899,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -852,11 +913,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
                                                            </div>
                                                      </a> 
 
@@ -868,11 +929,11 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
                                                            </div>
                                                      </a> 
 
@@ -882,37 +943,37 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
                                                            </div>
                                                      </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                             <div class="row mx-1 py-3 bg-white">
                                                                 <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                  <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
                                                                  </div>
-                                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                     <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
+                                                                    <span> By Dipti Singhal</span>
                                                                 </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                             </div>
                                                       </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                        <div class="row mx-1 py-3 bg-white">
                                                           <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                           <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
                                                           </div>
-                                                          <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
                                                              <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
+                                                             <span> By Dipti Singhal</span>
                                                           </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                           </div>
                                                        </div>
                                                     </a>  
@@ -921,13 +982,13 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
                                                             </div>
                                                         </div>
                                                     </a>
@@ -936,19 +997,17 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
                                                             </div>
                                                         </div>
                                                     </a>
-
-                                                  
-                                                </div>
+                                               </div>
                                             </div> 
                                         </div>
                                     </div>                  
@@ -958,7 +1017,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                     </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>
@@ -967,7 +1026,6 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
             </div>
         </div>
     </div>
-
    
 <!-- contact with us section -->
 <div class="container-fluid contact-with-us-section position-relative overflow-hidden" id="contact-with-us-section">
@@ -978,10 +1036,10 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Get Appointment With <br>Our Experts</b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">Let's create beautiful and user-friendly mobile applications together!</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">Let's create beautiful and user-friendly mobile applications together!</div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">We help to develop a successful omnichannel experience and convenient mobile strategy for all your clients and customers.</div>
                </div>
             </div>
             <div class="col-lg-6 pt-lg-0 pt-4 px-lg-2 px-0">
@@ -994,7 +1052,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600" for="name">Name</label>
+                        <label class="fw-m" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -1247,7 +1305,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                          <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                          <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -1257,14 +1315,14 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                               <div class="col-md-5">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" >
-                                    <label class="fw-600" for="emailID">Email ID</label>
+                                    <label class="fw-m" for="emailID">Email ID</label>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                                  </div>
                               </div>
 
                                  <div class="col-md-7">
                                     <div class="form-floating">
-                                          <select name="requirement" required="" class="form-control rounded-0 pt-2 fw-400">
+                                          <select name="requirement" required="" class="form-control rounded-0 pt-2 fw-l">
                                              <option value="">Project Brief *</option>
                                              <option value="Fantasy Cricket App Development">Fantasy Cricket App Development</option>
                                              <option value="Fantasy Sports App Development">Fantasy Sports App Development</option>
@@ -1287,15 +1345,15 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
 
                                  <div class="col-md-12">
                         <div class="form-floating">
-                              <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                              <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                              <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                              <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                               </div>
                      </div> 
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-m hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>
@@ -1317,7 +1375,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
             <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
             <input type="hidden" name="type" value="Fantasy Cricket App Development" />
             <div class="modal-header align-items-start">
-               <div class="modal-title fw-bold" id="exampleModalLabel">
+               <div class="modal-title fw-m" id="exampleModalLabel">
                   <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                      <div class="row align-items-center">
                         <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-22 fs-lg-23 fs-md-19 fs-17">Get Appointment With <b> Our Experts</b></span></div>
@@ -1336,14 +1394,14 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                               <div class="col-md-12">
                                  <div class="form-floating">
                                     <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                    <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                    <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                     <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                  </div>
                               </div>
                               <div class="col-md-12">
                                     <div class="row">
                                         <div class="col-4 pe-0">
-                                            <select class="form-select rounded-0 fw-400" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
+                                            <select class="form-select rounded-0 fw-l" name="phonecode" id="phonecode" aria-label="Default select example" style="padding: 0.375rem 0.25rem 0.375rem 0.75rem !important;">
                                             <option value="IN +91" value="IN +91"> IN +91</option>
                                             <option value="AF +93">AF +93</option>
                                                         <option value="AL +355">AL +355</option>
@@ -1588,7 +1646,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                                             <div class="col-8 ps-0">
                                             <div class="form-floating">
                                                 <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                 <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                             </div>
                                             </div>
@@ -1597,7 +1655,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                               <div class="col-md-12">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID">
-                                    <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                    <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                     {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                  </div>
                               </div>
@@ -1605,7 +1663,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
 
                               <div class="col-md-12 ">
                                         <div class="form-floating">
-                                            <select name="type"required="" id="type" class="form-control rounded-0 pt-2 fw-400">
+                                            <select name="type"required="" id="type" class="form-control rounded-0 pt-2 fw-l">
                                                 <option value="">Looking For *</option>
                                                 <option value="Fantasy Cricket App Development">Fantasy Cricket App Development</option>
                                                 <option value="Fantasy Sports App Development">Fantasy Sports App Development</option>
@@ -1625,8 +1683,8 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
 
                                 <div class="col-md-12">
                                     <div class="form-floating">
-                                        <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                                        <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                                        <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                        <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                             <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                         </div>
                                 </div> 
@@ -1637,7 +1695,7 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
                </div> 
             </div>
             <div class="modal-footer px-5 pb-4">
-               <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+               <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                   <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </button>
             </div>
@@ -1649,9 +1707,9 @@ Our worldwide clientele demonstrates excellence in the development of advanced a
 @endsection
 @push('scripts')
 <script src="{{asset('/public')}}/assets/plugins/owl/owl.carousel.min.js"></script>
-{{-- <script src="{{asset('/public')}}/assets/js/hire-android-app-developers.min.js"></script>
+<script src="{{asset('/public')}}/assets/js/cross-platform-app-development.min.js"></script>
 <script src="{{asset('/public')}}/assets/js/fantasy-cricket-app-development.min.js"></script>
-<script src="{{asset('/public')}}/assets/js/fantasy-sports-app-development.min.js"></script> --}}
+<script src="{{asset('/public')}}/assets/js/fantasy-sports-app-development.min.js"></script> 
 
 
 

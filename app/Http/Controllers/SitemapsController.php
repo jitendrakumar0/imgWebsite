@@ -141,6 +141,14 @@ class SitemapsController extends Controller
         Sitemap::addTag(asset('/hire-php-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
         Sitemap::addTag(asset('/hire-web-desginers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
         Sitemap::addTag(asset('/hire-angular-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-python-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-full-stack-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-web-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-mean-stack-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-mern-stack-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-mobile-app-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+        Sitemap::addTag(asset('/hire-ui-ux-developers.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
+
         Sitemap::addTag(asset('/jewellery-app-development.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
         Sitemap::addTag(asset('/doctor-on-demand-app-development.php'), date('Y-m-d h:i:s'), 'daily', '0.6');
         Sitemap::addTag(asset('/diet-and-nutrition-app-development.php'), date('Y-m-d h:i:s'), 'daily', '0.6');

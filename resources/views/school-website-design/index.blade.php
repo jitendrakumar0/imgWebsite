@@ -45,7 +45,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> School Website <b> Design Company</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3 text-lg-start text-center">We create professional websites for School and Educational Institutions with sleek design that is welcoming to students and parents. Increase the circle of trust in your school with IMG Global Infotech.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3 text-lg-start text-center">We create professional websites for School and Educational Institutions with sleek design that is welcoming to students and parents. Increase the circle of trust in your school with IMG Global Infotech.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -69,8 +69,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">School Management System</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">School Management System</li>
                   </ol>
                </nav>
             </div>
@@ -100,7 +100,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left pt-5"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Unique And Innovative <b> Website Design Services</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">IMG Global Infotech works towards delivering and implanting your School Website with user friendly layout and interface. We have a native expertise in creating websites that attract parents and students with one look at the website. The designs are formatted professionally for both mobile and desktop versions to ensure that anyone on any platform has a smooth experience. The well organised website with crystal clear images would offer your visitors a complete professional experience.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">IMG Global Infotech works towards delivering and implanting your School Website with user friendly layout and interface. We have a native expertise in creating websites that attract parents and students with one look at the website. The designs are formatted professionally for both mobile and desktop versions to ensure that anyone on any platform has a smooth experience. The well organised website with crystal clear images would offer your visitors a complete professional experience.</div>
                      </div>
                   </div>
                </div>
@@ -131,7 +131,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left pt-5"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">SEO Friendly <b> School Web Design</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">The experts from IMG Global Infotech just do not stop at designing and developing the website. Our Digital Marketing team comes into action as soon as the website is placed online. We have the best in class professionals from all walks of life that would ensure that your school is the most popular thing on the internet through social media platforms. The Search Engine Optimisation services from us would keep your website on the first page of Google Search.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">The experts from IMG Global Infotech just do not stop at designing and developing the website. Our Digital Marketing team comes into action as soon as the website is placed online. We have the best in class professionals from all walks of life that would ensure that your school is the most popular thing on the internet through social media platforms. The Search Engine Optimisation services from us would keep your website on the first page of Google Search.</div>
                      </div>
                   </div>
                </div>
@@ -162,7 +162,7 @@
                               <div class="col-12 heading fs-md-14 fs-12 left pt-5"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">School Web Design Services At <b> Affordable Prices</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">We promise the best prices to all our clients who come to us for any kind of IT Solutions. A school serves and important purpose in the society and thus it deserves the best professionalism from us. We provide the most Affordable prices to schools and assist them in communicating to parents, students and public at large and keep the in rolled students updated with the latest happenings. Contact us for the best prices in the market.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-md-3 mt-0">We promise the best prices to all our clients who come to us for any kind of IT Solutions. A school serves and important purpose in the society and thus it deserves the best professionalism from us. We provide the most Affordable prices to schools and assist them in communicating to parents, students and public at large and keep the in rolled students updated with the latest happenings. Contact us for the best prices in the market.</div>
                      </div>
                   </div>
                </div>
@@ -181,7 +181,7 @@
          <div class="row">
             <div class="col-md-12">
                <div class="row">
-                  <div class="col-12 text-center fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3">After the website is live and digital marketing is in action, it is time for your school to get results. We deliver our websites on time. Your school website would be an inclusion of galleries, videos, highlighting events, calendars, information of faculties, rules and regulations, admissions forms and every minute detail. The website would be the mirror of your school to the world. It would be a repository of all the important documents online.</div>
+                  <div class="col-12 text-center fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">After the website is live and digital marketing is in action, it is time for your school to get results. We deliver our websites on time. Your school website would be an inclusion of galleries, videos, highlighting events, calendars, information of faculties, rules and regulations, admissions forms and every minute detail. The website would be the mirror of your school to the world. It would be a repository of all the important documents online.</div>
                </div>
             </div>
          </div>
@@ -199,7 +199,7 @@
             <div class="col-lg-4 mb-lg-0 mb-md-4 mb-4">
                <div class="ecommerce_solutions_box">
                   <div class="row shadow mx-0 border mb-3">
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 d-flex text-uppercase align-items-center bg-theme1 text-white py-2 zi-0 position-relative rounded">
+                     <div class="col fw-m fs-md-18 fs-sm-17 fs-16 d-flex text-uppercase align-items-center bg-theme1 text-white py-2 zi-0 position-relative rounded">
                         BASIC School Website
                      </div>
                   </div>
@@ -211,7 +211,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Responsive-Design
                            </div>
                         </div>
@@ -223,7 +223,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Dynamic News & Events
                            </div>
                         </div>
@@ -235,7 +235,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Photo Gallery & Slideshow
                            </div>
                         </div>
@@ -247,7 +247,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Interactive Location Map
                            </div>
                         </div>
@@ -259,7 +259,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Website Statistics
                            </div>
                         </div>
@@ -271,7 +271,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               SMS & Emailing
                            </div>
                         </div>
@@ -283,7 +283,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme1 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme1 border border-3 border-theme1 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Support When You Need
                            </div>
                         </div>
@@ -294,7 +294,7 @@
             <div class="col-lg-4 mb-lg-0 mb-md-4 mb-4">
                <div class="ecommerce_solutions_box">
                   <div class="row shadow mx-0 border rounded-end mb-3">
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 d-flex text-uppercase align-items-center bg-theme2 text-white py-2 zi-0 position-relative rounded">
+                     <div class="col fw-m fs-md-18 fs-sm-17 fs-16 d-flex text-uppercase align-items-center bg-theme2 text-white py-2 zi-0 position-relative rounded">
                         ADVANCE School Website
                      </div>
                   </div>
@@ -306,7 +306,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Update Your Content Quickly (CMS)
                            </div>
                         </div>
@@ -318,7 +318,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Your Content Added/Update For You
                            </div>
                         </div>
@@ -330,7 +330,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Unlimited Pages & Menus
                            </div>
                         </div>
@@ -342,7 +342,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               School Calendar
                            </div>
                         </div>
@@ -354,7 +354,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               School Alumni
                            </div>
                         </div>
@@ -366,7 +366,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Scheduled Publishing
                            </div>
                         </div>
@@ -378,7 +378,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme2 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme2 border border-3 border-theme2 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Parent Login
                            </div>
                         </div>
@@ -389,7 +389,7 @@
             <div class="col-lg-4 mb-lg-0 mb-md-0 mb-0">
                <div class="ecommerce_solutions_box">
                   <div class="row shadow mx-0 border rounded-end mb-3">
-                     <div class="col fw-bold fs-md-18 fs-sm-17 fs-16 d-flex text-uppercase align-items-center bg-theme3 text-white py-2 zi-0 position-relative rounded">
+                     <div class="col fw-m fs-md-18 fs-sm-17 fs-16 d-flex text-uppercase align-items-center bg-theme3 text-white py-2 zi-0 position-relative rounded">
                         COLLECT Fee Online
                      </div>
                   </div>
@@ -401,7 +401,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Collect tution fee
                            </div>
                         </div>
@@ -413,7 +413,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Collect boarding fee
                            </div>
                         </div>
@@ -425,7 +425,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Collect new registration fee
                            </div>
                         </div>
@@ -437,7 +437,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Maximum Payment options
                            </div>
                         </div>
@@ -449,7 +449,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Real-time reporting
                            </div>
                         </div>
@@ -461,7 +461,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Pending fee report
                            </div>
                         </div>
@@ -473,7 +473,7 @@
                            <div class="col-auto ps-0">
                               <span><i class="imgs img-check rounded-start text-white fs-lg-22 fs-md-19 fs-17 bg-theme3 d-flex w-50px h-100 justify-content-center align-items-center position-relative zi-2"></i></span>
                            </div>
-                           <div class="col fw-bold fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
+                           <div class="col fw-l fs-md-16 fs-sm-15 fs-14 text-theme3 border border-3 border-theme3 d-flex align-items-center bg-white ms-n5 py-2 zi-0 ps-5 position-relative">
                               Get fee in school account
                            </div>
                         </div>
@@ -495,7 +495,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme3 fs-md-14 fs-13 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

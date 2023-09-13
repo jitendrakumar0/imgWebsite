@@ -2,6 +2,109 @@
 
 @import "variables";
 
+
+.dW_sZ::-webkit-scrollbar, div::-webkit-scrollbar {
+  display: none;
+}
+.dW_sZ {
+  width: 100%;
+  border-collapse: separate;
+  font-weight: 500;
+}
+.dW_sZ thead th:not(:last-of-type) {
+  border-right: 1px solid #dcdee3;
+}
+.dW_sZ thead th:last-of-type {
+  border-radius: 0 36px 0 0;
+}
+.dW_sZ thead th {
+  font-size: 1.125rem;
+  line-height: 1.67;
+  letter-spacing: -.5px;
+  padding: 9px 20px;
+  background-color: #202020;
+  font-weight: 700;
+  color: #fff;
+  vertical-align: middle;
+  text-align: left;
+}
+.blog_single {
+
+  & .blog-recent-post {
+      position: sticky;
+      top: 99px;
+  }
+ 
+}
+
+@media (max-width: 430px){
+.dW_s0 {
+  margin-right: -15px;
+}
+}
+.dW_s0 {
+  overflow: auto;
+}
+@media (max-width: 430px){
+.dW_sZ caption {
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: -0.5px;
+  display: none;
+}
+}
+.dW_sZ tbody tr td p{
+  color: #222 !important;
+}
+.dW_sZ caption {
+  font-size: 1.125rem;
+  line-height: 1.67;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.dW_sZ tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-radius: 0 0 36px 36px;
+}
+
+.dW_sZ tbody tr td:first-of-type {
+  border-left: 1px solid #dcdee3;
+}
+@media (max-width: 430px){
+.dW_sZ tbody tr td {
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: -0.5px;
+}
+}
+
+.dW_sZ tbody tr td {
+  font-size: 1.125rem;
+  line-height: 1.67;
+  letter-spacing: -0.5px;
+  padding: 9px 20px;
+  min-width: 110px;
+  border-right: 1px solid #dcdee3;
+  border-bottom: 1px solid #dcdee3;
+}
+
+.dW_sZ thead th:not(:last-of-type) {
+  border-right: 1px solid var(--blog-table-border);
+}
+.dW_sZ thead th:first-of-type {
+  border-radius: 36px 0 0 0;
+}
+@media (max-width: 430px){
+.dW_sZ thead th {
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+}
+
  // new design blog
 .featured-blog{
   & img{
@@ -28,6 +131,18 @@
     width:100%;
   }
 }
+.blog_up_heading{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.blog_guide .blog_guide_content{
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
 
 
 // Faq section
@@ -220,7 +335,7 @@ button.accordion-button {
       --threshold: 60;
       --switch: calc((var(--l) - var(--threshold)) * -100%);
       color: hsl(0, 0%, var(--switch));
-      background: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
+      background: none !important;
     }
     & .blog_by {
       background-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
@@ -281,20 +396,20 @@ button.accordion-button {
       display: flex;
       flex-wrap: wrap;
       padding: 20px 20px;
+      justify-content: center;
       & li {
-        flex: 1 1 auto;
         text-align: center;
         & a {
           text-decoration: none;
-          font-weight: 600;
-          color: $theme1;
+          font-weight: 400;
+          color: #7e91a3;
           transition: 0.5s all;
-          font-size: 12px;
-          padding: 6px 10px;
+          font-size: 15px;
+          padding: 8px 24px;
           display: block;
-          border-radius: 8px;
-          border: 2px solid $theme1;
-          margin: 0 8px 7px 0;
+          border-radius: 5px;
+          margin: 8px 10px;
+          box-shadow: 0 0 4px #7f7d7d;
           &:hover {
             background-color: transparent;
             color: $theme1;
@@ -378,8 +493,8 @@ button.accordion-button {
         color: $theme3 !important;
         margin-top: 10px !important;
         margin-bottom: 0px !important;
-        font-weight: 900 !important;
-        font-size: 25px !important;
+        font-weight: 600 !important;
+        font-size: 30px !important;
         // border-left: 5px solid darken($theme3, 10) !important;
         // padding-left: 8px !important;
         // box-shadow: inset 23px 0px 37px -40px darken($theme3, 10) !important;
@@ -394,8 +509,8 @@ button.accordion-button {
         color: $theme1 !important;
         margin-top: 10px !important;
         margin-bottom: 0px !important;
-        font-weight: 900 !important;
-        font-size: 19px !important;
+        font-weight: 600 !important;
+        font-size: 25px !important;
         // border-left: 5px solid darken($theme3, 10) !important;
         // padding-left: 8px !important;
         // box-shadow: inset 23px 0px 37px -40px darken($theme3, 10) !important;
@@ -457,14 +572,12 @@ button.accordion-button {
       }
       & p {
         color: $gray-700 !important;
-        font-size: 15px ;
+        font-size: 20px ;
         font-weight: 500 !important;
-        font-family: inherit !important;
         line-height: inherit !important;
         margin-bottom: 0px !important;
         & * {
           color: inherit !important;
-          font-family: inherit !important;
           font-size: inherit !important;
         }
         & a {
@@ -478,7 +591,7 @@ button.accordion-button {
           font-weight: bold !important;
           & * {
             color: inherit !important;
-            font-family: inherit !important;
+            // font-family: inherit !important;
             font-size: inherit !important;
             text-decoration: inherit !important;
           }
@@ -490,7 +603,7 @@ button.accordion-button {
             font-size: inherit !important;
             & * {
               color: inherit !important;
-              font-family: inherit !important;
+              // font-family: inherit !important;
               font-size: inherit !important;
             }
           }
@@ -509,7 +622,7 @@ button.accordion-button {
           margin-top: 10px !important;
           margin-bottom: 0px !important;
           font-weight: bold !important;
-          font-size: 15px !important;
+          font-size: 20px !important;
           & * {
             color: inherit !important;
             font-family: inherit !important;
@@ -541,7 +654,7 @@ button.accordion-button {
       & ul {
         margin-bottom: 0 !important;
         & li {
-          font-size: 14px ;
+          font-size: 18px ;
           text-align: start !important;
           color: $gray-600 !important;
           font-weight: normal !important;
@@ -558,17 +671,17 @@ button.accordion-button {
       }
     }
   }
-  &::after {
-    content: "";
-    background: url(../../../img/blog/bg-img.webp);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-position: center;
-    z-index: 0;
-  }
+  // &::after {
+  //   content: "";
+  //   background: url(../../../img/blog/bg-img.webp);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   background-position: center;
+  //   z-index: 0;
+  // }
 }
 .tag_blog_single {
   position: absolute;
@@ -632,16 +745,18 @@ button.accordion-button {
 }
 .blog-single-tags ul li a {
   background-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
-  font-size: 12px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  padding: 2px 9px;
+  padding: 7px 10px;
   border-radius: 4px;
-  color: $white;
-  border: 1px solid $white;
+  color: #fff;
+  border: 1px solid #fff;
   transition: 0.5s all;
+  font-weight: bold;
+  margin: 3px 0;
 }
 .blog-single-tags ul li a:hover {
   color: $white;
@@ -660,7 +775,7 @@ button.accordion-button {
   width: 45px;
   transition: 0.5s all;
   color: $white;
-  border-radius: 50px;
+  border-radius: 9px;
 }
 .blog_socials a.facebook {
   background-color: #3b5999;
@@ -714,45 +829,57 @@ button.accordion-button {
   background-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
 }
 
-.outer_heading:after {
-  content: "";
-  height: 1px;
-  width: 1px;
-  border-style: solid;
-  border-width: 5px;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  border-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%))
-    hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%)) transparent transparent;
-}
-.outer_heading:before {
-  content: "";
-  position: absolute;
-  right: -10px;
-  top: 0;
-  height: 43px;
-  width: 100%;
-  background-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
-  z-index: -1;
+// .outer_heading:after {
+//   content: "";
+//   height: 1px;
+//   width: 1px;
+//   border-style: solid;
+//   border-width: 5px;
+//   position: absolute;
+//   bottom: -10px;
+//   left: 0;
+//   border-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%))
+//     hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%)) transparent transparent;
+// }
+// .outer_heading:before {
+//   content: "";
+//   position: absolute;
+//   right: -10px;
+//   top: 0;
+//   height: 43px;
+//   width: 100%;
+//   background-color: hsl(var(--h), calc(var(--s) * 1%), calc(var(--l) * 1%));
+//   z-index: -1;
+// }
+.tab-border{
+
+  &::before{
+    position: absolute;
+    content: "";
+    background: rgba(112, 112, 112, 35%);
+    height: 1px;
+    width: 58px;
+    left: 18px;
+ }
 }
 .blog-recent-post .list_count {
-  list-style: circle;
+  //list-style: circle;
 }
 .blog-recent-post ul li a {
-  text-decoration: none;
   font-size: 14px;
   display: block;
-  font-weight: bold;
-  color: $black;
+  color: #000;
   position: relative;
   transition: 0.5s;
+  list-style: none;
+  text-decoration: none;
 }
 .blog-recent-post ul li a:hover {
-  color: $theme3;
+  color: #139ed9;
 }
 .blog-recent-post ul li {
   margin-bottom: 10px;
+  list-style: none;
 }
 .blog_gallery_inner img {
   max-width: 100%;
@@ -779,10 +906,11 @@ button.accordion-button {
   padding: 10px;
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
 }
 .single_form_right .form-floating > label {
-  font-size: 12px;
+  font-size: 14px;
   padding: 12px 14px;
 }
 nav[role="navigation"] {
@@ -1181,7 +1309,7 @@ nav[role="navigation"] {
     }
   }
   & .owl-nav {
-  
+       display: none !important;
     &.disabled {
    
     }
@@ -1195,7 +1323,7 @@ nav[role="navigation"] {
     align-items: flex-start;
     & button[class*="owl-"] {
       font-size: 20px;
-      background: linear-gradient(135deg, #139ed9 0, #e09c19 100%);
+      background: #07384d;
       width: 40px;
       height: 40px;
       display: flex;

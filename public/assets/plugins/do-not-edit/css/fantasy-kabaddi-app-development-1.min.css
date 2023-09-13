@@ -522,9 +522,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=fantasy-kabaddi-app-development-1.min.css.map */
+}

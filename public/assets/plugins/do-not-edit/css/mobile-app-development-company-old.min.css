@@ -104,8 +104,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -118,6 +120,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -162,8 +165,7 @@ button.accordion-button {
   background-size: cover;
   height: 100vh;
   background-position: center center;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100vh;
 }
 
@@ -174,6 +176,15 @@ button.accordion-button {
   height: 124px;
   animation: howtowork 3s ease-in-out infinite alternate-reverse both;
   top: 44px;
+}
+
+@-webkit-keyframes howtowork {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
 }
 @keyframes howtowork {
   0% {
@@ -279,6 +290,7 @@ button.accordion-button {
   align-items: center;
   justify-content: center;
   position: relative;
+  -webkit-box-shadow: 0 40px 60px -30px rgba(23, 66, 168, 0.2);
   box-shadow: 0 40px 60px -30px rgba(23, 66, 168, 0.2);
 }
 
@@ -733,6 +745,14 @@ button.accordion-button {
 .leftside img {
   animation: howtowork2 3s ease-in-out infinite alternate-reverse both;
 }
+@-webkit-keyframes howtowork2 {
+  0% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
+}
 @keyframes howtowork2 {
   0% {
     transform: translateX(8px);
@@ -744,6 +764,14 @@ button.accordion-button {
 
 .topside1 img {
   animation: howtowork3 3s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes howtowork3 {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
 }
 @keyframes howtowork3 {
   0% {
@@ -757,6 +785,14 @@ button.accordion-button {
 .topside2 img {
   animation: howtowork4 4s ease-in-out infinite alternate-reverse both;
 }
+@-webkit-keyframes howtowork4 {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
 @keyframes howtowork4 {
   0% {
     transform: translateY(8px);
@@ -768,6 +804,14 @@ button.accordion-button {
 
 .topside3 img {
   animation: howtowork5 5s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes howtowork5 {
+  0% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
 }
 @keyframes howtowork5 {
   0% {
@@ -949,4 +993,4 @@ button.accordion-button {
     animation: howtowork 3s ease-in-out infinite alternate-reverse both;
     top: 4px;
   }
-}/*# sourceMappingURL=mobile-app-development-company-old.min.css.map */
+}

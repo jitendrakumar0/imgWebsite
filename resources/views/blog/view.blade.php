@@ -26,36 +26,119 @@
 <link rel="canonical" href="{{asset('/')}}blog/{{ $blog->urlBlog}}" />
 <meta name="robots" content="index, follow" />
 @endpush
+<?php
+$default_text_color = "#000";
+$background_color = "#fff";
+
+if(isset($blog->background_color) && !empty($blog->background_color) && isset($blog->background_color_status) && $blog->background_color_status=='1'){
+   $background_color = $blog->background_color;
+   $default_text_color = "#fff";
+
+   ?>
+   @push('scripts')
+<script>
+   $(document).ready(function(){
+      $('.blog_logo').html("<img src='{{asset('/public')}}/assets/img/logos/img-logo11.png' srcset='{{asset('/public')}}/assets/img/logos/img-logo11.png 700w, {{asset('/public')}}/assets/img/logos/img-logo11.png 1000w, {{asset('/public')}}/assets/img/logos/img-logo11.png 1200w' width='199' height='55' alt='IMG Global Infotech Logo'>");
+  });  
+</script>
+@endpush
+<?php   
+}
+?>
+
 @push('styles')
 <link data-root-putcolor="singleBlogBanner" rel="stylesheet" href="{{asset('/public')}}/assets/plugins/do-not-edit/css/blog.min.css">
 
+<style>
+ .navbar{
+      background: none !important;
+   }
+   nav.navbar.nav-active::before{
+      background: #fff !important;
+   }
+   nav.navbar.nav-active a.nav-link{
+      color: #000 !important;
+   }
+   
+   nav.navbar a.nav-link{
+      color: <?= $default_text_color; ?> !important;
+   }
+   nav.navbar .topbar ul li a{
+      color: <?= $default_text_color; ?> !important;
+   }
+    nav.navbar.nav-active  .topbar  ul li a{
+        color: #000 !important;
+    }
+    .blog-main{
+      background:<?= $background_color; ?>
+    }
+    .blog_logo1{
+      display: none;
+    }
+
+    nav.navbar.nav-active .blog_logo{
+      display: none;
+    }
+    nav.navbar.nav-active .blog_logo1{
+      display: block !important;
+    }
+</style>
 @endpush
 @section('content')
 
 
    <!-- blog single section -->
-   <div class="container-fluid blog_single position-relative overflow-hidden" data-putcolor="singleBlogBanner">
+   <div class="container-fluid  blog_single position-relative overflow-hidden blog-main" data-putcolor="singleBlogBanner">
       <div class="container py-5 position-relative zi-9">
          <div class="row pt-lg-5 mt-4">
-            <div class="col-lg-8 col-12">
-               <div class="blog_single_main mx-0 bg-white my-3 border row d-block z-index-3 py-4 shadow position-relative">
+           <div class="col-lg-12 col-12">
+              <div class="row  gy-lg-0 gx-lg-5 gx-0 gy-5  my-3 z-index-3 py-4  position-relative">
+                <div class="col-lg-6 col-12">
+                   <div class="blog_baner_top">
+                     <div class="col-12">
+                     <a href="{{asset('/blog/category/'.$blog->slugcategory)}}" class="blog_up_heading fw-m fs-xl-17 fs-lg-17 fs-md-17 fs-14" style="color: <?= $default_text_color; ?>;">{{ucwords($blog->category_title)}}</a>
+                      <div class="col-12 fw-m fs-md-14 fs-12 left pt-1 lh-sm"><span class="fs-xl-42 fs-lg-42 fs-md-40 fs-24" style="color: <?= $default_text_color; ?>;">{{ucwords($blog->title)}}</span></div>
+                      <div class="col-12 fw-l fs-lg-22 fs-md-18 fs-sm-15 fs-14  mt-3 mb-lg-3" style="color: <?= $default_text_color; ?>;">{{$blog->short_description}}</div>
+                      <div class="col-12 d-flex align-items-center blog_side_img pt-2">
+                        <a href="" class="me-3">
+                          <img class="h-55px w-55px  rounded-pill d-flex align-items-center" src="{{asset('/imgadmin2/images')}}/blogauthor/{{$blog->author_image}}" alt="writer">
+                        </a>
+                        <div class="blog_content">
+                         <a href="" class="blog_up_heading fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14" style="color: <?= $default_text_color; ?>;">Written by <b>{{$blog->author_name}} </b></a>
+                         <div class="fw-l fs-lg-14 fs-md-13 fs-sm-12 fs-12 d-flex align-items-center " style="color: <?= $default_text_color; ?>;">{{date('M d, Y',strtotime($blog->created_date))}} </div>
+                        </div>
+                      </div>
+                     </div>  
+                   </div>
+                
+                </div>
+                <div class="col-lg-6 col-12">
+                <img class="img-fluid d-flex" height="647" src="{{BLOG_IMAGE_URL()}}{{$blog->blog_image}}" alt="{{ucwords($blog->category_title)}}">
+                </div>
+              </div>
+           </div>
+          
+         
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="container-fluid  blog_single position-relative  " data-putcolor="singleBlogBanner">
+      <div class="container  zi-9">
+         <div class="row">
+
+
+   <div class="col-lg-8 col-12">
+               <div class="blog_single_main mx-0  my-3  row d-block z-index-3 py-4  position-relative">
                   <div class="col-12">
-                     <div class="blog_single_top row">
+                     <!-- <div class="blog_single_top row">
                         
                         <a href="{{asset('/blog/category/'.$blog->slugcategory)}}" class="tag_blog_single">{{ucwords($blog->category_title)}}</a>
-                        <h1 class="col-12 px-md-4 px-2 fw-bold fs-md-22 fs-22 lh-normal text-decoration-none mt-3 mb-1 blog_single_title">{{ucwords($blog->title)}}</h1>
+                        <h1 class="col-12 px-md-4 px-2 fw-m fs-md-22 fs-22 lh-normal text-decoration-none mt-3 mb-1 blog_single_title">{{ucwords($blog->title)}}</h1>
                         
-                        @if( !empty($blog->tags_foo) )
-                        <div class="col-12 px-md-4 px-2 blog-single-tags d-md-block d-none">
-                           <ul class="list-unstyled mb-0">
-                                    
-                              @foreach($blog->tags_foo as $tag)
-                                 <li> <a  href="{{asset('/blog/tag/'.$tag->tags_slug)}}" class="px-2">{{$tag->tags}}</a></li>
-                              @endforeach
-
-                           </ul>
-                        </div>
-                        @endif
+                     
 
                         <div class="col-12">
                            <div class="row align-items-center py-2 border-top border-bottom mt-3 mb-0 blogBySingleBlog">
@@ -70,16 +153,16 @@
                                  </div>
                               </div>
                               <div class="col-auto">
-                                 <div class="text-white fs-md-14 fs-13 fw-bold pl-0 d-flex align-items-center mb-0 justify-content-start"> <span class=""><i class="imgr img-calendar-alt me-1 fs-15"></i> {{date('M d, Y',strtotime($blog->created_date))}}</span></div>
+                                 <div class="text-white fs-md-14 fs-13 fw-m pl-0 d-flex align-items-center mb-0 justify-content-start"> <span class=""><i class="imgr img-calendar-alt me-1 fs-15"></i> {{date('M d, Y',strtotime($blog->created_date))}}</span></div>
                               </div>
                            </div>
                         </div>
-                     </div>
+                     </div> -->
                   </div>
-                  <div class="event_img px-0 position-relative overflow-hidden">
+                  <!-- <div class="event_img px-0 position-relative overflow-hidden">
                      <a href="javascript:;"><img data-getcolor="singleBlogBanner" class="w-100" src="{{BLOG_IMAGE_URL()}}{{$blog->blog_image}}" alt="{{ucwords($blog->category_title)}}"></a>
                      <span class="views"><i class="imgs img-eye me-2"></i> {{$blog->count}}</span>
-                  </div>
+                  </div> -->
                   <div class="col-12 px-md-4 px-3">
                      <div class="blog_single_text">
                         @php
@@ -87,8 +170,68 @@
                         @endphp
                      </div>
                   </div>
+
+
+                  <?php if(isset($blog->faq) && !empty($blog->faq) && ($blog->faq!='[]')){ ?>
+                  <div class="col-12 px-md-0 px-0">
+                     <div class="fs-18 text-theme1 fw-m pt-4 px-4">Faq</div>
+                          <!-- faq section -->
+                               
+                                  
+                                          <div class="container position-relative zi-2 py-lg-2 overflow-hidden bg-white faq_section position-relative py-3">
+                                          
+                                             <div class="row">
+                                             <div class="col-md-12">
+                                       
+                                       
+                                       <div class="accordion" id="accordionExample">
+
+                                          <?php if(!empty($blog->faq)){
+                                                $faqResult = json_decode($blog->faq,true);
+                                                foreach($faqResult as $key=>$faqdata) {   
+                                          ?>
+                                          <div class="accordion-item mb-4 position-relative zi-2">
+                                             <div class="accordion-header" id="heading<?= $key; ?>">
+                                                <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 p-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?= $key; ?>" aria-expanded="false" aria-controls="collapseOne">
+                                                <?= $faqdata['question']; ?>
+                                                </button>
+                                             </div>
+                                             <div id="collapse<?= $key; ?>" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                                                <?= $faqdata['answer']; ?>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <?php } } ?>
+                                    </div>
+                                 </div>
+                                 </div>
+                              </div>
+                           </div> 
+                     
+                   <?php } ?>
+
+                   <div class="row mb-3 position-relative px-md-4 px-3">
+           <div class="col-12">
+           <div class="fs-18 text-theme1 fw-m pt-2 pb-2">Tag:</div>
+           @if( !empty($blog->tags_foo) )
+                        <div class="col-12  blog-single-tags d-md-block d-none">
+                           <ul class="list-unstyled mb-0">
+                                    
+                              @foreach($blog->tags_foo as $tag)
+                                 <li> <a  href="{{asset('/blog/tag/'.$tag->tags_slug)}}" class="px-2 bg-dark">{{$tag->tags}}</a></li>
+                              @endforeach
+
+                           </ul>
+                        </div>
+                        @endif
+           </div>
+           </div>
+         
+
+
                   <div class="col-12 px-md-4 px-3">
-                     <div class="fs-18 text-theme1 fw-bold pt-4">Share On:</div>
+                     <div class="fs-18 text-theme1 fw-m pt-2">Share On:</div>
                      <div class="blog_socials">
                         <a class="facebook" style="cursor:pointer;" onclick="sharePost('facebook','<?php echo $blog->urlBlog; ?>');"><i class="imgb img-facebook"></i></a>
                         <a class="twitter" style="cursor:pointer;" onclick="sharePost('twitter','<?php echo $blog->urlBlog; ?>');"><i class="imgb img-twitter"></i></a>
@@ -96,45 +239,51 @@
                      </div>
                   </div>
                </div>
-               <div class="bg-white my-3 border mx-0 row d-block z-index-3 shadow position-relative">
-                  <div class="outer_heading fs-18 text-white fw-bold mb-4 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Recent Comment.</div>
+
+
+                
+
+
+
+               <!-- <div class="bg-white my-3 border mx-0 row d-block z-index-3  position-relative">
+                  <div class="outer_heading fs-18  fw-m mb-4 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 ">Recent Comment.</div>
                   <div class="col-12 px-md-4 px-3">
                      @forelse($comments as $cms)
                         <div class="coment_box bg-light p-3 border rounded mb-4">
-                           <div class="fs-18 text-theme3 fw-bold">{{ucwords($cms->name)}}</div>
-                           <div class="fs-14 text-dark fw-600 pt-1">@php echo $cms->comment; @endphp</div>
+                           <div class="fs-18 text-theme3 fw-m">{{ucwords($cms->name)}}</div>
+                           <div class="fs-14 text-dark fw-m pt-1">@php echo $cms->comment; @endphp</div>
                         </div>
                      @empty
                         <div class="coment_box bg-light p-3 border rounded mb-4">
-                           <div class="fs-18 text-theme3 fw-bold"></div>
-                           <div class="fs-14 text-dark fw-600 pt-1">No Comments..</div>
+                           <div class="fs-18 text-theme3 fw-m"></div>
+                           <div class="fs-14 text-dark fw-m pt-1">No Comments..</div>
                         </div>
                      @endif
                   </div>
-               </div>
-               <div class="blog_single_form mx-0 bg-white my-3 border row d-block z-index-3 pb-4 shadow position-relative">
-                  <div class="outer_heading fs-18 text-white fw-bold mb-4 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Post a Comment.</div>
+               </div> -->
+               <div class="blog_single_form mx-0 bg-white my-3 border row d-none z-index-3 pb-4  position-relative">
+                  <div class="outer_heading fs-18  fw-m mb-4 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 ">Post a Comment.</div>
                   <div class="col-12 px-md-4 px-3">
                      <p id="message"></p>
                      <form method="post" action="{{url('blog/Post_comment')}}" id="blogComment" name="blog-form" class="row ">
                         <div class="col-md-6 mb-4">
                            <div class="form-floating">
                               <input type="text" name="name" class="form-control " id="name" placeholder="Enter Full Name" required="">
-                              <label class="fw-600" for="name">Full Name <span class="text-danger">*</span></label>
+                              <label class="fw-m" for="name">Full Name <span class="text-danger">*</span></label>
                               <!-- <div class="invalid-feedback fs-12">Please Enter Full Name.</div> -->
                            </div>
                         </div>
                         <div class="col-md-6 mb-4">
                            <div class="form-floating">
                               <input type="email" name="email" class="form-control " id="emailID" placeholder="Enter Email ID" required="">
-                              <label class="fw-600" for="emailID">Email ID <span class="text-danger">*</span></label>
+                              <label class="fw-m" for="emailID">Email ID <span class="text-danger">*</span></label>
                               <!-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> -->
                            </div>
                         </div> 
                         <div class="col-md-12 mb-4" style="display:none;">
                            <div class="form-floating">
                               <input type="url" name="website" class="form-control " id="organization" placeholder="Enter Organization Name">
-                              <label class="fw-600" for="organization">Website</label>
+                              <label class="fw-m" for="organization">Website</label>
                               <div class="invalid-feedback fs-12">Enter Website URL here</div>
                            </div>
                         </div>
@@ -143,12 +292,12 @@
                         <div class="col-md-12 mb-4">
                            <div class="form-floating">
                               <textarea name="comment" class="form-control " id="Requierment" placeholder="Enter Requierment Name" required=""></textarea>
-                              <label class="fw-600" for="Requierment">Write Your Comment Here <span class="text-danger">*</span></label>
+                              <label class="fw-m" for="Requierment">Write Your Comment Here <span class="text-danger">*</span></label>
                               <!-- <div class="invalid-feedback fs-12">Please write something in comment box.</div> -->
                            </div>
                         </div>
                         <div class="col-auto align-self-center mt-2 mb-3">
-                           <button type="submit" class="btn btn-theme3 fs-md-14 fs-12 fw-bold hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <button type="submit" class="btn btn-theme3 fs-md-14 fs-12 fw-m hero_read_more_btn py-2 px-md-4 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Post Comment</span> <i class="imgd img-paper-plane position-relative bottom-n2px ms-2"  id="PlaneCommentLoader"></i> <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="Comment_Loader"></span></span>
                            </button>
                         </div>
@@ -157,27 +306,24 @@
                </div>
             </div>
             <div class="col-lg-4 col-12">
-               <div class="blog-recent-post mx-0 bg-white my-3 border row d-block z-index-3 pb-4 shadow position-relative">
-                  <div class="outer_heading fs-18 text-white fw-bold mb-3 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Recent Post.</div>
+                  <div class="blog-recent-post mx-0 bg-white my-3  row d-block z-index-3 pb-4  ">
+                  <div class="outer_heading fs-18  fw-m mb-3 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2">Recent Post.</div>
+                  <span class="tab-border"></span>
                   <div class="col-12">
-                     <ul class="list_count ps-4">
-                        @forelse($blogs as $post)
+                     <ul class="ps-0">
+                        @forelse($blogsRecent as $post)
                            <li>
                               <a href="{{asset('/blog/'.$post->urlBlog)}}">{{$post->title}}</a>
                            </li>
-                           @if($loop->iteration==4)
-                              @php
-                                 break;
-                              @endphp
-                           @endif
                         @empty
                            <li><a href="javascript:;">No Post Available</a></li>
                         @endif
                      </ul>
                   </div>
+                  <span class="tab-border"></span>
                </div>
-               <div class="blog-galler mx-0 bg-white my-3 border row d-block z-index-3 pb-2 shadow position-relative">
-                  <div class="outer_heading fs-18 text-white fw-bold mb-3 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Gallery.</div>
+              <!-- <div class="blog-galler mx-0 bg-white my-3 border row d-block z-index-3 pb-2 shadow position-relative">
+                  <div class="outer_heading fs-18  fw-m mb-3 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Gallery.</div>
                   <div class="col-12">
                      <div class="blog_gallery_inner">
                         @forelse($blogs as $gl)
@@ -191,9 +337,9 @@
                         @endif
                      </div>
                   </div>
-               </div>
-               <div class="blog-folow mx-0 bg-white my-3 border row d-block z-index-3 pb-3 shadow position-relative">
-                  <div class="outer_heading fs-18 text-white fw-bold mb-0 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Follow Us.</div>
+               </div> 
+               <div class="blog-folow mx-0 bg-white my-3  row d-block z-index-3 pb-3  position-relative">
+                  <div class="outer_heading fs-18  fw-m mb-0 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 ">Follow Us.</div>
                   <div class="col-12">
                      <div class="blog_socials">
                         <a class="facebook" href="https://www.facebook.com/imgglobalinfotech"><i class="imgb img-facebook"></i></a>
@@ -204,21 +350,21 @@
                      </div>
                   </div>
                </div>
-               <div class="blog_single_form single_form_right  mx-0 bg-white my-3 border row d-block z-index-3 pb-3 shadow position-relative">
-                  <div class="outer_heading fs-18 text-white fw-bold mb-4 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 shadow">Contact Us</div>
+               <div class="blog_single_form single_form_right  mx-0 bg-white my-3  row d-block z-index-3 pb-3  position-relative">
+                  <div class="outer_heading fs-18  fw-m mb-4 py-2 px-4 d-flex align-items-center justify-content-start position-relative z-index-2 ">Contact Us</div>
                   <form method="post" id="blog-form" name="blog-form" class="recentpostFormValidation" novalidate="">
                      @csrf
                      <div class="col-md-12 mb-3">
                         <div class="form-floating">
                            <input name="contactname" type="text" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required="">
-                           <label class="fw-600" for="name"> Name</label>
+                           <label class="fw-m" for="name"> Name</label>
                            <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                         </div>
                      </div>
                      <div class="col-md-12 mb-3">
                         <div class="form-floating">
                            <input name="contactemail" type="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" required="">
-                           <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                           <label class="fw-m" for="emailID">Email ID (Optional)</label>
                            <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                         </div>
                      </div>
@@ -236,19 +382,19 @@
                                                         <div class="form-floating">
                                                         
                                                             <input type="tel" name="contactnumber" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border-start" id="phoneNumber" placeholder="Enter Phone Number" required="">
-                                                            <label class="fw-600 fs-md-12 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                            <label class="fw-m fs-lg-14 fs-md-12 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                             <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                                         </div>
                                                     </div>
                                                </div>
                                             </div>
-                     {{-- <div class="col-md-12 mb-3">
+                   <div class="col-md-12 mb-3">
                         <div class="form-floating">
                            <input name="contactnumber" type="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0" id="phoneNumber" placeholder="Enter Phone Number" required="">
-                           <label class="fw-600" for="phoneNumber">Mobile Number</label>
+                           <label class="fw-m" for="phoneNumber">Mobile Number</label>
                            <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                         </div>
-                     </div> --}}
+                     </div> 
                      <div class="col-md-12 mb-3">
                         <div class="form-floating">
                            <select name="requirement" required="" class="form-control rounded-0">
@@ -272,22 +418,69 @@
                      <div class="col-md-12 mb-3">
                         <div class="form-floating">
                            <textarea name="mmessage" class="form-control rounded-0" id="Requierment" placeholder="Enter Requierment Name" required=""></textarea>
-                           <label class="fw-600" for="Requierment">Please Enter Message</label>
+                           <label class="fw-m" for="Requierment">Please Enter Message</label>
                            <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div>
                         </div>
                      </div>
                    
-                     <div class="col-auto d-flex align-self-center justify-content-end mt-4 mb-3">
-                        <button type="submit" class="btn btn-theme3 fs-12 fw-bold hero_read_more_btn py-2 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500" id="conBtn" >
+                     <div class="col-auto d-flex align-self-center justify-content-center mt-4 mb-3">
+                        <button type="submit" class="btn btn-theme3 fs-12 fw-m hero_read_more_btn py-2 px-3" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500" id="conBtn" >
                            <span class="d-block"><span>Submit</span> <i class="imgd img-paper-plane position-relative bottom-n2px ms-2"></i></span>
                         </button>
                      </div>
                   </form>
-               </div>
+               </div> -->
             </div>
-         </div>
-      </div>
-   </div>
+            <div class="row gy-lg-0 gx-lg-4 gx-md-3 gx-0 gy-4  my-3 z-index-3 py-4  position-relative blog_guide">
+               
+            @if(!empty($blogs))
+            @foreach($blogs as $gl)
+            <?php 
+               $blogTitle=strip_tags($gl->title);
+               if(strlen($blogTitle)>50){
+                  $title = substr($blogTitle,0,50).'..';
+               }else{
+                  $title = ($blogTitle); 
+               }
+            ?>
+               <div class="col-lg-4  col-sm-12 col-12">
+                     <div class="col-12 ">
+                     <figure>
+                     <a href="{{asset('/blog/'.$gl->urlBlog)}}" >
+                        <img  class="img-fluid w-100" src="{{BLOG_IMAGE_URL()}}/blog_thumb2/{{$gl->blog_image}}" class="blog-grid-img" alt="{{$gl->image_alttag}}">
+                        </a>
+                     </figure>
+                     <div class="blog_grid_content">
+                        <div class="blog_cat"><a href="" class="col-12 fs-lg-14 fs-12 text-dark fw-m blog_up_heading">{{$gl->blogtitle}}</a></div>
+                        <div><a href="{{asset('/')}}blog/{{$gl->urlBlog}}" class="col-12 fw-m  fs-24 text-dark lh-normal pt-2 blog_up_heading" >{{$title}}</a></div>
+                        <div class="col-12 fs-19 pt-3 mb-4 fw-l blog_guide_content">
+                        <?php 
+                              $resvi=$gl->description; 
+                              $resvi=strip_tags($resvi);
+                              if(strlen($resvi)>120){
+                                 echo substr((($resvi)),0,120).'...';  
+                              }else{
+                                 echo (($resvi)); 
+                              } 
+                           ?>
+                        </div>
+                        
+                        <span class="col-12 writer_name pe-2 fw-m text-muted">{{$gl->author_name}}</span>
+                           <span class="col-12content_date fw-m text-muted "><?php echo date('M d, Y', strtotime($gl->blog_date));?></span>
+                     
+                     </div>
+                  </div>
+               </div>
+               @endforeach
+               @endif
+
+               </div>
+               </div>
+               </div>
+               </div>
+
+
+               
 
 @endsection
 @push('scripts')

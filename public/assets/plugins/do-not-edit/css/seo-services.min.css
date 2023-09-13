@@ -171,6 +171,7 @@
   border-right: 1px solid #fff;
   margin: 0 -2px;
   position: relative;
+  -webkit-transition: 0.8s all;
   transition: 0.8s all;
   border-bottom: 1px solid #fff;
 }
@@ -333,8 +334,10 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
   transform: rotateY(180deg) rotateX(180deg);
   background-repeat: no-repeat;
 }
@@ -348,6 +351,7 @@
   right: 0;
   bottom: 0;
   background-position: top right;
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   z-index: 0;
   background-repeat: no-repeat;
@@ -416,6 +420,7 @@ button.accordion-button {
   }
   .development_services .development_services_box::after {
     background-color: #e09c19;
+    -webkit-transform: scale(1);
     transform: scale(1);
     height: 100%;
     width: 100%;
@@ -621,9 +626,11 @@ button.accordion-button {
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=seo-services.min.css.map */
+}

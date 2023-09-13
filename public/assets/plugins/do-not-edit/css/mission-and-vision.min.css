@@ -23,8 +23,7 @@
 .vision_mission_img img {
   max-width: 100%;
   border-radius: 6px 6px 0 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 0.5s;
   width: 100%;
 }
@@ -115,4 +114,4 @@
   .vision_mission .vision_mission_box .vision_mission_img img {
     height: autof;
   }
-}/*# sourceMappingURL=mission-and-vision.min.css.map */
+}

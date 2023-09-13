@@ -1,103 +1,6 @@
 
-                                          <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                                  <div class="row mx-1 py-3 bg-white">
-                                                      <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                       <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
-                                                       data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="302" height="auto" >
-                                                       </div>
-                                                      <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                          <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                          <span> By Lokesh Saini</span>
-                                                      </div>
-                                                      <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
-                                                  </div>
-                                            </a> 
-                                          <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" 
-                                                data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
-                                                </div>
-                                             </div>
-                                          </a>  
-                                          <a href="https://www.imgglobalinfotech.com/blog/readymade-fantasy-cricket-app-development-cost" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                   <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageReadymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" alt="Fantasy-Cricket-App-Development-Cost-A-Complete-Guide"width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]</div>
-                                             </div>
-                                          </a>
-                                          <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-for-ipl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                   <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Cricket-App-Development-for-IPL-2023.webp" alt="Fantasy-Cricket-App-Development-for-IPL-2023"width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Cricket App Development for IPL 2023</div>
-                                             </div>
-                                          </a>
-                                          <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-for-wpl-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                   <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageFantasy-Sports-App-Development-for-Womens-Premier-League-2023.webp" alt="Fantasy-Sports-App-Development-for-Womens-Premier-League-2023"width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Feb 13, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text">Fantasy Sports App Development for Women's Premier League 2023</div>
-                                             </div>
-                                          </a>
-                                          <a href="https://www.imgglobalinfotech.com/blog/top-10-restaurant-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                   <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageTop-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features.webp" alt="Top-10-Restaurant-App-Development-Companies-in-India-2023-Cost-and-Key-Features"width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Jan 27, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text">Top 10 Restaurant App Development Companies in India 2023 - Cost and K..</div>
-                                             </div>
-                                          </a>
-                                          <a href="https://www.imgglobalinfotech.com/blog/how-much-money-can-you-earn-through-mobile-apps-in-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                   <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageHow-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023.webp" alt="How-Much-Money-Can-You-Earn-Through-Mobile-Apps-in-2023"width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Jan 23, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text">How Much Money Can You Earn Through Mobile Apps in 2023?</div>
-                                             </div>
-                                          </a>
-                                          <a href="https://www.imgglobalinfotech.com/blog/top-10-medicine-delivery-app-development-companies-in-india-2023" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
-                                             <div class="row mx-1 py-3 bg-white">
-                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
-                                                   <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.avif" class="lazy-image" data-src="https://www.imgglobalinfotech.com/imgadmin2/images/blog/blog_thumb/blogimageList-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023.webp" alt="List-of-Top-10-Medicine-Delivery-App-Development-Companies-in-India-2023"width="302" height="auto" >
-                                                </div>
-                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
-                                                   <span class="text-theme3 me-2">Jan 16, 2023</span> 
-                                                   <span> By Lokesh Saini</span>
-                                                </div>
-                                                <div class="col-12 fs-14 fw-600 lanth-text">List of Top 10 Medicine Delivery App Development Companies in India 20..</div>
-                                             </div>
-                                          </a>@extends('main')
+                                        
+  @extends('main')
 @push('meta')
    <!--  Title -->
    <title>Web Designing Company in Alwar | Hire a Web Designer | IMG Global Infotech</title>
@@ -145,12 +48,12 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mb-3 mt-3">We deliver best-in-industry web design solutions associated with our expert team of designers. We use cutting-edge technologies to make designs that are rich in features and have the best UI experience.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mb-3 mt-3">We deliver best-in-industry web design solutions associated with our expert team of designers. We use cutting-edge technologies to make designs that are rich in features and have the best UI experience.</div>
                         <div class="col-12 pt-4">
-                        <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-14 fw-bold my-3 py-2 px-4">
+                        <a href="tel:+91-9694097245" class="btn btn-theme3 text-white fs-14 fw-m my-3 py-2 px-4">
                               <span class="d-block"><span>9694097245</span> <i class="imgr ms-2 img-phone-volume position-relative bottom-n2px"></i></span>
                            </a>
-                           <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-14 fw-bold my-3 py-2 px-4 ms-md-2">
+                           <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-theme1 text-white fs-14 fw-m my-3 py-2 px-4 ms-md-2">
                               <span class="d-block"><span>Start A Project</span><i class="imgr ms-2 img-laptop position-relative bottom-n2px"></i></span>
                            </a>
                         </div>
@@ -177,9 +80,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Website Designing Company In Alwar</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Website Designing Company In Alwar</li>
                   </ol>
                </nav>
             </div>
@@ -208,8 +111,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 text-center text-lg-start left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Website Designing <b>Services In Alwar</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG is the most experienced and acknowledged website designing company in Alwar, delivering best-in-industry designing solutions. We transform a brilliant idea into a wonderful reality giving all the touch that is required to make your website attractive. Our experts perform their role in such a way that your website becomes capable of standing out in the competition. If you collaborate with us then you will get the benefit of customised website design. We work on the philosophy of creating a website which is attractive, engaging and user-friendly.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We intend to build an expressive website design that enhances screen communication resulting in more traffic and the generation of leads. We work towards creating a website which is designed to fulfil market growing needs. Being one of the trusted website designing service providers, we have all the required expertise to meet your customised requirements.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">IMG is the most experienced and acknowledged website designing company in Alwar, delivering best-in-industry designing solutions. We transform a brilliant idea into a wonderful reality giving all the touch that is required to make your website attractive. Our experts perform their role in such a way that your website becomes capable of standing out in the competition. If you collaborate with us then you will get the benefit of customised website design. We work on the philosophy of creating a website which is attractive, engaging and user-friendly.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">We intend to build an expressive website design that enhances screen communication resulting in more traffic and the generation of leads. We work towards creating a website which is designed to fulfil market growing needs. Being one of the trusted website designing service providers, we have all the required expertise to meet your customised requirements.</div>
                      </div>
                   </div>
                </div>
@@ -227,7 +130,7 @@
                            <div class="row mx-0 pb-3">
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20 text-white"> We are a Leading Website Designing <b>Company In Alwar </b></span></div>
                            </div>
-                           <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mb-4">   
+                           <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mb-4">   
                            We possess all the leadership and productive skills that are required to make your website flawless and robust. We build websites by forming a strategic approach where every implementation is done using wireframe design based on your idea. After delivering the app our team is available for full-time support as and when required. Making us a top website designing company in Alwar. Our experts are highly committed to delivering your project on time with supreme quality. 
 
                               </div>
@@ -239,7 +142,7 @@
                                              <div class="col-3 mb-0">
                                                 <img class="w-80 position-relative shadow" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/happy-customer.webp" alt="happy customer.webp">
                                                 </div>
-                                                <div class="col-9 text-white fw-900 fs-xl-18 fs-lg-16 text-left mb-0">800+ <span class="d-block">Happy Customers </span></div>
+                                                <div class="col-9 text-white fw-m fs-xl-18 fs-lg-16 text-left mb-0">800+ <span class="d-block">Happy Customers </span></div>
                                            </div>
                                        </div>
                                  </div>
@@ -250,7 +153,7 @@
                                           <div class="col-3 mb-0">
                                              <img class="w-80 position-relative shadow" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/succesfull-project.webp" alt="succesfull-project">
                                              </div>
-                                             <div class="col-9 text-white fw-900 fs-xl-18 fs-lg-16 text-left mb-0">1200+ <span class="d-block">Successful Projects</span></div>
+                                             <div class="col-9 text-white fw-m fs-xl-18 fs-lg-16 text-left mb-0">1200+ <span class="d-block">Successful Projects</span></div>
                                           </div>
                                     </div>
                                  </div>
@@ -261,7 +164,7 @@
                                              <div class="col-3 mb-0">
                                                 <img class="w-80 position-relative shadow" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/team-member.webp" alt="team-member">
                                                 </div>
-                                                <div class="col-9 text-white fw-900 fs-xl-18 fs-lg-16 text-left mb-0">100+ <span class="d-block">Team Member </span></div>
+                                                <div class="col-9 text-white fw-m fs-xl-18 fs-lg-16 text-left mb-0">100+ <span class="d-block">Team Member </span></div>
                                            </div>
                                        </div>
                                   </div>
@@ -272,7 +175,7 @@
                                              <div class="col-3 mb-0">
                                                 <img class="w-80 position-relative shadow" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/customer-satisfaction.webp" alt="customer-satisfaction">
                                                 </div>
-                                                <div class="col-9 text-white fw-900 fs-xl-18 fs-lg-16 text-left mb-0">98%<span class="d-block">Success Ratio</span></div>
+                                                <div class="col-9 text-white fw-m fs-xl-18 fs-lg-16 text-left mb-0">98%<span class="d-block">Success Ratio</span></div>
                                            </div>
                                        </div>
                                  </div>
@@ -300,8 +203,8 @@
                           <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-3">
                              <div class="icon-box-block ">
                                <img class="w-20 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/blog.webp" alt="blog">
-                              <div class="col-12 text-black fw-900 fs-xl-22 fs-lg-22 text-left mb-3">Blog </div>   
-                              <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">Sites which are built to publish blogs having interactive Ui, we have the right skills and team to build the same. 
+                              <div class="col-12 text-black fw-m fs-xl-22 fs-lg-22 text-left mb-3">Blog </div>   
+                              <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">Sites which are built to publish blogs having interactive Ui, we have the right skills and team to build the same. 
 </div>
                             </div>
                         </div>
@@ -309,8 +212,8 @@
                         <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-3">
                              <div class="icon-box-block ">
                                <img class="w-20 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/entertainment website.webp" alt="entertainment website">
-                              <div class="col-12 text-black fw-900 fs-xl-22 fs-lg-22 text-left mb-3">Entertainment Website </div>   
-                              <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">We have built various websites that are purely built for entertainment using our skilled developers. 
+                              <div class="col-12 text-black fw-m fs-xl-22 fs-lg-22 text-left mb-3">Entertainment Website </div>   
+                              <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">We have built various websites that are purely built for entertainment using our skilled developers. 
 </div>
                             </div>
                         </div>
@@ -319,8 +222,8 @@
                         <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-3">
                              <div class="icon-box-block ">
                                <img class="w-20 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/educational website.webp" alt="educational website">
-                              <div class="col-12 text-black fw-900 fs-xl-22 fs-lg-22 text-left mb-3">Educational Website </div>   
-                              <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3"> Educational industry has shifted to digital platforms and various educational organisations have made their website through us. 
+                              <div class="col-12 text-black fw-m fs-xl-22 fs-lg-22 text-left mb-3">Educational Website </div>   
+                              <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3"> Educational industry has shifted to digital platforms and various educational organisations have made their website through us. 
 </div>
                             </div>
                         </div>
@@ -329,8 +232,8 @@
                         <div class="col-md-6 col-lg-4 col-xl-4 col-12">
                              <div class="icon-box-block ">
                                <img class="w-20 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/e-commerce website.webp" alt="e-commerce website">
-                              <div class="col-12 text-black fw-900 fs-xl-22 fs-lg-22 text-left mb-0">E-commerce Websites </div>   
-                              <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">Our experts have tech know-how in eCommerce website development and have completed 50+ projects in the same domain.
+                              <div class="col-12 text-black fw-m fs-xl-22 fs-lg-22 text-left mb-0">E-commerce Websites </div>   
+                              <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">Our experts have tech know-how in eCommerce website development and have completed 50+ projects in the same domain.
 </div>
                             </div>
                         </div>
@@ -338,16 +241,16 @@
                         <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-3">
                              <div class="icon-box-block ">
                                <img class="w-20 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/non profit website.webp" alt="non profit website">
-                              <div class="col-12 text-black fw-900 fs-xl-22 fs-lg-22 text-left mb-0">Non-Profit Websites </div>   
-                              <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">We have built various non-profit websites for different clients using seamless integrated UI with excellent mobile responsive design.</div>
+                              <div class="col-12 text-black fw-m fs-xl-22 fs-lg-22 text-left mb-0">Non-Profit Websites </div>   
+                              <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3">We have built various non-profit websites for different clients using seamless integrated UI with excellent mobile responsive design.</div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-3">
                              <div class="icon-box-block ">
                                <img class="w-20 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/corporate website.webp" alt="corporate website">
-                              <div class="col-12 text-black fw-900 fs-xl-22 fs-lg-22 text-left mb-0">Corporate Website </div>   
-                              <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3"> Highly influential designs are required for corporate websites and we possess the right expertise to perform.</div>
+                              <div class="col-12 text-black fw-m fs-xl-22 fs-lg-22 text-left mb-0">Corporate Website </div>   
+                              <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-center text-center mt-3"> Highly influential designs are required for corporate websites and we possess the right expertise to perform.</div>
                             </div>
                         </div>
 
@@ -368,37 +271,37 @@
                         <div class="icon-wrapper shadow position-relative mx-auto mb-3 w-80px h-80px bg-light rounded-circle d-flex align-items-center justify-content-center">
                            <span class="d-flex align-items-center justify-content-center pt-3"> <img class="w-50 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/discovery and strategy.webp" alt="discovery and strategy"></span>
                         </div>
-                        <h6 class="fs-16 text-muted fw-600 text-capitalize">Discovery <br>and Strategy</h6>
+                        <h6 class="fs-16 text-muted fw-m text-capitalize">Discovery <br>and Strategy</h6>
                      </div>
                      <div class="col-10 text-center p-2 border rounded-5 shadow">
                         <div class="icon-wrapper shadow position-relative mx-auto mb-3 w-80px h-80px bg-light rounded-circle d-flex align-items-center justify-content-center">
                         <span class="d-flex align-items-center justify-content-center pt-3"> <img class="w-50 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/information architecture.webp" alt="information architecture"></span>
                         </div>
-                        <h6 class="fs-16 text-muted fw-600 text-capitalize">Information <br> Architecture</h6>
+                        <h6 class="fs-16 text-muted fw-m text-capitalize">Information <br> Architecture</h6>
                      </div>
                      <div class="col-10 text-center p-2 border rounded-5 shadow">
                         <div class="icon-wrapper shadow position-relative mx-auto mb-3 w-80px h-80px bg-light rounded-circle d-flex align-items-center justify-content-center">
                         <span class="d-flex align-items-center justify-content-center pt-3"> <img class="w-50 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/creative design.webp" alt="creative design"></span>
                         </div>
-                        <h6 class="fs-16 text-muted fw-600 text-capitalize">Creative <br> Design</h6>
+                        <h6 class="fs-16 text-muted fw-m text-capitalize">Creative <br> Design</h6>
                      </div>
                      <div class="col-10 text-center p-2 border rounded-5 shadow">
                         <div class="icon-wrapper shadow position-relative mx-auto mb-3 w-80px h-80px bg-light rounded-circle d-flex align-items-center justify-content-center">
                         <span class="d-flex align-items-center justify-content-center pt-3"> <img class="w-50 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/coding development.webp" alt="coding development"></span>
                         </div>
-                        <h6 class="fs-16 text-muted fw-600 text-capitalize">Coding <br> Development</h6>
+                        <h6 class="fs-16 text-muted fw-m text-capitalize">Coding <br> Development</h6>
                      </div>
                      <div class="col-10 text-center p-2 border rounded-5 shadow">
                         <div class="icon-wrapper shadow position-relative mx-auto mb-3 w-80px h-80px bg-light rounded-circle d-flex align-items-center justify-content-center">
                         <span class="d-flex align-items-center justify-content-center pt-3"> <img class="w-50 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/quality assurance.webp" alt="quality assurance"></span>
                         </div>
-                        <h6 class="fs-16 text-muted fw-600 text-capitalize">Quality <br>Assurance</h6>
+                        <h6 class="fs-16 text-muted fw-m text-capitalize">Quality <br>Assurance</h6>
                      </div>
                      <div class="col-10 text-center p-2 border rounded-5 shadow">
                         <div class="icon-wrapper icon-before position-relative shadow mx-auto mb-3 w-80px h-80px bg-light rounded-circle d-flex align-items-center justify-content-center">
                         <span class="d-flex align-items-center justify-content-center pt-3"> <img class="w-50 position-relative mb-3" src="{{asset('/public')}}/assets/img/website-designing-company-in-alwar/launch and optimization.webp" alt="launch and optimization"></span>
                         </div>
-                        <h6 class="fs-16 text-muted fw-600 text-capitalize">Launch and <br>Optimization</h6>
+                        <h6 class="fs-16 text-muted fw-m text-capitalize">Launch and <br>Optimization</h6>
                      </div>
                   </div>
                </div>
@@ -416,7 +319,7 @@
       </div>
       <div class="row">
          <div class="col-12 col-md-4">
-            <ul class="fw-600 fs-16 text-white list-unstyled text-capitalize">
+            <ul class="fw-l fs-16 text-white list-unstyled text-capitalize">
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Healthcare</span></li>
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Education / e-Learning</span></li>
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Media & Entertainment</span></li>
@@ -425,7 +328,7 @@
             </ul>
          </div>
          <div class="col-12 col-md-4">
-            <ul class="fw-600 fs-16 text-white list-unstyled text-capitalize">
+            <ul class="fw-l fs-16 text-white list-unstyled text-capitalize">
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Food & Restaurant</span></li>
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Social Networking</span></li>
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Banking & Finance</span></li>
@@ -434,7 +337,7 @@
             </ul>
          </div>
          <div class="col-12 col-md-4">
-            <ul class="fw-600 fs-16 text-white list-unstyled text-capitalize">
+            <ul class="fw-l fs-16 text-white list-unstyled text-capitalize">
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Real Estate Website</span></li>
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Sports</span></li>
                <li class="mb-2 rounded d-flex"><span><i class="imgr img-angle-double-right text-danger me-2"></i></span><span>Blog Website</span></li>
@@ -511,7 +414,7 @@
                         <h3 class="d-none invisible">Latest Blogs</h3>
                         <div class="col heading fs-md-14 fs-12 left mb-sm-0 mb-3"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Latest <b> Blogs</b></span></div>
                         <div class="col-auto d-sm-block d-none">
-                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4">
+                            <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4">
                                 <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                             </a>
                         </div>
@@ -525,18 +428,59 @@
                                     <div class="row align-items-start mt-md-3 mt-2">
                                             <div class="col-12">
                                                 <div class="row blog_slider owl-carousel">
+                                                   <a href="https://www.imgglobalinfotech.com/blog/custom-software-development-companies" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/custom-software-development-companies.webp" class="img-fluid" alt="Top Custom Software Development Companies" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 20, 2023</span> 
+                                                                   <span> By Dipti Singhal </span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top Custom Software Development Companies</div>
+                                                           </div>
+                                                        </a>
 
-                                                         <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                       <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-hotel-booking-app-cost-features" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/How-To-Develop-Hotel-Booking-App-Cost-Features-2023.webp" class="img-fluid" alt="How To Develop Hotel Booking App: Cost, Features (2023)" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 07, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How To Develop Hotel Booking App: Cost, Features (2023)</div>
+                                                           </div>
+                                                        </a>
+
+                                                     <a href="https://www.imgglobalinfotech.com/blog/10-innovative-healthcare-business-ideas-for-startups-and-aspiring-entrepreneurs" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                           <div class="row mx-1 py-3 bg-white">
+                                                               <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
+                                                                data-src="{{asset('/public')}}/assets/img/blog-section/Innovative-Healthcare-Business-Ideas-for-Startups-and-Aspiring-Entrepreneurs.webp" class="img-fluid" alt="10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs" width="302" height="170" >
+                                                                </div>
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
+                                                                   <span class="text-theme3 me-2">Jun 05, 2023</span> 
+                                                                   <span> By Dipti Singhal</span>
+                                                               </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Innovative Healthcare Business Ideas For Startups And Aspiring Entrepreneurs</div>
+                                                           </div>
+                                                        </a> 
+                                                     
+                                                      <a href="https://www.imgglobalinfotech.com/blog/web-development-services-outsourcing-all-you-need-to-know" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                            <div class="row mx-1 py-3 bg-white">
                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Web-Development-Services-Outsourcing-All-you-Need-to-Know.avif" class="img-fluid" alt="Web Development Services Outsourcing: All You Need To Know" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 30, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Web Development Services Outsourcing: All You Need To Know</div>
                                                            </div>
                                                         </a> 
 
@@ -546,11 +490,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/How-Much-Does-It-Cost-To-Develop-A-Flutter-App.avif" class="img-fluid" alt="How Much Does It Cost To Develop A Flutter App" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 25, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">How Much Does It Cost To Develop A Flutter App?</div>
                                                            </div>
                                                         </a> 
 
@@ -561,11 +505,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Doctor-On-Demand-Mobile-Application-Development-Overall-Cost-and-Features.webp" class="img-fluid" alt="Doctor On-Demand Mobile Application Development- Overall Cost And Features" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 23, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Doctor On-Demand Mobile Application Development- Overall Cost And Features</div>
                                                            </div>
                                                      </a> 
 
@@ -575,11 +519,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/10-Best-Real-Estate-Application-For-Buyers-Sellers-in-2023.webp" class="img-fluid" alt="10 Best Real Estate Application For Buyers & Sellers In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 19, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">10 Best Real Estate Application For Buyers & Sellers In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -589,11 +533,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/On-Demand-Fuel-Delivery-Mobile-App-Development-in-2023.webp" class="img-fluid" alt="On-Demand Fuel Delivery Mobile App Development In 2023" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 16, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">On-Demand Fuel Delivery Mobile App Development In 2023</div>
                                                            </div>
                                                      </a> 
 
@@ -603,11 +547,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/Top-15-Celebrity-Look-Alike-Apps-2023.webp" class="img-fluid" alt="Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 10, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Top 15 Celebrity Look-Alike Apps 2023: Features, App Ideas, & Development</div>
                                                            </div>
                                                      </a> 
 
@@ -619,11 +563,11 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/The-Ultimate-Guide-to-Food-Delivery-App-Development-Right-Tech-Stack-and-Features.webp" class="img-fluid" alt="The Ultimate Guide To Food Delivery App Development" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 09, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">The Ultimate Guide To Food Delivery App Development: [Right Tech Stack And Features]</div>
                                                            </div>
                                                      </a> 
 
@@ -633,37 +577,37 @@
                                                                 <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto" 
                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/step-By-Step-Process-on-How-to-Build-a-Mobile-App-from-Scratch.png" class="img-fluid" alt="Step By Step Process on How to Build a Mobile App from Scratch" width="302" height="170" >
                                                                 </div>
-                                                               <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                               <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                    <span class="text-theme3 me-2">May 03, 2023</span> 
-                                                                   <span> By Lokesh Saini</span>
+                                                                   <span> By Dipti Singhal</span>
                                                                </div>
-                                                               <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
+                                                               <div class="col-12 fs-14 fw-l lanth-text lanth-text">Step By Step Process On How To Build A Mobile App From Scratch </div>
                                                            </div>
                                                      </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/time-and-cost-to-develop-fantasy-cricket-app-like-myteam11-and-howzat" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                             <div class="row mx-1 py-3 bg-white">
                                                                 <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                                  <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt" width="298" height="170" >
+                                                                 data-src="{{asset('/public')}}/assets/img/blog-section/time-and-Cost-to-Develop-Fantasy-Mobile-App-like-Myteam11-and-Howzatt.webp" class="img-fluid" alt="Time and Cost to Develop Fantasy Mobile App like Myteam11 and Howzatt" width="298" height="170" >
                                                                  </div>
-                                                                <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                                <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                     <span class="text-theme3 me-2">Apr 21, 2023</span> 
-                                                                    <span> By Lokesh Saini</span>
+                                                                    <span> By Dipti Singhal</span>
                                                                 </div>
-                                                                <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
+                                                                <div class="col-12 fs-14 fw-l lanth-text lanth-text">Time and Cost to Develop Fantasy Cricket App like Myteam11 and Howzat </div>
                                                             </div>
                                                       </a> 
                                                     <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-app-development-like-my11circle-and-myfab11" class="col-lg-3 col-md-6 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
                                                        <div class="row mx-1 py-3 bg-white">
                                                           <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                           <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11" width="298" height="170" >
+                                                          data-src="{{asset('/public')}}/assets/img/blog-section/fantasy-Cricket-App-Development-like-Mycircle11-and-Myfab11.webp" class="img-fluid" alt="Fantasy Cricket App Development like Mycircle11 and Myfab11" width="298" height="170" >
                                                           </div>
-                                                          <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                          <div class="col-12 fs-14 text-muted fw-m py-2">
                                                              <span class="text-theme3 me-2">Apr 12, 2023</span> 
-                                                             <span> By Lokesh Saini</span>
+                                                             <span> By Dipti Singhal</span>
                                                           </div>
-                                                          <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
+                                                          <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development like My11Circle and Myfab11
                                                           </div>
                                                        </div>
                                                     </a>  
@@ -672,13 +616,13 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/readymade-Fantasy-Cricket-App-Development-Cost-A-Complete-Guide.webp" class="img-fluid" alt="Readymade Fantasy Cricket App Development Cost A Complete Guide" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Apr 03, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Readymade Fantasy Cricket App Development Cost- [A Complete Guide]
                                                             </div>
                                                         </div>
                                                     </a>
@@ -687,19 +631,17 @@
                                                         <div class="row mx-1 py-3 bg-white rounded">
                                                             <div class="col-12 position-relative overflow-hidden blog-img-hvr">
                                                              <img src="{{asset('/public')}}/assets/img/blog-section/blog-shape.webp" class="lazy-image h-auto"  
-                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy-Cricket-App-Development-for-IPL-2023" width="298" height="170" >
+                                                             data-src="{{asset('/public')}}/assets/img/blog-section/Fantasy-Cricket-App-Development-for-IPL-2023.webp" class="img-fluid" alt="Fantasy Cricket App Development For IPL 2023" width="298" height="170" >
                                                              </div>
-                                                            <div class="col-12 fs-14 text-muted fw-bold py-2">
+                                                            <div class="col-12 fs-14 text-muted fw-m py-2">
                                                                 <span class="text-theme3 me-2">Feb 21, 2023</span> 
-                                                                <span> By Lokesh Saini</span>
+                                                                <span> By Dipti Singhal</span>
                                                             </div>
-                                                            <div class="col-12 fs-14 fw-600 lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
+                                                            <div class="col-12 fs-14 fw-l lanth-text lanth-text">Fantasy Cricket App Development For IPL 2023
                                                             </div>
                                                         </div>
                                                     </a>
-
-                                                  
-                                                </div>
+                                               </div>
                                             </div> 
                                         </div>
                                     </div>                  
@@ -709,7 +651,7 @@
                     </div>
                 
                 <div class="col-12 d-sm-none d-block pt-4">
-                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-bold py-2 px-4 w-100">
+                    <a href="{{asset('/blog')}}" class="btn btn-theme3 fs-xxl-13 fs-11 fw-m py-2 px-4 w-100">
                         <span class="d-block"><span>View All Blogs</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                     </a>
                 </div>
@@ -732,10 +674,10 @@
                   <div class="col heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Get Appointment with <b>Our Experts </b></span></div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">Let's work towards building a user friendly and interactive UI Website. </div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">Let's work towards building a user friendly and interactive UI Website. </div>
                </div>
                <div class="row">
-                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-600 mt-3">We assist to build a robust website design using a convenient website developing strategy to fulfil our customer’s needs and wants.  </div>
+                  <div class="col-lg-10 col-12 text-light px-0 fs-17 fw-l mt-3">We assist to build a robust website design using a convenient website developing strategy to fulfil our customer’s needs and wants.  </div>
                </div>
             </div>
             <div class="col-lg-6 pt-lg-0 pt-4 px-lg-2 px-0">
@@ -748,7 +690,7 @@
                   <div class="col-md-5">
                      <div class="form-floating">
                         <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                        <label class="fw-600" for="name">Name</label>
+                        <label class="fw-m" for="name">Name</label>
                         <div class="invalid-feedback fs-12">Please Enter Full Name.</div>
                      </div>
                   </div>
@@ -1004,7 +946,7 @@
                                        <div class="form-floating">
                                        
                                           <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 fs-md-16 fs-14 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required  >
-                                          <label class="fw-600 fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                          <label class="fw-m fs-md-16 fs-14" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                           <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                        </div>
                                     </div>
@@ -1014,7 +956,7 @@
                            <div class="col-md-5">
                               <div class="form-floating">
                                  <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID" >
-                                 <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                 <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div>
                               </div>
                            </div>
@@ -1039,22 +981,22 @@
                                        </select>
                                     <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div>
                                        <!-- <input type="text" name="requirement" class="form-control rounded-0 fs-md-16 fs-14" id="Requierment" placeholder="Enter Requierment Name" required> -->
-                                       <!-- <label class="fw-600 fs-md-16 fs-14" for="Requierment"></label> -->
+                                       <!-- <label class="fw-m fs-md-16 fs-14" for="Requierment"></label> -->
                                        <!-- <div class="invalid-feedback fs-12">Please Enter a Valid Requierment.</div> -->
                                  </div>
                          </div>
 
                          <div class="col-md-12">
                            <div class="form-floating">
-                              <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                              <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                              <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                              <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                  <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                            </div>
                         </div> 
 
 
                   <div class="col-auto align-self-center">
-                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-bold hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <button type="submit" id="digitalBTN" class="btn btn-theme2 fs-14 fw-m hero_read_more_btn py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Send Now</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </button>
                   </div>
@@ -1073,7 +1015,7 @@
             <input type="hidden" id="reUrl" value="{{asset('/thankyou.php')}}" />
             <input type="hidden" name="type" value="Fantasy Cricket App Development" />
             <div class="modal-header align-items-start">
-               <h5 class="modal-title fw-bold" id="exampleModalLabel">
+               <h5 class="modal-title fw-m" id="exampleModalLabel">
                   <div class="col-lg-12 col-md-12 col-12 mb-lg-0 mb-md-0 pb-md-1 px-4">
                      <div class="row align-items-center">
                         <h2 class="d-none invisible">Get Appointment With Our Experts</h2>
@@ -1093,7 +1035,7 @@
                               <div class="col-md-12">
                                  <div class="form-floating">
                                     <input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Enter Full Name" required>
-                                    <label class="fw-600" for="name">Name <label class="text-danger">* </label></label>
+                                    <label class="fw-m" for="name">Name <label class="text-danger">* </label></label>
                                     <div class="invalid-feedback fs-12">Please Enter Full Name. </div>
                                  </div>
                               </div>
@@ -1346,7 +1288,7 @@
                                             <div class="col-8 ps-0">
                                             <div class="form-floating">
                                                 <input type="tel" name="tel" minlength="10" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="form-control rounded-0 border border-left" id="phoneNumber" placeholder="Enter Phone Number" required>
-                                                <label class="fw-600" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
+                                                <label class="fw-m" for="phoneNumber">Mobile Number <label class="text-danger">* </label></label>
                                                 <div class="invalid-feedback fs-12">Please Enter a Valid Phone Number.</div>
                                             </div>
                                             </div>
@@ -1356,7 +1298,7 @@
                               <div class="col-md-12">
                                  <div class="form-floating">
                                     <input type="email" name="email" class="form-control rounded-0" id="emailID" placeholder="Enter Email ID">
-                                    <label class="fw-600" for="emailID">Email ID (Optional)</label>
+                                    <label class="fw-m" for="emailID">Email ID (Optional)</label>
                                     {{-- <div class="invalid-feedback fs-12">Please Enter a Valid Email ID.</div> --}}
                                  </div>
                               </div>
@@ -1384,8 +1326,8 @@
 
                                 <div class="col-md-12">
                                     <div class="form-floating">
-                                        <input type="text" name="type" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
-                                        <label class="fw-600 fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
+                                        <input type="text" name="message" class="form-control rounded-0" id="type" placeholder="Wirte a Message" required >
+                                        <label class="fw-m fs-md-16 fs-14" for="Requierment"> Wirte a Message</label> 
                                             <div class="invalid-feedback fs-12">Please Enter a Valid Type Message.</div> 
                                         </div>
                                 </div> 
@@ -1396,7 +1338,7 @@
                </div> 
             </div>
             <div class="modal-footer px-5 pb-4">
-               <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-bold py-2 px-md-4 px-3 w-100">
+               <button type="submit" id="digitalBTN" class="btn btn-theme3 fs-md-14 fs-13 fw-m py-2 px-md-4 px-3 w-100">
                   <span class="d-block"><span>Submit</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </button>
             </div>

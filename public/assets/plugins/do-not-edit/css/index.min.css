@@ -105,6 +105,14 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.border-r {
+  border-right: 1px solid #4a4a4a;
+}
+
+.blog-section .owl-item img {
+  width: auto !important;
+}
+
 .bredcrumb_main {
   background-color: #dee2e6;
 }
@@ -137,6 +145,46 @@ body::-webkit-scrollbar-thumb {
 }
 .top_banner .top_banner-left-part img:nth-child(2) {
   filter: invert(1);
+}
+
+#footer-part-address {
+  background: #03151d;
+}
+
+.arrowright {
+  animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateX(-4px);
+  }
+}
+.btn-button1 {
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+.btn-button1::before {
+  width: 0%;
+  height: 0%;
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  transition: all 0.5s ease-out;
+  background: #e29c16;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.btn-button1:hover:before {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.mobile_header.offcanvas {
+  background-color: #03151d;
 }
 
 .iti--separate-dial-code .iti__selected-flag {
@@ -175,6 +223,7 @@ body::-webkit-scrollbar-thumb {
   background-size: 120px;
   background-repeat: no-repeat;
   transform: rotate(45deg);
+  -webkit-filter: contrast(0.5);
   filter: contrast(0.5);
 }
 .insights::after {
@@ -518,8 +567,7 @@ body::-webkit-scrollbar-thumb {
 .mobile_app_portfolio_box figure img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .mobile_app_portfolio_box:hover figure img {
@@ -789,7 +837,6 @@ body::-webkit-scrollbar-thumb {
   padding: 40px 10px;
   height: auto;
   z-index: 1;
-  min-height: -moz-min-content;
   min-height: min-content;
   background: linear-gradient(45deg, #0b5a7b, #03151d);
   position: absolute;
@@ -849,8 +896,7 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 .hireDeveloperSection .letImgOuter .leftImg img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   aspect-ratio: 3.5/4;
   height: 100%;
 }
@@ -886,8 +932,7 @@ body::-webkit-scrollbar-thumb {
 .hireDeveloperSection .rightSide .hireDevCard .card .card-body .imgOuter img {
   width: 50px;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   aspect-ratio: 3/4;
 }
 .hireDeveloperSection .rightSide .hireDevCard .card:hover {
@@ -904,10 +949,8 @@ body::-webkit-scrollbar-thumb {
 }
 @media (max-width: 1199.98px) {
   .hireDeveloperSection .letImgOuter .leftImg img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    -o-object-position: top center;
-       object-position: top center;
+    object-fit: contain;
+    object-position: top center;
   }
 }
 @media (max-width: 991.98px) {
@@ -970,8 +1013,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 10px;
 }
 .trandingSection .trandingTabs .nav-tabs .nav-item .nav-link.customNavBtn.card .card-body .imgOuter img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   aspect-ratio: 2/2;
 }
 .trandingSection .trandingTabs .nav-tabs .nav-item .nav-link.customNavBtn.card:hover {
@@ -1016,8 +1058,7 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.1);
 }
 .trandingSection .tabsContentSection .tab-content .tab-pane .rightSide .norImg img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 100%;
   transition: transform 0.3s ease-in-out;
 }
@@ -1040,10 +1081,8 @@ body::-webkit-scrollbar-thumb {
 }
 .trandingSection .tabsContentSection .tab-content .tab-pane .rightSide .newAddedCarousel2 .owl-stage-outer .owl-stage .owl-item a img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -1314,8 +1353,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .obj {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .certified-box {
@@ -1541,6 +1579,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .features-bg-layer {
+  -webkit-animation: 5s ease 0s normal none infinite running border_animate;
   animation: 5s ease 0s normal none infinite running border_animate;
   background: rgba(245, 245, 245, 0.6392156863) none repeat scroll 0 0;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
@@ -1550,6 +1589,21 @@ body::-webkit-scrollbar-thumb {
   top: -10%;
   transition: all 0.3s ease 0s;
   width: 550px;
+}
+
+@-webkit-keyframes border_animate {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
 }
 @keyframes border_animate {
   0% {
@@ -1650,6 +1704,7 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.05;
 }
 .portfolio .portfolio-bg-layer {
+  -webkit-animation: 5s ease 0s normal none infinite running border_animate2;
   animation: 5s ease 0s normal none infinite running border_animate2;
   background: #efefef none repeat scroll 0 0;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
@@ -1742,6 +1797,7 @@ body::-webkit-scrollbar-thumb {
   height: auto;
   position: relative;
   z-index: 1;
+  -webkit-filter: drop-shadow(1px 1px 5px #000);
   filter: drop-shadow(1px 1px 5px #000);
 }
 .mock_frame span {
@@ -1773,6 +1829,21 @@ body::-webkit-scrollbar-thumb {
   width: 67%;
   height: 94.6%;
   margin: 4.7% 17% 0 17%;
+}
+
+@-webkit-keyframes border_animate2 {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
 }
 @keyframes border_animate2 {
   0% {
@@ -2353,10 +2424,8 @@ html {
   width: 300px;
 }
 .newTesimonialSection .newTesimonialSectionInner .testimonialCol .testimonialCard .testimonialUserImgCol .testimonialUserImg img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  object-fit: cover;
+  object-position: top;
 }
 .newTesimonialSection .newTesimonialSectionInner .testimonialCol .testimonialCard .userMessage {
   display: -webkit-box;
@@ -2489,4 +2558,4 @@ html {
   .newTesimonialSection .newTesimonialSectionInner .testimonialCol .testimonialCard .userLocation {
     padding-left: 92px;
   }
-}/*# sourceMappingURL=index.min.css.map */
+}

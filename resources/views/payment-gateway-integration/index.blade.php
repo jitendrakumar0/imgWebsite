@@ -45,9 +45,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Payment Gateway <b> Integration</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">When everything is going online then why not payment system should also follow an online path and for this, online payment gateway is the right choice. Payment Gateway integration is a service that is used to process the debit card, credit card and net banking transactions while you are accepting any order from your customer. It is one of the important service for E-businesses and online retailers to provide an easily to use payment platform to their customers.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">When everything is going online then why not payment system should also follow an online path and for this, online payment gateway is the right choice. Payment Gateway integration is a service that is used to process the debit card, credit card and net banking transactions while you are accepting any order from your customer. It is one of the important service for E-businesses and online retailers to provide an easily to use payment platform to their customers.</div>
                         <div class="col-12 pt-3">
-                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-white fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/request-a-quote.php')}}" class="btn btn-white fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Get a Quote</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -74,9 +74,9 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Payment Gateway Integration</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/web-development.php')}}">Web Development</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Payment Gateway Integration</li>
                   </ol>
                </nav>
             </div>
@@ -106,8 +106,8 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> We Can Integrate The <b> Following Payment Gateways </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">When everything is going online then why not payment system should also follow an online path and for this, online payment gateway is the right choice. Payment Gateway integration is a service that is used to process the debit card, credit card and net banking transactions while you are accepting any order from your customer. It is one of the important service for E-businesses and online retailers to provide an easily to use payment platform to their customers.</div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">If you are devising to launch your online store to sell products then you need an excellent payment integration facility. IMG Global Infotech is specialized in payment gateway integration and having an experience in implementing all kinds of payment gateway. So, to make your money safe while making online payment, just choose IMG Global Infotech.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">When everything is going online then why not payment system should also follow an online path and for this, online payment gateway is the right choice. Payment Gateway integration is a service that is used to process the debit card, credit card and net banking transactions while you are accepting any order from your customer. It is one of the important service for E-businesses and online retailers to provide an easily to use payment platform to their customers.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">If you are devising to launch your online store to sell products then you need an excellent payment integration facility. IMG Global Infotech is specialized in payment gateway integration and having an experience in implementing all kinds of payment gateway. So, to make your money safe while making online payment, just choose IMG Global Infotech.</div>
                         <div class="col-12">
                            <div class="row mt-3">
                               <div class="col-auto p-2">
@@ -168,22 +168,22 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-start border-5 border-theme1">
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 lh-normal">Managing the risks between your business and credit card companies.</div>
+                        <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal">Managing the risks between your business and credit card companies.</div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-start border-5 border-theme2">
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 lh-normal">Managing the personal and financial data of your customers.</div>
+                        <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal">Managing the personal and financial data of your customers.</div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-start border-5 border-success">
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 lh-normal">The process of transaction is by debiting from customer and crediting into your account.</div>
+                        <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal">The process of transaction is by debiting from customer and crediting into your account.</div>
                      </div>
                   </div>
                   <div class="col-md-12">
                      <div class="py-3 px-4 bg-white shadow rounded mb-3 border-start border-5 border-theme3">
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 lh-normal">Funds are transferring to your bank account.</div>
+                        <div class="col-12 fw-m fs-md-16 fs-sm-15 fs-14 lh-normal">Funds are transferring to your bank account.</div>
                      </div>
                   </div>
                </div>

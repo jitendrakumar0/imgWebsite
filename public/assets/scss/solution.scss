@@ -1,0 +1,434 @@
+@charset "UTF-8";
+
+@import "variables";
+body {
+  transition: background 1s ease;
+}
+
+.hover-img{
+    transition: all .3s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+.blink {
+    text-decoration: blink;
+    animation: Color 4s linear infinite;
+    color: #000;
+  }
+  
+  @keyframes Color {
+    0% {
+      color: #a0d468;
+    }
+  
+    20% {
+      color: #4fc1e9;
+    }
+  
+    40% {
+      color: #ffce54;
+    }
+  
+    60% {
+      color: #fc6e51;
+    }
+  
+    80% {
+      color: #ed5565;
+    }
+  
+    100% {
+      color: #ac92ec;
+    }
+  }
+
+.text-theme4{
+    color: #073548;
+}
+
+.bussiness_banner{
+
+    & .buis_ban{
+        background: #0b2040;
+        padding: 20px 50px;
+        border-radius: 15px;
+
+        & .buis_icon{
+            height: 14px;
+            width: 14px;
+            background-color: #203350;
+            border-radius: 50%;
+            position: relative;
+           
+            &::after{
+                position: absolute;
+                content: "";
+                height: 24px;
+                width: 24px;
+                background-color: #e1c03b;
+                border-radius: 50%;
+                top: -5px;
+                left: -5px;
+                z-index: -1;
+            }
+        }
+
+        & .btn-button1{
+
+            &:hover{
+                color: #fff !important;
+                transition: all .5s;
+
+                & .buis_icon{
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.industry_section {
+
+    & .indust_box{
+        border: 1px solid #e6e6e6;
+        transition: all .3s;
+
+      & img{
+        transition: all .3s; 
+        }
+
+        :hover{
+
+            & img{
+               transform: rotate(360deg);
+            }
+        }
+    }
+}
+
+
+.food_solution_section_1{
+
+    & .fd_inner_content{
+         transition: all .5s;
+
+        & .fd_heading{
+
+            & .fd_dot{
+                background: #fbd642;
+                height: 24px;
+                width: 24px;
+                border-radius: 50%;
+                transition: all .5s;
+
+                & i{
+                    color: #203350;
+                }
+            }
+        }
+
+        &:hover{
+            background: #073548;
+            border-radius: 8px;
+            transition: all .5s;
+
+            & .fd_heading{
+               color: #fff !important;
+            }
+
+            & .fd-txt{
+               color: #fff !important;
+            }
+
+            & .fd_dot{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s;
+            }
+        }
+    }
+}
+
+
+.food_solution_section_2{
+  
+    & .feature_box{
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 74%;
+            background-color: #073548;
+            display: inline-block;
+            margin: 5px 0 0 -28px;
+        }
+
+        &.feet_key{
+        
+           &::before{
+            height: 60%; 
+           }
+        }
+
+        & .feature_list{
+
+            &::before{
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 15px;
+                background-color: #073548;
+                display: inline-block;
+                border-radius: 10px;
+                margin: 5px 0 0 -35px;
+            }
+        }
+    }
+    & .feature_btn{
+        background: #073548;
+        border-radius: 30px;
+    }
+}
+
+.food_solution_section_3{
+
+    & .solution_tabs{
+        border-bottom: 0;
+        flex-wrap: wrap;
+
+        & .nav-link{
+            border: none;
+            border-radius: 0;
+            
+            &:hover{
+                isolation: none;
+                border-bottom: 3px solid #a3a2a2;
+                box-shadow: none;
+                border-radius: 0;
+                
+            }
+
+            &:focus{
+                isolation: none;
+                border-bottom: 3px solid #000;
+                box-shadow: none;
+            }
+
+            &.active{
+                border-radius: 0;
+                border-bottom: 3px solid #000;
+            }
+        }
+    }
+
+    & .tech_icons{
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        padding: 15px;
+        border: 1px solid #f5f5f5;
+        transition: all .3s;
+
+        & img{
+            filter: grayscale(100%);
+        }
+        
+        &:hover{
+            border: 1px solid #0b2040;
+            & img{
+             filter: grayscale(0);
+            }
+        }
+    }
+}
+
+.food_solution_section_4{
+
+    & .solutionTesimonial{
+
+        & .solu_test_box{
+            padding: 24px 20px;
+            border: 1px solid #d5dade;
+            white-space: normal;
+            transition: .25s ease-out;
+
+
+            & .sol_list{
+
+                & li{
+                    list-style: circle;
+                }
+            }
+            & .count_box{
+                background-color: #203350;
+                top: 0;
+                right: 0;
+                transition: all .5s ease;
+            }
+            & .arrowsCon{
+                top: 48%;
+                right: 40px;
+
+                & .circlePro{
+                    border: 2px solid #d5dade;
+                    border-radius: 50%;
+                    background-color: #fff;
+                }
+                & .dashPro{
+                    color: #d5dade;
+
+                    &::before{
+                        content: "";
+                        flex: 1;
+                        background: currentColor;
+                        clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+                }
+                }
+                }
+
+                &.solu_bx_mt{
+                    margin-top: 44px;
+                }
+
+                &:hover{
+                    border-color: #fbd642;
+                    box-shadow: 1px 2px 15px -2px #ccc;
+
+                    & .count_box{
+                        background-color: #fbd642;
+                        color: #203350;
+                    }
+
+                    & .circlePro{
+                        background-color: #fbd642;
+                    }
+                }
+             }
+             & .owl-stage{
+                margin-left: -12px;
+             }
+            }
+        }
+    
+        .featured_client_section{
+
+            & .client_box{
+                background-color: #f5f5f5;
+                transition: .3s;
+                position: relative;
+
+                &:hover{
+                  background-color: #000;
+
+                   & img{
+                       filter: invert(1);
+                   }
+                }
+            }
+        }
+
+
+.dating_section{
+
+    & .dat_img{
+        
+        & img{
+            width: 300px;
+        }
+    }
+    .date_bg{
+        background: rgb(241, 235, 255);
+        border-radius: 14px;
+    }
+}
+
+
+
+
+
+@mixin solution_section-mixin-max-sm() {
+
+    .work_section{
+        .work_box{
+            display: block !important;
+
+            & .work_icon{
+                margin-bottom: 12px;
+            }
+          }
+        }
+
+    .bussiness_banner{
+
+        & .buis_ban{
+            padding: 23px 0;
+
+            & .bann_btn{
+                justify-content: center !important;
+            }
+        }
+    }
+
+    .food_solution_section_4 {
+            
+        & .solu_test_box{
+
+            & .arrowsCon{
+                display: none !important;
+            }
+
+            &.solu_bx_mt{
+                margin-top: 0 !important;
+            }
+        }
+    }
+}
+
+
+@mixin solution_section-mixin-max-md(){}
+@mixin solution_section-mixin-max-lg(){
+
+}
+@mixin solution_section-mixin-max-xl(){
+
+}
+@mixin solution_section-mixin-min-xxl(){
+
+}
+
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include solution_section-mixin-min-xxl();
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include solution_section-mixin-max-xl();
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include solution_section-mixin-max-lg();
+
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include solution_section-mixin-max-md();
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include solution_section-mixin-max-sm();
+
+}

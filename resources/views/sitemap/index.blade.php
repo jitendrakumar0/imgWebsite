@@ -485,7 +485,15 @@
                               <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-php-developers.php">https://www.imgglobalinfotech.com/hire-php-developers.php</a></li>
                               <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-web-designers.php">https://www.imgglobalinfotech.com/hire-web-designers.php</a></li>
                               <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-angular-developers.php">https://www.imgglobalinfotech.com/hire-angular-developers.php</a></li>
-                           </ul>
+                              
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-python-developers.php">https://www.imgglobalinfotech.com/hire-python-developers.php </a></li>
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-full-stack-developers.php"> https://www.imgglobalinfotech.com/hire-full-stack-developers.php</a></li>
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-web-developers.php">https://www.imgglobalinfotech.com/hire-web-developers.php </a></li>
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-mean-stack-developers.php"> https://www.imgglobalinfotech.com/hire-mean-stack-developers.php</a></li>
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-mern-stack-developers.php"> https://www.imgglobalinfotech.com/hire-mern-stack-developers.php</a></li>
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-mobile-app-developers.php">https://www.imgglobalinfotech.com/hire-mobile-app-developers.php </a></li>
+                              <li class="mb-md-4 mb-3"><a class="fw-bold fs-md-15 fs-13 text-decoration-none text-muted position-relative links_sitemap d-block" href="https://www.imgglobalinfotech.com/hire-ui-ux-developers.php">https://www.imgglobalinfotech.com/hire-ui-ux-developers.php </a></li>
+                            </ul>
                         </div>
                      </div>
                   </div>

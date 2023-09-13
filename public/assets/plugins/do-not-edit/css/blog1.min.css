@@ -66,6 +66,10 @@
 }
 .freeapp-quote2 .shape2 img {
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 0% 100% 0% 100%/100% 83% 20% 0%;
 }
 .freeapp-quote2 .colors {
@@ -87,9 +91,12 @@
   box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
 }
 .post-banner-2 img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 190px;
+  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -ms-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
   transition: all 600ms ease;
 }
 .post-banner-2 img:hover {
@@ -1002,4 +1009,4 @@ nav[role=navigation] > *:nth-child(2) > *:nth-child(2) > * > span:last-child > *
   .blog-recent-post ul li {
     margin-bottom: 17px;
   }
-}/*# sourceMappingURL=blog1.min.css.map */
+}

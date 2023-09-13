@@ -334,9 +334,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -567,8 +569,7 @@
   opacity: 0;
   transition: 0.35s;
   background-color: rgba(0, 0, 0, 0.6);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .mad_portf_box figcaption div {
   transform: translateX(-106%);
@@ -622,4 +623,4 @@
   -moz-border-radius: 36px 20px 20px 20px;
   -ms-border-radius: 36px 20px 20px 20px;
   -o-border-radius: 36px 20px 20px 20px;
-}/*# sourceMappingURL=mobile-app-development-company-in-alwar.min.css.map */
+}

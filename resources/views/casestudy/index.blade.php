@@ -82,33 +82,37 @@ Discover how businesses are using our varied services and solutions, and how we 
 
         
         <!-- Case  study section 1 -->
-        <div class="container-fluid overflow-hidden case-study position-relative section vh-100"  data-bg="#03151d">
+        <div class="container-fluid overflow-hidden case-study position-relative section vh-80"  data-bg="#8803c4">
               <div class="container position-relative py-lg-5 py-md-5 py-sm-5 py-1">
                    <div class="row align-items-center justify-content-center ">
-                    <div class="col-lg-11">
-                      <div class="row align-items-center justify-content-center flex-lg-row flex-md-row flex-column-reverse">
-                        <div class="col-lg-6 col-md-6 col-12 mt-4 mb-4 mb-lg-0">
-                            <div class="row">
-                              <div class="col-12 text-white text-lg-start text-md-start text-center"> 
-                                <span class="fs-lg-45 fs-md-34 fs-md-28 fs-sm-20 fs-20">MYFEB11</span> <span class="fs-lg-45 fs-md-25 fs-sm-20 fs-22 d-block">Fantasy Sports App</span></div>
-                                   <div class="col-12 text-lg-start text-md-start text-center pt-xl-4 pt-lg-4 pt-3 pb-xl-0 pb-lg-0 pb-3">
-                                      <a href="#0" class="link-btn1 fs-xxl-14 fs-13 fw-bold py-xxl-2 py-2 px-4 me-2 text-white text-decoration-none">
-                                      <span class="px-xl-2 px-lg-2 px-sm-2 px-2">Web</span></a>
-                                 </div>
-                              <div class="col-12 fs-lg-24 fs-md-18 fs-20 my-md-4 mb-2 mt-1 service_content text-lg-start text-center text-md-start text-white">
-                              Never wait to pay, Leave when you are ready, Make losing your credit card a thing of the past.
-                              </div>
-                                <div class="col-12 text-lg-start text-md-start text-center pt-4">
-                                    <a href="#0" class="fs-xl-18 fs-lg-18 fs-md-17 fs-sm-22 fs-11 fw-bold py-xxl-2 py-1 text-decoration-none bg-white fw-700 fs-md-18 fs-sm-15 fs-15 text-dark case-view">
-                                    View Case Study
-                                 </a>
-                              </div>
+                    <div class="col-lg-12">
+                    <div class="row align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-5 ps-sm-5 ps-5">
+                                <div class="row text-lg-start text-md-center text-center position-relative pe-xxl-3 pe-xl-3 pe-lg-3 pe-md-3 pe-sm-1 pe-1 pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-3 pt-sm-1 pt-4">
+                                    <div class="col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                                        <div class="row">
+                                            <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">BOBI Live</div>
+                                            <div class="col-12 headingv2 left text-black"><span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22  text-white">Socializing, interacting, exploring, all fascinating things are here for you !</span>
+                                            </div>
+                                            <div class="divider ms-xl-3"></div>
+                                        </div>
+                                           <div class="col-12 pb-xl-5 pb-lg-5 pb-md-5 pb-sm-2 pb-1">
+                                                <a href="javascript:;" class="fw-m text-decoration-none text-capitalize text-white fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 ms-md-2">
+                                                   <span class="d-block fw-m"><span class="d-flex">View case study
+                                                   <img src="{{asset('/public')}}/assets/img/hero-section/arrowRight--white.svg" class="w-md-3 w-sm-3 w-5 pt-0 ms-2 arrow" alt=""></span></span>
+                                               </a>
+                                          </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                         <div class="col-lg-6 col-md-6 col-12 text-center">
-                              <img src="{{GETFOLDERPATH()}}/myfab11.webp" class="w-lg-80 w-md-70 w-90" alt="Myfab11">
-                        </div>
-                    </div>
+                                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-1">
+                                        <div class="row h-100  order-1">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-12 mt-2 text-center  order-1">
+                                               <img src="{{asset('/public')}}/assets/img/hero-section/frame12.webp" class="w-80 " alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                </div>
              </div>
           </div>
@@ -116,39 +120,37 @@ Discover how businesses are using our varied services and solutions, and how we 
 
           
         <!-- Case study section 2 -->
-            <div class="container-fluid overflow-hidden case-study position-relative section vh-100"  data-bg="#D50B0C">
+            <div class="container-fluid overflow-hidden case-study position-relative section vh-80"  data-bg="#93bf20">
                   <div class="container position-relative py-lg-5 py-md-5 py-sm-5 py-1">
                       <div class="row align-items-center justify-content-center ">
-                        <div class="col-lg-11">
-                          <div class="row align-items-center justify-content-center flex-lg-row flex-md-row flex-column-reverse">
-                            <div class="col-lg-6 col-md-6 col-12 text-center">
-                                  <img src="{{GETFOLDERPATH()}}/propira.webp" class="w-lg-80 w-md-70 w-90" alt="Propira">
-                              
-                            </div>  
-                          <div class="col-lg-6 col-md-6 col-12 mt-4 mb-4 mb-lg-0">
-                                <div class="row">
-                                  <div class="col-12 text-white text-lg-start text-md-start text-center"> 
-                                    <span class="fs-lg-45 fs-md-34 fs-md-28 fs-sm-20 fs-20">Propira</span> <span class="fs-lg-45 fs-md-25 fs-sm-20 fs-22 d-block">Real Estate Website</span></div>
-                                      <div class="col-12 text-lg-start text-md-start text-center pt-xl-4 pt-lg-4 pt-3 pb-xl-0 pb-lg-0 pb-3">
-                                        <a href="#0" class="link-btn1 fs-xxl-14 fs-13 fw-bold py-xxl-2 py-2 px-4 me-2 text-white text-decoration-none">
-                                          <span class="px-xl-2 px-lg-2 px-sm-2 px-2">Web</span></a>
-                                      
-                                          {{-- <a href="#0" class="link-btn1 fs-xxl-14 fs-13 fw-bold py-xxl-2 py-2 px-4 me-2 text-white text-decoration-none">
-                                          <span class="px-xl-2 px-lg-2 px-sm-2 px-2">iOS</span></a>--}}
-                                          {{--   <a href="#0" class="link-btn1 fs-xxl-14 fs-13 fw-bold py-xxl-2 py-2 px-4 me-2 text-white text-decoration-none">
-                                          <span class="px-xl-2 px-lg-2 px-sm-2 px-2">Android</span></a> --}}
+                        <div class="col-lg-12">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-5 ps-sm-5 ps-5">
+                                <div class="row text-lg-start text-md-center text-center position-relative pe-xxl-3 pe-xl-3 pe-lg-3 pe-md-3 pe-sm-1 pe-1 pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-3 pt-sm-1 pt-4">
+                                    <div class="col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                                        <div class="row">
+                                            <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">Hozzo - Car wash</div>
+                                            <div class="col-12 headingv2 left text-black"><span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22  text-white">Waterless car washing services across india</span>
+                                            </div>
+                                            <div class="divider ms-xl-3"></div>
+                                        </div>
+                                           <div class="col-12 pb-xl-5 pb-lg-5 pb-md-5 pb-sm-2 pb-1">
+                                                <a href="javascript:;" class="fw-m text-decoration-none text-capitalize text-white fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 ms-md-2">
+                                                   <span class="d-block fw-m"><span class="d-flex">View case study
+                                                   <img src="{{asset('/public')}}/assets/img/hero-section/arrowRight--white.svg" class="w-md-3 w-sm-3 w-5 pt-0 ms-2 arrow" alt=""></span></span>
+                                               </a>
+                                          </div>
                                     </div>
-                                  <div class="col-12 fs-lg-24 fs-md-18 fs-20 my-md-4 mb-2 mt-1 service_content text-lg-start text-center text-md-start text-white">
-                                  Scroll through hundreds of pictures of jobs in your area that people need help with.
-                                  </div>
-                                    <div class="col-12 text-lg-start text-md-start text-center pt-4">
-                                        <a href="#0" class="fs-xl-18 fs-lg-18 fs-md-17 fs-sm-22 fs-11 fw-bold py-xxl-2 py-1 text-decoration-none bg-white fw-700 fs-md-18 fs-sm-15 fs-15 text-dark case-view">
-                                        View Case Study
-                                    </a>
-                                  </div>
                                 </div>
                             </div>
-                      </div>
+                                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-1">
+                                        <div class="row h-100  order-1">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-12 mt-2 text-center  order-1">
+                                               <img src="{{asset('/public')}}/assets/img/hero-section/hozzo.webp" class="w-80 " alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                     </div>
                  </div>
               </div>
@@ -157,33 +159,115 @@ Discover how businesses are using our varied services and solutions, and how we 
 
            
         <!-- Case  study section 3 -->
-        <div class="container-fluid overflow-hidden case-study position-relative section vh-100"  data-bg="#A70048">
+        <div class="container-fluid overflow-hidden case-study position-relative section vh-80"  data-bg="#0e420c">
               <div class="container position-relative py-lg-5 py-md-5 py-sm-5 py-1">
                    <div class="row align-items-center justify-content-center ">
-                    <div class="col-lg-11">
-                      <div class="row align-items-center justify-content-center flex-lg-row flex-md-row flex-column-reverse">
-                        <div class="col-lg-6 col-md-6 col-12 mt-4 mb-4 mb-lg-0">
-                            <div class="row">
-                              <div class="col-12 text-white text-lg-start text-md-start text-center"> 
-                                <span class="fs-lg-45 fs-md-34 fs-md-28 fs-sm-20 fs-20">Fabindia</span> <span class="fs-lg-45 fs-md-25 fs-sm-20 fs-22 d-block">Matrimonial Website</span></div>
-                                   <div class="col-12 text-lg-start text-md-start text-center pt-xl-4 pt-lg-4 pt-3 pb-xl-0 pb-lg-0 pb-3">
-                                      <a href="#0" class="link-btn1 fs-xxl-14 fs-13 fw-bold py-xxl-2 py-2 px-4 me-2 text-white text-decoration-none">
-                                      <span class="px-xl-2 px-lg-2 px-sm-2 px-2">Web</span></a>
-                                 </div>
-                              <div class="col-12 fs-lg-24 fs-md-18 fs-20 my-md-4 mb-2 mt-1 service_content text-lg-start text-center text-md-start text-white">
-                              Rental Marketplace for online auction-based apartment Buying & Selling, without any broker
-                              </div>
-                                <div class="col-12 text-lg-start text-md-start text-center pt-4">
-                                    <a href="#0" class="fs-xl-18 fs-lg-18 fs-md-17 fs-sm-22 fs-11 fw-bold py-xxl-2 py-1 text-decoration-none bg-white fw-700 fs-md-18 fs-sm-15 fs-15 text-dark case-view">
-                                    View Case Study
-                                 </a>
-                              </div>
+                    <div class="col-lg-12">
+                    <div class="row align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-5 ps-sm-5 ps-5">
+                                <div class="row text-lg-start text-md-center text-center position-relative pe-xxl-3 pe-xl-3 pe-lg-3 pe-md-3 pe-sm-1 pe-1 pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-3 pt-sm-1 pt-4">
+                                    <div class="col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                                        <div class="row">
+                                            <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">MyFab11</div>
+                                            <div class="col-12 headingv2 left text-black"><span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22  text-white">Principle Partner of KKR. india's most trusted Fantasy Cricket App</span>
+                                            </div>
+                                            <div class="divider ms-xl-3"></div>
+                                        </div>
+                                           <div class="col-12 pb-xl-5 pb-lg-5 pb-md-5 pb-sm-2 pb-1">
+                                                <a href="javascript:;" class="fw-m text-decoration-none text-capitalize text-white fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 ms-md-2">
+                                                   <span class="d-block fw-m"><span class="d-flex">View case study
+                                                   <img src="{{asset('/public')}}/assets/img/hero-section/arrowRight--white.svg" class="w-md-3 w-sm-3 w-5 pt-0 ms-2 arrow" alt=""></span></span>
+                                               </a>
+                                          </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                         <div class="col-lg-6 col-md-6 col-12 text-center">
-                              <img src="{{GETFOLDERPATH()}}/fabindia.webp" class="w-lg-80 w-md-70 w-90" alt="Fabindia">
-                        </div>
-                    </div>
+                                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-1">
+                                        <div class="row h-100  order-1">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-12 mt-2 text-center  order-1">
+                                               <img src="{{asset('/public')}}/assets/img/hero-section/fab11.webp" class="w-80 " alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+               </div>
+             </div>
+          </div>
+    </div>
+
+
+
+    
+           
+        <!-- Case  study section 4 -->
+        <div class="container-fluid overflow-hidden case-study position-relative section vh-80"  data-bg="#9c1313">
+              <div class="container position-relative py-lg-5 py-md-5 py-sm-5 py-1">
+                   <div class="row align-items-center justify-content-center ">
+                    <div class="col-lg-12">
+                    <div class="row align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-5 ps-sm-5 ps-5">
+                                <div class="row text-lg-start text-md-center text-center position-relative pe-xxl-3 pe-xl-3 pe-lg-3 pe-md-3 pe-sm-1 pe-1 pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-3 pt-sm-1 pt-4">
+                                    <div class="col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                                        <div class="row">
+                                            <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">Fabindia</div>
+                                            <div class="col-12 headingv2 left text-black"><span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22  text-white">Shop for Handwoven Garments & home furnishings</span>
+                                            </div>
+                                            <div class="divider ms-xl-3"></div>
+                                        </div>
+                                           <div class="col-12 pb-xl-5 pb-lg-5 pb-md-5 pb-sm-2 pb-1">
+                                                <a href="javascript:;" class="fw-m text-decoration-none text-capitalize text-white fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 ms-md-2">
+                                                   <span class="d-block fw-m"><span class="d-flex">View case study
+                                                   <img src="{{asset('/public')}}/assets/img/hero-section/arrowRight--white.svg" class="w-md-3 w-sm-3 w-5 pt-0 ms-2 arrow" alt=""></span></span>
+                                               </a>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-1">
+                                        <div class="row h-100  order-1">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-12 mt-2 text-center  order-1">
+                                               <img src="{{asset('/public')}}/assets/img/hero-section/fabindia.webp" class="w-80 " alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+               </div>
+             </div>
+          </div>
+    </div>
+
+    <!-- Case  study section 5 -->
+    <div class="container-fluid overflow-hidden case-study position-relative section vh-80"  data-bg="#d90c0b">
+              <div class="container position-relative py-lg-5 py-md-5 py-sm-5 py-1">
+                   <div class="row align-items-center justify-content-center ">
+                    <div class="col-lg-12">
+                    <div class="row align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-5 ps-sm-5 ps-5">
+                                <div class="row text-lg-start text-md-center text-center position-relative pe-xxl-3 pe-xl-3 pe-lg-3 pe-md-3 pe-sm-1 pe-1 pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-3 pt-sm-1 pt-4">
+                                    <div class="col-12 ps-xxl-5 ps-xl-5 ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                                        <div class="row">
+                                            <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">propira</div>
+                                            <div class="col-12 headingv2 left text-black"><span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22  text-white">Your Local Property Expert</span>
+                                            </div>
+                                            <div class="divider ms-xl-3"></div>
+                                        </div>
+                                           <div class="col-12 pb-xl-5 pb-lg-5 pb-md-5 pb-sm-2 pb-1">
+                                                <a href="javascript:;" class="fw-m text-decoration-none text-capitalize text-white fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 ms-md-2">
+                                                   <span class="d-block fw-m"><span class="d-flex">View case study
+                                                   <img src="{{asset('/public')}}/assets/img/hero-section/arrowRight--white.svg" class="w-md-3 w-sm-3 w-5 pt-0 ms-2 arrow" alt=""></span></span>
+                                               </a>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-1">
+                                        <div class="row h-100  order-1">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-12 mt-2 text-center  order-1">
+                                               <img src="{{asset('/public')}}/assets/img/hero-section/propira.webp" class="w-80 " alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                </div>
              </div>
           </div>

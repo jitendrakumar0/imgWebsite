@@ -45,9 +45,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Real <b> Estate Management Software</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Real Estate Management Software is a complete solution to manage real estate business data on a unified platform. The software can easily encounter huge challenges such as project planning and execution, cost of construction material, regulatory compliances and cash flow.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is a one point solution for managing projects, payments, monitoring activities at different levels. This software easily brings different departments of entire real estate system at on center point.</div>
-                        <div class="col-12 fw-600 fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">To provide a solution for all real estate issues, IMG Global Infotech develops a user-friendly real estate management software and mobile app that can be easily customized according to client’s requirement.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Real Estate Management Software is a complete solution to manage real estate business data on a unified platform. The software can easily encounter huge challenges such as project planning and execution, cost of construction material, regulatory compliances and cash flow.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">It is a one point solution for managing projects, payments, monitoring activities at different levels. This software easily brings different departments of entire real estate system at on center point.</div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">To provide a solution for all real estate issues, IMG Global Infotech develops a user-friendly real estate management software and mobile app that can be easily customized according to client’s requirement.</div>
                      </div>
                   </div>
                   <div class="col-lg-6 pe-lg-5 top_banner-left-part">
@@ -71,8 +71,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Real Estate Management Software</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Real Estate Management Software</li>
                   </ol>
                </nav>
             </div>
@@ -91,10 +91,10 @@
             <div class="col-lg-4 text-center d-flex align-items-stretch mb-lg-5 mb-4">
                <div class="development_services_box w-100 shadow">
                   <h3 class="d-none invisible">Material Management</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz pt-4" style="--tz:30px;">Material Management</div>
-                  <div class="col-12 fw-600 fs-16 text-muted mt-3 tz" style="--tz:30px;">Material management plays an important in real estate business. While designing a house, bridge or anything else material is an important asset. Therefore to manage quality and quantity of a material, material management proofs to be a great help.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz pt-4" style="--tz:30px;">Material Management</div>
+                  <div class="col-12 fw-l fs-16 text-muted mt-3 tz" style="--tz:30px;">Material management plays an important in real estate business. While designing a house, bridge or anything else material is an important asset. Therefore to manage quality and quantity of a material, material management proofs to be a great help.</div>
                   <div class="col-12 pt-3 text-center">
-                     <a class="btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <a class="btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </a>
                   </div>
@@ -103,10 +103,10 @@
             <div class="col-lg-4 text-center d-flex align-items-stretch mb-lg-5 mb-4">
                <div class="development_services_box w-100 shadow">
                   <h3 class="d-none invisible">Financial Management</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz pt-4" style="--tz:30px;">Financial Management</div>
-                  <div class="col-12 fw-600 fs-16 text-muted mt-3 tz" style="--tz:30px;">Financial management is design to manage various financial issues related to real estate like deliver automation, control and integration for property accounting. It is a full suite for financial management activities.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz pt-4" style="--tz:30px;">Financial Management</div>
+                  <div class="col-12 fw-l fs-16 text-muted mt-3 tz" style="--tz:30px;">Financial management is design to manage various financial issues related to real estate like deliver automation, control and integration for property accounting. It is a full suite for financial management activities.</div>
                   <div class="col-12 pt-3 text-center">
-                     <a class="btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <a class="btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </a>
                   </div>
@@ -115,10 +115,10 @@
             <div class="col-lg-4 text-center d-flex align-items-stretch mb-lg-5 mb-4">
                <div class="development_services_box w-100 shadow">
                   <h3 class="d-none invisible">Lead Generation</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-19 lh-normal tz pt-4" style="--tz:30px;">Lead Generation</div>
-                  <div class="col-12 fw-600 fs-16 text-muted mt-3 tz" style="--tz:30px;">Proper monitoring and tracking of lead is essential for any business and this would be managed through lead generation. It provide an organized way to respond, track and process incoming enquiries.</div>
+                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz pt-4" style="--tz:30px;">Lead Generation</div>
+                  <div class="col-12 fw-l fs-16 text-muted mt-3 tz" style="--tz:30px;">Proper monitoring and tracking of lead is essential for any business and this would be managed through lead generation. It provide an organized way to respond, track and process incoming enquiries.</div>
                   <div class="col-12 pt-3 text-center">
-                     <a class="btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                     <a class="btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                         <span class="d-block"><span>Read More</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                      </a>
                   </div>
@@ -150,7 +150,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Manage leads from referral and listings</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Manage leads from referral and listings</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Manage leads from referral and listings</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -159,7 +159,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Compatible with any type of platform</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Compatible with any type of platform</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Compatible with any type of platform</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -168,7 +168,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Capture detailed property information</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Capture detailed property information</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Capture detailed property information</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -177,7 +177,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Quick search of properties on various parameters</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Quick search of properties on various parameters</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Quick search of properties on various parameters</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -186,7 +186,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Automated monthly rent reminders to you and your tenants</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Automated monthly rent reminders to you and your tenants</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Automated monthly rent reminders to you and your tenants</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -195,7 +195,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">Get detailed report of overall rent dues & rent received</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Get detailed report of overall rent dues & rent received</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">Get detailed report of overall rent dues & rent received</div>
                      </div>
                   </div>
                   <div class="col-12 mt-4">
@@ -204,7 +204,7 @@
                            <i class="imgs img-star rounded-pill text-white fs-20 bg-theme3 d-flex w-60px h-60px justify-content-center align-items-center position-relative zi-2"></i>
                         </div>
                         <h3 class="d-none invisible">SMS Notification related to dues and others</h3>
-                        <div class="col fw-bold fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">SMS Notification related to dues and others</div>
+                        <div class="col fw-l fs-18 text-theme3 bg-white ms-n5 py-2 zi-0 rounded ps-5 position-relative border-top border-theme3 border-4 border-bottom border-theme3 border-3">SMS Notification related to dues and others</div>
                      </div>
                   </div>
                </div>
@@ -225,7 +225,7 @@
                </div>
             </div>
             <div class="col-12 pt-3 text-center">
-               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+               <a href="{{asset('/contact-us.php')}}" class="btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                   <span class="d-block"><span>Get a Proposal</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                </a>
             </div>

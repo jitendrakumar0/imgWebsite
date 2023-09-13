@@ -243,7 +243,6 @@
   border-bottom: 1px solid #e09c19;
   padding-bottom: 5px;
   text-decoration: none;
-  font-weight: 700;
   transition: all 0.3s ease-in-out;
   color: #212529;
 }
@@ -354,4 +353,4 @@
 
 .form-select {
   height: 58px;
-}/*# sourceMappingURL=services.min.css.map */
+}

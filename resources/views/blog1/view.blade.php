@@ -80,7 +80,7 @@
                      <a href="javascript:;"><img data-getcolor="singleBlogBanner" class="w-100" src="{{BLOG_IMAGE_URL()}}{{$blog->blog_image}}" alt="{{ucwords($blog->category_title)}}"></a>
                      <span class="views"><i class="imgs img-eye me-2"></i> {{$blog->count}}</span>
                   </div>
-                  <div class="col-12 px-md-4 px-3">
+                  <div class="col-12 px-md-4 px-0">
                      <div class="blog_single_text">
                         @php
                            echo $blog->description;

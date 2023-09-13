@@ -115,12 +115,15 @@
   background-color: #e09c19;
   width: 50px;
   border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 900;
   color: #fff;
   font-size: 24px;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -149,4 +152,4 @@
     right: 0 !important;
     animation: headings 3s infinite !important;
   }
-}/*# sourceMappingURL=nidhi-company-software-kerala.min.css.map */
+}

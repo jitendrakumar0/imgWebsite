@@ -154,18 +154,22 @@
 }
 
 .web-design-sales-drive .to-access-item.active .to-access-thumb span {
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 .web-design-sales-drive .to-access-item:hover .to-access-thumb span {
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 @keyframes rotate2 {
   0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0);
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
+    -webkit-transform: translate(-50%, -50%) rotate(1440deg);
     transform: translate(-50%, -50%) rotate(1440deg);
   }
 }
@@ -261,4 +265,4 @@
   .ecommerce_solutions .heading.left span {
     font-size: 20px;
   }
-}/*# sourceMappingURL=corporate-website-design.min.css.map */
+}

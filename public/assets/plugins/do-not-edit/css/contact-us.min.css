@@ -2,6 +2,27 @@
   background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
 }
 
+.form-floating .flot-label {
+  padding-left: 57px;
+}
+
+.flot-intli-input {
+  top: 55px;
+  margin-left: 7px;
+}
+.flot-intli-input .flot-input {
+  border: none;
+  background: none;
+}
+.flot-intli-input .flot-input:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.get-in-touch .iti .iti__flag {
+  background-image: url(../../intl-tel-input/flags.png);
+}
+
 .get-in-touch::after {
   content: "";
   position: absolute;
@@ -224,4 +245,4 @@
     font-size: 14px;
     height: 40px;
   }
-}/*# sourceMappingURL=contact-us.min.css.map */
+}

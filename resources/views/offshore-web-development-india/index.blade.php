@@ -46,9 +46,9 @@
                               <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Offshore <b> Web Development Company</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3 text-lg-start text-center">IMG Global Infotech in the past few years has made its name with on timely project deliveries with best of services and best prices in the market. There are a number of reasons why you should hire an offshore developer from us.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3 text-lg-start text-center">IMG Global Infotech in the past few years has made its name with on timely project deliveries with best of services and best prices in the market. There are a number of reasons why you should hire an offshore developer from us.</div>
                         <div class="col-12 pt-4 text-lg-start text-center">
-                           <a href="{{asset('/contact-us.php')}}" class="btn btn btn-theme1 fs-14 fw-bold py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
+                           <a href="{{asset('/contact-us.php')}}" class="btn btn btn-theme1 fs-14 fw-m py-2 px-4" style="transform-style: preserve-3d;" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-perspective="2500">
                               <span class="d-block"><span>Lets Connect Us</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-2"></i></span>
                            </a>
                         </div>
@@ -75,8 +75,8 @@
             <div class="col-md-12">
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
-                     <li class="breadcrumb-item"><a class="fw-600 fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item active fw-600 fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Offshore Web Development Services</li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Offshore Web Development Services</li>
                   </ol>
                </nav>
             </div>
@@ -105,15 +105,15 @@
                               <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Hire Offshore <b>Developers From IMG</b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-900 fs-md-18 fs-sm-17 fs-16 text-theme1 mt-3">Work with the best of Experts from Field</div>
+                        <div class="col-12 fw-m fs-md-18 fs-sm-17 fs-16 text-theme1 mt-3">Work with the best of Experts from Field</div>
                         <h3 class="d-none invisible">Work with the best of Experts from Field</h3>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-1">We have a policy of employing only the best of professionals and experts in the field. With rich experience, we are more than ready to serve your business with the best IT Solutions and lend a hand in the growth of your business empire.</div>
-                        <div class="col-12 fw-900 fs-md-18 fs-sm-17 fs-16 text-theme1 mt-3">We Listen and Then We Work</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-1">We have a policy of employing only the best of professionals and experts in the field. With rich experience, we are more than ready to serve your business with the best IT Solutions and lend a hand in the growth of your business empire.</div>
+                        <div class="col-12 fw-m fs-md-18 fs-sm-17 fs-16 text-theme1 mt-3">We Listen and Then We Work</div>
                         <h3 class="d-none invisible">We Listen and Then We Work</h3>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-1">Unlike Many software development companies in the market, We have put this in their working principles to listen to every need and detail of their clients and afterwards provide the exact product they are looking for.</div>
-                        <div class="col-12 fw-900 fs-md-18 fs-sm-17 fs-16 text-theme1 mt-3">We Work at Best Prices</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-1">Unlike Many software development companies in the market, We have put this in their working principles to listen to every need and detail of their clients and afterwards provide the exact product they are looking for.</div>
+                        <div class="col-12 fw-m fs-md-18 fs-sm-17 fs-16 text-theme1 mt-3">We Work at Best Prices</div>
                         <h3 class="d-none invisible">We Work at Best Prices</h3>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-1">We understand the value of your investment and do every best to make worth every penny you invest in the project. There are no hidden costs in any stage of <a href="javascript:;" class="text-decoration-none text-theme3">web application development services</a> and we ensure maximum transparency by maintaining a complete and discrete professional relationship.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-1">We understand the value of your investment and do every best to make worth every penny you invest in the project. There are no hidden costs in any stage of <a href="javascript:;" class="text-decoration-none text-theme3">web application development services</a> and we ensure maximum transparency by maintaining a complete and discrete professional relationship.</div>
                      </div>
                   </div>
                </div>
@@ -135,7 +135,7 @@
                         <div class="col-12 heading fs-md-14 fs-12 left">IMG Global Infotech<span class="fs-26 lh-normal"> The Technologies <b> We Specialise In</b></span></div>
                      </div>
                   </div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-2">IMG Global Infotech maintains global standards in every project they undertake. We work in close relation to the best and latest of technologies for our clients and work round the clock to deliver robust solutions.</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">IMG Global Infotech maintains global standards in every project they undertake. We work in close relation to the best and latest of technologies for our clients and work round the clock to deliver robust solutions.</div>
                </div>
             </div>
             <div class="col-md-2 d-flex align-self-stretch">
@@ -145,7 +145,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">Android</h3>
-                     <strong class="mt-3 d-block fw-900">Android</strong>
+                     <strong class="mt-3 d-block fw-m">Android</strong>
                   </div>
                   <a href="{{asset('hire-android-app-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -158,7 +158,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">iOS</h3>
-                     <strong class="mt-3 d-block fw-900">iOS</strong>
+                     <strong class="mt-3 d-block fw-m">iOS</strong>
                   </div>
                   <a href="{{asset('hire-ios-app-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -171,7 +171,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">ReactJS Native</h3>
-                     <strong class="mt-3 d-block fw-900">ReactJS Native</strong>
+                     <strong class="mt-3 d-block fw-m">ReactJS Native</strong>
                   </div>
                   <a href="{{asset('hire-react-native-app-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -185,7 +185,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">flutter</h3>
-                     <strong class="mt-3 d-block fw-900">flutter</strong>
+                     <strong class="mt-3 d-block fw-m">flutter</strong>
                   </div>
                   <a href="{{asset('hire-flutter-app-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -198,7 +198,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">ReactJS</h3>
-                     <strong class="mt-3 d-block fw-900">ReactJS</strong>
+                     <strong class="mt-3 d-block fw-m">ReactJS</strong>
                   </div>
                   <a href="{{asset('hire-reactjs-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -212,7 +212,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">Node.JS</h3>
-                     <strong class="mt-3 d-block fw-900">Node.JS</strong>
+                     <strong class="mt-3 d-block fw-m">Node.JS</strong>
                   </div>
                   <a href="{{asset('hire-nodejs-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -227,7 +227,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">PHP</h3>
-                     <strong class="mt-3 d-block fw-900">PHP</strong>
+                     <strong class="mt-3 d-block fw-m">PHP</strong>
                   </div>
                   <a href="{{asset('hire-php-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -242,7 +242,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">Java</h3>
-                     <strong class="mt-3 d-block fw-900">Java</strong>
+                     <strong class="mt-3 d-block fw-m">Java</strong>
                   </div>
                   <a href="{{asset('hire-java-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -256,7 +256,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">AngularJS</h3>
-                     <strong class="mt-3 d-block fw-900">AngularJS</strong>
+                     <strong class="mt-3 d-block fw-m">AngularJS</strong>
                   </div>
                   <a href="{{asset('hire-angular-developers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -270,7 +270,7 @@
                   </div>
                   <div class="media-body">
                      <h3 class="d-none invisible">HTML5</h3>
-                     <strong class="mt-3 d-block fw-900">HTML5</strong>
+                     <strong class="mt-3 d-block fw-m">HTML5</strong>
                   </div>
                   <a href="{{asset('hire-web-designers.php')}}" class="btn-custom d-flex align-items-center justify-content-center"><span class="imgl img-chevron-right"></span></a>
                </div>
@@ -295,7 +295,7 @@
                               <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Offshore <b> Services Company </b></span></div>
                            </div>
                         </div>
-                        <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-muted mt-3 text-center">IMG Global Infotech understands the growing competition and need for quality in the IT Solutions. With this in mind, we work with the best of experts and have a dedicated squad put individually at every project we come through. With our Offshore Development Centre at IMG Global Infotech we have reached the level of excellence needed for the best satisfaction to our clients and maximum worth of their investment.</div>
+                        <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 text-center">IMG Global Infotech understands the growing competition and need for quality in the IT Solutions. With this in mind, we work with the best of experts and have a dedicated squad put individually at every project we come through. With our Offshore Development Centre at IMG Global Infotech we have reached the level of excellence needed for the best satisfaction to our clients and maximum worth of their investment.</div>
                      </div>
                   </div>
                </div>
@@ -312,7 +312,7 @@
             <div class="col-12 heading fs-md-14 fs-12 center text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Our <b> Clients </b></span></div>
          </div>
          <div class="row mt-3">
-            <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mb-5 text-center">At IMG Global Infotech, we co-exist to drive our business clients' values through collaborative transformation & strategic implementation of forwarding-thinking IT strategies. Every client we partner with becomes a part of our family; together, we combat the challenges and celebrate the victories.</div>
+            <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mb-5 text-center">At IMG Global Infotech, we co-exist to drive our business clients' values through collaborative transformation & strategic implementation of forwarding-thinking IT strategies. Every client we partner with becomes a part of our family; together, we combat the challenges and celebrate the victories.</div>
             <div class="col-12">
                <div class="our-clients-inner">
                   <ul class="list-unstyled">
@@ -340,7 +340,7 @@
                <div class="row mx-0 pb-5">
                   <h2 class="d-none invisible">How We Work</h2>
                   <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> How We <b> Work</b></span></div>
-                  <div class="col-12 fw-600 fs-md-16 fs-sm-15 fs-14 text-white mb-2 text-muted mt-4 text-center">With a 100% dedicated team of professionals working round the clock for your business, IMG Global Infotech has a set of professional rules and discipline of working with our clients. Here is our working procedure,</div>
+                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mb-2 text-muted mt-4 text-center">With a 100% dedicated team of professionals working round the clock for your business, IMG Global Infotech has a set of professional rules and discipline of working with our clients. Here is our working procedure,</div>
                </div>
             </div>
          </div>
@@ -351,7 +351,7 @@
                      <img src="{{GETFOLDERPATH()}}/share-requirement.webp" alt="Listen to Requirements">
                   </span>
                   <h3 class="d-none invisible">Listen to Requirements</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">Listen to Requirements</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">Listen to Requirements</div>
                </a>
             </div>
             <div class="col-md-3 mb-5 d-flex align-items-stretch">
@@ -360,7 +360,7 @@
                      <img src="{{GETFOLDERPATH()}}/group.webp" alt="Advise Improvements in Clients Plans">
                   </span>
                   <h3 class="d-none invisible">Advise Improvements in Clients Plans</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">Advise Improvements in Clients Plans</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">Advise Improvements in Clients Plans</div>
                </a>
             </div>
             <div class="col-md-3 mb-5 d-flex align-items-stretch">
@@ -369,7 +369,7 @@
                      <img src="{{GETFOLDERPATH()}}/customer-service.webp" alt="Development and Testing">
                   </span>
                   <h3 class="d-none invisible">Development and Testing</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">Development and Testing</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">Development and Testing</div>
                </a>
             </div>
             <div class="col-md-3 mb-4">
@@ -378,7 +378,7 @@
                      <img src="{{GETFOLDERPATH()}}/browsing.webp" alt="On Time and In Budget Delivery">
                   </span>
                   <h3 class="d-none invisible">On Time and In Budget Delivery</h3>
-                  <div class="col-12 fw-900 text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">On Time and In Budget Delivery</div>
+                  <div class="col-12 fw-m text-theme1 fs-md-18 fs-sm-17 fs-16 lh-normal mt-2 tz" style="--tz:30px;">On Time and In Budget Delivery</div>
                </a>
             </div>
          </div>
@@ -401,9 +401,9 @@
                            <img class="avatar shadow" src="{{GETFOLDERPATH()}}/Medivik.webp" alt="Medivik">
                         </div>
                         <div class="content">
-                           <div class="fw-600 fs-16 ellipsis-5 text-white my-3 text-center">IMG Global Infotech work with my business to develop an online selling website for medicines. The professionals at the company were most disciplined and ensure timely delivery of the project with minimum costs.</div>
-                           <strong class="fw-bold fs-20 text-theme1 text-center d-block">- Rohit Singhal -</strong>
-                           <span class="fw-600 fs-14 text-theme3 text-center d-block">Medivik - Online Pharmacy Store</span>
+                           <div class="fw-l fs-16 ellipsis-5 text-white my-3 text-center">IMG Global Infotech work with my business to develop an online selling website for medicines. The professionals at the company were most disciplined and ensure timely delivery of the project with minimum costs.</div>
+                           <strong class="fw-m fs-20 text-theme1 text-center d-block">- Rohit Singhal -</strong>
+                           <span class="fw-m fs-14 text-theme3 text-center d-block">Medivik - Online Pharmacy Store</span>
                         </div>
                      </div>
                   </div>
@@ -428,7 +428,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/html.webp" alt="Offshore Website Designer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Website Designer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Website Designer
                      </div>
                   </div>
@@ -441,7 +441,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/php.webp" alt="Offshore PHP Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore PHP Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore PHP Developer
                      </div>
                   </div>
@@ -454,7 +454,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/laravel.webp" alt="Offshore Laravel Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Laravel Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Laravel Developer
                      </div>
                   </div>
@@ -467,7 +467,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/codeigniter.webp" alt="Offshore CodeIgniter Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore CodeIgniter Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore CodeIgniter Developer
                      </div>
                   </div>
@@ -480,7 +480,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/cake-php.webp" alt="Offshore Cake PHP Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Cake PHP Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Cake PHP Developer
                      </div>
                   </div>
@@ -493,7 +493,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/wordpress.webp" alt="Offshore WordPress Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore WordPress Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore WordPress Developer
                      </div>
                   </div>
@@ -506,7 +506,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/nodejs.webp" alt="Offshore Node.JS Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Node.JS Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Node.JS Developer
                      </div>
                   </div>
@@ -519,7 +519,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/angularjs.webp" alt="Offshore AngularJS Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore AngularJS Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore AngularJS Developer
                      </div>
                   </div>
@@ -532,7 +532,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/reactjs.webp" alt="Offshore ReactJS Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore ReactJS Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore ReactJS Developer
                      </div>
                   </div>
@@ -545,7 +545,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/android.webp" alt="Offshore Android Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Android Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Android Developer
                      </div>
                   </div>
@@ -558,7 +558,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/ios.webp" alt="Offshore iOS Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore iOS Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore iOS Developer
                      </div>
                   </div>
@@ -571,7 +571,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/ionic.webp" alt="Offshore Ionic Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Ionic Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Ionic Developer
                      </div>
                   </div>
@@ -584,7 +584,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/digital-marketing.webp" alt="Offshore Digital Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Digital Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Digital Developer
                      </div>
                   </div>
@@ -597,7 +597,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/seo.webp" alt="Offshore SEO Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore SEO Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore SEO Developer
                      </div>
                   </div>
@@ -610,7 +610,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/smo.webp" alt="Offshore SMO Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore SMO Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore SMO Developer
                      </div>
                   </div>
@@ -623,7 +623,7 @@
                         <span class="services-box-ico"> <img src="{{GETFOLDERPATH()}}/java.webp" alt="Offshore Java Developer"></span>
                      </div>
                      <h3 class="d-none invisible">Offshore Java Developer</h3>
-                     <div class="offshore-services-box-text col fw-bold fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
+                     <div class="offshore-services-box-text col fw-m fs-15 text-white d-flex align-items-center text-uppercase py-4 zi-0 position-relative ps-3 rounded-end">
                         Offshore Java Developer
                      </div>
                   </div>
@@ -652,7 +652,7 @@
                         </button>
                      </h2>
                      <div id="collapseOne" class="position-relative accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-16 fs-sm-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-16 fs-sm-15 fs-14 text-muted">
                            Yes, you can directly reach out to our website development at +91-9694097245 or Inbox at info@imgglobalinfotech.com to book a FREE consultation.
                         </div>
                      </div>
@@ -664,7 +664,7 @@
                         </button>
                      </h2>
                      <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-16 fs-sm-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-16 fs-sm-15 fs-14 text-muted">
                            Ur agile development method is open for modifications during the entire development phase.
 
                         </div>
@@ -677,7 +677,7 @@
                         </button>
                      </h2>
                      <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-16 fs-sm-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-16 fs-sm-15 fs-14 text-muted">
                            Read our client testimonials or check out our rich portfolio which includes partnering with startups, SMEs and big brands.
                         </div>
                      </div>
@@ -689,11 +689,11 @@
                         </button>
                      </h2>
                      <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-16 fs-sm-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-16 fs-sm-15 fs-14 text-muted">
                            <ul class="list_count mt-2">
-                              <li class="fs-14 fw-600 text-theme3">You can concentrate on your primary services.</li>
-                              <li class="fs-14 fw-600 text-theme3">Less labour cost.</li>
-                              <li class="fs-14 fw-600 text-theme3">More efficient output.</li>
+                              <li class="fs-14 fw-l text-theme3">You can concentrate on your primary services.</li>
+                              <li class="fs-14 fw-l text-theme3">Less labour cost.</li>
+                              <li class="fs-14 fw-l text-theme3">More efficient output.</li>
                            </ul>
                         </div>
                      </div>
@@ -705,7 +705,7 @@
                         </button>
                      </h2>
                      <div id="collapsefive" class="position-relative accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-                        <div class="accordion-body fw-600 fs-md-16 fs-sm-15 fs-14 text-muted">
+                        <div class="accordion-body fw-l fs-md-16 fs-sm-15 fs-14 text-muted">
                            Indian developers are smart in their development approach and well-versed with modern development technologies.
                         </div>
                      </div>

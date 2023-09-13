@@ -161,8 +161,7 @@
   height: calc(100% - 24px);
   background: rgba(19, 158, 217, 0.1);
   border-radius: 10px;
-  -webkit-backdrop-filter: blur(19px);
-          backdrop-filter: blur(19px);
+  backdrop-filter: blur(19px);
   transition: 0.5s all;
   transition-delay: 0s;
   z-index: 0;
@@ -343,9 +342,11 @@
 
 @keyframes ani-rotate {
   from {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=online-exam-app-development.min.css.map */
+}

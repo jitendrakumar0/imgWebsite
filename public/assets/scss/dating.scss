@@ -1,0 +1,497 @@
+@charset "UTF-8";
+
+@import "variables";
+
+body {
+  transition: background 1s ease;
+}
+.text-theme4{
+    color: #073548;
+}
+.text-theme5{
+    color: #FB4470;
+}
+
+.color-og{
+    color: #fe9000;
+}
+
+.app-color-1{
+  color:#203350 ;
+}
+.app-color-2{
+  color:#FB4470;
+}
+.app-color-3{
+  color: #fe9000;
+}
+
+.dating_bg{
+    background: #FB4470;
+}
+
+.dating_banner_section{
+    //  position: relative;
+    //  background-image: url(../../../img/dating/bumble.webp);
+    //  background-position: center;
+    //  background-size: cover;
+    //  background-repeat: no-repeat;
+
+    & .btn-date{
+
+        &:focus{
+            outline: 0;
+            box-shadow: none !important;
+        }
+
+        & .heart_icon{
+            border-radius: 10px;
+            & img{
+                filter: invert(1);
+            }
+
+        }
+        & .btn_text{
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            padding: 13px 35px;
+        }
+        }
+    }
+
+
+    .demand_section{
+
+        &::before{
+            position: absolute;
+            content: "";
+            width: 35%;
+            height: 90%;
+            right: 0;
+            top: 0;
+            background: #FB4470;
+        }
+
+
+    & .demand_box{
+
+        &::before{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 83%;
+            border: 1px dashed #FB4470;
+            display: inline-block;
+            margin: 5px 0 0 -28px;
+        }
+
+        & .demand_list{
+
+            &::before{
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 15px;
+                background-color: #fff;
+                border: 1px solid #FB4470;
+                display: inline-block;
+                border-radius: 10px;
+                margin: 5px 0 0 -35px;
+            }
+        }
+    }
+}
+
+.dating_solution_section{
+
+    & .dating_box{
+        border: 1px solid #e6e6e6;
+        height: 294px;
+    }
+}
+
+
+.bussiness_banner{
+
+    & .buis_ban{
+        background: #0b2040;
+        padding: 20px 50px;
+        border-radius: 15px;
+
+        & .buis_icon{
+            height: 14px;
+            width: 14px;
+            background-color: #203350;
+            border-radius: 50%;
+            position: relative;
+           
+            &::after{
+                position: absolute;
+                content: "";
+                height: 24px;
+                width: 24px;
+                background-color: #e1c03b;
+                border-radius: 50%;
+                top: -5px;
+                left: -5px;
+                z-index: -1;
+            }
+        }
+
+        & .btn-button1{
+
+            &:hover{
+                color: #fff !important;
+                transition: all .5s;
+
+                & .buis_icon{
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.dating_app_section{
+
+    .app_box{
+        box-shadow: 0 0 5px #fb4470;
+    }
+
+    & .bumble_heading{
+        color: #ffb315;
+    }
+}
+
+.features_section{
+
+    & .feature-box{
+        padding: 9px 30px;
+        box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
+        border-radius: 10px;
+        transition: all .3s;
+
+        &:hover{
+           background: #FB4470;
+
+           & div{
+              color: #fff !important;
+           }
+
+           & svg {
+            & path{
+                fill: #fff;
+            }
+           }
+
+
+        }
+    }
+
+    & .dating_side_img{
+        position: sticky;
+        top: 0;
+    }
+}
+
+
+.dating_food_section{
+  
+    & .food_box{
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 60%;
+            background-color: #fb4470;
+            display: inline-block;
+            margin: 5px 0 0 -28px;
+        }
+
+
+        & .feature_list{
+
+            &::before{
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 15px;
+                background-color: #fb4470;
+                display: inline-block;
+                border-radius: 10px;
+                margin: 5px 0 0 -35px;
+            }
+        }
+    }
+    & .feature_btn{
+        background: #fb4470;
+        border-radius: 30px;
+    }
+}
+
+
+.dating_tabs_section{
+
+    & .dating_tabs{
+        border-bottom: 0;
+        flex-wrap: wrap;
+
+        & .nav-link{
+            border: none;
+            border-radius: 0;
+            
+            &:hover{
+                isolation: none;
+                border-bottom: 3px solid #a3a2a2;
+                box-shadow: none;
+                border-radius: 0;
+                
+            }
+
+            &:focus{
+                isolation: none;
+                border-bottom: 3px solid #000;
+                box-shadow: none;
+            }
+
+            &.active{
+                border-radius: 0;
+                border-bottom: 3px solid #000;
+            }
+        }
+    }
+
+    & .tech_icons{
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        padding: 15px;
+        border: 1px solid #f5f5f5;
+        transition: all .3s;
+
+        & img{
+            filter: grayscale(100%);
+        }
+        
+        &:hover{
+            border: 1px solid #0b2040;
+            & img{
+             filter: grayscale(0);
+            }
+        }
+    }
+}
+
+.dating_carosule_section{
+
+    & .datingTesimonial{
+
+        & .solu_test_box{
+            padding: 24px 20px;
+            border: 1px solid #d5dade;
+            white-space: normal;
+            transition: .25s ease-out;
+
+
+            & .sol_list{
+
+                & li{
+                    list-style: circle;
+                }
+            }
+            & .count_box{
+                background-color: #fb4470;
+                top: 0;
+                right: 0;
+                transition: all .5s ease;
+            }
+            & .arrowsCon{
+                top: 48%;
+                right: 40px;
+
+                & .circlePro{
+                    border: 2px solid #d5dade;
+                    border-radius: 50%;
+                    background-color: #fff;
+                }
+                & .dashPro{
+                    color: #d5dade;
+
+                    &::before{
+                        content: "";
+                        flex: 1;
+                        background: currentColor;
+                        clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+                }
+                }
+                }
+
+                &.solu_bx_mt{
+                    margin-top: 44px;
+                }
+
+                &:hover{
+                    border-color: #fbd642;
+                    box-shadow: 1px 2px 15px -2px #ccc;
+
+                    & .count_box{
+                        background-color: #fbd642;
+                        color: #203350;
+                    }
+
+                    & .circlePro{
+                        background-color: #fbd642;
+                    }
+                }
+             }
+             & .owl-stage{
+                margin-left: -12px;
+             }
+            }
+        }
+    
+   
+        
+
+
+
+@mixin dating_section-mixin-max-sm(){
+    
+    .dating_banner_section{
+
+        & .dating_heading{
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .work_section{
+
+        & .work_box{
+            display: block !important;
+
+            & .work_icon{
+                margin-bottom: 12px;
+            }
+        }
+    } 
+
+    .demand_section{
+
+     &::before{
+        display: none;
+     }
+
+    }
+
+    .bussiness_banner{
+
+     & .buis_ban {
+          padding: 23px 0;
+
+          & .bann_btn{
+            justify-content: center !important;
+          }
+    }
+  } 
+  
+  .features_section{
+     
+    .feature-box{
+        padding: 9px 12px;
+        & svg{
+            height: 22px;
+            width: 21px;
+        }
+    }
+  }
+
+  .dating_carosule_section{
+  
+    .solu_test_box{
+          height: 290px;
+        & .arrowsCon{
+        display: none !important;
+
+        }
+    &.solu_bx_mt {
+        margin-top: 0 !important;
+    }
+   }
+  }
+ }    
+
+@mixin dating_section-mixin-max-md(){
+
+    .dating_banner_section{
+
+        & .dating_heading{
+             top: 13px;
+             right: 0;
+        }
+    }
+
+    .work_section{
+
+        & .work_box{
+            display: block !important;
+
+            & .work_icon{
+                margin-bottom: 12px;
+            }
+        }
+    } 
+    .demand_section{
+
+      &::before{
+          height: 78%;
+      }
+
+  }
+}
+@mixin dating_section-mixin-max-lg(){
+
+}
+@mixin dating_section-mixin-max-xl(){
+
+}
+@mixin dating_section-mixin-min-xxl(){
+
+}
+
+        
+
+
+
+
+
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    @include dating_section-mixin-min-xxl();
+  
+  }
+  
+  // X-Large devices (large desktops, less than 1400px)
+  @media (max-width: 1399.98px) {
+    @include dating_section-mixin-max-xl();
+  
+  }
+  
+  // Large devices (desktops, less than 1200px)
+  @media (max-width: 1199.98px) {
+    @include dating_section-mixin-max-lg();
+  
+  }
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    @include dating_section-mixin-max-md();
+  
+  }
+  
+  // Small devices (landscape phones, less than 768px)
+  @media (max-width: 767.98px) {
+    @include dating_section-mixin-max-sm();
+  
+  }

@@ -31,6 +31,13 @@ body {
       background: rgba(255,255,255,.2);
       border-radius: 100px;
     }
+    & .divider {
+      background-color: #fff;
+      margin-top: 24px;
+      margin-bottom: 48px;
+      width: 48px;
+      height: 1px;
+    }
     & .case-view{
       padding: 10px 30px;
       border: 2px solid#fff;

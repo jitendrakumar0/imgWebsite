@@ -48,6 +48,9 @@
     <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/do-not-edit/css/404.min.css">
     
     <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/do-not-edit/css/style.min.css" />
+
+    <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/intl-tel-input/intlTelInput.css">
+    <link rel="stylesheet" href="{{asset('/public')}}/assets/plugins/do-not-edit/css/newindex1.min.css">
 	
 @include('layouts/header')
 
@@ -107,6 +110,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 <script src="{{asset('/public')}}/assets/plugins/vanillaTilt/vanillaTilt.js"></script>
 <script src="{{asset('/public')}}/assets/js/buttons.js"></script>
+
+<script src="{{asset('/public')}}/assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+<script src="{{asset('/public')}}/assets/js/newindex.min.js"></script>
 
 <script src="{{asset('/public')}}/assets/js/errors/404.js"></script>
 

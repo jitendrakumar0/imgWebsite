@@ -79,8 +79,7 @@
 }
 
 .services .s-sidebar {
-  -webkit-backdrop-filter: blur(10px) saturate(0.5);
-          backdrop-filter: blur(10px) saturate(0.5);
+  backdrop-filter: blur(10px) saturate(0.5);
   background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
   border-radius: 10px !important;
 }
@@ -132,4 +131,4 @@
   transition-delay: 0s;
   z-index: 1;
   position: relative;
-}/*# sourceMappingURL=case-study.min.css.map */
+}
