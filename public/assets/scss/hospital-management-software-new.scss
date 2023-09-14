@@ -1,0 +1,1036 @@
+
+@charset "UTF-8";
+
+@import "variables";
+// Top Banner
+.top_banner {
+  background: linear-gradient(
+      90deg,
+      darken($theme1, 40) 50%,
+      rgba(darken($theme1, 40), 0.96%) 56%,
+      rgba(darken($theme1, 40), 0.4%) 76%
+    ),
+    var(--bg);
+  background-size: cover;
+  background-position: 37% 0%;
+ 
+
+  & .heading {
+    &::after {
+      background: darken($theme1, 40);
+    }
+  }
+  & .top_banner-left-part {
+    & img {
+      &:nth-child(1) {
+        filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+      }
+      &:nth-child(2) {
+        filter: invert(1);
+      }
+    }
+  }
+ 
+}
+// Small devices (landscape phones, 576px and up)
+@mixin top_banner-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin top_banner-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin top_banner-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin top_banner-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin top_banner-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin top_banner-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin top_banner-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin top_banner-mixin-max-md() {
+  .top_banner {
+    background: linear-gradient(90deg, darken($theme1, 40) 50%, darken($theme1, 40) 100%), var(--bg);
+    &::before {
+      background: none;
+    }
+    & .heading {
+      text-align: center !important;
+      &::before {
+        right: 0 !important;
+      }
+      &::after {
+        right: 0 !important;
+        animation: headings 3s infinite !important;
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin top_banner-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin top_banner-mixin-max-xl() {
+}
+
+
+.development_services {
+  background: #f4f4f4;
+}
+
+
+.development_services .development_services_box {
+  background: #fff;
+  padding: 25px;
+  -webkit-transition: z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease;
+  transition: z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease, z-index 0s 0.2s ease;
+  transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-box-shadow 0.2s ease;
+  text-align: center;
+  position: relative;
+  border-radius: 0px;
+  overflow: hidden;
+  z-index: 2;
+  border-bottom: 3px solid #dee2e6;
+}
+
+.development_services .development_services_box::after {
+  content: "";
+  position: absolute;
+  top: 32px;
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 50%;
+  margin: 0 auto;
+  z-index: -1;
+  -webkit-transform: scale(5);
+  transform: scale(5);
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+}
+
+.development_services .development_services_box:hover .col-12 {
+  color: #fff !important;
+}
+
+.development_services .development_services_box:hover::after {
+  background-color: #e09c19;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  border-radius: 0;
+}
+
+// Devolopements Benefits
+.devolopements-benefits {
+  background-color: darken($theme1, 40);
+  background-size: cover;
+}
+.devolopements-benefits::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: 300px;
+}
+.devolopements-benefits-box {
+  background: rgba($theme1, 0.1);
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover {
+  background-color: rgba($gray-800, 0.5);
+}
+.devolopements-benefits-box-count {
+  position: absolute;
+  left: -25px;
+  height: 50px;
+  background-color: $theme3;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: $white;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.devolopements-benefits-box:hover .devolopements-benefits-box-count {
+  border-radius: 10px;
+}
+
+
+
+.boxdiv {
+  background: #f9f9f9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+  text-align: center;
+  -webkit-box-shadow: inset 0 0 15px #00000033;
+  box-shadow: inset 0 0 15px #00000033;
+  min-height: 100px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #e09c19;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.boxdiv:hover {
+  background: #e09c19;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 20px #0000004d;
+  box-shadow: inset 0 0 20px #0000004d;
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.Contact_us_project {
+  background: $white;
+}
+
+// hero section 
+
+.hero-section {
+  padding-bottom: 60px;
+  & .hero-section-innner {
+      background: url(../../../img/hospital-management-software-new/herosection.jpg) no-repeat;
+      background-size: cover ;
+      background-position: center ;
+      padding-top: 180px;
+      padding-bottom: 50px;
+      &::before {
+          content: '';
+          top: 0;
+          left: 0;
+          position: absolute;
+          // background: rgba($black,.5);
+          height: 100%;
+          width: 100%;
+          background-image: linear-gradient(187deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%);
+      }
+  }
+  & .hero-section-subheading {
+      animation: drop-in 1200ms ease 100ms 
+  }
+  @keyframes drop-in {
+      from {
+          opacity: 0;
+          transform: translateY(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  } 
+  & .heading {
+      animation: drop-in 1s ease 200ms 
+  }
+  & .herorsection-data {
+      animation:data 1s ease 200ms 
+  }
+  @keyframes data {
+      from {
+          opacity: 0;
+          transform: translatex(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .project-btn {
+      animation:button 1s ease 200ms 
+  } @keyframes button {
+      from {
+          opacity: 0;
+          transform: translateY(100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .portfolio-img {
+      bottom: -120px;
+      position: absolute;
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin hero-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin hero-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin hero-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin hero-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin hero-section-mixin-min-xxl() {
+  .hero-section {
+    & .hero-section-innner {
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        bottom: -130px;
+    }
+}
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin hero-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin hero-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin hero-section-mixin-max-md() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 90px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        aspect-ratio: 4/2;
+    }
+}
+}
+// Large devices (desktops, less than 1200px)
+@mixin hero-section-mixin-max-lg() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 130px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        // bottom: -130px;
+        position: unset;
+    }
+}
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin hero-section-mixin-max-xl() {
+
+}
+
+// hero section end 
+
+
+// hotal mangement section 
+.aboutHotal{
+  & .imgAbout{
+      & img{
+          aspect-ratio: 4/3;
+          object-fit: contain;
+      }
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin aboutHotal-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin aboutHotal-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin aboutHotal-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin aboutHotal-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin aboutHotal-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin aboutHotal-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin aboutHotal-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin aboutHotal-mixin-max-md() {
+  .aboutHotal{
+        & .imgAbout{
+            & img{
+                aspect-ratio: 4/4;
+            }
+        }
+    }
+}
+// Large devices (desktops, less than 1200px)
+@mixin aboutHotal-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin aboutHotal-mixin-max-xl() {
+}
+
+// about section end 
+// feateure Section start 
+
+.feateureSection{
+  ::-webkit-scrollbar {
+    display: none;
+}
+  & .featureTabs{
+    background-color: $white;
+    border: 2px solid $white;
+    padding: 1px !important;
+    & .navItem{
+      & .fetureButton{
+        font-size: 16px;
+        color:$black;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid $white;
+        border-radius: 5px !important;
+        & .featureIcon{
+          width: 17px;
+          height: 17px;
+        }
+        &.active{
+          //  background: $theme1 !important;
+          background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+           color: $white;
+
+          & .featureIcon{
+            filter: invert(1);
+
+          }
+          
+        }
+      }
+    }
+  }
+
+  & .featureCardSection{
+    & >* {
+      flex: 1 1 14.28%;
+      width: 14.28%;
+    }
+  }
+  & .featureCard{
+    & .cardImg{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  & .featureImg{
+    background-color: $white;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    & img{
+      // aspect-ratio: 5/4;
+      // object-fit: contain;
+      border-radius: 10px;
+    }
+  
+  }
+}
+
+
+// / Small devices (landscape phones, 576px and up)
+@mixin feateureSection-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin feateureSection-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin feateureSection-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin feateureSection-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin feateureSection-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin feateureSection-mixin-max-xs() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+          font-size: 14px;
+          & .featureIcon{
+          width: 15px;
+          height: 15px;
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin feateureSection-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin feateureSection-mixin-max-md() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin feateureSection-mixin-max-lg() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin feateureSection-mixin-max-xl() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+
+// feateure Section end 
+
+
+// add Ons ection  start 
+
+
+.addOnsection{
+
+  & .addOnCard{
+    transition: all 0.3s ease-in-out;
+    background-color: $theme3;
+    border-radius: 18px;
+    &:hover{
+      background-color:lighten($theme2 ,10) !important;
+    }
+    & .rightSection{
+      padding: 30px;
+      & .headingv2{
+        line-height: 40px;
+      }
+      & .pera2{
+        line-height: normal !important ;
+      }
+      & .iosBtn{
+        background-color: rgba(0, 0, 0, 0.356);
+        color: $white;
+        font-size: 12px;
+        padding: 6px 15px;
+        border-radius:5px;
+      }
+    }
+    & .addOnImg{
+
+      & img{
+        aspect-ratio: 3/3;
+        object-fit: contain;
+      
+      }
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin addOnsection-mixin-max-xs() {
+  .addOnsection{
+
+    & .addOnCard{
+  
+      & .rightSection{
+   
+        & .headingv2{
+          line-height: 24px;
+        }
+        & .pera2{
+       
+        }
+        & .iosBtn{
+    
+        }
+      }
+      & .addOnImg{
+        // height: 250px;
+        & img{
+      //  aspect-ratio: none;
+      height: 250px;
+
+        
+        }
+      }
+    }
+  }
+  
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin addOnsection-mixin-max-sm() {
+  .addOnsection{
+
+    & .addOnCard{
+  
+      & .rightSection{
+   
+        & .headingv2{
+        
+        }
+        & .pera2{
+       
+        }
+        & .iosBtn{
+    
+        }
+      }
+      & .addOnImg{
+  
+        & img{
+       
+        
+        }
+      }
+    }
+  }
+}
+
+//  add Ons ection end 
+
+// hospital cta section start 
+.hospitalCta {
+  background: linear-gradient(45deg, #f70404, #df4141f3);
+  padding: 40px 12px;
+}
+// hospital cta section end
+
+// befefits section start 
+.benefits-card {
+  background: url(../../../img/hospital-management-software-new/process.webp ) no-repeat;
+  background-size: cover;
+  & .ordercard {
+      background: linear-gradient(90deg, #d79618, #e7b349);
+      padding: 20px;
+      border-radius: 15px;
+      & .orderimg {
+          padding: 9px;
+          transition: all 0.3s ease-in-out;
+      }
+      &.ordercardtwo {
+          background: #f8e5bf;
+          & .orderimg {
+              & img {
+                  filter: invert(1);
+              }
+          }
+      }
+      &:hover {
+          & .orderimg {
+              transform: rotate(360deg);
+          }
+      }
+  }
+}
+// befefits section end
+
+
+// Faq section
+
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin faq_section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin faq_section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin faq_section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin faq_section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin faq_section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin faq_section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin faq_section-mixin-max-sm() {
+  .faq_section {
+    & .portfolio-bg-layer {
+      width: 210px;
+      height: 210px;
+    }
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+    .accordion-item {
+      & .accordion-header {
+        & .accordion-button {
+          padding: 12px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin faq_section-mixin-max-md() {
+  .faq_section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin faq_section-mixin-max-lg() {
+  .faq_section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin faq_section-mixin-max-xl() {
+}
+
+
+
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include hero-section-mixin-min-sm();
+  @include aboutHotal-mixin-min-sm();
+  @include feateureSection-mixin-min-sm();
+
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include hero-section-mixin-min-md();
+  @include aboutHotal-mixin-min-md();
+  @include feateureSection-mixin-min-md();
+
+
+
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include hero-section-mixin-min-lg();
+  @include aboutHotal-mixin-min-lg();
+  @include feateureSection-mixin-min-lg();
+  
+
+
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include hero-section-mixin-min-xl();
+  @include aboutHotal-mixin-min-xl();
+  @include feateureSection-mixin-min-xl();
+
+
+
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include hero-section-mixin-min-xxl();
+  @include aboutHotal-mixin-min-xxl();
+  @include feateureSection-mixin-min-xxl();
+
+
+
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include hero-section-mixin-max-xl();
+  @include aboutHotal-mixin-max-xl();
+  @include feateureSection-mixin-max-xl();
+
+
+
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include hero-section-mixin-max-lg();
+  @include aboutHotal-mixin-max-lg();
+  @include feateureSection-mixin-max-lg();
+ 
+
+
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include hero-section-mixin-max-md();
+  @include aboutHotal-mixin-max-md();
+  @include feateureSection-mixin-max-md();
+ 
+
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include hero-section-mixin-max-sm();
+  @include aboutHotal-mixin-max-sm();
+  @include feateureSection-mixin-max-sm();
+  @include addOnsection-mixin-max-sm();
+
+
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include hero-section-mixin-max-xs();
+  @include aboutHotal-mixin-max-xs();
+  @include feateureSection-mixin-max-xs();
+  @include addOnsection-mixin-max-xs();
+
+
+
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

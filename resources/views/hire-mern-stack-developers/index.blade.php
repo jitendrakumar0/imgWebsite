@@ -1151,7 +1151,10 @@ Hire MERN stack developer from to develop a unique web application at the great 
 
 
    
-   <!-- Modal -->
+   
+   
+   
+                     <!-- Modal -->
    <div class="modal fade contactModal" data-bs-backdrop="static" data-bs-keyboard="false" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered mt-md-5 mt-1 mb-5">
          <form method="post" id="connectForm" name="connectForm" class="modal-content cricketApp" novalidate>
