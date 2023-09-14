@@ -72,10 +72,12 @@
                            <div class="col-12 hero-section-subheading text-lg-start text-center fw-bold fs-lg-24 text-white fs-md-20">
                                Healthcare Solutions
                            </div>
-                           <div class="col-12">
-                               <div class="row mx-0 pb-2 justify-content-lg-start justify-content-center">
+
+                           <div class="col-12 ">
+                               <div class="row mx-0 pb-2 justify-content-lg-start text-center justify-content-center">
+
                                    <h1 class="d-none invisible">Hospital Management Software </h1>
-                                   <div class="col-12 heading fs-md-14 fs-12 left text-white">
+                                   <div class="col-12 heading fs-md-14 fs-12 left text-white text-lg-start text-center">
                                        <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Hospital Management <b> Software</b></span>
                                    </div>
                                </div>
@@ -107,8 +109,8 @@
            <nav aria-label="breadcrumb">
               <ol class="breadcrumb mb-0">
                  <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                 <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">CRM Software</a></li>
-                 <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">College Management Software</li>
+                 <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">Trending Solutions</a></li>
+                 <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Hospital Management Software</li>
               </ol>
            </nav>
         </div>
@@ -117,7 +119,7 @@
 </div>
    <!-- about hotal mangement -->
 
-   <div class="container-fluid py-5 aboutHotal">
+   <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-7 order-md-1 order-2">
@@ -374,7 +376,7 @@
    <!-- Feature hotal mangement END-->
 
            <!-- cta section start  -->
-           <div class="container-fluid mt-4 ctaSection hospitalCta">
+           <div class="container-fluid mt-4 ctaSection  hospitalCta">
             <div class="container">
                 <div class="row">
                     <h3 class="col-12 d-none invisible">Ready to build an app for your hospital</h3>
@@ -397,7 +399,7 @@
 
 
      <!-- befefits section start  -->
-     <div class="container-fluid py-5 benefits-card">
+     <div class="container-fluid py-lg-5 py-md-4 py-3 benefits-card">
       <div class="container about-section">
           <div class="row justify-content-center">
               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">BENEFITS OF
@@ -405,11 +407,11 @@
               </div>
               <div class="col-12 pt-4 mt-2">
                   <div class="row g-3">
-                      <div class="col-md-4">
+                      <div class="col-lg-4 col-md-6">
                           <div class="ordercard rounded-4">
                               <div class="row gx-4 align-items-center">
                                   <div class="col-auto d-flex justify-content-center align-items-center">
-                                      <div class="orderimg rounded-circle h-lg-50px w-lg-50px bg-white">
+                                      <div class="orderimg rounded-circle h-50px w-50px bg-white">
                                           <img src="{{GETFOLDERPATH()}}/mobile.svg" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mobile.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
                                       </div>
                                   </div>
@@ -422,11 +424,11 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-lg-4 col-md-6">
                           <div class="ordercard ordercardtwo rounded-4">
                               <div class="row gx-4 align-items-center">
                                   <div class="col-auto d-flex justify-content-center align-items-center">
-                                      <div class="orderimg rounded-circle h-lg-50px w-lg-50px bg-dark">
+                                      <div class="orderimg rounded-circle h-50px w-50px bg-dark">
                                         <img src="{{GETFOLDERPATH()}}/mobile.svg" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mobile.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
 
                                       </div>
@@ -440,11 +442,11 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-lg-4 col-md-6">
                           <div class="ordercard rounded-4">
                               <div class="row gx-4 align-items-center">
                                   <div class="col-auto d-flex justify-content-center align-items-center">
-                                      <div class="orderimg rounded-circle h-lg-50px w-lg-50px bg-white">
+                                      <div class="orderimg rounded-circle h-50px w-50px bg-white">
                                           <img src="{{GETFOLDERPATH()}}/mobile.svg" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mobile.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
 
                                       </div>
@@ -458,11 +460,11 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-lg-4 col-md-6">
                           <div class="ordercard ordercardtwo rounded-4">
                               <div class="row gx-4 align-items-center">
                                   <div class="col-auto d-flex justify-content-center align-items-center">
-                                      <div class="orderimg rounded-circle h-lg-50px w-lg-50px bg-dark">
+                                      <div class="orderimg rounded-circle h-50px w-50px bg-dark">
                                           <img src="{{GETFOLDERPATH()}}/mobile.svg" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mobile.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
                                       </div>
                                   </div>
@@ -475,11 +477,11 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-lg-4 col-md-6">
                           <div class="ordercard rounded-4">
                               <div class="row gx-4 align-items-center">
                                   <div class="col-auto d-flex justify-content-center align-items-center">
-                                      <div class="orderimg rounded-circle h-lg-50px w-lg-50px bg-white">
+                                      <div class="orderimg rounded-circle h-50px w-50px bg-white">
                                           <img src="{{GETFOLDERPATH()}}/mobile.svg" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mobile.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
 
                                       </div>
@@ -493,11 +495,11 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-lg-4 col-md-6">
                           <div class="ordercard ordercardtwo rounded-4">
                               <div class="row gx-4 align-items-center">
                                   <div class="col-auto d-flex justify-content-center align-items-center">
-                                      <div class="orderimg rounded-circle h-lg-50px w-lg-50px bg-dark">
+                                      <div class="orderimg rounded-circle h-50px w-50px bg-dark">
                                           <img src="{{GETFOLDERPATH()}}/mobile.svg" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mobile.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
 
                                       </div>
@@ -521,7 +523,7 @@
 
   
         <!-- add on hotal mangement -->
-   <div class="container-fluid addOnsection py-md-5 py-3">
+   <div class="container-fluid addOnsection py-lg-5 py-md-4 py-3">
       <div class="container">
          <div class="row gap-5">
             <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Add <b> On </b></span></div>
@@ -530,19 +532,27 @@
                   <div class="col-xl-6">
                      <div class="card border-0 shadow-none addOnCard bg-theme2 h-100">
                            <div class="row align-items-end h-100">
-                              <div class="col-sm-7 order-sm-1 order-2 rightSection ">
-                                 <div class="row">
-                                    <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">INTEGRATED HEALTHCARE</div>
-                                    <div class="col-12 headingv2 left text-black "><span class="fs-xl-38  fs-lg-32 fs-md-23 fs-22  text-white">MedOrange Pharmacy</span>
-                                       <div class="col-12  fs-xxl-16 fs-xl-15 fs-lg-14 fs-13 fs-sm-15 fs-12 fw-l text-white mb-md-5 mb-2 mt-sm-3 mt-2 pera2">
-                                        Lorem, ipsum dolor sit amet consecteturt possimus tempore!
+                              <div class="col-sm-7 order-sm-1 order-2 rightSection h-100">
+                                 <div class="row h-100">
+                                    <div class="col-12">
+                                       <div class="row">
+                                          <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">INTEGRATED HEALTHCARE</div>
+                                          <div class="col-12 headingv2 left text-black "><span class="fs-xl-38  fs-lg-32 fs-md-23 fs-22  text-white">MedOrange Pharmacy</span>
+                                             <div class="col-12  fs-xxl-16 fs-xl-15 fs-lg-14 fs-13 fs-sm-15 fs-12 fw-l text-white mb-md-5 mb-2 mt-sm-3 mt-2 pera2">
+                                              Lorem, ipsum dolor sit amet consecteturt possimus tempore!
+                                             </div>
+                                          </div>
                                        </div>
                                     </div>
-                                    <div class="col-auto">
-                                       <div class="iosBtn">Andriod</div>
-                                    </div>
-                                    <div class="col-auto ps-0">
-                                       <div class="iosBtn">Ios</div>
+                                    <div class="col-12 mt-auto">
+                                       <div class="row">
+                                          <div class="col-auto ">
+                                             <div class="iosBtn">Andriod</div>
+                                          </div>
+                                          <div class="col-auto ps-0">
+                                             <div class="iosBtn">Ios</div>
+                                          </div>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -556,24 +566,32 @@
                      </div>
                   </div>
                   <div class="col-xl-6">
-                     <div class="card border-0 shadow-none addOnCard bg-theme1 h-100">
+                     <div class="card border-0 shadow-none addOnCard addOnCard2 bg-theme1 h-100">
                            <div class="row align-items-end h-100">
-                              <div class="col-sm-7 order-sm-1 order-2 rightSection ">
-                                 <div class="row">
-                                    <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">INTEGRATED HEALTHCARE</div>
-                                    <div class="col-12 headingv2 left text-black "><span class="fs-xl-38  fs-lg-32 fs-md-23 fs-22  text-white">Online Pharmacy</span>
-                                       <div class="col-12  fs-xxl-16 fs-xl-15 fs-lg-14 fs-13 fs-sm-15 fs-12 fw-l text-white mb-md-5 mb-2 mt-sm-3 mt-2 pera2">
-                                        Lorem, ipsum dolor sit amet consecteturt possimus tempore!
+                              <div class="col-sm-7 order-sm-1 order-2 rightSection h-100">
+                                 <div class="row h-100">
+                                    <div class="col-12">
+                                       <div class="row">
+                                          <div class="fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 text-white text-lg-start text-md-start text-start">INTEGRATED HEALTHCARE</div>
+                                          <div class="col-12 headingv2 left text-black "><span class="fs-xl-38  fs-lg-32 fs-md-23 fs-22  text-white">Online Pharmacy</span>
+                                             <div class="col-12  fs-xxl-16 fs-xl-15 fs-lg-14 fs-13 fs-sm-15 fs-12 fw-l text-white mb-md-5 mb-2 mt-sm-3 mt-2 pera2">
+                                              Lorem, ipsum dolor sit amet consecteturt possimus tempore!
+                                             </div>
+                                          </div>
                                        </div>
                                     </div>
-                                    <div class="col-auto">
-                                       <div class="iosBtn">Andriod</div>
-                                    </div>
-                                    <div class="col-auto px-0">
-                                       <div class="iosBtn">Ios</div>
-                                    </div>
-                                    <div class="col-auto ">
-                                       <div class="iosBtn">Web</div>
+                                    <div class="col-12 mt-auto">
+                                       <div class="row">
+                                          <div class="col-auto ">
+                                             <div class="iosBtn">Andriod</div>
+                                          </div>
+                                          <div class="col-auto ps-0">
+                                             <div class="iosBtn">Ios</div>
+                                          </div>
+                                          <div class="col-auto ">
+                                             <div class="iosBtn">Web</div>
+                                          </div>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -594,7 +612,7 @@
    <!-- add on hotal mangement end-->
 
        <!-- why hire section start  -->
-       <div class="container-fluid overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-5 py-5 position-relative">
+       <div class="container-fluid overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-4 py-3 position-relative">
          <div class="container">
              <div class="row align-content-center align-items-center position-relative">
                   <div class="col-lg-7 col-md-12">
@@ -644,9 +662,9 @@
      <!-- why hire section end  -->
 
      {{-- faq section start  --}}
-     <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-5"> 
+     <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-lg-5 py-md-4 py-3"> 
       <div class="container position-relative zi-2">
-         <div class="row mx-0 pb-5">
+         <div class="row mx-0 pb-lg-5">
            <h3 class="d-none invisible">Frequently Asked Questions</h3>
             <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Frequently Asked <b> Questions </b></span></div>
          </div>
@@ -732,7 +750,7 @@
     <!-- latest blog section -->
          <!-- latest blog section -->
          <div class="container-fluid blog-section position-relative overflow-hidden">
-            <div class="container position-relative zi-1 py-md-5 py-2">
+            <div class="container position-relative zi-1 py-lg-5 py-md-4  py-3">
                 <div class="row">
                     <div class="col-12 ">
                         <div class="row align-items-center justify-content-center">

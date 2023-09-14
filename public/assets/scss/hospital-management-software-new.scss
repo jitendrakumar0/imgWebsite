@@ -213,7 +213,8 @@
 // hero section 
 
 .hero-section {
-  padding-bottom: 60px;
+  // display: none;
+  // padding-bottom: 60px;
   & .hero-section-innner {
       background: url(../../../img/hospital-management-software-new/herosection.jpg) no-repeat;
       background-size: cover ;
@@ -323,6 +324,12 @@
     & .hero-section-subheading {
     } 
     & .heading {
+      &::before{
+        right: 0 !important;
+      }
+      &::after{
+        right: 0 !important;
+      }
     }
     & .herorsection-data {
     }
@@ -643,7 +650,13 @@
     background-color: $theme3;
     border-radius: 18px;
     &:hover{
-      background-color:lighten($theme2 ,10) !important;
+      transform: translateY(-10px);
+      // background-color:lighten($theme2 ,10) !important;
+      &.addOnCard2{
+        // background-color: lighten($theme1, 10) !important;
+      transform: translateY(-10px);
+       
+      }
     }
     & .rightSection{
       padding: 30px;
@@ -677,7 +690,16 @@
   .addOnsection{
 
     & .addOnCard{
-  
+      &:hover{
+        // margin-top: -10px !important;
+        transform: translateY(0px) !important;
+        // background-color:lighten($theme2 ,0) !important;
+        &.addOnCard2{
+        transform: translateY(0px) !important;
+          
+         
+        }
+      }
       & .rightSection{
    
         & .headingv2{
@@ -737,9 +759,11 @@
 
 // hospital cta section start 
 .hospitalCta {
-  background: linear-gradient(45deg, #f70404, #df4141f3);
-  padding: 40px 12px;
+  background: linear-gradient(45deg, #116285, #099edd);
+  padding: 60px 12px;
 }
+
+
 // hospital cta section end
 
 // befefits section start 
@@ -750,6 +774,7 @@
       background: linear-gradient(90deg, #d79618, #e7b349);
       padding: 20px;
       border-radius: 15px;
+      transition: all 0.3S ease-in-out;
       & .orderimg {
           padding: 9px;
           transition: all 0.3s ease-in-out;
@@ -763,10 +788,67 @@
           }
       }
       &:hover {
+        transform: translateY(-10px);
           & .orderimg {
-              transform: rotate(360deg);
+              // transform: rotate(360deg);
           }
       }
+  }
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin benefits-card-mixin-max-xs() {
+  .benefits-card {
+
+    & .ordercard {
+      
+        & .orderimg {
+            
+        }
+        &.ordercardtwo {
+          
+            & .orderimg {
+                & img {
+                    
+                }
+            }
+        }
+        &:hover {
+        transform: translateY(0px);
+
+          // transform: translateY(-20px);
+            & .orderimg {
+              // transform: rotate(0deg);
+                
+            }
+        }
+    }
+  }
+  
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin benefits-card-mixin-max-sm() {
+  .benefits-card {
+
+    & .ordercard {
+      
+        & .orderimg {
+            
+        }
+        &.ordercardtwo {
+          
+            & .orderimg {
+                & img {
+                    
+                }
+            }
+        }
+        &:hover {
+            & .orderimg {
+                
+            }
+        }
+    }
   }
 }
 // befefits section end
@@ -1016,6 +1098,8 @@ button.accordion-button {
   @include aboutHotal-mixin-max-sm();
   @include feateureSection-mixin-max-sm();
   @include addOnsection-mixin-max-sm();
+  @include benefits-card-mixin-max-sm();
+
 
 
 
@@ -1027,6 +1111,8 @@ button.accordion-button {
   @include aboutHotal-mixin-max-xs();
   @include feateureSection-mixin-max-xs();
   @include addOnsection-mixin-max-xs();
+  @include benefits-card-mixin-max-xs();
+
 
 
 
