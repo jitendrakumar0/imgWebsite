@@ -144,3 +144,442 @@
 }
 
 
+
+// new codes 
+
+
+// Top Banner
+// hero section 
+
+.hero-section {
+  // display: none;
+  // padding-bottom: 60px;
+  & .hero-section-innner {
+      background: url(../../../img/hospital-management-software-new/herosection.jpg) no-repeat;
+      background-size: cover ;
+      background-position: center ;
+      padding-top: 180px;
+      padding-bottom: 50px;
+      &::before {
+          content: '';
+          top: 0;
+          left: 0;
+          position: absolute;
+          // background: rgba($black,.5);
+          height: 100%;
+          width: 100%;
+          background-image: linear-gradient(187deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%);
+      }
+  }
+  & .hero-section-subheading {
+      animation: drop-in 1200ms ease 100ms 
+  }
+  @keyframes drop-in {
+      from {
+          opacity: 0;
+          transform: translateY(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  } 
+  & .heading {
+      animation: drop-in 1s ease 200ms 
+  }
+  & .herorsection-data {
+      animation:data 1s ease 200ms 
+  }
+  @keyframes data {
+      from {
+          opacity: 0;
+          transform: translatex(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .project-btn {
+      animation:button 1s ease 200ms 
+  } @keyframes button {
+      from {
+          opacity: 0;
+          transform: translateY(100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .portfolio-img {
+      bottom: -120px;
+      position: absolute;
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin hero-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin hero-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin hero-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin hero-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin hero-section-mixin-min-xxl() {
+  .hero-section {
+    & .hero-section-innner {
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        bottom: -130px;
+    }
+}
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin hero-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin hero-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin hero-section-mixin-max-md() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 90px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+      &::before{
+        right: 0 !important;
+      }
+      &::after{
+        right: 0 !important;
+      }
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        aspect-ratio: 4/2;
+    }
+}
+}
+// Large devices (desktops, less than 1200px)
+@mixin hero-section-mixin-max-lg() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 130px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        // bottom: -130px;
+        position: unset;
+    }
+}
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin hero-section-mixin-max-xl() {
+}
+// hero section end 
+
+
+// our benefits section start 
+.benifits {
+  & .benefit-card {
+    padding: 60px 30px;
+    & .benefit-icon {
+      height: 90px;
+      width: 90px;
+      color: #104cba;
+      transition: all 0.3s ease-in-out;
+      & .icons {
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    & .benefits-name {
+      color:#0e2b3d;
+    }
+    & .benefits-data {
+      padding-top: 12px;
+    }
+    & .calender {
+      color: darkorange;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 0%;
+      height: 0%;
+      visibility: hidden;
+      bottom: 0;
+      right: 0;
+      border-left: 3px solid $theme3;
+      border-bottom: 3px solid $theme1;
+      transition: width .2s ease .1s, height .1s ease, visibility 0s .2s;
+      border-radius: 6px;
+    }
+    &::before {
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+        top: 0;
+        left: 0;
+        border-top: 3px solid $theme3;
+        border-right: 3px solid $theme1;
+        transition: width .3s ease .3s, height .1s ease .2s, visibility 0s .4s;
+        border-radius: 6px;
+    }
+    &:hover {
+      & .benefit-icon {
+        & .icons {
+          transform: scale(1.2);
+        }
+      }
+        &::after {
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+            transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+        }
+        &::before {
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+            transition: width .1s ease, height .1s ease .1s;
+        }
+    }
+  }
+}
+// / Small devices (landscape phones, 576px and up)
+@mixin benifits-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin benifits-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin benifits-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin benifits-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin benifits-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin benifits-mixin-max-xs() {
+  .benifits {
+    & .benefit-card {
+      padding: 20px 15px;
+      & .benefit-icon {
+        height: 60px;
+        width: 60px;
+        & .icons {
+        }
+      }
+      & .benefits-name {
+      }
+      & .benefits-data {
+        padding-top: 8px;
+      }
+      &::after {
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+        border-left: 3px solid $theme3;
+        border-bottom: 3px solid $theme1;
+      }
+      &::before {
+          width: 100%;
+          height: 100%;
+          visibility: visible;
+      }
+      &:hover {
+        & .benefit-icon {
+          & .icons {
+            transform: scale(1);
+          }
+        }
+          &::after {
+          }
+          &::before {
+  
+          }
+      }
+    }
+  }
+}
+// Small devices (landscape phones, less than 768px)
+@mixin benifits-mixin-max-sm() {
+  .benifits {
+    & .benefit-card {
+      padding: 35px 20px;
+      & .benefit-icon {
+        height: 70px;
+        width: 70px;
+        & .icons {
+        }
+      }
+      & .benefits-name {
+      }
+      & .benefits-data {
+        padding-top: 9px;
+      }
+      &::after {
+      }
+      &::before {
+      }
+      &:hover {
+        & .benefit-icon {
+          & .icons {
+          }
+        }
+          &::after {
+          }
+          &::before {
+  
+          }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin benifits-mixin-max-md() {
+  .benifits {
+    & .benefit-card {
+      padding:22px 14px;
+      & .benefit-icon {
+        height: 70px;
+        width: 70px;
+        & .icons {
+        }
+      }
+      & .benefits-name {
+      }
+      & .calender {
+        
+      }
+      & .benefits-data {
+        padding-top: 9px;
+      }
+      &::after {
+      }
+      &::before {
+      }
+      &:hover {
+        & .benefit-icon {
+          & .icons {
+          }
+        }
+          &::after {
+          }
+          &::before {
+  
+          }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin benifits-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin benifits-mixin-max-xl() {
+}
+// our benefits section end 
+
+
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include hero-section-mixin-min-sm();
+  @include benifits-mixin-min-sm();
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include hero-section-mixin-min-md();
+  @include benifits-mixin-min-md();
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include hero-section-mixin-min-lg();
+  @include benifits-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include hero-section-mixin-min-xl();
+  @include benifits-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include hero-section-mixin-min-xxl();
+  @include benifits-mixin-min-xxl();
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include hero-section-mixin-max-xl();
+  @include benifits-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include hero-section-mixin-max-lg();
+  @include benifits-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include hero-section-mixin-max-md();
+  @include benifits-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include hero-section-mixin-max-sm();
+  @include benifits-mixin-max-sm();
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include hero-section-mixin-max-xs();
+  @include benifits-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

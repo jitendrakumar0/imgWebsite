@@ -65,85 +65,85 @@
 {{-- hero section  --}}
 <div class="container-fluid hero-section bg-light v100 px-0">
    <div class="hero-section-innner h-100 d-flex align-items-center  position-relative">
-       <div class="container">
-           <div class="row position-relative align-items-center z-1">
-               <div class="col-lg-5 order-lg-1 order-2">
-                   <div class="row pt-3 text-lg-start text-md-center text-center position-relative">
-                           <div class="col-12 hero-section-subheading text-lg-start text-center fw-bold fs-lg-24 text-white fs-md-20">
-                               Healthcare Solutions
-                           </div>
+         <div class="container">
+            <div class="row position-relative align-items-center z-1">
+                  <div class="col-lg-5 order-lg-1 order-2">
+                     <div class="row pt-3 text-lg-start text-md-center text-center position-relative">
+                              <div class="col-12 hero-section-subheading text-lg-start text-center fw-bold fs-lg-24 text-white fs-md-20">
+                                 Healthcare Solutions
+                              </div>
 
-                           <div class="col-12 ">
-                               <div class="row mx-0 pb-2 justify-content-lg-start text-center justify-content-center">
+                              <div class="col-12 ">
+                                 <div class="row mx-0 pb-2 justify-content-lg-start text-center justify-content-center">
 
-                                   <h1 class="d-none invisible">Hospital Management Software </h1>
-                                   <div class="col-12 heading fs-md-14 fs-12 left text-white text-lg-start text-center">
-                                       <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Hospital Management <b> Software</b></span>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Today healthcare application development company is growing rapidly due to which various public and private sector businesses are investing as well as participating in it at large scale. This significant growth enabled hospitals to use latest technologies like software in their health care centre to give better health care services to patients. As Enterprise Resource Planning is offering ultimate solutions to many sectors, hence healthcare industry is no exception.</div>
-                           <div class="col-auto mx-lg-0 mx-auto mt-lg-0 mt-3">
-                               <a class="nav-link d-flex btn  btn-button1  fw-l fs-xxl-16 fs-xl-16 fs-lg-16 fs-14 mb-3 rounded text-white text-capitalize px-lg-3 py-xxl-2 py-xl-2 py-lg-2 py-md-1 py-sm-1 py-1 d-flex" href="https://www.imgglobalinfotech.com/request-a-quote.php">Start a Project<i class="imgd img-long-arrow-right position-relative fs-23 ms-2 arrowright"></i></a>
-                           </div>
-                       </div>
-               </div>
-               <div class="col-lg-7 order-lg-2 order-1">
-                   <div class="portfolio-img bottomxx">
-                     <img src="{{GETFOLDERPATH()}}/features.svg" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/features.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                    <h1 class="d-none invisible">Hospital Management Software </h1>
+                                    <div class="col-12 heading fs-md-14 fs-12 left text-white text-lg-start text-center">
+                                          <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Hospital Management <b> Software</b></span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Today healthcare application development company is growing rapidly due to which various public and private sector businesses are investing as well as participating in it at large scale. This significant growth enabled hospitals to use latest technologies like software in their health care centre to give better health care services to patients. As Enterprise Resource Planning is offering ultimate solutions to many sectors, hence healthcare industry is no exception.</div>
+                              <div class="col-auto mx-lg-0 mx-auto mt-lg-0 mt-3">
+                                 <a class="nav-link d-flex btn  btn-button1  fw-l fs-xxl-16 fs-xl-16 fs-lg-16 fs-14 mb-3 rounded text-white text-capitalize px-lg-3 py-xxl-2 py-xl-2 py-lg-2 py-md-1 py-sm-1 py-1 d-flex" href="https://www.imgglobalinfotech.com/request-a-quote.php">Start a Project<i class="imgd img-long-arrow-right position-relative fs-23 ms-2 arrowright"></i></a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-7 order-lg-2 order-1">
+                     <div class="portfolio-img bottomxx">
+                        <img src="{{GETFOLDERPATH()}}/features.svg" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/features.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
 
-                       {{-- <img src="assets/img/features.svg" alt="portfolio" class="h-100 w-100 "> --}}
-                   </div>
-               </div>
-           </div>
-       </div>
+                        {{-- <img src="assets/img/features.svg" alt="portfolio" class="h-100 w-100 "> --}}
+                     </div>
+                  </div>
+            </div>
+         </div>
    </div>
 </div>
-
 {{-- hero section  end  --}}
+
 <!-- bredcrumb section -->
 <div class="container-fluid overflow-hidden px-0 bredcrumb_main py-lg-3 py-md-2 py-2 d-md-block d-none">
-  <div class="container">
-     <div class="row">
-        <div class="col-md-12">
-           <nav aria-label="breadcrumb">
-              <ol class="breadcrumb mb-0">
-                 <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                 <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">Trending Solutions</a></li>
-                 <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Hospital Management Software</li>
-              </ol>
-           </nav>
-        </div>
-     </div>
-  </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <nav aria-label="breadcrumb">
+               <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                  <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">Trending Solutions</a></li>
+                  <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Hospital Management Software</li>
+               </ol>
+            </nav>
+         </div>
+      </div>
+   </div>
 </div>
    <!-- about hotal mangement -->
 
    <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-7 order-md-1 order-2">
-            <div class="row mx-0 pb-lg-4 pb-3">
-              <h2 class="d-none invisible"> Hospital Management Software</h2>
-              <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  Hospital Management  <b> Software </b></span></div>
-           </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae, <b>Hospital Management Software</b> eaque asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
-                <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae,  eaque asperiores fuga perspiciatis eius sapien asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
-              </div>
+         <div class="row align-items-center">
+            <div class="col-md-7 order-md-1 order-2">
+               <div class="row mx-0 pb-lg-4 pb-3">
+               <h2 class="d-none invisible"> Hospital Management Software</h2>
+               <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  Hospital Management  <b> Software </b></span></div>
             </div>
-          </div>
-          <div class="col-md-5 order-md-2 order-1">
-             <div class="imgAbout">
-                <img src="{{GETFOLDERPATH()}}/abouthotal.jpg" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/abouthotal.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+               <div class="row">
+               <div class="col-12">
+                  <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae, <b>Hospital Management Software</b> eaque asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
+                  <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae,  eaque asperiores fuga perspiciatis eius sapien asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
+               </div>
+               </div>
             </div>
-          </div>
-          <div class="col-12 order-3">
-            <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, optio eius minima perferendis ex, voluptas quia praesentium similique aliquam sed reiciendis nisi beatae vel ratione illo porro ad fugit. Adipisci et ea explicabo provident! Quisquam consequuntur consectetur alias officia eligendi amet numquam adipisci et distinctio beatae omnis, earum deserunt, magni, laboriosam inventore accusantium impedit facere? Dignissimos blanditiis quod, maxime explicabo exercitationem expedita reprehenderit fugiat dolores ipsa neque aperiam consequuntur?</div>
-          </div>
-          </div>
-        </div>
+            <div class="col-md-5 order-md-2 order-1">
+               <div class="imgAbout">
+                  <img src="{{GETFOLDERPATH()}}/abouthotal.jpg" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/abouthotal.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+               </div>
+            </div>
+            <div class="col-12 order-3">
+               <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, optio eius minima perferendis ex, voluptas quia praesentium similique aliquam sed reiciendis nisi beatae vel ratione illo porro ad fugit. Adipisci et ea explicabo provident! Quisquam consequuntur consectetur alias officia eligendi amet numquam adipisci et distinctio beatae omnis, earum deserunt, magni, laboriosam inventore accusantium impedit facere? Dignissimos blanditiis quod, maxime explicabo exercitationem expedita reprehenderit fugiat dolores ipsa neque aperiam consequuntur?</div>
+            </div>
+            </div>
+         </div>
    </div>
    <!-- about hotal mangement -->
 
@@ -375,31 +375,31 @@
 
    <!-- Feature hotal mangement END-->
 
-           <!-- cta section start  -->
-           <div class="container-fluid mt-4 ctaSection  hospitalCta">
-            <div class="container">
-                <div class="row">
-                    <h3 class="col-12 d-none invisible">Ready to build an app for your hospital</h3>
-                    <div class="col-12 fs-xl-32 fs-lg-32 text-sm-start text-center fs-md-23 fs-22 fw-m text-white mb-1 textcenter">
-                        Ready to build an app for your hospital
-                    </div>
-                    <div class="col-12 text-sm-start text-center fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 fw-l text-white mb-4">
-                        Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one 
-                        of our executives will catch you up in no time by Call, Email or Skype.
-                    </div>
-                    <div class="col-12 text-sm-start text-center">
-                        <a href="https://www.imgglobalinfotech.com/request-a-quote.php" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  btn-button1 fs-xl-18 fs-lg-18 fs-md-19 fs-15 text-white  py-xxl-2 py-1 px-4">
-                            <span class="d-flex align-items-center"><span>Contact Us Now</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
-                        </a>
-                    </div>
-                </div>
+   <!-- cta section start  -->
+   <div class="container-fluid mt-4 ctaSection  hospitalCta">
+      <div class="container">
+         <div class="row">
+            <h3 class="col-12 d-none invisible">Ready to build an app for your hospital</h3>
+            <div class="col-12 fs-xl-32 fs-lg-32 text-sm-start text-center fs-md-23 fs-22 fw-m text-white mb-1 textcenter">
+                  Ready to build an app for your hospital
             </div>
+            <div class="col-12 text-sm-start text-center fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 fw-l text-white mb-4">
+                  Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one 
+                  of our executives will catch you up in no time by Call, Email or Skype.
             </div>
-         <!-- cta section end  -->
+            <div class="col-12 text-sm-start text-center">
+                  <a href="https://www.imgglobalinfotech.com/request-a-quote.php" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  btn-button1 fs-xl-18 fs-lg-18 fs-md-19 fs-15 text-white  py-xxl-2 py-1 px-4">
+                     <span class="d-flex align-items-center"><span>Contact Us Now</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                  </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- cta section end  -->
 
 
-     <!-- befefits section start  -->
-     <div class="container-fluid py-lg-5 py-md-4 py-3 benefits-card">
+   <!-- befefits section start  -->
+   <div class="container-fluid py-lg-5 py-md-4 py-3 benefits-card">
       <div class="container about-section">
           <div class="row justify-content-center">
               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">BENEFITS OF
@@ -518,11 +518,11 @@
           </div>
       </div>
    </div>
-  <!-- befefits section end  -->
+   <!-- befefits section end  -->
 
 
   
-        <!-- add on hotal mangement -->
+   <!-- add on hotal mangement -->
    <div class="container-fluid addOnsection py-lg-5 py-md-4 py-3">
       <div class="container">
          <div class="row gap-5">
@@ -611,55 +611,55 @@
    </div>
    <!-- add on hotal mangement end-->
 
-       <!-- why hire section start  -->
-       <div class="container-fluid overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-4 py-3 position-relative">
-         <div class="container">
-             <div class="row align-content-center align-items-center position-relative">
-                  <div class="col-lg-7 col-md-12">
-                        <div class="row mx-0 pb-3">
-                           <h3 class="d-none invisible">Why Hire Mobile App Developers from IMG Global Infotech?</h3>
-                           <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Why Hire Mobile App Developers from  <b>IMG Global Infotech?</b></span></div>
-                        </div>
-                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
-                        Transform your app ideas into reality by hiring skilled mobile app developers from IMG Global Infotech. Our dedicated team of developers brings expertise in crafting innovative and user-friendly mobile applications. With a focus on delivering seamless user experiences and meeting project requirements, our mobile app developers combine creativity, reliability, and professionalism to bring your app vision to life. Experience the power of mobile app development with our talented team at IMG Global Infotech.
+   <!-- why hire section start  -->
+   <div class="container-fluid overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-4 py-3 position-relative">
+      <div class="container">
+            <div class="row align-content-center align-items-center position-relative">
+               <div class="col-lg-7 col-md-12">
+                     <div class="row mx-0 pb-3">
+                        <h3 class="d-none invisible">Why Hire Mobile App Developers from IMG Global Infotech?</h3>
+                        <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Why Hire Mobile App Developers from  <b>IMG Global Infotech?</b></span></div>
                      </div>
-                        <div>
-                           <div class="row">
-                              <div class="col-lg-6 col-md-6 col-12 mb-1">     
-                                  <div class="col-12 col-lg-12 position-relative">
-                                     <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
-                                      
-                                    </ul>
-                                 </div>
-                              </div>
-
-                             <div class="col-lg-6 col-md-6 col-12 mb-1">     
+                     <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
+                     Transform your app ideas into reality by hiring skilled mobile app developers from IMG Global Infotech. Our dedicated team of developers brings expertise in crafting innovative and user-friendly mobile applications. With a focus on delivering seamless user experiences and meeting project requirements, our mobile app developers combine creativity, reliability, and professionalism to bring your app vision to life. Experience the power of mobile app development with our talented team at IMG Global Infotech.
+                  </div>
+                     <div>
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-12 mb-1">     
                                  <div class="col-12 col-lg-12 position-relative">
-                                     <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
-                                       <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
-                                    </ul>
-                                 </div>
-                             </div>
-                            </div>
-                        </div>
-                     </div>
+                                    <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
+                                    
+                                 </ul>
+                              </div>
+                           </div>
 
-                     <div class="col-lg-5 col-md-12 col-12 p-0 leftside">
-                       <img class="w-100 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/android-team.webp" alt="android-team">
-                      </div>
-             </div>
-         </div>
-     </div>
-     <!-- why hire section end  -->
+                           <div class="col-lg-6 col-md-6 col-12 mb-1">     
+                              <div class="col-12 col-lg-12 position-relative">
+                                    <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-5 col-md-12 col-12 p-0 leftside">
+                     <img class="w-100 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/android-team.webp" alt="android-team">
+                     </div>
+            </div>
+      </div>
+   </div>
+   <!-- why hire section end  -->
 
      {{-- faq section start  --}}
      <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-lg-5 py-md-4 py-3"> 
@@ -746,8 +746,8 @@
      
      {{-- faq section end  --}}
 
-     {{-- blog section start  --}}
-    <!-- latest blog section -->
+   {{-- blog section start  --}}
+   <!-- latest blog section -->
          <!-- latest blog section -->
          <div class="container-fluid blog-section position-relative overflow-hidden">
             <div class="container position-relative zi-1 py-lg-5 py-md-4  py-3">
@@ -928,7 +928,7 @@
                                 </a>
                               </div>
                             </div>
-                         </div>
+         </div>
                    
    
     
