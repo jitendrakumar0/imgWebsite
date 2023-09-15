@@ -712,6 +712,10 @@ class HomeController extends Controller
     {
         return view('hospital-management-software.index');
     }
+    public function hospital_management_software_new()
+    {
+        return view('hospital-management-software-new.index');
+    }
     public function vehicle_rental_software()
     {
         return view('vehicle-rental-software.index');

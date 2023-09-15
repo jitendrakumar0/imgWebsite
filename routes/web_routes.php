@@ -210,6 +210,7 @@ Route::get('/nbfc-software.php', 'HomeController@nbfc_software');
 Route::get('/online-exam-management-software.php', 'HomeController@online_exam_management_software');
 Route::get('/real-estate-management-software.php', 'HomeController@real_estate_management_software');
 Route::get('/hospital-management-software.php', 'HomeController@hospital_management_software');
+Route::get('/hospital-management-software-new.php', 'HomeController@hospital_management_software_new');
 Route::get('/hotel-management-software.php', 'HomeController@hotel_management_software');
 Route::get('/vehicle-rental-software.php', 'HomeController@vehicle_rental_software');
 Route::get('/gym-management-software.php', 'HomeController@gym_management_software');

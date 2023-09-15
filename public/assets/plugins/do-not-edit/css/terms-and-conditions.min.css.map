@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../scss/terms-and-conditions.scss","terms-and-conditions.min.css"],"names":[],"mappings":"AAGA;EACE,+DAAA;ACFF;;ADME;EACE,WAAA;EACA,8DAAA;EACA,kBAAA;EACA,MAAA;EACA,OAAA;EACA,QAAA;EACA,SAAA;EACA,2BAAA;EACA,UAAA;ACHJ;ADKE;EACE,kBAAA;ACHJ","file":"terms-and-conditions.min.css"}
+{"version":3,"sources":["../../../scss/terms-and-conditions.scss"],"names":[],"mappings":"AAGA,QACE,8DAAA,CAIA,6BACE,UAAA,CACA,6DAAA,CACA,iBAAA,CACA,KAAA,CACA,MAAA,CACA,OAAA,CACA,QAAA,CACA,0BAAA,CACA,SAAA,CAEF,kCACE,iBAAA","file":"terms-and-conditions.min.css"}

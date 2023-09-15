@@ -1,11 +1,1 @@
-.mvp-choose-wide-range {
-  background-color: #212529;
-}
-.mvp-choose-wide-range::after {
-  background-image: url("../../../img/mvp-development/double-bubble-outline.webp");
-  background-size: 480px;
-  opacity: 0.1;
-}
-.mvp-choose-wide-range .heading {
-  color: #fff;
-}
+.mvp-choose-wide-range{background-color:#212529}.mvp-choose-wide-range::after{background-image:url("../../../img/mvp-development/double-bubble-outline.webp");background-size:480px;opacity:.1}.mvp-choose-wide-range .heading{color:#fff}/*# sourceMappingURL=mvp-development.min.css.map */
