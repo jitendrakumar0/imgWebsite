@@ -2,34 +2,480 @@
 
 @import "variables";
 
-// Top Banner
-.top_banner {
-  background: linear-gradient(
-      90deg,
-      darken($theme1, 40) 50%,
-      rgba(darken($theme1, 40), 0.96%) 56%,
-      rgba(darken($theme1, 40), 0.4%) 76%
-    ),
-    var(--bg);
-  background-size: cover;
-  background-position: 37% 0%;
-  
-  & .top_banner-left-part {
-    & img {
-      &:nth-child(1) {
-        filter: drop-shadow(2px 4px 6px darken($theme1, 40));
+// hero section 
+
+.hero-section {
+  // display: none;
+  // padding-bottom: 60px;
+  & .hero-section-innner {
+      background: url(../../../img/school-management-software-new/herosection.jpg) no-repeat;
+      background-size: cover ;
+      background-position: center ;
+      padding-top: 90px;
+      // padding-bottom: 20px;
+      
+      &::before {
+          content: '';
+          top: 0;
+          left: 0;
+          position: absolute;
+          // background: rgba($black,.5);
+          height: 100%;
+          width: 100%;
+          background-image: linear-gradient(187deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%);
       }
-      &:nth-child(2) {
-        filter: invert(1);
+  }
+  & .hero-section-subheading {
+      animation: drop-in 1200ms ease 100ms 
+  }
+  @keyframes drop-in {
+      from {
+          opacity: 0;
+          transform: translateY(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  } 
+  & .heading {
+      animation: drop-in 1s ease 200ms 
+  }
+  & .herorsection-data {
+      animation:data 1s ease 200ms 
+  }
+  @keyframes data {
+      from {
+          opacity: 0;
+          transform: translatex(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .project-btn {
+      animation:button 1s ease 200ms 
+  } @keyframes button {
+      from {
+          opacity: 0;
+          transform: translateY(100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .portfolio-img {
+     & img{
+      aspect-ratio: 1/0.8;
+     }
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin hero-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin hero-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin hero-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin hero-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin hero-section-mixin-min-xxl() {
+  .hero-section {
+    & .hero-section-innner {
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+      
+    }
+}
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin hero-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin hero-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin hero-section-mixin-max-md() {
+  .hero-section {
+    & .hero-section-innner {
+      padding-top: 50px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+      &::before{
+        right: 0 !important;
+      }
+      &::after{
+        right: 0 !important;
+      }
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+      & img {
+
+        aspect-ratio: 1/0.5;
+        object-fit: contain;
+      }
+    }
+}
+}
+// Large devices (desktops, less than 1200px)
+@mixin hero-section-mixin-max-lg() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 100px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        // bottom: -130px;
+        position: unset;
+    }
+}
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin hero-section-mixin-max-xl() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 100px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        // bottom: -130px;
+        position: unset;
+    }
+}
+}
+
+// hero section end 
+
+
+// about hotal mangement section 
+.aboutHotal{
+  & .imgAbout{
+      & img{
+          aspect-ratio: 4/3;
+          object-fit: contain;
+      }
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin aboutHotal-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin aboutHotal-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin aboutHotal-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin aboutHotal-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin aboutHotal-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin aboutHotal-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin aboutHotal-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin aboutHotal-mixin-max-md() {
+  .aboutHotal{
+        & .imgAbout{
+            & img{
+                aspect-ratio: 4/4;
+            }
+        }
+    }
+}
+// Large devices (desktops, less than 1200px)
+@mixin aboutHotal-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin aboutHotal-mixin-max-xl() {
+}
+
+// about section end 
+
+// feateure Section start 
+
+.feateureSection{
+  ::-webkit-scrollbar {
+    display: none;
+}
+  & .featureTabs{
+    background-color: $white;
+    border: 2px solid $white;
+    padding: 1px !important;
+    & .navItem{
+      & .fetureButton{
+        font-size: 16px;
+        color:$black;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid $white;
+        border-radius: 5px !important;
+        & .featureIcon{
+          width: 17px;
+          height: 17px;
+        }
+        &.active{
+          //  background: $theme1 !important;
+          background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+           color: $white;
+
+          & .featureIcon{
+            filter: invert(1);
+
+          }
+          
+        }
       }
     }
   }
 
+  & .featureCardSection{
+    & >* {
+      flex: 1 1 14.28%;
+      width: 14.28%;
+    }
+  }
+  & .featureCard{
+    & .cardImg{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  & .featureImg{
+    background-color: $white;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    & img{
+      // aspect-ratio: 5/4;
+      // object-fit: contain;
+      border-radius: 10px;
+    }
+  
+  }
 }
 
-// our achievements section
-.achievements {
 
+// / Small devices (landscape phones, 576px and up)
+@mixin feateureSection-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin feateureSection-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin feateureSection-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin feateureSection-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin feateureSection-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin feateureSection-mixin-max-xs() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+          font-size: 14px;
+          & .featureIcon{
+          width: 15px;
+          height: 15px;
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin feateureSection-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin feateureSection-mixin-max-md() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin feateureSection-mixin-max-lg() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin feateureSection-mixin-max-xl() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+
+// feateure Section end 
+
+
+
+// our achievements section
+// .achievements section start 
+.achievements {
+& .appSlider{
+  position: relative;
+  &::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1px;
+    // background-color: $black;
+    border: 1px dashed $black;
+    left: 0;
+    top: 0;
+  }
+  & .appImg{
+    height: 60px;
+    width: 60px;
+  }
+}
 
   & .sparater-block {
     position: absolute;
@@ -60,53 +506,305 @@
     }
   }
 }
+
+// Small devices (landscape phones, 576px and up)
+@mixin achievements-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin achievements-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin achievements-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin achievements-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin achievements-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin achievements-mixin-max-xs() {
+  .achievements {
+    & .appSlider{
+     
+      &::after{
+   
+      }
+      & .appImg{
+     
+      }
+    }
+    
+      & .sparater-block {
+      
+        & span {
+      
+        }
+        & span {
+     
+        }
+      }
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@mixin achievements-mixin-max-sm() {
+  .achievements {
+    & .appSlider{
+     
+      &::after{
+   
+      }
+      & .appImg{
+        width: 40px;
+        height: 40px;
+      }
+    }
+    
+      & .sparater-block {
+      
+        & span {
+      
+        }
+        & span {
+     
+        }
+      }
+    }
+}
+// Medium devices (tablets, less than 992px)
+@mixin achievements-mixin-max-md() {
+  .achievements {
+    & .heading{
+      &::after{
+        right: 0;
+      }
+      &::before{
+        right: 0;
+      }
+    }
+    & .appSlider{
+     
+      &::after{
+        display: none;
+      }
+      & .appImg{
+     
+      }
+    }
+    
+      & .sparater-block {
+      
+        & span {
+      
+        }
+        & span {
+     
+        }
+      }
+    }
+}
+// Large devices (desktops, less than 1200px)
+@mixin achievements-mixin-max-lg() {
+  .achievements {
+    & .appSlider{
+     
+      &::after{
+   
+      }
+      & .appImg{
+     
+      }
+    }
+    
+      & .sparater-block {
+      
+        & span {
+      
+        }
+        & span {
+     
+        }
+      }
+    }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin achievements-mixin-max-xl() {
+  .achievements {
+    & .appSlider{
+     
+      &::after{
+   
+      }
+      & .appImg{
+     
+      }
+    }
+    
+      & .sparater-block {
+      
+        & span {
+      
+        }
+        & span {
+     
+        }
+      }
+    }
+}
+
+
+
+// .achievements section end 
+
+
+
+
 // development services section
 .development_services {
-  background: $gray-200;
+  background:lighten($black, 99);
+  position: relative;
+ 
+& .fixed-shape{
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.03;
+}
+& .whyChossCard{
+  position: relative;
+  padding: 60px 30px;
+  box-shadow: 0px 0px 38px 0px rgba(21, 24, 29, 0.178);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  background:$white;
+  &:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    width: 0;
+    background: linear-gradient(90deg, rgba(0,16,45,1) 0%, rgba(0,89,252,1) 56%);
+    transition: all 0.35s ease-in-out;
+  }
 
-  & .development_services_box {
-    background: $white;
-    padding: 25px;
-    transition: box-shadow 0.2s ease, z-index 0s 0.2s ease;
-    text-align: center;
-    position: relative;
-    border-radius: 0px;
-    overflow: hidden;
-    z-index: 2;
-    border-bottom: 3px solid $gray-300;
-    &::after {
-      content: "";
-      position: absolute;
-      top: 32px;
-      width: 60px;
-      height: 60px;
-      opacity: 1;
-      visibility: visible;
-      transition: 0.5s all;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      border-radius: 50%;
-      margin: 0 auto;
-      z-index: -1;
-      transform: scale(5);
-      transform-origin: bottom;
-    }
-    &:hover {
-      & .col-12 {
-        color: $white !important;
-      }
-      &::after {
-        background-color: $theme3;
-        transform: scale(1);
-        height: 100%;
-        width: 100%;
-        top: 0;
-        border-radius: 0;
-      }
+  &:hover{
+    &:after{
+      width: 100%;
     }
   }
+  & .numberCard{
+    font-size: 50px;
+  display: block;
+  font-weight: 600;
+  text-shadow: -5px 5px 0px #eceefe; 
+  position: relative;
+  line-height: 1;
+  color: #104cba;
+  }
+  & .cardIcon{
+    color: lighten($black,80);
+  }
+  & .cardHeading{
+    font-size: 18px;
+    color: $black;
+    font-weight: 600;
+  }
+  & .cardPera{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
 }
+  
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin development_services-mixin-max-xs() {
+  .development_services {
+
+   
+  & .fixed-shape{
+ 
+  }
+  & .whyChossCard{
+    padding: 25px 25px;
+    &:after{
+      // width: 100%;
+    }
+  
+    &:hover{
+      &:after{
+        display: none;
+       
+      }
+    }
+    & .numberCard{
+      font-size: 33px;
+    }
+    & .cardIcon{
+     
+    }
+    & .cardHeading{
+    
+    }
+    & .cardPera{
+ 
+    }
+  
+  }
+    
+  }
+}
+// Small devices (landscape phones, less than 768px)
+@mixin development_services-mixin-max-sm() {
+  .development_services {
+
+   
+    & .fixed-shape{
+   
+    }
+    & .whyChossCard{
+  
+      &:after{
+     
+      }
+    
+      &:hover{
+        &:after{
+         
+        }
+      }
+      & .numberCard{
+        font-size: 44px;
+      }
+      & .cardIcon{
+        font-size: 30 !important;
+      }
+      & .cardHeading{
+      
+      }
+      & .cardPera{
+   
+      }
+    
+    }
+      
+    }
+}
+
+// development services section end
+
+
+
 //  benifits section
 .benifits {
   background: $white;
@@ -139,8 +837,539 @@
   }
 }
 
+
+// hospital cta section start 
+.hospitalCta {
+  background: linear-gradient(45deg, #116285, #099edd);
+  padding: 60px 12px;
+}
+// hospital cta section end 
+
+
 .Contact_us_project {
   background: #03151d;
 }
 
+// befefits section start 
+.benefits-card {
+  background: url(../../../img/hospital-management-software-new/process.webp ) no-repeat;
+  background-size: cover;
+  & .ordercard {
+      background: linear-gradient(90deg, #d79618, #e7b349);
+      padding: 20px;
+      border-radius: 15px;
+      transition: all 0.3S ease-in-out;
+      & .orderimg {
+          padding: 9px;
+          transition: all 0.3s ease-in-out;
+      }
+      &.ordercardtwo {
+          background: #f8e5bf;
+          & .orderimg {
+              & img {
+                  filter: invert(1);
+              }
+          }
+      }
+      &:hover {
+        transform: translateY(-10px);
+          & .orderimg {
+              // transform: rotate(360deg);
+          }
+      }
+  }
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin benefits-card-mixin-max-xs() {
+  .benefits-card {
 
+    & .ordercard {
+      
+        & .orderimg {
+            
+        }
+        &.ordercardtwo {
+          
+            & .orderimg {
+                & img {
+                    
+                }
+            }
+        }
+        &:hover {
+        transform: translateY(0px);
+
+          // transform: translateY(-20px);
+            & .orderimg {
+              // transform: rotate(0deg);
+                
+            }
+        }
+    }
+  }
+  
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin benefits-card-mixin-max-sm() {
+  .benefits-card {
+
+    & .ordercard {
+      
+        & .orderimg {
+            
+        }
+        &.ordercardtwo {
+          
+            & .orderimg {
+                & img {
+                    
+                }
+            }
+        }
+        &:hover {
+            & .orderimg {
+                
+            }
+        }
+    }
+  }
+}
+// befefits section end
+
+// add Ons ection  start 
+
+
+.addOnsection{
+
+  & .addOnCard{
+    transition: all 0.3s ease-in-out;
+    background-color: $theme3;
+    border-radius: 18px;
+    &:hover{
+      transform: translateY(-10px);
+      // background-color:lighten($theme2 ,10) !important;
+      &.addOnCard2{
+        // background-color: lighten($theme1, 10) !important;
+      transform: translateY(-10px);
+       
+      }
+    }
+    & .rightSection{
+      padding: 30px;
+      & .headingv2{
+        line-height: 40px;
+      }
+      & .pera2{
+        line-height: normal !important ;
+      }
+      & .iosBtn{
+        background-color: rgba(0, 0, 0, 0.356);
+        color: $white;
+        font-size: 12px;
+        padding: 6px 15px;
+        border-radius:5px;
+      }
+    }
+    & .addOnImg{
+
+      & img{
+        aspect-ratio: 3/3;
+        object-fit: contain;
+      
+      }
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin addOnsection-mixin-max-xs() {
+  .addOnsection{
+
+    & .addOnCard{
+      &:hover{
+        // margin-top: -10px !important;
+        transform: translateY(0px) !important;
+        // background-color:lighten($theme2 ,0) !important;
+        &.addOnCard2{
+        transform: translateY(0px) !important;
+          
+         
+        }
+      }
+      & .cardInner{
+        height:0% !important;
+      }
+      & .rightSection{
+   
+        & .headingv2{
+          line-height: 24px;
+        }
+        & .pera2{
+       
+        }
+        & .iosBtn{
+    
+        }
+      }
+      & .addOnImg{
+        // height: 250px;
+        & img{
+       aspect-ratio: 1/0.5;
+   
+
+        
+        }
+      }
+    }
+  }
+  
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin addOnsection-mixin-max-sm() {
+  .addOnsection{
+
+    & .addOnCard{
+  
+      & .rightSection{
+   
+        & .headingv2{
+        
+        }
+        & .pera2{
+       
+        }
+        & .iosBtn{
+    
+        }
+      }
+      & .addOnImg{
+  
+        & img{
+       
+        
+        }
+      }
+    }
+  }
+}
+
+//  add Ons ection end 
+
+
+
+// Faq section
+
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin faq_section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin faq_section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin faq_section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin faq_section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin faq_section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin faq_section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin faq_section-mixin-max-sm() {
+  .faq_section {
+    & .portfolio-bg-layer {
+      width: 210px;
+      height: 210px;
+    }
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+    .accordion-item {
+      & .accordion-header {
+        & .accordion-button {
+          padding: 12px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin faq_section-mixin-max-md() {
+  .faq_section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin faq_section-mixin-max-lg() {
+  .faq_section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin faq_section-mixin-max-xl() {
+}
+
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include achievements-mixin-min-sm();
+  @include hero-section-mixin-min-sm();
+  @include aboutHotal-mixin-min-sm();
+  @include feateureSection-mixin-min-sm();
+  @include faq_section-mixin-min-sm();
+
+
+
+
+
+
+
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include achievements-mixin-min-md();
+  @include hero-section-mixin-min-md();
+  @include aboutHotal-mixin-min-md();
+  @include feateureSection-mixin-min-md();
+  @include faq_section-mixin-min-md();
+
+
+
+
+
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include achievements-mixin-min-lg();
+  @include hero-section-mixin-min-lg();
+  @include aboutHotal-mixin-min-lg();
+  @include feateureSection-mixin-min-lg();
+  @include faq_section-mixin-min-lg();
+
+
+
+
+  
+
+
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include achievements-mixin-min-xl();
+  @include hero-section-mixin-min-xl();
+  @include aboutHotal-mixin-min-xl();
+  @include feateureSection-mixin-min-xl();
+  @include faq_section-mixin-min-xl();
+
+
+
+
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include achievements-mixin-min-xxl();
+  @include hero-section-mixin-min-xxl();
+  @include aboutHotal-mixin-min-xxl();
+  @include feateureSection-mixin-min-xxl();
+  @include faq_section-mixin-min-xxl();
+
+
+
+
+
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include achievements-mixin-max-xl();
+  @include hero-section-mixin-max-xl();
+  @include aboutHotal-mixin-max-xl();
+  @include feateureSection-mixin-max-xl();
+  @include faq_section-mixin-max-xl();
+
+
+
+
+
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include achievements-mixin-max-lg();
+  @include hero-section-mixin-max-lg();
+  @include aboutHotal-mixin-max-lg();
+  @include feateureSection-mixin-max-lg();
+  @include faq_section-mixin-max-lg();
+
+
+
+
+
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include achievements-mixin-max-md();
+  @include hero-section-mixin-max-md();
+  @include aboutHotal-mixin-max-md();
+  @include feateureSection-mixin-max-md();
+  @include faq_section-mixin-max-md();
+
+
+
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include achievements-mixin-max-sm();
+  @include development_services-mixin-max-sm();
+  @include hero-section-mixin-max-sm();
+  @include aboutHotal-mixin-max-sm();
+  @include feateureSection-mixin-max-sm();
+  @include benefits-card-mixin-max-sm();
+  @include addOnsection-mixin-max-sm();
+  @include faq_section-mixin-max-sm();
+
+
+
+
+
+
+
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include achievements-mixin-max-xs();
+  @include development_services-mixin-max-xs();
+  @include hero-section-mixin-max-xs();
+  @include aboutHotal-mixin-max-xs();
+  @include feateureSection-mixin-max-xs();
+  @include benefits-card-mixin-max-xs();
+  @include addOnsection-mixin-max-xs();
+  @include faq_section-mixin-max-xs();
+
+
+
+
+
+
+
+
+
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
