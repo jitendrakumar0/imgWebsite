@@ -288,3 +288,7 @@ Route::get('/native-app-development', function () {
 Route::get('/cross-platform-app-development', function () {
     return view('cross-platform-app-development.index');
 });
+
+Route::get('/school-management-software-new', function () {
+    return view('school-management-software-new.index');
+});
