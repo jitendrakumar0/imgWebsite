@@ -194,7 +194,7 @@
          </div>
       </div>
    </div>
-   <!-- benifits section -->
+   <!-- benifits section start -->
    <div class="container-fluid benifits py-md-5 py-4">
       <div class="container py-4 zi-2 position-relative">
          <div class="row mx-0 pb-5">
@@ -332,6 +332,8 @@
          </div>
       </div>
    </div>
+   <!-- benifits section end -->
+
 
       {{-- blog section start  --}}
       <div class="container-fluid blog-section position-relative overflow-hidden">
