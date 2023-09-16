@@ -92,7 +92,7 @@
                </div>
                <div class="col-lg-6 order-lg-2 order-1">
                    <div class="portfolio-img bottomxx">
-                     <img src="{{GETFOLDERPATH()}}/heroSection.png" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/heroSection.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                     <img src="{{GETFOLDERPATH()}}/heroSection.png" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/heroSection.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
 
                        {{-- <img src="assets/img/features.svg" alt="portfolio" class="h-100 w-100 "> --}}
                    </div>
@@ -133,14 +133,14 @@
         </div>
          <div class="row">
            <div class="col-12">
-             <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae, <b>Hospital Management Software</b> eaque asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
+             <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae, <b>School Management Software</b> eaque asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
              <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae,  eaque asperiores fuga perspiciatis eius sapien asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
            </div>
          </div>
        </div>
        <div class="col-md-5 order-md-2 order-1">
           <div class="imgAbout">
-             <img src="{{GETFOLDERPATH()}}/abouthotal.jpg" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/abouthotal.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+             <img src="{{GETFOLDERPATH()}}/abouthotal.jpg" class="lazy-image w-100 h-100" data-src="{{GETFOLDERPATH()}}/abouthotal.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
          </div>
        </div>
        <div class="col-12 order-3">
@@ -428,79 +428,135 @@
          </div>
      </div>
      <!-- why hire section end  -->
-
-       {{-- faq section start  --}}
-       <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-lg-5 py-md-4 py-3"> 
-         <div class="container position-relative zi-2">
-            <div class="row mx-0 pb-lg-5">
-              <h3 class="d-none invisible">Frequently Asked Questions</h3>
-               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Frequently Asked <b> Questions </b></span></div>
-            </div>
-            <div class="row d-flex align-items-center justify-content-center">
-             <div class="col-lg-10 col-md-10 col-12">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="accordion" id="accordionExample">
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingOne">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                           How can a MERN Stack development team or individual developer be hired?
-   
-                           </button>
-                        </div>
-                        <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           List all the duties you want the developer to carry out for you at the outset. Finalize the contract with the sales team using the developer and technology of your choice. We'll arrange everything up and connect you with the developer as soon as you confirm your appointment. 
-                           </div>
-                        </div>
-                     </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingTwo">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                           Can I employ a MERN Stack developer for project or hourly work?
-                           </button>
-                        </div>
-                        <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           You can employ our experts for hourly or project-based work. We have a team of seasoned specialists who can collaborate with you to design the best applications for your organization; we are adaptable and will adjust to your needs. 
-                           </div>
-                        </div>
-                     </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingThree">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           What is the actual cost to onboard a MERN Stack developer?
-                           </button>
-                        </div>
-                        <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           The platform, the kind of app, the complexity of the design, the number of pages in the design, the features and functionality required, and the kind of maintenance necessary are just a few of the factors that influence MERN Stack developer costs. Android developers can be hired on an hourly or set price basis. 
-                           </div>
-                        </div>
-                     </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingfour">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                           Once the application is deployed will you provide maintenance and support?
-                           </button>
-                        </div>
-                        <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                              <div class="col-12">
-                              Yes, we do offer support and maintenance services following the successful conclusion of the MERN full stack project. For the improvements of your MERN product, us after services include bug patches, framework upgrades, ongoing monitoring, and technical problem solving. 
+       <!-- benifits section start -->
+   <div class="container-fluid benifits py-md-5 py-4">
+      <div class="container py-4 zi-2 position-relative">
+         <div class="row mx-0 pb-5">
+            <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Key<b> Modules </b></span></div>
+         </div>
+         <div class="row h-100">
+            <div class="col-md-6">
+               <div class="row gap-4">
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-bus fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
                               </div>
                            </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">TRANSPORT MANAGEMENT</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">A transportation management system (TMS) is a subset of supply chain management (SCM).</div>
+                           </div>
                         </div>
                      </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingFive">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                           For my project, do you offer NDA and IP protection?
-                           </button>
+                  </div>
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-regular img-money-bill text-success fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">FEES MANAGEMENT</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">Fees management system is easy to use and implement as you do not need to install a new program or software.</div>
+                           </div>
                         </div>
-                        <div id="collapseFive" class="position-relative accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           Our team is confident about completing the project on time and as per the expectations set. We make sure to cover copyright, source code, property rights, letter, memoranda of understanding and NDA’s to gain the trust. 
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-book text-danger fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">LIBRARY MANAGEMENT</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">Library management is a sub-discipline of institutional management that focuses on specific issues faced by libraries.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-check-square text-info fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">ATTENDANCE MANAGEMENT</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">Attendance management is the act of managing attendance or presence in a work setting to minimize loss due to employee time theft.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="row gap-4 mt-md-5 mt-4">
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-phone text-dark fs-lg-40 fs-md-32 fs-sm-30 fs-27 icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">COMMUNICATION</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">State of the Art Communications System so that parents stay up to date with ease of access for administrators.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-calendar calender fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">CALENDAR</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">Events and Dates management made easier. With our drag - drop calendar module, managing events and dates is no more tedious.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-list fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">DATA MANAGEMENT</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">Say GoodBye to the pain of searching through and maintaining paper bundles.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="benefit-card h-100 position-relative bg-light rounded-2 shadow-sm">
+                        <div class="row">
+                           <div class="col-auto">
+                              <div class="benefit-icon bg-white rounded-circle d-flex align-item-center justify-content-center">
+                                 <i class="imgl fa-solid img-mobile text-dark fs-lg-40 fs-md-32 fs-sm-30 fs-27 textprimary icons align-self-center"></i>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="benefits-name fs-lg-18 fs-16 fw-600">MOBILE APPS</div>
+                              <div class="benefits-data fs-md-16 fs-sm-15 fs-14 text-muted fw-normal">On a vacation? Not in School? Not a problem, avail all the Moblie App features via our android application.</div>
                            </div>
                         </div>
                      </div>
@@ -508,11 +564,11 @@
                </div>
             </div>
          </div>
-      </div> 
       </div>
-      </div> 
-        
-        {{-- faq section end  --}}
+   </div>
+   <!-- benifits section end -->
+
+ 
 
    <!-- our achievements section -->
    <div class="container-fluid achievements position-relative overflow-hidden py-lg-5 py-md-4 py-3">
@@ -596,7 +652,6 @@
       <div class="fixed-shape">
          <img src="{{GETFOLDERPATH()}}/whychoosus.png" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/whychoosus.png"alt="Hospital Management Software Development Services" >   
 
-         
      </div>
       <div class="container py-4 position-relative zi-2">
          <div class="row mx-0 pb-5">
@@ -934,6 +989,271 @@
                   </div>
                   <!-- add on hotal mangement end-->
 
+      {{-- faq section start  --}}
+      <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-lg-5 py-md-4 py-3"> 
+         <div class="container position-relative zi-2">
+            <div class="row mx-0 pb-5">
+              <h3 class="d-none invisible">Frequently Asked Questions</h3>
+               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Frequently Asked <b> Questions </b></span></div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center">
+             <div class="col-lg-10 col-md-10 col-12">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="accordion" id="accordionExample">
+                     <div class="accordion-item mb-4 position-relative zi-2">
+                        <div class="accordion-header" id="headingOne">
+                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                           How can a MERN Stack development team or individual developer be hired?
+   
+                           </button>
+                        </div>
+                        <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                           List all the duties you want the developer to carry out for you at the outset. Finalize the contract with the sales team using the developer and technology of your choice. We'll arrange everything up and connect you with the developer as soon as you confirm your appointment. 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item mb-4 position-relative zi-2">
+                        <div class="accordion-header" id="headingTwo">
+                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Can I employ a MERN Stack developer for project or hourly work?
+                           </button>
+                        </div>
+                        <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                           You can employ our experts for hourly or project-based work. We have a team of seasoned specialists who can collaborate with you to design the best applications for your organization; we are adaptable and will adjust to your needs. 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item mb-4 position-relative zi-2">
+                        <div class="accordion-header" id="headingThree">
+                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           What is the actual cost to onboard a MERN Stack developer?
+                           </button>
+                        </div>
+                        <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                           The platform, the kind of app, the complexity of the design, the number of pages in the design, the features and functionality required, and the kind of maintenance necessary are just a few of the factors that influence MERN Stack developer costs. Android developers can be hired on an hourly or set price basis. 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item mb-4 position-relative zi-2">
+                        <div class="accordion-header" id="headingfour">
+                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                           Once the application is deployed will you provide maintenance and support?
+                           </button>
+                        </div>
+                        <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              <div class="col-12">
+                              Yes, we do offer support and maintenance services following the successful conclusion of the MERN full stack project. For the improvements of your MERN product, us after services include bug patches, framework upgrades, ongoing monitoring, and technical problem solving. 
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item mb-4 position-relative zi-2">
+                        <div class="accordion-header" id="headingFive">
+                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                           For my project, do you offer NDA and IP protection?
+                           </button>
+                        </div>
+                        <div id="collapseFive" class="position-relative accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                           Our team is confident about completing the project on time and as per the expectations set. We make sure to cover copyright, source code, property rights, letter, memoranda of understanding and NDA’s to gain the trust. 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> 
+      </div>
+      </div> 
+        {{-- faq section end  --}}
+
+       {{-- blog section start  --}}
+    <!-- latest blog section -->
+         <!-- latest blog section -->
+         <div class="container-fluid blog-section position-relative overflow-hidden">
+            <div class="container position-relative zi-1 py-lg-5 py-md-4  py-3">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="row align-items-center justify-content-center">
+                           <div class="col-xl-8 col-lg-8 col-md-8 headingv2 fs-md-14 fs-12 text-center mb-sm-0 mb-3">
+                                <span class="fs-xl-26 fs-lg-24 fs-md-21 fs-20"> 
+                                 <span class="fs-xl-32 fs-lg-32 fs-md-23 fs-22 text-theme3 d-block">Our Sneak Peak into the Tech-World!</span>
+                                     Get Exciting Updates About Latest Technologies, Development Tips, & Trending Solutions Via Our Blogs </span></div>
+                          </div>
+                       </div>
+    
+                    <div class="col-12 h-100">
+                        <div class="row align-items-start">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 h-100 px-0 pt-2">
+                                        <div class="row align-items-start mt-md-3 mt-2">
+                                                <div class="col-12">
+                                                    <div class="row d-flex blog_slider-main owl-carousel">
+    
+                                                    <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide">
+                                                                    <img src="{{asset('/public')}}/assets/img/blog-section/blogimageA-Comprehensive-Guide-to-Developing-Multi-Sport-Fantasy-Apps.webp" class="img-fluid" alt="A Comprehensive Guide To Developing Multi-Sport Fantasy Apps" width="302" height="170">
+                                                                </a>  
+                                                                </div>
+                                                              <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide" class = "text-decoration-none">
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">A Comprehensive Guide To Developing Multi-Sport Fantasy Apps</div>
+                                                               </a>
+                                                                  <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                     Developing a multi-sport fantasy app is a complex process, but it can be rewarding. In this guide, we will discuss the key steps in developing a successful multi-sport fantasy app, as the fantasy app development company suggested.
+                                                                  </div>
+                                                                <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <a href="https://www.imgglobalinfotech.com/blog/multi-sports-fantasy-app-development-guide" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                            <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                            <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                        </a>
+                                                                        <span class="text-theme1 fw-m">Sep 04, 2023</span>
+                                                                </div>
+                                                            </div> 
+                                                         </div>
+    
+                                                    <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development">
+                                                                    <img src="{{asset('/public')}}/assets/img/blog-section/blogimageThe-Ultimate-Guide-to-Fantasy-Cricket-App-Development.webp" class="img-fluid" alt="The Ultimate Guide To Fantasy Cricket App Development" width="302" height="170">
+                                                                </a>  
+                                                                </div>
+                                                              <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development" class = "text-decoration-none">
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">The Ultimate Guide To Fantasy Cricket App Development</div>
+                                                               </a>
+                                                                  <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                      How to develop a fantasy cricket app? This guide can be your savior. So, let’s dive into the step-by-step process of fantasy cricket app development without further delay.
+                                                                  </div>
+                                                                <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <a href="https://www.imgglobalinfotech.com/blog/the-ultimate-guide-to-fantasy-cricket-app-development" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                            <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                            <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                        </a>
+                                                                        <span class="text-theme1 fw-m">Aug 25, 2023</span>
+                                                                </div>
+                                                            </div> 
+                                                         </div>
+    
+    
+                                                        <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                    <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website">
+                                                                     <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-to-Create-a-Fantasy-Sports-Website-6-Easy-Steps.jpg" class="img-fluid" alt="How To Create A Fantasy Sports Website - 6 Easy Steps" width="302" height="170">
+                                                                    </a>
+                                                                </div>
+                                                                <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website" class="text-decoration-none">
+                                                                 <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark  fw-m pt-3 lineclamp2">How To Create A Fantasy Sports Website - 6 Easy Steps</div>
+                                                                </a>
+                                                                  <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                     In this blog, the professionals of a fantasy cricket website development company in India will unveil the secrets to creating a fantasy sports website.
+                                                                  </div>
+                                                                <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <a href="https://www.imgglobalinfotech.com/blog/how-to-create-a-fantasy-sports-website" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                            <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                            <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                        </a>
+                                                                        <span class="text-theme1 fw-m">Aug 18, 2023</span>
+                                                                </div>
+                                                            
+                                                            </div>
+                                                         </div>
+                                                         <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india">
+                                                                    <img src="{{asset('/public')}}/assets/img/blog-section/blogimageList-Of-Top-10-Best-Fantasy-Cricket-Apps-in-India-2023.jpg" class="img-fluid" alt="List Of Top 10 Best Fantasy Cricket Apps In India 2023" width="302" height="170">
+                                                                </a>  
+                                                                </div>
+                                                              <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india" class = "text-decoration-none">
+                                                                <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">List Of Top 10 Best Fantasy Cricket Apps In India 2023</div>
+                                                               </a>
+                                                                  <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                  The top fantasy cricket app list includes Dream11, MyTeam11, ESPN, MyCircle11, and MPL. Each fantasy app has unique features, user experience, and contest offerings.
+                                                                  </div>
+                                                                <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <a href="https://www.imgglobalinfotech.com/blog/fantasy-cricket-apps-in-india" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                            <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                            <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                        </a>
+                                                                        <span class="text-theme1 fw-m">Aug 10, 2023</span>
+                                                                </div>
+                                                            </div> 
+                                                         </div>
+                                                         <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India">
+                                                                    <img src="{{asset('/public')}}/assets/img/blog-section/blogimageTop-Fantasy-Sports-App-Development-Companies-in-India.jpg" class="img-fluid" alt="Top Fantasy Sports App Development Companies In India [2023]" width="302" height="170">
+                                                                </a>
+                                        
+                                                                </div>
+                                                                <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India" class="text-decoration-none">
+                                                                 <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">Top Fantasy Sports App Development Companies In India [2023]</div>
+                                                               </a>
+                                                                  <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                    This comprehensive guide highlights the list of the top fantasy sports app development companies in India, providing cutting-edge solutions for immersive sports gaming experiences.
+                                                                  </div>
+                                                                <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <a href="https://www.imgglobalinfotech.com/blog/fantasy-sports-app-development-companies-in-India" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                            <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                            <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                        </a>
+                                                                        <span class="text-theme1 fw-m">Jul 13, 2023</span>
+                                                                </div>
+                                                            </div>
+                                                         </div>
+    
+                                                         <div class="col-lg-12 col-md-12 col-12 text-dark text-decoration-none my-md-3 my-2 blog-items">
+                                                            <div class="row mx-1 py-3 bg-white">
+                                                                <div class="col-12 position-relative overflow-hidden blog-img-hvr">
+                                                                <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup">
+                                                                    <img src="{{asset('/public')}}/assets/img/blog-section/blogimageHow-To-Develop-Fantasy-Cricket-App-for-Asia-Cup-2023-A-Complete-Guide.jpg" class="img-fluid" alt="How To Develop Fantasy Cricket App For Asia Cup 2023 - [A Complete Guide]" width="302" height="170">
+                                                                </a>
+                                        
+                                                                </div>
+                                                                <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup" class="text-decoration-none">
+                                                                 <div class="col-12 fs-lg-20 fs-md-18 fs-sm-16 fs-16 text-dark fw-m pt-3 lineclamp2">How To Develop Fantasy Cricket App For Asia Cup 2023 - [A Complete Guide]</div>
+                                                               </a>
+                                                                  <div class="col-12 fs-16 text-muted py-1 lineclamp3">
+                                                                     Fantasy app development for cricket requires a significant investment of time and resources. It is essential to have a comprehensive understanding of the entire development process to achieve the desired outcome. Check this blog to know how to develop a fantasy cricket app for Asia cup 2023
+                                                                  </div>
+                                                                <div class="col-12 pb-2 d-flex align-items-center justify-content-between">
+                                                                        <a href="https://www.imgglobalinfotech.com/blog/how-to-develop-fantasy-cricket-app-for-asia-cup" class="fw-m text-decoration-none text-capitalize text-dark fs-lg-17 fs-16">
+                                                                            <span class="d-block fw-m"><span class="d-flex">Learn more
+                                                                            <img src="{{asset('/public')}}/assets/img/hero-section/arrow-btn.svg" class="w-20 pt-0 ms-2 arrow" alt=""></span></span>
+                                                                        </a>
+                                                                        <span class="text-theme1 fw-m">Jul 06, 2023</span>
+                                                                </div>
+                                                            </div>
+                                                         </div>
+                                                       </div>
+                                                     </div>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>    
+    
+                                <div class="col-12 text-center align-items-center pb-xl-5 pb-lg-5 pb-md-0 pb-sm-0 pb-sm-0">
+                                    <a href="{{asset('/blog')}}" class="btn  btn-button1 text-capitalize text-white fs-xl-18 fs-lg-18 fs-md-19 fs-15 py-lg-1 py-0 my-3 px-lg-5 py-2 px-3 ms-md-2">
+                                    <span class="d-flex align-items-center"><span>View all Blog  </span><i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                                </a>
+                              </div>
+                            </div>
+                         </div>
+                   
 @endsection
 @push('scripts')
 {{-- <script src="{{asset('/public')}}/assets/plugins/owl/owl.carousel.min.js"></script> --}}
