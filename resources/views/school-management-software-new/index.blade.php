@@ -82,7 +82,7 @@
                                    </div>
                                </div>
                            </div>
-                           <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga doloribus delectus quisquam, eaque Fuga doloribus delectus quisquam, eaque Fuga doloribus delectus quisquam, eaque pariatur distinctio recusandae aliquam cupiditate error non.</div>
+                           <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ullam non provident voluptas nesciunt! Eligendi illo, magni aspernatur iure commodi eveniet corporis obcaecati exercitationem recusandae unde ullam quo repudiandae aliquid ad accusantium ipsam dolorem. Id.</div>
 
                            {{-- <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Today healthcare application development company is growing rapidly due to which various public and private sector businesses are investing as well as participating in it at large scale. This significant growth enabled hospitals to use latest technologies like software in their health care centre to give better health care services to patients. As Enterprise Resource Planning is offering ultimate solutions to many sectors, hence healthcare industry is no exception.</div> --}}
                            <div class="col-auto mx-lg-0 mx-auto mt-lg-0 mt-3">
@@ -125,32 +125,515 @@
 
  <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
    <div class="container">
-     <div class="row align-items-center">
-       <div class="col-md-7 order-md-1 order-2">
+     <div class="row align-items-center gap-lg-0 gap-3">
+       <div class="col-lg-6 order-lg-1 order-2">
          <div class="row mx-0 pb-lg-4 pb-3">
            <h2 class="d-none invisible"> School Management Software</h2>
-           <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  School Management  <b> Software </b></span></div>
+           <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  School Management  <b> Software Development</b></span></div>
         </div>
          <div class="row">
            <div class="col-12">
-             <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae, <b>School Management Software</b> eaque asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
-             <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, debitis? Facere vitae,  eaque asperiores fuga perspiciatis eius sapien asperiores fuga perspiciatis eius sapiente perferendis obcaecati.</div>
+             <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur culpa porro quos minus nostrum debitis vero fugit atque laborum! <b>School Management Software</b> Officia nisi natus blanditiis velit! Numquam tempore omnis quae tenetur atque officia, voluptate doloremque temporibus sint repudiandae vero, provident tempora soluta. Explicabo consectetur omnis accusamus minus nobis et, quae ad deleniti? Quasi repellendus nisi sapiente eius molestiae aspernatur tempore explicabo rem!</div>
            </div>
          </div>
        </div>
-       <div class="col-md-5 order-md-2 order-1">
-          <div class="imgAbout">
-             <img src="{{GETFOLDERPATH()}}/abouthotal.jpg" class="lazy-image w-100 h-100" data-src="{{GETFOLDERPATH()}}/abouthotal.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+       <div class="col-lg-6 order-lg-2 order-1">
+          <div class="imgAbout rounded-3 overflow-hidden">
+             <img src="{{GETFOLDERPATH()}}/school.jpg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/school.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
          </div>
-       </div>
-       <div class="col-12 order-3">
-         <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, optio eius minima perferendis ex, voluptas quia praesentium similique aliquam sed reiciendis nisi beatae vel ratione illo porro ad fugit. Adipisci et ea explicabo provident! Quisquam consequuntur consectetur alias officia eligendi amet numquam adipisci et distinctio beatae omnis, earum deserunt, magni, laboriosam inventore accusantium impedit facere? Dignissimos blanditiis quod, maxime explicabo exercitationem expedita reprehenderit fugiat dolores ipsa neque aperiam consequuntur?</div>
        </div>
        </div>
      </div>
 </div>
 <!-- about hotal mangement -->
 
+
+   <!-- development proccess section  start -->
+   <div class="container-fluid app-features-section">
+      <div class="image-layer"></div>
+       <div class="container py-lg-5 py-md-3 py-4 zi-2 position-relative">
+          <div class="col-12 mx-0 pb-md-4 pb-2 pb-lg-4 pb-md-4">
+             <h3 class="d-none invisible">On-demand Grocery App Features</h3>
+             <div class="col-12 heading fs-md-14 fs-20 center text-black"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> School Management App Development:  <b> The Pivotal Feature </b></span></div>
+             <div class="cpl-12 col-md-10 fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-center mt-3 px-0 mx-auto">
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eos id quam sint aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+             </div>
+          </div>
+             <div class="row d-flex align-items-center ">
+                 <div class=" col-12 useradmin pt-0 pt-lg-0 pt-md-0 mb-lg-4 d-flex justify-content-center mx-auto p-0">  
+                      <ul class="nav nav-tabs border-0 flex-nowrap overflow-auto text-nowrap">
+                            <li class="nav-item">
+                               <a class="nav-link rounded-3 active btn text-black fs-lg-19 fs-md-19 fs-13 fw-l my-3 py-2 px-sm-4 px-3 shadow-none" data-bs-toggle="tab" href="#home"> Student Panel</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link rounded-3 btn text-black fs-lg-19 fs-md-19 fs-13  fw-l my-3 py-2 px-sm-4 px-3 shadow-none" data-bs-toggle="tab" href="#menu1">Teachers Panel</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link rounded-3 btn text-black fs-lg-19 fs-md-19 fs-13  fw-l my-3 py-2 px-sm-4 px-3 shadow-none" data-bs-toggle="tab" href="#menu2">School Admin Panel</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link rounded-3 btn text-black fs-lg-19 fs-md-19 fs-13  fw-l my-3 py-2 px-sm-4 px-3 shadow-none" data-bs-toggle="tab" href="#menu3"> Admin Panel</a>
+                           </li>
+                      </ul>
+                 </div>
+                 <div class="col-lg-12 col-md-12 col-12">
+                      <div class="tab-content">
+                         <div class="tab-pane container active p-0" id="home">
+                            <div class="row mt-lg-0 mt-md-0 mt-3">
+                                  <div class="col-lg-4 col-md-6  mb-3">             
+                                    <div class="w-100 feature-block-one h-100 position-relative">
+                                        <div class="col-12 inner-boxp-3 pe-2">
+                                           <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admin Deshboard</div>
+                                        </div>
+                                        <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                          Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-4 col-md-6  mb-3">             
+                                    <div class="w-100 feature-block-one h-100 position-relative">
+                                        <div class="col-12 inner-boxp-3 pe-2">
+                                           <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Student's & Guardin Details</div>
+                                        </div>
+                                        <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                          Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-4 col-md-6  mb-3">             
+                                    <div class="w-100 feature-block-one h-100 position-relative">
+                                        <div class="col-12 inner-boxp-3 pe-2">
+                                           <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Fee Collection</div>
+                                        </div>
+                                        <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                          Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-4 col-md-6  mb-3">             
+                                    <div class="w-100 feature-block-one h-100 position-relative">
+                                        <div class="col-12 inner-boxp-3 pe-2">
+                                           <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Account Management</div>
+                                        </div>
+                                        <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                          Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-4 col-md-6  mb-3">             
+                                    <div class="w-100 feature-block-one h-100 position-relative">
+                                        <div class="col-12 inner-boxp-3 pe-2">
+                                           <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admission Procedure</div>
+                                        </div>
+                                        <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                          Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                        </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-4 col-md-6  mb-3">             
+                                    <div class="w-100 feature-block-one h-100 position-relative">
+                                        <div class="col-12 inner-boxp-3 pe-2">
+                                           <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Employee Details</div>
+                                        </div>
+                                        <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                          Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                         </div>
+                      <div class="tab-pane container fade p-0" id="menu1">
+                        <div class="row mt-lg-0 mt-md-0 mt-3">
+                           <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admin Deshboard</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Student's & Guardin Details</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Fee Collection</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Account Management</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admission Procedure</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Employee Details</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                         </div>
+                        </div>
+                      <div class="tab-pane container fade p-0" id="menu2">
+                        <div class="row mt-lg-0 mt-md-0 mt-3">
+                           <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admin Deshboard</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Student's & Guardin Details</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Fee Collection</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Account Management</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admission Procedure</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Employee Details</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane container fade p-0" id="menu3">
+                        <div class="row mt-lg-0 mt-md-0 mt-3">
+                           <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admin Deshboard</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Student's & Guardin Details</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Fee Collection</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Account Management</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Admission Procedure</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6  mb-3">             
+                             <div class="w-100 feature-block-one h-100 position-relative">
+                                 <div class="col-12 inner-boxp-3 pe-2">
+                                    <div class="col-12 text-dark fw-m fs-xl-18 fs-lg-16 fs-13  text-start mt-3">Employee Details</div>
+                                 </div>
+                                 <div class="col-12  fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-start  mt-3 px-0 ">
+                                   Lorem ipsum, dolor  aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+                                 </div>
+                             </div>
+                          </div>
+                        </div>
+                     </div>
+                     </div>
+                </div>
+          </div>
+      </div>
+   </div>
+   <!-- development proccess section  end -->
+
+   {{-- module school section start  --}}
+
+   <div class="container-fluid moduleSection  py-lg-5 py-md-4 py-3">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 mx-0 pb-md-4 pb-2 pb-lg-4 pb-md-4">
+               <h3 class="d-none invisible">On-demand Grocery App Features</h3>
+               <div class="col-12 heading fs-md-14 fs-20 center text-black"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Module of School Mangement  <b> System Software </b></span></div>
+            </div>
+            <div class="col-12">
+               <div class="col-12">
+                  <div class="row g-3">
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel1.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel1.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">School Administrative</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel12.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel2.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Fee Collection</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel13.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel3.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Account Management</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel14.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel4.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Student's Details</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel14.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel4.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Employee Details</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel13.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel3.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Time Table Design</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel12.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel2.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Parents Portal</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="whyChossCard border-0 shadow-none h-100">
+                           <div class="row h-100 gap-4">
+                              <div class="col-12">
+                                 <div class="cardImg mx-auto">
+                                    <img src="{{GETFOLDERPATH()}}/moudel1.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/moudel1.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col-12 ">
+                                 <div class="cardHeading text-center">Certification Management</div>
+                                 <div class="cardPera text-center mt-2">Our ERP help administrators of schools to increase their required to manage academic institutes.</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   {{-- module school section end  --}}
+
+   
+      <!-- cta section start  -->
+      <div class="container-fluid py-lg-5 py-md-4 py-3 ctaSection  hospitalCta">
+         <div class="container">
+             <div class="row">
+                 <h3 class="col-12 d-none invisible"></h3>
+                 <div class="col-12 fs-xl-32 fs-lg-32 text-sm-start text-center fs-md-23 fs-22 fw-m text-white mb-1 textcenter">
+                  Looking for an education software to manage solution to manage <br> all your education operation
+                 </div>
+                 <div class="col-12 text-sm-start text-center fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 fw-l text-white mb-4">
+                  Team up with us for school management system developemnt
+                 </div>
+                 <div class="col-12 text-sm-start text-center">
+                     <a href="https://www.imgglobalinfotech.com/request-a-quote.php" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  btn-button1 fs-xl-18 fs-lg-18 fs-md-19 fs-15 text-white  py-xxl-2 py-1 px-4">
+                         <span class="d-flex align-items-center"><span>Contact Us Now</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                     </a>
+                 </div>
+             </div>
+         </div>
+         </div>
+      <!-- cta section end  -->
+
+
+   <div class="container-fluid py-lg-5 py-md-4 py-3 benefitsCardSection">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 mx-0 pb-md-4 pb-2 pb-lg-4 pb-md-4">
+               <h3 class="d-none invisible">On-demand Grocery App Features</h3>
+               <div class="col-12 heading fs-md-14 fs-20 center text-black"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Benefits Of Our  School  <b> Mangement Software </b></span></div>
+               <div class="cpl-12 col-md-10 fw-l fs-md-16 fs-sm-15 fs-14 text-dark text-center mt-3 px-0 mx-auto">
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eos id quam sint aut illo repellendus porro soluta laborum tempore impedit, ut exercitationem dolorem, deserunt obcaecati reprehenderit, vitae praesentium labore.
+               </div>
+            </div>
+            <div class="col-12">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class=" benefitCard">
+                        <div class="benefitCardInner">
+                           <div class="cardImg  hoverHide">
+                              <img src="{{GETFOLDERPATH()}}/shape1.webp" class="lazy-image w-100 rounded-3" data-src="{{GETFOLDERPATH()}}/shape1.webp"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>              
+                 
+                 
+                 
    <!-- Feature hotal mangement -->
    <div class="container-fluid feateureSection py-md-5 py-3 bg-light ">
       <div class="container">
@@ -651,7 +1134,6 @@
    <div class="container-fluid development_services py-lg-5-5 py-md-4 py-3 position-relative">
       <div class="fixed-shape">
          <img src="{{GETFOLDERPATH()}}/whychoosus.png" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/whychoosus.png"alt="Hospital Management Software Development Services" >   
-
      </div>
       <div class="container py-4 position-relative zi-2">
          <div class="row mx-0 pb-5">
@@ -756,27 +1238,6 @@
    </div>
  
 
-      <!-- cta section start  -->
-      <div class="container-fluid mt-4 ctaSection  hospitalCta">
-         <div class="container">
-             <div class="row">
-                 <h3 class="col-12 d-none invisible">Ready to build an app for your hospital</h3>
-                 <div class="col-12 fs-xl-32 fs-lg-32 text-sm-start text-center fs-md-23 fs-22 fw-m text-white mb-1 textcenter">
-                     Ready to build an app for your hospital
-                 </div>
-                 <div class="col-12 text-sm-start text-center fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 fw-l text-white mb-4">
-                     Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one 
-                     of our executives will catch you up in no time by Call, Email or Skype.
-                 </div>
-                 <div class="col-12 text-sm-start text-center">
-                     <a href="https://www.imgglobalinfotech.com/request-a-quote.php" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  btn-button1 fs-xl-18 fs-lg-18 fs-md-19 fs-15 text-white  py-xxl-2 py-1 px-4">
-                         <span class="d-flex align-items-center"><span>Contact Us Now</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
-                     </a>
-                 </div>
-             </div>
-         </div>
-         </div>
-      <!-- cta section end  -->
 
            <!-- befefits section start  -->
             <div class="container-fluid py-lg-5 py-md-4 py-3 benefits-card">
