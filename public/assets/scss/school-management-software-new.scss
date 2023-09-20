@@ -407,21 +407,368 @@
     }
 }
 
+// X-Small devices (portrait phones, less than 576px)
+@mixin moduleSection-mixin-max-xs() {
+  .moduleSection{
+   
+      & .whyChossCard{
 
+      
+        &:after{
+          width: 100%;
+        }
+        & .cardImg{
+          height: 99px;
+          width: 91px;
+          & img{
+       
+          }
+        }
+        &:hover{
+          transform: translateY(0px);
+          &:after{
+            width: 100%;
+          }
+          & .cardImg{
+            & img{
+              transform: scale(1);
+            }
+        }
+        }
+        & .numberCard{
+
+        }
+        & .cardIcon{
+       
+        }
+        & .cardHeading{
+          font-size: 17px;
+        }
+        & .cardPera{
+          font-size: 14px;
+        }
+      
+      }
+  }
+  
+}
 
 // moudel section end 
 
 // benefitsCardSection start
 
 .benefitsCardSection{
+  & .owl-stage-outer{
+    padding: 0;
+  }
   & .benefitCard{
+ 
+    padding:40px 30px;
+    border-radius: 10px;
     position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    border: 1px solid lighten($black,90);
+    &:hover{
+      &::after{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    &:after{
+      position: absolute;
+      content: '';
+      background: url(../../../img/school-management-software-new/cardbanifitbg.png) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+
+    }
+
+    & .cardImg{
+      height: 100px;
+      width: 100px;
+      background: $primary;
+      z-index: -1;
+      border-radius: 48% 52% 41% 59% / 52% 49% 51% 48%;
+      padding: 20px;
+      & img{
+        filter: invert(1);
+      }
+
+    }
+    & .cardHeading{
+      
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin benefitsCardSection-mixin-max-xs() {
+  .benefitsCardSection{
+    & .owl-stage-outer{
+    
+    }
+    & .benefitCard{
+   
+
+      &:hover{
+        &::after{
+    
+        }
+      }
+      &:after{
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+  
+      & .cardImg{
+        width: 75px;
+        height: 75px;
+        padding: 15px;
+        & img{
+       
+        }
+  
+      }
+      & .cardHeading{
+        
+      }
+    }
+  }
+  
+}
+
+// benefitsCardSection end 
+
+// testimonialSection start 
+
+
+.testimonialSection{
+  background: url(../../../img/school-management-software-new/testimonalbg2.jpg) no-repeat;
+  background-size: cover;
+  & .owl-stage-outer{
+    padding: 0;
+  }
+  & .testimonalsCard{
+    padding: 40px;
+    position: relative;
+    &:after{
+      position: absolute;
+      content: '';
+      background-image: url(../../../img/school-management-software-new/Quote.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100px;
+      height: 100px;
+      right: 20px;
+      top: 20px;
+
+    }
+    & .starIcon{
+      width: 20px;
+      height: 20px;
+    }
+    & .userImg{
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 50%;
+      border: 3px solid $theme1;
+    }
+    
   }
 }
 
 
-// benefitsCardSection end 
+// X-Small devices (portrait phones, less than 576px)
+@mixin testimonialSection-mixin-max-xs() {
+  .testimonialSection{
 
+    & .owl-stage-outer{
+  
+    }
+    & .testimonalsCard{
+
+      &:after{
+  
+  
+      }
+      & .starIcon{
+
+      }
+      & .userImg{
+        width: 60px;
+        height: 60px;
+        border: 2px solid $theme1;
+      }
+    }
+  }
+  
+}
+
+// testimonialSection end 
+
+  //  card section 
+
+  // what-we-do section
+  .what-we-box-img img {
+    height: 380px;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+    transition: 0.5s all;
+    filter: grayscale(1);
+  }
+  .what-we-do-box {
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.5s all;
+    border-bottom: 12px solid;
+    height: 100%;
+  }
+  .what-we-content {
+    padding: 22px 19px 28px;
+    border-radius: 0 0 30px 30px;
+    transition: 0.8s all;
+    height: 100%;
+  }
+  .what-we-do-box:hover img {
+    filter: grayscale(0);
+  }
+
+
+  // cta sectiion start 
+  .hire-developers-section {
+    // background: #f4f4f6;
+        background: #03151d !important;
+    & .supoort{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        // background: hsla(0deg,0%,100%,0.46);
+        background: rgb(244 244 244);
+        position: relative;
+        -webkit-filter: drop-shadow(0 3px 36px rgba(0,0,0,0.16));
+        filter: drop-shadow(0 3px 36px rgba(0,0,0,0.16));
+    }
+    & img{
+        animation: supoort 3s ease-in infinite alternate-reverse both;
+    }
+    @-webkit-keyframes supoort {
+        0% {
+          transform: translateY(5px);
+        }
+        100% {
+          transform: translateY(-5px);
+        }
+      }
+    
+      @keyframes supoort {
+        0% {
+          transform: translateY(5px);
+        }
+        100% {
+          transform: translateY(-5px);
+        }
+      }
+}
+.expert-btn{
+  padding: 6px 9px !important;
+  cursor: pointer;
+  transition: all ease .4s;
+  border-radius: 4px !important;
+  background: #e09c19 !important;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  &:hover{
+    background: #0f7caa !important;
+    color: #fff;
+  }
+}
+
+  // cta section end 
+
+// gallery section
+.industries-sec{
+  & .col{
+    padding: 5px;
+    & a{
+      transition: .3s ease-in-out;
+      display: block;
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+     &:hover:after {
+        height: 100%;
+        background: linear-gradient(0deg,#0e2dff 0,rgba(0,0,0,0) 100%);
+        }
+        &:hover figcaption{
+          height: 100%;
+        }
+      &:after{
+          transition: .3s ease-in-out;
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background: linear-gradient(0deg,#000 0,rgba(255,255,255,0) 100%);
+          height: 130px;
+          opacity: .7;
+         
+      }
+        & figure {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          top: 0;
+          height: 100%;
+          & img{
+            transition: .3s ease-in-out;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+
+            &:hover{
+              transform: scale(1.1)
+            }
+      
+          }
+      }
+   
+    & figcaption {
+      transition: .3s ease-in-out;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+      
+  }
+  }
+   }
+} 
+// gallery section end 
 
 
 
@@ -649,205 +996,6 @@
 
 
 
-// our achievements section
-// .achievements section start 
-.achievements {
-& .appSlider{
-  position: relative;
-  &::after{
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 1px;
-    // background-color: $black;
-    border: 1px dashed $black;
-    left: 0;
-    top: 0;
-  }
-  & .appImg{
-    height: 60px;
-    width: 60px;
-  }
-}
-
-  & .sparater-block {
-    position: absolute;
-    width: 1px;
-    height: 100%;
-    background: rgba($white, 0.5);
-    left: 30px;
-    top: 0;
-    & span {
-      font-weight: 300;
-      height: 48px;
-      font-size: 16px;
-      color: $white;
-      letter-spacing: 0.6px;
-      text-transform: uppercase;
-      line-height: 48px;
-      background: darken($theme1, 42);
-      position: absolute;
-      top: 50%;
-      left: -11px;
-      margin-top: -32px;
-    }
-    & span {
-      left: -24px;
-      width: 48px;
-      border-radius: 100%;
-      text-align: center;
-    }
-  }
-}
-
-// Small devices (landscape phones, 576px and up)
-@mixin achievements-mixin-min-sm() {
-}
-// Medium devices (tablets, 768px and up)
-@mixin achievements-mixin-min-md() {
-}
-// Large devices (desktops, 992px and up)
-@mixin achievements-mixin-min-lg() {
-}
-// X-Large devices (large desktops, 1200px and up)
-@mixin achievements-mixin-min-xl() {
-}
-// XX-Large devices (larger desktops, 1400px and up)
-@mixin achievements-mixin-min-xxl() {
-}
-// X-Small devices (portrait phones, less than 576px)
-@mixin achievements-mixin-max-xs() {
-  .achievements {
-    & .appSlider{
-     
-      &::after{
-   
-      }
-      & .appImg{
-     
-      }
-    }
-    
-      & .sparater-block {
-      
-        & span {
-      
-        }
-        & span {
-     
-        }
-      }
-    }
-}
-// Small devices (landscape phones, less than 768px)
-@mixin achievements-mixin-max-sm() {
-  .achievements {
-    & .appSlider{
-     
-      &::after{
-   
-      }
-      & .appImg{
-        width: 40px;
-        height: 40px;
-      }
-    }
-    
-      & .sparater-block {
-      
-        & span {
-      
-        }
-        & span {
-     
-        }
-      }
-    }
-}
-// Medium devices (tablets, less than 992px)
-@mixin achievements-mixin-max-md() {
-  .achievements {
-    & .heading{
-      &::after{
-        right: 0;
-      }
-      &::before{
-        right: 0;
-      }
-    }
-    & .appSlider{
-     
-      &::after{
-        display: none;
-      }
-      & .appImg{
-     
-      }
-    }
-    
-      & .sparater-block {
-      
-        & span {
-      
-        }
-        & span {
-     
-        }
-      }
-    }
-}
-// Large devices (desktops, less than 1200px)
-@mixin achievements-mixin-max-lg() {
-  .achievements {
-    & .appSlider{
-     
-      &::after{
-   
-      }
-      & .appImg{
-     
-      }
-    }
-    
-      & .sparater-block {
-      
-        & span {
-      
-        }
-        & span {
-     
-        }
-      }
-    }
-}
-// X-Large devices (large desktops, less than 1400px)
-@mixin achievements-mixin-max-xl() {
-  .achievements {
-    & .appSlider{
-     
-      &::after{
-   
-      }
-      & .appImg{
-     
-      }
-    }
-    
-      & .sparater-block {
-      
-        & span {
-      
-        }
-        & span {
-     
-        }
-      }
-    }
-}
-
-
-
-// .achievements section end 
 
 
 
@@ -998,37 +1146,6 @@
 
 
 
-//  benifits section
-.benifits {
-  background: $white;
-  background-size: cover;
-  & .benifit-item {
-    position: relative;
-    background: linear-gradient(180deg, $theme1 2%, $white 4%);
-    &::before {
-      content: "";
-      position: absolute;
-      top: -15px;
-      left: 10%;
-      right: 10%;
-      height: 21px;
-      z-index: 0;
-      border-radius: 9px 9px 0 0;
-      background: $theme1;
-    }
-    &::after {
-      content: "";
-      position: absolute;
-      top: -9px;
-      left: 8%;
-      right: 8%;
-      height: 19px;
-      z-index: -1;
-      border-radius: 9px 9px 0 0;
-      background: darken($theme1, 10);
-    }
-  }
-}
 
 
 // hospital cta section start 
@@ -1043,212 +1160,6 @@
   background: #03151d;
 }
 
-// befefits section start 
-.benefits-card {
-  background: url(../../../img/hospital-management-software-new/process.webp ) no-repeat;
-  background-size: cover;
-  & .ordercard {
-      background: linear-gradient(90deg, #d79618, #e7b349);
-      padding: 20px;
-      border-radius: 15px;
-      transition: all 0.3S ease-in-out;
-      & .orderimg {
-          padding: 9px;
-          transition: all 0.3s ease-in-out;
-      }
-      &.ordercardtwo {
-          background: #f8e5bf;
-          & .orderimg {
-              & img {
-                  filter: invert(1);
-              }
-          }
-      }
-      &:hover {
-        transform: translateY(-10px);
-          & .orderimg {
-              // transform: rotate(360deg);
-          }
-      }
-  }
-}
-// X-Small devices (portrait phones, less than 576px)
-@mixin benefits-card-mixin-max-xs() {
-  .benefits-card {
-
-    & .ordercard {
-      
-        & .orderimg {
-            
-        }
-        &.ordercardtwo {
-          
-            & .orderimg {
-                & img {
-                    
-                }
-            }
-        }
-        &:hover {
-        transform: translateY(0px);
-
-          // transform: translateY(-20px);
-            & .orderimg {
-              // transform: rotate(0deg);
-                
-            }
-        }
-    }
-  }
-  
-  
-}
-// Small devices (landscape phones, less than 768px)
-@mixin benefits-card-mixin-max-sm() {
-  .benefits-card {
-
-    & .ordercard {
-      
-        & .orderimg {
-            
-        }
-        &.ordercardtwo {
-          
-            & .orderimg {
-                & img {
-                    
-                }
-            }
-        }
-        &:hover {
-            & .orderimg {
-                
-            }
-        }
-    }
-  }
-}
-// befefits section end
-
-// add Ons ection  start 
-
-
-.addOnsection{
-
-  & .addOnCard{
-    transition: all 0.3s ease-in-out;
-    background-color: $theme3;
-    border-radius: 18px;
-    &:hover{
-      transform: translateY(-10px);
-      // background-color:lighten($theme2 ,10) !important;
-      &.addOnCard2{
-        // background-color: lighten($theme1, 10) !important;
-      transform: translateY(-10px);
-       
-      }
-    }
-    & .rightSection{
-      padding: 30px;
-      & .headingv2{
-        line-height: 40px;
-      }
-      & .pera2{
-        line-height: normal !important ;
-      }
-      & .iosBtn{
-        background-color: rgba(0, 0, 0, 0.356);
-        color: $white;
-        font-size: 12px;
-        padding: 6px 15px;
-        border-radius:5px;
-      }
-    }
-    & .addOnImg{
-
-      & img{
-        aspect-ratio: 3/3;
-        object-fit: contain;
-      
-      }
-    }
-  }
-}
-
-// X-Small devices (portrait phones, less than 576px)
-@mixin addOnsection-mixin-max-xs() {
-  .addOnsection{
-
-    & .addOnCard{
-      &:hover{
-        // margin-top: -10px !important;
-        transform: translateY(0px) !important;
-        // background-color:lighten($theme2 ,0) !important;
-        &.addOnCard2{
-        transform: translateY(0px) !important;
-          
-         
-        }
-      }
-      & .cardInner{
-        height:0% !important;
-      }
-      & .rightSection{
-   
-        & .headingv2{
-          line-height: 24px;
-        }
-        & .pera2{
-       
-        }
-        & .iosBtn{
-    
-        }
-      }
-      & .addOnImg{
-        // height: 250px;
-        & img{
-       aspect-ratio: 1/0.5;
-   
-
-        
-        }
-      }
-    }
-  }
-  
-  
-}
-// Small devices (landscape phones, less than 768px)
-@mixin addOnsection-mixin-max-sm() {
-  .addOnsection{
-
-    & .addOnCard{
-  
-      & .rightSection{
-   
-        & .headingv2{
-        
-        }
-        & .pera2{
-       
-        }
-        & .iosBtn{
-    
-        }
-      }
-      & .addOnImg{
-  
-        & img{
-       
-        
-        }
-      }
-    }
-  }
-}
-
-//  add Ons ection end 
 
 
 
@@ -1399,192 +1310,6 @@ button.accordion-button {
 }
 
 
-// card section start 
-// / our benefits section start
-.benifits {
-  & .benefit-card {
-    padding: 60px 30px;
-    & .benefit-icon {
-      height: 90px;
-      width: 90px;
-      color: #104CBA;
-      transition: all 0.3s ease-in-out;
-      & .icons {
-        transition: all 0.3s ease-in-out;
-      }
-    }
-    & .benefits-name {
-      color:#0e2b3d;
-    }
-    & .benefits-data {
-      padding-top: 12px;
-    }
-    & .calender {
-      color: darkorange;
-    }
-    &::after {
-      position: absolute;
-      content: "";
-      width: 0%;
-      height: 0%;
-      visibility: hidden;
-      bottom: 0;
-      right: 0;
-      border-left: 3px solid $theme3;
-      border-bottom: 3px solid $theme1;
-      transition: width .2s ease .1s, height .1s ease, visibility 0s .2s;
-      border-radius: 6px;
-    }
-    &::before {
-        position: absolute;
-        content: "";
-        width: 0%;
-        height: 0%;
-        visibility: hidden;
-        top: 0;
-        left: 0;
-        border-top: 3px solid $theme3;
-        border-right: 3px solid $theme1;
-        transition: width .3s ease .3s, height .1s ease .2s, visibility 0s .4s;
-        border-radius: 6px;
-    }
-    &:hover {
-      & .benefit-icon {
-        & .icons {
-          transform: scale(1.2);
-        }
-      }
-        &::after {
-            width: 100%;
-            height: 100%;
-            visibility: visible;
-            transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
-            transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
-        }
-        &::before {
-            width: 100%;
-            height: 100%;
-            visibility: visible;
-            transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
-            transition: width .1s ease, height .1s ease .1s;
-        }
-    }
-  }
-}
-// our benefits section end
-
-
-// X-Small devices (portrait phones, less than 576px)
-@mixin benifits-mixin-max-xs() {
-  .benifits {
-    & .benefit-card {
-      padding: 20px 15px;
-      & .benefit-icon {
-        height: 60px;
-        width: 60px;
-        & .icons {
-        }
-      }
-      & .benefits-name {
-      }
-      & .benefits-data {
-        padding-top: 8px;
-      }
-      &::after {
-        width: 100%;
-        height: 100%;
-        visibility: visible;
-        border-left: 3px solid $theme3;
-        border-bottom: 3px solid $theme1;
-      }
-      &::before {
-          width: 100%;
-          height: 100%;
-          visibility: visible;
-      }
-      &:hover {
-        & .benefit-icon {
-          & .icons {
-            transform: scale(1);
-          }
-        }
-          &::after {
-          }
-          &::before {
-          }
-      }
-    }
-  }
-}
-// Small devices (landscape phones, less than 768px)
-@mixin benifits-mixin-max-sm() {
-  .benifits {
-    & .benefit-card {
-      padding: 35px 20px;
-      & .benefit-icon {
-        height: 70px;
-        width: 70px;
-        & .icons {
-        }
-      }
-      & .benefits-name {
-      }
-      & .benefits-data {
-        padding-top: 9px;
-      }
-      &::after {
-      }
-      &::before {
-      }
-      &:hover {
-        & .benefit-icon {
-          & .icons {
-          }
-        }
-          &::after {
-          }
-          &::before {
-          }
-      }
-    }
-  }
-}
-// Medium devices (tablets, less than 992px)
-@mixin benifits-mixin-max-md() {
-  .benifits {
-    & .benefit-card {
-      padding:22px 14px;
-      & .benefit-icon {
-        height: 70px;
-        width: 70px;
-        & .icons {
-        }
-      }
-      & .benefits-name {
-      }
-      & .calender {
-      }
-      & .benefits-data {
-        padding-top: 9px;
-      }
-      &::after {
-      }
-      &::before {
-      }
-      &:hover {
-        & .benefit-icon {
-          & .icons {
-          }
-        }
-          &::after {
-          }
-          &::before {
-          }
-      }
-    }
-  }
-}
-
 
 
 
@@ -1595,7 +1320,7 @@ button.accordion-button {
 // No media query for `xs` since this is the default in Bootstrap
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  @include achievements-mixin-min-sm();
+  // @include achievements-mixin-min-sm();
   @include hero-section-mixin-min-sm();
   @include aboutHotal-mixin-min-sm();
   @include feateureSection-mixin-min-sm();
@@ -1608,7 +1333,7 @@ button.accordion-button {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  @include achievements-mixin-min-md();
+  // @include achievements-mixin-min-md();
   @include hero-section-mixin-min-md();
   @include aboutHotal-mixin-min-md();
   @include feateureSection-mixin-min-md();
@@ -1622,7 +1347,7 @@ button.accordion-button {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  @include achievements-mixin-min-lg();
+  // @include achievements-mixin-min-lg();
   @include hero-section-mixin-min-lg();
   @include aboutHotal-mixin-min-lg();
   @include feateureSection-mixin-min-lg();
@@ -1636,7 +1361,7 @@ button.accordion-button {
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  @include achievements-mixin-min-xl();
+  // @include achievements-mixin-min-xl();
   @include hero-section-mixin-min-xl();
   @include aboutHotal-mixin-min-xl();
   @include feateureSection-mixin-min-xl();
@@ -1652,7 +1377,7 @@ button.accordion-button {
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-  @include achievements-mixin-min-xxl();
+  // @include achievements-mixin-min-xxl();
   @include hero-section-mixin-min-xxl();
   @include aboutHotal-mixin-min-xxl();
   @include feateureSection-mixin-min-xxl();
@@ -1668,7 +1393,7 @@ button.accordion-button {
 
 // X-Large devices (large desktops, less than 1400px)
 @media (max-width: 1399.98px) {
-  @include achievements-mixin-max-xl();
+  // @include achievements-mixin-max-xl();
   @include hero-section-mixin-max-xl();
   @include aboutHotal-mixin-max-xl();
   @include feateureSection-mixin-max-xl();
@@ -1685,7 +1410,7 @@ button.accordion-button {
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
-  @include achievements-mixin-max-lg();
+  // @include achievements-mixin-max-lg();
   @include hero-section-mixin-max-lg();
   @include aboutHotal-mixin-max-lg();
   @include feateureSection-mixin-max-lg();
@@ -1702,12 +1427,12 @@ button.accordion-button {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  @include achievements-mixin-max-md();
+  // @include achievements-mixin-max-md();
   @include hero-section-mixin-max-md();
   @include aboutHotal-mixin-max-md();
   @include feateureSection-mixin-max-md();
   @include faq_section-mixin-max-md();
-  @include benifits-mixin-max-md();
+
 
 
 
@@ -1718,15 +1443,13 @@ button.accordion-button {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-  @include achievements-mixin-max-sm();
+  // @include achievements-mixin-max-sm();
   @include development_services-mixin-max-sm();
   @include hero-section-mixin-max-sm();
   @include aboutHotal-mixin-max-sm();
   @include feateureSection-mixin-max-sm();
-  @include benefits-card-mixin-max-sm();
-  @include addOnsection-mixin-max-sm();
   @include faq_section-mixin-max-sm();
-  @include benifits-mixin-max-sm();
+
 
 
 
@@ -1740,17 +1463,21 @@ button.accordion-button {
 
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-  @include achievements-mixin-max-xs();
+
   @include development_services-mixin-max-xs();
   @include hero-section-mixin-max-xs();
   @include aboutHotal-mixin-max-xs();
   @include feateureSection-mixin-max-xs();
-  @include benefits-card-mixin-max-xs();
-  @include addOnsection-mixin-max-xs();
   @include faq_section-mixin-max-xs();
-  @include benifits-mixin-max-xs();
+  @include benefitsCardSection-mixin-max-xs();
+  @include moduleSection-mixin-max-xs();
+  @include testimonialSection-mixin-max-xs();
 
 
+
+
+
+  
 
 
 

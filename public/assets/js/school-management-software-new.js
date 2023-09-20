@@ -112,3 +112,109 @@ $('.blog_slider-main').owlCarousel({
     },
     navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
 });
+
+$('.benifitsOwl').owlCarousel({
+    loop: false,
+    nav: true,
+    margin:15,
+    dots: false,
+    autoplay: true,
+    left: false,
+    freeDrag: false,
+    lazyLoad: true,
+    autoplayTimeout: 4000,
+    stagePadding: 0,
+    smartSpeed: 1200,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            dots: false,
+            nav: false,
+        },
+        500: {
+            items: 1,
+            dots: false,
+            nav: false,
+        },
+        600: {
+            dots: false,
+            nav: false,
+            items: 2,
+
+        },
+        992: {
+            dots: false,
+            nav: false,
+            items: 2,
+        },
+        1000: {
+            dots: false,
+            nav: false,
+            items: 3,
+        },
+        1299: {
+            dots: false,
+            nav: false,
+            items: 3,
+        },
+        1499: {
+            items: 3,
+            dots: false,
+            nav: false,
+        }
+    },
+    navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
+});
+
+
+$('.testimonalOwl').owlCarousel({
+    loop: true,
+    nav: true,
+    // margin:15,
+    dots: false,
+    autoplay: true,
+    items:1,
+    lazyLoad: true,
+    autoplayTimeout: 4000,
+    stagePadding: 0,
+    smartSpeed: 1200,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            dots: false,
+            nav: false,
+        },
+        500: {
+            items: 1,
+            dots: false,
+            nav: false,
+        },
+        600: {
+            dots: false,
+            nav: false,
+        },
+        992: {
+            dots: false,
+            nav: false,
+            items: 1,
+        },
+        1000: {
+            dots: false,
+            nav: false,
+            items: 1,
+        },
+        1299: {
+            dots: false,
+            nav: false,
+            items: 1,
+        },
+        1499: {
+            items: 1,
+            dots: false,
+            nav: false,
+        }
+    },
+    navText: ["<i class='imgs img-chevron-left'></i>", "<i class='imgs img-chevron-right'></i>"]
+});
