@@ -1,0 +1,1541 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// hero section 
+
+.hero-section {
+  // display: none;
+  // padding-bottom: 60px;
+  & .hero-section-innner {
+      background: url(../../../img/college-management-software-new/collegebg.jpg) no-repeat;
+      background-size: cover ;
+      background-position: center ;
+      padding-top: 150px;
+      // padding-bottom: 20px;
+      
+      &::before {
+          content: '';
+          top: 0;
+          left: 0;
+          position: absolute;
+          // background: rgba($black,.5);
+          height: 100%;
+          width: 100%;
+          background-image: linear-gradient(187deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%);
+      }
+  }
+  & .hero-section-subheading {
+      animation: drop-in 1200ms ease 100ms 
+  }
+  @keyframes drop-in {
+      from {
+          opacity: 0;
+          transform: translateY(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  } 
+  & .heading {
+      animation: drop-in 1s ease 200ms 
+  }
+  & .herorsection-data {
+      animation:data 1s ease 200ms 
+  }
+  @keyframes data {
+      from {
+          opacity: 0;
+          transform: translatex(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .project-btn {
+      animation:button 1s ease 200ms 
+  } @keyframes button {
+      from {
+          opacity: 0;
+          transform: translateY(100px);
+      }
+      to {
+          opacity: 1;
+          transform: translate(0px);
+      }
+  }
+  & .portfolio-img {
+    height: 450px;
+   
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin hero-section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin hero-section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin hero-section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin hero-section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin hero-section-mixin-min-xxl() {
+  .hero-section {
+    & .hero-section-innner {
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+      
+    }
+}
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin hero-section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin hero-section-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin hero-section-mixin-max-md() {
+  .hero-section {
+    & .hero-section-innner {
+      padding-top: 50px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+      &::before{
+        right: 0 !important;
+      }
+      &::after{
+        right: 0 !important;
+      }
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+      height: auto;
+      & img {
+
+        aspect-ratio: 1/0.5;
+        object-fit: contain;
+      }
+    }
+}
+}
+// Large devices (desktops, less than 1200px)
+@mixin hero-section-mixin-max-lg() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 100px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        // bottom: -130px;
+        position: unset;
+    }
+}
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin hero-section-mixin-max-xl() {
+  .hero-section {
+    & .hero-section-innner {
+        padding-top: 100px;
+    }
+    & .hero-section-subheading {
+    } 
+    & .heading {
+    }
+    & .herorsection-data {
+    }
+    & .project-btn {
+    } 
+    & .portfolio-img {
+        // bottom: -130px;
+        position: unset;
+    }
+}
+}
+
+// hero section end 
+
+
+// about hotal mangement section 
+.aboutHotal{
+  // background: url(../../../img/hospital-management-software-new/process.webp) no-repeat;
+  // background-size: cover;
+
+  position: relative;
+  &::after{
+    content: "";
+    background: url(../../../img/education-portal-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    filter: brightness(0.5);
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+  & .imgAbout{
+      & img{
+          aspect-ratio: 5/3;
+          object-fit: contain;
+      }
+  }
+}
+
+// / Small devices (landscape phones, 576px and up)
+@mixin aboutHotal-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin aboutHotal-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin aboutHotal-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin aboutHotal-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin aboutHotal-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin aboutHotal-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin aboutHotal-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin aboutHotal-mixin-max-md() {
+  .aboutHotal{
+    background:lighten($black, 99);
+    position: relative;
+   
+  & .fixed-shape{
+    position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.03;
+  }
+        & .imgAbout{
+            & img{
+                // aspect-ratio: 4/3;
+            }
+        }
+    }
+}
+// Large devices (desktops, less than 1200px)
+@mixin aboutHotal-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin aboutHotal-mixin-max-xl() {
+}
+
+// about section end 
+
+// app .development_services  
+.app-features-section{
+
+  &  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+      //  border-color: #dee2e6 #dee2e6 #fff;
+       color: #fff;
+       background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+
+      //  background: linear-gradient(135deg, #139ed9 0, #e09c19 100%);
+    
+      
+   }
+   .nav-tabs{
+    ::-webkit-scrollbar{
+      display: none;
+     }
+   }
+& ul{
+ 
+       & li{
+           & a{
+              //  width: 215px;
+               background-color: #e8ebf1 !important;
+               text-align: center;
+               margin: 14px;
+               line-height: 27px;
+               &:hover{
+                background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+                 color:$white;
+               }
+               ::-webkit-scrollbar{
+                display: none;
+               }
+       }
+    }
+   }
+   & .feature-block-one{
+       box-shadow: 0px 0px 10px 3px rgb(0 0 0 / 8%);
+       border-radius: 15px;
+       padding: 20px 20px;
+       text-align: center;
+       margin: 0px 0;
+       border: 1px solid transparent;
+       &:hover{
+         border: 1px solid #139ed9;
+       }
+       & img{
+           cursor: pointer;
+            transition: transform 0.3s linear;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+            width: 50px !important;
+            object-position: center;
+       }
+       &:hover {
+           cursor: pointer;
+           img {
+             transform: rotateY(180deg);
+             transition: transform 0.7s linear;
+           }
+         }
+   }
+}
+
+// app .development_services  end
+
+// moudel section  start 
+
+.moduleSection{
+  background: url(../../../img/hospital-management-software-new/process.webp) no-repeat;
+  background-size: cover;
+
+    & .whyChossCard{
+      position: relative;
+      padding: 20px;
+      box-shadow: 0px 0px 38px 0px rgba(21, 24, 29, 0.178);
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      background: url(../../../img/school-management-software-new/cardBg.png) ;
+      background-position: left;
+      background-color: lighten($black,97);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+    
+      &:after{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        height: 3px;
+        width: 0;
+        background: linear-gradient(90deg, rgba(0,16,45,1) 0%, rgba(0,89,252,1) 56%);
+        transition: all 0.35s ease-in-out;
+      }
+      & .cardImg{
+        height: 150px;
+        width: 180px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        & img{
+        transition: all 0.3s ease-in-out;
+        }
+      }
+      &:hover{
+        transform: translateY(-10px);
+        &:after{
+          width: 100%;
+        }
+        & .cardImg{
+          & img{
+            transform: scale(0.9);
+          }
+      }
+      }
+      & .numberCard{
+        font-size: 50px;
+      display: block;
+      font-weight: 600;
+      text-shadow: -5px 5px 0px #eceefe; 
+      position: relative;
+      line-height: 1;
+      color: #104cba;
+      }
+      & .cardIcon{
+        color: lighten($black,80);
+      }
+      & .cardHeading{
+        font-size: 18px;
+        color: $black;
+        font-weight: 600;
+      }
+      & .cardPera{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    
+    }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin moduleSection-mixin-max-xs() {
+  .moduleSection{
+   
+      & .whyChossCard{
+
+      
+        &:after{
+          width: 100%;
+        }
+        & .cardImg{
+          height: 99px;
+          width: 91px;
+          & img{
+       
+          }
+        }
+        &:hover{
+          transform: translateY(0px);
+          &:after{
+            width: 100%;
+          }
+          & .cardImg{
+            & img{
+              transform: scale(1);
+            }
+        }
+        }
+        & .numberCard{
+
+        }
+        & .cardIcon{
+       
+        }
+        & .cardHeading{
+          font-size: 17px;
+        }
+        & .cardPera{
+          font-size: 14px;
+        }
+      
+      }
+  }
+  
+}
+
+// moudel section end 
+
+// benefitsCardSection start
+
+.benefitsCardSection{
+  & .owl-stage-outer{
+    padding: 0;
+  }
+  & .benefitCard{
+ 
+    padding:40px 30px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    border: 1px solid lighten($black,90);
+    &:hover{
+      &::after{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    &:after{
+      position: absolute;
+      content: '';
+      background: url(../../../img/school-management-software-new/cardbanifitbg.png) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+
+    }
+
+    & .cardImg{
+      height: 100px;
+      width: 100px;
+      background: $primary;
+      z-index: -1;
+      border-radius: 48% 52% 41% 59% / 52% 49% 51% 48%;
+      padding: 20px;
+      & img{
+        filter: invert(1);
+      }
+
+    }
+    & .cardHeading{
+      
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin benefitsCardSection-mixin-max-xs() {
+  .benefitsCardSection{
+    & .owl-stage-outer{
+    
+    }
+    & .benefitCard{
+   
+
+      &:hover{
+        &::after{
+    
+        }
+      }
+      &:after{
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+  
+      & .cardImg{
+        width: 75px;
+        height: 75px;
+        padding: 15px;
+        & img{
+       
+        }
+  
+      }
+      & .cardHeading{
+        
+      }
+    }
+  }
+  
+}
+
+// benefitsCardSection end 
+
+// testimonialSection start 
+
+
+.testimonialSection{
+  background: url(../../../img/school-management-software-new/testimonalbg2.jpg) no-repeat;
+  background-size: cover;
+  & .owl-stage-outer{
+    padding: 0;
+  }
+  & .testimonalsCard{
+    padding: 40px;
+    position: relative;
+    &:after{
+      position: absolute;
+      content: '';
+      background-image: url(../../../img/school-management-software-new/Quote.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100px;
+      height: 100px;
+      right: 20px;
+      top: 20px;
+
+    }
+    & .starIcon{
+      width: 20px;
+      height: 20px;
+    }
+    & .userImg{
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 50%;
+      border: 3px solid $theme1;
+    }
+    
+  }
+}
+
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin testimonialSection-mixin-max-xs() {
+  .testimonialSection{
+
+    & .owl-stage-outer{
+  
+    }
+    & .testimonalsCard{
+
+      &:after{
+  
+  
+      }
+      & .starIcon{
+
+      }
+      & .userImg{
+        width: 60px;
+        height: 60px;
+        border: 2px solid $theme1;
+      }
+    }
+  }
+  
+}
+
+// testimonialSection end 
+
+  //  card section 
+
+  // what-we-do section
+  .what-we-box-img img {
+    height: 380px;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+    transition: 0.5s all;
+    filter: grayscale(1);
+  }
+  .what-we-do-box {
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.5s all;
+    border-bottom: 12px solid;
+    height: 100%;
+  }
+  .what-we-content {
+    padding: 22px 19px 28px;
+    border-radius: 0 0 30px 30px;
+    transition: 0.8s all;
+    height: 100%;
+  }
+  .what-we-do-box:hover img {
+    filter: grayscale(0);
+  }
+
+
+  // cta sectiion start 
+  .hire-developers-section {
+    // background: #f4f4f6;
+        background: #03151d !important;
+    & .supoort{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        // background: hsla(0deg,0%,100%,0.46);
+        background: rgb(244 244 244);
+        position: relative;
+        -webkit-filter: drop-shadow(0 3px 36px rgba(0,0,0,0.16));
+        filter: drop-shadow(0 3px 36px rgba(0,0,0,0.16));
+    }
+    & img{
+        animation: supoort 3s ease-in infinite alternate-reverse both;
+    }
+    @-webkit-keyframes supoort {
+        0% {
+          transform: translateY(5px);
+        }
+        100% {
+          transform: translateY(-5px);
+        }
+      }
+    
+      @keyframes supoort {
+        0% {
+          transform: translateY(5px);
+        }
+        100% {
+          transform: translateY(-5px);
+        }
+      }
+}
+.expert-btn{
+  padding: 6px 9px !important;
+  cursor: pointer;
+  transition: all ease .4s;
+  border-radius: 4px !important;
+  background: #e09c19 !important;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  &:hover{
+    background: #0f7caa !important;
+    color: #fff;
+  }
+}
+
+  // cta section end 
+
+// gallery section
+.industries-sec{
+  & .col{
+    padding: 5px;
+    & a{
+      transition: .3s ease-in-out;
+      display: block;
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+     &:hover:after {
+        height: 100%;
+        background: linear-gradient(0deg,#0e2dff 0,rgba(0,0,0,0) 100%);
+        }
+        &:hover figcaption{
+          height: 100%;
+        }
+      &:after{
+          transition: .3s ease-in-out;
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background: linear-gradient(0deg,#000 0,rgba(255,255,255,0) 100%);
+          height: 130px;
+          opacity: .7;
+         
+      }
+        & figure {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          top: 0;
+          height: 100%;
+          & img{
+            transition: .3s ease-in-out;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+
+            &:hover{
+              transform: scale(1.1)
+            }
+      
+          }
+      }
+   
+    & figcaption {
+      transition: .3s ease-in-out;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+      
+  }
+  }
+   }
+} 
+// gallery section end 
+
+
+
+// feateure Section start 
+
+.feateureSection{
+  ::-webkit-scrollbar {
+    display: none;
+}
+  & .featureTabs{
+    background-color: $white;
+    border: 2px solid $white;
+    padding: 1px !important;
+    & .navItem{
+      & .fetureButton{
+        font-size: 16px;
+        color:$black;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid $white;
+        border-radius: 5px !important;
+        & .featureIcon{
+          width: 17px;
+          height: 17px;
+        }
+        &.active{
+          //  background: $theme1 !important;
+          background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+           color: $white;
+
+          & .featureIcon{
+            filter: invert(1);
+
+          }
+          
+        }
+      }
+    }
+  }
+
+  & .featureCardSection{
+    & >* {
+      flex: 1 1 14.28%;
+      width: 14.28%;
+    }
+  }
+  & .featureCard{
+    & .cardImg{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  & .featureImg{
+    background-color: $white;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    & img{
+      // aspect-ratio: 5/4;
+      // object-fit: contain;
+      border-radius: 10px;
+    }
+  
+  }
+}
+
+
+// / Small devices (landscape phones, 576px and up)
+@mixin feateureSection-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin feateureSection-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin feateureSection-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin feateureSection-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin feateureSection-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin feateureSection-mixin-max-xs() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+          font-size: 14px;
+          & .featureIcon{
+          width: 15px;
+          height: 15px;
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+  
+}
+// Small devices (landscape phones, less than 768px)
+@mixin feateureSection-mixin-max-sm() {
+}
+// Medium devices (tablets, less than 992px)
+@mixin feateureSection-mixin-max-md() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin feateureSection-mixin-max-lg() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin feateureSection-mixin-max-xl() {
+  .feateureSection{
+    & .featureTabs{
+
+      & .navItem{
+        & .fetureButton{
+    
+          & .featureIcon{
+          
+          }
+          &.active{
+ 
+  
+            & .featureIcon{
+  
+            }
+            
+          }
+        }
+      }
+    }
+  
+    & .featureImg{
+ 
+    
+      & img{
+    
+      }
+    
+    }
+  }
+}
+
+// feateure Section end 
+
+
+
+
+
+
+
+// development services section
+.development_services {
+  // background:lighten($black, 99);
+  position: relative;
+ 
+& .fixed-shape{
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.03;
+}
+// & .whyChossCard{
+//   position: relative;
+//   padding: 60px 30px;
+//   box-shadow: 0px 0px 38px 0px rgba(21, 24, 29, 0.178);
+//   overflow: hidden;
+//   transition: all 0.3s ease-in-out;
+//   background:$white;
+//   &:after{
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     content: "";
+//     height: 3px;
+//     width: 0;
+//     background: linear-gradient(90deg, rgba(0,16,45,1) 0%, rgba(0,89,252,1) 56%);
+//     transition: all 0.35s ease-in-out;
+//   }
+
+//   &:hover{
+//     &:after{
+//       width: 100%;
+//     }
+//   }
+//   & .numberCard{
+//     font-size: 50px;
+//   display: block;
+//   font-weight: 600;
+//   text-shadow: -5px 5px 0px #eceefe; 
+//   position: relative;
+//   line-height: 1;
+//   color: #104cba;
+//   }
+//   & .cardIcon{
+//     color: lighten($black,80);
+//   }
+//   & .cardHeading{
+//     font-size: 18px;
+//     color: $black;
+//     font-weight: 600;
+//   }
+//   & .cardPera{
+//     font-size: 16px;
+//     font-weight: 400;
+//     line-height: 24px;
+//     display: -webkit-box;
+//     -webkit-line-clamp: 5;
+//     -webkit-box-orient: vertical;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//   }
+
+// }
+  
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin development_services-mixin-max-xs() {
+  .development_services {
+
+   
+  & .fixed-shape{
+ 
+  }
+  & .whyChossCard{
+    padding: 25px 25px;
+    &:after{
+      // width: 100%;
+    }
+  
+    &:hover{
+      &:after{
+        display: none;
+       
+      }
+    }
+    & .numberCard{
+      font-size: 33px;
+    }
+    & .cardIcon{
+     
+    }
+    & .cardHeading{
+    
+    }
+    & .cardPera{
+ 
+    }
+  
+  }
+    
+  }
+}
+// Small devices (landscape phones, less than 768px)
+@mixin development_services-mixin-max-sm() {
+  .development_services {
+
+   
+    & .fixed-shape{
+   
+    }
+    & .whyChossCard{
+  
+      &:after{
+     
+      }
+    
+      &:hover{
+        &:after{
+         
+        }
+      }
+      & .numberCard{
+        font-size: 44px;
+      }
+      & .cardIcon{
+        font-size: 30 !important;
+      }
+      & .cardHeading{
+      
+      }
+      & .cardPera{
+   
+      }
+    
+    }
+      
+    }
+}
+
+// development services section end
+
+
+
+
+
+// hospital cta section start 
+.hospitalCta {
+  background: linear-gradient(45deg, #116285, #099edd);
+  padding: 60px 12px;
+}
+// hospital cta section end 
+
+
+.Contact_us_project {
+  background: #03151d;
+}
+
+
+
+
+// Faq section
+
+.faq_section {
+  background: #f8f9fa;
+}
+.faq_section::before {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+.faq_section::after {
+  content: "";
+  // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  box-shadow: 0 1px 5px 1px #0000000d;
+  border-radius: 10px;
+  border: 0;
+}
+button.accordion-button {
+  background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba($white, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $theme2;
+  color: $white;
+  box-shadow: unset;
+  outline: unset;
+}
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+// Small devices (landscape phones, 576px and up)
+@mixin faq_section-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin faq_section-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin faq_section-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin faq_section-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin faq_section-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin faq_section-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin faq_section-mixin-max-sm() {
+  .faq_section {
+    & .portfolio-bg-layer {
+      width: 210px;
+      height: 210px;
+    }
+    & .heading.center {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    &::before {
+      background-size: 900px;
+    }
+    .accordion-item {
+      & .accordion-header {
+        & .accordion-button {
+          padding: 12px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin faq_section-mixin-max-md() {
+  .faq_section {
+    & .heading.center {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    &::before {
+      background-size: 1200px;
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin faq_section-mixin-max-lg() {
+  .faq_section {
+    & .heading.center {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+    }
+    &::before {
+      background-size: 1300px;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin faq_section-mixin-max-xl() {
+}
+
+
+// Process We Follow section start
+.processSection {
+  & .processcard {
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    & .cardicon {
+      height: 85px;
+      width: 85px;
+      padding: 15px;
+      transition: all 0.3s ease-in-out;
+    }
+    & .card_heading {
+      margin-top: 45px;
+    }
+    & .card_detail {
+      margin-top: 20px;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      & .cardicon {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin processSection-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin processSection-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin processSection-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin processSection-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin processSection-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin processSection-mixin-max-xs() {
+  .processSection {
+    & .processcard {
+      padding: 12px;
+      & .cardicon {
+        height: 70px;
+        width: 70px;
+        padding: 16px;
+      }
+      & .card_heading {
+        margin-top: 20px;
+      }
+      & .card_detail {
+        margin-top: 10px;
+      }
+      &:hover {
+        transform: translateY(0px);
+        & .cardicon {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+// Small devices (landscape phones, less than 768px)
+@mixin processSection-mixin-max-sm() {
+  .processSection {
+    & .processcard {
+      & .cardicon {
+        height: 75px;
+        width: 75px;
+        padding: 13px;
+      }
+      & .card_heading {
+        margin-top: 30px;
+      }
+      & .card_detail {
+        margin-top: 14px;
+      }
+      &:hover {
+        & .cardicon {
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin processSection-mixin-max-md() {
+  .processSection {
+    & .processcard {
+      & .cardicon {
+        height: 80px;
+        width: 80px;
+        padding: 16px;
+      }
+      & .card_heading {
+        margin-top: 30px;
+      }
+      & .card_detail {
+        margin-top: 14px;
+      }
+      &:hover {
+        & .cardicon {
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin processSection-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin processSection-mixin-max-xl() {
+}
+
+// Process We Follow section end
+
+
+
+
+
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  // @include achievements-mixin-min-sm();
+  @include hero-section-mixin-min-sm();
+  @include aboutHotal-mixin-min-sm();
+  @include feateureSection-mixin-min-sm();
+  @include faq_section-mixin-min-sm();
+  @include processSection-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  // @include achievements-mixin-min-md();
+  @include hero-section-mixin-min-md();
+  @include aboutHotal-mixin-min-md();
+  @include feateureSection-mixin-min-md();
+  @include faq_section-mixin-min-md();
+  @include processSection-mixin-min-md(); 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // @include achievements-mixin-min-lg();
+  @include hero-section-mixin-min-lg();
+  @include aboutHotal-mixin-min-lg();
+  @include feateureSection-mixin-min-lg();
+  @include faq_section-mixin-min-lg();
+  @include processSection-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  // @include achievements-mixin-min-xl();
+  @include hero-section-mixin-min-xl();
+  @include aboutHotal-mixin-min-xl();
+  @include feateureSection-mixin-min-xl();
+  @include faq_section-mixin-min-xl();
+  @include processSection-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  // @include achievements-mixin-min-xxl();
+  @include hero-section-mixin-min-xxl();
+  @include aboutHotal-mixin-min-xxl();
+  @include feateureSection-mixin-min-xxl();
+  @include faq_section-mixin-min-xxl();
+  @include processSection-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  // @include achievements-mixin-max-xl();
+  @include hero-section-mixin-max-xl();
+  @include aboutHotal-mixin-max-xl();
+  @include feateureSection-mixin-max-xl();
+  @include faq_section-mixin-max-xl();
+  @include processSection-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  // @include achievements-mixin-max-lg();
+  @include hero-section-mixin-max-lg();
+  @include aboutHotal-mixin-max-lg();
+  @include feateureSection-mixin-max-lg();
+  @include faq_section-mixin-max-lg();
+  @include processSection-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  // @include achievements-mixin-max-md();
+  @include hero-section-mixin-max-md();
+  @include aboutHotal-mixin-max-md();
+  @include feateureSection-mixin-max-md();
+  @include faq_section-mixin-max-md();
+  @include processSection-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  // @include achievements-mixin-max-sm();
+  @include development_services-mixin-max-sm();
+  @include hero-section-mixin-max-sm();
+  @include aboutHotal-mixin-max-sm();
+  @include feateureSection-mixin-max-sm();
+  @include faq_section-mixin-max-sm();
+  @include processSection-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include development_services-mixin-max-xs();
+  @include hero-section-mixin-max-xs();
+  @include aboutHotal-mixin-max-xs();
+  @include feateureSection-mixin-max-xs();
+  @include faq_section-mixin-max-xs();
+  @include benefitsCardSection-mixin-max-xs();
+  @include moduleSection-mixin-max-xs();
+  @include testimonialSection-mixin-max-xs();
+  @include processSection-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

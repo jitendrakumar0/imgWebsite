@@ -688,9 +688,17 @@ class HomeController extends Controller
     {
         return view('college-management-software.index');
     }
+    public function college_management_software_new()
+    {
+        return view('college-management-software-new.index');
+    }
     public function institute_management_software()
     {
         return view('institute-management-software.index');
+    }
+    public function institute_management_software_new()
+    {
+        return view('institute-management-software-new.index');
     }
     public function credit_cooperative_society_software()
     {
@@ -833,7 +841,14 @@ class HomeController extends Controller
     {
         return view('school-management-software.index');
     }
-
+    public function school_management_software_new()
+    {
+        return view('school-management-software-new.index');
+    }
+    public function university_management_software_new()
+    {
+        return view('university-management-software-new.index');
+    }
     public function college_website_design()
     {
         return view('college-website-design.index');

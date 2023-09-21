@@ -203,7 +203,10 @@ Route::get('/mlm-software-development-company.php', 'HomeController@mlm_software
 Route::get('/material-management.php', 'HomeController@material_management');
 Route::get('/financial-management.php', 'HomeController@financial_management');
 Route::get('/college-management-software.php', 'HomeController@college_management_software');
+Route::get('/college-management-software-new.php', 'HomeController@college_management_software_new');
 Route::get('/institute-management-software.php', 'HomeController@institute_management_software');
+Route::get('/institute-management-software-new.php', 'HomeController@institute_management_software_new');
+Route::get('/university-management-software-new.php', 'HomeController@university_management_software_new');
 Route::get('/credit-cooperative-society-software.php', 'HomeController@credit_cooperative_society_software');
 Route::get('/nidhi-company-software.php', 'HomeController@nidhi_company_software');
 Route::get('/nbfc-software.php', 'HomeController@nbfc_software');
@@ -244,6 +247,7 @@ Route::get('/online-exam-app-development.php', 'HomeController@online_exam_app_d
 Route::get('/website-development-company-alwar.php', 'HomeController@website_development_company_alwar');
 Route::get('/school-website-design.php', 'HomeController@school_website_design');
 Route::get('/school-management-software.php', 'HomeController@school_management_software');
+Route::get('/school-management-software-new.php', 'HomeController@school_management_software_new');
 Route::get('/college-website-design.php', 'HomeController@college_website_design');
 Route::get('/rfid-attendance-system-india.php', 'HomeController@rfid_attendance_system_india');
 Route::get('/offshore-web-development-india.php', 'HomeController@offshore_web_development_india');

@@ -1313,6 +1313,124 @@ button.accordion-button {
 
 
 
+// Process We Follow section start
+.processSection {
+  & .processcard {
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    & .cardicon {
+      height: 85px;
+      width: 85px;
+      padding: 15px;
+      transition: all 0.3s ease-in-out;
+    }
+    & .card_heading {
+      margin-top: 45px;
+    }
+    & .card_detail {
+      margin-top: 20px;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      & .cardicon {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin processSection-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin processSection-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin processSection-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin processSection-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin processSection-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin processSection-mixin-max-xs() {
+  .processSection {
+    & .processcard {
+      padding: 12px;
+      & .cardicon {
+        height: 70px;
+        width: 70px;
+        padding: 16px;
+      }
+      & .card_heading {
+        margin-top: 20px;
+      }
+      & .card_detail {
+        margin-top: 10px;
+      }
+      &:hover {
+        transform: translateY(0px);
+        & .cardicon {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+// Small devices (landscape phones, less than 768px)
+@mixin processSection-mixin-max-sm() {
+  .processSection {
+    & .processcard {
+      & .cardicon {
+        height: 75px;
+        width: 75px;
+        padding: 13px;
+      }
+      & .card_heading {
+        margin-top: 30px;
+      }
+      & .card_detail {
+        margin-top: 14px;
+      }
+      &:hover {
+        & .cardicon {
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin processSection-mixin-max-md() {
+  .processSection {
+    & .processcard {
+      & .cardicon {
+        height: 80px;
+        width: 80px;
+        padding: 16px;
+      }
+      & .card_heading {
+        margin-top: 30px;
+      }
+      & .card_detail {
+        margin-top: 14px;
+      }
+      &:hover {
+        & .cardicon {
+        }
+      }
+    }
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin processSection-mixin-max-lg() {
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin processSection-mixin-max-xl() {
+}
+
+// Process We Follow section end
+
 
 
 
@@ -1325,6 +1443,7 @@ button.accordion-button {
   @include aboutHotal-mixin-min-sm();
   @include feateureSection-mixin-min-sm();
   @include faq_section-mixin-min-sm();
+  @include processSection-mixin-min-sm();
 
 
 
@@ -1338,6 +1457,7 @@ button.accordion-button {
   @include aboutHotal-mixin-min-md();
   @include feateureSection-mixin-min-md();
   @include faq_section-mixin-min-md();
+  @include processSection-mixin-min-md();
 
 
 
@@ -1352,6 +1472,7 @@ button.accordion-button {
   @include aboutHotal-mixin-min-lg();
   @include feateureSection-mixin-min-lg();
   @include faq_section-mixin-min-lg();
+  @include processSection-mixin-min-lg();
 
 
 
@@ -1366,6 +1487,7 @@ button.accordion-button {
   @include aboutHotal-mixin-min-xl();
   @include feateureSection-mixin-min-xl();
   @include faq_section-mixin-min-xl();
+  @include processSection-mixin-min-xl();
 
 
 
@@ -1382,6 +1504,7 @@ button.accordion-button {
   @include aboutHotal-mixin-min-xxl();
   @include feateureSection-mixin-min-xxl();
   @include faq_section-mixin-min-xxl();
+  @include processSection-mixin-min-xxl();
 
 
 
@@ -1398,6 +1521,7 @@ button.accordion-button {
   @include aboutHotal-mixin-max-xl();
   @include feateureSection-mixin-max-xl();
   @include faq_section-mixin-max-xl();
+  @include processSection-mixin-max-xl();
 
 
 
@@ -1415,6 +1539,7 @@ button.accordion-button {
   @include aboutHotal-mixin-max-lg();
   @include feateureSection-mixin-max-lg();
   @include faq_section-mixin-max-lg();
+  @include processSection-mixin-max-lg();
 
 
 
@@ -1432,6 +1557,7 @@ button.accordion-button {
   @include aboutHotal-mixin-max-md();
   @include feateureSection-mixin-max-md();
   @include faq_section-mixin-max-md();
+  @include processSection-mixin-max-md();
 
 
 
@@ -1449,6 +1575,7 @@ button.accordion-button {
   @include aboutHotal-mixin-max-sm();
   @include feateureSection-mixin-max-sm();
   @include faq_section-mixin-max-sm();
+  @include processSection-mixin-max-sm();
 
 
 
@@ -1472,6 +1599,7 @@ button.accordion-button {
   @include benefitsCardSection-mixin-max-xs();
   @include moduleSection-mixin-max-xs();
   @include testimonialSection-mixin-max-xs();
+  @include processSection-mixin-max-xs();
 
 
 
