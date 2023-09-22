@@ -32,47 +32,35 @@
 @endpush
 @section('content')
 
-{{-- hero section  --}}
-<div class="container-fluid hero-section bg-light v100 px-0">
-   <div class="hero-section-innner h-100 d-flex align-items-center  position-relative">
-       <div class="container">
-           <div class="row position-relative align-items-center z-1">
-               <div class="col-lg-6 order-lg-1 order-2">
-                   <div class="row pt-3 text-lg-start text-md-center text-center position-relative">
-                           {{-- <div class="col-12 hero-section-subheading text-lg-start text-center fw-bold fs-lg-24 text-white fs-md-20">
-                               Healthcare Solutions
-                           </div> --}}
-
-                           <div class="col-12 ">
-                               <div class="row mx-0 pb-2 justify-content-lg-start text-center justify-content-center">
-
-                                   <h1 class="d-none invisible">MLM Software Development Company India </h1>
-                                   <div class="col-12 heading fs-md-14 fs-12 left text-white text-lg-start text-center">
-                                       <span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">MLM Software  <b> Development <br> Company India</b></span>
-                                   </div>
-                               </div>
+   <!-- top banner section -->
+   <div class="container-fluid overflow-hidden bg-white top_banner position-relative" style="--bg:url({{asset('/public')}}/assets/img/mlm-software/hero.webp);">
+      <div class="container py-5 position-relative zi-2">
+         <div class="row pt-4">
+            <div class="col-12">
+               <div class="row pt-4 align-items-center">
+                  <div class="col-lg-6 py-lg-5 pt-md-5 pb-md-4 py-4 order-lg-0 order-md-1 order-1">
+                     <div class="row pt-3 text-lg-start text-md-center text-center">
+                        <div class="col-12">
+                           <div class="row mx-0 pb-2">
+                              <h1 class="d-none invisible">MLM Software Development Company India</h1>
+                              <div class="col-12 heading fs-md-14 fs-12 left text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> MLM Software <b> Development Company India</b></span></div>
                            </div>
-                           <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">MLM Business growing day by day, MLM Software plays an important role for successful Multi-Level marketing business. IMG Global Infotech is a leading Software Development Company in India which provides robust and simple Direct Selling MLM Software solutions for all kind of Multi-Level marketing companies that can be MLM business start-ups or a corporate level Multi-Level Marketing companies. Our maximum featured MLM Software enables MLM companies to manage and run their direct selling business more effectively towards a successful way.</div>
-
-                           {{-- <div class="col-12 herorsection-data fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">Today healthcare application development company is growing rapidly due to which various public and private sector businesses are investing as well as participating in it at large scale. This significant growth enabled hospitals to use latest technologies like software in their health care centre to give better health care services to patients. As Enterprise Resource Planning is offering ultimate solutions to many sectors, hence healthcare industry is no exception.</div> --}}
-                           <div class="col-auto mx-lg-0 mx-auto mt-lg-0 mt-3">
-                               <a class="nav-link d-flex btn  btn-button1  fw-l fs-xxl-16 fs-xl-16 fs-lg-16 fs-14 mb-3 rounded text-white text-capitalize px-lg-3 py-xxl-2 py-xl-2 py-lg-2 py-md-1 py-sm-1 py-1 d-flex" href="https://www.imgglobalinfotech.com/request-a-quote.php">Start a Project<i class="imgd img-long-arrow-right position-relative fs-23 ms-2 arrowright"></i></a>
-                           </div>
-                       </div>
+                        </div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-white mt-3 mb-lg-3">MLM Business growing day by day, MLM Software plays an important role for successful Multi-Level marketing business. IMG Global Infotech is a leading Software Development Company in India which provides robust and simple Direct Selling MLM Software solutions for all kind of Multi-Level marketing companies that can be MLM business start-ups or a corporate level Multi-Level Marketing companies. Our maximum featured MLM Software enables MLM companies to manage and run their direct selling business more effectively towards a successful way.</div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 pe-lg-5 top_banner-left-part">
+                     <div class="row justify-content-lg-end justify-content-md-center justify-content-center">
+                        <div class="col-lg-8 col-md-5 col-7 position-relative" style="transform-style: preserve-3d;" data-tilt-full-page-listening data-tilt="" data-tilt-max="2" data-tilt-speed="400" data-tilt-perspective="2500" data-tilt-reverse="true">
+                           <img src="{{GETFOLDERPATH()}}/mlm-software-development-company-1.webp" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/MLM-Software-Development-Company-India.webp"alt="MLM Software Development Company India" width="100" height="auto">   
+                        </div>
+                     </div>
+                  </div>
                </div>
-               <div class="col-lg-6 order-lg-2 order-1">
-                   <div class="portfolio-img bottomxx">
-                     <img src="{{GETFOLDERPATH()}}/mlmherosm.png" class="lazy-image h-100 w-100" data-src="{{GETFOLDERPATH()}}/mlmherosm.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
-
-                       {{-- <img src="assets/img/features.svg" alt="portfolio" class="h-100 w-100 "> --}}
-                   </div>
-               </div>
-           </div>
-       </div>
+            </div>
+         </div>
+      </div>
    </div>
-</div>
-
-{{-- hero section  end  --}}
 
    <!-- bredcrumb section -->
    <div class="container-fluid overflow-hidden px-0 bredcrumb_main py-lg-3 py-md-2 py-2 d-md-block d-none">
@@ -82,21 +70,57 @@
                <nav aria-label="breadcrumb">
                   <ol class="breadcrumb mb-0">
                      <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">Trending Solutions</a></li>
-                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">School Management Software</li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">MLM Software Development</li>
                   </ol>
                </nav>
             </div>
          </div>
       </div>
    </div>
-   <!-- bredcrumb section  end-->
 
+
+   <!-- Why Trust section -->
+   <div class="container-fluid overflow-hidden why-trust-section bg-white position-relative">
+      <div class="container py-5 position-relative zi-2">
+         <div class="row">
+            <div class="col-12">
+               <div class="row align-items-center">
+                  <div class="col-lg-5 pe-lg-5 top_banner-left-part">
+                     <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-5 col-7 position-relative" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="2" data-tilt-speed="400" data-tilt-perspective="2500" data-tilt-reverse="true">
+                           <img src="{{GETFOLDERPATH()}}/mlm-software-development-company-2.webp" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/What-is-Nidhi-software.webp"alt="What Is Nidhi Software" width="100" height="auto">      
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-7">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="row mx-0 pb-4 pt-lg-0 pt-4">
+                              <h2 class="d-none invisible">Why Trust IMG Global for MLM Software Development?</h2>
+                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Trust IMG Global for <b> MLM Software Development?</b></span></div>
+                           </div>
+                        </div>
+                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">
+                           <ul class="list-unstyled">
+                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Reliable and Secure MLM Software and Tools.</li>
+                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Affordable Services and Solutions.</li>
+                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Mobile-Friendly Solutions.</li>
+                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Easy Integration With Third Party Software and Tools.</li>
+                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Lots of Satisfied Clients Across The Globe</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 
 
  <!-- about hotal mangement -->
 
- <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
+ {{-- <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
    <div class="container">
      <div class="row align-items-center gap-lg-0 gap-3">
       <div class="col-lg-6 ">
@@ -118,14 +142,14 @@
   
        </div>
      </div>
-</div>
+</div> --}}
 <!-- about hotal mangement -->
 
 
 
 {{-- feature section start  --}}
 
-<div class="container-fluid py-lg-5 py-md-4 py-3 featureSection">
+<div class="container-fluid py-lg-5 py-md-4 py-3  featureSection">
    <div class="container">
       <div class="row">
          <div class="col-12">
@@ -138,19 +162,16 @@
          <div class="col-12">
             <div class="row gy-4">
                <div class="col-md-6">
-                  <div class="featureCard h-100">
-                     <div class="row align-items-center">
-                        <div class="col-auto">
-                           <div class="featureImg d-flex align-items-center justify-content-center" style="background-color: #FF6726;">
-                              <img src="{{GETFOLDERPATH()}}/binary_feature1.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/binary_feature1.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                           </div>
+                  <div class=" card1 h-100">
+                        <div class="cardHeading">This is option 1</div>
+                        <div class="small cardPera">Card description with lots of great facts and interesting details.</div>
+                        <div class="go-corner" href="#">
+                          <div class="go-arrow">
+                           <img src="{{GETFOLDERPATH()}}/binary_feature2.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/binary_feature2.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                          </div>
                         </div>
-                        <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Genealogy</div>
-                           <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Graphically portray the distributor hierarchy, enabling efficient tracking, network analysis, and strategic planning</div>
-                        </div>
-                     </div>
                   </div>
+               </div>
                </div>
                <div class="col-md-6">
                   <div class="featureCard h-100" >
@@ -238,7 +259,27 @@
 
 {{-- feature section end  --}}
 
-
+   
+      <!-- cta section start  -->
+      <div class="container-fluid py-lg-5 py-md-4 py-3 ctaSection  hospitalCta">
+         <div class="container">
+             <div class="row">
+                 <h3 class="col-12 d-none invisible"></h3>
+                 <div class="col-12 fs-xl-32 fs-lg-32  text-center fs-md-23 fs-22 fw-m text-white mb-1 textcenter">
+                  Looking for an education software to manage solution to manage <br> all your education operation
+                 </div>
+                 <div class="col-12  text-center fs-xxl-18 fs-xl-18 fs-lg-18 fs-md-18 fs-sm-15 fs-15 fw-l text-white mb-4">
+                  Team up with us for school management system developemnt
+                 </div>
+                 <div class="col-12  text-center">
+                     <a href="https://www.imgglobalinfotech.com/request-a-quote.php" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  btn-button1 fs-xl-18 fs-lg-18 fs-md-19 fs-15 text-white  py-xxl-2 py-1 px-4">
+                         <span class="d-flex align-items-center"><span>Contact Us Now</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                     </a>
+                 </div>
+             </div>
+         </div>
+         </div>
+      <!-- cta section end  -->
 
 
    <!-- Why Trust section -->
