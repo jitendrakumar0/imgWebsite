@@ -200,6 +200,7 @@ Route::get('/custom-erp-development.php', 'HomeController@custom_erp_development
 Route::get('/woocommerce-website-development.php', 'HomeController@woocommerce_website_development');
 Route::get('/industrial-erp-development.php', 'HomeController@industrial_erp_development');
 Route::get('/mlm-software-development-company.php', 'HomeController@mlm_software_development_company');
+Route::get('/mlm-software-development-company-new.php', 'HomeController@mlm_software_development_company_new');
 Route::get('/material-management.php', 'HomeController@material_management');
 Route::get('/financial-management.php', 'HomeController@financial_management');
 Route::get('/college-management-software.php', 'HomeController@college_management_software');

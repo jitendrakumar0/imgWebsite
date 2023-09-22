@@ -676,6 +676,10 @@ class HomeController extends Controller
     {
         return view('mlm-software-development-company.index');
     }
+    public function mlm_software_development_company_new()
+    {
+        return view('mlm-software-development-company-new.index');
+    }
     public function material_management()
     {
         return view('material-management.index');

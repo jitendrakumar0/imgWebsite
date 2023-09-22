@@ -235,7 +235,15 @@
   .aboutHotal{
     background:lighten($black, 99);
     position: relative;
-   
+   & .heading{
+    &::after{
+      right: 0;
+
+    }
+    &::before{
+      right: 0;
+    }
+   }
   & .fixed-shape{
     position: absolute;
       left: 0;

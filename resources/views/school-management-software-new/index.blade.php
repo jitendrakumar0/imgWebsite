@@ -120,6 +120,7 @@
          </div>
       </div>
    </div>
+   <!-- bredcrumb section  end-->
 
  <!-- about hotal mangement -->
 
@@ -128,8 +129,8 @@
      <div class="row align-items-center gap-lg-0 gap-3">
        <div class="col-lg-6 order-lg-1 order-2">
          <div class="row mx-0 pb-lg-4 pb-3">
-           <h2 class="d-none invisible"> School Management Software</h2>
-           <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  School Management  <b> Software Development</b></span></div>
+           <h3 class="d-none invisible"> School Management Software</h3>
+           <div class="col-12 heading fs-md-14 fs-12 left  text-lg-start text-center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  School Management  <b> Software Development</b></span></div>
         </div>
          <div class="row">
            <div class="col-12">
@@ -914,7 +915,7 @@
             <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Process <b> We Follow </b></span></div>
          </div>
          <div class="row">
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-theme3">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-theme3 fs-30">
@@ -926,7 +927,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6  d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-info">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-info fs-30">
@@ -938,7 +939,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6  d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-success">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-success fs-30">
@@ -950,7 +951,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6  d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-theme2">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-theme2 fs-30">
@@ -962,7 +963,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6  d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-theme2">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-theme2 fs-30">
@@ -974,7 +975,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6  d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-info">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-info fs-30">
@@ -986,7 +987,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
+            <div class="col-lg-3 col-md-6  d-flex align-items-stretch py-2">
                <div class="what-we-do-box shadow border-theme3">
                   <div class="what-we-content bg-white">
                      <div class="col-12 fs-md-40 fs-sm-35 text-theme3 fs-30">
