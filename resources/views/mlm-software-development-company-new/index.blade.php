@@ -263,6 +263,72 @@
 
 {{-- feature section end  --}}
 
+
+<div class="container-fluid py-lg-5 py-md-4 py-3 popularPlan">
+   <div class="container">
+      <div class="row">
+         <div class="col-12">
+            <div class="row mx-0 mb-lg-4 mb-md-4 mb-3">
+               <h3 class="d-none invisible">Popular Compensation plans for your Ecommerce Business</h3>
+               <div class="col-12 heading fs-md-14 fs-12 text-center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Popular Compensation plans for <b>your Ecommerce Business</b> </span></div>
+               <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-dark mb-3 mt-3 text-center px-0">Here are some popular compensation plans among our valuable customers. You can either choose a single compensation plan or multiple plan (Hybrid model) as per your requirements. Global MLM platform is 100% customizable and configurable based on the needs with ready-made options. Compensation can be set new trade registration or for the first trade or any other unique strategy.</div>
+            </div>
+         </div>
+         <div class="col-12">
+            <div class="row gy-4">
+               <div class="col-md-6">
+                  <div class="popularCard">
+                     <div class="row">
+                        <div class="col-auto">
+                           <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px numberHeading">01</span>
+                        </div>
+                        <div class="col">
+                           <div class="fs-lg-22 fs-md-20 fs-sm-18 fs-18 fw-semibold text-white ms-4">Binary MLM Software</div>
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="popularCard">
+                     <div class="row">
+                        <div class="col-auto">
+                           <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px numberHeading">02</span>
+                        </div>
+                        <div class="col">
+                           <div class="fs-lg-22 fs-md-20 fs-sm-18 fs-18 fw-semibold text-white ms-4">Matrix MLM Software</div>
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="popularCard">
+                     <div class="row">
+                        <div class="col-auto">
+                           <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px numberHeading">03</span>
+                        </div>
+                        <div class="col">
+                           <div class="fs-lg-22 fs-md-20 fs-sm-18 fs-18 fw-semibold text-white ms-4">Unilevel MLM Software</div>
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="popularCard">
+                     <div class="row">
+                        <div class="col-auto">
+                           <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px numberHeading">04</span>
+                        </div>
+                        <div class="col">
+                           <div class="fs-lg-22 fs-md-20 fs-sm-18 fs-18 fw-semibold text-white ms-4">Monoline MLM Software</div>
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
  
 {{-- advantage Section start  --}}
 

@@ -388,6 +388,67 @@
 }
 // feature Section end 
 
+// popularPlan section start 
+
+.popularPlan{
+  & .popularCard{
+    background-color: #03151d;
+    z-index: -2;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+      transform: translateY(-10px);
+      &::after{
+        background-color: #0d6efd !important;
+      }
+      &::before{
+        background: #0d6efd !important;
+      }
+    }
+    & .numberHeading{
+      font-weight: 700;
+      color: #fff;
+      font-size: 24px;
+      transition: .5s;
+      padding-left: 10px;
+
+    }
+    &::after{
+      background-color: #e09c19;
+      top: -10px;
+      left: 15px;
+      border-radius: 5px 0 5px 5px;
+      bottom: -10px;
+      width: 80px;
+      position: absolute;
+      content: '';
+      height: 100%;
+      z-index: -1;
+      transition: all 0.3s ease-in-out;
+
+    }
+    &::before{
+      content: "";
+      background: linear-gradient(to top right,#E68010 49%, transparent 53%);
+      height: 11px;
+      width: 12px;
+      position: absolute;
+      left: 95px;
+      top: -10px;
+      transition: all 0.3s ease-in-out;
+    
+    }
+  
+  }
+}
+
+// popularPlan section end 
+
+ 
+
+
 // hospital cta section start 
 .hospitalCta {
   background: linear-gradient(45deg, #116285, #099edd);
