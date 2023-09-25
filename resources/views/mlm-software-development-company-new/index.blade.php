@@ -162,16 +162,19 @@
          <div class="col-12">
             <div class="row gy-4">
                <div class="col-md-6">
-                  <div class=" card1 h-100">
-                        <div class="cardHeading">This is option 1</div>
-                        <div class="small cardPera">Card description with lots of great facts and interesting details.</div>
-                        <div class="go-corner" href="#">
-                          <div class="go-arrow">
-                           <img src="{{GETFOLDERPATH()}}/binary_feature2.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/binary_feature2.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                          </div>
+                  <div class="featureCard h-100" >
+                     <div class="row align-items-center">
+                        <div class="col-auto">
+                           <div class="featureImg d-flex align-items-center justify-content-center" style=" background-color: #2FD9C4;">
+                              <img src="{{GETFOLDERPATH()}}/binary_feature2.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/binary_feature2.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                           </div>
                         </div>
+                        <div class="col">
+                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ewallet</div>
+                           <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Elevate efficiency in your MLM business using Secure fund storage, swift transfers, and rapid commission payouts using Ewallet feature.</div>
+                        </div>
+                     </div>
                   </div>
-               </div>
                </div>
                <div class="col-md-6">
                   <div class="featureCard h-100" >
@@ -250,6 +253,7 @@
                      </div>
                   </div>
                </div>
+            </div>
             </div>
          </div>
       </div>
