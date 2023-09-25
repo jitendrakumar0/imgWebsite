@@ -155,8 +155,8 @@
          <div class="col-12">
             <div class="row mx-0 pb-5">
                <h2 class="d-none invisible">Features of IMG Global Infotech Pvt Ltd  MLM Software </h2>
-               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Features of IMG <b> Global Infotech Pvt MLM Software </b></span></div>
-               <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mb-3 mt-3 text-center">The IMG Global Infotech Pvt Ltd MLM Plan Software boasts advanced features such as customizable user management, real-time analytics, preference-driven optimizations, and enhanced data security for optimal profitability. </div>
+               <div class="col-12 heading fs-md-14 fs-12 center text-white"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Features of IMG <b> Global Infotech Pvt MLM Software </b></span></div>
+               <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-white mb-3 mt-3 text-center">The IMG Global Infotech Pvt Ltd MLM Plan Software boasts advanced features such as customizable user management, real-time analytics, preference-driven optimizations, and enhanced data security for optimal profitability. </div>
             </div>
          </div>
          <div class="col-12">
@@ -170,7 +170,7 @@
                            </div>
                         </div>
                         <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ewallet</div>
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ewallet</div>
                            <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Elevate efficiency in your MLM business using Secure fund storage, swift transfers, and rapid commission payouts using Ewallet feature.</div>
                         </div>
                      </div>
@@ -185,7 +185,7 @@
                            </div>
                         </div>
                         <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ewallet</div>
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ewallet</div>
                            <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Elevate efficiency in your MLM business using Secure fund storage, swift transfers, and rapid commission payouts using Ewallet feature.</div>
                         </div>
                      </div>
@@ -200,7 +200,7 @@
                            </div>
                         </div>
                         <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Epin</div>
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Epin</div>
                            <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Epin feature ensures secure, encrypted transactions, vital for smooth MLM software functionality and user assurance.</div>
                         </div>
                      </div>
@@ -215,7 +215,7 @@
                            </div>
                         </div>
                         <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Multi Tier Security</div>
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Multi Tier Security</div>
                            <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Multi Tier Security in MLM software fortifies data protection through layered defenses, enhancing reliability and trust.</div>
                         </div>
                      </div>
@@ -230,7 +230,7 @@
                            </div>
                         </div>
                         <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Responsive</div>
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Responsive</div>
                            <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Our system actively responds, providing prompt and efficient interaction for a seamless user experience.
                           </div>
                         </div>
@@ -246,7 +246,7 @@
                            </div>
                         </div>
                         <div class="col">
-                           <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ecommerce</div>
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Ecommerce</div>
                            <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-muted">Our system incorporates an eCommerce feature, enabling expansive online transactions and bolstering business growth.
                           </div>
                         </div>
@@ -263,7 +263,64 @@
 
 {{-- feature section end  --}}
 
-   
+ 
+{{-- advantage Section start  --}}
+
+<div class="container-fluid position-relative py-lg-5 py-md-4 py-3 advantageSection">
+   <div class="container">
+      <div class="row">
+         <div class="col-12"></div>
+         <div class="col-12">
+            <div class="row gap-lg-0 gap-4">
+               <div class="col-lg-7 order-lg-0 order-2">
+                  <div class="our_story-heading d-lg-block d-none"> Advantage of  </div>
+                  <div class="row gy-4">
+                     <div class="col-md-6">
+                        <div class="cardFeature">
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18 text-white mb-1">One-Stop Solution</div>
+                           <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-white">Product listing, orders, purchases, shipping details, order confirmation, the number of merchandise sold, etc… can all be integrated. </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="cardFeature cardFeature2">
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18 text-dark mb-1">Flexibility and Customization</div>
+                           <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-dark">High flexibility, customization, ease of development, use of modules extensions, templates, multi-store functionality, etc… are provided. </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 order-md-3 order-4">
+                        <div class="cardFeature cardFeature2">
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18 text-dark mb-1">Scalability</div>
+                           <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-dark">High scalability and security. Prerequisites for comprehensive upgrades ensure the scaling of the business more efficiently. </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 order-md-4 order-3">
+                        <div class="cardFeature cardFeature3">
+                           <div class="cardHeading fw-semibold fs-lg-25 fs-md-22 fs-sm-20 fs-18 text-white mb-1">Scalability</div>
+                           <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-white">High scalability and security. Prerequisites for comprehensive upgrades ensure the scaling of the business more efficiently. </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 order-lg-1 order-1">
+                  <div class="row">
+                     <div class="col-lg-10 mx-auto">
+                        <div class="row mx-0 pb-4 pt-lg-0 pt-4">
+                           <h2 class="d-none invisible">Advantage of Ecommerce MLM Software</h2>
+                           <div class="col-12 heading fs-md-14 fs-12 left text-lg-start text-center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Advantage of <b> Ecommerce MLM Software</b></span></div>
+                           <div class="col-12 fw-medium fs-lg-17 fs-md-15 fs-14 ps-0 text-dark mb-3 mt-3">Our safe, dependable and our user friendly MLM Software is Web based or online which provides easy tracking of members, sponsors, hierarchy various kinds of reports regarding sales, revenue, analytical and pictorial presentation in hierarchical structure of MLM members structure.</div>
+                           <div class="col-12 fw-l fw-medium fs-lg-17 fs-md-15 fs-14 ps-0  text-dark mb-3 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, tempora..</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+{{-- advantage Section ends  --}}
+  
       <!-- cta section start  -->
       <div class="container-fluid py-lg-5 py-md-4 py-3 ctaSection  hospitalCta">
          <div class="container">
@@ -285,176 +342,257 @@
          </div>
       <!-- cta section end  -->
 
-
-   <!-- Why Trust section -->
-   <div class="container-fluid overflow-hidden why-trust-section bg-white position-relative">
-      <div class="container py-5 position-relative zi-2">
-         <div class="row">
-            <div class="col-12">
-               <div class="row align-items-center">
-                  <div class="col-lg-5 pe-lg-5 top_banner-left-part">
-                     <div class="row justify-content-center">
-                        <div class="col-lg-10 col-md-5 col-7 position-relative" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="2" data-tilt-speed="400" data-tilt-perspective="2500" data-tilt-reverse="true">
-                           <img src="{{GETFOLDERPATH()}}/mlm-software-development-company-2.webp" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/What-is-Nidhi-software.webp"alt="What Is Nidhi Software" width="100" height="auto">      
-                         </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-7">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="row mx-0 pb-4 pt-lg-0 pt-4">
-                              <h2 class="d-none invisible">Why Trust IMG Global for MLM Software Development?</h2>
-                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why Trust IMG Global for <b> MLM Software Development?</b></span></div>
-                           </div>
-                        </div>
-                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">
-                           <ul class="list-unstyled">
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Reliable and Secure MLM Software and Tools.</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Affordable Services and Solutions.</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Mobile-Friendly Solutions.</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Easy Integration With Third Party Software and Tools.</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Lots of Satisfied Clients Across The Globe</li>
-                           </ul>
+{{-- plans for your Ecommerce section start  --}}
+      <div class="conatinerfluid py-lg-5 py-md-4 py-3 ecommercePlan">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="row">
+                     <div class="col-lg-4">
+                        <div class=""></div>
+                        <div class="planImg ">
+                           <img src="{{GETFOLDERPATH()}}/store-img.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/store-img.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
                         </div>
                      </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-
-   <!-- Key Feature section -->
-   <div class="container-fluid overflow-hidden why-trust-section bg-white position-relative">
-      <div class="container py-5 position-relative zi-2">
-         <div class="row">
-            <div class="col-12">
-               <div class="row align-items-center justify-content-end">
-                  <div class="col-lg-5 pe-lg-5 top_banner-left-part order-lg-2">
-                     <div class="row justify-content-center">
-                        <div class="col-lg-10 col-md-5 col-7 position-relative" style="transform-style: preserve-3d;" data-tilt="" data-tilt-max="2" data-tilt-speed="400" data-tilt-perspective="2500" data-tilt-reverse="true">
-                           <img src="{{GETFOLDERPATH()}}/mlm-software-development-company-3.webp" class="lazy-image w-100" data-src="{{GETFOLDERPATH()}}/Whatis-Nidhi-software.webp"alt="What Is Nidhi Software" width="100" height="auto">         
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-6 order-lg-1">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="row mx-0 pb-4 pt-lg-0 pt-4">
-                              <h2 class="d-none invisible">Key Feature of Our MLM Software Solutions</h2>
-                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Key Feature of Our <b> MLM Software Solutions</b></span></div>
-                           </div>
-                        </div>
-                        <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-muted text-lg-start text-center mt-3">
-                           <ul class="list-unstyled">
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Robust & Reliable Platform</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Easy Customization</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Safe and Secure MLM System</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Easy to Use</li>
-                              <li class="pb-1"><i class="imgd img-circle-notch text-theme1"></i> Stable and Scalable Solutions</li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-
-
-   <!-- developemnt services section -->
-   <div class="container-fluid development_services position-relative">
-      <div class="container py-5 position-relative zi-2">
-         <div class="row mx-0 pb-5">
-            <h2 class="d-none invisible">MLM Software Plans You Can Prefer</h2>
-            <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> MLM Software Plans <b> You Can Prefer </b></span></div>
-            <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mb-3 mt-3">Our safe, dependable and our user friendly MLM Software is Web based or online which provides easy tracking of members, sponsors, hierarchy various kinds of reports regarding sales, revenue, analytical and pictorial presentation in hierarchical structure of MLM members structure.</div>
-         </div>
-         <div class="row">
-            <div class="col-lg-3 col-md-6 col-12 text-center d-flex align-items-stretch mb-md-5 mb-4">
-               <div class="development_services_box shadow w-100">
-                  <span class="d-flex align-items-center justify-content-center h-70px w-70px rounded-pill border mx-auto mb-3 fs-22 text-white bg-theme1 tz" style="--tz:30px;">
-                     <img class="h-50px" src="{{asset('/public')}}/assets/img/mlm-software/Binary-Plan.webp" alt="Binary Plan">
-                  </span>
-                  <h3 class="d-none invisible">Binary Plan</h3>
-                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Binary Plan</div>
-                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Binary MLM is very much similar to tri-binary-plan.The only thing hat makes it different..</div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 text-center d-flex align-items-stretch mb-md-5 mb-4">
-               <div class="development_services_box shadow w-100">
-                  <span class="d-flex align-items-center justify-content-center h-70px w-70px rounded-pill border mx-auto mb-3 fs-22 text-white bg-theme1 tz" style="--tz:30px;">
-                     <img class="h-50px" src="{{asset('/public')}}/assets/img/mlm-software/Matrix-Plan-level-Plan.webp" alt="Matrix Plan/level Plan">
-                  </span>
-                  <h3 class="d-none invisible">Matrix Plan/level Plan</h3>
-                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Matrix Plan/level Plan</div>
-                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Matrix MLM plan is an organized plan for distributors that motivates them to hire more members..</div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 text-center d-flex align-items-stretch mb-md-5 mb-4">
-               <div class="development_services_box shadow w-100">
-                  <span class="d-flex align-items-center justify-content-center h-70px w-70px rounded-pill border mx-auto mb-3 fs-22 text-white bg-theme1 tz" style="--tz:30px;">
-                     <img class="h-50px" src="{{asset('/public')}}/assets/img/mlm-software/Investment-Plan.webp" alt="Investment Plan">
-                  </span>
-                  <h3 class="d-none invisible">Investment Plan</h3>
-                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Investment Plan</div>
-                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Investment is the most impressive! The inverstment plan is quite an impressive plan among all..</div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 text-center d-flex align-items-stretch mb-md-5 mb-4">
-               <div class="development_services_box shadow w-100">
-                  <span class="d-flex align-items-center justify-content-center h-70px w-70px rounded-pill border mx-auto mb-3 fs-22 text-white bg-theme1 tz" style="--tz:30px;">
-                     <img class="h-50px" src="{{asset('/public')}}/assets/img/mlm-software/Direct-Plan.webp" alt="Direct Plan">
-                  </span>
-                  <h3 class="d-none invisible">Direct Plan</h3>
-                  <div class="col-12 fw-m text-theme1 fs-19 lh-normal tz" style="--tz:30px;">Direct Plan</div>
-                  <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3 tz" style="--tz:30px;">Direct MLM plan is a uniquely specified business strategy that has become favourite for most..</div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- benifits section -->
-   <div class="container-fluid benifits">
-      <div class="container py-5 zi-2 position-relative">
-         <div class="row mx-0 pb-5">
-            <h2 class="d-none invisible">Benefits Of MLM Software</h2>
-            <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Benefits Of <b> MLM Software</b></span></div>
-         </div>
-         <div class="row h-100">
-            <div class="col-lg-6 col-md-6 py-4 d-flex align-items-stretch">
-               <div class="row mx-2 h-100">
-                  <div class="col-12 shadow rounded h-100 benifit-item">
-                     <div class="row text-center pt-4 pb-5 h-100">
-                        <div class="col-12">
-                           <span class="fs-50 text-theme1 position-relative"><i class="imgl img-laptop"></i></span>
-                        </div>
-                        <div class="col-12">
-                           <div class="row">
-                              <h3 class="d-none invisible">Effective Account Management</h3>
-                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Effective Account Management</div>
-                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">An effective account management is really essential for every organization, especially in Network Marketing Company. MLM Software enables you to manage all the records of members, transactions, expenses and more.</div>
+                     <div class="col-lg-8">
+                        <div class="row">
+                           <div class="col-lg-10 mx-auto">        
+                              <div class="row mx-0 pb-5">
+                                 <h2 class="d-none invisible">MLM Software Plans You Can Prefer</h2>
+                                 <div class="col-12 heading fs-md-14 fs-12 text-lg-start text-center  text-white left"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> MLM Software Plans <b> You Can Prefer </b></span></div>
+                                 <div class="col-12 mb-3 mt-3 px-0">
+                                    <div class=" fw-l fs-md-16 fs-sm-15 fs-14 text-white ">
+                                       Our safe, dependable and our user friendly MLM Software is Web based or online which provides easy tracking of members, sponsors, hierarchy various kinds of reports regarding sales, revenue, analytical and pictorial presentation in hierarchical structure of MLM members structure. 
+                                    </div>
+                                 </div>
+                                 <div class="col-12 px-0">
+                                    <div class="fw-bold fs-lg-18 fs-md-17 fs-17 text-white">Our multi-vendor shopping cart software suits best for Ecommerce solutions by clubbing together three elements</div>
+                                    <ul class="mb-0 mt-2">
+                                       <li class=" fw-medium text-theme3 fs-sm-16 fs-14">Vendor management</li>
+                                       <li class=" fw-medium text-theme3 fs-sm-16 fs-14">Customer management</li>
+                                       <li class=" fw-medium text-theme3 fs-sm-16 fs-14">Admin management</li>
+                                    </ul>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-6 col-md-6 py-4 d-flex align-items-stretch">
-               <div class="row mx-2 h-100">
-                  <div class="col-12 shadow rounded h-100 benifit-item">
-                     <div class="row text-center pt-4 pb-5 h-100">
-                        <div class="col-12">
-                           <span class="fs-50 text-theme1 position-relative"><i class="imgl img-user-secret"></i></span>
-                        </div>
-                        <div class="col-12">
-                           <div class="row">
-                              <h3 class="d-none invisible">High Data Security + Backup</h3>
-                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">High Data Security + Backup</div>
-                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">MLM Software provides a highly secure environment as it keeps all the history of transactions right from the starting period. Moreover, it prevents the loss of an important data.
+                     <div class="col-12 mt-3">
+                        <div class="row gy-4">
+                           <div class="col-lg-4 col-md-6">
+                              <div class="cardPlan h-100">
+                                 <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px planNumber">01</span>
+                                 <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Multi-vendor platform</div>
+                                 <div class="col-12  mt-2">
+                                    <ul class=" list-unstyled mb-0 mt-3 d-flex flex-column gap-2">
+                                       <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  ">
+                                                <div class=" fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                   Unlimited vendor profiles
+                                                </div>
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Separate theme availability
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Vendor-specific functionalities
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Commission & loyalty programs
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Coupon system
+                                             </div>
+                                          </div>
+                                         </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4  col-md-6">
+                              <div class="cardPlan h-100">
+                                 <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px planNumber">02</span>
+                                 <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Vendor platform</div>
+                                 <div class="col-12  mt-2">
+                                    <ul class=" list-unstyled mb-0 mt-3 d-flex flex-column gap-2">
+                                       <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  ">
+                                                <div class=" fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                   Unlimited products category
+                                                </div>
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Promotion tools
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Tax configuration
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Direct selling modules
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Report generation
+                                             </div>
+                                          </div>
+                                         </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4  col-md-6">
+                              <div class="cardPlan h-100">
+                                 <span class="devolopements-benefits-box-count left-md-n25px left-20px top-md-10px top-n20px planNumber">03</span>
+                                 <div class="col-12 text-start fw-m text-theme3 fs-md-18 fs-16 text-uppercase lh-normal">Ecommerce Tools</div>
+                                 <div class="col-12  mt-2">
+                                    <ul class=" list-unstyled mb-0 mt-3 d-flex flex-column gap-2">
+                                       <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  ">
+                                                <div class=" fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                   Unlimited user profiles
+                                                </div>
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Order management
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Shipment & tracking modules
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                Multi-payout system
+                                             </div>
+                                          </div>
+                                         </li>
+                                         <li>
+                                          <div class="row  align-items center">
+                                             <div class="col-auto d-flex align-items-center">
+                                                <div class="iconCheck d-inline-flex align-items center">
+                                                   <img src="{{GETFOLDERPATH()}}/Check.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Check.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                                </div>
+                                             </div>
+                                             <div class="col ps-0  fw-l fs-md-16 fs-sm-15 fs-14 text-white">
+                                                SEO & conversion tools
+                                             </div>
+                                          </div>
+                                         </li>
+                                    </ul>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -462,46 +600,128 @@
                   </div>
                </div>
             </div>
-            <div class="col-lg-6 col-md-6 py-4 d-flex align-items-stretch">
-               <div class="row mx-2 h-100">
-                  <div class="col-12 shadow rounded h-100 benifit-item">
-                     <div class="row text-center pt-4 pb-5 h-100">
-                        <div class="col-12">
-                           <span class="fs-50 text-theme1 position-relative"><i class="imgs img-sitemap"></i></span>
-                        </div>
-                        <div class="col-12">
-                           <div class="row">
-                              <h3 class="d-none invisible">Multiple Compensation Plans</h3>
-                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Multiple Compensation Plans</div>
-                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">MLM Software must have the pre-built multiple recompense plans for the Multi-Level Organization which include plans like; Binary Plan, Matrix Plan, one Plan, Board Plan and Gift Plan. You can choose any of these plans; moreover, you can create your own custom MLM plan as well.
-                              </div>
-                           </div>
-                        </div>
+         </div>
+      </div>
+
+{{-- plans for your Ecommerce section end  --}}
+
+
+
+   <!-- Start Portfolio Section -->
+   <div class="container-fluid overflow-hidden bg-white new-portfolio position-relative">
+      <div class="container py-md-5 py-4 position-relative ">
+         <div class="row">
+            <div class="row mx-0 mb-lg-4 mb-md-4 mb-3">
+               <h3 class="d-none invisible">Our Portfolio</h3>
+               <div class="col-12 heading fs-md-14 fs-12"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Our <b>Portfolio</b> </span></div>
+            </div>
+         </div>
+         <div class="row align-items-center justify-content-center owl-portfolio-slider owl-carousel mx-0">
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox ">
+                  <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1" 
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/beliver11.webp"  alt="Beliver11"  >
+                     <div class="portfolioBoxContent">
+                           <div class="h4">Beliver11</div>
+                        <p>Fantasy Sports App</p>
                      </div>
-                  </div>
                </div>
             </div>
-            <div class="col-lg-6 col-md-6 py-4 d-flex align-items-stretch">
-               <div class="row mx-2 h-100">
-                  <div class="col-12 shadow rounded h-100 benifit-item">
-                     <div class="row text-center pt-4 pb-5 h-100">
-                        <div class="col-12">
-                           <span class="fs-50 text-theme1 position-relative"><i class="imgl img-camera-retro"></i></span>
-                        </div>
-                        <div class="col-12">
-                           <div class="row">
-                              <h3 class="d-none invisible">Helps in Business Record Tracking</h3>
-                              <div class="col-12 fw-m fs-md-17 fs-sm-16 fs-15 text-uppercase lh-normal benefits_heads text-theme3">Helps in Business Record Tracking</div>
-                              <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-3">MLM Software works as the reporting platform that keeps all the records. It is the most reliable marketing software for tracking the business records. It helps to track the number of members, various kinds of sales reports, revenue, analytical and pictorial representation in a hierarchical structure of MLM members.</div>
-                           </div>
-                        </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox ">
+               <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/EcoCosmo-Project.webp" alt="EcoCosmo">
+                  <div class="portfolioBoxContent">
+                        <div class="h4">EcoCosmo</div>
+                        <p>Tracking App</p>
                      </div>
-                  </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox">
+                  <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp"class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/coaching-select.webp" alt="Coaching Select">
+                     <div class="portfolioBoxContent">
+                        <div class="h4">Coaching Select</div>
+                        <p>Education Website</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox ">
+                  <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/myfab11.webp"  alt="MyFab11 App">
+                     <div class="portfolioBoxContent">
+                        <div class="h4">MyFab11 App </div>
+                        <p>Fantasy Sports App</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox ">
+               <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/Health-app.webp" alt="I-kown">
+                     <div class="portfolioBoxContent">
+                        <div class="h4">I-kown</div>
+                        <p>Health App</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox ">
+               <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/royal11-project.webp"  alt="Royal 11">
+                     <div class="portfolioBoxContent">
+                        <div class="h4">Royal 11 </div>
+                        <p>Fantasy Sports App</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox ">
+               <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/now-vue.webp" alt="Now Vue">
+                     <div class="portfolioBoxContent">
+                        <div class="h4">Now Vue </div>
+                        <p>Guest Check In App</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox">
+                  <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                  data-src="{{asset('/public')}}/assets/img/portfolio-section/My-Pitch.webp" alt="My Pitch">
+                        <div class="portfolioBoxContent">
+                        <div class="h4">My Pitch </div>
+                        <p>Fantasy Sports App</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12 ">
+               <div class="portfolioBox">
+                     <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                     data-src="{{asset('/public')}}/assets/img/portfolio-section/ipay.webp"  alt="ipay">
+                        <div class="portfolioBoxContent">
+                        <div class="h4">iPay</div>
+                        <p>Recharge App</p>
+                     </div>
+               </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+               <div class="portfolioBox">
+                     <img src="{{asset('/public')}}/assets/img/portfolio-section/blank-image.webp" class="lazy-image img-fluid w-100 rounded-2 border border-1 p-1"
+                        data-src="{{asset('/public')}}/assets/img/portfolio-section/destist-online.webp" alt="Dentist Online">
+                        <div class="portfolioBoxContent">
+                        <div class="h4">Dentist Online</div>
+                        <p>Health App</p>
+                     </div>
                </div>
             </div>
          </div>
-      </div>
    </div>
+</div>
+
+{{-- end portfolio section  --}}
 
    <!-- Contact Us Project section -->
    <div class="container-fluid overflow-hidden Contact_us_project position-relative">
@@ -522,6 +742,101 @@
          </div>
       </div>
    </div>
+   <!-- Contact Us Project section end -->
+
+{{-- why choose us  section start --}}
+
+<div class="container-fluid py-lg-5 py-md-4 py-3 whyChooseUs">
+   <div class="container">
+      <div class="row gap-lg-0 gap-4 h-100">
+         <div class="col-lg-8">
+            <div class="row">
+               <div class="col-12">
+                  <div class="row mx-0 pb-4 pt-lg-0 pt-4">
+                     <h2 class="d-none invisible">Why Choose Us?</h2>
+                     <div class="col-12 heading fs-md-14 fs-12 left text-lg-start text-center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">Why <b> Choose Us?</b></span></div>
+                     <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-dark mb-3 mt-3 px-0">Our team possesses years of technical knowledge and experience in developing the best direct selling software. Infinite MLM software has been a pioneer in MLM software development for the last decade. We are well equipped to provide infinite solutions for all your MLM requirements.</div>
+                     {{-- <div class="col-12 fw-l fs-md-16 fs-sm-15 fs-14 text-dark mb-3 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, tempora..</div> --}}
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="row">
+                     <div class="row gap-5">
+                        <div class="col-12">
+                           <div class="row">
+                              <div class="col-auto">
+                                 <div class="iconWhy doteLine">
+                                    <img src="{{GETFOLDERPATH()}}/Why2.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Why2.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">High-End Features</div>
+                                 <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-dark">The best MLM Software integrated with advanced features like e-pin, e-wallet, e-commerce integration, and more. </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="row">
+                              <div class="col-auto">
+                                 <div class="iconWhy doteLine">
+                                    <img src="{{GETFOLDERPATH()}}/Why1.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Why1.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Updated with the latest tech</div>
+                                 <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-dark">Multi Level Marketing Software integrated with the latest versions of advanced technologies including Python, Laravel, PHP, React, and Node.js. </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="row">
+                              <div class="col-auto">
+                                 <div class="iconWhy">
+                                    <img src="{{GETFOLDERPATH()}}/Why3.png" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Why3.png"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="cardHeading fw-bold fs-lg-25 fs-md-22 fs-sm-20 fs-18">Highly Secured</div>
+                                 <div class="cardPera fw-medium fs-lg-17 fs-md-15 fs-14 text-dark">MLM Software equipped with premium security features that can protect you from any security issues. </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="row h-100">
+               <div class="col-12">
+                  <ul class="sideNav bg-light rounded-4 d-flex flex-column gap-3 py-4 px-5 h-100 mb-0">
+                     <li class="fs-lg-18 fs-md-16 fs-16">15 + Years in MLM Software Industry</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Safe and Secure MLM Software</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Multiple MLM Business Plans</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Easy Customization</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Quick Problem Solving</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Robust Reliable Platform</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Stable and Scalable</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Easy to Use</li>
+                     <li class="fs-lg-18 fs-md-16 fs-16">Latest technologies</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+{{-- why choose us  section end --}}
+
+
+
+
+
+
+
+
+
 
    <!--faq-->
    <div class="container-fluid overflow-hidden bg-light faq_section position-relative py-md-5 py-4">
@@ -768,9 +1083,6 @@
                                                             </div>
                                                         </div>
                                                      </div>
-
-
-                                                     
                                                    </div>
                                                  </div>
                                                </div>
