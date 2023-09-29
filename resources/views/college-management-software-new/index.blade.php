@@ -129,7 +129,7 @@
          <div class="col-lg-6 order-lg-1 order-2">
             <div class="row mx-0 pb-lg-4 pb-3">
             <h2 class="d-none invisible"> College Management Software</h2>
-            <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  College Management  <b> Software Development</b></span></div>
+            <div class="col-12 heading fs-md-14 fs-12 left text-lg-start text-center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  College Management  <b> Software Development</b></span></div>
          </div>
             <div class="row">
             <div class="col-12">
@@ -690,55 +690,55 @@
    </div>              
 {{-- benifits section end  --}}
 
-      <!-- why hire section start  -->
-         <div class="container-fluid overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-4 py-3 position-relative">
-            <div class="container">
-                <div class="row align-content-center align-items-center position-relative">
-                     <div class="col-lg-7 col-md-12">
-                           <div class="row mx-0 pb-3">
-                              <h3 class="d-none invisible">Why Hire Mobile App Developers from IMG Global Infotech?</h3>
-                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Why Hire Mobile App Developers from  <b>IMG Global Infotech?</b></span></div>
+   <!-- why hire section start  -->
+   <div class="container-fluid hiredeleloper overflow-hidden why-hire-developers-img py-xl-5 py-lg-5 py-md-4 py-3 position-relative">
+      <div class="container">
+         <div class="row align-content-center align-items-center position-relative">
+               <div class="col-lg-7 col-md-12">
+                     <div class="row mx-0 pb-3">
+                        <h3 class="d-none invisible">Why Hire Mobile App Developers from IMG Global Infotech?</h3>
+                        <div class="col-12 heading fs-md-14 fs-12 left text-lg-start text-center"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Why Hire Mobile App Developers from  <b>IMG Global Infotech?</b></span></div>
+                     </div>
+                     <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
+                     Transform your app ideas into reality by hiring skilled mobile app developers from IMG Global Infotech. Our dedicated team of developers brings expertise in crafting innovative and user-friendly mobile applications. With a focus on delivering seamless user experiences and meeting project requirements, our mobile app developers combine creativity, reliability, and professionalism to bring your app vision to life. Experience the power of mobile app development with our talented team at IMG Global Infotech.
+                     </div>
+                     <div>
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-12 mb-1">     
+                           <div class="col-12 col-lg-12 position-relative">
+                                    <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
+                                    
+                                 </ul>
+                              </div>
                            </div>
-                           <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
-                           Transform your app ideas into reality by hiring skilled mobile app developers from IMG Global Infotech. Our dedicated team of developers brings expertise in crafting innovative and user-friendly mobile applications. With a focus on delivering seamless user experiences and meeting project requirements, our mobile app developers combine creativity, reliability, and professionalism to bring your app vision to life. Experience the power of mobile app development with our talented team at IMG Global Infotech.
+
+                           <div class="col-lg-6 col-md-6 col-12 mb-1">     
+                              <div class="col-12 col-lg-12 position-relative">
+                                    <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
+                                    <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
+                                 </ul>
+                              </div>
                            </div>
-                           <div>
-                              <div class="row">
-                                 <div class="col-lg-6 col-md-6 col-12 mb-1">     
-                                     <div class="col-12 col-lg-12 position-relative">
-                                        <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="8+ Years in Business"></span> 8+ Years in Business</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Experienced and Talented Coders"></span>Experienced and Talented Coders</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Cost-Effective Solutions"></span> Cost-Effective Solutions</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Clear Communication"></span> Clear Communication</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Transparency Guaranteed"></span> Transparency Guaranteed</li>
-                                         
-                                       </ul>
-                                    </div>
-                                 </div>
-   
-                                <div class="col-lg-6 col-md-6 col-12 mb-1">     
-                                    <div class="col-12 col-lg-12 position-relative">
-                                        <ul class="fw-l fs-16 text-dark list-unstyled text-capitalize ">
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="100+ In-House Developers"></span> 100+ In-House Developers</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Flexible Engagement Models"></span> Flexible Engagement Models</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Daily, Weekly, and Monthly Reporting"></span> Daily, Weekly, and Monthly Reporting</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="On-Time Efficiency"></span> On-Time Efficiency</li>
-                                          <li class="fw-l align-items-start align-items-start d-flex mb-3"><span class="pe-2"><img class="w-25px p-1 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/icons1.webp" alt="Data-Driven Algorithms"></span> Data-Driven Algorithms</li>
-                                       </ul>
-                                    </div>
-                                </div>
-                               </div>
                            </div>
-                        </div>
-   
-                        <div class="col-lg-5 col-md-12 col-12 p-0 leftside">
-                          <img class="w-100 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/android-team.webp" alt="android-team">
-                         </div>
-                </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-5 col-md-12 col-12 p-0 leftside">
+                     <img class="w-100 position-relative" src="https://www.imgglobalinfotech.com/public/assets/img/hire-mobile-app-developers/android-team.webp" alt="android-team">
+                     </div>
             </div>
-        </div>
-      <!-- why hire section end  -->
+      </div>
+   </div>
+   <!-- why hire section end  -->
 
    <div class="container-fluid testimonialSection py-lg-5 py-md-4 py-3">
       <div class="container py-lg-5 py-md-4 py-3">
@@ -750,7 +750,7 @@
                         <div class="col-12">
                            <div class="row mx-0 pb-3">
                               <h3 class="d-none invisible">Here’s what our</h3>
-                              <div class="col-12 heading fs-md-14 fs-12 left"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Here’s what our <b>customers have said.</b></span></div>
+                              <div class="col-12 heading fs-md-14 fs-12 left text-md-start text-center"><span class="fs-xl-33 fs-lg-29 fs-md-24 fs-20 text-dark"> Here’s what our <b>customers have said.</b></span></div>
                            </div>
                         </div>
                         <div class="col-12 fw-l fs-lg-16 fs-md-16 fs-sm-15 fs-14 text-mute mb-4">   
@@ -758,9 +758,9 @@
                         </div>
                         <div class="col-12 text-sm-start text-center">
                            <a href="https://www.imgglobalinfotech.com/request-a-quote.php" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  btn-button1 fs-xl-18 fs-lg-18 fs-md-19 fs-15 text-white  py-xxl-2 py-1 px-4">
-                               <span class="d-flex align-items-center"><span>View More</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
+                                 <span class="d-flex align-items-center"><span>View More</span> <i class="imgd img-long-arrow-right arrowright position-relative fs-xxl-25 fs-xl-25 fs-lg-22 fs-md-22 fs-sm-15 fs-20  ms-3 "></i></span>
                            </a>
-                       </div>
+                        </div>
                      </div>
                   </div>
                   <div class="col-lg-7">
@@ -905,267 +905,264 @@
       </div>
    </div>
 
-<!--Process We Follow section start -->
-   <div class="container-fluid overflow-hidden what-we-do bg-light processSection position-relative">
-      <div class="container py-5 position-relative zi-2">
-         <div class="row mx-0 pb-5">
-            <h2 class="d-none invisible">Process We Follow</h2>
-            <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Process <b> We Follow </b></span></div>
+   <!--Process We Follow section start -->
+      <div class="container-fluid overflow-hidden what-we-do bg-light processSection position-relative">
+         <div class="container py-5 position-relative zi-2">
+            <div class="row mx-0 pb-5">
+               <h2 class="d-none invisible">Process We Follow</h2>
+               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Process <b> We Follow </b></span></div>
+            </div>
+            <div class="row g-4">
+               {{-- <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-theme3">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-theme3 fs-30">
+                           <i class="imgd img-person-booth"></i>
+                        </div>
+                        <h3 class="d-none invisible">Requirements Gathering</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme3 content-head">Requirements Gatheringo</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ea asperiores quos illo ut quisquam excepturi autem quidem. Dolores, soluta?</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-info">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-info fs-30">
+                           <i class="imgd img-dungeon"></i>
+                        </div>
+                        <h3 class="d-none invisible">UI/UX Design</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-info content-head">UI/UX Design</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, tenetur, non nihil mollitia sequi temporibus ipsa eos consequuntur eaque accusamus repudiandae accusantium vitae voluptatem!</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-success">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-success fs-30">
+                           <i class="imgd img-weight"></i>
+                        </div>
+                        <h3 class="d-none invisible">Prototype</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-success content-head">Prototype</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur itaque quod doloribus dolor velit voluptatibus unde beatae ea. Adipisci, earum?</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-theme2">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-theme2 fs-30">
+                           <i class="imgd img-holly-berry"></i>
+                        </div>
+                        <h3 class="d-none invisible">Development</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme2 content-head">Development</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nihil ullam ad culpa fugiat placeat ut quae voluptate esse delectus.</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-theme2">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-theme2 fs-30">
+                           <i class="imgd img-id-card"></i>
+                        </div>
+                        <h3 class="d-none invisible">Quality Assurance</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme2 content-head">Quality Assurance</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci saepe rem culpa maiores delectus velit, incidunt architecto perferendis. Ex, voluptatum odit!</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-info">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-info fs-30">
+                           <i class="imgd img-fax"></i>
+                        </div>
+                        <h3 class="d-none invisible">Development</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-info content-head">Development</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, tenetur, non nihil mollitia sequi temporibus ipsa eos consequuntur eaque accusamus repudiandae accusantium vitae voluptatem!</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 d-flex align-items-stretch py-2">
+                  <div class="what-we-do-box shadow border-theme3">
+                     <div class="what-we-content bg-white">
+                        <div class="col-12 fs-md-40 fs-sm-35 text-theme3 fs-30">
+                           <i class="imgd img-campground"></i>
+                        </div>
+                        <h3 class="d-none invisible">Support & Maintenance</h3>
+                        <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme3 content-head">Support & Maintenance</div>
+                        <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ea asperiores quos illo ut quisquam excepturi autem quidem. Dolores, soluta?</div>
+                     </div>
+                  </div>
+               </div> --}}
+               <div class="col-lg-4 col-md-6">
+                  <div class="processcard h-100 shadow-sm bg-theme3 text-center">
+                     <div class="cardicon rounded-circle mx-auto bg-white">
+                        <img src="{{GETFOLDERPATH()}}/solution.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/solution.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                     </div>
+                     <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-white">One Stop Solution</div>
+                     <div class="card_detail fs-lg-16 fs-sm-15 fs-14 fw-1 text-white">The software offers a comprehensive solution for managing student enrollment, student attendance, student assessment, and generating online results thereby offering multiple services under one umbrella. This helps in improving the operational efficiency of the campus.</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="processcard h-100 text-center">
+                     <div class="cardicon rounded-circle mx-auto bg-theme1">
+                        <img src="{{GETFOLDERPATH()}}/Decision.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Decision.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                     </div>
+                     <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Decision Support System</div>
+                     <div class="card_detail fs-lg-16 fs-sm-15 fs-14 fw-1 text-dark">The ERP helps in improving the college’s decision making capabilities by analyzing large amounts of data. It integrates all departments to serve different needs, thus ensuring inventory reduction, increased productivity, preventing data processing redundancy, etc.</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="processcard h-100 bg-white shadow-sm text-center">
+                     <div class="cardicon rounded-circle mx-auto bg-theme1">
+                        <img src="{{GETFOLDERPATH()}}/Workflow.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Workflow.svg"alt="College Management Software Development Services" width="100" height="auto">   
+                     </div>
+                     <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Inbuilt Workflows And Checks</div>
+                     <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-dark">Inbuilt workflows ensure that the operations are standardized across the college, thus providing accountability. With built-in tracking, check, and reporting features, a significant amount of time and resources can be saved. Workflow visibility improves the overall college’s performance.</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="processcard h-100 bg-white shadow-sm text-center">
+                     <div class="cardicon rounded-circle mx-auto bg-theme1">
+                        <img src="{{GETFOLDERPATH()}}/rolebased.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/rolebased.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                     </div>
+                     <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Role Based Access</div>
+                     <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-dark">The system offers one system for different academic & administrative roles managing the entire college operations. Role-based access gives access to particular stakeholders, which enhances security & transparency, improves audit cost, and ensures better compliance & reporting.</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="processcard h-100 text-center">
+                     <div class="cardicon rounded-circle mx-auto bg-theme1">
+                        <img src="{{GETFOLDERPATH()}}/24Hour.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/24Hour.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                     </div>
+                     <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Device Flexibility, 24*7 Accessibility</div>
+                     <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-dark">The college ERP offers superior flexibility and doesn’t affect the ongoing operations by managing multiple systems, equipped with different accounting standards, and runs seamlessly. Also, it offers 24*7 access to student data from anywhere.</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="processcard h-100 shadow-sm bg-theme1 text-center">
+                     <div class="cardicon rounded-circle mx-auto bg-white">
+                        <img src="{{GETFOLDERPATH()}}/highlyAdaptive.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/highlyAdaptive.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+                     </div>
+                     <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-white">Highly Adaptive</div>
+                     <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-white">The ERP is specifically designed for the changing needs of colleges, thus is highly adaptive in effectively managing complex tasks. Its technological adaptability enables the college to stay up-to-date with upcoming trends in the edTech industry.</div>
+                  </div>
+               </div>
+            </div>
          </div>
-         <div class="row g-4">
-            {{-- <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-theme3">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-theme3 fs-30">
-                        <i class="imgd img-person-booth"></i>
-                     </div>
-                     <h3 class="d-none invisible">Requirements Gathering</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme3 content-head">Requirements Gatheringo</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ea asperiores quos illo ut quisquam excepturi autem quidem. Dolores, soluta?</div>
-                  </div>
+      </div>
+   {{-- Process We Follow section end --}}
+
+   {{-- cta section start  --}}
+   <div class="container-fluid hire-developers-section py-md-1 py-4 position-relative">
+      <div class="container">
+         <div class="row mx-0 align-items-center">
+            <div class="col-lg-8 col-md-8 col-12">
+            <div class="col-12 fs-lg-25 fs-md-30 fs-20 text-white text-center text-md-start">  <span class="fw-l"> Ready to start your dream project?</span></div>
+               <div class="col-12 heading2 fs-lg-40 fs-md-30 fs-25 text-white text-center text-md-start">  <span class="fw-m"> We have a TEAM to get you there.</span></div>
+               </div> 
+            <div class="col-lg-4 col-md-4 col-12 text-center py-2">
+                  <div class="mx-auto supoort d-flex flex-column align-items-center justify-content-center">
+                  <img class="w-50 position-absolute right-5 top-10" src="{{GETFOLDERPATH()}}/arrow.webp" alt="Arrow">
+                     <div class="col-12 fs-md-20 fs-16 text-dark pb-2 fw-l"> Quick Support </div>
+                     <div class="col-12">
+                        <a href="{{asset('/android-application-development.php#contactWithUss')}}" class="btn expert-btn fs-md-14 fs-12 fw-m py-1 px-md-2 px-2 text-capitalize">
+                        <span class="d-block"><span>Get in Touch</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-1"></i></span>
+                     </a>
                </div>
-            </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-info">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-info fs-30">
-                        <i class="imgd img-dungeon"></i>
-                     </div>
-                     <h3 class="d-none invisible">UI/UX Design</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-info content-head">UI/UX Design</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, tenetur, non nihil mollitia sequi temporibus ipsa eos consequuntur eaque accusamus repudiandae accusantium vitae voluptatem!</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-success">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-success fs-30">
-                        <i class="imgd img-weight"></i>
-                     </div>
-                     <h3 class="d-none invisible">Prototype</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-success content-head">Prototype</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur itaque quod doloribus dolor velit voluptatibus unde beatae ea. Adipisci, earum?</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-theme2">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-theme2 fs-30">
-                        <i class="imgd img-holly-berry"></i>
-                     </div>
-                     <h3 class="d-none invisible">Development</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme2 content-head">Development</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nihil ullam ad culpa fugiat placeat ut quae voluptate esse delectus.</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-theme2">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-theme2 fs-30">
-                        <i class="imgd img-id-card"></i>
-                     </div>
-                     <h3 class="d-none invisible">Quality Assurance</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme2 content-head">Quality Assurance</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci saepe rem culpa maiores delectus velit, incidunt architecto perferendis. Ex, voluptatum odit!</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-info">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-info fs-30">
-                        <i class="imgd img-fax"></i>
-                     </div>
-                     <h3 class="d-none invisible">Development</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-info content-head">Development</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, tenetur, non nihil mollitia sequi temporibus ipsa eos consequuntur eaque accusamus repudiandae accusantium vitae voluptatem!</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 d-flex align-items-stretch py-2">
-               <div class="what-we-do-box shadow border-theme3">
-                  <div class="what-we-content bg-white">
-                     <div class="col-12 fs-md-40 fs-sm-35 text-theme3 fs-30">
-                        <i class="imgd img-campground"></i>
-                     </div>
-                     <h3 class="d-none invisible">Support & Maintenance</h3>
-                     <div class="fw-m fs-md-20 fs-sm-18 fs-17 lh-normal text-theme3 content-head">Support & Maintenance</div>
-                     <div class="fw-l fs-md-16 fs-sm-15 fs-14 text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ea asperiores quos illo ut quisquam excepturi autem quidem. Dolores, soluta?</div>
-                  </div>
-               </div>
-            </div> --}}
-            <div class="col-lg-4 col-md-6">
-               <div class="processcard h-100 shadow-sm bg-theme3 text-center">
-                  <div class="cardicon rounded-circle mx-auto bg-white">
-                     <img src="{{GETFOLDERPATH()}}/solution.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/solution.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                  </div>
-                  <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-white">One Stop Solution</div>
-                  <div class="card_detail fs-lg-16 fs-sm-15 fs-14 fw-1 text-white">The software offers a comprehensive solution for managing student enrollment, student attendance, student assessment, and generating online results thereby offering multiple services under one umbrella. This helps in improving the operational efficiency of the campus.</div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="processcard h-100 text-center">
-                  <div class="cardicon rounded-circle mx-auto bg-theme1">
-                     <img src="{{GETFOLDERPATH()}}/Decision.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Decision.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                  </div>
-                  <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Decision Support System</div>
-                  <div class="card_detail fs-lg-16 fs-sm-15 fs-14 fw-1 text-dark">The ERP helps in improving the college’s decision making capabilities by analyzing large amounts of data. It integrates all departments to serve different needs, thus ensuring inventory reduction, increased productivity, preventing data processing redundancy, etc.</div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="processcard h-100 bg-white shadow-sm text-center">
-                  <div class="cardicon rounded-circle mx-auto bg-theme1">
-                     <img src="{{GETFOLDERPATH()}}/Workflow.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/Workflow.svg"alt="College Management Software Development Services" width="100" height="auto">   
-                  </div>
-                  <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Inbuilt Workflows And Checks</div>
-                  <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-dark">Inbuilt workflows ensure that the operations are standardized across the college, thus providing accountability. With built-in tracking, check, and reporting features, a significant amount of time and resources can be saved. Workflow visibility improves the overall college’s performance.</div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="processcard h-100 bg-white shadow-sm text-center">
-                  <div class="cardicon rounded-circle mx-auto bg-theme1">
-                     <img src="{{GETFOLDERPATH()}}/rolebased.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/rolebased.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                  </div>
-                  <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Role Based Access</div>
-                  <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-dark">The system offers one system for different academic & administrative roles managing the entire college operations. Role-based access gives access to particular stakeholders, which enhances security & transparency, improves audit cost, and ensures better compliance & reporting.</div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="processcard h-100 text-center">
-                  <div class="cardicon rounded-circle mx-auto bg-theme1">
-                     <img src="{{GETFOLDERPATH()}}/24Hour.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/24Hour.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                  </div>
-                  <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-dark">Device Flexibility, 24*7 Accessibility</div>
-                  <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-dark">The college ERP offers superior flexibility and doesn’t affect the ongoing operations by managing multiple systems, equipped with different accounting standards, and runs seamlessly. Also, it offers 24*7 access to student data from anywhere.</div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="processcard h-100 shadow-sm bg-theme1 text-center">
-                  <div class="cardicon rounded-circle mx-auto bg-white">
-                     <img src="{{GETFOLDERPATH()}}/highlyAdaptive.svg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/highlyAdaptive.svg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-                  </div>
-                  <div class="card_heading fs-md-20 fs-sm-18 fs-17 fw-bold text-white">Highly Adaptive</div>
-                  <div class="card_detail fs-lg-16 fs-sm-15 fs-14  fw-1 text-white">The ERP is specifically designed for the changing needs of colleges, thus is highly adaptive in effectively managing complex tasks. Its technological adaptability enables the college to stay up-to-date with upcoming trends in the edTech industry.</div>
                </div>
             </div>
          </div>
       </div>
    </div>
-{{-- Process We Follow section end --}}
+   {{-- cta section end  --}}
 
-{{-- cta section start  --}}
-
-<div class="container-fluid hire-developers-section py-md-1 py-4 position-relative">
-   <div class="container">
-      <div class="row mx-0 align-items-center">
-         <div class="col-lg-8 col-md-8 col-12">
-         <div class="col-12 fs-lg-25 fs-md-30 fs-20 text-white text-center text-md-start">  <span class="fw-l"> Ready to start your dream project?</span></div>
-            <div class="col-12 heading2 fs-lg-40 fs-md-30 fs-25 text-white text-center text-md-start">  <span class="fw-m"> We have a TEAM to get you there.</span></div>
-            </div> 
-           <div class="col-lg-4 col-md-4 col-12 text-center py-2">
-               <div class="mx-auto supoort d-flex flex-column align-items-center justify-content-center">
-               <img class="w-50 position-absolute right-5 top-10" src="{{GETFOLDERPATH()}}/arrow.webp" alt="Arrow">
-                  <div class="col-12 fs-md-20 fs-16 text-dark pb-2 fw-l"> Quick Support </div>
-                  <div class="col-12">
-                     <a href="{{asset('/android-application-development.php#contactWithUss')}}" class="btn expert-btn fs-md-14 fs-12 fw-m py-1 px-md-2 px-2 text-capitalize">
-                     <span class="d-block"><span>Get in Touch</span> <i class="imgd img-long-arrow-right position-relative bottom-n2px ms-1"></i></span>
-                  </a>
-             </div>
-            </div>
+   {{-- faq section start  --}}
+   <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-lg-5 py-md-4 py-3"> 
+      <div class="container position-relative zi-2">
+         <div class="row mx-0 pb-5">
+            <h3 class="d-none invisible">Frequently Asked Questions</h3>
+            <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Frequently Asked <b> Questions </b></span></div>
          </div>
-       </div>
-   </div>
-</div>
-
-
-{{-- cta section end  --}}
-
-      {{-- faq section start  --}}
-      <div class="container-fluid overflow-hidden bg-white faq_section position-relative py-lg-5 py-md-4 py-3"> 
-         <div class="container position-relative zi-2">
-            <div class="row mx-0 pb-5">
-              <h3 class="d-none invisible">Frequently Asked Questions</h3>
-               <div class="col-12 heading fs-md-14 fs-12 center"><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20"> Frequently Asked <b> Questions </b></span></div>
-            </div>
-            <div class="row d-flex align-items-center justify-content-center">
-             <div class="col-lg-10 col-md-10 col-12">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="accordion" id="accordionExample">
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingOne">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                           How can a MERN Stack development team or individual developer be hired?
-   
-                           </button>
-                        </div>
-                        <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           List all the duties you want the developer to carry out for you at the outset. Finalize the contract with the sales team using the developer and technology of your choice. We'll arrange everything up and connect you with the developer as soon as you confirm your appointment. 
+         <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-lg-10 col-md-10 col-12">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-4 position-relative zi-2">
+                           <div class="accordion-header" id="headingOne">
+                              <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              How can a MERN Stack development team or individual developer be hired?
+      
+                              </button>
+                           </div>
+                           <div id="collapseOne" class="position-relative accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              List all the duties you want the developer to carry out for you at the outset. Finalize the contract with the sales team using the developer and technology of your choice. We'll arrange everything up and connect you with the developer as soon as you confirm your appointment. 
+                              </div>
                            </div>
                         </div>
-                     </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingTwo">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                           Can I employ a MERN Stack developer for project or hourly work?
-                           </button>
-                        </div>
-                        <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           You can employ our experts for hourly or project-based work. We have a team of seasoned specialists who can collaborate with you to design the best applications for your organization; we are adaptable and will adjust to your needs. 
+                        <div class="accordion-item mb-4 position-relative zi-2">
+                           <div class="accordion-header" id="headingTwo">
+                              <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can I employ a MERN Stack developer for project or hourly work?
+                              </button>
+                           </div>
+                           <div id="collapseTwo" class="position-relative accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              You can employ our experts for hourly or project-based work. We have a team of seasoned specialists who can collaborate with you to design the best applications for your organization; we are adaptable and will adjust to your needs. 
+                              </div>
                            </div>
                         </div>
-                     </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingThree">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           What is the actual cost to onboard a MERN Stack developer?
-                           </button>
-                        </div>
-                        <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           The platform, the kind of app, the complexity of the design, the number of pages in the design, the features and functionality required, and the kind of maintenance necessary are just a few of the factors that influence MERN Stack developer costs. Android developers can be hired on an hourly or set price basis. 
+                        <div class="accordion-item mb-4 position-relative zi-2">
+                           <div class="accordion-header" id="headingThree">
+                              <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What is the actual cost to onboard a MERN Stack developer?
+                              </button>
+                           </div>
+                           <div id="collapseThree" class="position-relative accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              The platform, the kind of app, the complexity of the design, the number of pages in the design, the features and functionality required, and the kind of maintenance necessary are just a few of the factors that influence MERN Stack developer costs. Android developers can be hired on an hourly or set price basis. 
+                              </div>
                            </div>
                         </div>
-                     </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingfour">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                           Once the application is deployed will you provide maintenance and support?
-                           </button>
+                        <div class="accordion-item mb-4 position-relative zi-2">
+                           <div class="accordion-header" id="headingfour">
+                              <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                              Once the application is deployed will you provide maintenance and support?
+                              </button>
+                           </div>
+                           <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                                 <div class="col-12">
+                                 Yes, we do offer support and maintenance services following the successful conclusion of the MERN full stack project. For the improvements of your MERN product, us after services include bug patches, framework upgrades, ongoing monitoring, and technical problem solving. 
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                        <div id="collapsefour" class="position-relative accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                              <div class="col-12">
-                              Yes, we do offer support and maintenance services following the successful conclusion of the MERN full stack project. For the improvements of your MERN product, us after services include bug patches, framework upgrades, ongoing monitoring, and technical problem solving. 
+                        <div class="accordion-item mb-4 position-relative zi-2">
+                           <div class="accordion-header" id="headingFive">
+                              <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              For my project, do you offer NDA and IP protection?
+                              </button>
+                           </div>
+                           <div id="collapseFive" class="position-relative accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                              <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
+                              Our team is confident about completing the project on time and as per the expectations set. We make sure to cover copyright, source code, property rights, letter, memoranda of understanding and NDA’s to gain the trust. 
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="accordion-item mb-4 position-relative zi-2">
-                        <div class="accordion-header" id="headingFive">
-                           <button class="accordion-button fs-lg-14 fs-md-13 fs-13 fs-lg-14 fs-md-13 fs-13 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                           For my project, do you offer NDA and IP protection?
-                           </button>
-                        </div>
-                        <div id="collapseFive" class="position-relative accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                           <div class="accordion-body fw-l fs-lg-15 fs-md-14 text-muted fs-14">
-                           Our team is confident about completing the project on time and as per the expectations set. We make sure to cover copyright, source code, property rights, letter, memoranda of understanding and NDA’s to gain the trust. 
-                           </div>
-                        </div>
-                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </div> 
+         </div> 
       </div>
-      </div> 
-        {{-- faq section end  --}}
+   </div> 
+   {{-- faq section end  --}}
 
 
 

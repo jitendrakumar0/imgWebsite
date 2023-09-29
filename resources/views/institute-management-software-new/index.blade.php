@@ -101,51 +101,50 @@
             </div>
       </div>
    </div>
-
    {{-- hero section  end  --}}
 
-      <!-- bredcrumb section -->
-      <div class="container-fluid overflow-hidden px-0 bredcrumb_main py-lg-3 py-md-2 py-2 d-md-block d-none">
-         <div class="container">
+   <!-- bredcrumb section -->
+   <div class="container-fluid overflow-hidden px-0 bredcrumb_main py-lg-3 py-md-2 py-2 d-md-block d-none">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb mb-0">
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
+                     <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">Trending Solutions</a></li>
+                     <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Institute Management Software</li>
+                  </ol>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- about institute mangement -->
+
+   <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
+      <div class="container">
+      <div class="row align-items-center gap-lg-0 gap-3">
+         <div class="col-lg-6 order-lg-1 order-2">
+            <div class="row mx-0 pb-lg-4 pb-3">
+            <h2 class="d-none invisible"> institute Management Software</h2>
+            <div class="col-12 heading fs-md-14 fs-12 left  "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  institute Management  <b> Software Development</b></span></div>
+         </div>
             <div class="row">
-               <div class="col-md-12">
-                  <nav aria-label="breadcrumb">
-                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/')}}">Home</a></li>
-                        <li class="breadcrumb-item"><a class="fw-l fs-lg-16 fs-md-15 fs-14 text-theme2 text-decoration-none" href="{{asset('/customer-relationship-management-software.php')}}">Trending Solutions</a></li>
-                        <li class="breadcrumb-item active fw-l fs-lg-16 fs-md-15 fs-14 text-dark" aria-current="page">Institute Management Software</li>
-                     </ol>
-                  </nav>
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <!-- about institute mangement -->
-
-      <div class="container-fluid py-lg-5 py-md-4 py-3 aboutHotal">
-         <div class="container">
-         <div class="row align-items-center gap-lg-0 gap-3">
-            <div class="col-lg-6 order-lg-1 order-2">
-               <div class="row mx-0 pb-lg-4 pb-3">
-               <h2 class="d-none invisible"> institute Management Software</h2>
-               <div class="col-12 heading fs-md-14 fs-12 left "><span class="fs-xl-32 fs-lg-28 fs-md-24 fs-20">  institute Management  <b> Software Development</b></span></div>
-            </div>
-               <div class="row">
-               <div class="col-12">
-                  <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur culpa porro quos minus nostrum debitis vero fugit atque laborum! <b>institute Management Software</b> Officia nisi natus blanditiis velit! Numquam tempore omnis quae tenetur atque officia, voluptate doloremque temporibus sint repudiandae vero, provident tempora soluta. Explicabo consectetur omnis accusamus minus nobis et, quae ad deleniti? Quasi repellendus nisi sapiente eius molestiae aspernatur tempore explicabo rem!</div>
-               </div>
-               </div>
-            </div>
-            <div class="col-lg-6 order-lg-2 order-1">
-               <div class="imgAbout rounded-3 overflow-hidden">
-                  <img src="{{GETFOLDERPATH()}}/aboutsection.jpg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/aboutsection.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
-               </div>
+            <div class="col-12">
+               <div class="fw-l fs-lg-17 fs-md-16 fs-sm-15 fs-14 text-dark mt-3 mb-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur culpa porro quos minus nostrum debitis vero fugit atque laborum! <b>institute Management Software</b> Officia nisi natus blanditiis velit! Numquam tempore omnis quae tenetur atque officia, voluptate doloremque temporibus sint repudiandae vero, provident tempora soluta. Explicabo consectetur omnis accusamus minus nobis et, quae ad deleniti? Quasi repellendus nisi sapiente eius molestiae aspernatur tempore explicabo rem!</div>
             </div>
             </div>
          </div>
+         <div class="col-lg-6 order-lg-2 order-1">
+            <div class="imgAbout rounded-3 overflow-hidden">
+               <img src="{{GETFOLDERPATH()}}/aboutsection.jpg" class="lazy-image w-100 h-100 rounded-3" data-src="{{GETFOLDERPATH()}}/aboutsection.jpg"alt="Hospital Management Software Development Services" width="100" height="auto">   
+            </div>
+         </div>
+         </div>
       </div>
-      <!-- about college mangement -->
+   </div>
+   <!-- about college mangement -->
 
 
       <!-- development proccess section  start -->

@@ -235,21 +235,29 @@
   .aboutHotal{
     background:lighten($black, 99);
     position: relative;
-   
-  & .fixed-shape{
-    position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.03;
-  }
-        & .imgAbout{
-            & img{
-                // aspect-ratio: 4/3;
-            }
+      & .fixed-shape{
+        position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.03;
+      }
+      & .imgAbout{
+          & img{
+              // aspect-ratio: 4/3;
+          }
+      }
+      & .heading {
+        &::after {
+          right: 0;
+          
         }
-    }
+        &::before {
+          right: 0;
+        }
+      }
+  }
 }
 // Large devices (desktops, less than 1200px)
 @mixin aboutHotal-mixin-max-lg() {
@@ -589,7 +597,20 @@
   }
 }
 
-
+// Small devices (landscape phones, less than 768px)
+@mixin testimonialSection-mixin-max-sm() {
+  .testimonialSection {
+    & .heading {
+      &::after {
+        right: 0;
+        
+      }
+      &::before {
+        right: 0;
+      }
+    }
+  }
+}
 // X-Small devices (portrait phones, less than 576px)
 @mixin testimonialSection-mixin-max-xs() {
   .testimonialSection{
@@ -672,16 +693,30 @@
         100% {
           transform: translateY(-5px);
         }
-      }
+    }
     
-      @keyframes supoort {
-        0% {
-          transform: translateY(5px);
-        }
-        100% {
-          transform: translateY(-5px);
-        }
+    @keyframes supoort {
+      0% {
+        transform: translateY(5px);
       }
+      100% {
+        transform: translateY(-5px);
+      }
+    }
+    
+}
+@mixin hiredeleloper-mixin-max-md() {
+  .hiredeleloper {
+    & .heading {
+      &::after {
+        right: 0;
+        
+      }
+      &::before {
+        right: 0;
+      }
+    }
+  }
 }
 .expert-btn{
   padding: 6px 9px !important;
@@ -1511,6 +1546,7 @@ button.accordion-button {
   @include feateureSection-mixin-max-md();
   @include faq_section-mixin-max-md();
   @include processSection-mixin-max-md();
+  @include hiredeleloper-mixin-max-md();
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -1522,6 +1558,7 @@ button.accordion-button {
   @include feateureSection-mixin-max-sm();
   @include faq_section-mixin-max-sm();
   @include processSection-mixin-max-sm();
+  @include testimonialSection-mixin-max-sm();
 }
 
 // X-Small devices (portrait phones, less than 576px)
